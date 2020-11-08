@@ -7,7 +7,6 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- App CSS -->
-    <link rel="stylesheet" href="{{url('public')}}/css/fontawesome.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/app.css">
     <title>The Wood Court - {{$PageTitle ?? ''}}</title>
