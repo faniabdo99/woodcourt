@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- App CSS -->
     <link rel="stylesheet" href="{{url('public')}}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/cubeportfolio.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/app.css">
     <title>The Wood Court - {{$PageTitle ?? ''}}</title>
   </head>

@@ -1,7 +1,7 @@
 body {
   font-family: "Work Sans", serif;
   font-size: 14px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 /* ============ LAYOUT ============ */
@@ -92,4 +92,295 @@ body {
   .navbar .navbar-nav .nav-item {
     margin-bottom: 15px;
   }
+}
+/* ============ COMPONENTS ============ */
+/* Hero Sections */
+.hero-section {
+  height: calc(100vh - 100px);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.hero-section .dark-overlap {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25vh 10%;
+}
+.hero-section .dark-overlap h1 {
+  color: #fff;
+  font-size: 6em;
+}
+.hero-section .dark-overlap p {
+  color: #fff;
+  font-size: 1.6em;
+}
+
+.testimonials-section {
+  background: url("../images/testimonials.jpg") no-repeat center center;
+  background-size: cover;
+}
+.testimonials-section .dark-overlap {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 0;
+}
+.testimonials-section .dark-overlap h2 {
+  text-align: center;
+  color: #fff;
+}
+.testimonials-section .dark-overlap .slide {
+  padding-top: 80px;
+}
+.testimonials-section .dark-overlap .slide .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+.testimonials-section .dark-overlap .slide .user-name {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.testimonials-section .dark-overlap .slide .user-job-title {
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+}
+.testimonials-section .dark-overlap .slide .testimonial-content {
+  position: relative;
+  background: #fff;
+  padding: 25px;
+  border-radius: 4px;
+  width: 85%;
+  margin-left: auto;
+}
+.testimonials-section .dark-overlap .slide .testimonial-content h3 {
+  color: #0D8287;
+  margin-bottom: 15px;
+}
+.testimonials-section .dark-overlap .slide .testimonial-content p {
+  color: #8B8B8B;
+  line-height: 2em;
+}
+.testimonials-section .dark-overlap .slide .testimonial-content .small-quote-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 6px;
+  background: #0D8287;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+.testimonials-section .dark-overlap .slide .big-quote-icon {
+  transform: rotate(180deg);
+  font-size: 8em;
+  position: absolute;
+  opacity: 0.3;
+  bottom: -65px;
+  right: 35px;
+}
+
+.logo-parade {
+  padding: 60px 0;
+  background: #0D8287;
+}
+.logo-parade h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.logo-parade ul {
+  list-style: none;
+}
+
+.icon-button {
+  padding: 10px 25px;
+  background: #0D8287;
+  display: inline-block;
+  border-radius: 4px;
+  color: #fff;
+}
+.icon-button i {
+  margin-right: 10px;
+}
+
+.section-title {
+  position: relative;
+  text-align: center;
+}
+.section-title:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 10%;
+  background: #0D8287;
+  bottom: -10px;
+  left: 45%;
+  right: 45%;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 50px;
+}
+.owl-theme .owl-nav.disabled + .owl-dots button:focus {
+  border: none;
+  outline: none;
+}
+
+/* ============ PAGES ============ */
+#about-us-hero-section {
+  background-image: url("../images/about-us-bg.jpg");
+}
+
+#about-us-description {
+  padding: 80px 0;
+}
+#about-us-description h2 {
+  margin-bottom: 15px;
+}
+#about-us-description p {
+  color: #8B8B8B;
+  margin-bottom: 0;
+  line-height: 2em;
+}
+#about-us-description img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+}
+
+#homepage-categories {
+  padding: 100px 0;
+}
+#homepage-categories .category-card {
+  background: #F1F1F1;
+}
+#homepage-categories .category-card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+#homepage-categories .category-card h3 {
+  font-size: 1.5em;
+}
+#homepage-categories .category-card p {
+  color: #8B8B8B;
+  line-height: 2em;
+}
+#homepage-categories .category-card a {
+  color: #0D8287;
+  font-weight: bold;
+}
+
+#homepage-cta {
+  background: url("../images/about-us-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+#homepage-cta .dark-overlap {
+  padding: 100px 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+#homepage-cta .dark-overlap h2 {
+  color: #fff;
+  font-size: 5em;
+  margin-bottom: 25px;
+}
+#homepage-cta .dark-overlap p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#homepage-promotions {
+  padding: 100px 0;
+}
+#homepage-promotions ul {
+  list-style: none;
+}
+#homepage-promotions ul img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+#homepage-promotions .owl-nav {
+  position: relative;
+  margin-top: -15%;
+  display: flex;
+}
+#homepage-promotions .owl-nav button {
+  width: 40px;
+  height: 40px;
+  background: #0D8287;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.3em;
+}
+#homepage-promotions .owl-nav button.owl-prev {
+  position: absolute;
+  left: -100px;
+}
+#homepage-promotions .owl-nav button.owl-next {
+  position: absolute;
+  right: -100px;
+}
+
+#our-products {
+  padding: 100px 0;
+}
+#our-products p.header-sub-title {
+  color: #8B8B8B;
+  text-align: center;
+}
+#our-products #filters {
+  display: flex;
+  flex-basis: 0;
+  justify-content: space-between;
+  width: 45%;
+  margin: 40px auto;
+}
+#our-products #filters button {
+  color: #8B8B8B;
+  border: none;
+  background: none;
+  padding: 8px 30px;
+  border-radius: 4px;
+  transition: all ease 0.3s;
+}
+#our-products #filters button:hover {
+  cursor: pointer;
+  color: #0D8287;
+  transition: all ease 0.3s;
+}
+#our-products #filters button.is-checked {
+  border: none;
+  outline: none;
+  background: #0D8287;
+  color: #fff;
+}
+#our-products .products-isotope {
+  width: 100%;
+}
+#our-products .products-isotope .grid-item,
+#our-products .products-isotope .grid-sizer {
+  width: 25%;
+}
+#our-products .products-isotope .grid-item {
+  float: left;
+  padding: 0;
+  border: 2px solid #ffffff;
+  height: 0;
+  /* padding-bottom is calculated and rendered in to HTML OR inserted on css class*/
+}
+#our-products .products-isotope .grid-item img {
+  display: block;
+  width: 100%;
 }

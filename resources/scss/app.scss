@@ -3,7 +3,12 @@
 body{
   font-family: 'Work Sans' , serif;
   font-size: 14px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 /* ============ LAYOUT ============ */
 @import'layout';
+/* ============ COMPONENTS ============ */
+@import'components';
+/* ============ PAGES ============ */
+@import'pages/about';
+@import'pages/homepage';
