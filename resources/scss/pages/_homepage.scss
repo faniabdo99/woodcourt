@@ -1,0 +1,149 @@
+#homepage-categories {
+    padding: 100px 0;
+
+    .category-card {
+        background: $lightgrey;
+
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            color: $medgrey;
+            line-height: 2em;
+        }
+
+        a {
+            color: $brand;
+            font-weight: bold;
+        }
+    }
+}
+
+#homepage-cta {
+    background: url("../images/about-us-bg.jpg") no-repeat center center;
+    background-size: cover;
+
+    .dark-overlap {
+        padding: 100px 0;
+        background: rgba(0,0,0,0.5);
+        height: 100%;
+        width: 100%;
+        text-align: center;
+
+        h2 {
+            color: #fff;
+            font-size: 5em;
+            margin-bottom: 25px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.5em;
+        }
+    }
+}
+
+#homepage-promotions {
+    padding: 100px 0;
+
+    ul {
+        list-style: none;
+
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+        }
+    }
+
+    .owl-nav {
+        position: relative;
+        margin-top: -15%;
+        display: flex;
+
+        button {
+            width: 40px;
+            height: 40px;
+            background: $brand;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 1.3em;
+
+            &.owl-prev {
+                position: absolute;
+                left: -100px;
+            }
+
+            &.owl-next {
+                position: absolute;
+                right: -100px;
+            }
+        }
+    }
+}
+
+#our-products {
+    padding: 100px 0;
+
+    p.header-sub-title {
+        color: $medgrey;
+        text-align: center;
+    }
+
+    #filters {
+        display: flex;
+        flex-basis: 0;
+        justify-content: space-between;
+        width: 45%;
+        margin: 40px auto;
+
+        button {
+            color: $medgrey;
+            border: none;
+            background: none;
+            padding: 8px 30px;
+            border-radius: 4px;
+            transition: all ease 0.3s;
+
+            &:hover {
+                cursor: pointer;
+                color: $brand;
+                transition: all ease 0.3s;
+            }
+
+            &.is-checked {
+                border: none;
+                outline: none;
+                background: $brand;
+                color: #fff;
+            }
+        }
+    }
+
+    .products-isotope {
+        width: 100%;
+        .grid-item,
+        .grid-sizer {
+            width: 25%;
+        }
+        .grid-item {
+            float: left;
+            padding: 0;
+            border: 2px solid #ffffff;
+            height: 0;
+            /* padding-bottom is calculated and rendered in to HTML OR inserted on css class*/
+        }
+
+        .grid-item img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
