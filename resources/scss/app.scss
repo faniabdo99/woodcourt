@@ -3,7 +3,20 @@
 body{
   font-family: 'Work Sans' , serif;
   font-size: 14px;
-  padding-top: 120px;
+  padding-top: 100px;
 }
+a:hover{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    padding-top: 60px;
+  }
+}
+/* ============ Pages ============ */
+@import 'pages/contact';
 /* ============ LAYOUT ============ */
 @import'layout';
+/* ============ Components ============ */
+@import'components';

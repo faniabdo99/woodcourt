@@ -13,17 +13,18 @@
         flex-basis: 0;
         text-align: right;
         li {
-          padding: 0;
-          color: #fff;
-          flex: 1;
-          font-size: 0.8em;
-          list-style: none;
-          a {
-              color: #fff;
-          }
+            padding: 0;
+            color: #fff;
+            flex: 1;
+            font-size: 0.8em;
+            list-style: none;
+            a {
+                color: #fff;
+            }
         }
     }
 }
+
 .navbar {
     height: 60px;
     background-color: #fff;
@@ -35,9 +36,11 @@
             width: auto;
         }
     }
+
     .navbar-nav {
         .nav-item {
             margin-left: 25px;
+
             .nav-link {
                 color: $medgrey;
                 transition: all ease 0.3s;
@@ -69,27 +72,85 @@
         }
     }
 }
+/* Footer */
 
+.footer {
+    background: $black;
+    padding: 25px;
+    color: #fff;
+    .footer-info {
+        h2 {
+            font-size: 1.9em;
+        }
+        p {
+            font-size: 0.9em;
+            line-height: 1.95em;
+        }
+        ul{
+          list-style: none;
+          padding-inline-start:0px;
+          li{
+            display: inline-block;
+            margin-right: 15px;
+            a{
+              color:#fff;
+              font-size: 1.1em;
+            }
+          }
+        }
+    }
+
+    .footer-links {
+        padding-top: 42px;
+        ul {
+            list-style: none;
+            li {
+                margin-bottom: 15px;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+  }
 
 //Mobile Design
 @media screen and (max-width: 768px) {
-  .upper-nav{
-    display: none;
-  }
-  .navbar{
-    padding: 0 10px;
-    .navbar-toggler{
-      color: #000;
+    .upper-nav {
+        display: none;
     }
-    .navbar-nav{
-      margin: 0 auto;
-      height: 100vh;
-      background: red;
-      text-align: center;
-      margin-left: 0 !important;
-      .nav-item{
-        margin-bottom: 15px;
-      }
+    .navbar {
+        padding: 0;
+
+        .navbar-toggler {
+            color: #000;
+            margin-right: 10px;
+        }
+
+        .navbar-brand {
+            margin-left: 10px;
+        }
+
+        .navbar-nav {
+            padding-top: 10vh;
+            margin: 0 auto;
+            height: 100vh;
+            width: 100% !important;
+            background: #fff;
+            text-align: center;
+
+            .nav-item {
+                margin-bottom: 15px;
+                margin-left: 0;
+            }
+        }
     }
-  }
+    /* Footer */
+    footer{
+      .footer-map{
+        iframe{
+          width: 100%;
+        }
+    }
+}
 }

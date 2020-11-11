@@ -1,0 +1,40 @@
+#contact-us-hero{
+  background: url('../images/contact-us-hero.jpg') no-repeat center center;
+}
+.contact-form{
+  padding: 80px 0;
+  p{
+    color: $medgrey;
+    margin-bottom: 45px;
+  }
+  ul{
+    list-style: none;
+    padding-inline-start:0px;
+    li{
+      display: flex;
+      flex-basis: 0;
+      justify-content: flex-end;
+      i{
+        flex:1;
+        font-size: 1.5em;
+        color: $brand;
+      }
+      span{
+        flex: 8;
+        margin-bottom: 50px;
+        a{
+          display: block;
+          color:$black;
+          margin-bottom: 10px;
+          transition: all ease 0.3s;
+          &:hover{
+            color:$brand;
+            transition: all ease 0.3s;
+          }
+        }
+      }
+    }
+  }
+  //Contact Form
+
+}
