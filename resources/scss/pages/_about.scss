@@ -1,17 +1,7 @@
-#about-us-hero-section{background-image: url('../images/about-us-bg.jpg');}
-#about-us-description{
-  padding: 80px 0;
-  h2{
-    margin-bottom: 15px;
-  }
-  p{
-    color: $medgrey;
-    margin-bottom: 0;
-    line-height: 2em;
-  }
-  img{
-    width: 100%;
-    height: auto;
-    max-height: 450px;
+#about-us-hero-section{
+  background: url('../images/about-us-bg.jpg') no-repeat center center;
+  background-size: cover;
+  .dark-overlap{
+    padding-top:25vh;
   }
 }

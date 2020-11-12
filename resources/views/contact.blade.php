@@ -5,79 +5,83 @@
     <!-- Page Content -->
     <section class="hero-section" id="contact-us-hero">
         <div class="dark-overlap">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-lg-6 hero-section-content">
+                    <div class="col-12 col-lg-8 hero-section-content">
                         <h1 class="text-white">Contact Us</h1>
                         <p class="text-white">The Leaders in Wood Industry</p>
                     </div>
-                    <div class="col-12 col-lg-6 hero-section-content">
-                      <div class="social-media-hero">
-                        <h3>Contact Us</h3>
-                        <p>Find Us On Social Media</p>
-                        <ul>
-                          <li class="facebook-li"><a href="#" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
-                          <li class="whatsapp-li"><a href="#" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
-                          <li class="email-li"><a href="#" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
-                        </ul>
-                      </div>
+                    <div class="col-12 col-lg-4 hero-section-content">
+                        <div class="social-media-hero">
+                            <h3 class="text-center">Contact Us</h3>
+                            <p class="text-center">Find Us On Social Media</p>
+                            <ul>
+                                <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                                <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="contact-form">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-12">
-            <h2>Contact Information</h2>
-            <p>Available 24/7 , Our team member will be happy to serve you.</p>
-            <ul class="contact-information-list">
-              <li>
-                <i class="fas fa-envelope"></i>
-                <span>
-                  <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a>
-                  <a href="mailto:admin@thewoodcourt.com">admin@thewoodcourt.com</a>
-                </span>
-              </li>
-              <li>
-                <i class="fas fa-phone"></i>
-                <span>
-                  <a href="mailto:info@thewoodcourt.com">0020 1154 67454</a>
-                  <a href="mailto:info@thewoodcourt.com">0020 1154 67454</a>
-                </span>
-              </li>
-              <li>
-                <i class="fas fa-map-marker"></i>
-                <span>
-                  <a href="mailto:info@thewoodcourt.com">Map Location Goes Here Click to go to the Map</a>
-                </span>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 col-12">
-            <form class="" action="#" method="post">
-              <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-6 col-12">
-                  <label for="name">Name:</label>
-                  <input type="text" placeholder="Enter Your Name Here" name="name" id="name" required >
+                    <h2>Contact Information</h2>
+                    <p>Available 24/7 , Our team member will be happy to serve you.</p>
+                    <ul class="contact-information-list">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>
+                                <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>
+                                <a href="https://api.whatsapp.com/send?phone=201117571111">011 1757 1111</a>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker"></i>
+                            <span>
+                                <a target="_blank" href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en">81
+                                    El-Hussein St, Dokki, Giza Governorate</a>
+                            </span>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-lg-6 col-12">
-                  <label for="name">Email:</label>
-                  <input type="email" placeholder="Enter Your Name Here" name="email" id="email" required >
+                    <form class="woodcourt-form" action="#" method="post">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <label for="name">Name:</label>
+                                <input type="text" placeholder="Enter Your Name Here" name="name" id="name" required>
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="name">Email:</label>
+                                <input type="email" placeholder="Enter Your Name Here" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="message" rows="8" placeholder="Enter your message here"></textarea>
+                                <button class="icon-button" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <label for="message">Message:</label>
-                  <textarea name="message" id="message" rows="8" placeholder="Enter your message here"></textarea>
-                  <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
-                </div>
-              </div>
-            </form>
-          </div>
+            </div>
         </div>
-      </div>
+    </section>
+    <section class="contact-us-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.7004975044897!2d31.196790115115157!3d30.045449181881974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458413486462911%3A0x945b12fc41fd6e8a!2sThe%20Wood%20Court!5e0!3m2!1sen!2seg!4v1605110935180!5m2!1sen!2seg"
+          frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </section>
     @include('layout.scripts')
     @include('layout.footer')

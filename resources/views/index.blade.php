@@ -1,16 +1,33 @@
 @include('layout.header', ['PageTitle' => 'Very Cool Site'])
-
 <body>
     @include('layout.navbar')
-    <section class="hero-section" id="about-us-hero-section">
+    <section class="hero-section" id="homepage-hero-section">
         <div class="dark-overlap">
-            <h1>The Wood Court <br> Title</h1>
-            <p class="mb-5">The Leaders in wood industry</p>
-            <a class="icon-button mr-5" href="#"> <i class="fas fa-star"></i> About us</a>
-            <a href="#" class="text-white">Our Categories</a>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-7 col-12">
+                <h1>The Wood Court</h1>
+                <p class="mb-5">The Leaders in wood industry</p>
+                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                <a href="#" class="text-white">Our Categories</a>
+              </div>
+              <div class="col-12 col-lg-5 hero-section-content">
+                <div class="social-media-hero">
+                  <h3>Contact Us</h3>
+                  <p>Find Us On Social Media</p>
+                  <ul>
+                    <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                    <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                    <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
     <section id="homepage-categories">
+        <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12">
@@ -18,31 +35,31 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card">
-                        <img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition">
+                        <img src="{{url('public/')}}/images/wood-flooring.jpg" alt="wood-flooring">
                         <div class="p-3">
-                            <h3>category title</h3>
+                            <h3>Wood Flooring</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
                             <a href="#">View More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card">
-                        <img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition">
+                        <img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="Cabinets">
                         <div class="p-3">
-                            <h3>category title</h3>
+                            <h3>Cabinets</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
                             <a href="#">View More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card">
-                        <img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition">
+                        <img src="{{url('public/')}}/images/outdoor.jpg" alt="Outdoor">
                         <div class="p-3">
-                            <h3>category title</h3>
+                            <h3>Outdoor</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
                             <a href="#">View More</a>
                         </div>
@@ -70,6 +87,7 @@
         </div>
     </section>
     <section id="homepage-promotions">
+      <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -83,9 +101,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-12 mt-5 text-center">
-                    <a class="icon-button mt-5" href="{{route('about')}}"> <i class="fas fa-star"></i> View All</a>
+            <div class="row mt-lg-5 mt-0">
+                <div class="col-12 mt-lg-5 mt-0 text-center">
+                    <a class="icon-button mt-lg-5 mt-0" href="{{route('about')}}"> <i class="fas fa-star"></i> View All</a>
                 </div>
             </div>
         </div>
@@ -114,11 +132,119 @@
                       <div class="single-product grid-sizer transition w-stairs" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
                     </div>
                     <div class="text-center mt-5">
-                      <a class="icon-button" href="#"><i class="fas fa-star"></i> View More</a>
+                      <a class="icon-button" href="{{route('products')}}"><i class="fas fa-star"></i> View More</a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="homepage-cta">
+        <div class="dark-overlap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a class="text-white" href="{{route('about')}}"> <i class="fas fa-play-circle fa-5x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us-description" id="homepage-aboutus-section">
+        <img id="homepage-about-artistic-touch" src="{{url('public')}}/images/wood-big-half.png" alt="wood-big-half">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <h2>We are the Wood Court</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a href="#" class="icon-button"><i class="fas fa-star"></i>About us</a>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <img class="we-are-the-wood-court-image" src="{{url('public')}}/images/about-us-descrition.jpg" alt="the alt here">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <div class="dark-overlap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>What People are Saying</h2>
+                    </div>
+                </div>
+                <div class="owl-carousel owl-theme full-width-carousel">
+                  <div class="row slide">
+                    <div class="col-lg-4 col-12">
+                      <img class="user-image" src="https://placehold.it/200x200" alt="person name">
+                      <h4 class="user-name">person name goes here</h4>
+                      <p class="user-job-title">Digital Marketer Special Guy some long stuff here</p>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="testimonial-content">
+                          <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                          <h3>This Product is Awesome!</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
+                    </div>
+                  </div>
+                  <div class="row slide">
+                    <div class="col-lg-4 col-12">
+                      <img class="user-image" src="https://placehold.it/200x200" alt="person name">
+                      <h4 class="user-name">person name goes here</h4>
+                      <p class="user-job-title">Digital Marketer Special Guy some long stuff here</p>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="testimonial-content">
+                          <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                          <h3>This Product is Awesome!</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
+                    </div>
+                  </div>
+                  <div class="row slide">
+                    <div class="col-lg-4 col-12">
+                      <img class="user-image" src="https://placehold.it/200x200" alt="person name">
+                      <h4 class="user-name">person name goes here</h4>
+                      <p class="user-job-title">Digital Marketer Special Guy some long stuff here</p>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="testimonial-content">
+                          <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                          <h3>This Product is Awesome!</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="logo-parade">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Our Clients</h2>
+            <ul class="owl-carousel owl-theme multi-items-carousel">
+              <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
+              <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
+              <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
+              <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
+              <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
+              <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     @include('layout.scripts')
     @include('layout.footer')

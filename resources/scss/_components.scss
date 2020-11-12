@@ -1,195 +1,332 @@
-/* Hero Sections */
-.hero-section{
-  height: calc(100vh - 100px);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  .dark-overlap{
-    width: 100%;
+.hero-section {
     height: calc(100vh - 100px);
-    background-color: rgba(0,0,0,0.5);
-    padding: 25vh 10%;
-    h1{
-      color:#fff;
-      font-size: 6em;
+    .dark-overlap {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: rgba(0,0,0,0.5);
+
+        h1 {
+            color: #fff;
+            font-size: 6em;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.6em;
+        }
     }
-    p{
-      color: #fff;
-      font-size: 1.6em;
-    }
-  }
-  .social-media-hero{
-    width: 70%;
-    margin: auto;
-    background-color: rgba(0,0,0,0.4);
-    padding: 15px;
-    border-radius: 4px;
-    h3,p{
-      color: #fff;
-    }
-    p{
-      margin-bottom: 25px;
-    }
-    ul{
-      list-style-type: none;
-      padding-inline-start:0px;
-      li{
-        display: block;
-        margin-bottom: 20px;
+    .social-media-hero {
+        width: 70%;
+        margin: auto;
+        background-color: rgba(0,0,0,0.4);
         padding: 15px;
         border-radius: 4px;
-        font-size: 1.1em;
-        transition: all ease 0.3s;
-        a{
-          color: #fff;
-          display: flex;
-          flex-basis: 0;
-          align-items: center;
-          i{
-            flex:1;
-          }
-          span{
-            flex:6;
+
+        h3,
+        p {
+            color: #fff;
+        }
+
+        p {
+            margin-bottom: 25px;
+            font-size: 1.2em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-inline-start: 0;
+
+            li {
+                display: block;
+                margin-bottom: 20px;
+                padding: 15px;
+                border-radius: 4px;
+                font-size: 1.1em;
+                transition: all ease 0.3s;
+
+                a {
+                    color: #fff;
+                    display: flex;
+                    flex-basis: 0;
+                    align-items: center;
+
+                    i {
+                        flex: 1;
+                    }
+
+                    span {
+                        flex: 6;
+                        text-align: center;
+                    }
+                }
+
+                &.facebook-li {
+                    background-color: #4267B2;
+
+                    &:hover {
+                        transition: all ease 0.3s;
+                        background-color: #375187;
+                    }
+                }
+
+                &.whatsapp-li {
+                    background-color: #25D366;
+
+                    &:hover {
+                        transition: all ease 0.3s;
+                        background-color: #28c362;
+                    }
+                }
+
+                &.email-li {
+                    background-color: $black;
+
+                    &:hover {
+                        transition: all ease 0.3s;
+                        background-color: #444;
+                    }
+                }
+            }
+        }
+    }
+}
+.testimonials-section {
+    background: url("../images/testimonials.jpg") no-repeat center center;
+    background-size: cover;
+
+    .dark-overlap {
+        background: rgba(0, 0, 0,0.5);
+        padding: 100px 0;
+
+        h2 {
             text-align: center;
-          }
+            color: #fff;
         }
-        &.facebook-li{
-          background-color: #4267B2;
-          &:hover{
-            transition: all ease 0.3s;
-            background-color: #375187;
-          }
-        }
-        &.whatsapp-li{
-          background-color: #25D366;
-          &:hover{
-            transition: all ease 0.3s;
-            background-color: #28c362;
-          }
-        }
-        &.email-li{
-          background-color: $black;
-          &:hover{
-            transition: all ease 0.3s;
-            background-color: #444;
-          }
-        }
-      }
-    }
-  }
-}
-.testimonials-section{
-  background: url('../images/testimonials.jpg') no-repeat center center;
-  background-size: cover;
-  .dark-overlap{
-    background: rgba(0, 0, 0,0.5);
-    padding: 100px 0;
-    h2{
-      text-align: center;
-      color: #fff;
-    }
-    .slide{
-        padding-top: 80px;
-      .user-image{
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        display: block;
-        margin: 0 auto 30px auto;
-      }
-      .user-name{
-        color: #fff;
-        font-size: 1.2em;
-        text-align: center;
-        margin-bottom: 10px;
-      }
-      .user-job-title{
-        text-align: center;
-        color: #fff;
-        font-size: 0.8em;
-      }
-      .testimonial-content{
-        position: relative;
-        background: #fff;
-        padding: 25px;
-        border-radius: 4px;
-        width: 85%;
-        margin-left: auto;
-        h3{
-          color: $brand;
-          margin-bottom: 15px;
-        }
-        p{
-          color: $medgrey;
-          line-height: 2em;
-        }
-        .small-quote-icon{
-          display: block;
-          width: 30px;
-          height: 30px;
-          text-align: center;
-          padding-top: 6px;
-          background: $brand;
-          color: #fff;
-          border-radius: 50%;
-          position: absolute;
-          top: -15px;
-          left: -15px;
-        }
-      }
-      .big-quote-icon{
-        transform: rotate(180deg);
-        font-size: 8em;
-        position: absolute;
-        opacity: 0.3;
-        bottom: -65px;
-        right: 35px;
-      }
-    }
-  }
 
-}
-.logo-parade{
-  padding: 60px 0;
-  background: $brand;
-  h2{
-    color: #fff;
-    text-align: center;
-    margin-bottom: 50px;
-  }
+        .slide {
+            padding-top: 80px;
 
-  ul{
-    list-style: none;
-  }
+            .user-image {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                display: block;
+                margin: 0 auto 30px;
+            }
+
+            .user-name {
+                color: #fff;
+                font-size: 1.2em;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            .user-job-title {
+                text-align: center;
+                color: #fff;
+                font-size: 0.8em;
+            }
+
+            .testimonial-content {
+                position: relative;
+                background: #fff;
+                padding: 25px;
+                border-radius: 4px;
+                width: 85%;
+                margin-left: auto;
+
+                h3 {
+                    color: $brand;
+                    margin-bottom: 15px;
+                }
+
+                p {
+                    color: $medgrey;
+                    line-height: 2em;
+                }
+
+                .small-quote-icon {
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    text-align: center;
+                    padding-top: 6px;
+                    background: $brand;
+                    color: #fff;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -15px;
+                    left: -15px;
+                }
+            }
+
+            .big-quote-icon {
+                transform: rotate(180deg);
+                font-size: 8em;
+                position: absolute;
+                opacity: 0.3;
+                bottom: -65px;
+                right: 35px;
+            }
+        }
+    }
 }
-.icon-button{
-  padding: 10px 25px;
-  background: $brand;
-  display: inline-block;
-  border-radius: 4px;
-  color: #fff;
-  i{
-    margin-right: 10px;
-  }
-}
-.section-title{
-  position: relative;
-  text-align: center;
-  &:after{
-    content:'';
-    position: absolute;
-    height: 3px;
-    width: 10%;
+.logo-parade {
+    padding: 60px 0;
     background: $brand;
-    bottom: -10px;
-    left: 45%;
-    right: 45%;
-  }
+
+    h2 {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+.icon-button {
+    padding: 10px 25px;
+    background: $brand;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    transition: all ease 0.3s;
+
+    i {
+        margin-right: 10px;
+    }
+
+    &:hover {
+        color: #fff;
+        background: darken($brand , 10);
+        transition: all ease 0.3s;
+    }
+}
+.section-title {
+    position: relative;
+    text-align: center;
+
+    &:after {
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 10%;
+        background: $brand;
+        bottom: -10px;
+        left: 45%;
+        right: 45%;
+    }
 }
 .owl-theme .owl-nav.disabled+.owl-dots {
-  margin-top: 50px;
-  button:focus{
-    border:none;
-    outline: none;
-  }
+    margin-top: 50px;
+
+    button:focus {
+        border: none;
+        outline: none;
+    }
+}
+.woodcourt-form {
+    label {
+        display: block;
+        font-weight: 500;
+        font-size: 0.9em;
+    }
+
+    input,
+    textarea {
+        display: block;
+        padding: 10px;
+        border: none;
+        background: $lightgrey;
+        width: 100%;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        border: none;
+    }
+}
+.about-us-description {
+    padding: 80px 0;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: $medgrey;
+        margin-bottom: 0;
+        line-height: 2em;
+    }
+
+    img.we-are-the-wood-court-image {
+        width: 100%;
+        height: auto;
+        max-height: 450px;
+    }
+}
+//Mobile Version of the components
+@media screen and (max-width: 768px) {
+    .hero-section {
+        .dark-overlap {
+            h1 {
+                font-size: 3.5em;
+                text-align: center;
+            }
+
+            p {
+                font-size: 1.5em;
+                text-align: center;
+            }
+
+            a {
+                display: block;
+                text-align: center;
+                font-size: 1.2em;
+                margin-bottom: 30px;
+            }
+        }
+
+        .social-media-hero {
+            display: none;
+        }
+    }
+    .testimonials-section {
+        .dark-overlap {
+            padding: 50px 0;
+
+            .slide {
+                padding-top: 20px;
+
+                .user-image {
+                    width: 100px;
+                    height: 100px;
+                    margin: 0 auto 10px;
+                }
+
+                .user-job-title {
+                    margin-bottom: 35px;
+                }
+
+                .testimonial-content {
+                    width: 95%;
+                }
+            }
+        }
+    }
+    .logo-parade {
+        ul {
+            padding-inline-start:20px;
+        }
+    }
+    .about-us-description {
+        padding: 80px 0;
+
+        img.we-are-the-wood-court-image {
+            margin-top: 50px;
+            max-height: 350px;
+        }
+    }
 }

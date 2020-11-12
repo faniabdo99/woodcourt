@@ -7,24 +7,24 @@
     align-items: center;
     padding: 0 75px;
     ul {
-        flex: 0.4;
+        flex: 0.5;
         margin: 0 0 0 auto;
         display: flex;
         flex-basis: 0;
         text-align: right;
+        justify-content: flex-end;
         li {
             padding: 0;
             color: #fff;
-            flex: 1;
             font-size: 0.8em;
             list-style: none;
+            margin-left: 30px; 
             a {
                 color: #fff;
             }
         }
     }
 }
-
 .navbar {
     height: 60px;
     background-color: #fff;
@@ -73,9 +73,9 @@
     }
 }
 /* Footer */
-
 .footer {
-    background: $black;
+    background: url('../images/footer-bg.jpg') no-repeat center center;
+    background-size: cover;
     padding: 25px;
     color: #fff;
     .footer-info {
@@ -113,7 +113,6 @@
         }
     }
   }
-
 //Mobile Design
 @media screen and (max-width: 768px) {
     .upper-nav {
@@ -146,7 +145,7 @@
         }
     }
     /* Footer */
-    footer{
+    .footer{
       .footer-map{
         iframe{
           width: 100%;

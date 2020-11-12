@@ -1,5 +1,4 @@
 @include('layout.header', ['PageTitle' => 'Very Cool Site'])
-
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="about-us-hero-section">
@@ -8,7 +7,7 @@
             <p>Leaders in wood industry</p>
         </div>
     </section>
-    <section id="about-us-description">
+    <section class="about-us-description">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -23,7 +22,7 @@
                     <a href="#" class="icon-button"><i class="fas fa-star"></i>About us</a>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img src="{{url('public')}}/images/about-us-descrition.jpg" alt="the alt here">
+                    <img class="we-are-the-wood-court-image" src="{{url('public')}}/images/about-us-descrition.jpg" alt="the alt here">
                 </div>
             </div>
 
