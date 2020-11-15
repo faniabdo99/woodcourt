@@ -28,7 +28,6 @@
             selector: 'textarea#editor'
         });
     </script>
-    @include('layout.footer')
 </body>
 
 </html>

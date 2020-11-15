@@ -24,7 +24,6 @@
       </div>
     </div>
     @include('layout.scripts')
-    @include('layout.footer')
 </body>
 
 </html>
