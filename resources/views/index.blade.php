@@ -295,7 +295,7 @@
             </div>
             <div class="row mt-lg-5 mt-0">
                 <div class="col-12 mt-lg-5 mt-0 text-center">
-                    <a class="icon-button mt-lg-5 mt-0" href="{{route('about')}}"> <i class="fas fa-star"></i> View All</a>
+                    <a class="icon-button mt-lg-5 mt-0" href="{{route('products')}}"> <i class="fas fa-star"></i> View All</a>
                 </div>
             </div>
         </div>
