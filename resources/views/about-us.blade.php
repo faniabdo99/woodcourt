@@ -3,8 +3,14 @@
     @include('layout.navbar')
     <section class="hero-section" id="about-us-hero-section">
         <div class="dark-overlap">
-            <h1>About us</h1>
-            <p>Leaders in wood industry</p>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <h1>About Us</h1>
+                <p class="mb-5">The Leaders in wood industry</p>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
     <section class="about-us-description">

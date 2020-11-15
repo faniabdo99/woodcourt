@@ -88,7 +88,8 @@ class EventsController extends Controller{
     }
     public function getSingle($slug){
       $TheEvent = Event::where('slug' ,$slug)->first();
+      $LatestEvents = Event::latest()->where('slug' , '!=' , $slug)->limit(6)->get();
       if(!$TheEvent){abort(404);}
-      return view('single-event' , compact('TheEvent'));
+      return view('single-event' , compact('TheEvent' , 'LatestEvents'));
     }
 }

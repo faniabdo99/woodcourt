@@ -7,11 +7,24 @@ $('.full-width-carousel').owlCarousel({
     singleItem: true,
     items: 1,
     dots: true,
-    slideSpeed: 1000,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    loop: true,
     mouseDrag: true,
     nav: false,
     pagination: true,
-    responsiveRefreshRate: 200
+    responsiveRefreshRate: 200,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
 });
 $('.multi-items-carousel').owlCarousel({
     loop: true,
@@ -53,8 +66,8 @@ var $grid = $('.products-isotope').isotope({
         category: '[data-category]'
     },
     masonry: {
-       columnWidth: '.grid-sizer'
-     }
+        columnWidth: '.grid-sizer'
+    }
 });
 // filter functions
 var filterFns = {
@@ -73,5 +86,51 @@ $('#filters').on('click', 'button', function() {
     filterValue = filterFns[filterValue] || filterValue;
     $grid.isotope({
         filter: filterValue
+    });
+});
+//Homepage Categories Filters
+$('.sub-categories-list li').click(function() {
+    $('.sub-categories-list li').removeClass('active');
+    $(this).addClass('active');
+    $('.category-images-list').removeClass('active');
+    $('#' + $(this).data('target')).addClass('active');
+});
+//Homepage Video Call to Action
+$('#homepage-play-video').click(function() {
+    //Insert the elemnt into the dom
+    $('body').append(`
+    <div class="full-width-video">
+      <div>
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://www.youtube.com/embed/dSwyJ0aaM4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
+    $(document).on('click', '#video-close-button , .full-width-video', function(e) {
+        $('.full-width-video').remove();
+        $('body').css('overflow-y', 'scroll');
+    });
+});
+//Contact Form Submit
+$('#submit-contact-form').click(function(e) {
+    //Change to loading state
+    e.preventDefault();
+    $(this).html('<i class="fas fa-spinner fa-spin"></i> Send');
+    $('.response-message').remove();
+    var ActionRoute = $(this).data('target');
+    var Data = $(this).parent().parent().parent().serialize();
+    var That = $(this);
+    $.ajax({
+        method: 'POST',
+        url: ActionRoute,
+        data: Data,
+        success: function(response) {
+            $('<p class="response-message text-success mb-0 mt-3">' + response + '</p>').insertAfter(That);
+            That.html('<i class="fas fa-paper-plane"></i> Send');
+        },
+        error: function(response) {
+            $('<p class="response-message text-danger mb-0 mt-3">' + response.responseText + '</p>').insertAfter(That);
+            That.html('<i class="fas fa-paper-plane"></i> Send');
+        }
     });
 });

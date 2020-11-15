@@ -8,7 +8,15 @@ body{
 a:hover{
   text-decoration: none;
 }
-
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background-color: $lightgrey;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: $brand;
+}
 @media screen and (max-width: 768px) {
   body{
     padding-top: 60px;

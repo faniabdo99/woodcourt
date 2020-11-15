@@ -22,16 +22,13 @@
             width: 100%;
             height: 250px;
         }
-
         h3 {
             font-size: 1.5em;
         }
-
         p {
             color: $medgrey;
             line-height: 2em;
         }
-
         a {
             color: $brand;
             font-weight: bold;
@@ -41,20 +38,17 @@
 #homepage-cta {
     background: url("../images/about-us-bg.jpg") no-repeat center center;
     background-size: cover;
-
     .dark-overlap {
         padding: 100px 0;
         background: rgba(0,0,0,0.5);
         height: 100%;
         width: 100%;
         text-align: center;
-
         h2 {
             color: #fff;
             font-size: 5em;
             margin-bottom: 25px;
         }
-
         p {
             color: #fff;
             font-size: 1.5em;
@@ -75,7 +69,6 @@
     }
     ul {
         list-style: none;
-
         img {
             width: 100%;
             height: auto;
@@ -184,7 +177,8 @@
   #homepage-promotions {
       padding: 50px 0;
       #homepage-promotions-artistic-touch{height: 100px;}
-      ul {padding-inline-start:20px;}
+      ul {padding-inline-start:10px;}
+      .owl-dots{margin-top:50px;}
       .owl-nav {display: none;}
   }
   #our-products {
@@ -218,4 +212,5 @@
       display: none;
     }
   }
+
 }

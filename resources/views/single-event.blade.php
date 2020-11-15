@@ -19,19 +19,19 @@
             <div class="single-event-article-sidebar" id="latest-events">
               <h2>Latest Events</h2>
               <ul>
-                <li><a href="#">The Event title is herer boys</a></li>
-                <li><a href="#">The Event title is herer boys</a></li>
-                <li><a href="#">The Event title is herer boys</a></li>
-                <li><a href="#">The Event title is herer boys</a></li>
-                <li><a href="#">The Event title is herer boys</a></li>
+                @forelse ($LatestEvents as $Event)
+                <li><a href="{{route('events.single', $Event->slug)}}">{{$Event->title}}</a></li>
+                @empty
+                  <li>Stay Tuned for Our Latest News!</li>
+                @endforelse
               </ul>
             </div>
             <div class="single-event-article-sidebar" id="keep-in-touch">
               <h2>Keep in Touch</h2>
                 <ul>
-                  <li class="facebook-li"><a href="#" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
-                  <li class="whatsapp-li"><a href="#" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
-                  <li class="email-li"><a href="#" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                  <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                  <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                  <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
                 </ul>
             </div>
           </div>

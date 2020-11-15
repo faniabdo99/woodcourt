@@ -1,29 +1,28 @@
 @include('layout.header', ['PageTitle' => 'Contact Us'])
-
 <body>
     @include('layout.navbar')
     <!-- Page Content -->
     <section class="hero-section" id="contact-us-hero">
         <div class="dark-overlap">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-lg-8 hero-section-content">
-                        <h1 class="text-white">Contact Us</h1>
-                        <p class="text-white">The Leaders in Wood Industry</p>
-                    </div>
-                    <div class="col-12 col-lg-4 hero-section-content">
-                        <div class="social-media-hero">
-                            <h3 class="text-center">Contact Us</h3>
-                            <p class="text-center">Find Us On Social Media</p>
-                            <ul>
-                                <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
-                                <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
-                                <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-7 col-12">
+                <h1>Contact Us</h1>
+                <p class="mb-5">The Leaders in wood industry</p>
+              </div>
+              <div class="col-12 col-lg-5 hero-section-content">
+                <div class="social-media-hero">
+                  <h3>Contact Us</h3>
+                  <p>Find Us On Social Media</p>
+                  <ul>
+                    <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                    <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                    <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                  </ul>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
     </section>
     <section class="contact-form">
@@ -55,7 +54,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <form class="woodcourt-form" action="#" method="post">
+                    <form class="woodcourt-form">
                         <div class="row">
                             <div class="col-lg-6 col-12">
                                 <label for="name">Name:</label>
@@ -70,7 +69,7 @@
                             <div class="col-12">
                                 <label for="message">Message:</label>
                                 <textarea name="message" id="message" rows="8" placeholder="Enter your message here"></textarea>
-                                <button class="icon-button" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+                                <button class="icon-button" data-target="{{route('contact.post')}}" id="submit-contact-form" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
                             </div>
                         </div>
                     </form>

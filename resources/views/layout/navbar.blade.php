@@ -17,10 +17,10 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Promotions Collection</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('products')}}">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
+                {{-- <li class="nav-item"><a class="nav-link" href="#">Promotions Collection</a></li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li> --}}
             </ul>
         </div>
