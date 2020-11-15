@@ -15,20 +15,20 @@
                     <p class="header-sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam tempor incididunt</p>
                     <div id="filters" class="button-group">
-                      <button class="button is-checked" data-filter="*">All</button>
-                        <button class="button" data-filter=".indoor">Indoor</button>
+                        <button class="button is-checked" data-filter="*">All</button>
+                        <button class="button" data-filter=".wood-flooring">Wood Flooring</button>
+                        <button class="button" data-filter=".cabinets">Cabinets</button>
                         <button class="button" data-filter=".outdoor">Outdoor</button>
-                        <button class="button" data-filter=".w-stairs">Wooden Stairs</button>
                     </div>
                     <div class="products-isotope">
-                      <div class="single-product grid-sizer transition indoor" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
-                      <div class="single-product grid-sizer transition outdoor" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
-                      <div class="single-product grid-sizer transition indoor" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
-                      <div class="single-product grid-sizer transition outdoor" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
-                      <div class="single-product grid-sizer transition w-stairs" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
-                      <div class="single-product grid-sizer transition indoor" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
-                      <div class="single-product grid-sizer transition w-stairs" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
-                      <div class="single-product grid-sizer transition w-stairs" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition outdoor" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition outdoor" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets" data-category="iIndoor"><img src="https://placehold.it/300x300" alt=""></div>
                     </div>
                 </div>
             </div>
