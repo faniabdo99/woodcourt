@@ -7,10 +7,12 @@
           <h1>All Events ({{$AllEvents->count()}})</h1>
           <p>Control Your Events Data From Here <br>
             <a class="text-success font-weight-bold" href="{{route('admin.getNewEvent')}}">+ Add New</a></p>
-          <table class="table table-striped">
+          <table id="data-table" class="table table-striped">
             <thead>
               <th>Title</th>
               <th>Slug</th>
+              <th>Views</th>
+              <th>Visitors</th>
               <th>Actions</th>
             </thead>
             <tbody>
@@ -18,6 +20,8 @@
                 <tr>
                   <td>{{$Event->title}}</td>
                   <td>{{$Event->slug}}</td>
+                  <td>{{views($Event)->count()}}</td>
+                  <td>{{views($Event)->unique()->count()}}</td>
                   <td>
                     <a class="text-danger font-weight-bold" href="{{route('admin.deleteEvent' , $Event->id)}}"><i class="fas fa-trash"></i> Delete</a>
                     <span style="visibility:hidden;">ss</span>

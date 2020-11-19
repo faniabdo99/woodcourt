@@ -234,7 +234,8 @@
     }
 
     input,
-    textarea {
+    textarea,
+    select {
         display: block;
         padding: 10px;
         border: none;
@@ -412,4 +413,17 @@
         }
       }
     }
+}
+.datatables-button{
+  padding: 7px 15px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  margin-right: 10px;
+  &.excel-export{
+    background-color: #1D6F42;
+  }
+  &.copy-content{
+    background-color: darkorange;
+  }
 }

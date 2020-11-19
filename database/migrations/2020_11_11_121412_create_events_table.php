@@ -8,8 +8,10 @@ class CreateEventsTable extends Migration{
             $table->id();
             $table->string('title');
             $table->string('slug');
+            $table->date('event_date')->nullable();
             $table->text('description');
             $table->string('image');
+            $table->string('type');
             $table->text('content');
             $table->integer('user_id');
             $table->timestamps();

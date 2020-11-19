@@ -1,4 +1,4 @@
-@include('layout.header', ['PageTitle' => 'Very Cool Site'])
+@include('layout.header', ['PageTitle' => 'Edit Event' . $Event->title])
 <body>
     @include('layout.navbar')
     <div class="container py-5">
@@ -22,12 +22,6 @@
         </div>
     </div>
     @include('layout.scripts')
-    <script type="text/javascript" src="{{url('public')}}/js/tinymce/tinymce.min.js"></script>
-    <script type="text/javascript">
-        tinymce.init({
-            selector: 'textarea#editor'
-        });
-    </script>
 </body>
 
 </html>

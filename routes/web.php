@@ -20,4 +20,8 @@ Route::prefix('admin')->group(function(){
       Route::post('/edit/{id}' , 'EventsController@postEdit')->name('admin.postEditEvent');
       Route::get('/delete/{id}' , 'EventsController@delete')->name('admin.deleteEvent');
     });
+    Route::prefix('messages')->group(function(){
+      Route::get('/all' , 'ContactController@getAll')->name('admin.allMessages');
+    });
+
 });

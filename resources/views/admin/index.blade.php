@@ -18,6 +18,11 @@
                 <td>{{$EventsCount}}</td>
                 <td><a class="text-success font-weight-bold" href="{{route('admin.getNewEvent')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.allEvents')}}"><i class="fas fa-edit"></i> View All</a></td>
               </tr>
+              <tr>
+                <td>Contact Us List</td>
+                <td>{{$MessagesCount}}</td>
+                <td><a class="text-primary font-weight-bold mr-3" href="{{route('admin.allMessages')}}"><i class="fas fa-edit"></i> View All</a></td>
+              </tr>
             </tbody>
           </table>
         </div>

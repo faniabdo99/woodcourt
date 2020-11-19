@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.green.min.css">
-    <link rel="stylesheet" href="{{url('public')}}/css/cubeportfolio.min.css">
+    @if(strpos(url()->current(), 'admin'))
+      <link rel="stylesheet" type="text/css" href="{{url('public')}}/dataTables/datatables.min.css" >
+    @endif
     <link rel="stylesheet" href="{{url('public')}}/css/app.css">
     <title>The Wood Court - {{$PageTitle ?? ''}}</title>
   </head>

@@ -4,7 +4,14 @@ use Illuminate\Http\Request;
 use App\Mail\ContactUsMail;
 use Validator;
 use Mail;
+use App\Models\Message;
 class ContactController extends Controller{
+    //Admin Methods
+    public function getAll(){
+      $AllMessages = Message::latest()->get();
+      return view('admin.messages.index' , compact('AllMessages'));
+    }
+    //Non-Admin Methods
     public function getContact(){
       return view('contact');
     }
@@ -19,6 +26,8 @@ class ContactController extends Controller{
       if($Validator->fails()){
         return response($Validator->errors()->first() , 400);
       }else{
+        //Upload to the database
+        $TheMessage = Message::create($r->all());
         //Send the message
         Mail::to('info@thewoodcourt.com')->send(new ContactUsMail($r->all()));
         if( count(Mail::failures()) > 0 ) {

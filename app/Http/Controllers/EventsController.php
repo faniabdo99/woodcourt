@@ -16,6 +16,7 @@ class EventsController extends Controller{
       $Rules = [
         'title' => 'required',
         'slug' => 'required',
+        'type' => 'required',
         'description' => 'required',
         'content'=> 'required|min:8',
         'image' => 'required|image'
@@ -79,7 +80,11 @@ class EventsController extends Controller{
       Event::findOrFail($id)->delete();
       return back()->withSuccess('Event Deleted');
     }
-
+    public function uploadImage(Request $r){
+       $imgpath = request()->file('file')->store('uploads', 'public');
+       $FinalPath  = url("storage/app/public/")."/".$imgpath;
+       return json_encode(['location' => $FinalPath]);
+    }
 
     //Non-Admin Stuff
     public function getUserHome(){
@@ -90,6 +95,7 @@ class EventsController extends Controller{
       $TheEvent = Event::where('slug' ,$slug)->first();
       $LatestEvents = Event::latest()->where('slug' , '!=' , $slug)->limit(6)->get();
       if(!$TheEvent){abort(404);}
+      views($TheEvent)->record();
       return view('single-event' , compact('TheEvent' , 'LatestEvents'));
     }
 }

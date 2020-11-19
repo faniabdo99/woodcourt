@@ -221,6 +221,19 @@ $('#submit-contact-form').click(function (e) {
       That.html('<i class="fas fa-paper-plane"></i> Send');
     }
   });
+}); //Data Tables
+
+$('#data-table').DataTable({
+  dom: 'Bfrtip',
+  buttons: [{
+    extend: 'copy',
+    text: '<i class="fas fa-copy"></i> Copy to clipboard',
+    className: "datatables-button copy-content"
+  }, {
+    extend: 'excel',
+    text: '<i class="fas fa-file-excel"></i> Export to Excel',
+    className: "datatables-button excel-export"
+  }]
 });
 
 /***/ }),

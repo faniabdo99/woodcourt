@@ -71,7 +71,11 @@ a:hover {
   transition: all ease 0.3s;
 }
 
-.contact-us-map iframe {
+.contact-us-map div h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.contact-us-map div iframe {
   width: 100%;
   height: 350px;
   margin-bottom: 0;
@@ -428,7 +432,8 @@ a:hover {
   font-size: 0.9em;
 }
 .woodcourt-form input,
-.woodcourt-form textarea {
+.woodcourt-form textarea,
+.woodcourt-form select {
   display: block;
   padding: 10px;
   border: none;
@@ -590,6 +595,20 @@ a:hover {
     height: 80px;
   }
 }
+.datatables-button {
+  padding: 7px 15px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.datatables-button.excel-export {
+  background-color: #1D6F42;
+}
+.datatables-button.copy-content {
+  background-color: darkorange;
+}
+
 /* ============ PAGES ============ */
 #homepage-hero-section {
   background: url("../images/homepage-hero-bg.jpg") no-repeat center center;
@@ -865,7 +884,11 @@ a:hover {
   transition: all ease 0.3s;
 }
 
-.contact-us-map iframe {
+.contact-us-map div h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.contact-us-map div iframe {
   width: 100%;
   height: 350px;
   margin-bottom: 0;
