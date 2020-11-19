@@ -6,7 +6,7 @@ tinymce.init({
     default_link_target: "_blank",
     image_caption: true,
     image_title: true,
-    images_upload_url: '/woodcourt/api/admin/upload-event-image',
+    images_upload_url: '/api/admin/upload-event-image',
     automatic_uploads: true,
     file_picker_types: 'image',
     file_picker_callback: function(cb, value, meta) {
