@@ -9,8 +9,12 @@ Route::prefix('events')->group(function(){
   Route::get('/' , 'EventsController@getUserHome')->name('events');
   Route::get('/{slug}' , 'EventsController@getSingle')->name('events.single');
 });
-
-Route::prefix('admin')->group(function(){
+Route::middleware('guest')->group(function(){
+  Route::get('login' , 'AuthController@getLogin')->name('login');
+  Route::post('login' , 'AuthController@postLogin')->name('login.post');
+  Route::get('logout' , 'AuthController@Logout')->name('logout');
+});
+Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
   Route::get('/' , 'AdminController@getIndex')->name('admin.home');
     Route::prefix('events')->group(function(){
       Route::get('/' , 'EventsController@getIndex')->name('admin.allEvents');
@@ -23,5 +27,4 @@ Route::prefix('admin')->group(function(){
     Route::prefix('messages')->group(function(){
       Route::get('/all' , 'ContactController@getAll')->name('admin.allMessages');
     });
-
 });
