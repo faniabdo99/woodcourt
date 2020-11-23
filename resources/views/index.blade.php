@@ -1,31 +1,113 @@
 @include('layout.header', ['PageTitle' => 'Very Cool Site'])
-
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="homepage-hero-section">
-        <div class="dark-overlap">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-7 col-12">
-                        <h1>The Wood Court</h1>
-                        <p class="mb-5">The Leaders in wood industry</p>
-                        <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                        <a href="{{route('products')}}" class="text-white">Our Products</a>
-                    </div>
-                    <div class="col-12 col-lg-5 hero-section-content">
-                        <div class="social-media-hero">
-                            <h3>Contact Us</h3>
-                            <p>Find Us On Social Media</p>
-                            <ul>
-                                <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
-                                <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
-                                <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
-                            </ul>
+      <div class="owl-carousel full-width-carousel">
+        <div id="slide-one">
+            <div class="dark-overlap">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-7 col-12">
+                            <h2>The Wood Court</h2>
+                            <p class="mb-5">The Leaders in wood industry</p>
+                            <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                            <a href="{{route('products')}}" class="text-white">Our Products</a>
+                        </div>
+                        <div class="col-12 col-lg-5 hero-section-content">
+                            <div class="social-media-hero">
+                                <h3>Contact Us</h3>
+                                <p>Find Us On Social Media</p>
+                                <ul>
+                                    <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
+                                                @thewoodcourt</span></a></li>
+                                    <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                    <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+          </div>
+        <div id="slide-two">
+              <div class="dark-overlap">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-lg-7 col-12">
+                              <h2>Tiles</h2>
+                              <p class="mb-5">The Leaders in wood industry</p>
+                              <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                              <a href="{{route('products')}}" class="text-white">Our Products</a>
+                          </div>
+                          <div class="col-12 col-lg-5 hero-section-content">
+                              <div class="social-media-hero">
+                                  <h3>Contact Us</h3>
+                                  <p>Find Us On Social Media</p>
+                                  <ul>
+                                      <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
+                                                  @thewoodcourt</span></a></li>
+                                      <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                      <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        <div id="slide-three">
+                <div class="dark-overlap">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 col-12">
+                                <h2>The Wood Court</h2>
+                                <p class="mb-5">The Leaders in wood industry</p>
+                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                            </div>
+                            <div class="col-12 col-lg-5 hero-section-content">
+                                <div class="social-media-hero">
+                                    <h3>Contact Us</h3>
+                                    <p>Find Us On Social Media</p>
+                                    <ul>
+                                        <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
+                                                    @thewoodcourt</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        <div id="slide-four">
+                  <div class="dark-overlap">
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col-lg-7 col-12">
+                                  <h2>Outdoor</h2>
+                                  <p class="mb-5">The Leaders in wood industry</p>
+                                  <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                                  <a href="{{route('products')}}" class="text-white">Our Products</a>
+                              </div>
+                              <div class="col-12 col-lg-5 hero-section-content">
+                                  <div class="social-media-hero">
+                                      <h3>Contact Us</h3>
+                                      <p>Find Us On Social Media</p>
+                                      <ul>
+                                          <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
+                                                      @thewoodcourt</span></a></li>
+                                          <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                          <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+      </div>
     </section>
     <section id="homepage-categories">
         <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
@@ -38,7 +120,7 @@
             <div class="row">
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card">
-                        <img src="{{url('public/')}}/images/wood-flooring.jpg" alt="wood-flooring">
+                        <img src="{{url('public/')}}/images/categories/wood-flooring.jpg" alt="wood-flooring">
                         <div class="p-3">
                             <h3>Wood Flooring</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
@@ -78,69 +160,42 @@
     <div class="modal fade category-modal" id="wood-flooring-modal" tabindex="-1" role="dialog" aria-labelledby="wood-flooring-modal" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Wood Flooring</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
+                <div class="modal-header">
+                    <h5 class="modal-title">Wood Flooring</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
                 <div class="modal-body">
                     <div class="row">
-                      <div class="col-lg-4 col-12">
-                        <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-                        <ul class="sub-categories-list">
-                          <li data-target="hdf-floors" class="active">HDF Floors</li>
-                          <li data-target="engineered-floors">Engineered Floors</li>
-                          <li data-target="tiles">Tiles</li>
-                          <li data-target="stairs">Stairs</li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-8 col-12">
-                        <ul class="category-images-list active" id="hdf-floors">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                        <ul class="category-images-list" id="engineered-floors">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                        <ul class="category-images-list" id="tiles">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                        <ul class="category-images-list" id="stairs">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                      </div>
+                        <div class="col-lg-4 col-12">
+                            <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                            <ul class="sub-categories-list">
+                                <li data-target="hdf-floors" class="active">HDF Floors</li>
+                                <li data-target="engineered-floors">Engineered Floors</li>
+                                <li data-target="tiles">Tiles</li>
+                                <li data-target="stairs">Stairs</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <ul class="category-images-list active" id="hdf-floors">
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                            </ul>
+                            <ul class="category-images-list" id="engineered-floors">
+                              <li><a href="{{url('public')}}/images/categories/eng-floors-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/eng-floors-1.jpg" alt="engineered-floors"></a></li>
+                              <li><a href="{{url('public')}}/images/categories/eng-floors-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/eng-floors-2.jpg" alt="engineered-floors"></a></li>
+                            </ul>
+                            <ul class="category-images-list" id="tiles">
+                              <li><a href="{{url('public')}}/images/categories/tiles-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/tiles-1.jpg" alt="tiles"></a></li>
+                              <li><a href="{{url('public')}}/images/categories/tiles-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/tiles-2.jpg" alt="tiles"></a></li>
+                            </ul>
+                            <ul class="category-images-list" id="stairs">
+                                <li><a href="{{url('public')}}/images/categories/stairs-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/stairs-1.jpg" alt="stairs"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/stairs-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/stairs-2.jpg" alt="stairs"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,57 +204,37 @@
     <div class="modal fade category-modal" id="cabinets-modal" tabindex="-1" role="dialog" aria-labelledby="cabinets-modal" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Cabinets</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
+                <div class="modal-header">
+                    <h5 class="modal-title">Cabinets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
                 <div class="modal-body">
                     <div class="row">
-                      <div class="col-lg-4 col-12">
-                        <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-                        <ul class="sub-categories-list">
-                          <li data-target="kitchens" class="active">Kitchens</li>
-                          <li data-target="dressings">Dressings</li>
-                          <li data-target="bathroom-cabinets">Bathroom cabinets</li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-8 col-12">
-                        <ul class="category-images-list active" id="kitchens">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                        <ul class="category-images-list" id="dressings">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                        <ul class="category-images-list" id="bathroom-cabinets">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                      </div>
+                        <div class="col-lg-4 col-12">
+                            <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                            <ul class="sub-categories-list">
+                                <li data-target="kitchens" class="active">Kitchens</li>
+                                <li data-target="dressings">Dressings</li>
+                                <li data-target="bathroom-cabinets">Bathroom cabinets</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <ul class="category-images-list active" id="kitchens">
+                                <li><a href="{{url('public')}}/images/categories/kitchen-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/kitchen-1.jpg" alt="Kitchen Image"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/kitchen-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/kitchen-2.jpg" alt="Kitchen Image"></a></li>
+                            </ul>
+                            <ul class="category-images-list" id="dressings">
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                            </ul>
+                            <ul class="category-images-list" id="bathroom-cabinets">
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,57 +243,37 @@
     <div class="modal fade category-modal" id="outdoor-modal" tabindex="-1" role="dialog" aria-labelledby="outdoor-modal" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title">Outdoor</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
+                <div class="modal-header">
+                    <h5 class="modal-title">Outdoor</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
                 <div class="modal-body">
                     <div class="row">
-                      <div class="col-lg-4 col-12">
-                        <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-                        <ul class="sub-categories-list">
-                          <li data-target="teak-flooring" class="active">Teak Flooring</li>
-                          <li data-target="shower-units">Shower Units</li>
-                          <li data-target="pergolas">Pergolas</li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-8 col-12">
-                        <ul class="category-images-list active" id="teak-flooring">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                        <ul class="category-images-list" id="shower-units">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                        <ul class="category-images-list" id="pergolas">
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                          <li><img src="https://placehold.it/150x150" alt=""></li>
-                        </ul>
-                      </div>
+                        <div class="col-lg-4 col-12">
+                            <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                            <ul class="sub-categories-list">
+                                <li data-target="teak-flooring" class="active">Teak Flooring</li>
+                                <li data-target="shower-units">Shower Units</li>
+                                <li data-target="pergolas">Pergolas</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <ul class="category-images-list active" id="teak-flooring">
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                            </ul>
+                            <ul class="category-images-list" id="shower-units">
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                            </ul>
+                            <ul class="category-images-list" id="pergolas">
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -285,11 +300,11 @@
                 <div class="col-12">
                     <h2 class="section-title mb-5">Promotion Collections</h2>
                     <ul class="owl-carousel owl-theme three-items-carousel">
-                        <li class="item"><img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="about-us-descrition"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/1.jpg" alt="about-us-descrition"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/2.jpg" alt="about-us-descrition"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/3.jpg" alt="about-us-descrition"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/4.jpg" alt="about-us-descrition"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/5.jpg" alt="about-us-descrition"></li>
                     </ul>
                 </div>
             </div>
@@ -427,21 +442,29 @@
                         </div>
                     </div>
                 </div>
+                <div class="row mt-3">
+                  <div class="col-12 text-center">
+                    <a href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank" class="icon-button"><i class="fab fa-facebook"></i> More Reviews</a>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
     <section class="logo-parade">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <h2>Our Clients</h2>
                     <ul class="owl-carousel owl-theme multi-items-carousel">
-                        <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
-                        <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
-                        <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
-                        <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
-                        <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
-                        <li class="item"><img src="https://placehold.it/150x150" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/arabcont.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/cook-club.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/hilton.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/mobica.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/orascom.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/sheraton.png" alt="" title="" /></li>
+                        <li class="item"><img src="{{url('public')}}/images/partners/siac.png" alt="" title="" /></li>
                     </ul>
                 </div>
             </div>
