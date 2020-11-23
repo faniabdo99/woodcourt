@@ -262,8 +262,8 @@
                         </div>
                         <div class="col-lg-8 col-12">
                             <ul class="category-images-list active" id="teak-flooring">
-                                <li><img src="https://placehold.it/150x150" alt=""></li>
-                                <li><img src="https://placehold.it/150x150" alt=""></li>
+                              <li><a href="{{url('public')}}/images/categories/teak-flooring-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/teak-flooring-1.jpg" alt="teak-flooring"></a></li>
+                              <li><a href="{{url('public')}}/images/categories/teak-flooring-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/teak-flooring-2.jpg" alt="teak-flooring"></a></li>
                             </ul>
                             <ul class="category-images-list" id="shower-units">
                                 <li><img src="https://placehold.it/150x150" alt=""></li>
