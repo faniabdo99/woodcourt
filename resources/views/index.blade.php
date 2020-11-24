@@ -130,7 +130,7 @@
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card">
-                        <img src="{{url('public/')}}/images/about-us-descrition.jpg" alt="Cabinets">
+                        <img src="{{url('public/')}}/images/cabinets.jpg" alt="Cabinets">
                         <div class="p-3">
                             <h3>Cabinets</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
@@ -300,11 +300,10 @@
                 <div class="col-12">
                     <h2 class="section-title mb-5">Promotion Collections</h2>
                     <ul class="owl-carousel owl-theme three-items-carousel">
-                        <li class="item"><img src="{{url('public/')}}/images/collections/1.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/collections/2.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/collections/3.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/collections/4.jpg" alt="about-us-descrition"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/collections/5.jpg" alt="about-us-descrition"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/1.jpg" alt="Collections"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/2.jpg" alt="Collections"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/3.jpg" alt="Collections"></li>
+                        <li class="item"><img src="{{url('public/')}}/images/collections/4.jpg" alt="Collections"></li>
                     </ul>
                 </div>
             </div>
