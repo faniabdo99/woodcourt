@@ -1,6 +1,6 @@
-<script src="https://kit.fontawesome.com/aa028fd33c.js" crossorigin="anonymous"></script>
+<script src="//kit.fontawesome.com/aa028fd33c.js" crossorigin="anonymous"></script>
 <script src="{{url('public')}}/js/jquery.min.js"></script>
-<script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
+<script src='//imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
 <script src="{{url('public')}}/js/isotope.min.js"></script>
 <script src="{{url('public')}}/js/bootstrap.min.js"></script>
 @if(strpos(url()->current(), 'admin'))
