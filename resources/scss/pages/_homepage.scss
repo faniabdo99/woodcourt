@@ -1,7 +1,7 @@
 #homepage-hero-section{
-  #slide-one{background: url('../images/homepage-hero-bg.jpg') no-repeat center center;background-size:cover;}
+  #slide-one{background: url('../images/heros/kitchen-hero.jpg') no-repeat center center;background-size:cover;}
   #slide-two{background: url('../images/heros/tiles-hero.jpg') no-repeat center center;background-size:cover;}
-  #slide-three{background: url('../images/homepage-hero-bg.jpg') no-repeat center center;background-size:cover;}
+  #slide-three{background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;}
   #slide-four{background: url('../images/heros/outdoor-hero.jpg') no-repeat center center;background-size:cover;}
   .dark-overlap{
     padding:15vh 5%;
@@ -113,7 +113,6 @@
 }
 #our-products {
     padding: 100px 0;
-
     p.header-sub-title {
         color: $medgrey;
         text-align: center;
@@ -163,9 +162,9 @@
             /* padding-bottom is calculated and rendered in to HTML OR inserted on css class*/
         }
 
-        .grid-item img {
-            display: block;
-            width: 100%;
+        .single-product img {
+            max-height: 100% !important;
+            max-width: 100% !important;
         }
     }
 }

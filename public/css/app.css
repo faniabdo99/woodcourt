@@ -623,7 +623,7 @@ a:hover {
 
 /* ============ PAGES ============ */
 #homepage-hero-section #slide-one {
-  background: url("../images/homepage-hero-bg.jpg") no-repeat center center;
+  background: url("../images/heros/kitchen-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 #homepage-hero-section #slide-two {
@@ -631,7 +631,7 @@ a:hover {
   background-size: cover;
 }
 #homepage-hero-section #slide-three {
-  background: url("../images/homepage-hero-bg.jpg") no-repeat center center;
+  background: url("../images/heros/stairs-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 #homepage-hero-section #slide-four {
@@ -792,9 +792,9 @@ a:hover {
   height: 0;
   /* padding-bottom is calculated and rendered in to HTML OR inserted on css class*/
 }
-#our-products .products-isotope .grid-item img {
-  display: block;
-  width: 100%;
+#our-products .products-isotope .single-product img {
+  max-height: 100% !important;
+  max-width: 100% !important;
 }
 
 #homepage-aboutus-section {
