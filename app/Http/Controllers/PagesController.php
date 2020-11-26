@@ -11,6 +11,9 @@ class PagesController extends Controller{
   public function getAboutUs(){
     return view('about-us');
   }
+  public function getOurFactory(){
+    return view('factory');
+  }
   public function getProductsPage(){
     return view('products');
   }

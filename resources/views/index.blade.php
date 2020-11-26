@@ -2,60 +2,8 @@
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="homepage-hero-section">
-      <div class="owl-carousel full-width-carousel">
-        <div id="slide-one">
-            <div class="dark-overlap">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-7 col-12">
-                            <h2>The Wood Court</h2>
-                            <p class="mb-5">The Leaders in wood industry</p>
-                            <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                            <a href="{{route('products')}}" class="text-white">Our Products</a>
-                        </div>
-                        <div class="col-12 col-lg-5 hero-section-content">
-                            <div class="social-media-hero">
-                                <h3>Contact Us</h3>
-                                <p>Find Us On Social Media</p>
-                                <ul>
-                                    <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
-                                                @thewoodcourt</span></a></li>
-                                    <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
-                                    <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        <div id="slide-two">
-              <div class="dark-overlap">
-                  <div class="container-fluid">
-                      <div class="row">
-                          <div class="col-lg-7 col-12">
-                              <h2>Tiles</h2>
-                              <p class="mb-5">The Leaders in wood industry</p>
-                              <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                              <a href="{{route('products')}}" class="text-white">Our Products</a>
-                          </div>
-                          <div class="col-12 col-lg-5 hero-section-content">
-                              <div class="social-media-hero">
-                                  <h3>Contact Us</h3>
-                                  <p>Find Us On Social Media</p>
-                                  <ul>
-                                      <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
-                                                  @thewoodcourt</span></a></li>
-                                      <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
-                                      <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        <div id="slide-three">
+        <div class="owl-carousel full-width-carousel">
+            <div id="slide-one">
                 <div class="dark-overlap">
                     <div class="container-fluid">
                         <div class="row">
@@ -80,34 +28,86 @@
                         </div>
                     </div>
                 </div>
-              </div>
-        <div id="slide-four">
-                  <div class="dark-overlap">
-                      <div class="container-fluid">
-                          <div class="row">
-                              <div class="col-lg-7 col-12">
-                                  <h2>Outdoor</h2>
-                                  <p class="mb-5">The Leaders in wood industry</p>
-                                  <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                  <a href="{{route('products')}}" class="text-white">Our Products</a>
-                              </div>
-                              <div class="col-12 col-lg-5 hero-section-content">
-                                  <div class="social-media-hero">
-                                      <h3>Contact Us</h3>
-                                      <p>Find Us On Social Media</p>
-                                      <ul>
-                                          <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
-                                                      @thewoodcourt</span></a></li>
-                                          <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
-                                          <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
-                                      </ul>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+            </div>
+            <div id="slide-two">
+                <div class="dark-overlap">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 col-12">
+                                <h2>Tiles</h2>
+                                <p class="mb-5">The Leaders in wood industry</p>
+                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                            </div>
+                            <div class="col-12 col-lg-5 hero-section-content">
+                                <div class="social-media-hero">
+                                    <h3>Contact Us</h3>
+                                    <p>Find Us On Social Media</p>
+                                    <ul>
+                                        <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
+                                                    @thewoodcourt</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-      </div>
+            </div>
+            <div id="slide-three">
+                <div class="dark-overlap">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 col-12">
+                                <h2>The Wood Court</h2>
+                                <p class="mb-5">The Leaders in wood industry</p>
+                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                            </div>
+                            <div class="col-12 col-lg-5 hero-section-content">
+                                <div class="social-media-hero">
+                                    <h3>Contact Us</h3>
+                                    <p>Find Us On Social Media</p>
+                                    <ul>
+                                        <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
+                                                    @thewoodcourt</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="slide-four">
+                <div class="dark-overlap">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 col-12">
+                                <h2>Outdoor</h2>
+                                <p class="mb-5">The Leaders in wood industry</p>
+                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                            </div>
+                            <div class="col-12 col-lg-5 hero-section-content">
+                                <div class="social-media-hero">
+                                    <h3>Contact Us</h3>
+                                    <p>Find Us On Social Media</p>
+                                    <ul>
+                                        <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
+                                                    @thewoodcourt</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="homepage-categories">
         <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
@@ -184,12 +184,12 @@
                                 <li><img src="https://placehold.it/150x150" alt=""></li>
                             </ul>
                             <ul class="category-images-list" id="engineered-floors">
-                              <li><a href="{{url('public')}}/images/categories/eng-floors-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/eng-floors-1.jpg" alt="engineered-floors"></a></li>
-                              <li><a href="{{url('public')}}/images/categories/eng-floors-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/eng-floors-2.jpg" alt="engineered-floors"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/eng-floors-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/eng-floors-1.jpg" alt="engineered-floors"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/eng-floors-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/eng-floors-2.jpg" alt="engineered-floors"></a></li>
                             </ul>
                             <ul class="category-images-list" id="tiles">
-                              <li><a href="{{url('public')}}/images/categories/tiles-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/tiles-1.jpg" alt="tiles"></a></li>
-                              <li><a href="{{url('public')}}/images/categories/tiles-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/tiles-2.jpg" alt="tiles"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/tiles-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/tiles-1.jpg" alt="tiles"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/tiles-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/tiles-2.jpg" alt="tiles"></a></li>
                             </ul>
                             <ul class="category-images-list" id="stairs">
                                 <li><a href="{{url('public')}}/images/categories/stairs-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/stairs-1.jpg" alt="stairs"></a></li>
@@ -262,8 +262,8 @@
                         </div>
                         <div class="col-lg-8 col-12">
                             <ul class="category-images-list active" id="teak-flooring">
-                              <li><a href="{{url('public')}}/images/categories/teak-flooring-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/teak-flooring-1.jpg" alt="teak-flooring"></a></li>
-                              <li><a href="{{url('public')}}/images/categories/teak-flooring-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/teak-flooring-2.jpg" alt="teak-flooring"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/teak-flooring-1.jpg" target="_blank"><img src="{{url('public')}}/images/categories/teak-flooring-1.jpg" alt="teak-flooring"></a></li>
+                                <li><a href="{{url('public')}}/images/categories/teak-flooring-2.jpg" target="_blank"><img src="{{url('public')}}/images/categories/teak-flooring-2.jpg" alt="teak-flooring"></a></li>
                             </ul>
                             <ul class="category-images-list" id="shower-units">
                                 <li><img src="https://placehold.it/150x150" alt=""></li>
@@ -344,7 +344,7 @@
             </div>
         </div>
     </section>
-    <section id="homepage-cta">
+    <section class="homepage-video-cta" id="homepage-cta">
         <div class="dark-overlap">
             <div class="container">
                 <div class="row">
@@ -390,26 +390,26 @@
                 </div>
                 <div class="owl-carousel owl-theme full-width-carousel">
                     <div class="row slide">
-                        <div class="col-lg-4 col-12">
-                            <img class="user-image" src="https://placehold.it/200x200" alt="person name">
-                            <h4 class="user-name">person name goes here</h4>
-                            <p class="user-job-title">Digital Marketer Special Guy some long stuff here</p>
-                        </div>
+                      <div class="col-lg-4 col-12">
+                          <img class="user-image" src="https://scontent.fcai19-2.fna.fbcdn.net/v/t31.0-1/c47.14.173.172a/p200x200/172356_10150150320216508_6180317_o.jpg?_nc_cat=107&ccb=2&_nc_sid=7206a8&_nc_eui2=AeF714H-4-VnSs78kBgzLtV5K7M7johAC20rszuOiEALbURgI9XPxwBGQ5tH_lvs--aSOBOBYLQAU6HoQivs-E6p&_nc_ohc=griOnXIMKHIAX_aSmd7&_nc_ht=scontent.fcai19-2.fna&tp=27&oh=46adb4f80f13147af56ac65356dd21dd&oe=5FE6C96E" alt="Ahamd Elsayeed">
+                          <h4 class="user-name">Ahmed Elsayeed</h4>
+                      </div>
                         <div class="col-lg-8 col-12">
                             <div class="testimonial-content">
                                 <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
-                                <h3>This Product is Awesome!</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                    anim id est laborum.</p>
+                                <h3>Understanding for customer requirements</h3>
+                                <p>The Wood Court is a trusted and professional company
+                                  Understanding for customer requirements
+                                  It was great to meet and know most of the Team who work their
+                                  Special thanks to  Ayman and Ahmed Zahran for being so keen to deliver the best quality to ensure customer satisfaction</p>
                             </div>
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                         </div>
                     </div>
                     <div class="row slide">
                         <div class="col-lg-4 col-12">
-                            <img class="user-image" src="https://placehold.it/200x200" alt="person name">
-                            <h4 class="user-name">person name goes here</h4>
+                            <img class="user-image" src="https://scontent.fcai19-2.fna.fbcdn.net/v/t31.0-1/c47.14.173.172a/p200x200/172356_10150150320216508_6180317_o.jpg?_nc_cat=107&ccb=2&_nc_sid=7206a8&_nc_eui2=AeF714H-4-VnSs78kBgzLtV5K7M7johAC20rszuOiEALbURgI9XPxwBGQ5tH_lvs--aSOBOBYLQAU6HoQivs-E6p&_nc_ohc=griOnXIMKHIAX_aSmd7&_nc_ht=scontent.fcai19-2.fna&tp=27&oh=46adb4f80f13147af56ac65356dd21dd&oe=5FE6C96E" alt="Ahamd Elsayeed">
+                            <h4 class="user-name">Ahmed Elsayeed</h4>
                             <p class="user-job-title">Digital Marketer Special Guy some long stuff here</p>
                         </div>
                         <div class="col-lg-8 col-12">
@@ -442,9 +442,9 @@
                     </div>
                 </div>
                 <div class="row mt-3">
-                  <div class="col-12 text-center">
-                    <a href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank" class="icon-button"><i class="fab fa-facebook"></i> More Reviews</a>
-                  </div>
+                    <div class="col-12 text-center">
+                        <a href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank" class="icon-button"><i class="fab fa-facebook"></i> More Reviews</a>
+                    </div>
                 </div>
             </div>
         </div>

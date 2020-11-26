@@ -4,11 +4,10 @@
         width: 100%;
         height: calc(100vh - 100px);
         background-color: rgba(0,0,0,0.5);
-        h2 {
+        h2,h1 {
             color: #fff;
             font-size: 6em;
         }
-
         p {
             color: #fff;
             font-size: 1.6em;
@@ -268,9 +267,11 @@
     }
 
     img.we-are-the-wood-court-image {
-        width: 100%;
-        height: auto;
-        max-height: 450px;
+        width: auto;
+        margin: auto;
+        display: block;
+        height: 450px;
+
     }
 }
 .category-modal{

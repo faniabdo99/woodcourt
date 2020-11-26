@@ -4,7 +4,6 @@
             <li><i class="fas fa-map-marker"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> 81 El-Hussein St, Dokki, Giza</a></li>
             <li><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a></li>
             <li><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
-
         </ul>
     </div>
     <nav class="navbar navbar-expand-lg">
@@ -18,6 +17,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('products')}}">Products</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>

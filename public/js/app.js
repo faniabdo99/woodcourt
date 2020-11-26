@@ -155,7 +155,8 @@ $('.three-items-carousel').owlCarousel({
   }
 }); // init Isotope
 
-var $grid = $('.products-isotope').isotope({
+var grid = $('.products-isotope');
+var jQuerygrid = $('.products-isotope').isotope({
   itemSelector: '.single-product',
   getSortData: {
     category: '[data-category]'
@@ -163,6 +164,11 @@ var $grid = $('.products-isotope').isotope({
   masonry: {
     columnWidth: '.grid-sizer'
   }
+});
+var iso = jQuerygrid.data('isotope');
+jQuerygrid.isotope('reveal', iso.items);
+imagesLoaded(grid, function () {
+  iso.layout();
 }); // filter functions
 
 var filterFns = {
@@ -193,7 +199,7 @@ $('.sub-categories-list li').click(function () {
 
 $('#homepage-play-video').click(function () {
   //Insert the elemnt into the dom
-  $('body').append("\n    <div class=\"full-width-video\">\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/dSwyJ0aaM4k\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  $('body').append("\n    <div class=\"full-width-video\">\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   $(document).on('click', '#video-close-button , .full-width-video', function (e) {
     $('.full-width-video').remove();
     $('body').css('overflow-y', 'scroll');

@@ -231,7 +231,7 @@ a:hover {
   height: calc(100vh - 100px);
   background-color: rgba(0, 0, 0, 0.5);
 }
-.hero-section .dark-overlap h2 {
+.hero-section .dark-overlap h2, .hero-section .dark-overlap h1 {
   color: #fff;
   font-size: 6em;
 }
@@ -469,9 +469,10 @@ a:hover {
   line-height: 2em;
 }
 .about-us-description img.we-are-the-wood-court-image {
-  width: 100%;
-  height: auto;
-  max-height: 450px;
+  width: auto;
+  margin: auto;
+  display: block;
+  height: 450px;
 }
 
 .category-modal .modal-header {
@@ -692,6 +693,14 @@ a:hover {
 #homepage-cta .dark-overlap p {
   color: #fff;
   font-size: 1.5em;
+}
+#homepage-cta.homepage-video-cta {
+  height: 400px;
+  background: url("../images/heros/video-background.png") no-repeat center center;
+  background-size: cover;
+}
+#homepage-cta.homepage-video-cta .dark-overlap {
+  padding-top: 160px;
 }
 
 #homepage-promotions {
@@ -915,6 +924,14 @@ a:hover {
   width: 100%;
   height: 350px;
   margin-bottom: 0;
+}
+
+#our-factory-hero-section {
+  background: url("../images/heros/our-factory.jpg") no-repeat center center;
+  background-size: cover;
+}
+#our-factory-hero-section .dark-overlap {
+  padding: 15vh 5%;
 }
 
 #events-hero {

@@ -57,6 +57,14 @@
             font-size: 1.5em;
         }
     }
+    &.homepage-video-cta{
+      height: 400px;
+      background: url('../images/heros/video-background.png') no-repeat center center;
+      background-size: cover;
+      .dark-overlap{
+        padding-top: 160px;
+      }
+    }
 }
 #homepage-promotions {
     padding: 100px 0;

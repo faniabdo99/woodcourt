@@ -3,6 +3,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@getSoonPage');
 Route::get('/home', 'PagesController@getHome')->name('home');
 Route::get('about-us' , 'PagesController@getAboutUs')->name('about');
+Route::get('our-factory' , 'PagesController@getOurFactory')->name('factory');
 Route::get('contact' , 'ContactController@getContact')->name('contact');
 Route::get('products' , 'PagesController@getProductsPage')->name('products');
 Route::prefix('events')->group(function(){
