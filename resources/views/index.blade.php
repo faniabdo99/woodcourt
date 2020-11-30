@@ -398,14 +398,14 @@
                         <button class="button" data-filter=".outdoor">Outdoor</button>
                     </div>
                     <div class="products-isotope">
-                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/categories/wood-flooring/engineered-floors/3.jpg" alt=""></div>
-                        <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/categories/outdoor/shower-units/1.jpg" alt=""></div>
-                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/categories/wood-flooring/tiles/3.jpg" alt=""></div>
-                        <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/categories/outdoor/pergolas/3.jpg" alt=""></div>
-                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/categories/cabinets/bathroom-cabinets/1.png" alt=""></div>
-                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/categories/wood-flooring/stairs/3.jpg" alt=""></div>
-                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/categories/cabinets/dressings/1.png" alt=""></div>
-                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/categories/cabinets/kitchens/1.png" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/3.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/5.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/4.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/2.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/2.png" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/3.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/1.png" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/3.png" alt=""></div>
                     </div>
                     <div class="text-center mt-5">
                         <a class="icon-button" href="{{route('products')}}"><i class="fas fa-star"></i> View More</a>
