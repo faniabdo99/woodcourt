@@ -25,7 +25,7 @@
                         commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <a href="#" class="icon-button"><i class="fas fa-star"></i>About us</a>
+                    <a href="{{route('contact')}}" class="icon-button"><i class="fas fa-star"></i>Contact Us</a>
                 </div>
                 <div class="col-lg-6 col-12">
                     <img class="we-are-the-wood-court-image" src="{{url('public')}}/images/about-us-descrition.jpg" alt="the alt here">

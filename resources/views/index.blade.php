@@ -20,7 +20,7 @@
                                     <ul>
                                         <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
                                                     @thewoodcourt</span></a></li>
-                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a></li>
                                         <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
                                     </ul>
                                 </div>
@@ -46,7 +46,7 @@
                                     <ul>
                                         <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
                                                     @thewoodcourt</span></a></li>
-                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a></li>
                                         <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
                                     </ul>
                                 </div>
@@ -70,9 +70,8 @@
                                     <h3>Contact Us</h3>
                                     <p>Find Us On Social Media</p>
                                     <ul>
-                                        <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
-                                                    @thewoodcourt</span></a></li>
-                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a></li>
                                         <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
                                     </ul>
                                 </div>
@@ -98,7 +97,7 @@
                                     <ul>
                                         <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>
                                                     @thewoodcourt</span></a></li>
-                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 115 1411 867</span></a></li>
+                                        <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a></li>
                                         <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
                                     </ul>
                                 </div>
@@ -172,18 +171,18 @@
                             <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
                             <ul class="sub-categories-list">
-                                <li data-target="engineered-floors">Engineered Floors</li>
+                                <li data-target="engineered-floors" class="active">Engineered Floors</li>
                                 <li data-target="tiles">Tiles</li>
                                 <li data-target="stairs">Stairs</li>
-                                <li data-target="hdf-floors" class="active">HDF Floors</li>
+                                <li data-target="hdf-floors">HDF Floors</li>
                             </ul>
                         </div>
                         <div class="col-lg-8 col-12">
-                            <ul class="category-images-list active" id="hdf-floors">
+                            <ul class="category-images-list" id="hdf-floors">
                                 <li><img src="https://placehold.it/150x150" alt=""></li>
                                 <li><img src="https://placehold.it/150x150" alt=""></li>
                             </ul>
-                            <ul class="category-images-list" id="engineered-floors">
+                            <ul class="category-images-list active" id="engineered-floors">
                               <li><a href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/1.jpg" alt="engineered-floors-1" title="engineered-floors-1"></a></li>
                               <li><a href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/2.jpg" alt="engineered-floors-2" title="engineered-floors-2"></a></li>
                               <li><a href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/3.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/3.jpg" alt="engineered-floors-3" title="engineered-floors-3"></a></li>
@@ -403,7 +402,7 @@
                         <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/4.jpg" alt=""></div>
                         <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/2.jpg" alt=""></div>
                         <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/2.png" alt=""></div>
-                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/3.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/1.jpg" alt=""></div>
                         <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/1.png" alt=""></div>
                         <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/3.png" alt=""></div>
                     </div>

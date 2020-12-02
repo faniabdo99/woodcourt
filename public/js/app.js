@@ -129,11 +129,11 @@ $('.multi-items-carousel').owlCarousel({
     0: {
       items: 1
     },
-    600: {
-      items: 3
+    800: {
+      items: 2
     },
     1000: {
-      items: 5
+      items: 3
     }
   }
 });
@@ -154,20 +154,59 @@ $('.three-items-carousel').owlCarousel({
     }
   }
 }); // init Isotope
+// init Isotope
 
-var grid = $('.products-isotope');
-var jQuerygrid = $('.products-isotope').isotope({
+var $container = $('.products-isotope').isotope({
   itemSelector: '.single-product',
-  getSortData: {
-    category: '[data-category]'
-  },
+  transitionDuration: '0.5s',
   masonry: {
     columnWidth: '.grid-sizer'
   }
+}); //****************************
+// Isotope Load more button
+//****************************
+
+var initShow = 8; //number of images loaded on init & onclick load more button
+
+var counter = initShow; //counter for load more button
+
+var iso = $container.data('isotope'); // get Isotope instance
+
+loadMore(initShow); //execute function onload
+
+function loadMore(toShow) {
+  $container.find(".d-none").removeClass("d-none");
+  var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function (item) {
+    return item.element;
+  });
+  $(hiddenElems).addClass('d-none');
+  $container.isotope('layout'); //when no more to load, hide show more button
+
+  if (hiddenElems.length == 0) {
+    $("#load-more").hide();
+  } else {
+    $("#load-more").show();
+  }
+
+  ;
+} //when load more button clicked
+
+
+$("#load-more").click(function () {
+  if ($('#filters').data('clicked')) {
+    //when filter button clicked, set initial value for counter
+    counter = initShow;
+    j$('#filters').data('clicked', false);
+  } else {
+    counter = counter;
+  }
+
+  ;
+  counter = counter + initShow;
+  loadMore(counter);
 });
-var iso = jQuerygrid.data('isotope');
-jQuerygrid.isotope('reveal', iso.items);
-imagesLoaded(grid, function () {
+$container.isotope('reveal', iso.items);
+imagesLoaded(iso, function () {
   iso.layout();
 }); // filter functions
 
@@ -185,7 +224,7 @@ $('#filters').on('click', 'button', function () {
   var filterValue = $(this).attr('data-filter'); // use filterFn if matches value
 
   filterValue = filterFns[filterValue] || filterValue;
-  grid.isotope({
+  $container.isotope({
     filter: filterValue
   });
 }); //Homepage Categories Filters
@@ -227,20 +266,36 @@ $('#submit-contact-form').click(function (e) {
       That.html('<i class="fas fa-paper-plane"></i> Send');
     }
   });
-}); //Data Tables
+}); //Back to top
+//Show the Back to Top Button
 
-$('#data-table').DataTable({
-  dom: 'Bfrtip',
-  buttons: [{
-    extend: 'copy',
-    text: '<i class="fas fa-copy"></i> Copy to clipboard',
-    className: "datatables-button copy-content"
-  }, {
-    extend: 'excel',
-    text: '<i class="fas fa-file-excel"></i> Export to Excel',
-    className: "datatables-button excel-export"
-  }]
-});
+$(window).scroll(function () {
+  var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+
+  if (scrollPercent > 70) {
+    //Show the Button after 50% of the page
+    $("#back-to-top").css('right', '50px').css('transition', 'all ease .6s');
+  } else {
+    $("#back-to-top").css('right', '-100px').css('transition', 'all ease .6s');
+  }
+}); //Back to top action
+
+$("#back-to-top").click(function () {
+  $("body,html").animate({
+    scrollTop: 0
+  }, 800);
+}); //Disable Right Click on Images
+
+$("img").on("contextmenu", function () {
+  return false;
+}); //Data Tables
+// $('#data-table').DataTable({
+//    dom: 'Bfrtip',
+//    buttons: [
+//        { extend: 'copy', text: '<i class="fas fa-copy"></i> Copy to clipboard', className: "datatables-button copy-content"},
+//        { extend: 'excel', text: '<i class="fas fa-file-excel"></i> Export to Excel', className: "datatables-button excel-export"}
+//    ]
+// });
 
 /***/ }),
 

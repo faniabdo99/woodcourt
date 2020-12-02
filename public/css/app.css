@@ -156,6 +156,10 @@ a:hover {
   padding: 25px;
   color: #fff;
 }
+.footer .footer-info img.footer-logo {
+  height: 70px;
+  width: auto;
+}
 .footer .footer-info h2 {
   font-size: 1.9em;
 }
@@ -187,6 +191,36 @@ a:hover {
 }
 .footer .footer-links ul li a {
   color: #fff;
+}
+
+#back-to-top {
+  height: 60px;
+  width: 60px;
+  z-index: 9999;
+  padding-top: 12px;
+  border: 4px solid #0D8287;
+  background: #0D8287;
+  color: #fff;
+  position: fixed;
+  right: -100px;
+  bottom: 50px;
+  border-radius: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  transition: all ease 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#back-to-top i {
+  transition: all ease 0.3s;
+}
+#back-to-top:hover {
+  background-color: #0D8287;
+  color: #fff;
+  transition: all ease 0.3s;
+}
+#back-to-top:hover i {
+  transform: translateY(-3px);
+  transition: all ease 0.3s;
 }
 
 @media screen and (max-width: 768px) {
@@ -781,6 +815,9 @@ a:hover {
 #our-products .products-isotope {
   width: 100%;
 }
+#our-products .products-isotope .single-product {
+  border: 5px solid #FFF;
+}
 #our-products .products-isotope .grid-item,
 #our-products .products-isotope .grid-sizer {
   width: 25%;
@@ -788,7 +825,7 @@ a:hover {
 #our-products .products-isotope .grid-item {
   float: left;
   padding: 0;
-  border: 2px solid #ffffff;
+  border: 10px solid red;
   height: 0;
   /* padding-bottom is calculated and rendered in to HTML OR inserted on css class*/
 }

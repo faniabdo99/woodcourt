@@ -2,11 +2,11 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-5 col-12 footer-info">
-        <h2>The Wood Court</h2>
+        <img class="footer-logo" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo" title="The Wood Court" />
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         <ul>
-          <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/thewoodcourt/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-12 d-flex footer-links">

@@ -26,19 +26,27 @@
                         <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/4.jpg" alt=""></div>
                         <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/2.jpg" alt=""></div>
                         <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/2.png" alt=""></div>
-                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/3.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/1.jpg" alt=""></div>
                         <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/1.png" alt=""></div>
                         <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/3.png" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/4.png" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/15.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/10.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/22.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/11.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/7.jpg" alt=""></div>
+                        <div class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/5.png" alt=""></div>
+                        <div class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/19.jpg" alt=""></div>
                     </div>
                     <div class="text-center mt-5">
-                        <a class="icon-button" href="{{route('products')}}"><i class="fas fa-star"></i> View More</a>
+                        <a class="icon-button" id="load-more" href="javascript:;"><i class="fas fa-star"></i> Load More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    @include('layout.scripts')
     @include('layout.footer')
+    @include('layout.scripts')
 </body>
 
 </html>
