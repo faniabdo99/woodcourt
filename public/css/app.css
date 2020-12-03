@@ -92,7 +92,7 @@ a:hover {
   padding: 0 75px;
 }
 .upper-nav ul {
-  flex: 0.5;
+  flex: 0.7;
   margin: 0 0 0 auto;
   display: flex;
   flex-basis: 0;
@@ -216,6 +216,7 @@ a:hover {
 #back-to-top:hover {
   background-color: #0D8287;
   color: #fff;
+  cursor: pointer;
   transition: all ease 0.3s;
 }
 #back-to-top:hover i {
@@ -223,6 +224,15 @@ a:hover {
   transition: all ease 0.3s;
 }
 
+@media screen and (max-width: 1150px) {
+  .upper-nav {
+    padding: 0 20px;
+  }
+  .upper-nav ul {
+    flex: 1;
+    justify-content: space-around;
+  }
+}
 @media screen and (max-width: 768px) {
   .upper-nav {
     display: none;
@@ -633,7 +643,8 @@ a:hover {
   }
   .about-us-description img.we-are-the-wood-court-image {
     margin-top: 50px;
-    max-height: 350px;
+    max-height: 250px;
+    width: 100%;
   }
 
   .category-modal ul.category-images-list li img {
