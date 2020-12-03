@@ -123,7 +123,7 @@ $('.full-width-carousel').owlCarousel({
 });
 $('.multi-items-carousel').owlCarousel({
   loop: true,
-  margin: 100,
+  margin: 50,
   nav: false,
   responsive: {
     0: {
@@ -134,6 +134,9 @@ $('.multi-items-carousel').owlCarousel({
     },
     1000: {
       items: 3
+    },
+    1400: {
+      items: 4
     }
   }
 });

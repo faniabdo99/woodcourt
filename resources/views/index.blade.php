@@ -479,15 +479,15 @@
                 <div class="col-12">
                     <h2>Our Clients</h2>
                     <ul class="owl-carousel owl-theme multi-items-carousel">
-                        <li class="item"><img src="{{url('public')}}/images/partners/arabcont.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/cook-club.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/hilton.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/mobica.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/orascom.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/sheraton.png" alt="" title="" /></li>
-                        <li class="item"><img src="{{url('public')}}/images/partners/siac.png" alt="" title="" /></li>
+                        <img class="item" src="{{url('public')}}/images/partners/arabcont.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/cook-club.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/four-seasons.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/hassan-allam.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/hilton.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/mobica.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/orascom.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/sheraton.png" alt="" title="" />
+                        <img class="item" src="{{url('public')}}/images/partners/siac.png" alt="" title="" />
                     </ul>
                 </div>
             </div>
