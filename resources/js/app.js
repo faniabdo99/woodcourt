@@ -183,7 +183,7 @@ $('#submit-contact-form').click(function(e) {
 //Show the Back to Top Button
 $(window).scroll(function() {
   var scrollPercent = 100 * $(window).scrollTop()/($(document).height() - $(window).height());
-  if (scrollPercent > 70) { //Show the Button after 50% of the page
+  if (scrollPercent > 60) { //Show the Button after 50% of the page
     $("#back-to-top").css('right', '50px').css('transition', 'all ease .6s');
   } else {
     $("#back-to-top").css('right', '-100px').css('transition', 'all ease .6s');
@@ -199,6 +199,22 @@ $("#back-to-top").click(function() {
 $("img").on("contextmenu",function(){
     return false;
  });
+ $('[data-fancybox]').fancybox({
+	toolbar  : true,
+	smallBtn : true,
+  loop: true,
+  protect: true,
+	iframe : {
+		preload : false
+	},
+  buttons: [
+      "zoom",
+      "slideShow",
+      "fullScreen",
+      "thumbs",
+      "close"
+    ],
+})
 //Data Tables
 // $('#data-table').DataTable({
 //    dom: 'Bfrtip',
