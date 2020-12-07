@@ -97,6 +97,15 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
+//Homepage Cards
+// $('.why-us-card').click(function(){
+//   $(this).fadeOut('fast');
+//   $(this).next('.why-us-card-description').fadeIn('fast');
+// });
+// $('.why-us-card-description').click(function(){
+//   $(this).fadeIn('fast');
+//   $(this).next('.why-us-card-description').fadeOut('fast');
+// });
 //Owl Carousel Options
 $('.full-width-carousel').owlCarousel({
   singleItem: true,

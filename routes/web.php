@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-Route::get('/', 'PagesController@test');
+Route::get('/', 'PagesController@getSoonPage');
 Route::get('/home', 'PagesController@getHome')->name('home');
 Route::get('about-us' , 'PagesController@getAboutUs')->name('about');
 Route::get('our-factory' , 'PagesController@getOurFactory')->name('factory');

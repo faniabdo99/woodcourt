@@ -308,8 +308,188 @@
                 <div class="row">
                     <div class="col-12">
                         <h2>Why Us?</h2>
-                        <p class="mb-5">Why Not?</p>
-                        <a class="icon-button" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                        <div class="row why-us-cards">
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Market Leaders</h3>
+                              <p class="why-us-card-short-description">40 years ago, till now we are thankfully enjoying a very good reputation, this didn't come out of thin...</p>
+                              <p class="why-us-card-description">40 years ago, till now we are thankfully enjoying a very good reputation, this didn't come out of thin air, hard-working, trained human resources & investing in new technologies are factors which made us the market leaders</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">40 Years of Experience</h3>
+                              <p class="why-us-card-short-description">Over more than 40 years of hard work, We had a great experience in designing, manufactur....</p>
+                              <p class="why-us-card-description">Over more than 40 years of hard work, We had a great experience in designing, manufacturing & installation, in addition to the most important part (Finishing), So we can achieve the best results WTF over many resolved problems smoothly without errors.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Trained Human Resources</h3>
+                              <p class="why-us-card-short-description">Over years, we built great teams, for sales, customer care, production & installing (WTF), buildi...</p>
+                              <p class="why-us-card-description">Over years, we built great teams, for sales, customer care, production & installing (WTF), building such great, trained, and creative teams don't happen in a couple of years, it took so much time and effort</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">No Hidden Costs</h3>
+                              <p class="why-us-card-short-description">Don't worry, we don't have any hidden fees, every single pound is agreed on from day one.</p>
+                              <p class="why-us-card-description">Don't worry, we don't have any hidden fees, every single pound is agreed on from day one</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Affordable Pricing</h3>
+                              <p class="why-us-card-short-description">High quality, reasonable prices are very hard to find anywhere else, contact us and book a visit to...</p>
+                              <p class="why-us-card-description">High quality, reasonable prices are very hard to find anywhere else, contact us and book a visit to see how can we fit perfect work within your budget</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Moisture Free</h3>
+                              <p class="why-us-card-short-description">All our wood are moisture free, we don't depend on air drying, we have our WTF dryers to ensure...</p>
+                              <p class="why-us-card-description">All our wood are moisture free, we don't depend on air drying, we have our WTF dryers to ensure wood humidity level before manufacturing, as humidity is the most important factor affecting your final product</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Insects Free</h3>
+                              <p class="why-us-card-short-description">In the year 2008, we had a good deal with the Egyptian ministry of agriculture to send their specialized wood insect...</p>
+                              <p class="why-us-card-description">In the year 2008, we had a good deal with the Egyptian ministry of agriculture to send their specialized wood insect control team to our factory to ensure all wood are insect-free.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Quick and Easy Installation</h3>
+                              <p class="why-us-card-short-description">One of the most challenging jobs is renewing your wood floors whi...</p>
+                              <p class="why-us-card-description">One of the most challenging jobs is renewing your wood floors while your family is existing in the home, now you can purchase engineered floors from the wood court which is ready to be installed on the same day, and walk on it instantly.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Easy Clean</h3>
+                              <p class="why-us-card-short-description">Either your wood floor or your kitchen from the wood court is the easiest to clean, our fourth-generation...</p>
+                              <p class="why-us-card-description">Either your wood floor or your kitchen from the wood court is the easiest to clean, our fourth-generation finish materials are awesome, easy to be clean & clear from stains and dust, very hard to react with most home dirties.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Delivery in Time</h3>
+                              <p class="why-us-card-short-description">We pay back 1% for every week after delivery time in case of not delivering in time, just in time delivery...</p>
+                              <p class="why-us-card-description">We pay back 1% for every week after delivery time in case of not delivering in time, just in time delivery is not our goal, we seek to deliver your items before delivery time!.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Anti-Scratch</h3>
+                              <p class="why-us-card-short-description">Some of our finishes are scratch resistance, like WTF finish for wood floors & polyethylene finishes for kitchens ..</p>
+                              <p class="why-us-card-description">Some of our finishes are scratch resistance, like WTF finish for wood floors & polyethylene finishes for kitchens, also HPI high-pressure laminate is an anti scratch boards we use for kitchens & dressing rooms.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Sound Proof</h3>
+                              <p class="why-us-card-short-description">Hearing the drummy sound when walking on wood floors is very annoying, ask for glue-down...</p>
+                              <p class="why-us-card-description">Hearing the drummy sound when walking on wood floors is very annoying, ask for glue-down floors or floating engineered floors to ensure soundless steps.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Life-Lasting Stains</h3>
+                              <p class="why-us-card-short-description">When you need to stain your natural wood floors or your kitchen to have a nice color matching your home decor...</p>
+                              <p class="why-us-card-description">When you need to stain your natural wood floors or your kitchen to have a nice color matching your home decor, don't be afraid of stain disappearing from heavy traffic areas, our stains are all high quality and & life-lasting even with heavy use.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Life Time Guarantee</h3>
+                              <p class="why-us-card-short-description">When purchasing from "The Wood Court" for any natural flooring, either floor or cabinets, you...</p>
+                              <p class="why-us-card-description">When purchasing from "The Wood Court" for any natural flooring, either floor or cabinets, you obtain a lifetime guarantee against manufacturing or installation faults or defects.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Pre Finished Products</h3>
+                              <p class="why-us-card-short-description">Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly...</p>
+                              <p class="why-us-card-description">Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly after installation, all our cabinets (Kitchen or Dressing) is shipped finished and packed with care.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Customer Support</h3>
+                              <p class="why-us-card-short-description">Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to ...</p>
+                              <p class="why-us-card-description">Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to support and solve problems.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Environment Friendly</h3>
+                              <p class="why-us-card-short-description">All our products are environment friendly, we don't use any harmful material, starting...</p>
+                              <p class="why-us-card-description">All our products are environment friendly, we don't use any harmful material, starting from fiberboards, glue, nails ending with chemical adhesive and finishing materials.</p>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="why-us-card">
+                              <div class="why-us-icon-container">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <h3 class="why-us-card-title">Custom Designs</h3>
+                              <p class="why-us-card-short-description">We do any custom designs, in addition to our wide variety of pre-made designs, we also accept...</p>
+                              <p class="why-us-card-description">We do any custom designs, in addition to our wide variety of pre-made designs, we also accept either editing previous designs or WTF customer's new one .</p>
+                            </div>
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>

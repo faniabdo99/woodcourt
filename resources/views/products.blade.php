@@ -1,7 +1,7 @@
 @include('layout.header', ['PageTitle' => 'Very Cool Site'])
 <body>
     @include('layout.navbar')
-    <section class="hero-section" id="about-us-hero-section">
+    <section class="hero-section" id="products-section">
         <div class="dark-overlap">
             <h1>Our Products</h1>
             <p>Leaders in wood industry</p>
