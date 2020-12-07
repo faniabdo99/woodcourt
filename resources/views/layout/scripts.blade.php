@@ -3,6 +3,7 @@
 <script src='//imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
 <script src="{{url('public')}}/js/isotope.min.js"></script>
 <script src="{{url('public')}}/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 @if(strpos(url()->current(), 'admin'))
   {{-- Admin Only Scripts --}}
   <script type="text/javascript" src="{{url('public')}}/datatables/datatables.min.js"></script>
