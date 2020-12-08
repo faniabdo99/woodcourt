@@ -706,8 +706,11 @@ a:hover {
 #homepage-categories .category-card p {
   color: #8B8B8B;
   line-height: 2em;
+  margin-bottom: 30px;
 }
 #homepage-categories .category-card a {
+  position: absolute;
+  bottom: 10px;
   color: #0D8287;
   font-weight: bold;
 }
@@ -737,9 +740,8 @@ a:hover {
   height: 400px;
   background: url("../images/heros/video-background.png") no-repeat center center;
   background-size: cover;
-}
-#homepage-cta.homepage-video-cta .dark-overlap {
   padding-top: 160px;
+  text-align: center;
 }
 #homepage-cta .why-us-card {
   background-color: rgba(0, 0, 0, 0.3);
@@ -756,11 +758,14 @@ a:hover {
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  font-size: 2em;
+  font-size: 2.3em;
   color: #fff;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 12px;
   transition: all ease 0.3s;
+}
+#homepage-cta .why-us-card .why-us-icon-container i {
+  font-style: normal;
 }
 #homepage-cta .why-us-card .why-us-card-title {
   color: #fff;
@@ -786,8 +791,7 @@ a:hover {
   padding: 10px;
   border-radius: 4px;
   color: #333333 !important;
-  height: 180px;
-  overflow-y: scroll;
+  height: 150px;
   transition: all ease 0.3s;
 }
 #homepage-cta .why-us-card:hover .why-us-icon-container {

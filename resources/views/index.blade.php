@@ -71,7 +71,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="category-card">
+                    <div class="category-card h-100">
                         <img src="{{url('public/')}}/images/categories/wood-flooring.jpg" alt="wood-flooring">
                         <div class="p-3">
                             <h3>Wood Flooring</h3>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="category-card">
+                    <div class="category-card h-100">
                         <img src="{{url('public/')}}/images/categories/cabinets.jpg" alt="Cabinets">
                         <div class="p-3">
                             <h3>Cabinets</h3>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="category-card">
+                    <div class="category-card h-100">
                         <img src="{{url('public/')}}/images/categories/outdoor.jpg" alt="Outdoor">
                         <div class="p-3">
                             <h3>Outdoor</h3>
@@ -309,7 +309,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-team-leader"></i>
                               </div>
                               <h3 class="why-us-card-title">Market Leaders</h3>
                               <p class="why-us-card-short-description">40 years ago, till now we are thankfully enjoying a very good reputation, this didn't come out of thin...</p>
@@ -319,7 +319,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-experience"></i>
                               </div>
                               <h3 class="why-us-card-title">40 Years of Experience</h3>
                               <p class="why-us-card-short-description">Over more than 40 years of hard work, We had a great experience in designing, manufactur....</p>
@@ -329,7 +329,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-construction-and-tools"></i>
                               </div>
                               <h3 class="why-us-card-title">Trained Human Resources</h3>
                               <p class="why-us-card-short-description">Over years, we built great teams, for sales, customer care, production & installing (WTF), buildi...</p>
@@ -339,7 +339,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-budget"></i>
                               </div>
                               <h3 class="why-us-card-title">No Hidden Costs</h3>
                               <p class="why-us-card-short-description">Don't worry, we don't have any hidden fees, every single pound is agreed on from day one.</p>
@@ -349,7 +349,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-affordable"></i>
                               </div>
                               <h3 class="why-us-card-title">Affordable Pricing</h3>
                               <p class="why-us-card-short-description">High quality, reasonable prices are very hard to find anywhere else, contact us and book a visit to...</p>
@@ -359,7 +359,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-moisture-wicking-fabric"></i>
                               </div>
                               <h3 class="why-us-card-title">Moisture Free</h3>
                               <p class="why-us-card-short-description">All our wood are moisture free, we don't depend on air drying, we have our WTF dryers to ensure...</p>
@@ -369,7 +369,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-no-bugs"></i>
                               </div>
                               <h3 class="why-us-card-title">Insects Free</h3>
                               <p class="why-us-card-short-description">In the year 2008, we had a good deal with the Egyptian ministry of agriculture to send their specialized wood insect...</p>
@@ -379,7 +379,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-gear"></i>
                               </div>
                               <h3 class="why-us-card-title">Quick and Easy Installation</h3>
                               <p class="why-us-card-short-description">One of the most challenging jobs is renewing your wood floors whi...</p>
@@ -389,7 +389,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-clean"></i>
                               </div>
                               <h3 class="why-us-card-title">Easy Clean</h3>
                               <p class="why-us-card-short-description">Either your wood floor or your kitchen from the wood court is the easiest to clean, our fourth-generation...</p>
@@ -399,7 +399,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-fast-delivery"></i>
                               </div>
                               <h3 class="why-us-card-title">Delivery in Time</h3>
                               <p class="why-us-card-short-description">We pay back 1% for every week after delivery time in case of not delivering in time, just in time delivery...</p>
@@ -409,7 +409,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-log"></i>
                               </div>
                               <h3 class="why-us-card-title">Anti-Scratch</h3>
                               <p class="why-us-card-short-description">Some of our finishes are scratch resistance, like WTF finish for wood floors & polyethylene finishes for kitchens ..</p>
@@ -419,7 +419,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-mute-volume-control"></i>
                               </div>
                               <h3 class="why-us-card-title">Sound Proof</h3>
                               <p class="why-us-card-short-description">Hearing the drummy sound when walking on wood floors is very annoying, ask for glue-down...</p>
@@ -429,7 +429,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-debt"></i>
                               </div>
                               <h3 class="why-us-card-title">Life-Lasting Stains</h3>
                               <p class="why-us-card-short-description">When you need to stain your natural wood floors or your kitchen to have a nice color matching your home decor...</p>
@@ -439,7 +439,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-guarantee"></i>
                               </div>
                               <h3 class="why-us-card-title">Life Time Guarantee</h3>
                               <p class="why-us-card-short-description">When purchasing from "The Wood Court" for any natural flooring, either floor or cabinets, you...</p>
@@ -449,7 +449,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-flag"></i>
                               </div>
                               <h3 class="why-us-card-title">Pre Finished Products</h3>
                               <p class="why-us-card-short-description">Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly...</p>
@@ -459,7 +459,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-customer-service"></i>
                               </div>
                               <h3 class="why-us-card-title">Customer Support</h3>
                               <p class="why-us-card-short-description">Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to ...</p>
@@ -469,7 +469,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-green-earth"></i>
                               </div>
                               <h3 class="why-us-card-title">Environment Friendly</h3>
                               <p class="why-us-card-short-description">All our products are environment friendly, we don't use any harmful material, starting...</p>
@@ -479,7 +479,7 @@
                           <div class="col-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
-                                <i class="fas fa-times"></i>
+                                <i class="flaticon-equalizer"></i>
                               </div>
                               <h3 class="why-us-card-title">Custom Designs</h3>
                               <p class="why-us-card-short-description">We do any custom designs, in addition to our wide variety of pre-made designs, we also accept...</p>
@@ -546,7 +546,6 @@
         </div>
     </section>
     <section class="homepage-video-cta" id="homepage-cta">
-        <div class="dark-overlap">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -554,7 +553,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- Video Item Here -->
 
