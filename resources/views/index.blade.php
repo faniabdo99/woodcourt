@@ -75,7 +75,7 @@
                         <img src="{{url('public/')}}/images/categories/wood-flooring.jpg" alt="wood-flooring">
                         <div class="p-3">
                             <h3>Wood Flooring</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                            <p>All-natural wood flooring & Fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary and much more even custom designs</p>
                             <a href="javascript:;" data-toggle="modal" data-target="#wood-flooring-modal">View More</a>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                         <img src="{{url('public/')}}/images/categories/cabinets.jpg" alt="Cabinets">
                         <div class="p-3">
                             <h3>Cabinets</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                            <p>Not just a wide variety of materials (natural & artificial) but also we help you to design your kitchen and dressing room with the most storage areas and easy-access. Designed by highly-reputed interior designers</p>
                             <a href="javascript:;" data-toggle="modal" data-target="#cabinets-modal">View More</a>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                         <img src="{{url('public/')}}/images/categories/outdoor.jpg" alt="Outdoor">
                         <div class="p-3">
                             <h3>Outdoor</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                            <p>Nowadays, after quarantine we all realaized the importance of our private ourdoors, Gte the best out of your farden or backyard. See our Pergolas & Outdoor flooring new designs</p>
                             <a href="javascript:;" data-toggle="modal" data-target="#outdoor-modal">View More</a>
                         </div>
                     </div>
@@ -121,8 +121,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                            <p class="category-description">All-natural wood flooring & Fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary and much more even custom designs</p>
                             <ul class="sub-categories-list">
                                 <li data-target="engineered-floors" class="active">Engineered Floors</li>
                                 <li data-target="tiles">Tiles</li>
@@ -215,8 +214,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                            <p class="category-description">Not just a wide variety of materials (natural & artificial) but also we help you to design your kitchen and dressing room with the most storage areas and easy-access. Designed by highly-reputed interior designers</p>
                             <ul class="sub-categories-list">
                                 <li data-target="kitchens" class="active">Kitchens</li>
                                 <li data-target="dressings">Dressings</li>
@@ -262,8 +260,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+                            <p class="category-description">Nowadays, after quarantine we all realaized the importance of our private ourdoors, Gte the best out of your farden or backyard. See our Pergolas & Outdoor flooring new designs</p>
                             <ul class="sub-categories-list">
                                 <li data-target="teak-flooring" class="active">Teak Flooring</li>
                                 <li data-target="shower-units">Shower Units</li>
