@@ -787,12 +787,18 @@ a:hover {
   font-size: 0.8em !important;
   text-align: left;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 4px;
-  color: #333333 !important;
+  color: #fff !important;
   height: 150px;
   transition: all ease 0.3s;
+}
+#homepage-cta .why-us-card:hover .why-us-card-title {
+  display: none;
+}
+#homepage-cta .why-us-card:hover .why-us-card-short-description {
+  display: none;
 }
 #homepage-cta .why-us-card:hover .why-us-icon-container {
   opacity: 0;

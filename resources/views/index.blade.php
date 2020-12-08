@@ -323,7 +323,7 @@
                               </div>
                               <h3 class="why-us-card-title">40 Years of Experience</h3>
                               <p class="why-us-card-short-description">Over more than 40 years of hard work, We had a great experience in designing, manufactur....</p>
-                              <p class="why-us-card-description">Over more than 40 years of hard work, We had a great experience in designing, manufacturing & installation, in addition to the most important part (Finishing), So we can achieve the best results WTF over many resolved problems smoothly without errors.</p>
+                              <p class="why-us-card-description">Over more than 40 years of hard work, we had a great experience in designing, manufacturing & installation of various projects, in addition to the most important part, finishing. We achieve the best results including resolving any challenges smoothly without errors.</p>
                             </div>
                           </div>
                           <div class="col-lg-3 col-6">
@@ -332,8 +332,8 @@
                                 <i class="flaticon-construction-and-tools"></i>
                               </div>
                               <h3 class="why-us-card-title">Trained Human Resources</h3>
-                              <p class="why-us-card-short-description">Over years, we built great teams, for sales, customer care, production & installing (WTF), buildi...</p>
-                              <p class="why-us-card-description">Over years, we built great teams, for sales, customer care, production & installing (WTF), building such great, trained, and creative teams don't happen in a couple of years, it took so much time and effort</p>
+                              <p class="why-us-card-short-description">Over the years we built great teams for sales, customer care, production & installation, buildi...</p>
+                              <p class="why-us-card-description">Over the years we built great teams for sales, customer care, production & installation. Building such well-trained and creative professionals doesn't happen in a couple of years, it took so much time and effort</p>
                             </div>
                           </div>
                           <div class="col-lg-3 col-6">
@@ -362,8 +362,8 @@
                                 <i class="flaticon-moisture-wicking-fabric"></i>
                               </div>
                               <h3 class="why-us-card-title">Moisture Free</h3>
-                              <p class="why-us-card-short-description">All our wood are moisture free, we don't depend on air drying, we have our WTF dryers to ensure...</p>
-                              <p class="why-us-card-description">All our wood are moisture free, we don't depend on air drying, we have our WTF dryers to ensure wood humidity level before manufacturing, as humidity is the most important factor affecting your final product</p>
+                              <p class="why-us-card-short-description">All our wood is moisture-free, we don't depend on air drying as we have our own kiln dryers to ensure...</p>
+                              <p class="why-us-card-description">All our wood is moisture-free, we don't depend on air drying as we have our own kiln dryers to ensure wood humidity level before manufacturing. As humidity is the most important factor affecting your final product, this is a critical process that we ensure is done successfully.</p>
                             </div>
                           </div>
                           <div class="col-lg-3 col-6">
@@ -412,8 +412,8 @@
                                 <i class="flaticon-log"></i>
                               </div>
                               <h3 class="why-us-card-title">Anti-Scratch</h3>
-                              <p class="why-us-card-short-description">Some of our finishes are scratch resistance, like WTF finish for wood floors & polyethylene finishes for kitchens ..</p>
-                              <p class="why-us-card-description">Some of our finishes are scratch resistance, like WTF finish for wood floors & polyethylene finishes for kitchens, also HPI high-pressure laminate is an anti scratch boards we use for kitchens & dressing rooms.</p>
+                              <p class="why-us-card-short-description">Some of our finishes are scratch-resistant, such as UV-finish for wood floors & polyethylene finishes for kitchens ..</p>
+                              <p class="why-us-card-description">Some of our finishes are scratch-resistant, such as UV-finish for wood floors & polyethylene finishes for kitchens. We also use HPI high-pressure laminate as anti scratch boards for kitchens & dressing rooms.</p>
                             </div>
                           </div>
                           <div class="col-lg-3 col-6">
@@ -483,7 +483,7 @@
                               </div>
                               <h3 class="why-us-card-title">Custom Designs</h3>
                               <p class="why-us-card-short-description">We do any custom designs, in addition to our wide variety of pre-made designs, we also accept...</p>
-                              <p class="why-us-card-description">We do any custom designs, in addition to our wide variety of pre-made designs, we also accept either editing previous designs or WTF customer's new one .</p>
+                              <p class="why-us-card-description">We do any custom designs, in addition to our wide variety of pre-made designs. We also accept either editing existing designs or creating new ones.</p>
                             </div>
                           </div>
                         </div>

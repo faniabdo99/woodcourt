@@ -111,14 +111,20 @@
         font-size: 0.8em !important;
         text-align: left;
         border-radius: 4px;
-        background-color: #fff;
+        background-color: rgba(0,0,0,0.5);
         padding: 10px;
         border-radius: 4px;
-        color: $black !important;
+        color: #fff !important;
         height: 150px;
         transition: all ease 0.3s;
       }
       &:hover{
+        .why-us-card-title{
+          display: none;
+        }
+        .why-us-card-short-description{
+          display: none;
+        }
         .why-us-icon-container{
           opacity: 0;
           transition: all ease 0.3s;
