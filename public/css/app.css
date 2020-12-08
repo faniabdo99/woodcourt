@@ -27,7 +27,7 @@ a:hover {
 }
 /* ============ Pages ============ */
 #contact-us-hero {
-  background: url("../images/contact-us-hero.jpg") no-repeat center center;
+  background: url("../images/heros/contact-us.jpg") no-repeat center center;
   background-size: cover;
 }
 #contact-us-hero .dark-overlap {
@@ -715,18 +715,19 @@ a:hover {
 #homepage-cta {
   background: url("../images/heros/why-us.jpg") no-repeat center center;
   background-size: cover;
+  height: 500px;
+  overflow-y: scroll;
 }
 #homepage-cta .dark-overlap {
-  padding: 100px 0;
+  padding: 30px 0;
   background: rgba(0, 0, 0, 0.5);
-  height: 100%;
   width: 100%;
   text-align: center;
 }
 #homepage-cta .dark-overlap h2 {
   color: #fff;
   font-size: 5em;
-  margin-bottom: 25px;
+  margin-bottom: 55px;
 }
 #homepage-cta .dark-overlap p {
   color: #fff;
@@ -739,6 +740,63 @@ a:hover {
 }
 #homepage-cta.homepage-video-cta .dark-overlap {
   padding-top: 160px;
+}
+#homepage-cta .why-us-card {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 4px;
+  max-height: 150px;
+  margin-bottom: 100px;
+  transition: all ease 0.3s;
+}
+#homepage-cta .why-us-card .why-us-icon-container {
+  margin: -45px auto 15px auto;
+  display: block;
+  background: #0D8287;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  transition: all ease 0.3s;
+}
+#homepage-cta .why-us-card .why-us-card-title {
+  color: #fff;
+  font-size: 1.3em;
+  text-align: center;
+}
+#homepage-cta .why-us-card .why-us-card-short-description {
+  max-height: 50px;
+  margin-top: 15px;
+  font-size: 0.8em;
+  text-align: left;
+}
+#homepage-cta .why-us-card .why-us-card-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 0.8em !important;
+  text-align: left;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  color: #333333 !important;
+  height: 180px;
+  overflow-y: scroll;
+  transition: all ease 0.3s;
+}
+#homepage-cta .why-us-card:hover .why-us-icon-container {
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+#homepage-cta .why-us-card:hover .why-us-card-description {
+  opacity: 1;
+  transition: all ease 0.3s;
 }
 
 #homepage-promotions {
@@ -905,7 +963,7 @@ a:hover {
   }
 }
 #about-us-hero-section {
-  background: url("../images/about-us-bg.jpg") no-repeat center center;
+  background: url("../images/heros/about-us.jpg") no-repeat center center;
   background-size: cover;
 }
 #about-us-hero-section .dark-overlap {
@@ -913,7 +971,7 @@ a:hover {
 }
 
 #contact-us-hero {
-  background: url("../images/contact-us-hero.jpg") no-repeat center center;
+  background: url("../images/heros/contact-us.jpg") no-repeat center center;
   background-size: cover;
 }
 #contact-us-hero .dark-overlap {
@@ -976,7 +1034,7 @@ a:hover {
 }
 
 #events-hero {
-  background: url("../images/about-us-bg.jpg") no-repeat center center;
+  background: url("../images/heros/events.jpg") no-repeat center center;
   background-size: cover;
 }
 #events-hero .dark-overlap {
@@ -1148,4 +1206,11 @@ a:hover {
   .login-form {
     width: 100%;
   }
+}
+#products-section {
+  background: url("../images/heros/products.jpg") no-repeat center center;
+  background-size: cover;
+}
+#products-section .dark-overlap {
+  padding: 15vh 5%;
 }
