@@ -518,8 +518,6 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="section-title mb-4">Our Products</h2>
-                    <p class="header-sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam tempor incididunt</p>
                     <div id="filters" class="button-group">
                         <button class="button is-checked" data-filter="*">All</button>
                         <button class="button" data-filter=".wood-flooring">Wood Flooring</button>
@@ -563,14 +561,11 @@
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <h2>We are the Wood Court</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p>Looking for a company to purchase your wood floors, kitchen, dressing room or pergolas?
                     </p>
-                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="mb-3">The Wood Court is servicing and supplying a vastly growing number of projects for business and private residences in Egypt since 1979. We provide quality work, and help you achieve the most effective improvement you can make for your home or business with reasonable and affordable prices.
                     </p>
-                    <a href="#" class="icon-button"><i class="fas fa-star"></i>About us</a>
+                    <a href="{{route('about')}}" class="icon-button"><i class="fas fa-star"></i>About us</a>
                 </div>
                 <div class="col-lg-6 col-12">
                     <img class="we-are-the-wood-court-image" src="{{url('public')}}/images/about-us-descrition.jpg" alt="the alt here">
@@ -579,7 +574,7 @@
 
         </div>
     </section>
-    <section class="testimonials-section">
+    <section class="testimonials-section" id="about-us-testimonials">
         <div class="dark-overlap">
             <div class="container">
                 <div class="row">
@@ -588,62 +583,51 @@
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme full-width-carousel">
-                    <div class="row slide">
-                      <div class="col-lg-4 col-12">
-                          <img class="user-image" src="https://scontent.fcai19-2.fna.fbcdn.net/v/t31.0-1/c47.14.173.172a/p200x200/172356_10150150320216508_6180317_o.jpg?_nc_cat=107&ccb=2&_nc_sid=7206a8&_nc_eui2=AeF714H-4-VnSs78kBgzLtV5K7M7johAC20rszuOiEALbURgI9XPxwBGQ5tH_lvs--aSOBOBYLQAU6HoQivs-E6p&_nc_ohc=griOnXIMKHIAX_aSmd7&_nc_ht=scontent.fcai19-2.fna&tp=27&oh=46adb4f80f13147af56ac65356dd21dd&oe=5FE6C96E" alt="Ahamd Elsayeed">
-                          <h4 class="user-name">Ahmed Elsayeed</h4>
+                  <div class="row slide">
+                    <div class="col-lg-4 col-12">
+                      <img class="user-image" src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/1656190_10202827701874809_2086136297_n.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGaCL7bffawea6qicjZt7bPssM1MhgU1CCywzUyGBTUIJms3asgl_fod2bIGJEAVM1vp-KfeFhUzCl-RovzRNh_&_nc_ohc=2hkg4DRfdsEAX8MgvtO&_nc_ht=scontent.fcai19-2.fna&oh=b1aa60e2ff2958cd3346c9dc4a2cd9fd&oe=5FF3E24F" alt="Nermeen Farouk Gamea">
+                      <h4 class="user-name">Nermeen Farouk Gamea</h4>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="testimonial-content">
+                          <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                          <h3>This a company you can trust</h3>
+                          <p>From quality of product, punctuality in timing an excellent service and most of all the care for thier customers. Very good value for money and professional advices that can help you in making good decisions for your home within your budget</p>
+                        </div>
+                        <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
+                    </div>
+                  </div>
+                  <div class="row slide">
+                    <div class="col-lg-4 col-12">
+                        <img class="user-image" src="https://scontent.fcai19-2.fna.fbcdn.net/v/t31.0-1/c47.14.173.172a/p200x200/172356_10150150320216508_6180317_o.jpg?_nc_cat=107&ccb=2&_nc_sid=7206a8&_nc_eui2=AeF714H-4-VnSs78kBgzLtV5K7M7johAC20rszuOiEALbURgI9XPxwBGQ5tH_lvs--aSOBOBYLQAU6HoQivs-E6p&_nc_ohc=griOnXIMKHIAX_aSmd7&_nc_ht=scontent.fcai19-2.fna&tp=27&oh=46adb4f80f13147af56ac65356dd21dd&oe=5FE6C96E" alt="Ahamd Elsayeed">
+                        <h4 class="user-name">Ahmed Elsayeed</h4>
+                    </div>
+                      <div class="col-lg-8 col-12">
+                          <div class="testimonial-content">
+                              <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                              <h3>Understanding for customer requirements</h3>
+                              <p>The Wood Court is a trusted and professional company
+                                Understanding for customer requirements
+                                It was great to meet and know most of the Team who work their
+                                Special thanks to  Ayman and Ahmed Zahran for being so keen to deliver the best quality to ensure customer satisfaction</p>
+                          </div>
+                          <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                       </div>
-                        <div class="col-lg-8 col-12">
-                            <div class="testimonial-content">
-                                <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
-                                <h3>Understanding for customer requirements</h3>
-                                <p>The Wood Court is a trusted and professional company
-                                  Understanding for customer requirements
-                                  It was great to meet and know most of the Team who work their
-                                  Special thanks to  Ayman and Ahmed Zahran for being so keen to deliver the best quality to ensure customer satisfaction</p>
-                            </div>
-                            <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
-                        </div>
+                  </div>
+                  <div class="row slide">
+                    <div class="col-lg-4 col-12">
+                      <img class="user-image" src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/118886354_10164437672405012_8425323246923185985_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEd_NjeInee9KCPzguoMCFRbG2gr-QiG35sbaCv5CIbfmS4YpuwFevi0YcU6ZHUTJaa4LJk_XN603Id5DIFE2e4&_nc_ohc=kTTfGfx9pNwAX-82tsW&_nc_ht=scontent.fcai19-2.fna&oh=b08cd2f742cefdb96ce3bf4912b0f7f2&oe=5FF43AF7" alt="Nour El Hoda Moghazy">
+                      <h4 class="user-name">Nour El Hoda Moghazy</h4>
                     </div>
-                    <div class="row slide">
-                        <div class="col-lg-4 col-12">
-                            <img class="user-image" src="https://scontent.fcai19-2.fna.fbcdn.net/v/t31.0-1/c47.14.173.172a/p200x200/172356_10150150320216508_6180317_o.jpg?_nc_cat=107&ccb=2&_nc_sid=7206a8&_nc_eui2=AeF714H-4-VnSs78kBgzLtV5K7M7johAC20rszuOiEALbURgI9XPxwBGQ5tH_lvs--aSOBOBYLQAU6HoQivs-E6p&_nc_ohc=griOnXIMKHIAX_aSmd7&_nc_ht=scontent.fcai19-2.fna&tp=27&oh=46adb4f80f13147af56ac65356dd21dd&oe=5FE6C96E" alt="Ahamd Elsayeed">
-                            <h4 class="user-name">Ahmed Elsayeed</h4>
-                            <p class="user-job-title">Digital Marketer Special Guy some long stuff here</p>
+                    <div class="col-lg-8 col-12">
+                        <div class="testimonial-content">
+                          <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                          <h3>Thank You!</h3>
+                          <p>We would like to thank Wood court for their professionalism, accountability and high quality outcome. We are glad that we had the opportunity to deal with them in implementing our wonderful staircase. Thanx a lot 🙂</p>
                         </div>
-                        <div class="col-lg-8 col-12">
-                            <div class="testimonial-content">
-                                <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
-                                <h3>This Product is Awesome!</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                    anim id est laborum.</p>
-                            </div>
-                            <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
-                        </div>
+                        <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                     </div>
-                    <div class="row slide">
-                        <div class="col-lg-4 col-12">
-                            <img class="user-image" src="https://placehold.it/200x200" alt="person name">
-                            <h4 class="user-name">person name goes here</h4>
-                            <p class="user-job-title">Digital Marketer Special Guy some long stuff here</p>
-                        </div>
-                        <div class="col-lg-8 col-12">
-                            <div class="testimonial-content">
-                                <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
-                                <h3>This Product is Awesome!</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                    anim id est laborum.</p>
-                            </div>
-                            <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-12 text-center">
-                        <a href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank" class="icon-button"><i class="fab fa-facebook"></i> More Reviews</a>
-                    </div>
+                  </div>
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
             <div class="row">
               <div class="col-lg-7 col-12">
                 <h1>Contact Us</h1>
-                <p class="mb-5">The Leaders in wood industry</p>
+                <p class="mb-5">The Leaders in Wood Industry</p>
               </div>
               <div class="col-12 col-lg-5 hero-section-content">
                 <div class="social-media-hero">
@@ -41,7 +41,7 @@
                         <li>
                             <i class="fas fa-phone"></i>
                             <span>
-                                <a href="https://api.whatsapp.com/send?phone=201117571111">011 1757 1111</a>
+                                <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a>
                             </span>
                         </li>
                         <li>

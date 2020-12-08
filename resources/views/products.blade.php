@@ -1,10 +1,10 @@
-@include('layout.header', ['PageTitle' => 'Very Cool Site'])
+@include('layout.header', ['PageTitle' => 'Products'])
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="products-section">
         <div class="dark-overlap">
             <h1>Our Products</h1>
-            <p>Leaders in wood industry</p>
+            <p>The Leaders in Wood Industry</p>
         </div>
     </section>
     <section id="our-products">
@@ -12,8 +12,6 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="section-title mb-4">Our Products</h2>
-                    <p class="header-sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam tempor incididunt</p>
                     <div id="filters" class="button-group">
                         <button class="button is-checked" data-filter="*">All</button>
                         <button class="button" data-filter=".wood-flooring">Wood Flooring</button>

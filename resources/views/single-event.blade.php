@@ -1,4 +1,4 @@
-@include('layout.header', ['PageTitle' => 'Contact Us'])
+@include('layout.header', ['PageTitle' => $TheEvent->title])
 <body>
     @include('layout.navbar')
     <section class="single-event-article">
