@@ -1,4 +1,4 @@
-@include('layout.header', ['PageTitle' => 'Very Cool Site'])
+@include('layout.header', ['PageTitle' => 'Living in Comfort'])
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="homepage-hero-section">
@@ -9,7 +9,7 @@
                         <div class="row">
                             <div class="text-center col-12">
                                 <h2>Kitchens</h2>
-                                <p class="mb-5">The Leaders in wood industry</p>
+                                <p class="mb-5">Living in Comfort</p>
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
                                 <a href="{{route('products')}}" class="text-white">Our Products</a>
                             </div>
@@ -23,7 +23,7 @@
                         <div class="row">
                             <div class="text-center col-12">
                                 <h2>Tiles</h2>
-                                <p class="mb-5">The Leaders in wood industry</p>
+                                <p class="mb-5">Living in Comfort</p>
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
                                 <a href="{{route('products')}}" class="text-white">Our Products</a>
                             </div>
@@ -37,7 +37,7 @@
                         <div class="row">
                             <div class="text-center col-12">
                                 <h2>Stairs</h2>
-                                <p class="mb-5">The Leaders in wood industry</p>
+                                <p class="mb-5">Living in Comfort</p>
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
                                 <a href="{{route('products')}}" class="text-white">Our Products</a>
                             </div>
@@ -51,7 +51,7 @@
                         <div class="row d-flex justify-content-center align-items-center">
                             <div class="text-center col-12">
                                 <h2>Outdoor</h2>
-                                <p class="mb-5">The Leaders in wood industry</p>
+                                <p class="mb-5">Living in Comfort</p>
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
                                 <a href="{{route('products')}}" class="text-white">Our Products</a>
                             </div>
@@ -466,7 +466,7 @@
                               <p class="why-us-card-description">Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to support and solve problems.</p>
                             </div>
                           </div>
-                          <div class="col-lg-3 col-6">
+                          <div class="col-lg-3 offset-lg-3 col-6">
                             <div class="why-us-card">
                               <div class="why-us-icon-container">
                                 <i class="flaticon-green-earth"></i>

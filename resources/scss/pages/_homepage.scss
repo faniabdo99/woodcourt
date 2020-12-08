@@ -105,8 +105,8 @@
       .why-us-card-description{
         position: absolute;
         top: 0;
-        left: 0;
-        right: 0;
+        left: 15px;
+        right: 15px;
         opacity: 0;
         font-size: 0.8em !important;
         text-align: left;
@@ -119,6 +119,9 @@
         transition: all ease 0.3s;
       }
       &:hover{
+          background-color: rgba(0,0,0,0);
+          height: 100%;
+          max-height: 150px;
         .why-us-card-title{
           display: none;
         }
@@ -127,6 +130,7 @@
         }
         .why-us-icon-container{
           opacity: 0;
+          display: none;
           transition: all ease 0.3s;
         }
         .why-us-card-description{

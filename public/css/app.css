@@ -590,7 +590,7 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .hero-section .dark-overlap h1 {
+  .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
     text-align: center;
   }
@@ -781,8 +781,8 @@ a:hover {
 #homepage-cta .why-us-card .why-us-card-description {
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 15px;
+  right: 15px;
   opacity: 0;
   font-size: 0.8em !important;
   text-align: left;
@@ -794,6 +794,11 @@ a:hover {
   height: 150px;
   transition: all ease 0.3s;
 }
+#homepage-cta .why-us-card:hover {
+  background-color: rgba(0, 0, 0, 0);
+  height: 100%;
+  max-height: 150px;
+}
 #homepage-cta .why-us-card:hover .why-us-card-title {
   display: none;
 }
@@ -802,6 +807,7 @@ a:hover {
 }
 #homepage-cta .why-us-card:hover .why-us-icon-container {
   opacity: 0;
+  display: none;
   transition: all ease 0.3s;
 }
 #homepage-cta .why-us-card:hover .why-us-card-description {
