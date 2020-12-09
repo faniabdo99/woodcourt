@@ -75,6 +75,15 @@
                         background-color: #28c362;
                     }
                 }
+                &.instagram-li{
+                  background: linear-gradient(90deg, rgba(138,58,185,1) 0%, rgba(188,42,141,1) 40%, rgba(233,89,80,1) 100%);
+                  background-color: #bc2a8d;
+                  &:hover {
+                      transition: all ease 0.3s;
+                      background: linear-gradient(180deg, rgba(138,58,185,1) 0%, rgba(188,42,141,1) 40%, rgba(233,89,80,1) 100%);
+                      background-color: #bc2a8d;
+                  }
+                }
 
                 &.email-li {
                     background-color: $black;
@@ -200,6 +209,14 @@
         background: darken($brand , 10);
         transition: all ease 0.3s;
     }
+}
+.youtube-button{
+  background: #c30404;
+  transition: all ease 0.3s;
+  &:hover{
+    background: #db1c1c;
+    transition: all ease 0.3s;
+  }
 }
 .section-title {
     position: relative;
@@ -340,7 +357,53 @@
     font-size: 1.3em;
   }
 }
+.our-achievements{
+  height: 400px;
+  background: url('../images/about-us-bg.jpg') center center no-repeat;
+  background-size: cover;
+  .dark-overlap{
+    padding: 50px 0;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    .section-heading{
+      color: #fff;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .single-counter-item{
+      background-color: rgba(0,0,0,0.5);
+      margin: auto;
+      text-align: center;
+      padding: 15px;
+      border-radius: 4px;
+      .icon-container{
+        width: 75px;
+        height: 75px;
+        background: $brand;
+        border-radius: 50%;
+        margin: 0 auto 15px auto;
+        text-align: center;
+        padding-top: 15px;
+        i{
+          font-size: 3em;
+          color: #fff;
+        }
+      }
+      .content-container{
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 1.5em;
+        color: #fff;
+        p{
+          font-size: 2em;
+        }
+      }
 
+    }
+  }
+
+}
 //Mobile Version of the components
 @media screen and (max-width: 768px) {
     .hero-section {

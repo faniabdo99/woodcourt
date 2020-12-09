@@ -5,7 +5,11 @@
     background-color: $brand;
     display: flex;
     align-items: center;
+    // justify-content: space-between;
     padding: 0 75px;
+    .row{
+      flex:1;
+    }
     ul {
         flex: 0.7;
         margin: 0 0 0 auto;

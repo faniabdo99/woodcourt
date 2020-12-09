@@ -2,6 +2,7 @@
 <script src="{{url('public')}}/js/jquery.min.js"></script>
 <script src='//imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
 <script src="{{url('public')}}/js/isotope.min.js"></script>
+<script src="{{url('public')}}/js/countto.js"></script>
 <script src="{{url('public')}}/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 @if(strpos(url()->current(), 'admin'))

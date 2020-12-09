@@ -16,6 +16,7 @@
                   <p>Find Us On Social Media</p>
                   <ul>
                     <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                    <li class="instagram-li"><a href="https://www.instagram.com/thewoodcourt/" target="_blank "><i class="fab fa-instagram"></i> <span>@thewoodcourt</span></a></li>
                     <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a></li>
                     <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
                   </ul>
@@ -41,14 +42,17 @@
                         <li>
                             <i class="fas fa-phone"></i>
                             <span>
-                                <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a>
+                              <span><b>Showroom: </b><a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a><a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a></span>
+                              <span><b>Factory: </b><a href="https://api.whatsapp.com/send?phone=201159111179">0115 911 1179</a></span>
                             </span>
                         </li>
                         <li>
                             <i class="fas fa-map-marker"></i>
                             <span>
-                                <a target="_blank" href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en">81
-                                    El-Hussein St, Dokki, Giza Governorate</a>
+                              <b>Showroom</b>
+                                <a target="_blank" href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en">81 El-Hussein St, Dokki, Giza Governorate</a>
+                              <b>Factory</b>
+                              <a target="_blank" href="https://goo.gl/maps/rdGPAq8g96U22XQr6">Piece 37/48, Industrial Zone Abo Rawash, Cairo, Alex Desert Road</a>
                             </span>
                         </li>
                     </ul>
@@ -89,8 +93,8 @@
           </div>
           <div class="col-lg-6 col-12">
             <h2>Factory</h2>
-            <p>Al Giza Desert, Giza Governorate</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13808.774158433253!2d31.048808!3d30.088643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9009e055808b4566!2swoodcourt!5e0!3m2!1sen!2seg!4v1605790659564!5m2!1sen!2seg" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p>Piece 37/48, Industrial Zone Abo Rawash, Cairo, Alex Desert Road</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13808.774158433253!2d31.048808!3d30.088643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9009e055808b4566!2swoodcourt!5e0!3m2!1sen!2seg!4v1605790659564!5m2!1sen!2seg" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
         </div>
       </div>

@@ -18,5 +18,5 @@
     <link rel="stylesheet" href="{{url('public')}}/css/app.css">
     <link rel="stylesheet" href="{{url('public')}}/css/flaticon.css">
     <link rel="shortcut icon" href="{{url('public')}}/images/favicon.png" />
-    <title>The Wood Court - {{$PageTitle ?? 'Living in Comfort'}}</title>
+    <title>The Wood Court - {{$PageTitle ?? 'Kitchen, Floor ... and More'}}</title>
   </head>

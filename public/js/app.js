@@ -97,15 +97,6 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
-//Homepage Cards
-// $('.why-us-card').click(function(){
-//   $(this).fadeOut('fast');
-//   $(this).next('.why-us-card-description').fadeIn('fast');
-// });
-// $('.why-us-card-description').click(function(){
-//   $(this).fadeIn('fast');
-//   $(this).next('.why-us-card-description').fadeOut('fast');
-// });
 //Owl Carousel Options
 $('.full-width-carousel').owlCarousel({
   singleItem: true,
@@ -165,8 +156,101 @@ $('.three-items-carousel').owlCarousel({
       items: 3
     }
   }
-}); // init Isotope
-// init Isotope
+}); //Homepage Categories Filters
+
+$('.sub-categories-list li').click(function () {
+  $('.sub-categories-list li').removeClass('active');
+  $(this).addClass('active');
+  $('.category-images-list').removeClass('active');
+  $('#' + $(this).data('target')).addClass('active');
+}); //Homepage Video Call to Action
+
+$('#homepage-play-video-1,#homepage-play-video-2').click(function () {
+  if ($(this).attr('id') == 'homepage-play-video-1') {
+    $('body').append("\n    <div class=\"full-width-video\">\n    Video One\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } else if ($(this).attr('id') == 'homepage-play-video-2') {
+    $('body').append("\n    <div class=\"full-width-video\">\n    Video Two\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } //Insert the elemnt into the dom
+
+
+  $(document).on('click', '#video-close-button , .full-width-video', function (e) {
+    $('.full-width-video').remove();
+    $('body').css('overflow-y', 'scroll');
+  });
+});
+$(window).scroll(function () {
+  var top_of_element = $(".our-achievements").offset().top;
+  var bottom_of_element = $(".our-achievements").offset().top + $(".our-achievements").outerHeight();
+  var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+  var top_of_screen = $(window).scrollTop();
+
+  if (bottom_of_screen > top_of_element && top_of_screen < bottom_of_element) {
+    $('.counter').countTo();
+  } else {// Hold
+  }
+}); //Contact Form Submit
+
+$('#submit-contact-form').click(function (e) {
+  //Change to loading state
+  e.preventDefault();
+  $(this).html('<i class="fas fa-spinner fa-spin"></i> Send');
+  $('.response-message').remove();
+  var ActionRoute = $(this).data('target');
+  var Data = $(this).parent().parent().parent().serialize();
+  var That = $(this);
+  $.ajax({
+    method: 'POST',
+    url: ActionRoute,
+    data: Data,
+    success: function success(response) {
+      $('<p class="response-message text-success mb-0 mt-3">' + response + '</p>').insertAfter(That);
+      That.html('<i class="fas fa-paper-plane"></i> Send');
+    },
+    error: function error(response) {
+      $('<p class="response-message text-danger mb-0 mt-3">' + response.responseText + '</p>').insertAfter(That);
+      That.html('<i class="fas fa-paper-plane"></i> Send');
+    }
+  });
+}); //Back to top
+//Show the Back to Top Button
+
+$(window).scroll(function () {
+  var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+
+  if (scrollPercent > 60) {
+    //Show the Button after 50% of the page
+    $("#back-to-top").css('right', '50px').css('transition', 'all ease .6s');
+  } else {
+    $("#back-to-top").css('right', '-100px').css('transition', 'all ease .6s');
+  }
+}); //Back to top action
+
+$("#back-to-top").click(function () {
+  $("body,html").animate({
+    scrollTop: 0
+  }, 800);
+}); //Disable Right Click on Images
+
+$("img").on("contextmenu", function () {
+  return false;
+});
+$('[data-fancybox]').fancybox({
+  toolbar: true,
+  smallBtn: true,
+  loop: true,
+  protect: true,
+  iframe: {
+    preload: false
+  },
+  buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"]
+}); //Data Tables
+// $('#data-table').DataTable({
+//    dom: 'Bfrtip',
+//    buttons: [
+//        { extend: 'copy', text: '<i class="fas fa-copy"></i> Copy to clipboard', className: "datatables-button copy-content"},
+//        { extend: 'excel', text: '<i class="fas fa-file-excel"></i> Export to Excel', className: "datatables-button excel-export"}
+//    ]
+// });
 
 var $container = $('.products-isotope').isotope({
   itemSelector: '.single-product',
@@ -239,85 +323,7 @@ $('#filters').on('click', 'button', function () {
   $container.isotope({
     filter: filterValue
   });
-}); //Homepage Categories Filters
-
-$('.sub-categories-list li').click(function () {
-  $('.sub-categories-list li').removeClass('active');
-  $(this).addClass('active');
-  $('.category-images-list').removeClass('active');
-  $('#' + $(this).data('target')).addClass('active');
-}); //Homepage Video Call to Action
-
-$('#homepage-play-video').click(function () {
-  //Insert the elemnt into the dom
-  $('body').append("\n    <div class=\"full-width-video\">\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
-  $(document).on('click', '#video-close-button , .full-width-video', function (e) {
-    $('.full-width-video').remove();
-    $('body').css('overflow-y', 'scroll');
-  });
-}); //Contact Form Submit
-
-$('#submit-contact-form').click(function (e) {
-  //Change to loading state
-  e.preventDefault();
-  $(this).html('<i class="fas fa-spinner fa-spin"></i> Send');
-  $('.response-message').remove();
-  var ActionRoute = $(this).data('target');
-  var Data = $(this).parent().parent().parent().serialize();
-  var That = $(this);
-  $.ajax({
-    method: 'POST',
-    url: ActionRoute,
-    data: Data,
-    success: function success(response) {
-      $('<p class="response-message text-success mb-0 mt-3">' + response + '</p>').insertAfter(That);
-      That.html('<i class="fas fa-paper-plane"></i> Send');
-    },
-    error: function error(response) {
-      $('<p class="response-message text-danger mb-0 mt-3">' + response.responseText + '</p>').insertAfter(That);
-      That.html('<i class="fas fa-paper-plane"></i> Send');
-    }
-  });
-}); //Back to top
-//Show the Back to Top Button
-
-$(window).scroll(function () {
-  var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
-
-  if (scrollPercent > 60) {
-    //Show the Button after 50% of the page
-    $("#back-to-top").css('right', '50px').css('transition', 'all ease .6s');
-  } else {
-    $("#back-to-top").css('right', '-100px').css('transition', 'all ease .6s');
-  }
-}); //Back to top action
-
-$("#back-to-top").click(function () {
-  $("body,html").animate({
-    scrollTop: 0
-  }, 800);
-}); //Disable Right Click on Images
-
-$("img").on("contextmenu", function () {
-  return false;
 });
-$('[data-fancybox]').fancybox({
-  toolbar: true,
-  smallBtn: true,
-  loop: true,
-  protect: true,
-  iframe: {
-    preload: false
-  },
-  buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"]
-}); //Data Tables
-// $('#data-table').DataTable({
-//    dom: 'Bfrtip',
-//    buttons: [
-//        { extend: 'copy', text: '<i class="fas fa-copy"></i> Copy to clipboard', className: "datatables-button copy-content"},
-//        { extend: 'excel', text: '<i class="fas fa-file-excel"></i> Export to Excel', className: "datatables-button excel-export"}
-//    ]
-// });
 
 /***/ }),
 
