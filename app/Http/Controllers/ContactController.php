@@ -33,13 +33,13 @@ class ContactController extends Controller{
         $TheMessageSheetData = $r->all();
         $TheMessageSheetData['form_location'] = 'Contact Us Page';
         Sheets::spreadsheet('1Q0_PmHIfx5VH4xP5uDUOime2fkHHAKWF1dshyyUmXFQ')->sheet('ContactUs')->append([$TheMessageSheetData]);
+        return response('Message Sent!' , 200);
         //Send the message
-        Mail::to('info@thewoodcourt.com')->send(new ContactUsMail($r->all()));
-        if( count(Mail::failures()) > 0 ) {
-          return response('Something Went Wrong! Please Try Again' , 500);
-        }else{
-          return response('Message Sent!' , 200);
-        }
+        // Mail::to('info@thewoodcourt.com')->send(new ContactUsMail($r->all()));
+        // if( count(Mail::failures()) > 0 ) {
+        //   return response('Something Went Wrong! Please Try Again' , 500);
+        // }else{
+        // }
       }
     }
     public function postLimitedEdition(Request $r){
