@@ -5,6 +5,7 @@ Route::get('/home', 'PagesController@getHome')->name('home');
 Route::get('about-us' , 'PagesController@getAboutUs')->name('about');
 Route::get('our-factory' , 'PagesController@getOurFactory')->name('factory');
 Route::get('contact' , 'ContactController@getContact')->name('contact');
+Route::post('contact-limited-edition' , 'ContactController@postLimitedEdition')->name('contactLimitedEdition');
 Route::get('products' , 'PagesController@getProductsPage')->name('products');
 Route::prefix('events')->group(function(){
   Route::get('/' , 'EventsController@getUserHome')->name('events');

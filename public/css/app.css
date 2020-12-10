@@ -657,6 +657,92 @@ a:hover {
   font-size: 2em;
 }
 
+.products-list {
+  padding: 200px 0;
+  margin-bottom: 150px;
+}
+.products-list ul {
+  list-style: none;
+}
+.products-list ul li .item-flag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+.products-list ul li .item-flag.limited {
+  background-color: #d2ac36;
+  color: #fff;
+}
+.products-list ul li .item-flag.new {
+  background-color: #48a917;
+  color: #fff;
+}
+.products-list ul li .item-flag.sale {
+  background-color: #ce4949;
+  color: #fff;
+}
+.products-list ul li img {
+  width: 100%;
+  height: 250px;
+}
+.products-list ul li .content-container {
+  background-color: #F1F1F1;
+  padding: 10px;
+}
+.products-list ul li .content-container h3 {
+  color: #0D8287;
+  font-size: 1.3em;
+}
+.products-list ul li .content-container p {
+  color: #333333;
+  line-height: 2em;
+  font-size: 0.9em;
+}
+.products-list ul li .content-container .place-order-button {
+  display: block;
+  font-size: 0.9em;
+  background-color: #42b268;
+  padding: 10px 25px;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+}
+.products-list .owl-nav {
+  position: relative;
+  margin-top: -15%;
+  display: flex;
+}
+.products-list .owl-nav button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.3em;
+}
+.products-list .owl-nav button.owl-prev {
+  position: absolute;
+  left: -100px;
+  background: #0D8287;
+  color: #fff;
+  border-radius: 50%;
+}
+.products-list .owl-nav button.owl-next {
+  position: absolute;
+  right: -100px;
+  background: #0D8287;
+  color: #fff;
+  border-radius: 50%;
+}
+.products-list input[type=submit] {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  font-size: 0.9em;
+}
+
 @media screen and (max-width: 768px) {
   .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
@@ -884,7 +970,6 @@ a:hover {
 }
 
 #homepage-promotions {
-  padding: 100px 0;
   position: relative;
 }
 #homepage-promotions #homepage-promotions-artistic-touch {
@@ -895,34 +980,6 @@ a:hover {
   height: 200px;
   width: auto;
   transform: rotate(90deg);
-}
-#homepage-promotions ul {
-  list-style: none;
-}
-#homepage-promotions ul img {
-  width: 100%;
-  height: 250px;
-}
-#homepage-promotions .owl-nav {
-  position: relative;
-  margin-top: -15%;
-  display: flex;
-}
-#homepage-promotions .owl-nav button {
-  width: 40px;
-  height: 40px;
-  background: #0D8287;
-  border-radius: 50%;
-  color: #fff;
-  font-size: 1.3em;
-}
-#homepage-promotions .owl-nav button.owl-prev {
-  position: absolute;
-  left: -100px;
-}
-#homepage-promotions .owl-nav button.owl-next {
-  position: absolute;
-  right: -100px;
 }
 
 #our-products {

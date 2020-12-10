@@ -595,152 +595,174 @@
             </div>
         </div>
     </section>
-    <section id="homepage-promotions">
+    <section class="products-list" id="homepage-promotions">
         <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h2 class="section-title mb-5">Limited Edition</h2>
                     <ul class="owl-carousel owl-theme three-items-carousel">
-                        <li class="item"><img src="{{url('public/')}}/images/collections/1.jpg" alt="Collections"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/collections/2.jpg" alt="Collections"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/collections/3.jpg" alt="Collections"></li>
-                        <li class="item"><img src="{{url('public/')}}/images/collections/4.jpg" alt="Collections"></li>
+                        <li class="item">
+                            <span class="item-flag limited">Limited</span>
+                            <img src="{{url('public/')}}/images/collections/1.jpg" alt="Collections">
+                            <div class="content-container">
+                                <h3>Item Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="@getbootstrap">Place Your Order</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span class="item-flag new">New</span>
+                            <img src="{{url('public/')}}/images/collections/1.jpg" alt="Collections">
+                            <div class="content-container">
+                                <h3>Item Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="@getbootstrap">Place Your Order</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span class="item-flag sale">20% Off</span>
+                            <img src="{{url('public/')}}/images/collections/1.jpg" alt="Collections">
+                            <div class="content-container">
+                                <h3>Item Title</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="Item Title">Place Your Order</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="row mt-lg-5 mt-0">
-                <div class="col-12 mt-lg-5 mt-0 text-center">
-                    <a class="icon-button mt-lg-5 mt-0" href="{{route('products')}}"> <i class="fas fa-star"></i> View All</a>
+        </div>
+        <div class="modal fade" id="PlaceOrderModal" tabindex="-1" role="dialog" aria-labelledby="PlaceOrderModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="PlaceOrderModalLabel">Place Your Order</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="{{route('contactLimitedEdition')}}" method="post" id="place-order-modal-form">
+                            @csrf
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Name:</label>
+                                <input type="text" name="name" class="form-control" placeholder="Please enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Email / Phone Number:</label>
+                                <input type="text" name="email" class="form-control" placeholder="Please enter your phone number or email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message: (Optional)</label>
+                                <textarea class="form-control" name="message" placeholder="Enter any additional details here"></textarea>
+                            </div>
+                            <input type="hidden" name="item_name">
+                            <input type="hidden" name="form_location" value="Limited Edition">
+                            <input class="icon-button" type="submit" value="Send Request">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    {{-- <section id="our-products">
+    <section class="homepage-videos-grid">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="section-title mb-4">Our Products</h2>
-                    <div id="filters" class="button-group">
-                        <button class="button is-checked" data-filter="*">All</button>
-                        <button class="button" data-filter=".wood-flooring">Wood Flooring</button>
-                        <button class="button" data-filter=".cabinets">Cabinets</button>
-                        <button class="button" data-filter=".outdoor">Outdoor</button>
+                <div class="col-lg-4 col-12">
+                    <div class="video-background-homepage" id="video-one">
+                        <img src="https://placehold.it/300x250" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
-                    <div class="products-isotope">
-                        <a class="single-product grid-sizer transition wood-flooring" href="{{url('public')}}/images/products/3.jpg" data-fancybox data-caption="Caption for single image">
-                            <img src="{{url('public')}}/images/products/3.jpg" alt="شمف فثءف" />
-                        </a>
-                        <a href="{{url('public')}}/images/products/5.jpg" data-fancybox="products" data-caption="Caption Here" class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/5.jpg" alt=""></a>
-                        <a href="{{url('public')}}/images/products/4.jpg" data-fancybox="products" data-caption="Caption Here" class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/4.jpg" alt=""></a>
-                        <a href="{{url('public')}}/images/products/2.jpg" data-fancybox="products" data-caption="Caption Here" class="single-product grid-sizer transition outdoor"><img src="{{url('public')}}/images/products/2.jpg" alt=""></a>
-                        <a href="{{url('public')}}/images/products/2.png" data-fancybox="products" data-caption="Caption Here" class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/2.png" alt=""></a>
-                        <a href="{{url('public')}}/images/products/1.jpg" data-fancybox="products" data-caption="Caption Here" class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/1.jpg" alt=""></a>
-                        <a href="{{url('public')}}/images/products/1.png" data-fancybox="products" data-caption="Caption Here" class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/1.png" alt=""></a>
-                        <a href="{{url('public')}}/images/products/3.png" data-fancybox="products" data-caption="Caption Here" class="single-product grid-sizer transition cabinets"><img src="{{url('public')}}/images/products/3.png" alt=""></a>
-                    </div>
-                    <div class="text-center mt-5">
-                        <a class="icon-button" href="{{route('products')}}"><i class="fas fa-star"></i> View More</a>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <h2>Video Title Here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a class="icon-button youtube-button" href="#"><i class="fab fa-youtube"></i> Watch on Yout Tube</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <h2>Video Title Here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a class="icon-button youtube-button" href="#"><i class="fab fa-youtube"></i> Watch on Yout Tube</a>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="video-background-homepage" id="video-one">
+                        <img src="https://placehold.it/300x250" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> --}}
-    <section class="homepage-videos-grid">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-12">
-            <div class="video-background-homepage" id="video-one">
-              <img src="https://placehold.it/300x250" alt="Video Thumb">
-              <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-12">
-              <h2>Video Title Here</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a class="icon-button youtube-button" href="#"><i class="fab fa-youtube"></i> Watch on Yout Tube</a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 col-12">
-              <h2>Video Title Here</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a class="icon-button youtube-button" href="#"><i class="fab fa-youtube"></i> Watch on Yout Tube</a>
-          </div>
-          <div class="col-lg-4 col-12">
-            <div class="video-background-homepage" id="video-one">
-              <img src="https://placehold.it/300x250" alt="Video Thumb">
-              <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <section class="our-achievements">
-      <div class="dark-overlap">
-        <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="section-heading">Our Achievements</h2>
-          </div>
+        <div class="dark-overlap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-heading">Our Achievements</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <div class="single-counter-item">
+                            <div class="icon-container">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="content-container">
+                                <span class="counter" data-from="25" data-to="1500" data-speed="1000" data-refresh-interval="50"></span>+<br>
+                                Premade<br>Designs
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="single-counter-item">
+                            <div class="icon-container">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="content-container">
+                                <span class="counter" data-from="25" data-to="3000" data-speed="1000" data-refresh-interval="50"></span>+<br>
+                                Customers & Projects
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="single-counter-item">
+                            <div class="icon-container">
+                                <i class="fas fa-chart-area"></i>
+                            </div>
+                            <div class="content-container">
+                                <span class="counter" data-from="25" data-to="2000" data-speed="1000" data-refresh-interval="50"></span>+<br>
+                                Square Meter<br>Per Year
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="single-counter-item">
+                            <div class="icon-container">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="content-container">
+                                <span class="counter" data-from="25" data-to="60" data-speed="1000" data-refresh-interval="50"></span>+<br>
+                                Trained Workers &<br>Engineers
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-6 col-lg-3">
-            <div class="single-counter-item">
-              <div class="icon-container">
-                <i class="fas fa-heart"></i>
-              </div>
-              <div class="content-container">
-                <span class="counter" data-from="25" data-to="1500" data-speed="1000" data-refresh-interval="50"></span>+<br>
-                Premade<br>Designs
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3">
-            <div class="single-counter-item">
-              <div class="icon-container">
-                <i class="fas fa-user-tie"></i>
-              </div>
-              <div class="content-container">
-                <span class="counter" data-from="25" data-to="3000" data-speed="1000" data-refresh-interval="50"></span>+<br>
-                Customers & Projects
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3">
-            <div class="single-counter-item">
-              <div class="icon-container">
-                <i class="fas fa-chart-area"></i>
-              </div>
-              <div class="content-container">
-                <span class="counter" data-from="25" data-to="2000" data-speed="1000" data-refresh-interval="50"></span>+<br>
-                Square Meter<br>Per Year
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-lg-3">
-            <div class="single-counter-item">
-              <div class="icon-container">
-                <i class="fas fa-users"></i>
-              </div>
-              <div class="content-container">
-                <span class="counter" data-from="25" data-to="60" data-speed="1000" data-refresh-interval="50"></span>+<br>
-                Trained Workers &<br>Engineers
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-
     </section>
     <section class="about-us-description" id="homepage-aboutus-section">
         <img id="homepage-about-artistic-touch" src="{{url('public')}}/images/wood-big-half.png" alt="wood-big-half">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>We are the Wood Court</h2>
+                    <h2>We are <span><img height="50" src="{{url('public')}}/images/logo-black.png"></span></h2>
                     <p>Looking for a company to purchase your wood floors, kitchen, dressing room or pergolas?
                     </p>
                     <p class="mb-3">The Wood Court is servicing and supplying a vastly growing number of projects for business and private residences in Egypt since 1979. We provide quality work, and help you achieve the most effective improvement

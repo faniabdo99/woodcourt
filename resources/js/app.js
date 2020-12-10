@@ -2,6 +2,10 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
+//Homepage
+$('.place-order-button').click(function(){
+    $('#place-order-modal-form').find('input[name="item_name"]').val($(this).data('name'));
+});
 //Owl Carousel Options
 $('.full-width-carousel').owlCarousel({
     singleItem: true,

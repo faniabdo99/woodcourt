@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>We are the Wood Court</h2>
+                    <h2>We are <span><img height="50" src="{{url('public')}}/images/logo-black.png" ></span></h2>
                     <p class="mb-3">The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution. </p>
                     <p class="mb-3">We launched our business in 1979 as a small workshop working to a total area of less than 300 square meters, in Sayeda Zainab district in Old Cairo, as the first specialized wood flooring company in Egypt. Within a
                         few years, the founder Mr. Adel Zahran succeeded in positioning The Wood Court as the market leader in wood flooring industry. Over the years, by means of hardwork and relentless innovation, The Wood Court has become the main
