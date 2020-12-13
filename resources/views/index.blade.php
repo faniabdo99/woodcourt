@@ -2,64 +2,110 @@
 
 <body>
     @include('layout.navbar')
-    <section class="hero-section" id="homepage-hero-section">
+    <section class="one hero-section" id="homepage-hero-section">
         <div class="owl-carousel full-width-carousel">
             <div>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="text-center col-lg-6 col-6">
+
+                            <div class="section1 col-lg-6 col-6">
+                              <img class="logo-img  " src="{{url('public')}}/images/logo-black.png" >
                                 <h2>Kitchens</h2>
-                                <p class="mb-5">Kitchen, Floor ... and More</p>
+                              <!--  <p class="mb-5">Kitchen, Floor ... and More</p> -->
+                                <p class="p-title" style="color:#0D8287">Products</p>
+                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
+
+
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="#" class="text-white">Our Products</a>
+                                <a href="#" class="another-botton ">Our Products</a>
+                                <div class="end-img w-50">
+                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
+                                </div>
                             </div>
+
                             <div id="slide-one" class="col-lg-6 col-12">
-                              Image here
+                                <div class="overlay ">
+                                    </div>
                             </div>
+
+
                         </div>
                     </div>
             </div>
-            <div id="slide-two">
-                <div class="dark-overlap">
+            <div>
+
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="text-center col-12">
+                            <div class="section1 col-lg-6 col-6">
+                                <img class="logo-img" src="{{url('public')}}/images/logo-black.png" alt="">
                                 <h2>Engineered Floors</h2>
-                                <p class="mb-5">Kitchen, Floor ... and More</p>
+
+                                <p class="p-title"  style="color:#0D8287">Products</p>
+                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                                <a href="#" class="another-botton ">Our Products</a>
+                                <div class="end-img w-50">
+                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
+                                </div>
+                            </div>
+                            <div id="slide-two" class="col-lg-6 col-12">
+                              <div class="overlay ">
+                                  </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
             </div>
-            <div id="slide-three">
-                <div class="dark-overlap">
+            <div>
+
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="text-center col-12">
+                            <div class="section1 col-lg-6 col-6">
+                                <img class="logo-img" src="{{url('public')}}/images/logo-black.png" alt="">
                                 <h2>Stairs</h2>
-                                <p class="mb-5">Kitchen, Floor ... and More</p>
+
+                                <p class="p-title"  style="color:#0D8287">Products</p>
+                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
+
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                                  <a href="#" class="another-botton ">Our Products</a>
+                                <div class="end-img w-50">
+                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
+                                </div>
+                            </div>
+                            <div id="slide-three" class="col-lg-6 col-12">
+                              <div class="overlay ">
+                                  </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
             </div>
-            <div id="slide-four">
-                <div class="dark-overlap">
+            <div>
+
                     <div class="container-fluid">
-                        <div class="row d-flex justify-content-center align-items-center">
-                            <div class="text-center col-12">
+                        <div class="row">
+                            <div class="section1 col-lg-6 col-6">
+                                <img class="logo-img" src="{{url('public')}}/images/logo-black.png" alt="">
                                 <h2>Outdoor</h2>
-                                <p class="mb-5">Kitchen, Floor ... and More</p>
+
+
+                                <p class="p-title"  style="color:#0D8287">Products</p>
+                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
+
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                                <a href="#" class="another-botton ">Our Products</a>
+                                <div class="end-img w-50">
+                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
+                                </div>
+                            </div>
+                            <div id="slide-four" class="col-lg-6 col-12">
+                              <div class="overlay ">
+                                  </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
             </div>
         </div>
     </section>
