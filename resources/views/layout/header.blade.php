@@ -16,6 +16,7 @@
       <link rel="stylesheet" type="text/css" href="{{url('public')}}/datatables/datatables.min.css" >
     @endif
     <link rel="stylesheet" href="{{url('public')}}/css/app.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/flaticon.css">
     <link rel="shortcut icon" href="{{url('public')}}/images/favicon.png" />
-    <title>The Wood Court - {{$PageTitle ?? ''}}</title>
+    <title>The Wood Court - {{$PageTitle ?? 'Kitchen, Floor ... and More'}}</title>
   </head>

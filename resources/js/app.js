@@ -2,6 +2,10 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
+//Homepage
+$('.place-order-button').click(function(){
+    $('#place-order-modal-form').find('input[name="item_name"]').val($(this).data('name'));
+});
 //Owl Carousel Options
 $('.full-width-carousel').owlCarousel({
     singleItem: true,
@@ -62,80 +66,8 @@ $('.three-items-carousel').owlCarousel({
         }
     }
 });
-// init Isotope
-// init Isotope
-var $container = $('.products-isotope').isotope({
-       itemSelector: '.single-product',
-       transitionDuration: '0.5s',
-       masonry: {
-          columnWidth: '.grid-sizer'
-       }
-});
-//****************************
-// Isotope Load more button
-//****************************
-var initShow = 8; //number of images loaded on init & onclick load more button
-var counter = initShow; //counter for load more button
-var iso = $container.data('isotope'); // get Isotope instance
-loadMore(initShow); //execute function onload
-function loadMore(toShow) {
-  $container.find(".d-none").removeClass("d-none");
-  var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
-    return item.element;
-  });
-  $(hiddenElems).addClass('d-none');
-  $container.isotope('layout');
-  //when no more to load, hide show more button
-  if (hiddenElems.length == 0) {
-    $("#load-more").hide();
-  }
-else {
-    $("#load-more").show();
-  };
-}
-
-//when load more button clicked
-$("#load-more").click(function() {
-  if ($('#filters').data('clicked')) {
-    //when filter button clicked, set initial value for counter
-    counter = initShow;
-    j$('#filters').data('clicked', false);
-  } else {
-    counter = counter;
-  };
-
-  counter = counter + initShow;
-
-  loadMore(counter);
-});
 
 
-
-
-$container.isotope( 'reveal', iso.items );
-imagesLoaded(iso, function(){
-    iso.layout();
-});
-
-// filter functions
-var filterFns = {
-    // show if name ends with -ium
-    ium: function() {
-        var name = $(this).find('.name').text();
-        return name.match(/ium$/);
-    }
-};
-// bind filter button click
-$('#filters').on('click', 'button', function() {
-    $("#filters button").removeClass('is-checked');
-    $(this).addClass('is-checked');
-    var filterValue = $(this).attr('data-filter');
-    // use filterFn if matches value
-    filterValue = filterFns[filterValue] || filterValue;
-    $container.isotope({
-        filter: filterValue
-    });
-});
 //Homepage Categories Filters
 $('.sub-categories-list li').click(function() {
     $('.sub-categories-list li').removeClass('active');
@@ -144,20 +76,44 @@ $('.sub-categories-list li').click(function() {
     $('#' + $(this).data('target')).addClass('active');
 });
 //Homepage Video Call to Action
-$('#homepage-play-video').click(function() {
-    //Insert the elemnt into the dom
+$('#homepage-play-video-1,#homepage-play-video-2').click(function() {
+  if($(this).attr('id') == 'homepage-play-video-1'){
     $('body').append(`
     <div class="full-width-video">
+    Video One
       <div>
         <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
         <iframe src="https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
     `).css('overflow', 'hidden');
+  }else if($(this).attr('id') == 'homepage-play-video-2'){
+    $('body').append(`
+    <div class="full-width-video">
+    Video Two
+      <div>
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
+  }
+    //Insert the elemnt into the dom
     $(document).on('click', '#video-close-button , .full-width-video', function(e) {
         $('.full-width-video').remove();
         $('body').css('overflow-y', 'scroll');
     });
+});
+$(window).scroll(function() {
+    var top_of_element = $(".our-achievements").offset().top;
+    var bottom_of_element = $(".our-achievements").offset().top + $(".our-achievements").outerHeight();
+    var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+    var top_of_screen = $(window).scrollTop();
+    if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+        $('.counter').countTo();
+    } else {
+        // Hold
+    }
 });
 //Contact Form Submit
 $('#submit-contact-form').click(function(e) {
@@ -226,3 +182,71 @@ $("img").on("contextmenu",function(){
 //        { extend: 'excel', text: '<i class="fas fa-file-excel"></i> Export to Excel', className: "datatables-button excel-export"}
 //    ]
 // });
+var $container = $('.products-isotope').isotope({
+       itemSelector: '.single-product',
+       transitionDuration: '0.5s',
+       masonry: {
+          columnWidth: '.grid-sizer'
+       }
+});
+//****************************
+// Isotope Load more button
+//****************************
+var initShow = 8; //number of images loaded on init & onclick load more button
+var counter = initShow; //counter for load more button
+var iso = $container.data('isotope'); // get Isotope instance
+loadMore(initShow); //execute function onload
+function loadMore(toShow) {
+  $container.find(".d-none").removeClass("d-none");
+  var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
+    return item.element;
+  });
+  $(hiddenElems).addClass('d-none');
+  $container.isotope('layout');
+  //when no more to load, hide show more button
+  if (hiddenElems.length == 0) {
+    $("#load-more").hide();
+  }
+else {
+    $("#load-more").show();
+  };
+}
+
+//when load more button clicked
+$("#load-more").click(function() {
+  if ($('#filters').data('clicked')) {
+    //when filter button clicked, set initial value for counter
+    counter = initShow;
+    j$('#filters').data('clicked', false);
+  } else {
+    counter = counter;
+  };
+
+  counter = counter + initShow;
+
+  loadMore(counter);
+});
+$container.isotope( 'reveal', iso.items );
+imagesLoaded(iso, function(){
+    iso.layout();
+});
+
+// filter functions
+var filterFns = {
+    // show if name ends with -ium
+    ium: function() {
+        var name = $(this).find('.name').text();
+        return name.match(/ium$/);
+    }
+};
+// bind filter button click
+$('#filters').on('click', 'button', function() {
+    $("#filters button").removeClass('is-checked');
+    $(this).addClass('is-checked');
+    var filterValue = $(this).attr('data-filter');
+    // use filterFn if matches value
+    filterValue = filterFns[filterValue] || filterValue;
+    $container.isotope({
+        filter: filterValue
+    });
+});

@@ -3,22 +3,22 @@
     <div class="row">
       <div class="col-lg-5 col-12 footer-info">
         <img class="footer-logo" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo" title="The Wood Court" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <p>The Wood Court is servicing and supplying a vastly growing number of projects for business and private residences in Egypt since 1979. We provide quality work, and help you achieve the most effective improvement you can make for your home or business with reasonable and affordable prices.</p>
         <ul>
           <li><a href="https://www.facebook.com/thewoodcourt/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.instagram.com/thewoodcourt/" target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-12 d-flex footer-links">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Events</a></li>
+          <li><a href="{{route('home')}}">Home</a></li>
+          <li><a href="{{route('about')}}">About Us</a></li>
+          <li><a href="{{route('events')}}">Events</a></li>
         </ul>
         <ul>
-          <li><a href="#">Collections</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="{{route('products')}}">Products</a></li>
+          <li><a href="{{route('contact')}}">Contact</a></li>
+          {{-- <li><a href="{{route('factory')}}">Our Factory</a></li> --}}
         </ul>
       </div>
       <div class="col-lg-4 col-12 footer-map">

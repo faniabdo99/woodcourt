@@ -1,4 +1,4 @@
-@include('layout.header', ['PageTitle' => 'Contact Us'])
+@include('layout.header', ['PageTitle' => 'Events'])
 <body>
     @include('layout.navbar')
     <!-- Page Content -->

@@ -1,0 +1,254 @@
+{
+    "page": [
+        {
+            "id": "1",
+            "team_name": "ESRA",
+            "team_members": "Alaa Abd-alrazaq, Zubair Shah, Younss Ait Mou, Shaymaa Khalifa",
+            "team_leader": "Mowafa Househ",
+            "description": "Realizing the impact on children and adolescents in times when access to traditional mental health consultation is missing, Emotion Sensing Recognition App (ESRA) aims to sense the emotions of children through art and identify whether their drawings reflect positive or negative emotions, hence, be a tool to monitor a number of mental health conditions.",
+            "members_natio": "Jordanian, Pakistani, French, Qatari",
+            "leader_nation": "Canadian",
+            "team_namtion": "Qatar"
+        },
+        {
+            "id": "2",
+            "team_name": "MCQ Generator",
+            "team_members": "Ali Taha, Mina Okaily, Hazem Elmarsafawy, Noura Mohamed",
+            "team_leader": "Omar Mahmoud",
+            "description": "One of the most important challenges that educators who are responsible for question generation face is carefully choosing the right information to construct a large number of good quality questions. MCQ Generator uses a fundamental educational tool to question a large number of students while focusing on reducing the teacher's workload through Automatic Question Generation (AQG)methods.",
+            "members_natio": "Egyptian, Egyptian, Egyptian",
+            "leader_nation": "Egyptian",
+            "team_namtion": "Egypt"
+        },
+        {
+            "id": "3",
+            "team_name": "Alaali",
+            "team_members": "Amnah Dabbagh, Eisa Aljohani",
+            "team_leader": "Huda Flatah",
+            "description": "To cover for the shortage in the right tools that help people create a prototype or invent unique devices in a short space of time and with suitable prices, Alaali, an (AI) platform that will be powered by a prototype design, help customers create a custom virtual device or product, or even a physical prototype, making it easy to use and build.",
+            "members_natio": "Saudi, Saudi",
+            "leader_nation": "Saudi",
+            "team_namtion": "Saudi Arabia"
+        },
+        {
+            "id": "4",
+            "team_name": "Tuverl",
+            "team_members": "Tafara Makaza, Bahlakoana Mabetha, Shamiso Masunga",
+            "team_leader": "Hope Ndhlovu",
+            "description": "Public Transport in African countries is very inefficient. This makes it very unreliable to commuters. Tuverl solves this issue with an app that seeks to make public transport cheaper and more accessible to millions of commuters across African countries by helping public transport operators optimize their routes, reduce operational costs and increase revenue.",
+            "members_natio": "Zimbabwe, Lesotho, Zimbabwe",
+            "leader_nation": "Zimbabwe",
+            "team_namtion": "Zimbabwe"
+        },
+        {
+            "id": "5",
+            "team_name": "Project Just-Task/Tasker",
+            "team_members": "Hackman gyamfi, Theophilus Tabi, Roberta Appau",
+            "team_leader": "Appau Ernest",
+            "description": "There are millions of unemployed Africans who possess the skill, talent and professional expertise that can render a service needed by customers. Just-Task/Tasker app is designed to promote employment through Artificial Intelligence-based matching and moderation, serving jobs to Africans through the smartphone with 24/7 opportunities.",
+            "members_natio": "Ghanaian, Ghanaian, Ghanaian",
+            "leader_nation": "Ghanaian",
+            "team_namtion": "Ghana"
+        },
+        {
+            "id": "6",
+            "team_name": "Afya Bora",
+            "team_members": "Tisha Singh, Goodluck Tesha, Dr. Jacqueline Gerald",
+            "team_leader": "Reginald Victor Runyoro",
+            "description": "The broken healthcare system in Tanzania perpetuates long waits, expensive consultation and low-quality care for patients causing more than 1 million patients’ death every year. Afya Bora implements machine learning models that are able to prioritize the customer needs as well as geographical location services with an intelligence system that generates a priority list based on insights mined from service data.",
+            "members_natio": "Indian, Tanzanian, Tanzanian",
+            "leader_nation": "Tanzanian",
+            "team_namtion": "Tanzania"
+        },
+        {
+            "id": "7",
+            "team_name": "Eza Project",
+            "team_members": "Yves Himbaza Mugiraneza, Seraphine Rurangwa",
+            "team_leader": "Eraste Rurangwa",
+            "description": "Due to the lack of a road map for systematic capacity building for agricultural extension, limited information-sharing culture and Inadequate disease control facilities/tools, Eza - meaning “harvest” - provides an Agronomist in your hands using a deep learning plant disease classification system. Through an Android Mobile Application, a centralized Wide Network of Agro-Farming technicians is provided and remote access to Modern farming practices is offered.",
+            "members_natio": "Rwandi, Rwandi",
+            "leader_nation": "Rwandi",
+            "team_namtion": "Rwanda"
+        },
+        {
+            "id": "8",
+            "team_name": "Dermal Consulting",
+            "team_members": "Alaka Feyikemi, Olagoke Ibrahim, Odeajo Israel, Folajomi Isa",
+            "team_leader": "Esivue Daniel",
+            "description": "Skincare reflects the health of the body and the barrier against injury and bacteria. In Nigeria, there are more cases for dermatologists to treat, hence, the inability to actively dominate the skincare space. Dermal Consulting is a mobile application that solves skincare problems with a snap of a camera. The infected area is then processed in a database of skin infections and drugs are prescribed. Dermatologists can also be consulted in severe cases using the app.",
+            "members_natio": "Nigerian, Nigerian, Nigerian, Nigerian",
+            "leader_nation": "Nigerian",
+            "team_namtion": "Nigeria"
+        },
+        {
+            "id": "9",
+            "team_name": "IDOTA",
+            "team_members": "Boneke Ghemeh Emerine, vandonelvin",
+            "team_leader": "Ngong Constantine Mbufung",
+            "description": "Over 85% of the Cameroonian population are not screened for retinal disease as they are difficult to conduct therefore lots of people suffer from diabetic retinopathy, the leading cause of blindness among working-age adults. iDOTA is an AI-based retinal screening application that is developed to easily diagnose and prevent blindness in Cameroon. ",
+            "members_natio": "Cameroonian, Cameroonian",
+            "leader_nation": "Cameroonian",
+            "team_namtion": "Cameroon"
+        },
+        {
+            "id": "10",
+            "team_name": "AI for Agriculture",
+            "team_members": "Mintesnot Yismaw, Hagernesh Tadesse, Matewis Dame Ejeta, Meron Pawlos Dilbo",
+            "team_leader": "Markos Amsalu Muche",
+            "description": "It has been found that agricultural monitoring using manpower is inefficient as it costs a lot and has so many negative outcomes. In “AI for Agriculture” project, a map visualization of the farm which contains information about the condition of the crop is shown on a computer screen to be categorized as healthy, infected by herb, infected by pest, or lacking nutrients. Tensorflow library is used to design models and train them.",
+            "members_natio": "one,two,three,four",
+            "leader_nation": "Ethiopian",
+            "team_namtion": "Ethiopia"
+        },
+        {
+            "id": "11",
+            "team_name": "Agrive",
+            "team_members": "Nelson Elijah, Modupe Daniel, Jeremiah Oloyede",
+            "team_leader": "Jerry Ojumah",
+            "description": "By 2050, the population on earth is predicted to peak the 10 billion marks, hence, agriculture will need to evolve to grow more crops with less land and cultivate plants with fewer resources. Agrive is a real-time land controlling solution that is adaptable to all kinds of crops and farms. It collects, monitors and elaborates a wide range of data then accurately predicts values in case of pests, environmental changes, damages, or weed.",
+            "members_natio": "Nigerian, Nigerian, Nigerian",
+            "leader_nation": "Nigerian",
+            "team_namtion": "Nigeria"
+        },
+        {
+            "id": "12",
+            "team_name": "Lend an Arm",
+            "team_members": "Tunde Oyebamiji, Bello Olamide, Ifeanyichukwu Muogbo, Obehi Aimiosior",
+            "team_leader": "Imodoye Abioro",
+            "description": "61% of nations on earth suffer from blood shortages within their health systems. This deficit leads to astronomically high maternal mortality rates, with Nigeria contributing to 14% of the world’s maternal deaths. Lend an Arm will be Africa's first smart blood bank, piloting in Nigeria. It is a youth-led, hybrid [Robot-and-App] blood supply solution addressing root causes of shortages using conversational AI and smartphone digital technology. ",
+            "members_natio": "Nigerian, Nigerian, Nigerian, Nigerian",
+            "leader_nation": "Nigerian",
+            "team_namtion": "Nigeria"
+        },
+        {
+            "id": "13",
+            "team_name": "Access Ai",
+            "team_members": "Mohammed Hassan, Safia Malin, Warsame",
+            "team_leader": "Fatima Kassim",
+            "description": "Data labeling consumes over 80% of the time in AI projects as it has to be done manually by a human in the loop to a high-quality standard. In addition, a recent study revealed that two-thirds of Somalis under 30 leave the country because of youth unemployment. Access Ai is a provider of human-powered training data and validation for (AI) technology teams with the mission to reduce global poverty by connecting marginalized African youth to digital work.",
+            "members_natio": "Somali, American/Somali, British Somali",
+            "leader_nation": "Somali",
+            "team_namtion": "Somalia"
+        },
+        {
+            "id": "14",
+            "team_name": "Brain Cancer Detection",
+            "team_members": "Cyrille KESIKU, Aissatou NDOYE",
+            "team_leader": "Fadel THIOR",
+            "description": "Due to the lack of advanced technology in Africa, the process of radio and (MRI) images is still done through human intervention which may cause mistakes in the interpretation. Moreover, when the disease is less developed, it is difficult to easily detect the affected area. Brain Cancer Detection is a deep learning-based image segmentation solution to detect the brain tumor and predict the likelihood of tumor existence.",
+            "members_natio": "Congolese, Senegalese",
+            "leader_nation": "Senegalese",
+            "team_namtion": "Senegal"
+        },
+        {
+            "id": "15",
+            "team_name": "Lung Cancer Diagnosis",
+            "team_members": "Dattijo Murtala Makama, Kolawole Tajudeen",
+            "team_leader": "Blessing Itoro Bassey",
+            "description": "Lung cancer is considered as the deadliest cancer worldwide and With ⅔ of the world lacking access to radiologists, early detection of the disease becomes a critical challenge in most developing countries. “Lung Cancer Diagnosis” leverages cutting-edge technologies such as Artificial Intelligence and connectivity to assist radiologists to analyze patient data and to deliver results with the highest diagnostic accuracy. ",
+            "members_natio": "Nigerian, Nigerian",
+            "leader_nation": "Nigerian",
+            "team_namtion": "Nigeria"
+        },
+        {
+            "id": "16",
+            "team_name": "Saidalia",
+            "team_members": "Abdulrahman Mohamed Kamr, Abdelrahman Hamdy Rizk, Ahmed Magdy Mostafa, Hebatallaah Moustafa Abdelrauof",
+            "team_leader": "Bahgat Ahmed Abdelrahman",
+            "description": "\"Medication Problems\" occur as a result of lost prescriptions and outer boxes that look alike; leading to the ingestion of medications without knowing the proper indication, resulting in side effects. Saidalia offers a solution for a mobile application that transforms captured medical prescriptions, or medication outer boxes using Computer Vision and transforms input speech to text using NLP, and NLU.",
+            "members_natio": "Egyptian, Egyptian, Egyptian, Egyptian",
+            "leader_nation": "Egyptian",
+            "team_namtion": "Egypt"
+        },
+        {
+            "id": "17",
+            "team_name": "Smart contact center",
+            "team_members": "Eman Gawish, Aly Abdelrazek, Yomna Eid",
+            "team_leader": "Walaa Medhat",
+            "description": "Many customers rely on their network providers to access online contents during education or paying bills and many other activities. Smart contact center aims at enabling telecoms to have smart customer care that uses (AI) technology in social media channels; allowing them to know more about their customers’ satisfaction level. ",
+            "members_natio": "Egyptian, Egyptian, Egyptian",
+            "leader_nation": "Egyptian",
+            "team_namtion": "Egypt"
+        },
+        {
+            "id": "18",
+            "team_name": "Health Shore",
+            "team_members": "Engineer Wodeya David, Mrs Rachel Kyomuhendo",
+            "team_leader": "Dr. Kihumuro Wilbur John",
+            "description": "Blood wastage in Africa has mainly been attributed to poor blood cold chain systems and any breach in the system leads to wastage of blood units since blood storage and transportation is very delicate. Health Shore provides a sustainable solution to poor blood cold chains and timely access to safe blood to developing countries in Africa using Artificial Intelligence-powered technology.",
+            "members_natio": "Ugandan, Ugandan",
+            "leader_nation": "Ugandan",
+            "team_namtion": "Uganda"
+        },
+        {
+            "id": "19",
+            "team_name": "Dronagro",
+            "team_members": "Uche Njoku",
+            "team_leader": "Francis Maduakor",
+            "description": "Agriculture employs about 70% of the Nigerian workforce although the output and productivity are not enough to feed over 180 million Nigerian. Dronagro uses Drone technologies with object detection capabilities to collect images and analyze them to generate resourceful information that will help the farmer make better and quick decisions.",
+            "members_natio": "Nigerian",
+            "leader_nation": "Nigerian",
+            "team_namtion": "Nigeria"
+        },
+        {
+            "id": "20",
+            "team_name": "DrugEYE™",
+            "team_members": "Maroua Louati, Bechir Neifer",
+            "team_leader": "Jihed Hannachi",
+            "description": "The Covid-19 pandemic put the healthcare authorities and industry under huge pressure to quickly understand, qualify and design adequate responses. Between understanding the virus effects, urgently identifying adequate, available and affordable treatments and providing healthcare to patients all were overwhelmed. DrugEYE™ acts immediately when a new epidemic appears; based only on the genome of the organism causing the epidemic. ",
+            "members_natio": "Tunisian, Tunisian",
+            "leader_nation": "Tunisian",
+            "team_namtion": "Tunisia"
+        },
+        {
+            "id": "21",
+            "team_name": "Elixir",
+            "team_members": "Anthony Mipawa, Salome Mosha, Sang'udi E Sang'udi, Precious Kolawole",
+            "team_leader": "Alfaxad Eyembe",
+            "description": "Since regular screening and early diagnosis are rare in Tanzania, most cases are diagnosed at a late stage especially that patients who are from poor families and base levels can not access referral specialized clinics. Elixir team came up with a web app that uses deep-learning technique to increase the speed and accuracy of cancer detection through the use of tissue microscopic images. ",
+            "members_natio": "Tanzanian, Tanzanian, Tanzanian, Tanzanian",
+            "leader_nation": "Tanzanian",
+            "team_namtion": "Tanzania"
+        },
+        {
+            "id": "22",
+            "team_name": "IntelliCrowd",
+            "team_members": "Omayma Jaziri, Fourat Thamri, Sami Elleuch, Mehdi Mabrouki",
+            "team_leader": "Amira Dridi",
+            "description": "Crowdfunding campaigns strategies are different from typical fundraising campaigns strategies so project creators should be accustomed to this concept and guided to make their campaigns succeed. IntelliCrowd will create a predictive model based on the largest crowdfunding platforms’ data and use the online learnings from this data to assess the probability of success for each project. ",
+            "members_natio": "Tunisian, Tunisian, Tunisian, Tunisian",
+            "leader_nation": "Tunisian",
+            "team_namtion": "Tunisia"
+        },
+        {
+            "id": "23",
+            "team_name": "Mobile Agribiz",
+            "team_members": "Gladys Lokwa Mole, Giresse Mila",
+            "team_leader": "Mbunzama Narcisse",
+            "description": "The fall armyworm is a major threat to food security in Africa as it shows a particular preference for maize. Mobile Agribiz App is an innovative tool to enhance the pest and disease diagnostics of fall armyworm in maize. It uses artificial intelligence and machine learning to easily detect the pest across maize crops at any stage of the production cycle. ",
+            "members_natio": "Congolese, Congolese",
+            "leader_nation": "Congolese",
+            "team_namtion": "Congo"
+        },
+        {
+            "id": "24",
+            "team_name": "Signy",
+            "team_members": "Salma El Anigri, Abdessamad Ezzou, Ismael Sbihi",
+            "team_leader": "Abdelhak Mahmoudi",
+            "description": "Deaf children receive very little education assistance, that involves teachers who have limited command of Arabic Sign Language (ASL) and lack resources that translate written or spoken words and concepts into signs to teach the deaf. Signy's main focus is to develop a mobile application that allows Speech-to-ASL translation. ",
+            "members_natio": "Moroccan, Moroccan, Moroccan",
+            "leader_nation": "Moroccan",
+            "team_namtion": "Morocco"
+        },
+        {
+            "id": "25",
+            "team_name": "Diabetes screening model",
+            "team_members": "Stephanie Okeyo, Allan Onchola",
+            "team_leader": "Elizabeth Mutua",
+            "description": "Neonatal postprandial hypoglycemia occurs when blood sugar level (BSL) is too low; causing symptoms of impaired brain function among newborn babies. If it is not detected and treated early, it can result in permanent brain damage or death. To solve this, Diabetes screening model seeks to use deep learning models to measure glucose levels and predict symptoms of hypoglycemia among infants. ",
+            "members_natio": "Kenyan, Kenyan",
+            "leader_nation": "Kenyan",
+            "team_namtion": "Kenya"
+        }
+    ]
+}
