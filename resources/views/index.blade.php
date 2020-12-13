@@ -4,19 +4,20 @@
     @include('layout.navbar')
     <section class="hero-section" id="homepage-hero-section">
         <div class="owl-carousel full-width-carousel">
-            <div id="slide-one">
-                <div class="dark-overlap">
+            <div>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="text-center col-12">
+                            <div class="text-center col-lg-6 col-6">
                                 <h2>Kitchens</h2>
                                 <p class="mb-5">Kitchen, Floor ... and More</p>
                                 <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="{{route('products')}}" class="text-white">Our Products</a>
+                                <a href="#" class="text-white">Our Products</a>
+                            </div>
+                            <div id="slide-one" class="col-lg-6 col-12">
+                              Image here
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
             <div id="slide-two">
                 <div class="dark-overlap">
@@ -62,6 +63,7 @@
             </div>
         </div>
     </section>
+
     <section id="homepage-categories">
         <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
