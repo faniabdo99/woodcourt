@@ -814,179 +814,92 @@ a:hover {
 }
 
 /* ============ PAGES ============ */
-.one p {
-  font-size: 15px;
+.homepage-hero-section .homepage-herosection-bg-image {
+  height: 100vh;
 }
-.one h2, .one p, .one a {
+.homepage-hero-section .logo-img {
+  width: 50% !important;
+  margin-top: 5%;
+}
+.homepage-hero-section .p-category {
+  color: #0D8287;
+  margin-bottom: 0;
+}
+.homepage-hero-section h2, .homepage-hero-section p, .homepage-hero-section a, .homepage-hero-section .logo-img {
   margin-left: 6%;
 }
-.one h2 {
+.homepage-hero-section h2 {
   font-weight: 600;
-  font-size: 45px;
+  font-size: 3.6em;
 }
-.one .logo-img {
-  width: 75% !important;
-  margin-top: 10%;
-  margin-left: 4%;
+.homepage-hero-section .description {
+  line-height: 2em;
+  font-size: 1.1em;
+  color: #555555;
 }
-.one .another-botton {
-  color: black;
-}
-.one .description {
-  line-height: 2.5;
-  font-size: 18px;
-}
-.one .section1 {
-  position: relative;
-}
-.one .end-img {
+.homepage-hero-section .end-img {
   position: absolute;
   bottom: 0;
   left: 0;
   opacity: 0.5;
+  width: 45% !important;
 }
-.one #slide-one {
+@media (max-width: 768px) {
+  .homepage-hero-section .content-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 10px 25px;
+  }
+  .homepage-hero-section .content-section .logo-img {
+    z-index: 2;
+    width: 60% !important;
+    display: block;
+  }
+  .homepage-hero-section .content-section h2 {
+    font-size: 2.5em;
+  }
+  .homepage-hero-section .content-section p, .homepage-hero-section .content-section h2, .homepage-hero-section .content-section a, .homepage-hero-section .content-section .logo-img {
+    color: white;
+    margin-left: 0;
+  }
+  .homepage-hero-section .content-section .description {
+    line-height: 1.5;
+  }
+  .homepage-hero-section .content-section a {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .homepage-hero-section .content-section .text-dark {
+    color: #fff !important;
+  }
+  .homepage-hero-section .homepage-herosection-bg-image {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+}
+.homepage-hero-section #slide-one {
   background: url("../images/heros/kitchen-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 1000px;
 }
-@media (max-width: 768px) {
-  .one #slide-one {
-    position: relative;
-    width: 100%;
-  }
-  .one #slide-one .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: black;
-    opacity: 0.4;
-  }
-}
-.one #slide-two {
+.homepage-hero-section #slide-two {
   background: url("../images/heros/tiles-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 1000px;
 }
-@media (max-width: 768px) {
-  .one #slide-two {
-    position: relative;
-    width: 100%;
-  }
-  .one #slide-two .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: black;
-    opacity: 0.4;
-  }
-}
-.one #slide-three {
+.homepage-hero-section #slide-three {
   background: url("../images/heros/stairs-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 1000px;
 }
-@media (max-width: 768px) {
-  .one #slide-three {
-    position: relative;
-    width: 100%;
-  }
-  .one #slide-three .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: black;
-    opacity: 0.4;
-  }
-}
-.one #slide-four {
+.homepage-hero-section #slide-four {
   background: url("../images/heros/outdoor-hero.jpg") no-repeat center center;
   background-size: cover;
-  height: 1000px;
-}
-@media (max-width: 768px) {
-  .one #slide-four {
-    position: relative;
-    width: 100%;
-  }
-  .one #slide-four .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: black;
-    opacity: 0.4;
-  }
-}
-@media (max-width: 768px) {
-  .one p, .one h2, .one a {
-    position: absolute;
-    color: white;
-    z-index: 2;
-  }
-}
-@media (max-width: 768px) {
-  .one h2 {
-    margin-top: 50%;
-    font-size: 30px;
-    margin-left: 50%;
-    font-size: 35px;
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .one p {
-    margin-top: 50%;
-  }
-}
-@media (max-width: 768px) {
-  .one .p-title {
-    margin-top: 65%;
-    margin-left: 50%;
-  }
-}
-@media (max-width: 768px) {
-  .one .description {
-    line-height: 1.5;
-    margin-top: 70%;
-    margin-left: 50%;
-    width: 90%;
-  }
-}
-@media (max-width: 768px) {
-  .one a {
-    margin-top: 120%;
-    margin-left: 50%;
-  }
-}
-@media (max-width: 768px) {
-  .one .another-botton {
-    margin-top: 123%;
-    margin-left: 100%;
-    color: white;
-    width: 100px;
-  }
-}
-@media (max-width: 768px) {
-  .one .logo-img {
-    position: absolute;
-    z-index: 2;
-    margin-left: 45%;
-    margin-top: 20%;
-    width: 100% !important;
-  }
-}
-@media (max-width: 768px) {
-  .one .end-img {
-    display: none;
-  }
 }
 
 #homepage-categories {

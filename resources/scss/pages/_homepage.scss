@@ -1,192 +1,86 @@
-
 //Mansy Code Starts Here
-.one{
-  p{
-    font-size: 15px;
+.homepage-hero-section{
+  .homepage-herosection-bg-image{
+      height: 100vh;
   }
-  h2,p, a{
+  .logo-img{
+    width: 50% !important;
+    margin-top: 5%;
+  }
+  .p-category{
+    color: $brand;
+    margin-bottom: 0;
+  }
+  h2,p,a,.logo-img{
     margin-left: 6%;
   }
   h2{
     font-weight: 600;
-    font-size: 45px;
-
-  }
-
-
-  .logo-img{
-    width: 75% !important;
-    margin-top: 10%;
-    margin-left: 4%;
-
-  }
-  .another-botton{
-    color:black ;
+    font-size: 3.6em;
   }
   .description{
-    line-height: 2.5;
-    font-size: 18px
-  }
-  .section1{
-    position: relative;
+    line-height: 2em;
+    font-size: 1.1em;
+    color: $medgrey;
   }
   .end-img{
     position: absolute;
     bottom:0;
     left: 0;
     opacity: .5;
-
+    width: 45% !important;
+  }
+  @media(max-width: 768px){
+    .content-section{
+      background-color: rgba(0,0,0,0.5);
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      padding: 10px 25px;
+      .logo-img{
+          z-index: 2;
+          width: 60% !important;
+          display: block;
+      }
+      h2{
+        font-size: 2.5em;
+      }
+      p,h2,a,.logo-img{
+        color:white;
+        margin-left: 0;
+      }
+      .description{
+          line-height: 1.5;
+      }
+      a{
+        display: block;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .text-dark{color: #fff !important;}
+    }
+    .homepage-herosection-bg-image{
+      position: relative;
+      height: 100vh;
+      width: 100%;
+    }
   }
 
   #slide-one{
     background: url('../images/heros/kitchen-hero.jpg') no-repeat center center;background-size:cover;
-    height: 1000px  ;
-    @media(max-width: 768px){
-      position: relative;
-      width: 100%;
-      .overlay{
-      width: 100%;
-      height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background-color: black;
-        opacity: .4;
-
-      }
-    }
-
   }
   #slide-two{
     background: url('../images/heros/tiles-hero.jpg') no-repeat center center;background-size:cover;
-    height: 1000px  ;
-    @media(max-width: 768px){
-      position: relative;
-      width: 100%;
-      .overlay{
-      width: 100%;
-      height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background-color: black;
-        opacity: .4;
-
-      }
-    }
   }
   #slide-three{
     background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;
-    height: 1000px  ;
-    @media(max-width: 768px){
-      position: relative;
-      width: 100%;
-      .overlay{
-      width: 100%;
-      height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background-color: black;
-        opacity: .4;
-
-      }
-    }
   }
   #slide-four{
     background: url('../images/heros/outdoor-hero.jpg') no-repeat center center;background-size:cover;
-    height: 1000px  ;
-    @media(max-width: 768px){
-      position: relative;
-      width: 100%;
-      .overlay{
-      width: 100%;
-      height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background-color: black;
-        opacity: .4;
-
-      }
-    }
-  }
-  //media
-  p,h2,a{
-    @media(max-width: 768px){
-      position: absolute;
-      color:white;
-      z-index: 2;
-
-
-
-    }
-  }
-  h2{
-    @media(max-width: 768px){
-      margin-top: 50%;
-      font-size: 30px;
-      margin-left: 50%;
-      font-size: 35px;
-      width: 100%;
-
-    }
-  }
-  p{
-    @media(max-width: 768px){
-      margin-top: 50%;
-    }
-  }
-
-  .p-title{
-    @media(max-width: 768px){
-      margin-top: 65%;
-      margin-left: 50%;
-    }
-  }
-  .description{
-    @media(max-width: 768px){
-      line-height: 1.5;
-      margin-top: 70%;
-      margin-left: 50%;
-      width: 90%;
-
-    }
-  }
-  a{
-    @media(max-width: 768px){
-      margin-top: 120%;
-      margin-left: 50%;
-
-    }
-  }
-  .another-botton{
-    @media(max-width: 768px){
-      margin-top: 123%;
-      margin-left: 100%;
-      color: white;
-      width: 100px
-
-    }
-  }
-  .logo-img{
-    @media(max-width: 768px){
-      position: absolute;
-      z-index: 2;
-      margin-left: 45%;
-      margin-top: 20%;
-      width: 100% !important;
-
-
-
-    }
-  }
-  .end-img{
-    @media(max-width: 768px){
-      display: none;
-
-
-    }
   }
 }
 

@@ -107,7 +107,7 @@ $('.full-width-carousel').owlCarousel({
   items: 1,
   dots: true,
   autoplay: true,
-  autoplayTimeout: 10000,
+  autoplayTimeout: 121515156152156,
   loop: true,
   mouseDrag: true,
   nav: false,

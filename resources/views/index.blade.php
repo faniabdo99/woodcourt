@@ -2,111 +2,74 @@
 
 <body>
     @include('layout.navbar')
-    <section class="one hero-section" id="homepage-hero-section">
+    <section class="homepage-hero-section" id="homepage-hero-section">
         <div class="owl-carousel full-width-carousel">
-            <div>
-                    <div class="container-fluid">
-                        <div class="row">
-
-                            <div class="section1 col-lg-6 col-6">
-                              <img class="logo-img  " src="{{url('public')}}/images/logo-black.png" >
-                                <h2>Kitchens</h2>
-                              <!--  <p class="mb-5">Kitchen, Floor ... and More</p> -->
-                                <p class="p-title" style="color:#0D8287">Products</p>
-                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-
-
-                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="#" class="another-botton ">Our Products</a>
-                                <div class="end-img w-50">
-                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
-                                </div>
-                            </div>
-
-                            <div id="slide-one" class="col-lg-6 col-12">
-                                <div class="overlay ">
-                                    </div>
-                            </div>
-
-
-                        </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" content-section col-lg-6 col-12">
+                      <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
+                      <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">                        <p class="p-category">Products</p>
+                        <h2>Kitchens</h2>
+                        <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
+                        <a class="icon-button" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                        <a href="#" class="text-dark">Our Products</a>
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
-            </div>
-            <div>
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="section1 col-lg-6 col-6">
-                                <img class="logo-img" src="{{url('public')}}/images/logo-black.png" alt="">
-                                <h2>Engineered Floors</h2>
-
-                                <p class="p-title"  style="color:#0D8287">Products</p>
-                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="#" class="another-botton ">Our Products</a>
-                                <div class="end-img w-50">
-                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
-                                </div>
-                            </div>
-                            <div id="slide-two" class="col-lg-6 col-12">
-                              <div class="overlay ">
-                                  </div>
-                            </div>
-                        </div>
+                    <div id="slide-one" class="col-lg-6 col-12 homepage-herosection-bg-image">
+                        <div class="overlay"></div> <!-- Mobile Applicable Only -->
                     </div>
-
+                </div>
             </div>
-            <div>
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="section1 col-lg-6 col-6">
-                                <img class="logo-img" src="{{url('public')}}/images/logo-black.png" alt="">
-                                <h2>Stairs</h2>
-
-                                <p class="p-title"  style="color:#0D8287">Products</p>
-                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-
-                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                  <a href="#" class="another-botton ">Our Products</a>
-                                <div class="end-img w-50">
-                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
-                                </div>
-                            </div>
-                            <div id="slide-three" class="col-lg-6 col-12">
-                              <div class="overlay ">
-                                  </div>
-                            </div>
-                        </div>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class=" content-section col-lg-6 col-12">
+                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
+                        <p class="p-category">Products</p>
+                        <h2>Engineered Floors</h2>
+                        <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
+                        <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                        <a href="#" class="text-dark">Our Products</a>
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
+                    <div id="slide-two" class="col-lg-6 col-12 homepage-herosection-bg-image">
 
-            </div>
-            <div>
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="section1 col-lg-6 col-6">
-                                <img class="logo-img" src="{{url('public')}}/images/logo-black.png" alt="">
-                                <h2>Outdoor</h2>
-
-
-                                <p class="p-title"  style="color:#0D8287">Products</p>
-                                <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-
-                                <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                                <a href="#" class="another-botton ">Our Products</a>
-                                <div class="end-img w-50">
-                                  <img src="{{url('public')}}/images/wood-small-quarter.png">
-                                </div>
-                            </div>
-                            <div id="slide-four" class="col-lg-6 col-12">
-                              <div class="overlay ">
-                                  </div>
-                            </div>
-                        </div>
                     </div>
-
+                </div>
             </div>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class=" content-section col-lg-6 col-12">
+                      <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
+                      <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">                        <p class="p-category">Products</p>
+                        <h2>Stairs</h2>
+                        <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
+                        <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                        <a href="#" class="text-dark">Our Products</a>
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
+                    </div>
+                    <div id="slide-three" class="col-lg-6 col-12 homepage-herosection-bg-image">
+
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class=" content-section col-lg-6 col-12">
+                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">                        <p class="p-category">Products</p>
+                        <h2>Outdoor</h2>
+                        <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
+                        <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
+                        <a href="#" class="text-dark">Our Products</a>
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
+                    </div>
+                    <div id="slide-four" class="col-lg-6 col-12 homepage-herosection-bg-image">
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
