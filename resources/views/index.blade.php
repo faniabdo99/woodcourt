@@ -8,7 +8,8 @@
                 <div class="row">
                     <div class=" content-section col-lg-6 col-12">
                       <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
-                      <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">                        <p class="p-category">Products</p>
+                      <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
+                        <p class="p-category">Products</p>
                         <h2>Kitchens</h2>
                         <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
                         <a class="icon-button" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
@@ -405,202 +406,202 @@
         <div class="dark-overlap">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <h2>Why Us?</h2>
+                  <h2 class="col-12 d-block">Why Us?</h2>
+                    <div class="col-9">
                         <div class="row why-us-cards">
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-team-leader"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Market Leaders</h3>
-                                    <p class="why-us-card-short-description">40 years ago, till now we are thankfully enjoying a very good reputation, this didn't come out of thin...</p>
-                                    <p class="why-us-card-description">40 years ago, till now we are thankfully enjoying a very good reputation, this didn't come out of thin air, hard-working, trained human resources & investing in new technologies
+                                    <h3 class="why-us-card-title ">Market Leaders</h3>
+                                    <p class="why-us-card-description d-none">40 years ago, till now we are thankfully enjoying a very good reputation, this didn't come out of thin air, hard-working, trained human resources & investing in new technologies
                                         are factors which made us the market leaders</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-experience"></i>
                                     </div>
                                     <h3 class="why-us-card-title">40 Years of Experience</h3>
-                                    <p class="why-us-card-short-description">Over more than 40 years of hard work, We had a great experience in designing, manufactur....</p>
                                     <p class="why-us-card-description">Over more than 40 years of hard work, we had a great experience in designing, manufacturing & installation of various projects, in addition to the most important part, finishing.
                                         We achieve the best results including resolving any challenges smoothly without errors.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-construction-and-tools"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Trained Human Resources</h3>
-                                    <p class="why-us-card-short-description">Over the years we built great teams for sales, customer care, production & installation, buildi...</p>
                                     <p class="why-us-card-description">Over the years we built great teams for sales, customer care, production & installation. Building such well-trained and creative professionals doesn't happen in a couple of years,
                                         it took so much time and effort</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-budget"></i>
                                     </div>
                                     <h3 class="why-us-card-title">No Hidden Costs</h3>
-                                    <p class="why-us-card-short-description">Don't worry, we don't have any hidden fees, every single pound is agreed on from day one.</p>
                                     <p class="why-us-card-description">Don't worry, we don't have any hidden fees, every single pound is agreed on from day one</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-affordable"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Affordable Pricing</h3>
-                                    <p class="why-us-card-short-description">High quality, reasonable prices are very hard to find anywhere else, contact us and book a visit to...</p>
                                     <p class="why-us-card-description">High quality, reasonable prices are very hard to find anywhere else, contact us and book a visit to see how can we fit perfect work within your budget</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-moisture-wicking-fabric"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Moisture Free</h3>
-                                    <p class="why-us-card-short-description">All our wood is moisture-free, we don't depend on air drying as we have our own kiln dryers to ensure...</p>
                                     <p class="why-us-card-description">All our wood is moisture-free, we don't depend on air drying as we have our own kiln dryers to ensure wood humidity level before manufacturing. As humidity is the most important
                                         factor affecting your final product, this is a critical process that we ensure is done successfully.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-no-bugs"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Insects Free</h3>
-                                    <p class="why-us-card-short-description">In the year 2008, we had a good deal with the Egyptian ministry of agriculture to send their specialized wood insect...</p>
                                     <p class="why-us-card-description">In the year 2008, we had a good deal with the Egyptian ministry of agriculture to send their specialized wood insect control team to our factory to ensure all wood are
                                         insect-free.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-gear"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Quick and Easy Installation</h3>
-                                    <p class="why-us-card-short-description">One of the most challenging jobs is renewing your wood floors whi...</p>
                                     <p class="why-us-card-description">One of the most challenging jobs is renewing your wood floors while your family is existing in the home, now you can purchase engineered floors from the wood court which is ready
                                         to be installed on the same day, and walk on it instantly.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-clean"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Easy Clean</h3>
-                                    <p class="why-us-card-short-description">Either your wood floor or your kitchen from the wood court is the easiest to clean, our fourth-generation...</p>
                                     <p class="why-us-card-description">Either your wood floor or your kitchen from the wood court is the easiest to clean, our fourth-generation finish materials are awesome, easy to be clean & clear from stains and
                                         dust, very hard to react with most home dirties.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-fast-delivery"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Delivery in Time</h3>
-                                    <p class="why-us-card-short-description">We pay back 1% for every week after delivery time in case of not delivering in time, just in time delivery...</p>
                                     <p class="why-us-card-description">We pay back 1% for every week after delivery time in case of not delivering in time, just in time delivery is not our goal, we seek to deliver your items before delivery time!.
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-log"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Anti-Scratch</h3>
-                                    <p class="why-us-card-short-description">Some of our finishes are scratch-resistant, such as UV-finish for wood floors & polyethylene finishes for kitchens ..</p>
                                     <p class="why-us-card-description">Some of our finishes are scratch-resistant, such as UV-finish for wood floors & polyethylene finishes for kitchens. We also use HPI high-pressure laminate as anti scratch boards
                                         for kitchens & dressing rooms.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-mute-volume-control"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Sound Proof</h3>
-                                    <p class="why-us-card-short-description">Hearing the drummy sound when walking on wood floors is very annoying, ask for glue-down...</p>
                                     <p class="why-us-card-description">Hearing the drummy sound when walking on wood floors is very annoying, ask for glue-down floors or floating engineered floors to ensure soundless steps.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-debt"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Life-Lasting Stains</h3>
-                                    <p class="why-us-card-short-description">When you need to stain your natural wood floors or your kitchen to have a nice color matching your home decor...</p>
                                     <p class="why-us-card-description">When you need to stain your natural wood floors or your kitchen to have a nice color matching your home decor, don't be afraid of stain disappearing from heavy traffic areas, our
                                         stains are all high quality and & life-lasting even with heavy use.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-guarantee"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Life Time Guarantee</h3>
-                                    <p class="why-us-card-short-description">When purchasing from "The Wood Court" for any natural flooring, either floor or cabinets, you...</p>
                                     <p class="why-us-card-description">When purchasing from "The Wood Court" for any natural flooring, either floor or cabinets, you obtain a lifetime guarantee against manufacturing or installation faults or defects.
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-flag"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Pre Finished Products</h3>
-                                    <p class="why-us-card-short-description">Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly...</p>
                                     <p class="why-us-card-description">Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly after installation, all our cabinets (Kitchen or Dressing)
                                         is shipped finished and packed with care.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-2 col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-customer-service"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Customer Support</h3>
-                                    <p class="why-us-card-short-description">Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to ...</p>
                                     <p class="why-us-card-description">Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to support and solve problems.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 offset-lg-3 col-6">
+                            <div class="col-lg-2  col-6">
                                 <div class="why-us-card">
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-green-earth"></i>
                                     </div>
                                     <h3 class="why-us-card-title">Environment Friendly</h3>
-                                    <p class="why-us-card-short-description">All our products are environment friendly, we don't use any harmful material, starting...</p>
                                     <p class="why-us-card-description">All our products are environment friendly, we don't use any harmful material, starting from fiberboards, glue, nails ending with chemical adhesive and finishing materials.</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-6">
-                                <div class="why-us-card">
-                                    <div class="why-us-icon-container">
-                                        <i class="flaticon-equalizer"></i>
+                            <div class="col-lg-2 col-6">
+                                <div class="why-us-card why-us-card-content"  id="card-heading-one">
+                                    <div class="why-us-icon-container ">
+                                  <a class="why-us-card-toggler" data-target="card-heading-one"> <i class="flaticon-equalizer"></i> </a>
                                     </div>
-                                    <h3 class="why-us-card-title">Custom Designs</h3>
-                                    <p class="why-us-card-short-description">We do any custom designs, in addition to our wide variety of pre-made designs, we also accept...</p>
-                                    <p class="why-us-card-description">We do any custom designs, in addition to our wide variety of pre-made designs. We also accept either editing existing designs or creating new ones.</p>
+                                    <h3 class="why-us-card-title ">Custom Designs</h3>
+                                    <p class="why-us-card-description ">We do any custom designs, in addition to our wide variety of pre-made designs. We also accept either editing existing designs or creating new ones.</p>
                                 </div>
                             </div>
+
                         </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="card-container">
+                      <div class="card col-12" style="width: 18rem;">
+                      <div class="why-us-card-toggler">
+                      </div>
+                      <div data-target="why-us-card-content">
+                      </div>
+                      <div data-target="card-heading-one">
+                      </div>
+
+
+                        <div class="card-body">
+
+                           <!--<div class="why-us-card-content" id="card-heading-one"></div> -->
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -720,7 +721,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 col-lg-3">
+                    <div class="our-card col-3 col-lg-3 col-md-3 col-sm-3">
                         <div class="single-counter-item">
                             <div class="icon-container">
                                 <i class="fas fa-heart"></i>
@@ -731,7 +732,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="our-card col-3 col-lg-3 col-md-3 col-sm-3">
                         <div class="single-counter-item">
                             <div class="icon-container">
                                 <i class="fas fa-user-tie"></i>
@@ -742,7 +743,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="our-card col-3 col-lg-3 col-md-3 col-sm-3">
                         <div class="single-counter-item">
                             <div class="icon-container">
                                 <i class="fas fa-chart-area"></i>
@@ -753,7 +754,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3">
+                    <div class="our-card col-3 col-lg-3 col-md-3 col-sm-3">
                         <div class="single-counter-item">
                             <div class="icon-container">
                                 <i class="fas fa-users"></i>
@@ -859,16 +860,15 @@
             <div class="row">
                 <div class="col-12">
                     <h2>Our Clients</h2>
-                    <ul class="owl-carousel owl-theme multi-items-carousel">
-                        <img class="item" src="{{url('public')}}/images/partners/arabcont.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/cook-club.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/four-seasons.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/hassan-allam.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/hilton.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/mobica.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/orascom.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/sheraton.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/siac.png" alt="" title="" />
+                    <ul class="d-flex  ">
+                        <img class="item " src="{{url('public')}}/images/partners/arabcont.png" alt="" title="" />
+                        <img class="item " src="{{url('public')}}/images/partners/four-seasons.png" alt="" title="" />
+                        <img class="item " src="{{url('public')}}/images/partners/hassan-allam.png" alt="" title="" />
+                        <img class="item " src="{{url('public')}}/images/partners/hilton.png" alt="" title="" />
+                        <img class="item " src="{{url('public')}}/images/partners/mobica.png" alt="" title="" />
+                        <img class="item " src="{{url('public')}}/images/partners/orascom.png" alt="" title="" />
+                        <img class="item " src="{{url('public')}}/images/partners/sheraton.png" alt="" title="" />
+                        <img class="item " src="{{url('public')}}/images/partners/siac.png" alt="" title="" />
                     </ul>
                 </div>
             </div>

@@ -2,6 +2,17 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
+// Start mansy Code
+
+$('.why-us-card-toggler').click(function(){
+
+  $('.why-us-card-content').fadeOut('slow');
+  $('#card-heading-one'+$(this).data('target')).fadeIn('slow');
+});
+
+
+
+// End Mansy Code
 //Homepage
 $('.place-order-button').click(function(){
     $('#place-order-modal-form').find('input[name="item_name"]').val($(this).data('name'));
