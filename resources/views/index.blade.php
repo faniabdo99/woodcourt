@@ -583,27 +583,25 @@
                                     <p class="why-us-card-description ">We do any custom designs, in addition to our wide variety of pre-made designs. We also accept either editing existing designs or creating new ones.</p>
                                 </div>
                             </div>
-
+                            <div>
                         </div>
                     </div>
+                    //add Card to Why Us
                     <div class="col-3">
                       <div class="card-container">
-                      <div class="card col-12" style="width: 18rem;">
+                    
                       <div class="why-us-card-toggler">
                       </div>
                       <div data-target="why-us-card-content">
                       </div>
                       <div data-target="card-heading-one">
                       </div>
-
-
                         <div class="card-body">
-
-                           <!--<div class="why-us-card-content" id="card-heading-one"></div> -->
                         </div>
                       </div>
                     </div>
                 </div>
+                //End Card
             </div>
         </div>
     </section>

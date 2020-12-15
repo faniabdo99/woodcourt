@@ -4,12 +4,6 @@
 */
 // Start mansy Code
 
-$('.why-us-card-toggler').click(function(){
-
-  $('.why-us-card-content').fadeOut('slow');
-  $('#card-heading-one'+$(this).data('target')).fadeIn('slow');
-});
-
 
 
 // End Mansy Code
