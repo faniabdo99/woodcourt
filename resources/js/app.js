@@ -10,7 +10,6 @@ $('.why-us-single-toggler').click(function(){
 });
 
 
-
 // End Mansy Code
 //Homepage
 $('.place-order-button').click(function(){
