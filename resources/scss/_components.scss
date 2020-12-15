@@ -405,8 +405,7 @@
 
 }
 .products-list{
-  padding: 200px 0;
-  margin-bottom: 150px;
+  padding: 100px 0;
   ul {
       list-style: none;
       li{
@@ -566,6 +565,32 @@
           img{
             width: 80px;
             height: 80px;
+          }
+        }
+      }
+    }
+    .our-achievements{
+      height: 485px;
+      .dark-overlap{
+        height: 485px;
+        .single-counter-item{
+          margin: 10px auto;
+          padding: 10px;
+          .icon-container{
+            width: 45px;
+            height: 45px;
+            padding-top: 13px;
+            i{
+              font-size: 1em;
+            }
+          }
+          .content-container{
+            padding: 5px;
+            font-size: 0.8em;
+            color: #fff;
+            p{
+              font-size: 2em;
+            }
           }
         }
       }

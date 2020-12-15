@@ -1,18 +1,19 @@
 <header class="fixed-top">
     <div class="upper-nav">
-      <div class="row">
-        <ul class="col-1 text-left">
-          <li><i class="fab fa-facebook"></i> <a href="https://facebook.com/thewoodcourt" target="_blank"></a></li>
-          <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/thewoodcourt" target="_blank"></a></li>
-        </ul>
-        <ul class="col-11">
-          <li><i class="fas fa-map-marker"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> 81 El-Hussein St, Dokki, Giza</a></li>
-          <li><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a></li>
-          <li><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
-          <li><i class="fas fa-clock"></i>SAT-THU 10:00 - 22:00</li>
-      </ul>
-    </div>
 
+        <div class="row">
+            <ul class="col-1 text-left upper-nav-social-media">
+                <li><a href="https://facebook.com/thewoodcourt" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com/thewoodcourt" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <ul class="col-11">
+                <li><i class="fas fa-map-marker"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en"
+                    target="_blank"> 81 El-Hussein St, Dokki, Giza</a></li>
+                <li><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a></li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
+                <li><i class="fas fa-clock"></i> <a>SAT-THU 10:00 - 22:00</a></li>
+            </ul>
+        </div>
     </div>
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="{{route('home')}}">
@@ -30,7 +31,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
                 @auth
-                  <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth
                 {{-- <li class="nav-item"><a class="nav-link" href="#">Promotions Collection</a></li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li> --}}

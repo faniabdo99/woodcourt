@@ -4,10 +4,9 @@
 */
 // Start mansy Code
 
-$('.why-us-card-toggler').click(function(){
-
-  $('.why-us-card-content').fadeOut('slow');
-  $('#card-heading-one'+$(this).data('target')).fadeIn('slow');
+$('.why-us-single-toggler').click(function(){
+  $('.why-us-card-content .why-us-card').hide();
+  $('#'+$(this).data('target')).fadeIn('slow');
 });
 
 
@@ -23,7 +22,7 @@ $('.full-width-carousel').owlCarousel({
     items: 1,
     dots: true,
     autoplay: true,
-    autoplayTimeout: 121515156152156,
+    autoplayTimeout: 5000,
     loop: true,
     mouseDrag: true,
     nav: false,
@@ -92,20 +91,18 @@ $('#homepage-play-video-1,#homepage-play-video-2').click(function() {
   if($(this).attr('id') == 'homepage-play-video-1'){
     $('body').append(`
     <div class="full-width-video">
-    Video One
       <div>
         <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
-        <iframe src="https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/BNBKAmk72us"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
     `).css('overflow', 'hidden');
   }else if($(this).attr('id') == 'homepage-play-video-2'){
     $('body').append(`
     <div class="full-width-video">
-    Video Two
       <div>
         <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
-        <iframe src="https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Jf1MzF_yKw4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
     `).css('overflow', 'hidden');

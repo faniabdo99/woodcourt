@@ -98,9 +98,9 @@
   Author: Picturate.ME
 */
 // Start mansy Code
-$('.why-us-card-toggler').click(function () {
-  $('.why-us-card-content').fadeOut('slow');
-  $('#card-heading-one' + $(this).data('target')).fadeIn('slow');
+$('.why-us-single-toggler').click(function () {
+  $('.why-us-card-content .why-us-card').hide();
+  $('#' + $(this).data('target')).fadeIn('slow');
 }); // End Mansy Code
 //Homepage
 
@@ -113,7 +113,7 @@ $('.full-width-carousel').owlCarousel({
   items: 1,
   dots: true,
   autoplay: true,
-  autoplayTimeout: 121515156152156,
+  autoplayTimeout: 5000,
   loop: true,
   mouseDrag: true,
   nav: false,
@@ -177,9 +177,9 @@ $('.sub-categories-list li').click(function () {
 
 $('#homepage-play-video-1,#homepage-play-video-2').click(function () {
   if ($(this).attr('id') == 'homepage-play-video-1') {
-    $('body').append("\n    <div class=\"full-width-video\">\n    Video One\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/BNBKAmk72us\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } else if ($(this).attr('id') == 'homepage-play-video-2') {
-    $('body').append("\n    <div class=\"full-width-video\">\n    Video Two\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://drive.google.com/file/d/1dt5umysEEIUj_QNFQoPGozRzhPjVn_hF/preview\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/Jf1MzF_yKw4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } //Insert the elemnt into the dom
 
 

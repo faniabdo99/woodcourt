@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h1>About Us</h1>
-                        <p class="mb-5">The Leaders in Wood Industry</p>
+                        <p class="mb-5">Kitchen, Floor ... and More</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
             </li>
             <li>
                 <div>
-                    <time>2018</time> We signed a cooperation contract with "Laregina For Wood Industries" for doors & cabients products "Kitchens, Dressing Rooms, Shower Units".
+                    <time>2018</time> We signed a cooperation contract with "Laregina For Wood Industries" for doors & cabients products "Kitchens, Dressing Rooms, Sink Units".
                 </div>
             </li>
         </ul>

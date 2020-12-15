@@ -8,7 +8,7 @@
             <div class="row">
               <div class="col-lg-7 col-12">
                 <h1>Contact Us</h1>
-                <p class="mb-5">The Leaders in Wood Industry</p>
+                <p class="mb-5">Kitchen, Floor ... and More</p>
               </div>
               <div class="col-12 col-lg-5 hero-section-content">
                 <div class="social-media-hero">
