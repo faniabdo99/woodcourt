@@ -957,7 +957,7 @@
                         </div>
                         <div class="col-lg-2 col-4">
                             <div class="client-card">
-                              <a href="javascript:;"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
+                              <a  href="https://www.nbe.com.eg/NBE/E/#/EN/Home" target="_blank"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
                             </div>
                         </div>
                         <div class="col-lg-2 col-4">
