@@ -10,10 +10,24 @@
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
-                        <h2>Kitchens</h2>
+                        <h2>Welcome to <br> The Wood Court</h2>
                         <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-                        <a class="icon-button" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                        <a href="#" class="text-dark">Our Products</a>
+                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
+                    </div>
+                    <div id="slide-three" class="col-lg-6 col-12 homepage-herosection-bg-image"></div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" content-section col-lg-6 col-12">
+                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
+                        <p class="p-category">Products</p>
+                        <h2>Kitchens</h2>
+                        <p class="description mb-5">Not just a wide variety of materials (natural & artificial) but also we help you <br> to design your kitchen and dressing room with the most storage areas and <br> easy-access. Designed by
+                            highly-reputed interior designers</p>
+                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
                     <div id="slide-one" class="col-lg-6 col-12 homepage-herosection-bg-image">
@@ -29,8 +43,7 @@
                         <p class="p-category">Products</p>
                         <h2>Engineered Floors</h2>
                         <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-                        <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                        <a href="#" class="text-dark">Our Products</a>
+                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
                     <div id="slide-two" class="col-lg-6 col-12 homepage-herosection-bg-image">
@@ -44,31 +57,12 @@
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
-                        <h2>Stairs</h2>
-                        <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-                        <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                        <a href="#" class="text-dark">Our Products</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
-                    </div>
-                    <div id="slide-three" class="col-lg-6 col-12 homepage-herosection-bg-image">
-
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class=" content-section col-lg-6 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
-                        <p class="p-category">Products</p>
                         <h2>Outdoor</h2>
-                        <p class="description mb-5">All-natural wood flooring & Fiberboard (HDF) you will need in</br> one place. Classic, Modern, Country, Vintage, Contemporary and</br> much more even custom designs</p>
-                        <a class="icon-button mr-lg-5 mr-0" href="{{route('about')}}"> <i class="fas fa-star"></i> About us</a>
-                        <a href="#" class="text-dark">Our Products</a>
+                        <p class="description mb-5">Nowadays, after quarantine we all realaized the importance of our private ourdoors, Get the best out of your farden or backyard. See our Pergolas & Outdoor flooring new designs</p>
+                        <a class="icon-button mr-lg-5 mr-0" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
                     <div id="slide-four" class="col-lg-6 col-12 homepage-herosection-bg-image">
-
                     </div>
                 </div>
             </div>
@@ -469,7 +463,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-gear"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Quick&Easy Installation</h3>
+                                    <h3 class="why-us-card-title">Quick Installation</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -771,21 +765,6 @@
     <section class="homepage-videos-grid">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-12">
-                    <div class="video-background-homepage" id="video-one">
-                        <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-12">
-                    <h2>Video Title Here</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <a class="icon-button youtube-button" href="https://www.youtube.com/watch?v=BNBKAmk72us" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-8 col-12">
                     <h2>Video Title Here</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -798,6 +777,21 @@
                         <img src="{{url('public')}}/images/video-bg-2.jpg" alt="Video Thumb">
                         <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="video-background-homepage" id="video-one">
+                        <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <h2>Video Title Here</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <a class="icon-button youtube-button" href="https://www.youtube.com/watch?v=BNBKAmk72us" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
                 </div>
             </div>
         </div>
@@ -950,16 +944,98 @@
             <div class="row">
                 <div class="col-12">
                     <h2>Our Clients</h2>
-                    <ul class="owl-carousel owl-theme multi-items-carousel">
-                        <img class="item" src="{{url('public')}}/images/partners/arabcont.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/four-seasons.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/hassan-allam.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/hilton.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/mobica.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/orascom.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/sheraton.png" alt="" title="" />
-                        <img class="item" src="{{url('public')}}/images/partners/siac.png" alt="" title="" />
-                    </ul>
+                    <div class="row">
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                                <a href="https://www.dipndip.com/" target="_blank"><img src="{{url('public')}}/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="javascript:;"><img src="{{url('public')}}/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="javascript:;"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.emar-eg.com/" target="_blank"><img src="{{url('public')}}/images/partners/emar.png" alt="Emar"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.arabcont.com/" target="_blank"><img src="{{url('public')}}/images/partners/arabcont.png" alt="arabcont"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.cooksclub.com/en/cooks-club-el-gouna-egypt" target="_blank"><img src="{{url('public')}}/images/partners/cook-club.png" alt="Cooks Club"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://amer-group.com/index.php/ar/" target="_blank"><img src="{{url('public')}}/images/partners/amer.png" alt="Amer Group"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.fourseasons.com/" target="_blank"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="Four Seasons"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="http://www.hassanallam.com/" target="_blank"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.hilton.com/en/" target="_blank"><img src="{{url('public')}}/images/partners/hilton.png" alt="Hilton"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://shouraonline.com/" target="_blank"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.rixos.com/en" target="_blank"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.mazloumhome.com/" target="_blank"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="http://www.mobica.net/" target="_blank"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.siac.com.eg/" target="_blank"><img src="{{url('public')}}/images/partners/siac.png" alt="Siac"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="http://www.cibeg.com/Arabic/pages/default.aspx" target="_blank"><img src="{{url('public')}}/images/partners/cib.png" alt="CIB"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="https://www.marriott.com/" target="_blank"><img src="{{url('public')}}/images/partners/sheraton.png" alt="Sheraton"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-4">
+                            <div class="client-card">
+                              <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

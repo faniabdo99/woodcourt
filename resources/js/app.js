@@ -119,6 +119,7 @@ $(window).scroll(function() {
     var top_of_screen = $(window).scrollTop();
     if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
         $('.counter').countTo();
+        return false;
     } else {
         // Hold
     }
@@ -181,80 +182,41 @@ $("img").on("contextmenu",function(){
       "thumbs",
       "close"
     ],
-})
-//Data Tables
-// $('#data-table').DataTable({
-//    dom: 'Bfrtip',
-//    buttons: [
-//        { extend: 'copy', text: '<i class="fas fa-copy"></i> Copy to clipboard', className: "datatables-button copy-content"},
-//        { extend: 'excel', text: '<i class="fas fa-file-excel"></i> Export to Excel', className: "datatables-button excel-export"}
-//    ]
-// });
-var $container = $('.products-isotope').isotope({
-       itemSelector: '.single-product',
-       transitionDuration: '0.5s',
-       masonry: {
-          columnWidth: '.grid-sizer'
-       }
 });
-//****************************
-// Isotope Load more button
-//****************************
-var initShow = 8; //number of images loaded on init & onclick load more button
-var counter = initShow; //counter for load more button
-var iso = $container.data('isotope'); // get Isotope instance
-loadMore(initShow); //execute function onload
-function loadMore(toShow) {
-  $container.find(".d-none").removeClass("d-none");
-  var hiddenElems = iso.filteredItems.slice(toShow, iso.filteredItems.length).map(function(item) {
-    return item.element;
-  });
-  $(hiddenElems).addClass('d-none');
-  $container.isotope('layout');
-  //when no more to load, hide show more button
-  if (hiddenElems.length == 0) {
-    $("#load-more").hide();
-  }
-else {
-    $("#load-more").show();
-  };
-}
-
-//when load more button clicked
-$("#load-more").click(function() {
-  if ($('#filters').data('clicked')) {
-    //when filter button clicked, set initial value for counter
-    counter = initShow;
-    j$('#filters').data('clicked', false);
-  } else {
-    counter = counter;
-  };
-
-  counter = counter + initShow;
-
-  loadMore(counter);
-});
-$container.isotope( 'reveal', iso.items );
-imagesLoaded(iso, function(){
-    iso.layout();
-});
-
-// filter functions
-var filterFns = {
-    // show if name ends with -ium
-    ium: function() {
-        var name = $(this).find('.name').text();
-        return name.match(/ium$/);
+//smooth scroll
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
     }
-};
-// bind filter button click
-$('#filters').on('click', 'button', function() {
-    $("#filters button").removeClass('is-checked');
-    $(this).addClass('is-checked');
-    var filterValue = $(this).attr('data-filter');
-    // use filterFn if matches value
-    filterValue = filterFns[filterValue] || filterValue;
-    $container.isotope({
-        filter: filterValue
-    });
-});
+  });
