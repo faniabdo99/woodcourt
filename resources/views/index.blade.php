@@ -124,7 +124,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">All-natural wood flooring & Fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary and much more even custom designs</p>
+                            <p class="category-description">All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.</p>
                             <ul class="sub-categories-list">
                                 <li data-target="engineered-floors" class="active">Engineered Floors</li>
                                 <li data-target="tiles">Tiles</li>
@@ -274,8 +274,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">Not just a wide variety of materials (natural & artificial) but also we help you to design your kitchen and dressing room with the most storage areas and easy-access. Designed by
-                                highly-reputed interior designers</p>
+                            <p class="category-description">Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen, sink units, and dressings befitting your personality. With the most storage areas and easy-access. Designed by highly-reputed interior designers.</p>
                             <ul class="sub-categories-list">
                                 <li data-target="kitchens" class="active">Kitchens</li>
                                 <li data-target="dressings">Dressings</li>
@@ -335,7 +334,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">Nowadays, after quarantine we all realaized the importance of our private ourdoors, Get the best out of your farden or backyard. See our Pergolas & Outdoor flooring new designs</p>
+                            <p class="category-description">Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new designs.</p>
                             <ul class="sub-categories-list">
                                 <li data-target="teak-flooring" class="active">Teak Flooring</li>
                                 <li data-target="shower-units">Shower Units</li>
