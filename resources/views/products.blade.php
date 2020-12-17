@@ -37,7 +37,7 @@
                         <a data-fancybox="w-flooring" href="{{url('public')}}/images/categories/wood-flooring/tiles/19.jpg" class="single-product grid-sizer transition wood-flooring"><img src="{{url('public')}}/images/products/19.jpg" alt=""></a>
                     </div>
                     <div class="text-center mt-5">
-                        <a class="icon-button" id="load-more" href="javascript:;"><i class="fas fa-star"></i> Load More</a>
+                        <a class="icon-button d-lg-inline d-block text-center" id="load-more" href="javascript:;"><i class="fas fa-star"></i> Load More</a>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,7 @@
         <ul>
           <li><a href="https://www.facebook.com/thewoodcourt/" target="_blank"><i class="fab fa-facebook"></i></a></li>
           <li><a href="https://www.instagram.com/thewoodcourt/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-12 d-flex footer-links">

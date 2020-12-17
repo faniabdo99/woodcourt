@@ -6,6 +6,7 @@
   }
 }
 .timeline{
+  padding: 100px 0;
   h2{text-align: center;}
 }
 .timeline ul {
@@ -135,6 +136,6 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent $lightgrey transparent transparent;
   }
 }

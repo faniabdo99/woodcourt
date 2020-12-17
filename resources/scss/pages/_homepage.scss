@@ -27,6 +27,7 @@
     left: 0;
     opacity: 0.2;
     width: 300px !important;
+    z-index: -1;
   }
   @media(max-width: 768px){
     .content-section{
@@ -108,19 +109,10 @@
         }
     }
   }
-
-  #slide-one{
-    background: url('../images/heros/kitchen-hero.jpg') no-repeat center center;background-size:cover;
-  }
-  #slide-two{
-    background: url('../images/heros/tiles-hero.jpg') no-repeat center center;background-size:cover;
-  }
-  #slide-three{
-    background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;
-  }
-  #slide-four{
-    background: url('../images/heros/outdoor-hero.jpg') no-repeat center center;background-size:cover;
-  }
+  #slide-one{background: url('../images/heros/kitchen-hero.jpg') no-repeat center center;background-size:cover;}
+  #slide-two{background: url('../images/heros/floors-hero.jpeg') no-repeat center center;background-size:cover;}
+  #slide-three{background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;}
+  #slide-four{background: url('../images/heros/outdoor-hero.jpg') no-repeat center center;background-size:cover;}
 }
 //Start Our Achievements
 
