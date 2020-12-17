@@ -100,19 +100,39 @@
 .testimonials-section {
     background: url("../images/heros/testos-bg.jpg") no-repeat center;
     background-size: cover;
-
+    .owl-nav{
+      button{
+        position: absolute;
+        top: 30%;
+        &:hover , &:focus{
+          background: none !important;
+          outline: none;
+        }
+          i{
+            padding-top: 13px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background-color: $brand;
+            color: #fff;
+          }
+          &.owl-next{
+            right: -15%;
+          }
+          &.owl-prev{
+            left: -15%;
+          }
+      }
+    }
     .dark-overlap {
         background: rgba(0, 0, 0,0.5);
         padding: 100px 0;
-
         h2 {
             text-align: center;
             color: #fff;
         }
-
         .slide {
             padding-top: 80px;
-
             .user-image {
                 width: 150px;
                 height: 150px;
@@ -120,20 +140,17 @@
                 display: block;
                 margin: 0 auto 30px;
             }
-
             .user-name {
                 color: #fff;
                 font-size: 1.2em;
                 text-align: center;
                 margin-bottom: 10px;
             }
-
             .user-job-title {
                 text-align: center;
                 color: #fff;
                 font-size: 0.8em;
             }
-
             .testimonial-content {
                 position: relative;
                 background: #fff;
@@ -141,17 +158,14 @@
                 border-radius: 4px;
                 width: 85%;
                 margin-left: auto;
-
                 h3 {
                     color: $brand;
                     margin-bottom: 15px;
                 }
-
                 p {
                     color: $medgrey;
                     line-height: 2em;
                 }
-
                 .small-quote-icon {
                     display: block;
                     width: 30px;
@@ -166,7 +180,6 @@
                     left: -15px;
                 }
             }
-
             .big-quote-icon {
                 transform: rotate(180deg);
                 font-size: 8em;
@@ -246,14 +259,6 @@
         bottom: -10px;
         left: 45%;
         right: 45%;
-    }
-}
-.owl-theme .owl-nav.disabled+.owl-dots {
-    margin-top: 50px;
-
-    button:focus {
-        border: none;
-        outline: none;
     }
 }
 .woodcourt-form {
@@ -475,35 +480,7 @@
 
   }
 
-  .owl-nav {
-      position: relative;
-      margin-top: -15%;
-      display: flex;
 
-      button {
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          color: #fff;
-          font-size: 1.3em;
-          &.owl-prev {
-              position: absolute;
-              left: -100px;
-              background: $brand;
-              color: #fff;
-              border-radius: 50%;
-
-          }
-          &.owl-next {
-              position: absolute;
-              right: -100px;
-              background: $brand;
-              color: #fff;
-              border-radius: 50%;
-
-          }
-      }
-  }
   input[type=submit]{
     border:none;
     outline:none;
@@ -540,20 +517,16 @@
     .testimonials-section {
         .dark-overlap {
             padding: 50px 0;
-
             .slide {
                 padding-top: 20px;
-
                 .user-image {
                     width: 100px;
                     height: 100px;
                     margin: 0 auto 10px;
                 }
-
                 .user-job-title {
                     margin-bottom: 35px;
                 }
-
                 .testimonial-content {
                     width: 95%;
                 }

@@ -368,6 +368,28 @@ a:hover {
   background: url("../images/heros/testos-bg.jpg") no-repeat center;
   background-size: cover;
 }
+.testimonials-section .owl-nav button {
+  position: absolute;
+  top: 30%;
+}
+.testimonials-section .owl-nav button:hover, .testimonials-section .owl-nav button:focus {
+  background: none !important;
+  outline: none;
+}
+.testimonials-section .owl-nav button i {
+  padding-top: 13px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #0D8287;
+  color: #fff;
+}
+.testimonials-section .owl-nav button.owl-next {
+  right: -15%;
+}
+.testimonials-section .owl-nav button.owl-prev {
+  left: -15%;
+}
 .testimonials-section .dark-overlap {
   background: rgba(0, 0, 0, 0.5);
   padding: 100px 0;
@@ -502,14 +524,6 @@ a:hover {
   bottom: -10px;
   left: 45%;
   right: 45%;
-}
-
-.owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: 50px;
-}
-.owl-theme .owl-nav.disabled + .owl-dots button:focus {
-  border: none;
-  outline: none;
 }
 
 .woodcourt-form label {
@@ -724,32 +738,6 @@ a:hover {
   border-radius: 4px;
   text-align: center;
   color: #fff;
-}
-.products-list .owl-nav {
-  position: relative;
-  margin-top: -15%;
-  display: flex;
-}
-.products-list .owl-nav button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  color: #fff;
-  font-size: 1.3em;
-}
-.products-list .owl-nav button.owl-prev {
-  position: absolute;
-  left: -100px;
-  background: #0D8287;
-  color: #fff;
-  border-radius: 50%;
-}
-.products-list .owl-nav button.owl-next {
-  position: absolute;
-  right: -100px;
-  background: #0D8287;
-  color: #fff;
-  border-radius: 50%;
 }
 .products-list input[type=submit] {
   border: none;
@@ -1132,6 +1120,28 @@ a:hover {
   height: 200px;
   width: auto;
   transform: rotate(90deg);
+}
+#homepage-promotions .owl-nav button {
+  position: absolute;
+  top: 30%;
+}
+#homepage-promotions .owl-nav button:hover, #homepage-promotions .owl-nav button:focus {
+  background: none !important;
+  outline: none;
+}
+#homepage-promotions .owl-nav button i {
+  padding-top: 13px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #0D8287;
+  color: #fff;
+}
+#homepage-promotions .owl-nav button.owl-next {
+  right: -15%;
+}
+#homepage-promotions .owl-nav button.owl-prev {
+  left: -15%;
 }
 
 #our-products {

@@ -108,6 +108,30 @@ $('.place-order-button').click(function () {
   $('#place-order-modal-form').find('input[name="item_name"]').val($(this).data('name'));
 }); //Owl Carousel Options
 
+$('.full-width-carousel-with-nav').owlCarousel({
+  singleItem: true,
+  items: 1,
+  dots: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  loop: true,
+  mouseDrag: true,
+  nav: true,
+  navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+  pagination: true,
+  responsiveRefreshRate: 200,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 1
+    },
+    1000: {
+      items: 1
+    }
+  }
+});
 $('.full-width-carousel').owlCarousel({
   singleItem: true,
   items: 1,
@@ -116,7 +140,6 @@ $('.full-width-carousel').owlCarousel({
   autoplayTimeout: 5000,
   loop: true,
   mouseDrag: true,
-  nav: false,
   pagination: true,
   responsiveRefreshRate: 200,
   responsive: {
