@@ -14,10 +14,21 @@
             </thead>
             <tbody>
               <tr>
+                <td>Categories</td>
+                <td>{{$CategoriesCount}}</td>
+                <td><a class="text-success font-weight-bold" href="{{route('admin.category.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.category.all')}}"><i class="fas fa-edit"></i> View All</a></td>
+              </tr>
+              <tr>
+                <td>Products</td>
+                <td>{{$ProductsCount}}</td>
+                <td><a class="text-success font-weight-bold" href="{{route('admin.product.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.product.all')}}"><i class="fas fa-edit"></i> View All</a></td>
+              </tr>
+              <tr>
                 <td>Events</td>
                 <td>{{$EventsCount}}</td>
                 <td><a class="text-success font-weight-bold" href="{{route('admin.getNewEvent')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.allEvents')}}"><i class="fas fa-edit"></i> View All</a></td>
               </tr>
+
               <tr>
                 <td>Contact Us List</td>
                 <td>{{$MessagesCount}}</td>

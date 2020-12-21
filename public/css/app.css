@@ -1736,9 +1736,103 @@ time {
   }
 }
 #products-section {
+  height: 60vh;
   background: url("../images/heros/products.jpg") no-repeat center center;
   background-size: cover;
+  margin-bottom: 100px;
 }
 #products-section .dark-overlap {
+  height: 60vh;
   padding: 15vh 5%;
+}
+
+.products-sidebar {
+  background: #F1F1F1;
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+  border-radius: 4px;
+}
+.products-sidebar .sidebar-title {
+  color: #0D8287;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+.products-sidebar ul.filter-items {
+  list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+.products-sidebar ul.filter-items li {
+  margin-bottom: 10px;
+}
+.products-sidebar ul.filter-items li > a {
+  color: #333333;
+}
+.products-sidebar ul.filter-items li > a:hover {
+  color: #0D8287;
+}
+.products-sidebar ul.filter-items li ul.filter-sub-items {
+  list-style: none;
+}
+.products-sidebar ul.filter-items li ul.filter-sub-items li {
+  margin-bottom: 0;
+}
+.products-sidebar ul.filter-items li ul.filter-sub-items li a {
+  font-size: 0.9em;
+}
+
+.single-product-item {
+  background-color: #F1F1F1;
+  margin-bottom: 15px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.single-product-item .image-container {
+  height: 300px;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.single-product-item .content-container {
+  padding: 15px;
+}
+.single-product-item .content-container h2 {
+  color: #0D8287;
+  font-size: 1.2em;
+}
+.single-product-item .content-container p {
+  color: #333333;
+}
+
+.single-product-images {
+  padding: 40px 0;
+}
+.single-product-images h3 {
+  font-size: 1.3em;
+  color: #0D8287;
+}
+.single-product-images ul {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+.single-product-images ul li {
+  margin-right: 15px;
+}
+.single-product-images ul li img {
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  #products-section {
+    margin-bottom: 50px;
+  }
+
+  .products-sidebar {
+    width: 100%;
+  }
 }
