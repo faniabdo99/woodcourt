@@ -4,8 +4,8 @@
     </IfModule>
     <IfModule mod_rewrite.c>
       RewriteEngine On
-      RewriteCond %{HTTP_HOST} thewoodcourt.com
-      RewriteRule (.*) http://www.thewoodcourt.com/$1 [R=301,L]
+      RewriteCond %{HTTP_HOST} www.thewoodcourt.com
+      RewriteRule (.*) https://thewoodcourt.com/$1 [R=301,L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
