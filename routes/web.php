@@ -7,8 +7,8 @@ Route::get('our-factory' , 'PagesController@getOurFactory')->name('factory');
 Route::get('contact' , 'ContactController@getContact')->name('contact');
 Route::post('contact-limited-edition' , 'ContactController@postLimitedEdition')->name('contactLimitedEdition');
 Route::prefix('products')->group(function(){
-  Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
-  Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');
+  Route::get('/{slug}' , 'PhotosController@getSingle')->name('products.single');
+  Route::get('/{isFiltered?}/{filter?}' , 'PhotosController@getUserHome')->name('products');
 });
 Route::prefix('events')->group(function(){
   Route::get('/' , 'EventsController@getUserHome')->name('events');
@@ -44,6 +44,12 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
       Route::get('/edit/{id}' , 'ProductController@getEdit')->name('admin.product.getEdit');
       Route::post('/edit/{id}' , 'ProductController@postEdit')->name('admin.product.postEdit');
       Route::get('/delete/{id}' , 'ProductController@delete')->name('admin.product.delete');
+    });
+    Route::prefix('photos')->group(function(){
+      Route::get('/' , 'PhotosController@getIndex')->name('admin.photos.all');
+      Route::get('/new' , 'PhotosController@getNew')->name('admin.photos.getNew');
+      Route::post('/new' , 'PhotosController@postNew')->name('admin.photos.postNew');
+      Route::get('/delete/{id}' , 'PhotosController@delete')->name('admin.photos.delete');
     });
     Route::prefix('messages')->group(function(){
       Route::get('/all' , 'ContactController@getAll')->name('admin.allMessages');

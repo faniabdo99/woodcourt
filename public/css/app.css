@@ -1782,6 +1782,17 @@ time {
   font-size: 0.9em;
 }
 
+.single-photo {
+  display: block;
+  margin-bottom: 10px;
+  height: 250px;
+  width: 250px;
+}
+.single-photo img {
+  height: 250px;
+  width: 250px;
+}
+
 .single-product-item {
   background-color: #F1F1F1;
   margin-bottom: 15px;

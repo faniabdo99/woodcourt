@@ -31,17 +31,10 @@
                 </div>
                 <div class="col-lg-9 col-12">
                     <div class="row">
-                        @forelse ($AllProducts as $key => $Product)
-                        <div class="col-lg-4 col-12">
-                            <a href="{{route('products.single' , $Product->slug)}}">
-                                <div class="single-product-item">
-                                    <div class="image-container" style="background-image:url('{{$Product->ThumbPath}}')"></div>
-                                    <div class="content-container">
-                                        <h2>{{$Product->title}}</h2>
-                                        <p>{{strip_tags($Product->shortDescription)}}</p>
-                                        <a class="icon-button" href="{{route('products.single' , $Product->slug)}}">View Product</a>
-                                    </div>
-                                </div>
+                        @forelse ($AllPhotos as $key => $Photo)
+                        <div class="col-lg-3 col-12">
+                            <a class="single-photo" href="{{$Photo->ImagePath}}" data-fancybox="image">
+                                <img src="{{$Photo->ThumbPath}}" />
                             </a>
                         </div>
                         @empty

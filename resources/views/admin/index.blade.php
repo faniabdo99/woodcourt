@@ -24,6 +24,11 @@
                 <td><a class="text-success font-weight-bold" href="{{route('admin.product.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.product.all')}}"><i class="fas fa-edit"></i> View All</a></td>
               </tr>
               <tr>
+                <td>Products Images</td>
+                <td>{{$PhotosCount}}</td>
+                <td><a class="text-success font-weight-bold" href="{{route('admin.photos.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.photos.all')}}"><i class="fas fa-edit"></i> View All</a></td>
+              </tr>
+              <tr>
                 <td>Events</td>
                 <td>{{$EventsCount}}</td>
                 <td><a class="text-success font-weight-bold" href="{{route('admin.getNewEvent')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.allEvents')}}"><i class="fas fa-edit"></i> View All</a></td>

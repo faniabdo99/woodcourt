@@ -52,7 +52,16 @@
         }
     }
 }
-
+.single-photo{
+  display: block;
+  margin-bottom: 10px;
+  height: 250px;
+  width: 250px;
+  img{
+    height: 250px;
+    width: 250px;
+  }
+}
 .single-product-item {
     background-color: $lightgrey;
     margin-bottom: 15px;
