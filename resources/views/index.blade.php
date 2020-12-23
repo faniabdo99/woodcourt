@@ -6,9 +6,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-6 col-12">
-                        <h2>Welcome to <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
-                                            <img class="d-lg-none d-inline w-auto" height="80" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
-                        </h2>
+                        <h2>Welcome to <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
@@ -692,42 +690,19 @@
                 <div class="col-12">
                     <h2 class="section-title mb-5">Limited Edition</h2>
                     <ul class="owl-carousel owl-theme three-items-carousel">
+                      @forelse ($LimitedEditionCategories as $LCategory)
                         <li class="item">
-                            <span class="item-flag limited">Limited</span>
-                            <img src="{{url('public/')}}/images/collections/live-edge-desks.png" alt="Live Edge Desks">
+                          @if($LCategory->flag) <span class="item-flag limited">{{$LCategory->flag}}</span> @endif
+                            <img src="{{$LCategory->ImagePath}}" alt="{{$LCategory->title}}">
                             <div class="content-container">
-                                <h3>Live-edge Desks</h3>
-                                <p>The most luxurious desks make their own statements! Limited and absolutely unique.</p>
+                                <h3>{{$LCategory->title}}</h3>
+                                <p>{{$LCategory->description}}</p>
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks">Place Your Order</a>
                             </div>
                         </li>
-                        <li class="item">
-                            <span class="item-flag limited">Limited</span>
-                            <img src="{{url('public/')}}/images/collections/lighting-accessories.png" alt="Lighting Accessories">
-                            <div class="content-container">
-                                <h3>Lighting Accessories</h3>
-                                <p>Light up your room or office with a modern and elegant touch made from genuine wood.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights">Place Your Order</a>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <span class="item-flag sale">Customizable</span>
-                            <img src="{{url('public/')}}/images/collections/busniess-cards.jpg" alt="Business Cards">
-                            <div class="content-container">
-                                <h3>Business Cards</h3>
-                                <p>Unique business cards are a powerful way to be remembered. Order yours now.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards">Place Your Order</a>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <span class="item-flag sale">Limited</span>
-                            <img src="{{url('public/')}}/images/collections/stained-coasters.png" alt="Satined Coasters">
-                            <div class="content-container">
-                                <h3>Stained Coasters</h3>
-                                <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters">Place Your Order</a>
-                            </div>
-                        </li>
+                      @empty
+                        <p>Soon</p>
+                      @endforelse
                     </ul>
                 </div>
             </div>

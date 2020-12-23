@@ -51,6 +51,14 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
       Route::post('/new' , 'PhotosController@postNew')->name('admin.photos.postNew');
       Route::get('/delete/{id}' , 'PhotosController@delete')->name('admin.photos.delete');
     });
+    Route::prefix('limited')->group(function(){
+      Route::get('/' , 'LimitedEditionController@getIndex')->name('admin.limited.all');
+      Route::get('/new' , 'LimitedEditionController@getNew')->name('admin.limited.getNew');
+      Route::post('/new' , 'LimitedEditionController@postNew')->name('admin.limited.postNew');
+      Route::get('/edit/{id}' , 'LimitedEditionController@getEdit')->name('admin.limited.getEdit');
+      Route::post('/edit/{id}' , 'LimitedEditionController@postEdit')->name('admin.limited.postEdit');
+      Route::get('/delete/{id}' , 'LimitedEditionController@delete')->name('admin.limited.delete');
+    });
     Route::prefix('messages')->group(function(){
       Route::get('/all' , 'ContactController@getAll')->name('admin.allMessages');
     });

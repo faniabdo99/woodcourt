@@ -1,4 +1,4 @@
-@include('layout.header', ['PageTitle' => 'Very Cool Site'])
+@include('layout.header', ['PageTitle' => 'Admin Panel'])
 <body>
     @include('layout.navbar')
     <div class="container py-5">
@@ -22,6 +22,11 @@
                 <td>Products</td>
                 <td>{{$ProductsCount}}</td>
                 <td><a class="text-success font-weight-bold" href="{{route('admin.product.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.product.all')}}"><i class="fas fa-edit"></i> View All</a></td>
+              </tr>
+              <tr>
+                <td>Limited Edition</td>
+                <td>{{$ProductsCount}}</td>
+                <td><a class="text-success font-weight-bold" href="{{route('admin.limited.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.limited.all')}}"><i class="fas fa-edit"></i> View All</a></td>
               </tr>
               <tr>
                 <td>Products Images</td>
