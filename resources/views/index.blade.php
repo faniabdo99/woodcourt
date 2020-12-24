@@ -683,7 +683,7 @@
                 </div>
             </div>
     </section>
-    <section class="products-list" id="homepage-promotions">
+    {{-- <section class="products-list" id="homepage-promotions">
         <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
             <div class="row">
@@ -739,7 +739,87 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
+    <section class="products-list" id="homepage-promotions">
+       <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
+       <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <h2 class="section-title mb-5">Limited Edition</h2>
+                   <ul class="owl-carousel owl-theme three-items-carousel">
+                       <li class="item">
+                           <span class="item-flag limited">Limited</span>
+                           <img src="{{url('public/')}}/images/collections/live-edge-desks.png" alt="Live Edge Desks">
+                           <div class="content-container">
+                               <h3>Live-edge Desks</h3>
+                               <p>The most luxurious desks make their own statements! Limited and absolutely unique.</p>
+                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks">Place Your Order</a>
+                           </div>
+                       </li>
+                       <li class="item">
+                           <span class="item-flag limited">Limited</span>
+                           <img src="{{url('public/')}}/images/collections/lighting-accessories.png" alt="Lighting Accessories">
+                           <div class="content-container">
+                               <h3>Lighting Accessories</h3>
+                               <p>Light up your room or office with a modern and elegant touch made from genuine wood.</p>
+                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights">Place Your Order</a>
+                           </div>
+                       </li>
+                       <li class="item">
+                           <span class="item-flag sale">Customizable</span>
+                           <img src="{{url('public/')}}/images/collections/busniess-cards.jpg" alt="Business Cards">
+                           <div class="content-container">
+                               <h3>Business Cards</h3>
+                               <p>Unique business cards are a powerful way to be remembered. Order yours now.</p>
+                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards">Place Your Order</a>
+                           </div>
+                       </li>
+                       <li class="item">
+                           <span class="item-flag sale">Limited</span>
+                           <img src="{{url('public/')}}/images/collections/stained-coasters.png" alt="Satined Coasters">
+                           <div class="content-container">
+                               <h3>Stained Coasters</h3>
+                               <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
+                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters">Place Your Order</a>
+                           </div>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+       <div class="modal fade" id="PlaceOrderModal" tabindex="-1" role="dialog" aria-labelledby="PlaceOrderModalLabel" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                   <div class="modal-header">
+                       <h5 class="modal-title" id="PlaceOrderModalLabel">Place Your Order</h5>
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                       </button>
+                   </div>
+                   <div class="modal-body">
+                       <form action="{{route('contactLimitedEdition')}}" method="post" id="place-order-modal-form">
+                           @csrf
+                           <div class="form-group">
+                               <label for="recipient-name" class="col-form-label">Name:</label>
+                               <input type="text" name="name" class="form-control" placeholder="Please enter your name" required>
+                           </div>
+                           <div class="form-group">
+                               <label for="recipient-name" class="col-form-label">Email / Phone Number:</label>
+                               <input type="text" name="email" class="form-control" placeholder="Please enter your phone number or email" required>
+                           </div>
+                           <div class="form-group">
+                               <label for="message-text" class="col-form-label">Message: (Optional)</label>
+                               <textarea class="form-control" name="message" placeholder="Enter any additional details here"></textarea>
+                           </div>
+                           <input type="hidden" name="item_name">
+                           <input type="hidden" name="form_location" value="Limited Edition">
+                           <input class="icon-button" type="submit" value="Send Request">
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
     <section class="homepage-videos-grid">
         <div class="container">
             <div class="row">
