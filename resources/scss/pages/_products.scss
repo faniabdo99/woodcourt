@@ -93,6 +93,7 @@
 .category-images-list{
   display: none;
   list-style-type: none;
+  padding-inline-start:0;
   li{
     display: inline-block;
     margin: 10px;
@@ -127,4 +128,10 @@
 @media(max-width: 768px){
   #products-section {margin-bottom: 50px;}
   .products-sidebar {width: 100%;}
+  .category-images-list{
+    li{
+      margin: 10px auto;
+    }
+
+  }
 }

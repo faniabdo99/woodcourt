@@ -1822,6 +1822,8 @@ time {
 .category-images-list {
   display: none;
   list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 .category-images-list li {
   display: inline-block;
@@ -1860,5 +1862,9 @@ time {
 
   .products-sidebar {
     width: 100%;
+  }
+
+  .category-images-list li {
+    margin: 10px auto;
   }
 }
