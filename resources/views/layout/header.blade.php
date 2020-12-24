@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- App CSS -->
     <link rel="stylesheet" href="{{url('public')}}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.min.css">

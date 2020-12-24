@@ -1085,6 +1085,58 @@
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                         </div>
                     </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-12">
+                            <img class="user-image" src="{{url('public/images')}}/user.png" alt="Rania Salem">
+                            <h4 class="user-name">Rania Salem</h4>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <div class="testimonial-content text-right" dir="rtl">
+                                <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                                <h3>السلم ده قصة تانية خالص</h3>
+                                <p>مهما تكلمت و شكرت في The Wood Court الكلام هيكون غير منصف ... مواعيد محترمة و التزام و دقة في الشغل ... و أسعار مناسبة جداً م/أيمن زهران عملي فيلا في الشيخ زايد ... ريسبشن و غرف وسلم و خشب تيك للتراث ... و السلم ده قصة تانية خالص بجد حاجة تجنن ... أنا مشس هحكي كتير الصور بتتكلم <br>
+                                  فعلاً شكراً وود كورت و شكراً أيمن زهران على الشغل المحترم
+                                </p>
+                            </div>
+                            <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
+                        </div>
+                    </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-12">
+                            <img class="user-image" src="{{url('public/images')}}/user.png" alt="Noha Nagied">
+                            <h4 class="user-name">Noha Nagied</h4>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <div class="testimonial-content text-right" dir="rtl">
+                                <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                                <h3>شغل جميل</h3>
+                                <p>
+                                  من الشغل الجميل اللي شفتو في معرض La Casa 4/2018
+                                  شغل WoodCourt و اللي عامل تصميم لباركيه طبيعي Patchwork ألوان و مونو <br>
+                                  الشغل تحفة جداً التصميمات جميلة الألوان راقية و شيك و التايل على بعضه اضافة مميزة و عامل فرق خاصة ان الباركيه من الخامات الكلاسيكية اللي من قيمتها و أصالتها و التغيير فيها و الاضافة اليها مش سهل <br>
+                                  شابو على الأفكار بره الصندوق <br>
+                                  keep up the good work!
+                                </p>
+                            </div>
+                            <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
+                        </div>
+                    </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-12">
+                            <img class="user-image"
+                              src="https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-1/p200x200/84082222_10212267300236772_3039547938767372288_o.jpg?_nc_cat=108&ccb=2&_nc_sid=7206a8&_nc_eui2=AeEiCBzfxE0onuFiJQbFntIskmeIEhGbh3aSZ4gSEZuHdkln2iU9Z9sf1W5PDq8_gsaTh8AobWijQ-4mhfd-BrI4&_nc_ohc=woKtuP4FPUAAX82vqwy&_nc_ht=scontent-hbe1-1.xx&tp=6&oh=a63d459d4b4774a1166298331a16f53d&oe=600BB932"
+                              alt="Amira Khidr">
+                            <h4 class="user-name">Amira Khidr</h4>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <div class="testimonial-content text-right" dir="rtl">
+                                <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
+                                <h3>اضافة حقيقة و جميلة للديكور في مصر</h3>
+                                <p>البوست ده تحية لفنان حقيقي و أنا شايفة انه فضل يطور بشغله بمنتهى التفاني لحد ما وصل مستوى الأرضيات الباركيه الخشب الطبيعي لمستوى مكنش من كم سنة نحلم نشوفه بمصر من ناحية الجودة و التصميمات اللي دايماً جديدة و مبهرة و المعاملة المحترمة مع العملاء سواء بالسعر أو المواعيد</p>
+                            </div>
+                            <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

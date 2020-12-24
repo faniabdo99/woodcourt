@@ -91,8 +91,47 @@
                                           src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/21.jpg" alt="engineered-floors-21" title="engineered-floors-21"></a></li>
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/22.jpg" target="_blank"><img
                                           src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/22.jpg" alt="engineered-floors-22" title="engineered-floors-22"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/23.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/23.jpg" alt="engineered-floors-23" title="engineered-floors-23"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/24.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/24.jpg" alt="engineered-floors-24" title="engineered-floors-24"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/25.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/25.jpg" alt="engineered-floors-25" title="engineered-floors-25"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/26.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/26.jpg" alt="engineered-floors-26" title="engineered-floors-26"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/27.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/27.jpg" alt="engineered-floors-27" title="engineered-floors-27"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/28.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/28.jpg" alt="engineered-floors-28" title="engineered-floors-28"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/29.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/29.jpg" alt="engineered-floors-29" title="engineered-floors-29"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/30.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/30.jpg" alt="engineered-floors-30" title="engineered-floors-30"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/31.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/31.jpg" alt="engineered-floors-31" title="engineered-floors-31"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/32.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/32.jpg" alt="engineered-floors-32" title="engineered-floors-32"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/33.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/33.jpg" alt="engineered-floors-33" title="engineered-floors-33"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/34.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/34.jpg" alt="engineered-floors-34" title="engineered-floors-34"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/35.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/35.jpg" alt="engineered-floors-35" title="engineered-floors-35"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/36.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/36.jpg" alt="engineered-floors-36" title="engineered-floors-36"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/37.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/37.jpg" alt="engineered-floors-37" title="engineered-floors-37"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/38.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/38.jpg" alt="engineered-floors-38" title="engineered-floors-38"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/39.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/39.jpg" alt="engineered-floors-39" title="engineered-floors-39"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/40.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/40.jpg" alt="engineered-floors-40" title="engineered-floors-40"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/41.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/41.jpg" alt="engineered-floors-41" title="engineered-floors-41"></a></li>
+                                <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/42.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/42.jpg" alt="engineered-floors-42" title="engineered-floors-42"></a></li>
                             </ul>
-
                             <ul class="category-images-list" id="tiles">
                                 <li><a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/1.jpg" alt="tiles-1"
                                           title="tiles-1"></a></li>
@@ -142,6 +181,43 @@
                                           title="tiles-23"></a></li>
                                 <li><a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/24.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/24.jpg" alt="tiles-24"
                                           title="tiles-24"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/24.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/24.jpg" alt="tiles-24" title="tiles-24"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/25.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/25.jpg" alt="tiles-25" title="tiles-25"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/26.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/26.jpg" alt="tiles-26" title="tiles-26"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/27.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/27.jpg" alt="tiles-27" title="tiles-27"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/28.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/28.jpg" alt="tiles-28" title="tiles-28"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/29.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/29.jpg" alt="tiles-29" title="tiles-29"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/30.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/30.jpg" alt="tiles-30" title="tiles-30"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/31.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/31.jpg" alt="tiles-31" title="tiles-31"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/32.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/32.jpg" alt="tiles-32" title="tiles-32"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/33.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/33.jpg" alt="tiles-33" title="tiles-33"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/34.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/34.jpg" alt="tiles-34" title="tiles-34"></a></li>
+                                <li>
+                                    <a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/35.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/35.jpg" alt="tiles-35" title="tiles-35"></a></li>
+
                             </ul>
                             <ul class="category-images-list" id="stairs">
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/1.jpg" alt="stairs-1"
@@ -166,44 +242,44 @@
                                           alt="stairs-10" title="stairs-10"></a></li>
                             </ul>
                             <ul class="category-images-list" id="hdf-floors">
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/1.jpg" alt="hdf-1"
-                                        title="hdf-1"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/2.jpg" alt="hdf-2"
-                                        title="hdf-2"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/3.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/3.jpg" alt="hdf-3"
-                                        title="hdf-3"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/4.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/4.jpg" alt="hdf-4"
-                                        title="hdf-4"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/5.jpg" alt="hdf-5"
-                                        title="hdf-5"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/6.jpg" alt="hdf-6"
-                                        title="hdf-6"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/7.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/7.jpg" alt="hdf-7"
-                                        title="hdf-7"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/8.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/8.jpg" alt="hdf-8"
-                                        title="hdf-8"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/9.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/9.jpg" alt="hdf-9"
-                                        title="hdf-9"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/10.jpg" alt="hdf-10"
-                                        title="hdf-10"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/11.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/11.jpg" alt="hdf-11"
-                                        title="hdf-11"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/12.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/12.jpg" alt="hdf-12"
-                                        title="hdf-12"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/13.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/13.jpg" alt="hdf-13"
-                                        title="hdf-13"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/14.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/14.jpg" alt="hdf-14"
-                                        title="hdf-14"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/15.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/15.jpg" alt="hdf-15"
-                                        title="hdf-15"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/16.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/16.jpg" alt="hdf-16"
-                                        title="hdf-16"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/17.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/17.jpg" alt="hdf-17"
-                                        title="hdf-17"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/18.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/18.jpg" alt="hdf-18"
-                                        title="hdf-18"></a></li>
-                              <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/19.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/19.jpg" alt="hdf-19"
-                                        title="hdf-19"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/1.jpg" alt="hdf-1"
+                                          title="hdf-1"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/2.jpg" alt="hdf-2"
+                                          title="hdf-2"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/3.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/3.jpg" alt="hdf-3"
+                                          title="hdf-3"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/4.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/4.jpg" alt="hdf-4"
+                                          title="hdf-4"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/5.jpg" alt="hdf-5"
+                                          title="hdf-5"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/6.jpg" alt="hdf-6"
+                                          title="hdf-6"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/7.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/7.jpg" alt="hdf-7"
+                                          title="hdf-7"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/8.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/8.jpg" alt="hdf-8"
+                                          title="hdf-8"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/9.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/9.jpg" alt="hdf-9"
+                                          title="hdf-9"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/10.jpg" alt="hdf-10"
+                                          title="hdf-10"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/11.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/11.jpg" alt="hdf-11"
+                                          title="hdf-11"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/12.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/12.jpg" alt="hdf-12"
+                                          title="hdf-12"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/13.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/13.jpg" alt="hdf-13"
+                                          title="hdf-13"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/14.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/14.jpg" alt="hdf-14"
+                                          title="hdf-14"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/15.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/15.jpg" alt="hdf-15"
+                                          title="hdf-15"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/16.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/16.jpg" alt="hdf-16"
+                                          title="hdf-16"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/17.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/17.jpg" alt="hdf-17"
+                                          title="hdf-17"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/18.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/18.jpg" alt="hdf-18"
+                                          title="hdf-18"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/19.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/19.jpg" alt="hdf-19"
+                                          title="hdf-19"></a></li>
                             </ul>
                             <ul class="category-images-list" id="kitchens">
                                 <li><a data-fancybox="kitchens" data-caption="" href="{{url('public')}}/images/categories/cabinets/kitchens/1.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/kitchens/1.png" alt="kitchens-1"
@@ -262,6 +338,34 @@
                                           alt="teak-flooring-10" title="teak-flooring-10"></a></li>
                                 <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/11.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/11.jpg"
                                           alt="teak-flooring-11" title="teak-flooring-11"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/12.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/12.jpg" alt="teak-flooring-12" title="teak-flooring12"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/13.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/13.jpg" alt="teak-flooring-13" title="teak-flooring13"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/14.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/14.jpg" alt="teak-flooring-14" title="teak-flooring14"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/15.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/15.jpg" alt="teak-flooring-15" title="teak-flooring15"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/16.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/16.jpg" alt="teak-flooring-16" title="teak-flooring16"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/17.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/17.jpg" alt="teak-flooring-17" title="teak-flooring17"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/18.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/18.jpg" alt="teak-flooring-18" title="teak-flooring18"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/19.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/19.jpg" alt="teak-flooring-19" title="teak-flooring19"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/20.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/20.jpg" alt="teak-flooring-20" title="teak-flooring20"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/21.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/21.jpg" alt="teak-flooring-21" title="teak-flooring21"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/22.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/22.jpg" alt="teak-flooring-22" title="teak-flooring22"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/23.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/23.jpg" alt="teak-flooring-23" title="teak-flooring23"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/24.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/24.jpg" alt="teak-flooring-24" title="teak-flooring24"></a></li>
+                                <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/25.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/25.jpg" alt="teak-flooring-25" title="teak-flooring25"></a></li>
                             </ul>
                             <ul class="category-images-list" id="shower-units">
                                 <li><a data-fancybox="shower" data-caption="" href="{{url('public')}}/images/categories/outdoor/shower-units/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/shower-units/1.jpg"
@@ -280,6 +384,16 @@
                                           title="pergolas-4"></a></li>
                                 <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/5.jpg" alt="pergolas-5"
                                           title="pergolas-5"></a></li>
+                                <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/6.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/pergolas/6.jpg" alt="pergolas-6" title="pergolas6"></a></li>
+                                <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/7.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/pergolas/7.jpg" alt="pergolas-7" title="pergolas7"></a></li>
+                                <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/8.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/pergolas/8.jpg" alt="pergolas-8" title="pergolas8"></a></li>
+                                <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/9.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/pergolas/9.jpg" alt="pergolas-9" title="pergolas9"></a></li>
+                                <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/10.jpg" target="_blank">
+                                        <img src="{{url('public')}}/images/thumbs/outdoor/pergolas/10.jpg" alt="pergolas-10" title="pergolas10"></a></li>
                             </ul>
                         </div>
                     </div>

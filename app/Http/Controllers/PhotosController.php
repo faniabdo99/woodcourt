@@ -18,37 +18,48 @@ class PhotosController extends Controller{
     //Validate the request
     $Rules = [
       'category_id' => 'required',
-      'image' => 'required|image'
+      // 'image' => 'required|image'
     ];
     $Validator = Validator::make($r->all() , $Rules);
     if($Validator->fails()){
       return back()->withErrors($Validator->errors()->all())->withInput();
     }else{
       $PhotoData = $r->except('_token');
-      $img = ImageLib::make($r->image);
-      // backup status
-      $img->backup();
-      // Thumb
-      $img->fit(300, 300);
-      $waterMarkUrl = public_path('images/watermark.png');
-      $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-        ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-        $constraint->aspectRatio();
-      });
-      $img->insert($WaterMark, 'center');
-      $img->save('storage/app/products/small_thumb/'.$r->image->getClientOriginalName());
-      $img->reset();
-      // Full Size
-      $waterMarkUrl = public_path('images/watermark.png');
-      $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-        ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-        $constraint->aspectRatio();
-      });
-      $img->insert($WaterMark, 'center');
-      $img->save('storage/app/products/original/'.$r->image->getClientOriginalName());
-      $PhotoData['image'] = $r->image->getClientOriginalName();
+      foreach ($r->image as $imageSrc) {
+        $img = ImageLib::make($imageSrc);
+        // backup status
+        $img->backup();
+        // Thumb
+        $img->fit(150, 150);
+        $img->save('storage/app/products/small_thumb/'.$imageSrc->getClientOriginalName());
+        $img->reset();
+        // Full Size
+        $waterMarkUrl = public_path('images/watermark.png');
+        $WaterMark = ImageLib::make($waterMarkUrl)->resize(
+          ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
+          $constraint->aspectRatio();
+        });
+        $img->insert($WaterMark, 'center');
+        $img->save('storage/app/products/original/'.$imageSrc->getClientOriginalName());
+      }
+      // $img = ImageLib::make($r->image);
+      // // backup status
+      // $img->backup();
+      // // Thumb
+      // $img->fit(150, 150);
+      // $img->save('storage/app/products/small_thumb/'.$r->image->getClientOriginalName());
+      // $img->reset();
+      // // Full Size
+      // $waterMarkUrl = public_path('images/watermark.png');
+      // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
+      //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
+      //   $constraint->aspectRatio();
+      // });
+      // $img->insert($WaterMark, 'center');
+      // $img->save('storage/app/products/original/'.$r->image->getClientOriginalName());
+      // $PhotoData['image'] = $r->image->getClientOriginalName();
       //Upload to db
-      $ThePhoto = Photo::create($PhotoData);
+      // $ThePhoto = Photo::create($PhotoData);
       return redirect()->route('admin.photos.all')->withSuccess('Photo Added!');
     }
   }

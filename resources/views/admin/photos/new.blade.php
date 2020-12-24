@@ -17,7 +17,7 @@
                         @endforelse
                     </select>
                     <label>Image</label>
-                    <input type="file" name="image">
+                    <input type="file" name="image[]" multiple>
                     <button type="submit" class="icon-button mt-3">Submit</button>
                 </form>
             </div>
