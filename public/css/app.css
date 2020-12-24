@@ -704,6 +704,26 @@ a:hover {
 .products-list ul li {
   height: 100%;
 }
+.products-list ul li .limited-edition-bg {
+  width: 100%;
+  height: 250px;
+}
+.products-list ul li .limited-edition-bg#live-egd {
+  background: url("../images/collections/live-edge-desks.png") center center;
+  background-size: cover;
+}
+.products-list ul li .limited-edition-bg#lighting-accessories {
+  background: url("../images/collections/lighting-accessories.png") center center;
+  background-size: cover;
+}
+.products-list ul li .limited-edition-bg#business-cards {
+  background: url("../images/collections/busniess-cards.jpg") center center;
+  background-size: cover;
+}
+.products-list ul li .limited-edition-bg#satined-coasters {
+  background: url("../images/collections/stained-coasters.png") center center;
+  background-size: cover;
+}
 .products-list ul li .item-flag {
   position: absolute;
   top: 15px;
@@ -723,10 +743,6 @@ a:hover {
 .products-list ul li .item-flag.sale {
   background-color: #ce4949;
   color: #fff;
-}
-.products-list ul li img {
-  width: 100%;
-  height: 250px;
 }
 .products-list ul li .content-container {
   background-color: #F1F1F1;
@@ -1044,9 +1060,20 @@ a:hover {
 #homepage-categories .category-card {
   background: #F1F1F1;
 }
-#homepage-categories .category-card img {
+#homepage-categories .category-card .category-card-bg {
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 250px;
+}
+#homepage-categories .category-card .category-card-bg#wood-flooring {
+  background: url("../images/categories/wood-flooring.jpg");
+}
+#homepage-categories .category-card .category-card-bg#cabinets {
+  background: url("../images/categories/cabinets.jpg");
+}
+#homepage-categories .category-card .category-card-bg#outdoor {
+  background: url("../images/categories/outdoor.jpg");
 }
 #homepage-categories .category-card h3 {
   font-size: 1.5em;
@@ -1864,7 +1891,10 @@ time {
     width: 100%;
   }
 
+  .category-images-list {
+    text-align: center;
+  }
   .category-images-list li {
-    margin: 10px auto;
+    margin: 3px auto;
   }
 }

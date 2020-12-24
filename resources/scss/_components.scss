@@ -436,6 +436,26 @@
       list-style: none;
       li{
         height: 100%;
+        .limited-edition-bg{
+          width: 100%;
+          height: 250px;
+          &#live-egd{
+            background: url('../images/collections/live-edge-desks.png') center center;
+            background-size: cover;
+          }
+          &#lighting-accessories{
+            background: url('../images/collections/lighting-accessories.png') center center;
+            background-size: cover;
+          }
+          &#business-cards{
+            background: url('../images/collections/busniess-cards.jpg') center center;
+            background-size: cover;
+          }
+          &#satined-coasters{
+            background: url('../images/collections/stained-coasters.png') center center;
+            background-size: cover;
+          }
+        }
         .item-flag{
           position: absolute;
           top: 15px;
@@ -456,10 +476,6 @@
             color: #fff;
           }
         }
-      img {
-          width: 100%;
-          height: 250px;
-      }
       .content-container{
         background-color: $lightgrey;
         padding: 10px;

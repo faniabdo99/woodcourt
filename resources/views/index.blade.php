@@ -73,7 +73,7 @@
             <div class="row">
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <img src="{{url('public/')}}/images/categories/wood-flooring.jpg" alt="wood-flooring">
+                      <div class="category-card-bg" id="wood-flooring"></div>
                         <div class="p-3">
                             <h3>Wood Flooring</h3>
                             <p>All-natural wood flooring & Fiberboard (HDF) you will need in one ...</p>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <img src="{{url('public/')}}/images/categories/cabinets.jpg" alt="Cabinets">
+                      <div class="category-card-bg" id="cabinets"></div>
                         <div class="p-3">
                             <h3>Cabinets</h3>
                             <p>Not just a wide variety of materials (natural & artificial) but also ...</p>
@@ -93,7 +93,7 @@
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <img src="{{url('public/')}}/images/categories/outdoor.jpg" alt="Outdoor">
+                      <div class="category-card-bg" id="outdoor"></div>
                         <div class="p-3">
                             <h3>Outdoor</h3>
                             <p>Nowadays, after quarantine we all realaized the importance of our private...</p>
@@ -749,7 +749,7 @@
                    <ul class="owl-carousel owl-theme three-items-carousel">
                        <li class="item">
                            <span class="item-flag limited">Limited</span>
-                           <img src="{{url('public/')}}/images/collections/live-edge-desks.png" alt="Live Edge Desks">
+                           <div class="limited-edition-bg" id="live-egd"></div>
                            <div class="content-container">
                                <h3>Live-edge Desks</h3>
                                <p>The most luxurious desks make their own statements! Limited and absolutely unique.</p>
@@ -758,7 +758,7 @@
                        </li>
                        <li class="item">
                            <span class="item-flag limited">Limited</span>
-                           <img src="{{url('public/')}}/images/collections/lighting-accessories.png" alt="Lighting Accessories">
+                           <div class="limited-edition-bg" id="lighting-accessories"></div>
                            <div class="content-container">
                                <h3>Lighting Accessories</h3>
                                <p>Light up your room or office with a modern and elegant touch made from genuine wood.</p>
@@ -767,7 +767,7 @@
                        </li>
                        <li class="item">
                            <span class="item-flag sale">Customizable</span>
-                           <img src="{{url('public/')}}/images/collections/busniess-cards.jpg" alt="Business Cards">
+                           <div class="limited-edition-bg" id="business-cards"></div>
                            <div class="content-container">
                                <h3>Business Cards</h3>
                                <p>Unique business cards are a powerful way to be remembered. Order yours now.</p>
@@ -776,7 +776,7 @@
                        </li>
                        <li class="item">
                            <span class="item-flag sale">Limited</span>
-                           <img src="{{url('public/')}}/images/collections/stained-coasters.png" alt="Satined Coasters">
+                           <div class="limited-edition-bg" id="satined-coasters"></div>
                            <div class="content-container">
                                <h3>Stained Coasters</h3>
                                <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
