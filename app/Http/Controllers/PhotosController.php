@@ -30,6 +30,12 @@ class PhotosController extends Controller{
       $img->backup();
       // Thumb
       $img->fit(300, 300);
+      $waterMarkUrl = public_path('images/watermark.png');
+      $WaterMark = ImageLib::make($waterMarkUrl)->resize(
+        ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
+        $constraint->aspectRatio();
+      });
+      $img->insert($WaterMark, 'center');
       $img->save('storage/app/products/small_thumb/'.$r->image->getClientOriginalName());
       $img->reset();
       // Full Size
