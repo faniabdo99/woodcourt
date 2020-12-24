@@ -2,8 +2,6 @@
     height: 60vh;
     background: url("../images/heros/products.jpg") no-repeat center center;
     background-size: cover;
-    margin-bottom: 100px;
-
     .dark-overlap {
         height: 60vh;
         padding: 15vh 5%;
@@ -46,6 +44,10 @@
 
                     a {
                         font-size: 0.9em;
+                        &.active{
+                          color: $brand;
+                          font-weight: bold;
+                        }
                     }
                 }
             }
@@ -87,6 +89,17 @@
             color: $black;
         }
     }
+}
+.category-images-list{
+  display: none;
+  list-style-type: none;
+  li{
+    display: inline-block;
+    margin: 10px;
+  }
+  &.active{
+    display: block;
+  }
 }
 //Single Product Page
 .single-product-images{

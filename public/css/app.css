@@ -1739,7 +1739,6 @@ time {
   height: 60vh;
   background: url("../images/heros/products.jpg") no-repeat center center;
   background-size: cover;
-  margin-bottom: 100px;
 }
 #products-section .dark-overlap {
   height: 60vh;
@@ -1781,6 +1780,10 @@ time {
 .products-sidebar ul.filter-items li ul.filter-sub-items li a {
   font-size: 0.9em;
 }
+.products-sidebar ul.filter-items li ul.filter-sub-items li a.active {
+  color: #0D8287;
+  font-weight: bold;
+}
 
 .single-photo {
   display: block;
@@ -1814,6 +1817,18 @@ time {
 }
 .single-product-item .content-container p {
   color: #333333;
+}
+
+.category-images-list {
+  display: none;
+  list-style-type: none;
+}
+.category-images-list li {
+  display: inline-block;
+  margin: 10px;
+}
+.category-images-list.active {
+  display: block;
 }
 
 .single-product-images {

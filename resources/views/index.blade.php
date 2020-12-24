@@ -1185,6 +1185,9 @@
                                 <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
                             </div>
                         </div>
+                        <div class="col-12 mt-4 text-center">
+                          <a class="icon-button mr-lg-0 d-lg-inline d-block text-center" href="{{route('about')}}#clients"> <i class="fas fa-bullhorn"></i> View More</a>
+                        </div>
                     </div>
                 </div>
             </div>
