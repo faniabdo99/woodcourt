@@ -4,7 +4,7 @@
 */
 // Start mansy Code
 
-$('.why-us-single-toggler').click(function(){
+$('.why-us-single-toggler').mouseenter(function(){
   $('.why-us-card-content .why-us-card').hide();
   $('#'+$(this).data('target')).fadeIn('slow');
 });

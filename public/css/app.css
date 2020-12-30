@@ -475,11 +475,44 @@ a:hover {
   text-align: center;
   margin-bottom: 50px;
 }
+.logo-parade .owl-nav {
+  position: absolute;
+  margin-top: -15%;
+  width: 100%;
+}
+.logo-parade .owl-nav button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.3em;
+}
+.logo-parade .owl-nav button:hover, .logo-parade .owl-nav button:focus {
+  border: none;
+  outline: none;
+}
+.logo-parade .owl-nav button.owl-prev {
+  position: absolute;
+  left: -5%;
+  background: #0D8287;
+  color: #fff;
+  border-radius: 50%;
+}
+.logo-parade .owl-nav button.owl-next {
+  position: absolute;
+  right: -5%;
+  background: #0D8287;
+  color: #fff;
+  border-radius: 50%;
+}
 .logo-parade .client-card {
   border-radius: 4px;
   padding: 5px;
   margin-bottom: 15px;
   transition: all ease 0.3s;
+}
+.logo-parade .client-card a:hover {
+  cursor: default;
 }
 .logo-parade .client-card img {
   display: block;
@@ -618,6 +651,7 @@ a:hover {
 }
 .category-modal ul.category-images-list li {
   display: inline-block;
+  margin: 0px;
 }
 .category-modal ul.category-images-list li img {
   margin: 4px;
@@ -856,6 +890,9 @@ a:hover {
     width: 100%;
   }
 
+  .category-modal ul.category-images-list li {
+    margin: 0;
+  }
   .category-modal ul.category-images-list li img {
     width: 80px;
     height: 80px;
@@ -1271,10 +1308,11 @@ a:hover {
 }
 .homepage-videos-grid .video-background-homepage {
   position: relative;
+  margin-bottom: 15px;
 }
 .homepage-videos-grid .video-background-homepage img {
   width: 100%;
-  height: 100%;
+  height: 350px;
 }
 .homepage-videos-grid .video-background-homepage .homepage-play-video {
   position: absolute;

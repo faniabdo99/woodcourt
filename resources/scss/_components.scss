@@ -206,7 +206,40 @@
         text-align: center;
         margin-bottom: 50px;
     }
+    .owl-nav {
+        position: absolute;
+        margin-top: -15%;
+        width: 100%;
+        button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 1.3em;
+            &:hover , &:focus{
+              border:none;
+              outline: none;
+            }
+            &.owl-prev {
+                position: absolute;
+                left: -5%;
+                background: $brand;
+                color: #fff;
+                border-radius: 50%;
+            }
+            &.owl-next {
+                position: absolute;
+                right: -5%;
+                background: $brand;
+                color: #fff;
+                border-radius: 50%;
+            }
+        }
+    }
     .client-card{
+      a:hover{
+        cursor: default;
+      }
       border-radius: 4px;
       padding: 5px;
       margin-bottom: 15px;
@@ -352,6 +385,7 @@
     }
     li{
       display: inline-block;
+      margin:0px;
       img{
         margin: 4px;
         width: 150px;
@@ -603,6 +637,7 @@
     .category-modal{
       ul.category-images-list{
         li{
+          margin: 0;
           img{
             width: 80px;
             height: 80px;

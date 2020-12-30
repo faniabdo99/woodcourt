@@ -1,4 +1,5 @@
 @include('layout.header', ['PageTitle' => 'Kitchen, Floor ... and More'])
+
 <body>
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
@@ -6,8 +7,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-6 col-12">
-                        <h2>Welcome to <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
-                        <p class="description mb-5">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
+                        <h2>Welcome to <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
+                              src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
+                        <p class="description mb-5">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
+                            and engineered wood to make your life more comfortable.</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
@@ -21,7 +24,8 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
                         <h2>Kitchens</h2>
-                        <p class="description mb-5">Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by highly-reputed interior designers.</p>
+                        <p class="description mb-5">Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by
+                            highly-reputed interior designers.</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
@@ -52,7 +56,8 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
                         <h2>Outdoor</h2>
-                        <p class="description mb-5">Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new designs.</p>
+                        <p class="description mb-5">Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
+                            designs.</p>
                         <a class="icon-button mr-lg-5 mr-0" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
@@ -73,7 +78,7 @@
             <div class="row">
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                      <div class="category-card-bg" id="wood-flooring"></div>
+                        <div class="category-card-bg" id="wood-flooring"></div>
                         <div class="p-3">
                             <h3>Wood Flooring</h3>
                             <p>All-natural wood flooring & Fiberboard (HDF) you will need in one ...</p>
@@ -83,7 +88,7 @@
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                      <div class="category-card-bg" id="cabinets"></div>
+                        <div class="category-card-bg" id="cabinets"></div>
                         <div class="p-3">
                             <h3>Cabinets</h3>
                             <p>Not just a wide variety of materials (natural & artificial) but also ...</p>
@@ -93,7 +98,7 @@
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                      <div class="category-card-bg" id="outdoor"></div>
+                        <div class="category-card-bg" id="outdoor"></div>
                         <div class="p-3">
                             <h3>Outdoor</h3>
                             <p>Nowadays, after quarantine we all realaized the importance of our private...</p>
@@ -131,11 +136,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-8 col-12">
-                            <ul class="category-images-list" id="hdf-floors">
-                                <li>
-                                    <p>Coming Soon ...</p>
-                                </li>
-                            </ul>
+
                             <ul class="category-images-list active" id="engineered-floors">
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/1.jpg" target="_blank"><img
                                           src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/1.jpg" alt="engineered-floors-1" title="engineered-floors-1"></a></li>
@@ -254,6 +255,46 @@
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/10.jpg"
                                           alt="stairs-10" title="stairs-10"></a></li>
                             </ul>
+                            <ul class="category-images-list" id="hdf-floors">
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/1.jpg" alt="hdf-1"
+                                          title="hdf-1"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/2.jpg" alt="hdf-2"
+                                          title="hdf-2"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/3.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/3.jpg" alt="hdf-3"
+                                          title="hdf-3"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/4.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/4.jpg" alt="hdf-4"
+                                          title="hdf-4"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/5.jpg" alt="hdf-5"
+                                          title="hdf-5"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/6.jpg" alt="hdf-6"
+                                          title="hdf-6"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/7.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/7.jpg" alt="hdf-7"
+                                          title="hdf-7"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/8.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/8.jpg" alt="hdf-8"
+                                          title="hdf-8"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/9.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/9.jpg" alt="hdf-9"
+                                          title="hdf-9"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/10.jpg" alt="hdf-10"
+                                          title="hdf-10"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/11.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/11.jpg" alt="hdf-11"
+                                          title="hdf-11"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/12.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/12.jpg" alt="hdf-12"
+                                          title="hdf-12"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/13.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/13.jpg" alt="hdf-13"
+                                          title="hdf-13"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/14.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/14.jpg" alt="hdf-14"
+                                          title="hdf-14"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/15.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/15.jpg" alt="hdf-15"
+                                          title="hdf-15"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/16.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/16.jpg" alt="hdf-16"
+                                          title="hdf-16"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/17.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/17.jpg" alt="hdf-17"
+                                          title="hdf-17"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/18.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/18.jpg" alt="hdf-18"
+                                          title="hdf-18"></a></li>
+                                <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/19.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/19.jpg" alt="hdf-19"
+                                          title="hdf-19"></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -272,7 +313,8 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen, sink units, and dressings befitting your personality. With the most storage areas and easy-access. Designed by highly-reputed interior designers.</p>
+                            <p class="category-description">Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen, sink units, and dressings befitting your personality. With the most storage areas and
+                                easy-access. Designed by highly-reputed interior designers.</p>
                             <ul class="sub-categories-list">
                                 <li data-target="kitchens" class="active">Kitchens</li>
                                 <li data-target="dressings">Dressings</li>
@@ -332,7 +374,8 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-lg-4 col-12">
-                            <p class="category-description">Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new designs.</p>
+                            <p class="category-description">Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor
+                                flooring new designs.</p>
                             <ul class="sub-categories-list">
                                 <li data-target="teak-flooring" class="active">Teak Flooring</li>
                                 <li data-target="shower-units">Shower Units</li>
@@ -685,24 +728,105 @@
     </section>
     {{-- <section class="products-list" id="homepage-promotions">
         <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="section-title mb-5">Limited Edition</h2>
-                    <ul class="owl-carousel owl-theme three-items-carousel">
-                      @forelse ($LimitedEditionCategories as $LCategory)
-                        <li class="item">
-                          @if($LCategory->flag) <span class="item-flag limited">{{$LCategory->flag}}</span> @endif
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title mb-5">Limited Edition</h2>
+                <ul class="owl-carousel owl-theme three-items-carousel">
+                    @forelse ($LimitedEditionCategories as $LCategory)
+                    <li class="item">
+                        @if($LCategory->flag) <span class="item-flag limited">{{$LCategory->flag}}</span>
+                            @endif
                             <img src="{{$LCategory->ImagePath}}" alt="{{$LCategory->title}}">
                             <div class="content-container">
                                 <h3>{{$LCategory->title}}</h3>
                                 <p>{{$LCategory->description}}</p>
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks">Place Your Order</a>
                             </div>
+                    </li>
+                    @empty
+                    <p>Soon</p>
+                    @endforelse
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="PlaceOrderModal" tabindex="-1" role="dialog" aria-labelledby="PlaceOrderModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="PlaceOrderModalLabel">Place Your Order</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="{{route('contactLimitedEdition')}}" method="post" id="place-order-modal-form">
+                        @csrf
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Name:</label>
+                            <input type="text" name="name" class="form-control" placeholder="Please enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Email / Phone Number:</label>
+                            <input type="text" name="email" class="form-control" placeholder="Please enter your phone number or email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message: (Optional)</label>
+                            <textarea class="form-control" name="message" placeholder="Enter any additional details here"></textarea>
+                        </div>
+                        <input type="hidden" name="item_name">
+                        <input type="hidden" name="form_location" value="Limited Edition">
+                        <input class="icon-button" type="submit" value="Send Request">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section> --}}
+    <section class="products-list" id="homepage-promotions">
+        <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title mb-5">Limited Edition</h2>
+                    <ul class="owl-carousel owl-theme three-items-carousel">
+                        <li class="item">
+                            <span class="item-flag limited">Limited</span>
+                            <div class="limited-edition-bg" id="live-egd"></div>
+                            <div class="content-container">
+                                <h3>Live-edge Desks</h3>
+                                <p>The most luxurious desks make their own statements! Limited and absolutely unique.</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks">Place Your Order</a>
+                            </div>
                         </li>
-                      @empty
-                        <p>Soon</p>
-                      @endforelse
+                        <li class="item">
+                            <span class="item-flag limited">Limited</span>
+                            <div class="limited-edition-bg" id="lighting-accessories"></div>
+                            <div class="content-container">
+                                <h3>Lighting Accessories</h3>
+                                <p>Light up your room or office with a modern and elegant touch made from genuine wood.</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights">Place Your Order</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span class="item-flag sale">Customizable</span>
+                            <div class="limited-edition-bg" id="business-cards"></div>
+                            <div class="content-container">
+                                <h3>Business Cards</h3>
+                                <p>Unique business cards are a powerful way to be remembered. Order yours now.</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards">Place Your Order</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <span class="item-flag sale">Limited</span>
+                            <div class="limited-edition-bg" id="satined-coasters"></div>
+                            <div class="content-container">
+                                <h3>Stained Coasters</h3>
+                                <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters">Place Your Order</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -739,114 +863,31 @@
                 </div>
             </div>
         </div>
-    </section> --}}
-    <section class="products-list" id="homepage-promotions">
-       <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
-       <div class="container">
-           <div class="row">
-               <div class="col-12">
-                   <h2 class="section-title mb-5">Limited Edition</h2>
-                   <ul class="owl-carousel owl-theme three-items-carousel">
-                       <li class="item">
-                           <span class="item-flag limited">Limited</span>
-                           <div class="limited-edition-bg" id="live-egd"></div>
-                           <div class="content-container">
-                               <h3>Live-edge Desks</h3>
-                               <p>The most luxurious desks make their own statements! Limited and absolutely unique.</p>
-                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks">Place Your Order</a>
-                           </div>
-                       </li>
-                       <li class="item">
-                           <span class="item-flag limited">Limited</span>
-                           <div class="limited-edition-bg" id="lighting-accessories"></div>
-                           <div class="content-container">
-                               <h3>Lighting Accessories</h3>
-                               <p>Light up your room or office with a modern and elegant touch made from genuine wood.</p>
-                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights">Place Your Order</a>
-                           </div>
-                       </li>
-                       <li class="item">
-                           <span class="item-flag sale">Customizable</span>
-                           <div class="limited-edition-bg" id="business-cards"></div>
-                           <div class="content-container">
-                               <h3>Business Cards</h3>
-                               <p>Unique business cards are a powerful way to be remembered. Order yours now.</p>
-                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards">Place Your Order</a>
-                           </div>
-                       </li>
-                       <li class="item">
-                           <span class="item-flag sale">Limited</span>
-                           <div class="limited-edition-bg" id="satined-coasters"></div>
-                           <div class="content-container">
-                               <h3>Stained Coasters</h3>
-                               <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
-                               <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters">Place Your Order</a>
-                           </div>
-                       </li>
-                   </ul>
-               </div>
-           </div>
-       </div>
-       <div class="modal fade" id="PlaceOrderModal" tabindex="-1" role="dialog" aria-labelledby="PlaceOrderModalLabel" aria-hidden="true">
-           <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                   <div class="modal-header">
-                       <h5 class="modal-title" id="PlaceOrderModalLabel">Place Your Order</h5>
-                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                           <span aria-hidden="true">&times;</span>
-                       </button>
-                   </div>
-                   <div class="modal-body">
-                       <form action="{{route('contactLimitedEdition')}}" method="post" id="place-order-modal-form">
-                           @csrf
-                           <div class="form-group">
-                               <label for="recipient-name" class="col-form-label">Name:</label>
-                               <input type="text" name="name" class="form-control" placeholder="Please enter your name" required>
-                           </div>
-                           <div class="form-group">
-                               <label for="recipient-name" class="col-form-label">Email / Phone Number:</label>
-                               <input type="text" name="email" class="form-control" placeholder="Please enter your phone number or email" required>
-                           </div>
-                           <div class="form-group">
-                               <label for="message-text" class="col-form-label">Message: (Optional)</label>
-                               <textarea class="form-control" name="message" placeholder="Enter any additional details here"></textarea>
-                           </div>
-                           <input type="hidden" name="item_name">
-                           <input type="hidden" name="form_location" value="Limited Edition">
-                           <input class="icon-button" type="submit" value="Send Request">
-                       </form>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </section>
+    </section>
     <section class="homepage-videos-grid">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-12">
-                    <h2>Kitchen, floor… and more</h2>
-                    <p>The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
-                    <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=Jf1MzF_yKw4" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+              <div class="col-lg-6 col-12">
+                <div class="video-background-homepage" id="video-one">
+                    <img src="{{url('public')}}/images/video-bg-2.jpg" alt="Video Thumb">
+                    <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
                 </div>
-                <div class="col-lg-6 col-12">
-                    <div class="video-background-homepage" id="video-one">
-                        <img src="{{url('public')}}/images/video-bg-2.jpg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
+                <h2>Kitchen, floor… and more</h2>
+                <p>The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make
+                    your life more comfortable.</p>
+                <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=Jf1MzF_yKw4" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+              </div>
+              <div class="col-lg-6 col-12">
+                <div class="video-background-homepage mb-3" id="video-one">
+                    <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
+                    <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-12">
-                    <div class="video-background-homepage mb-3" id="video-one">
-                        <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <h2>Luxurious cabinets & pergolas</h2>
-                    <p>Could your kitchen use a makeover? Our creative design team is known for pushing the market in terms of design variety and innovation, constantly creating new designs to cater to your imagination. When creating a kitchen, we keep in mind the people spending the most time in it. The space must be warm, energetic, with attention to the smallest details.</p>
-                    <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=BNBKAmk72us" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
-                </div>
+                <h2>Luxurious cabinets & pergolas</h2>
+                <p>Could your kitchen use a makeover? Our creative design team is known for pushing the market in terms of design variety and innovation, constantly creating new designs. When creating a kitchen, we keep in mind the people spending the most time in it
+                  {{-- The space must be warm, energetic, with attention to the smallest details. --}}
+                </p>
+                <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=BNBKAmk72us" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+              </div>
             </div>
         </div>
     </section>
@@ -1016,7 +1057,8 @@
                             <div class="testimonial-content">
                                 <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
                                 <h3>One of best companies that you can deal with</h3>
-                                <p>The wood court is one of best companies that you can deal with. Quality, accountability and dedication for their customers. If you wanna buy wooden floor, then you should visit the wood court. They're doing great job.... and special thanks to Eng. Ayman..</p>
+                                <p>The wood court is one of best companies that you can deal with. Quality, accountability and dedication for their customers. If you wanna buy wooden floor, then you should visit the wood court. They're doing great
+                                    job.... and special thanks to Eng. Ayman..</p>
                             </div>
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                         </div>
@@ -1032,7 +1074,8 @@
                             <div class="testimonial-content">
                                 <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
                                 <h3>Highly recommended</h3>
-                                <p>Great work and craftsmanship, high quality, excellent  installation and customer service. The whole process was smooth and professional. I would like to thank Eng. Ayman and the whole team for the lovely experience. Great work. Highly recommended.</p>
+                                <p>Great work and craftsmanship, high quality, excellent installation and customer service. The whole process was smooth and professional. I would like to thank Eng. Ayman and the whole team for the lovely experience.
+                                    Great work. Highly recommended.</p>
                             </div>
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                         </div>
@@ -1064,7 +1107,8 @@
                             <div class="testimonial-content">
                                 <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
                                 <h3>Dealing with The Wood Court has been the only bright</h3>
-                                <p>Dealing with The wood court has been the only bright, fair and hassle free part of decorating my apartment. Eng Ayman has been honest straightforward and he delivered what he promised. I strongly recommend his technical expertise and high quality products to everyone.</p>
+                                <p>Dealing with The wood court has been the only bright, fair and hassle free part of decorating my apartment. Eng Ayman has been honest straightforward and he delivered what he promised. I strongly recommend his
+                                    technical expertise and high quality products to everyone.</p>
                             </div>
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                         </div>
@@ -1094,8 +1138,9 @@
                             <div class="testimonial-content text-right" dir="rtl">
                                 <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
                                 <h3>السلم ده قصة تانية خالص</h3>
-                                <p>مهما تكلمت و شكرت في The Wood Court الكلام هيكون غير منصف ... مواعيد محترمة و التزام و دقة في الشغل ... و أسعار مناسبة جداً م/أيمن زهران عملي فيلا في الشيخ زايد ... ريسبشن و غرف وسلم و خشب تيك للتراث ... و السلم ده قصة تانية خالص بجد حاجة تجنن ... أنا مشس هحكي كتير الصور بتتكلم <br>
-                                  فعلاً شكراً وود كورت و شكراً أيمن زهران على الشغل المحترم
+                                <p>مهما تكلمت و شكرت في The Wood Court الكلام هيكون غير منصف ... مواعيد محترمة و التزام و دقة في الشغل ... و أسعار مناسبة جداً م/أيمن زهران عملي فيلا في الشيخ زايد ... ريسبشن و غرف وسلم و خشب تيك للتراث ... و السلم ده
+                                    قصة تانية خالص بجد حاجة تجنن ... أنا مشس هحكي كتير الصور بتتكلم <br>
+                                    فعلاً شكراً وود كورت و شكراً أيمن زهران على الشغل المحترم
                                 </p>
                             </div>
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
@@ -1111,11 +1156,11 @@
                                 <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
                                 <h3>شغل جميل</h3>
                                 <p>
-                                  من الشغل الجميل اللي شفتو في معرض La Casa 4/2018
-                                  شغل WoodCourt و اللي عامل تصميم لباركيه طبيعي Patchwork ألوان و مونو <br>
-                                  الشغل تحفة جداً التصميمات جميلة الألوان راقية و شيك و التايل على بعضه اضافة مميزة و عامل فرق خاصة ان الباركيه من الخامات الكلاسيكية اللي من قيمتها و أصالتها و التغيير فيها و الاضافة اليها مش سهل <br>
-                                  شابو على الأفكار بره الصندوق <br>
-                                  keep up the good work!
+                                    من الشغل الجميل اللي شفتو في معرض La Casa 4/2018
+                                    شغل WoodCourt و اللي عامل تصميم لباركيه طبيعي Patchwork ألوان و مونو <br>
+                                    الشغل تحفة جداً التصميمات جميلة الألوان راقية و شيك و التايل على بعضه اضافة مميزة و عامل فرق خاصة ان الباركيه من الخامات الكلاسيكية اللي من قيمتها و أصالتها و التغيير فيها و الاضافة اليها مش سهل <br>
+                                    شابو على الأفكار بره الصندوق <br>
+                                    keep up the good work!
                                 </p>
                             </div>
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
@@ -1132,7 +1177,8 @@
                             <div class="testimonial-content text-right" dir="rtl">
                                 <span class="small-quote-icon"><i class="fas fa-quote-right"></i></span>
                                 <h3>اضافة حقيقة و جميلة للديكور في مصر</h3>
-                                <p>البوست ده تحية لفنان حقيقي و أنا شايفة انه فضل يطور بشغله بمنتهى التفاني لحد ما وصل مستوى الأرضيات الباركيه الخشب الطبيعي لمستوى مكنش من كم سنة نحلم نشوفه بمصر من ناحية الجودة و التصميمات اللي دايماً جديدة و مبهرة و المعاملة المحترمة مع العملاء سواء بالسعر أو المواعيد</p>
+                                <p>البوست ده تحية لفنان حقيقي و أنا شايفة انه فضل يطور بشغله بمنتهى التفاني لحد ما وصل مستوى الأرضيات الباركيه الخشب الطبيعي لمستوى مكنش من كم سنة نحلم نشوفه بمصر من ناحية الجودة و التصميمات اللي دايماً جديدة و مبهرة و
+                                    المعاملة المحترمة مع العملاء سواء بالسعر أو المواعيد</p>
                             </div>
                             <span class="big-quote-icon"><i class="fas fa-quote-left"></i></span>
                         </div>
@@ -1146,100 +1192,99 @@
             <div class="row">
                 <div class="col-12">
                     <h2>Our Clients</h2>
-                    <div class="row">
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.dipndip.com/" target="_blank"><img src="{{url('public')}}/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="javascript:;"><img src="{{url('public')}}/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.nbe.com.eg/NBE/E/#/EN/Home" target="_blank"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.emar-eg.com/" target="_blank"><img src="{{url('public')}}/images/partners/emar.png" alt="Emar"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.arabcont.com/" target="_blank"><img src="{{url('public')}}/images/partners/arabcont.png" alt="arabcont"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.cooksclub.com/en/cooks-club-el-gouna-egypt" target="_blank"><img src="{{url('public')}}/images/partners/cook-club.png" alt="Cooks Club"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://amer-group.com/index.php/ar/" target="_blank"><img src="{{url('public')}}/images/partners/amer.png" alt="Amer Group"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.fourseasons.com/" target="_blank"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="Four Seasons"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.hassanallam.com/" target="_blank"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.hilton.com/en/" target="_blank"><img src="{{url('public')}}/images/partners/hilton.png" alt="Hilton"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://shouraonline.com/" target="_blank"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.rixos.com/en" target="_blank"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.mazloumhome.com/" target="_blank"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.mobica.net/" target="_blank"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.siac.com.eg/" target="_blank"><img src="{{url('public')}}/images/partners/siac.png" alt="Siac"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.cibeg.com/Arabic/pages/default.aspx" target="_blank"><img src="{{url('public')}}/images/partners/cib.png" alt="CIB"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.marriott.com/" target="_blank"><img src="{{url('public')}}/images/partners/sheraton.png" alt="Sheraton"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
-                            </div>
-                        </div>
-                        <div class="col-12 mt-4 text-center">
-                          <a class="icon-button mr-lg-0 d-lg-inline d-block text-center" href="{{route('about')}}#clients"> <i class="fas fa-bullhorn"></i> View More</a>
-                        </div>
+                    <div class="owl-carousel owl-theme full-width-carousel-with-nav">
+                      <div class="row">
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/emar.png" alt="Emar"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/arabcont.png" alt="arabcont"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/cook-club.png" alt="Cooks Club"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/amer.png" alt="Amer Group"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="Four Seasons"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/hilton.png" alt="Hilton"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/siac.png" alt="Siac"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/cib.png" alt="CIB"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/sheraton.png" alt="Sheraton"></a>
+                              </div>
+                          </div>
+                          <div class="col-lg-2 col-4">
+                              <div class="client-card">
+                                  <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
+                              </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
             </div>

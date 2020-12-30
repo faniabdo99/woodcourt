@@ -325,160 +325,169 @@
             </div>
         </div>
     </section>
-    <section class="logo-parade" id="clients">
+    <section class="logo-parade">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <h2>Our Clients</h2>
-                    <div class="row">
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.dipndip.com/" target="_blank"><img src="{{url('public')}}/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
+                    <div class="owl-carousel owl-theme full-width-carousel-with-nav">
+                        <div class="row">
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emar.png" alt="Emar"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/arabcont.png" alt="arabcont"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cook-club.png" alt="Cooks Club"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/amer.png" alt="Amer Group"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="Four Seasons"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/hilton.png" alt="Hilton"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/siac.png" alt="Siac"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cib.png" alt="CIB"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/sheraton.png" alt="Sheraton"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="javascript:;"><img src="{{url('public')}}/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
+                        <div class="row">
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/presendcy.jpg" alt="EG Presidency"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.nbe.com.eg/NBE/E/#/EN/Home" target="_blank"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cabient.png" alt="EG Cabinet"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.arabcont.com/" target="_blank"><img src="{{url('public')}}/images/partners/arabcont.png" alt="arabcont"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/leagueofarabstates.png" alt="League of Arab States"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.cooksclub.com/en/cooks-club-el-gouna-egypt" target="_blank"><img src="{{url('public')}}/images/partners/cook-club.png" alt="Cooks Club"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cairo_governorate.png" alt="Cairo Governorate"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://amer-group.com/index.php/ar/" target="_blank"><img src="{{url('public')}}/images/partners/amer.png" alt="Amer Group"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/parlement.jpg" alt="EG Parliament"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.fourseasons.com/" target="_blank"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="Four Seasons"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.hassanallam.com/" target="_blank"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/elab.jpg" alt="ELAB"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.hilton.com/en/" target="_blank"><img src="{{url('public')}}/images/partners/hilton.png" alt="Hilton"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://shouraonline.com/" target="_blank"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/shorta.png" alt="Nadi al Shorta"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.rixos.com/en" target="_blank"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cairo-airport.png" alt="Nadi al Shorta"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.mazloumhome.com/" target="_blank"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/beni_suef_governorate.png" alt="benisuef"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.mobica.net/" target="_blank"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/coop.jpg" alt="benisuef"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.siac.com.eg/" target="_blank"><img src="{{url('public')}}/images/partners/siac.png" alt="Siac"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.cibeg.com/Arabic/pages/default.aspx" target="_blank"><img src="{{url('public')}}/images/partners/cib.png" alt="CIB"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.marriott.com/" target="_blank"><img src="{{url('public')}}/images/partners/sheraton.png" alt="Sheraton"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.presidency.eg/ar/" target="_blank"><img src="{{url('public')}}/images/partners/presendcy.jpg" alt="EG Presidency"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.cabinet.gov.eg/" target="_blank"><img src="{{url('public')}}/images/partners/cabient.png" alt="EG Cabinet"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.leagueofarabstates.net" target="_blank"><img src="{{url('public')}}/images/partners/leagueofarabstates.png" alt="League of Arab States"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.cairo.gov.eg/ar/pages/default.aspx" target="_blank"><img src="{{url('public')}}/images/partners/cairo_governorate.png" alt="Cairo Governorate"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.parliament.gov.eg/" target="_blank"><img src="{{url('public')}}/images/partners/parlement.jpg" alt="EG Parliament"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.emaarmisr.com/ar/" target="_blank"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.aqaribank.jo/" target="_blank"><img src="{{url('public')}}/images/partners/elab.jpg" alt="ELAB"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="javascript:;"><img src="{{url('public')}}/images/partners/shorta.png" alt="Nadi al Shorta"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="javascript:;"><img src="{{url('public')}}/images/partners/cairo-airport.png" alt="Nadi al Shorta"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.benisuef.gov.eg/Default.aspx" target="_blank"><img src="{{url('public')}}/images/partners/beni_suef_governorate.png" alt="benisuef"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="http://www.coop.com.eg/Login" target="_blank"><img src="{{url('public')}}/images/partners/coop.jpg" alt="benisuef"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-4">
-                            <div class="client-card">
-                                <a href="https://www.suezcanal.gov.eg/Arabic/Pages/default.aspx" target="_blank"><img src="{{url('public')}}/images/partners/suez.jpg" alt="suez"></a>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/suez.jpg" alt="suez"></a>
+                                </div>
                             </div>
                         </div>
                     </div>

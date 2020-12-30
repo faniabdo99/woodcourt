@@ -1,5 +1,4 @@
 @include('layout.header', ['PageTitle' => 'Kitchen, Floor ... and More'])
-
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="products-section">
