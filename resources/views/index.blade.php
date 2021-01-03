@@ -1,5 +1,4 @@
 @include('layout.header', ['PageTitle' => 'Kitchen, Floor ... and More'])
-
 <body>
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
@@ -81,43 +80,43 @@
             <div class="row">
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <a href="javascript:;" data-toggle="modal" data-target="#wood-flooring-modal">
+                        <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#wood-flooring-modal">
                             <div class="category-card-bg" id="wood-flooring"></div>
                         </a>
                         <div class="p-3">
-                            <a href="javascript:;" data-toggle="modal" data-target="#wood-flooring-modal">
+                            <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#wood-flooring-modal">
                                 <h3>Wood Flooring</h3>
                             </a>
                             <p>All-natural wood flooring & Fiberboard (HDF) you will need in one ...</p>
-                            <a href="javascript:;" class="view-more-link" data-toggle="modal" data-target="#wood-flooring-modal">View More</a>
+                            <a href="javascript:;" class="categories-modal-toggler view-more-link" data-toggle="modal" data-target="#wood-flooring-modal">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <a href="javascript:;" data-toggle="modal" data-target="#cabinets-modal">
+                        <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#cabinets-modal">
                             <div class="category-card-bg" id="cabinets"></div>
                         </a>
                         <div class="p-3">
-                            <a href="javascript:;" data-toggle="modal" data-target="#cabinets-modal">
+                            <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#cabinets-modal">
                                 <h3>Cabinets</h3>
                             </a>
                             <p>Not just a wide variety of materials (natural & artificial) but also ...</p>
-                            <a href="javascript:;" class="view-more-link" data-toggle="modal" data-target="#cabinets-modal">View More</a>
+                            <a href="javascript:;" class="categories-modal-toggler view-more-link" data-toggle="modal" data-target="#cabinets-modal">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <a href="javascript:;" data-toggle="modal" data-target="#outdoor-modal">
+                        <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#outdoor-modal">
                             <div class="category-card-bg" id="outdoor"></div>
                         </a>
                         <div class="p-3">
-                            <a href="javascript:;" data-toggle="modal" data-target="#outdoor-modal">
+                            <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#outdoor-modal">
                                 <h3>Outdoor</h3>
                             </a>
                             <p>Nowadays, after quarantine we all realaized the importance of our private...</p>
-                            <a href="javascript:;" class="view-more-link" data-toggle="modal" data-target="#outdoor-modal">View More</a>
+                            <a href="javascript:;" class="categories-modal-toggler view-more-link" data-toggle="modal" data-target="#outdoor-modal">View More</a>
                         </div>
                     </div>
                 </div>
@@ -747,9 +746,9 @@
                     <ul class="owl-carousel owl-theme three-items-carousel">
                         <li class="item">
                             <span class="item-flag limited">Limited</span>
-                            <div class="limited-edition-bg" id="live-egd"></div>
+                            <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge"><div class="limited-edition-bg" id="live-egd"></div></a>
                             <div class="content-container">
-                                <h3>Live-edge</h3>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge"><h3>Live-edge</h3></a>
                                 <p>The most luxurious desks make their own statements! Limited and absolutely unique.</p>
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">View More</a>
                                 <div class="limited-images-list">
@@ -784,9 +783,9 @@
                         </li>
                         <li class="item">
                             <span class="item-flag limited">Limited</span>
-                            <div class="limited-edition-bg" id="lighting-accessories"></div>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories"><div class="limited-edition-bg" id="lighting-accessories"></div></a>
                             <div class="content-container">
-                                <h3>Lighting Accessories</h3>
+                                    <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories"><h3>Lighting Accessories</h3></a>
                                 <p>Light up your room or office with a modern and elegant touch made from genuine wood.</p>
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories">View More</a>
                                 <div class="limited-images-list">
@@ -821,9 +820,9 @@
                         </li>
                         <li class="item">
                             <span class="item-flag sale">Customizable</span>
-                            <div class="limited-edition-bg" id="business-cards"></div>
+                            <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards"><div class="limited-edition-bg" id="business-cards"></div></a>
                             <div class="content-container">
-                                <h3>Business Cards</h3>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards"><h3>Business Cards</h3></a>
                                 <p>Unique laser-cut business cards are a powerful way to be remembered. Order yours now.</p>
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards">View More</a>
                                 <div class="limited-images-list">
@@ -857,10 +856,10 @@
                             </div>
                         </li>
                         <li class="item">
-                            <span class="item-flag sale">Limited</span>
-                            <div class="limited-edition-bg" id="satined-coasters"></div>
+                          <span class="item-flag limited">Limited</span>
+                            <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotice Wood Coasters"><div class="limited-edition-bg" id="satined-coasters"></div></a>
                             <div class="content-container">
-                                <h3>Exotice Wood Coasters</h3>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotice Wood Coasters"><h3>Exotice Wood Coasters</h3></a>
                                 <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotice Wood Coasters">View More</a>
                                 <div class="limited-images-list">

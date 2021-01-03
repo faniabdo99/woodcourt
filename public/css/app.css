@@ -879,11 +879,8 @@ a:hover {
 .products-list ul li .content-container .place-order-button {
   display: block;
   font-size: 0.9em;
-  background-color: #42b268;
-  padding: 10px 25px;
-  border-radius: 4px;
-  text-align: center;
-  color: #fff;
+  font-weight: bold;
+  color: #0D8287;
 }
 .products-list .owl-nav {
   position: absolute;
@@ -915,11 +912,13 @@ a:hover {
   color: #fff;
   border-radius: 50%;
 }
+.products-list input, .products-list textarea {
+  font-size: 0.9em;
+}
 .products-list input[type=submit] {
   border: none;
   outline: none;
   padding: 5px 20px;
-  font-size: 0.9em;
 }
 .products-list #limited-edition-modal-images {
   height: 400px;
@@ -1858,6 +1857,13 @@ time {
 .single-event-article .single-event-article-sidebar#keep-in-touch ul li a span {
   flex: 6;
   text-align: center;
+}
+.single-event-article .single-event-article-sidebar#keep-in-touch ul li.youtube-li {
+  background-color: #FF0000;
+}
+.single-event-article .single-event-article-sidebar#keep-in-touch ul li.youtube-li:hover {
+  transition: all ease 0.3s;
+  background-color: #d40f0f;
 }
 .single-event-article .single-event-article-sidebar#keep-in-touch ul li.facebook-li {
   background-color: #4267B2;

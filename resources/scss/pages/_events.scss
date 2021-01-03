@@ -101,6 +101,13 @@
               text-align: center;
             }
           }
+          &.youtube-li {
+              background-color: #FF0000;
+              &:hover {
+                  transition: all ease 0.3s;
+                  background-color: #d40f0f;
+              }
+          }
           &.facebook-li{
             background-color: #4267B2;
             &:hover{

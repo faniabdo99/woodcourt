@@ -598,11 +598,8 @@
         .place-order-button{
           display: block;
           font-size: 0.9em;
-          background-color: #42b268;
-          padding: 10px 25px;
-          border-radius: 4px;
-          text-align: center;
-          color: #fff;
+          font-weight: bold;
+          color: $brand;
         }
       }
     }
@@ -637,11 +634,14 @@
           }
       }
   }
+  input,textarea{
+    font-size: 0.9em;
+  }
   input[type=submit]{
     border:none;
     outline:none;
     padding: 5px 20px;
-    font-size: 0.9em;
+    // font-size: 0.8em;
   }
   #limited-edition-modal-images{
     height: 400px;
