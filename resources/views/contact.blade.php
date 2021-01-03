@@ -19,6 +19,7 @@
                     <li class="instagram-li"><a href="https://www.instagram.com/thewoodcourt/" target="_blank "><i class="fab fa-instagram"></i> <span>@thewoodcourt</span></a></li>
                     <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a></li>
                     <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                    <li class="youtube-li"><a href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ" target="_blank "><i class="fab fa-youtube"></i> <span>The Wood Court</span></a></li>
                   </ul>
                 </div>
               </div>
@@ -71,6 +72,8 @@
                         </div>
                         <div class="row">
                             <div class="col-12">
+                                <label for="name">Company Name: (Optional)</label>
+                                <input type="text" placeholder="Enter Your Company Name Here" name="company_name" id="company_name">
                                 <label for="message">Message:</label>
                                 <textarea name="message" id="message" rows="8" placeholder="Enter your message here"></textarea>
                                 <button class="icon-button d-lg-inline d-block text-center w-100" data-target="{{route('contact.post')}}" id="submit-contact-form" type="submit"><i class="fas fa-paper-plane"></i> Send</button>

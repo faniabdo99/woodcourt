@@ -349,7 +349,7 @@
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emar.png" alt="Emar"></a>
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/iwan.png" alt="IWAN"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
@@ -487,6 +487,11 @@
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/suez.jpg" alt="suez"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
                                 </div>
                             </div>
                         </div>

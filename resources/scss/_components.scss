@@ -1,3 +1,5 @@
+.bg-brand{background-color: $brand;}
+.color-brand{color: $brand;}
 .hero-section {
     height: calc(100vh - 100px);
     .dark-overlap {
@@ -14,26 +16,22 @@
         }
     }
     .social-media-hero {
-        width: 70%;
+        width: 60%;
         margin: auto;
         background-color: rgba(0,0,0,0.4);
-        padding: 15px;
+        padding: 25px;
         border-radius: 4px;
-
         h3,
         p {
             color: #fff;
         }
-
         p {
             margin-bottom: 25px;
             font-size: 1.2em;
         }
-
         ul {
             list-style-type: none;
             padding-inline-start: 0;
-
             li {
                 display: block;
                 margin-bottom: 20px;
@@ -41,7 +39,6 @@
                 border-radius: 4px;
                 font-size: 1.1em;
                 transition: all ease 0.3s;
-
                 a {
                     color: #fff;
                     display: flex;
@@ -87,10 +84,16 @@
 
                 &.email-li {
                     background-color: $black;
-
                     &:hover {
                         transition: all ease 0.3s;
                         background-color: #444;
+                    }
+                }
+                &.youtube-li {
+                    background-color: #FF0000;
+                    &:hover {
+                        transition: all ease 0.3s;
+                        background-color: #d40f0f;
                     }
                 }
             }
@@ -116,14 +119,14 @@
             }
             &.owl-prev {
                 position: absolute;
-                left: -5%;
+                left: 3%;
                 background: $brand;
                 color: #fff;
                 border-radius: 50%;
             }
             &.owl-next {
                 position: absolute;
-                right: -5%;
+                right: 3%;
                 background: $brand;
                 color: #fff;
                 border-radius: 50%;
@@ -138,7 +141,7 @@
             color: #fff;
         }
         .slide {
-            padding-top: 80px;
+            padding: 80px 0;
             .user-image {
                 width: 150px;
                 height: 150px;
@@ -194,7 +197,79 @@
                 bottom: -65px;
                 right: 35px;
             }
+
+            .single-testemonials-card{
+                position: relative;
+                background: #fff;
+                border-radius: 4px;
+                box-shadow: 0 0 8px rgba(0,0,0,0.5);
+                padding: 15px;
+                width: 60%;
+                margin: auto;
+                height: 400px;
+                img{
+                  height: 100px;
+                  width: 100px;
+                  border-radius: 50%;
+                  display: block;
+                  margin: -60px auto 15px auto;
+                  border:5px solid $brand;
+                }
+                h4{
+                  color: $black;
+                  font-size: 1.3em;
+                  margin-bottom: 15px;
+                }
+                p{
+                  color: $medgrey;
+                  font-size: 0.9em;
+                  line-height: 2em;
+                }
+            }
+            a.view-on-facebook{
+              position: absolute;
+              top: -10px;
+              right: 20%;
+              width: 35px;
+              height: 35px;
+              background: #4267B2;
+              color: #fff;
+              text-align: center;
+              border-radius: 50%;
+              padding-top: 8px;
+              transition: all ease 0.3s;
+              &:hover{
+                transition: all ease 0.3s;
+                background: #5d85d4;
+              }
+            }
+
         }
+    }
+    .testimonial-rating{
+      background-color: rgba(0,0,0,0.8);
+      padding: 30px;
+      color: #fff;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      h3{
+        margin: 0;
+        flex:6;
+      }
+      a.reviews-button{
+        flex:1;
+        border: 1px solid #fff;
+        color: #fff;
+        padding: 15px;
+        text-align: center;
+        transition: all ease 0.3s;
+        &:hover{
+          transition: all ease 0.3s;
+          background-color: $brand;
+          border-color: $brand;
+        }
+      }
     }
 }
 .logo-parade {
@@ -459,10 +534,8 @@
           font-size: 2em;
         }
       }
-
     }
   }
-
 }
 .products-list{
   padding: 100px 0;
@@ -570,6 +643,20 @@
     padding: 5px 20px;
     font-size: 0.9em;
   }
+  #limited-edition-modal-images{
+    height: 400px;
+    overflow-y: scroll;
+    ul.category-images-list{
+      display: block !important;
+    }
+    ul.category-images-list li{
+      img{
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+      }
+    }
+  }
 }
 //Mobile Version of the components
 @media screen and (max-width: 768px) {
@@ -579,7 +666,6 @@
                 font-size: 3.5em;
                 text-align: center;
             }
-
             p {
                 font-size: 1.5em;
                 text-align: center;
@@ -613,7 +699,41 @@
                 .testimonial-content {
                     width: 95%;
                 }
+
+
+                .single-testemonials-card{
+                    padding: 10px;
+                    width: 90%;
+                    height: 500px;
+                    img{
+                      height: 50px;
+                      width: 50px;
+                      margin: -30px auto 15px auto;
+                      border:3px solid $brand;
+                    }
+                    h4{
+                      font-size: 1.3em;
+                      margin-bottom: 15px;
+                    }
+                    p{
+                      font-size: 0.9em;
+                      line-height: 1.5em;
+                    }
+                }
+
+
             }
+        }
+        .testimonial-rating{
+          padding: 10px;
+          h3{
+            flex:4;
+            font-size: 1.2em;
+          }
+          a.reviews-button{
+            padding: 5px;
+            font-size: 0.9em;
+          }
         }
     }
     .logo-parade {

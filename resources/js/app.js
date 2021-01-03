@@ -2,18 +2,15 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
-// Start mansy Code
-
-$('.why-us-single-toggler').mouseenter(function(){
+$('.why-us-icon-container').mouseenter(function(){
   $('.why-us-card-content .why-us-card').hide();
-  $('#'+$(this).data('target')).fadeIn('slow');
+  $('#'+$(this).parent().data('target')).fadeIn('slow');
 });
-
-
-// End Mansy Code
 //Homepage
 $('.place-order-button').click(function(){
     $('#place-order-modal-form').find('input[name="item_name"]').val($(this).data('name'));
+    $('#PlaceOrderModalLabel').html($(this).data('modal-title'));
+    $('#limited-edition-modal-images').html($(this).parent().find('div.limited-images-list').html());
 });
 //Owl Carousel Options
 $('.full-width-carousel-with-nav').owlCarousel({
