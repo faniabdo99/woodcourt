@@ -14,34 +14,30 @@
     width: 75%;
     margin: auto;
     border-radius: 4px;
-
     .sidebar-title {
         color: $brand;
         font-size: 1.1em;
         margin-bottom: 25px;
     }
-
     ul.filter-items {
         list-style: none;
         padding-inline-start: 0;
-
         li {
             margin-bottom: 10px;
-
             & > a {
                 color: $black;
-
                 &:hover {
                     color: $brand;
                 }
             }
-
+            .main-category-filter.active{
+              color: $brand;
+              font-weight: bold;
+            }
             ul.filter-sub-items {
                 list-style: none;
-
                 li {
                     margin-bottom: 0;
-
                     a {
                         font-size: 0.9em;
                         &.active{

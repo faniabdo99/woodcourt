@@ -142,62 +142,6 @@
         }
         .slide {
             padding: 80px 0;
-            .user-image {
-                width: 150px;
-                height: 150px;
-                border-radius: 50%;
-                display: block;
-                margin: 0 auto 30px;
-            }
-            .user-name {
-                color: #fff;
-                font-size: 1.2em;
-                text-align: center;
-                margin-bottom: 10px;
-            }
-            .user-job-title {
-                text-align: center;
-                color: #fff;
-                font-size: 0.8em;
-            }
-            .testimonial-content {
-                position: relative;
-                background: #fff;
-                padding: 25px;
-                border-radius: 4px;
-                width: 85%;
-                margin-left: auto;
-                h3 {
-                    color: $brand;
-                    margin-bottom: 15px;
-                }
-                p {
-                    color: $medgrey;
-                    line-height: 2em;
-                }
-                .small-quote-icon {
-                    display: block;
-                    width: 30px;
-                    height: 30px;
-                    text-align: center;
-                    padding-top: 6px;
-                    background: $brand;
-                    color: #fff;
-                    border-radius: 50%;
-                    position: absolute;
-                    top: -15px;
-                    left: -15px;
-                }
-            }
-            .big-quote-icon {
-                transform: rotate(180deg);
-                font-size: 8em;
-                position: absolute;
-                opacity: 0.3;
-                bottom: -65px;
-                right: 35px;
-            }
-
             .single-testemonials-card{
                 position: relative;
                 background: #fff;
@@ -688,23 +632,11 @@
             padding: 50px 0;
             .slide {
                 padding-top: 20px;
-                .user-image {
-                    width: 100px;
-                    height: 100px;
-                    margin: 0 auto 10px;
-                }
-                .user-job-title {
-                    margin-bottom: 35px;
-                }
-                .testimonial-content {
-                    width: 95%;
-                }
-
-
-                .single-testemonials-card{
+              .single-testemonials-card{
                     padding: 10px;
-                    width: 90%;
-                    height: 500px;
+                    width: 95%;
+                    height: auto;
+                    // overflow-y: scroll;
                     img{
                       height: 50px;
                       width: 50px;
@@ -712,15 +644,21 @@
                       border:3px solid $brand;
                     }
                     h4{
-                      font-size: 1.3em;
-                      margin-bottom: 15px;
+                      font-size: 1em;
+                      margin-bottom: 10px;
                     }
                     p{
-                      font-size: 0.9em;
-                      line-height: 1.5em;
+                      font-size: 0.8em;
+                      line-height: 1.3em;
                     }
                 }
-
+                a.view-on-facebook{
+                  top: -10px;
+                  right: 8%;
+                  width: 25px;
+                  height: 25px;
+                  padding-top: 3px;
+                }
 
             }
         }

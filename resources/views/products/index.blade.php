@@ -1,4 +1,5 @@
 @include('layout.header', ['PageTitle' => 'Kitchen, Floor ... and More'])
+
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="products-section">
@@ -15,16 +16,19 @@
                         <h3 class="sidebar-title">Filter By Category</h3>
                         <ul class="filter-items">
                             <li>
-                                <a href="javascript:;">Wood Flooring</a>
+                              <a class="main-category-filter" href="javascript:;" data-target="all">All</a>
+                            </li>
+                            <li>
+                                <a class="main-category-filter active" href="javascript:;" data-target="wood-flooring">Wood Flooring</a>
                                 <ul class="filter-sub-items">
-                                    <li><a class="active" data-target="engineered-floors" href="javascript:;">Engineered Floors</a></li>
+                                    <li><a data-target="engineered-floors" href="javascript:;">Engineered Floors</a></li>
                                     <li><a data-target="tiles" href="javascript:;">Tiles</a></li>
                                     <li><a data-target="stairs" href="javascript:;">Stairs</a></li>
                                     <li><a data-target="hdf-floors" href="javascript:;">HDF Floors</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:;">Cabinets</a>
+                                <a class="main-category-filter" href="javascript:;" data-target="cabinets">Cabinets</a>
                                 <ul class="filter-sub-items">
                                     <li><a data-target="kitchens" href="javascript:;">Kitchens</a></li>
                                     <li><a data-target="dressings" href="javascript:;">Dressings</a></li>
@@ -32,7 +36,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:;">Outdoor</a>
+                                <a class="main-category-filter" href="javascript:;" data-target="outdoor">Outdoor</a>
                                 <ul class="filter-sub-items">
                                     <li><a href="javascript:;" data-target="teak-flooring">Teak Flooring</a></li>
                                     <li><a data-target="shower-units" href="javascript:;"> Shower Units</a></li>
@@ -45,7 +49,7 @@
                 <div class="col-lg-9 col-12">
                     <div class="row">
                         <div class="col-12" id="images-list">
-                            <ul class="category-images-list active" id="engineered-floors">
+                            <ul class="category-images-list active wood-flooring" id="engineered-floors">
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/1.jpg" target="_blank"><img
                                           src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/1.jpg" alt="engineered-floors-1" title="engineered-floors-1"></a></li>
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/2.jpg" target="_blank"><img
@@ -131,7 +135,7 @@
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/42.jpg" target="_blank">
                                         <img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/42.jpg" alt="engineered-floors-42" title="engineered-floors-42"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="tiles">
+                            <ul class="category-images-list active wood-flooring" id="tiles">
                                 <li><a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/1.jpg" alt="tiles-1"
                                           title="tiles-1"></a></li>
                                 <li><a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/2.jpg" alt="tiles-2"
@@ -218,7 +222,7 @@
                                         <img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/35.jpg" alt="tiles-35" title="tiles-35"></a></li>
 
                             </ul>
-                            <ul class="category-images-list" id="stairs">
+                            <ul class="category-images-list active wood-flooring" id="stairs">
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/1.jpg" alt="stairs-1"
                                           title="stairs-1"></a></li>
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/2.jpg" alt="stairs-2"
@@ -240,7 +244,7 @@
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/10.jpg"
                                           alt="stairs-10" title="stairs-10"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="hdf-floors">
+                            <ul class="category-images-list active wood-flooring" id="hdf-floors">
                                 <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/1.jpg" alt="hdf-1"
                                           title="hdf-1"></a></li>
                                 <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/2.jpg" alt="hdf-2"
@@ -280,7 +284,7 @@
                                 <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/19.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/19.jpg" alt="hdf-19"
                                           title="hdf-19"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="kitchens">
+                            <ul class="category-images-list cabinets" id="kitchens">
                                 <li><a data-fancybox="kitchens" data-caption="" href="{{url('public')}}/images/categories/cabinets/kitchens/1.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/kitchens/1.png" alt="kitchens-1"
                                           title="kitchens-1"></a></li>
                                 <li><a data-fancybox="kitchens" data-caption="" href="{{url('public')}}/images/categories/cabinets/kitchens/2.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/kitchens/2.png" alt="kitchens-2"
@@ -302,11 +306,11 @@
                                 <li><a data-fancybox="kitchens" data-caption="" href="{{url('public')}}/images/categories/cabinets/kitchens/10.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/kitchens/10.png" alt="kitchens-10"
                                           title="kitchens-10"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="dressings">
+                            <ul class="category-images-list cabinets" id="dressings">
                                 <li><a data-fancybox="dressings" data-caption="" href="{{url('public')}}/images/categories/cabinets/dressings/1.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/dressings/1.png" alt="dressings-1"
                                           title="dressings-1"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="bathroom-cabinets">
+                            <ul class="category-images-list cabinets" id="bathroom-cabinets">
                                 <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets\bathroom-cabinets/1.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets\bathroom-cabinets/1.png"
                                           alt="bathroom-cabinets-1" title="bathroom-cabinets-1"></a></li>
                                 <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets\bathroom-cabinets/2.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets\bathroom-cabinets/2.png"
@@ -314,7 +318,7 @@
                                 <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets\bathroom-cabinets/3.png" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets\bathroom-cabinets/3.png"
                                           alt="bathroom-cabinets-3" title="bathroom-cabinets-3"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="teak-flooring">
+                            <ul class="category-images-list outdoor" id="teak-flooring">
                                 <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/1.jpg"
                                           alt="teak-flooring-1" title="teak-flooring-1"></a></li>
                                 <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/2.jpg"
@@ -366,13 +370,13 @@
                                 <li><a data-fancybox="teak" data-caption="" href="{{url('public')}}/images/categories/outdoor/teak-flooring/25.jpg" target="_blank">
                                         <img src="{{url('public')}}/images/thumbs/outdoor/teak-flooring/25.jpg" alt="teak-flooring-25" title="teak-flooring25"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="shower-units">
+                            <ul class="category-images-list outdoor" id="shower-units">
                                 <li><a data-fancybox="shower" data-caption="" href="{{url('public')}}/images/categories/outdoor/shower-units/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/shower-units/1.jpg"
                                           alt="shower-units-1" title="shower-units-1"></a></li>
                                 <li><a data-fancybox="shower" data-caption="" href="{{url('public')}}/images/categories/outdoor/shower-units/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/shower-units/2.jpg"
                                           alt="shower-units-2" title="shower-units-2"></a></li>
                             </ul>
-                            <ul class="category-images-list" id="pergolas">
+                            <ul class="category-images-list outdoor" id="pergolas">
                                 <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/1.jpg" alt="pergolas-1"
                                           title="pergolas-1"></a></li>
                                 <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/2.jpg" alt="pergolas-2"
@@ -404,7 +408,24 @@
     @include('layout.scripts')
     @include('layout.footer')
     <script type="text/javascript">
+        $('.main-category-filter').click(function(){
+          if($(this).data('target') == 'all'){
+            $('.filter-sub-items li a').removeClass('active');
+            $('.main-category-filter').removeClass('active');
+            $(this).addClass('active');
+            $('.category-images-list').removeClass('active');
+            $('.category-images-list').addClass('active');
+          }else{
+            $('.category-images-list').removeClass('active');
+            $('.filter-sub-items li a').removeClass('active');
+            $('.main-category-filter').removeClass('active');
+            $(this).addClass('active');
+            $('.'+$(this).data('target')).addClass('active');
+          }
+
+        });
         $('.filter-sub-items li a').click(function() {
+            $('.main-category-filter').removeClass('active');
             $('.category-images-list').removeClass('active');
             $('.filter-sub-items li a').removeClass('active');
             $(this).addClass('active');

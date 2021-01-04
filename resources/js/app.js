@@ -154,8 +154,7 @@ $(window).scroll(function() {
         $('.counter').countTo();
       }
       HasCounted = true;
-
-        return false;
+      return false;
     } else {
         return false;
     }
