@@ -424,61 +424,6 @@ a:hover {
 .testimonials-section .dark-overlap .slide {
   padding: 80px 0;
 }
-.testimonials-section .dark-overlap .slide .user-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 30px;
-}
-.testimonials-section .dark-overlap .slide .user-name {
-  color: #fff;
-  font-size: 1.2em;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.testimonials-section .dark-overlap .slide .user-job-title {
-  text-align: center;
-  color: #fff;
-  font-size: 0.8em;
-}
-.testimonials-section .dark-overlap .slide .testimonial-content {
-  position: relative;
-  background: #fff;
-  padding: 25px;
-  border-radius: 4px;
-  width: 85%;
-  margin-left: auto;
-}
-.testimonials-section .dark-overlap .slide .testimonial-content h3 {
-  color: #0D8287;
-  margin-bottom: 15px;
-}
-.testimonials-section .dark-overlap .slide .testimonial-content p {
-  color: #555555;
-  line-height: 2em;
-}
-.testimonials-section .dark-overlap .slide .testimonial-content .small-quote-icon {
-  display: block;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding-top: 6px;
-  background: #0D8287;
-  color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: -15px;
-  left: -15px;
-}
-.testimonials-section .dark-overlap .slide .big-quote-icon {
-  transform: rotate(180deg);
-  font-size: 8em;
-  position: absolute;
-  opacity: 0.3;
-  bottom: -65px;
-  right: 35px;
-}
 .testimonials-section .dark-overlap .slide .single-testemonials-card {
   position: relative;
   background: #fff;
@@ -958,21 +903,10 @@ a:hover {
   .testimonials-section .dark-overlap .slide {
     padding-top: 20px;
   }
-  .testimonials-section .dark-overlap .slide .user-image {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 10px;
-  }
-  .testimonials-section .dark-overlap .slide .user-job-title {
-    margin-bottom: 35px;
-  }
-  .testimonials-section .dark-overlap .slide .testimonial-content {
-    width: 95%;
-  }
   .testimonials-section .dark-overlap .slide .single-testemonials-card {
     padding: 10px;
-    width: 90%;
-    height: 500px;
+    width: 95%;
+    height: auto;
   }
   .testimonials-section .dark-overlap .slide .single-testemonials-card img {
     height: 50px;
@@ -981,12 +915,19 @@ a:hover {
     border: 3px solid #0D8287;
   }
   .testimonials-section .dark-overlap .slide .single-testemonials-card h4 {
-    font-size: 1.3em;
-    margin-bottom: 15px;
+    font-size: 1em;
+    margin-bottom: 10px;
   }
   .testimonials-section .dark-overlap .slide .single-testemonials-card p {
-    font-size: 0.9em;
-    line-height: 1.5em;
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+  .testimonials-section .dark-overlap .slide a.view-on-facebook {
+    top: -10px;
+    right: 8%;
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
   }
   .testimonials-section .testimonial-rating {
     padding: 10px;
@@ -1969,6 +1910,10 @@ time {
 }
 .products-sidebar ul.filter-items li > a:hover {
   color: #0D8287;
+}
+.products-sidebar ul.filter-items li .main-category-filter.active {
+  color: #0D8287;
+  font-weight: bold;
 }
 .products-sidebar ul.filter-items li ul.filter-sub-items {
   list-style: none;
