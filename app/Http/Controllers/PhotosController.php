@@ -25,13 +25,13 @@ class PhotosController extends Controller{
       return back()->withErrors($Validator->errors()->all())->withInput();
     }else{
       $PhotoData = $r->except('_token');
-      foreach ($r->image as $imageSrc) {
+      foreach ($r->image as $key => $imageSrc) {
         $img = ImageLib::make($imageSrc);
         // backup status
         $img->backup();
         // Thumb
         $img->fit(150, 150);
-        $img->save('storage/app/products/small_thumb/'.$imageSrc->getClientOriginalName());
+        $img->save('storage/app/products/small_thumb/'.($key+1).'.jpg');
         $img->reset();
         // Full Size
         $waterMarkUrl = public_path('images/watermark.png');
@@ -40,7 +40,7 @@ class PhotosController extends Controller{
           $constraint->aspectRatio();
         });
         $img->insert($WaterMark, 'center');
-        $img->save('storage/app/products/original/'.$imageSrc->getClientOriginalName());
+        $img->save('storage/app/products/original/'.($key+1).'.jpg');
       }
       // $img = ImageLib::make($r->image);
       // // backup status
