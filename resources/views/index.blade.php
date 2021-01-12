@@ -803,13 +803,13 @@
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/1.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/collections/life-edge/1.jpg" alt="engineered-floors-1" title="engineered-floors-1"></a></li>
+                                                  src="{{url('public')}}/images/collections/life-edge/thumbs/1.jpg" alt="life-edge-1" title="life-edge-1"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/2.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/collections/life-edge/2.jpg" alt="engineered-floors-2" title="engineered-floors-2"></a></li>
+                                                  src="{{url('public')}}/images/collections/life-edge/thumbs/2.jpg" alt="life-edge-2" title="life-edge-2"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/3.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/collections/life-edge/3.jpg" alt="engineered-floors-3" title="engineered-floors-3"></a></li>
+                                                  src="{{url('public')}}/images/collections/life-edge/thumbs/3.jpg" alt="life-edge-3" title="life-edge-3"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/4.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/collections/life-edge/4.jpg" alt="engineered-floors-4" title="engineered-floors-4"></a></li>
+                                                  src="{{url('public')}}/images/collections/life-edge/thumbs/4.jpg" alt="life-edge-4" title="life-edge-4"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -824,11 +824,11 @@
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/1.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/collections/light/1.jpg" alt="light-1" title="light-1"></a></li>
+                                                  src="{{url('public')}}/images/collections/light/thumbs/1.jpg" alt="light-1" title="light-1"></a></li>
                                         <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/2.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/collections/light/2.jpg" alt="light-2" title="light-2"></a></li>
+                                                  src="{{url('public')}}/images/collections/light/thumbs/2.jpg" alt="light-2" title="light-2"></a></li>
                                         <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/3.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/collections/light/3.jpg" alt="light-3" title="light-3"></a></li>
+                                                  src="{{url('public')}}/images/collections/light/thumbs/3.jpg" alt="light-3" title="light-3"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -842,30 +842,16 @@
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards">View More</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/1.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/1.jpg" alt="engineered-floors-1" title="engineered-floors-1"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/2.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/2.jpg" alt="engineered-floors-2" title="engineered-floors-2"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/3.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/3.jpg" alt="engineered-floors-3" title="engineered-floors-3"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/4.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/4.jpg" alt="engineered-floors-4" title="engineered-floors-4"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/5.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/5.jpg" alt="engineered-floors-5" title="engineered-floors-5"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/7.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/7.jpg" alt="engineered-floors-7" title="engineered-floors-7"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/8.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/8.jpg" alt="engineered-floors-8" title="engineered-floors-8"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/9.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/9.jpg" alt="engineered-floors-9" title="engineered-floors-9"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/10.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/10.jpg" alt="engineered-floors-10" title="engineered-floors-10"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/11.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/11.jpg" alt="engineered-floors-11" title="engineered-floors-11"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/12.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/12.jpg" alt="engineered-floors-12" title="engineered-floors-12"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/13.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/13.jpg" alt="engineered-floors-13" title="engineered-floors-13"></a></li>
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/1.jpg" target="_blank"><img
+                                                  src="{{url('public')}}/images/collections/b-cards/thumbs/1.jpg" alt="b-cards-1" title="b-cards-1"></a></li>
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/2.jpg" target="_blank"><img
+                                                  src="{{url('public')}}/images/collections/b-cards/thumbs/2.jpg" alt="b-cards-2" title="b-cards-2"></a></li>
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/3.jpg" target="_blank"><img
+                                                  src="{{url('public')}}/images/collections/b-cards/thumbs/3.jpg" alt="b-cards-3" title="b-cards-3"></a></li>
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/4.jpg" target="_blank"><img
+                                                  src="{{url('public')}}/images/collections/b-cards/thumbs/4.jpg" alt="b-cards-4" title="b-cards-4"></a></li>
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/5.jpg" target="_blank"><img
+                                                  src="{{url('public')}}/images/collections/b-cards/thumbs/5.jpg" alt="b-cards-5" title="b-cards-5"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -887,22 +873,6 @@
                                                   src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/3.jpg" alt="engineered-floors-3" title="engineered-floors-3"></a></li>
                                         <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/4.jpg" target="_blank"><img
                                                   src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/4.jpg" alt="engineered-floors-4" title="engineered-floors-4"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/5.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/5.jpg" alt="engineered-floors-5" title="engineered-floors-5"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/7.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/7.jpg" alt="engineered-floors-7" title="engineered-floors-7"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/8.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/8.jpg" alt="engineered-floors-8" title="engineered-floors-8"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/9.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/9.jpg" alt="engineered-floors-9" title="engineered-floors-9"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/10.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/10.jpg" alt="engineered-floors-10" title="engineered-floors-10"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/11.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/11.jpg" alt="engineered-floors-11" title="engineered-floors-11"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/12.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/12.jpg" alt="engineered-floors-12" title="engineered-floors-12"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/13.jpg" target="_blank"><img
-                                                  src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/13.jpg" alt="engineered-floors-13" title="engineered-floors-13"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1066,7 +1036,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img src="{{url('public')}}/images/testemonials/‏‎nermeen-farouk.jpg" alt=" ‏‎Nermeen Farouk Gamea">
+                                  <img src="{{url('public')}}/images/testemonials/nermeen-farouk.jpg" alt="Nermeen Farouk Gamea">
                                 <h4>Nermeen Farouk Gamea</h4>
                                 <p><b>This a company you can trust</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1078,9 +1048,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image"
-                                  src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-1/p200x200/44939937_10156744823066197_8268768276318781440_o.jpg?_nc_cat=101&ccb=2&_nc_sid=7206a8&_nc_eui2=AeFtfuZpQwFnPzuGj_LHm0pf1ImCAuL3REvUiYIC4vdES6Pv3aquD0D41qzie7n2zH2yvNQbJ12PucabW8riJMdw&_nc_ohc=9uwcM0_GvrYAX8fDc_Z&_nc_ht=scontent.fcai19-2.fna&tp=6&oh=25eca657db9c59bc1e1d326de0e71544&oe=6000636F"
-                                  alt="Mostafa Morsy">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mostafa-morsy.jpg" alt="Mostafa Morsy">
                                 <h4 class="user-name">Mostafa Morsy</h4>
                                 <p><b>Excellent</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1091,7 +1059,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/‏‎nour-el-hoda-moghazy.jpg" alt="Nour El Hoda Moghazy">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/nour-el-hoda-moghazy.jpg" alt="Nour El Hoda Moghazy">
                                 <h4 class="user-name">Nour El Hoda Moghazy</h4>
                                 <p><b>Thank You!</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1105,9 +1073,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image"
-                                  src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/42769399_10160789597560705_1908439254501949440_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeHt_60BwNqQ0Feu6OhghsHq6Ufo_PUIbxLpR-j89QhvEuBzFH2dZ8d0cnBIBtdqhfEvEkKgAtotgf4kXe7sZxLo&_nc_ohc=8GNmZF9lfgEAX9WF1li&_nc_ht=scontent.fcai19-2.fna&oh=2f844594a54776a67bad430a3b149c64&oe=5FFF5BF2"
-                                  alt="Mahmoud Yassin">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-yassin.jpg" alt="Mahmoud Yassin">
                                 <h4 class="user-name">Mahmoud Yassin</h4>
                                 <p><b>Highly recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1120,7 +1086,7 @@
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
                                 <img
-                                  src="https://scontent.fcai19-2.fna.fbcdn.net/v/t31.0-1/c47.14.173.172a/p200x200/172356_10150150320216508_6180317_o.jpg?_nc_cat=107&ccb=2&_nc_sid=7206a8&_nc_eui2=AeF714H-4-VnSs78kBgzLtV5K7M7johAC20rszuOiEALbURgI9XPxwBGQ5tH_lvs--aSOBOBYLQAU6HoQivs-E6p&_nc_ohc=uOHOXViAAnMAX_EwJ9x&_nc_ht=scontent.fcai19-2.fna&tp=27&oh=4432765fab302244fb12e2fab7ed3d84&oe=60163F6E"
+                                  src="{{url('public')}}/images/testemonials/ahmad-elsaeed.jpg"
                                   alt="Ahamd Elsaeed">
                                 <h4>Ahmed Elsaeed</h4>
                                 <p><b>Understanding for customer requirements</b><br>
@@ -1134,7 +1100,7 @@
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
                                 <img class="user-image"
-                                  src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/12278773_890299487691675_91894851637444196_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeH3Ni5rcYx80WbjUHEaiCBu_I6zWf9-cET8jrNZ_35wRJ9C0v7eDgvUlI25Igz9PawxyU1rlxarmt4TH1zIbpd7&_nc_ohc=BXrU_ylJy4EAX84eV8k&_nc_ht=scontent.fcai19-2.fna&oh=b7a548bcffe949c9f3bc1b94cfe33a74&oe=5FFE09E1"
+                                  src="{{url('public')}}/images/testemonials/mohamed-mahdy.jpg"
                                   alt="Mohamed Mahdy">
                                 <h4 class="user-name">Mohamed Mahdy</h4>
                                 <p><b>One of best companies that you can deal with</b><br>
@@ -1150,7 +1116,7 @@
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
                               <img class="user-image"
-                                src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/121068749_2758247604451140_7307803230761064677_n.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEq1Jj3d9zaY9UtCvy_0yj6VS3XQqB_75FVLddCoH_vkSFF_w28Jz5-RJHJhLZ3hqAks-3F8VK1gysUCpO6RV_0&_nc_ohc=HBaC26iOWbwAX_n_dGl&_nc_ht=scontent.fcai19-2.fna&oh=1b8f653145d64e99b2cc9f3a427a0980&oe=5FFF18BB"
+                                src="{{url('public')}}/images/testemonials/jana-zahran.jpg"
                                 alt="Jana Zahran">
                               <h4 class="user-name">Jana Zahran</h4>
                                 <p><b>Really good prices and many many many designs</b><br>
@@ -1162,9 +1128,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                              <img class="user-image"
-                                src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/22852120_10155164399803865_3547450112766542621_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeFyXzJvhEWlOrRZmtHpE7dlqBcm-S5JKXeoFyb5LkkpdwHQa9aYXuT_N8r3_Db4tmv56N-hEDGNWjp5UZWAkto0&_nc_ohc=4Cp0NKLKKLkAX-SiBzA&_nc_ht=scontent.fcai19-2.fna&oh=5f24c4b016d24fc759de2ee4e6fec692&oe=5FFF778C"
-                                alt="Mohamed Sheesh">
+                              <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-sheesh.jpg" alt="Mohamed Sheesh">
                               <h4 class="user-name">Mohamed Sheesh</h4>
                                 <p><b>Dealing with The Wood Court has been the only bright</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1177,8 +1141,7 @@
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
                               <img class="user-image"
-                                src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/13754219_281356118890899_2735041485464602213_n.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGGCxwT4SZFkNtYNE-TcmbcbrWk3zcldOZutaTfNyV05lpP4eFBoubYKjTgbMn94JZrHevU23guulzEqGYPyv0A&_nc_ohc=WwX-V9Zmh4oAX9VCRNP&_nc_ht=scontent.fcai19-2.fna&oh=dd6292455073efe8780b83a891ca1d68&oe=600001D9"
-                                alt="Aly El Badrawy">
+                                src="{{url('public')}}/images/testemonials/aly-albadrawy.jpg" alt="Aly El Badrawy">
                               <h4 class="user-name">Aly El Badrawy</h4>
                                 <p><b>Strongly recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1191,9 +1154,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img  class="user-image"
-                                src="https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-1/p200x200/84082222_10212267300236772_3039547938767372288_o.jpg?_nc_cat=108&ccb=2&_nc_sid=7206a8&_nc_eui2=AeEiCBzfxE0onuFiJQbFntIskmeIEhGbh3aSZ4gSEZuHdkln2iU9Z9sf1W5PDq8_gsaTh8AobWijQ-4mhfd-BrI4&_nc_ohc=woKtuP4FPUAAX82vqwy&_nc_ht=scontent-hbe1-1.xx&tp=6&oh=a63d459d4b4774a1166298331a16f53d&oe=600BB932"
-                                alt="Amira Khidr">
+                                <img  class="user-image" src="{{url('public')}}/images/testemonials/amira-khidr.jpg" alt="Amira Khidr">
                               <h4 class="user-name">Amira Khidr</h4>
                                 <p><b>اضافة حقيقة و جميلة للديكور في مصر</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1233,8 +1194,8 @@
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
                                 <img src="{{url('public')}}/images/testemonials/hala-aziz.jpg" alt="Hala-Aziz">
-                                <h4>Hala-Aziz</h4>
-                                <p><b>شركه محترمه و اتشرفت بالتعامل معاكم   </b><br>
+                                <h4>Hala Aziz</h4>
+                                <p><b>شركه محترمه و اتشرفت بالتعامل معاكم</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     الجوده عاليه جداا و مواعيد تسليم مظبوطه
                                     الف شكر يا باشمهندس ايمن و ربنا يوفقكم دايما
@@ -1246,7 +1207,7 @@
                             <div class="single-testemonials-card">
                                   <img class="user-image" src="{{url('public')}}/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
                                 <h4 class="user-name">Ashraf Esmail</h4>
-                                <p><b>the best wooden floors ever .  </b><br>
+                                <p><b>the best wooden floors ever</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                   الجوده في الخامه . الجوده في المواعيد . الجوده في التعامل . الأدب و الالتزام من فنيين التركيب
                                 </p>
@@ -1255,7 +1216,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                      <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-basyouny.jpg" alt="Mahmoud Bassuony">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-basyouny.jpg" alt="Mahmoud Bassuony">
                                 <h4 class="user-name">Mahmoud Bassuony</h4>
                                 <p><b>افضل شركة في مصر بتعمل ارضيات باركيه وسلالم</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1263,7 +1224,6 @@
                                       خامات ممتازة .، معاملة أكثر من رائعة .، مواعيد وده المهم مظبوطة جداً .، وناس بتحب شغلهم وبتقدره جداً
                                       شرف ليا اني اتعاملت معاهم أكثر من مرة و علي طول ان ساء الله
                                       بس نفسي يفتحوا فرع في التجمع
-
                                 </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/mbassuony1/posts/2072351542840817" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
@@ -1272,19 +1232,20 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/heba-mahfoz.jpg" alt="Heba Mahfoz">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/heba-mahfoz.jpg" alt="Heba Mahfoz">
                                 <h4>Heba Mahfoz</h4>
-                                <p><b>منتج جميل و فاخر   </b><br>
+                                <p><b>منتج جميل و فاخر</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     منتج جميل و فاخر
                                     و شركه محترمه بدايه المواعيد و التركيب الى المتابعه و الصيانه
-                                    و شكر خاص للمهندس احمد زهران و المهندس ايمن زهران ،، لذوقهم و رقيهم في التعامل                                </p>
+                                    و شكر خاص للمهندس احمد زهران و المهندس ايمن زهران ،، لذوقهم و رقيهم في التعامل
+                                </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/heba.mahfouz.18/posts/2364117763602634" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/shehab-elghannam.jpg" alt="Shehab Elghannam">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/shehab-elghannam.jpg" alt="Shehab Elghannam">
                                 <h4 class="user-name">Shehab Elghannam</h4>
                                 <p><b>قمة التميز </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1295,7 +1256,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                      <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-hamdy.jpg" alt="Mohamed Hamdy">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-hamdy.jpg" alt="Mohamed Hamdy">
                                 <h4 class="user-name">Mahmamed Hamdy</h4>
                                 <p><b>Thanks Wood Court </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1310,7 +1271,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/shreif-elmasry.jpg" alt="Sherif Elmasry">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/shreif-elmasry.jpg" alt="Sherif Elmasry">
                                 <h4>Shreif ElMasry</h4>
                                 <p><b>Thanks  </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1331,7 +1292,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                      <img class="user-image" src="{{url('public')}}/images/testemonials/nayra-solaiman.jpg" alt="Nayra Solaiman">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/nayra-solaiman.jpg" alt="Nayra Solaiman">
                                 <h4 class="user-name">Nayra Solaiman</h4>
                                 <p><b>Thanks Wood Court </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1346,7 +1307,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/rehab-salm.jpg" alt="Rehab Salm">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/rehab-salm.jpg" alt="Rehab Salm">
                                 <h4>Rehab Salm</h4>
                                 <p><b>ايه الروعة دي الله أكبر</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1357,7 +1318,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
                                 <h4 class="user-name"> ‏‎Ehab Doss‎‏ </h4>
                                 <p><b>من اكثر الشركات احتراما للعميل</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1370,12 +1331,9 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                      <img class="user-image" src="{{url('public')}}/images/testemonials/hatem-hosny.jpg" alt="Hatem Hosny">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/hatem-hosny.jpg" alt="Hatem Hosny">
                                 <h4 class="user-name">Hatem Hosny</h4>
-                                <p><b>ناس محترمة</b><br>
-                                    <i class="fas fa-quote-right color-brand"></i>
-                                    شغل نضيف جدا جربتهم في شغل في شقة عندي من 3 سنين لسه زي ما هو �
-                                </p>
+                                <p><b>ناس محترمة</b><br><i class="fas fa-quote-right color-brand"></i>شغل نضيف جدا جربتهم في شغل في شقة عندي من 3 سنين لسه زي ما هو �</p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/hatem.hosny.5209/posts/509251902883005" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
@@ -1383,66 +1341,52 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/‏‎abd-alrahman-fani‎‏.jpg" alt=" ‏‎Abd Alrahman Fani‎‏">
-                                <h4> ‏‎Abd Alrahman Fani‎‏</h4>
-                                <p><b>Very Nice</b><br>
-                                    <i class="fas fa-quote-right color-brand"></i>
-                                  Very Nice Guys, The Products are Perfect as the Proffessnality.
-                                  </p>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/‏‎abd-alrahman-fani‎‏.jpg" alt="Abd Alrahman Fani‎‏">
+                                <h4>Abd Alrahman Fani‎‏</h4>
+                                <p><b>Very Nice</b><br><i class="fas fa-quote-right color-brand"></i>Very Nice Guys, The Products are Perfect as the Proffessnality.</p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/faniabdo99/posts/447095559606313" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
                                 <h4 class="user-name">Mohamed Abo Hendi</h4>
-                                <p><b>Professional </b><br>
-                                    <i class="fas fa-quote-right color-brand"></i>
-                            Professional and accurate timing , reliable and handing over without any comments.
+                                <p><b>Professional </b><br><i class="fas fa-quote-right color-brand"></i>Professional and accurate timing , reliable and handing over without any comments.
                             </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/mohamed.a.hendia/posts/10155676746466431" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                      <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
                                 <h4 class="user-name">Mohamed El Alfy</h4>
-                                <p><b>Perfect</b><br>
-                                    <i class="fas fa-quote-right color-brand"></i>
-                                  Perfect follow up perfect timing perfect quality to sum up this is the place to go, well done wood court
+                                <p><b>Perfect</b><br><i class="fas fa-quote-right color-brand"></i>Perfect follow up perfect timing perfect quality to sum up this is the place to go, well done wood court
                                 </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/mohamed.e.alfy.1/posts/10164595685655012" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                     <div class="row slide">
-
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
                                 <h4>Rafik Makar</h4>
-                                <p><b>Thanks</b><br>
-                                    <i class="fas fa-quote-right color-brand"></i>
-                              Thanks Woodcourt for the excellent quality of products and professional installation. Well done
-                                  </p>
+                                <p><b>Thanks</b><br><i class="fas fa-quote-right color-brand"></i>Thanks Woodcourt for the excellent quality of products and professional installation. Well done</p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/rafik.makar/posts/10157818271656593" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/محمد-العجوري.jpg" alt="محمد-العجوري‎‏">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohammed-alajory.jpg" alt="محمد-العجوري‎‏">
                                 <h4 class="user-name">محمد العجوري</h4>
-                                <p><b>ماشاء الله </b><br>
-                                    <i class="fas fa-quote-right color-brand"></i>
-                            ماشاء الله يبارك الله روعه جدا جدا انا انشاء الله تعالي ببني بيتي جدا وهركب منه انشاء الله
-                            </p>
+                                <p><b>ماشاء الله </b><br><i class="fas fa-quote-right color-brand"></i> ماشاء الله يبارك الله روعه جدا جدا انا انشاء الله تعالي ببني بيتي جدا وهركب منه انشاء الله</p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/permalink.php?story_fbid=337388807024177&id=100022591820632" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                      <img class="user-image"  src="{{url('public')}}/images/testemonials/احمد-العربي.jpg" alt="احمد-العربي">
-                                <h4 class="user-name">احمدالعربي</h4>
+                                      <img class="user-image"  src="{{url('public')}}/images/testemonials/ahmad-alaraby.jpg" alt="احمد-العربي">
+                                <h4 class="user-name">احمد العربي</h4>
                                 <p><b>شركه محترمه</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                   شركه محترمه وقمه في الذوق والتعامل والالتزام في المواعيد وفريق عمل محترم
