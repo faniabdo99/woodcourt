@@ -1066,9 +1066,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img
-                                  src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/1656190_10202827701874809_2086136297_n.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeGaCL7bffawea6qicjZt7bPssM1MhgU1CCywzUyGBTUIJms3asgl_fod2bIGJEAVM1vp-KfeFhUzCl-RovzRNh_&_nc_ohc=2hkg4DRfdsEAX8MgvtO&_nc_ht=scontent.fcai19-2.fna&oh=b1aa60e2ff2958cd3346c9dc4a2cd9fd&oe=5FF3E24F"
-                                  alt="Nermeen Farouk Gamea">
+                                  <img src="{{url('public')}}/images/testemonials/‏‎nermeen-farouk.jpg" alt=" ‏‎Nermeen Farouk Gamea">
                                 <h4>Nermeen Farouk Gamea</h4>
                                 <p><b>This a company you can trust</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1093,9 +1091,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image"
-                                  src="https://scontent.fcai19-2.fna.fbcdn.net/v/t1.0-9/118886354_10164437672405012_8425323246923185985_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeEd_NjeInee9KCPzguoMCFRbG2gr-QiG35sbaCv5CIbfmS4YpuwFevi0YcU6ZHUTJaa4LJk_XN603Id5DIFE2e4&_nc_ohc=kTTfGfx9pNwAX-82tsW&_nc_ht=scontent.fcai19-2.fna&oh=b08cd2f742cefdb96ce3bf4912b0f7f2&oe=5FF43AF7"
-                                  alt="Nour El Hoda Moghazy">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/‏‎nour-el-hoda-moghazy.jpg" alt="Nour El Hoda Moghazy">
                                 <h4 class="user-name">Nour El Hoda Moghazy</h4>
                                 <p><b>Thank You!</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1195,7 +1191,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                              <img class="user-image"
+                                <img  class="user-image"
                                 src="https://scontent-hbe1-1.xx.fbcdn.net/v/t1.0-1/p200x200/84082222_10212267300236772_3039547938767372288_o.jpg?_nc_cat=108&ccb=2&_nc_sid=7206a8&_nc_eui2=AeEiCBzfxE0onuFiJQbFntIskmeIEhGbh3aSZ4gSEZuHdkln2iU9Z9sf1W5PDq8_gsaTh8AobWijQ-4mhfd-BrI4&_nc_ohc=woKtuP4FPUAAX82vqwy&_nc_ht=scontent-hbe1-1.xx&tp=6&oh=a63d459d4b4774a1166298331a16f53d&oe=600BB932"
                                 alt="Amira Khidr">
                               <h4 class="user-name">Amira Khidr</h4>
@@ -1231,6 +1227,228 @@
                                     فعلاً شكراً وود كورت و شكراً أيمن زهران على الشغل المحترم
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                <img src="{{url('public')}}/images/testemonials/hala-aziz.jpg" alt="Hala-Aziz">
+                                <h4>Hala-Aziz</h4>
+                                <p><b>شركه محترمه و اتشرفت بالتعامل معاكم   </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    الجوده عاليه جداا و مواعيد تسليم مظبوطه
+                                    الف شكر يا باشمهندس ايمن و ربنا يوفقكم دايما
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/hala.fayek.77/posts/10158135354066559" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
+                                <h4 class="user-name">Ashraf Esmail</h4>
+                                <p><b>the best wooden floors ever .  </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                  الجوده في الخامه . الجوده في المواعيد . الجوده في التعامل . الأدب و الالتزام من فنيين التركيب
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/ashraf.ismail.7169/posts/10156817850781072" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-12 d-none d-lg-block">
+                            <div class="single-testemonials-card">
+                                      <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-basyouny.jpg" alt="Mahmoud Bassuony">
+                                <h4 class="user-name">Mahmoud Bassuony</h4>
+                                <p><b>افضل شركة في مصر بتعمل ارضيات باركيه وسلالم</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    فعلاً وعن تجربة معاهم في اكثر من مشروع مفيش مرة كان فيها غلطة 👌🏽
+                                      خامات ممتازة .، معاملة أكثر من رائعة .، مواعيد وده المهم مظبوطة جداً .، وناس بتحب شغلهم وبتقدره جداً
+                                      شرف ليا اني اتعاملت معاهم أكثر من مرة و علي طول ان ساء الله
+                                      بس نفسي يفتحوا فرع في التجمع
+
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/mbassuony1/posts/2072351542840817" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/heba-mahfoz.jpg" alt="Heba Mahfoz">
+                                <h4>Heba Mahfoz</h4>
+                                <p><b>منتج جميل و فاخر   </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    منتج جميل و فاخر
+                                    و شركه محترمه بدايه المواعيد و التركيب الى المتابعه و الصيانه
+                                    و شكر خاص للمهندس احمد زهران و المهندس ايمن زهران ،، لذوقهم و رقيهم في التعامل                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/heba.mahfouz.18/posts/2364117763602634" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/shehab-elghannam.jpg" alt="Shehab Elghannam">
+                                <h4 class="user-name">Shehab Elghannam</h4>
+                                <p><b>قمة التميز </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                قمة التميز والاتقان وشغل باركيه مش شبه حد ولا عند حد اول ما تشوف شكل الخشب هتعرف ان ده شغل بشمهندس ايمن ... دقه واتقان ورقي بصراحه انصح اي حد عاشق للخشب وللباركيه انه يشتغل معاكوا ... في تقدم دايما يارب ❤️❤️❤️
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/shehab.elghannam/posts/10161145790990004" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-12 d-none d-lg-block">
+                            <div class="single-testemonials-card">
+                                      <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-hamdy.jpg" alt="Mohamed Hamdy">
+                                <h4 class="user-name">Mahmamed Hamdy</h4>
+                                <p><b>Thanks Wood Court </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    Thanks Wood Court for the great work, perfect installation, high quality, professional sale service & on time deliverables .. stuff are nice & professional.
+                                    Special thanks to engineer Ayman Zahran, an honest straightforward flexible person! & I mean by honest straightforward that he states what he can do & what he can’t .. I had a special request & he promised to do it and fulfilled what he promised.
+                                    Thank U
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/mohamed.hamdy.562/posts/10157791062441645" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/shreif-elmasry.jpg" alt="Sherif Elmasry">
+                                <h4>Shreif ElMasry</h4>
+                                <p><b>Thanks  </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    Thanks to Woodcourt for the job done, really it was excellent experience from all aspects ( quality , commitment , and even price)
+                                    Special thanks to Mr. Ayman Elhefnawy, Mr. Ahmed Zahran , Mr. Ayman Zahran                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/sherif.elmasry.16144/posts/10164533747760014" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/ameer-reda.jpg" alt="Ameer Reda">
+                                <h4 class="user-name">Ameer Reda</h4>
+                                <p><b>التعامل محترم جدا</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    التعامل محترم جدا و خدمة ما بعد البيع ممتازة... استلمت شغلى قبل معاده ب 15 يوم... التعامل مباشرة مع م.ايمن زهران صاحب الشركة و سلمنى الشغل فى الفيلا بنفسه                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/ameer.reda.9/posts/3305989609422479" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-12 d-none d-lg-block">
+                            <div class="single-testemonials-card">
+                                      <img class="user-image" src="{{url('public')}}/images/testemonials/nayra-solaiman.jpg" alt="Nayra Solaiman">
+                                <h4 class="user-name">Nayra Solaiman</h4>
+                                <p><b>Thanks Wood Court </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    Thanks Wood Court for the great work, perfect installation, high quality, professional sale service & on time deliverables .. stuff are nice & professional.
+                                    Special thanks to engineer Ayman Zahran, an honest straightforward flexible person! & I mean by honest straightforward that he states what he can do & what he can’t .. I had a special request & he promised to do it and fulfilled what he promised.
+                                    Thank U .. Totally recommended .. U deserve all the best.
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/mohamed.hamdy.562/posts/10157791062441645" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/rehab-salm.jpg" alt="Rehab Salm">
+                                <h4>Rehab Salm</h4>
+                                <p><b>ايه الروعة دي الله أكبر</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                     أكثر حاجة مميزة فيكم الحفاظ على المستوى العالي طول الوقت مصريين بحق
+                              </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/rehab.salm.7/posts/4481060808601653" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
+                                <h4 class="user-name"> ‏‎Ehab Doss‎‏ </h4>
+                                <p><b>من اكثر الشركات احتراما للعميل</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    من اكثر الشركات احتراما للعميل ومصداقيه في الخامات
+                                          والتنفيذ بأعلي جوده وحرفية ممتازة
+                              مستوي راقي من التصميمات واسعار ممتازة اشكرك مهندس ايمن علي تعبك معايا والتزامك في ما تعرضت له
+                            </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/ehab.doss/posts/10158780036954250" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-12 d-none d-lg-block">
+                            <div class="single-testemonials-card">
+                                      <img class="user-image" src="{{url('public')}}/images/testemonials/hatem-hosny.jpg" alt="Hatem Hosny">
+                                <h4 class="user-name">Hatem Hosny</h4>
+                                <p><b>ناس محترمة</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                    شغل نضيف جدا جربتهم في شغل في شقة عندي من 3 سنين لسه زي ما هو �
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/hatem.hosny.5209/posts/509251902883005" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="row slide">
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/‏‎abd-alrahman-fani‎‏.jpg" alt=" ‏‎Abd Alrahman Fani‎‏">
+                                <h4> ‏‎Abd Alrahman Fani‎‏</h4>
+                                <p><b>Very Nice</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                  Very Nice Guys, The Products are Perfect as the Proffessnality.
+                                  </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/faniabdo99/posts/447095559606313" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
+                                <h4 class="user-name">Mohamed Abo Hendi</h4>
+                                <p><b>Professional </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                            Professional and accurate timing , reliable and handing over without any comments.
+                            </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/mohamed.a.hendia/posts/10155676746466431" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-12 d-none d-lg-block">
+                            <div class="single-testemonials-card">
+                                      <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
+                                <h4 class="user-name">Mohamed El Alfy</h4>
+                                <p><b>Perfect</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                  Perfect follow up perfect timing perfect quality to sum up this is the place to go, well done wood court
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/mohamed.e.alfy.1/posts/10164595685655012" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <div class="row slide">
+
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
+                                <h4>Rafik Makar</h4>
+                                <p><b>Thanks</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                              Thanks Woodcourt for the excellent quality of products and professional installation. Well done
+                                  </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/rafik.makar/posts/10157818271656593" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="single-testemonials-card">
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/محمد-العجوري.jpg" alt="محمد-العجوري‎‏">
+                                <h4 class="user-name">محمد العجوري</h4>
+                                <p><b>ماشاء الله </b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                            ماشاء الله يبارك الله روعه جدا جدا انا انشاء الله تعالي ببني بيتي جدا وهركب منه انشاء الله
+                            </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/permalink.php?story_fbid=337388807024177&id=100022591820632" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-lg-4 col-12 d-none d-lg-block">
+                            <div class="single-testemonials-card">
+                                      <img class="user-image"  src="{{url('public')}}/images/testemonials/احمد-العربي.jpg" alt="احمد-العربي">
+                                <h4 class="user-name">احمدالعربي</h4>
+                                <p><b>شركه محترمه</b><br>
+                                    <i class="fas fa-quote-right color-brand"></i>
+                                  شركه محترمه وقمه في الذوق والتعامل والالتزام في المواعيد وفريق عمل محترم
+                                </p>
+                            </div>
+                            <a class="view-on-facebook" href="https://www.facebook.com/mohamed.e.alfy.1/posts/10164595685655012" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
