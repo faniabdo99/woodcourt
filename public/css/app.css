@@ -451,6 +451,8 @@ a:hover {
   color: #555555;
   font-size: 0.9em;
   line-height: 2em;
+  height: 250px;
+  overflow-y: scroll;
 }
 .testimonials-section .dark-overlap .slide a.view-on-facebook {
   position: absolute;
@@ -715,7 +717,7 @@ a:hover {
 
 .our-achievements {
   height: 400px;
-  background: url("../images/about-us-bg.jpg") center center no-repeat;
+  background: url("../images/achivements-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 .our-achievements .dark-overlap {
@@ -785,7 +787,7 @@ a:hover {
   background-size: cover;
 }
 .products-list ul li .limited-edition-bg#satined-coasters {
-  background: url("../images/collections/stained-coasters.png") center center;
+  background: url("../images/collections/stained-coasters.jpg") center center;
   background-size: cover;
 }
 .products-list ul li .item-flag {

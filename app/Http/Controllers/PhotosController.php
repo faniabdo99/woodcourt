@@ -31,16 +31,9 @@ class PhotosController extends Controller{
         $img->backup();
         // Thumb
         $img->fit(150, 150);
-        $img->save('storage/app/products/small_thumb/'.($key+1).'.jpg');
+        $img->save('storage/app/products/small_thumb/'.($key+5).'.jpg');
         $img->reset();
-        // Full Size
-        $waterMarkUrl = public_path('images/watermark.png');
-        $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-          ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-          $constraint->aspectRatio();
-        });
-        $img->insert($WaterMark, 'center');
-        $img->save('storage/app/products/original/'.($key+1).'.jpg');
+ 
       }
       // $img = ImageLib::make($r->image);
       // // backup status
