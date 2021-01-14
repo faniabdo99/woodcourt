@@ -5,7 +5,7 @@ use Validator;
 use App\Models\Event;
 class EventsController extends Controller{
     public function getIndex(){
-      $AllEvents = Event::where('type','event')->latest()->get();
+      $AllEvents = Event::latest()->get();
       return view('admin.events.index' , compact('AllEvents'));
     }
     public function getNew(){
@@ -88,7 +88,7 @@ class EventsController extends Controller{
 
     //Non-Admin Stuff
     public function getUserHome(){
-        $AllEvents = Event::latest()->paginate(10);
+        $AllEvents = Event::where('type' , 'event')->latest()->paginate(10);
         return view('events' , compact('AllEvents'));
     }
     public function getSingle($slug){
