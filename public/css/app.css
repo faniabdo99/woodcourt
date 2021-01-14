@@ -162,8 +162,12 @@ a:hover {
 .footer {
   background: url("../images/footer-bg.jpg") no-repeat center center;
   background-size: cover;
-  padding: 25px;
   color: #fff;
+}
+.footer .dark-overlap {
+  padding: 25px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
 .footer .footer-info img.footer-logo {
   height: 70px;
@@ -1840,8 +1844,16 @@ time {
   border-radius: 50%;
 }
 .single-event-article p.description {
-  font-size: 1.3em;
+  font-size: 1.1em;
   color: #555555;
+}
+.single-event-article .event-content h2 {
+  color: #0D8287;
+  margin-bottom: 15px;
+}
+.single-event-article .event-content img {
+  width: 100%;
+  height: auto;
 }
 .single-event-article .event-content p {
   color: #555555;

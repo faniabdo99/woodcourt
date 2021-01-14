@@ -5,7 +5,7 @@ use Validator;
 use App\Models\Event;
 class EventsController extends Controller{
     public function getIndex(){
-      $AllEvents = Event::latest()->get();
+      $AllEvents = Event::where('type','event')->latest()->get();
       return view('admin.events.index' , compact('AllEvents'));
     }
     public function getNew(){

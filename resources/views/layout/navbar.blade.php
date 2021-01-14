@@ -26,6 +26,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/events/how-to-take-care-of-your-wood-floors">Wood Care</a></li>
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li> --}}
                 <li class="nav-item"><a class="nav-link" href="{{route('products')}}">Products</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>

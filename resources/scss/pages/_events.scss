@@ -146,10 +146,18 @@
     }
   }
   p.description{
-    font-size: 1.3em;
+    font-size: 1.1em;
     color:$medgrey;
   }
   .event-content{
+    h2{
+      color:$brand;
+      margin-bottom: 15px;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
     p{
       color: $medgrey;
       line-height: 2em;

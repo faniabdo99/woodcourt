@@ -27,7 +27,7 @@
                         kitchens, dressing rooms and sink units.</p>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img class="we-are-the-wood-court-image" src="{{url('public')}}/images/about-us-descrition.jpg" alt="We are the wood court">
+                    <img class="we-are-the-wood-court-image w-100" src="{{url('public')}}/images/about-us-descrition.jpg" alt="We are the wood court">
                 </div>
             </div>
             <div class="row mt-4">

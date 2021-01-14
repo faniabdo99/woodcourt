@@ -83,8 +83,12 @@
 .footer {
     background: url('../images/footer-bg.jpg') no-repeat center center;
     background-size: cover;
-    padding: 25px;
     color: #fff;
+    .dark-overlap{
+      padding: 25px;
+      width: 100%;
+      background:rgba(0,0,0,0.5);
+    }
     .footer-info {
       img.footer-logo{
         height: 70px;

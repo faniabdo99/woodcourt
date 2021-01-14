@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="container-fluid">
+  <div class="container-fluid dark-overlap">
     <div class="row">
       <div class="col-lg-5 col-12 footer-info">
         <img class="footer-logo" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo" title="The Wood Court" />
@@ -12,14 +12,14 @@
       </div>
       <div class="col-lg-3 col-12 d-flex footer-links">
         <ul>
-          <li><a href="{{route('home')}}">Home</a></li>
-          <li><a href="{{route('about')}}">About Us</a></li>
-          <li><a href="{{route('events')}}">Events</a></li>
+          <li><a href="{{route('home')}}"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="{{route('about')}}"><i class="fas fa-question-circle"></i> About Us</a></li>
+          <li><a href="{{route('events')}}"><i class="fas fa-calendar"></i> Events</a></li>
         </ul>
         <ul>
-          <li><a href="{{route('products')}}">Products</a></li>
-          <li><a href="{{route('contact')}}">Contact</a></li>
-          {{-- <li><a href="{{route('factory')}}">Our Factory</a></li> --}}
+          <li><a href="{{route('products')}}"><i class="fas fa-box"></i> Products</a></li>
+          <li><a href="{{route('contact')}}"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a href="/events/how-to-take-care-of-your-wood-floors"><i class="fas fa-check"></i> Wood Care</a></li>
         </ul>
       </div>
       <div class="col-lg-4 col-12 footer-map">
