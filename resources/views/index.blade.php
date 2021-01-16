@@ -53,7 +53,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class=" content-section col-lg-6 col-12">
+                    <div class=" content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
@@ -63,7 +63,7 @@
                         <a class="icon-button mr-lg-5 mr-0" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
                     </div>
-                    <div id="slide-four" class="col-lg-6 col-12 homepage-herosection-bg-image">
+                    <div id="slide-four" class="col-lg-8 col-12 homepage-herosection-bg-image">
                     </div>
                 </div>
             </div>
