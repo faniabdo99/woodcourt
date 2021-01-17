@@ -635,41 +635,41 @@
                                 <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/5.jpg" alt="pergolas-5"
                                           title="pergolas-5"></a></li>
                                 <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/6.jpg" alt="pergolas-6"
-                                title="pergolas-6"></a></li>        
+                                title="pergolas-6"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/7.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/7.jpg" alt="pergolas-7"
-                                title="pergolas-7"></a></li>        
+                                title="pergolas-7"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/8.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/8.jpg" alt="pergolas-8"
-                                title="pergolas-8"></a></li>        
+                                title="pergolas-8"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/9.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/9.jpg" alt="pergolas-9"
-                                title="pergolas-9"></a></li>        
+                                title="pergolas-9"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/10.jpg" alt="pergolas-10"
-                                title="pergolas-10"></a></li>        
+                                title="pergolas-10"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/11.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/11.jpg" alt="pergolas-11"
-                                title="pergolas-11"></a></li>        
+                                title="pergolas-11"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/12.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/12.jpg" alt="pergolas-12"
-                                title="pergolas-12"></a></li>        
+                                title="pergolas-12"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/13.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/13.jpg" alt="pergolas-13"
-                                title="pergolas-13"></a></li>        
+                                title="pergolas-13"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/14.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/14.jpg" alt="pergolas-14"
-                                title="pergolas-14"></a></li>        
+                                title="pergolas-14"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/15.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/15.jpg" alt="pergolas-15"
-                                title="pergolas-15"></a></li>        
+                                title="pergolas-15"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/16.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/16.jpg" alt="pergolas-16"
-                                title="pergolas-16"></a></li>        
+                                title="pergolas-16"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/17.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/17.jpg" alt="pergolas-17"
-                                title="pergolas-17"></a></li>        
+                                title="pergolas-17"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/18.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/18.jpg" alt="pergolas-18"
-                                title="pergolas-18"></a></li>        
+                                title="pergolas-18"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/19.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/19.jpg" alt="pergolas-19"
-                                title="pergolas-19"></a></li>        
+                                title="pergolas-19"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/20.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/20.jpg" alt="pergolas-20"
-                                title="pergolas-20"></a></li>        
+                                title="pergolas-20"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/21.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/21.jpg" alt="pergolas-21"
-                                title="pergolas-21"></a></li>        
+                                title="pergolas-21"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/22.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/22.jpg" alt="pergolas-22"
-                                title="pergolas-22"></a></li>        
+                                title="pergolas-22"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/23.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/23.jpg" alt="pergolas-23"
-                                title="pergolas-23"></a></li>        
+                                title="pergolas-23"></a></li>
                                                             <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/24.jpg" alt="pergolas-24"
                                 title="pergolas-24"></a></li>
                             </ul>
@@ -1346,15 +1346,15 @@
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
                               <img class="user-image"
-                                src="{{url('public')}}/images/testemonials/jana-zahran.jpg"
-                                alt="Jana Zahran">
-                              <h4 class="user-name">Jana Zahran</h4>
-                                <p><b>Really good prices and many many many designs</b><br>
+                                src="{{url('public')}}/images/user.png"
+                                alt="‏‎Hussein Mahmoud‎‏">
+                              <h4 class="user-name">‏‎Hussein Mahmoud‎‏</h4>
+                                <p><b>Nice</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
-                                    Really good prices and many many many designs, I did not find such beautiful designs any where else
+                                    Nice and Friendly people high recommend for dealing with them
                                 </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/jana.zahran.16/posts/2221871918088714" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/hahmahmoud/posts/10220935532551164" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
@@ -1475,14 +1475,15 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/shehab-elghannam.jpg" alt="Shehab Elghannam">
-                                <h4 class="user-name">Shehab Elghannam</h4>
-                                <p><b>قمة التميز </b><br>
+                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Ahmed Haikal‎‏">
+                                <h4 class="user-name">‏‎Ahmed Haikal‎‏</h4>
+                                <p><b>High Quality</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
-                                قمة التميز والاتقان وشغل باركيه مش شبه حد ولا عند حد اول ما تشوف شكل الخشب هتعرف ان ده شغل بشمهندس ايمن ... دقه واتقان ورقي بصراحه انصح اي حد عاشق للخشب وللباركيه انه يشتغل معاكوا ... في تقدم دايما يارب ❤️❤️❤️
+                                    High Quality, Friendly people and reasonable price.
+                                    Totally recommend it.
                                 </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/shehab.elghannam/posts/10161145790990004" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/ahmed.haikal.39/posts/10157549806982057" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
@@ -1512,39 +1513,38 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                  <img class="user-image" src="{{url('public')}}/images/testemonials/ameer-reda.jpg" alt="Ameer Reda">
-                                <h4 class="user-name">Ameer Reda</h4>
-                                <p><b>التعامل محترم جدا</b><br>
+                                  <img class="user-image" src="{{url('public')}}/images/testemonials/amany-fawzy.jpg" alt="Amany Fawzy">
+                                <h4 class="user-name">Amany Fawzy</h4>
+                                <p><b>It was great</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
-                                    التعامل محترم جدا و خدمة ما بعد البيع ممتازة... استلمت شغلى قبل معاده ب 15 يوم... التعامل مباشرة مع م.ايمن زهران صاحب الشركة و سلمنى الشغل فى الفيلا بنفسه                                </p>
+                                    It was great to deal with them ... In no time I had my hdf flooring .. hope to keep this good work ��
+                                  </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/ameer.reda.9/posts/3305989609422479" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/amany.fawzy1/posts/10163981858995316" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/nayra-solaiman.jpg" alt="Nayra Solaiman">
-                                <h4 class="user-name">Nayra Solaiman</h4>
-                                <p><b>Thanks Wood Court </b><br>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/ahmed-el-ashmawy.jpg" alt="Ahmed El Ashmawy">
+                                <h4 class="user-name">Ahmed El Ashmawy</h4>
+                                <p><b>Special thanks</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
-                                    Thanks Wood Court for the great work, perfect installation, high quality, professional sale service & on time deliverables .. stuff are nice & professional.
-                                    Special thanks to engineer Ayman Zahran, an honest straightforward flexible person! & I mean by honest straightforward that he states what he can do & what he can’t .. I had a special request & he promised to do it and fulfilled what he promised.
-                                    Thank U .. Totally recommended .. U deserve all the best.
+                                    Special thanks to Eng. Ahmed Zahran and Eng. Ayman Zahran
                                 </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/mohamed.hamdy.562/posts/10157791062441645" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/ahmed.e.ashmawy/posts/10155529044237385" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/rehab-salm.jpg" alt="Rehab Salm">
-                                <h4>Rehab Salm</h4>
-                                <p><b>ايه الروعة دي الله أكبر</b><br>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/mai-refaat.jpg" alt="Mai Refaat">
+                                <h4>Mai Refaat</h4>
+                                <p><b>اتمني ليكم كل النجاح</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
-                                     أكثر حاجة مميزة فيكم الحفاظ على المستوى العالي طول الوقت مصريين بحق
+                                    من اكثر الناس امحترمين اللي اتعملت معاهم  اتمني ليكم كل النجاح
                               </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/rehab.salm.7/posts/4481060808601653" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/mai.refaat.52/posts/10160725040675597" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
@@ -1561,23 +1561,25 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/hatem-hosny.jpg" alt="Hatem Hosny">
-                                <h4 class="user-name">Hatem Hosny</h4>
-                                <p><b>ناس محترمة</b><br><i class="fas fa-quote-right color-brand"></i>
-                                    شغل نضيف جدا جربتهم في شغل في شقة عندي من 3 سنين لسه زي ما هو �</p>
+                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Ahmed Raslan‎‏">
+                                <h4 class="user-name">‏‎Ahmed Raslan‎‏</h4>
+                                <p><b>مستوى راقى</b><br><i class="fas fa-quote-right color-brand"></i>
+                                  مستوى راقى من الأخشاب و الحرفية فى التنفيذ و التعامل...شكراً مهندس أيمن زهران و المهندسين القائمين على إدارة المصنع و المعرض
+                                  </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/hatem.hosny.5209/posts/509251902883005" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/ahmed.raslan.921/posts/10160636128305084" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/‏‎abd-alrahman-fani‎‏.jpg" alt="Abd Alrahman Fani‎‏">
-                                <h4>Abd Alrahman Fani‎‏</h4>
-                                <p><b>Very Nice</b><br><i class="fas fa-quote-right color-brand"></i>
-                                    Very Nice Guys, The Products are Perfect as the Proffessnality.</p>
+                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
+                                <h4>‏‎Tahra El Semary‎‏</h4>
+                                <p><b>احسن حد ممكن تتعامل معاه</b><br><i class="fas fa-quote-right color-brand"></i>
+                                  بجد احسن حد ممكن تتعامل معاه مهندس ايمن فاهم و مهاود و طلعت عينه في إختيار الالوان محترمين جدا و ملتزمين في المواعيد
+                                  </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/faniabdo99/posts/447095559606313" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/tahra.semary/posts/10158657423222145" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
@@ -1612,23 +1614,23 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohammed-alajory.jpg" alt="محمد-العجوري‎‏">
-                                <h4 class="user-name">محمد العجوري</h4>
-                                <p><b>ماشاء الله </b><br><i class="fas fa-quote-right color-brand"></i>
-                                     ماشاء الله يبارك الله روعه جدا جدا انا انشاء الله تعالي ببني بيتي جدا وهركب منه انشاء الله</p>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/rehab-nabil.jpg" alt="‏‎Rehab Nabil‎‏">
+                                <h4 class="user-name">‏‎Rehab Nabil‎‏</h4>
+                                <p><b>شركه محترمه</b><br><i class="fas fa-quote-right color-brand"></i>
+                                  شركه محترمه وبتفي بوعودها وأمانه واهتمام بالعميل ومتابعه رائعه..بالتوفيق يارب
+                                  </p>
                             </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/permalink.php?story_fbid=337388807024177&id=100022591820632" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                            <a class="view-on-facebook" href="https://www.facebook.com/rehab.nabil.a76/posts/10157330751301433" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
-                            <div class="single-testemonials-card">
-                                      <img class="user-image"  src="{{url('public')}}/images/testemonials/ahmad-alaraby.jpg" alt="احمد-العربي">
-                                <h4 class="user-name">احمد العربي</h4>
-                                <p><b>شركه محترمه</b><br>
-                                    <i class="fas fa-quote-right color-brand"></i>
-                                  شركه محترمه وقمه في الذوق والتعامل والالتزام في المواعيد وفريق عمل محترم
+                          <div class="single-testemonials-card">
+                              <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
+                              <h4>‏‎Tahra El Semary‎‏</h4>
+                              <p><b>احسن حد ممكن تتعامل معاه</b><br><i class="fas fa-quote-right color-brand"></i>
+                                بجد احسن حد ممكن تتعامل معاه مهندس ايمن فاهم و مهاود و طلعت عينه في إختيار الالوان محترمين جدا و ملتزمين في المواعيد
                                 </p>
-                            </div>
-                            <a class="view-on-facebook" href="https://www.facebook.com/mohamed.e.alfy.1/posts/10164595685655012" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
+                          </div>
+                          <a class="view-on-facebook" href="https://www.facebook.com/tahra.semary/posts/10158657423222145" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
