@@ -64,10 +64,8 @@ class EventsController extends Controller{
         $EventData = $r->all();
         //Upload the image
         if($r->has('image')){
-            $EventData['image'] = $r->slug.'.'.$r->image->getClientOriginalExtension();
+            $EventData['image'] = $TheEvent->slug.'.'.$r->image->getClientOriginalExtension();
             $r->image->storeAs('images/events' , $EventData['image']);
-        }else{
-            $EventData['image'] = $TheEvent->image;
         }
         //Upload the data
         $EventData['user_id'] = 1;

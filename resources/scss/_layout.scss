@@ -47,12 +47,14 @@
     .navbar-nav {
         .nav-item {
             margin-left: 25px;
-
+            .dropdown-toggle::after{
+              content: '';
+              border: 0;
+            }
             .nav-link {
                 color: $medgrey;
                 transition: all ease 0.3s;
                 position: relative;
-
                 &::after {
                     content: '';
                     position: absolute;
@@ -64,17 +66,16 @@
                     transform: translateX(-10px);
                     transition: all ease 0.3s;
                 }
-
                 &:hover {
                     color: $brand;
                     transition: all ease 0.3s;
-
                     &:after {
                         opacity: 1;
                         transform: translateY(0);
                         transition: all ease 0.3s;
                     }
                 }
+
             }
         }
     }

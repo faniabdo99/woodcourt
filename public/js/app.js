@@ -103,6 +103,7 @@ $('.why-us-icon-container').mouseenter(function () {
 }); //Homepage
 
 $('.place-order-button').click(function () {
+  console.log($(this));
   $('#place-order-modal-form').find('input[name="item_name"]').val($(this).data('name'));
   $('#PlaceOrderModalLabel').html($(this).data('modal-title'));
   $('#limited-edition-modal-images').html($(this).parent().find('div.limited-images-list').html());
@@ -178,7 +179,7 @@ $('.multi-items-carousel').owlCarousel({
 });
 $('.three-items-carousel').owlCarousel({
   autoplayHoverPause: true,
-  loop: true,
+  loop: false,
   margin: 100,
   nav: true,
   navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
@@ -224,24 +225,6 @@ $('#homepage-play-video-1,#homepage-play-video-2').click(function () {
     $('.full-width-video').remove();
     $('body').css('overflow-y', 'scroll');
   });
-});
-$(window).scroll(function () {
-  var top_of_element = $(".our-achievements").offset().top;
-  var bottom_of_element = $(".our-achievements").offset().top + $(".our-achievements").outerHeight();
-  var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-  var top_of_screen = $(window).scrollTop();
-  var HasCounted = false;
-
-  if (bottom_of_screen > top_of_element && top_of_screen < bottom_of_element) {
-    if (!HasCounted) {
-      $('.counter').countTo();
-    }
-
-    HasCounted = true;
-    return false;
-  } else {
-    return false;
-  }
 }); //Contact Form Submit
 
 $('#submit-contact-form').click(function (e) {
@@ -354,8 +337,8 @@ $('a[href*="#"]') // Remove links that don't actually link to anything
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/woodcourt/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/html/woodcourt/resources/scss/app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\scss\app.scss */"./resources/scss/app.scss");
 
 
 /***/ })

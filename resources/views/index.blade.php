@@ -148,6 +148,7 @@
                                 <li data-target="stairs">Stairs</li>
                                 <li data-target="hdf-floors">HDF Floors</li>
                             </ul>
+                            <p class="category-description">Learn more about <a class="color-brand" href="/events/how-to-take-care-of-your-wood-floors#a">How to take care of your wooden floors</a></p>
                         </div>
                         <div class="col-lg-8 col-12">
                            <ul class="category-images-list" id="engineered-floors">
@@ -407,6 +408,7 @@
                                 <li data-target="dressings">Dressings</li>
                                 <li data-target="bathroom-cabinets">Sink Units</li>
                             </ul>
+                            <p class="category-description">Learn more about <a class="color-brand" href="/events/how-to-take-care-of-your-wood-floors#b">How to take care of your Kitchens and Cabinet</a></p>
                         </div>
                         <div class="col-lg-8 col-12">
                           <ul class="category-images-list" id="kitchens">
@@ -493,6 +495,7 @@
                                 <li data-target="shower-units">Shower Units</li>
                                 <li data-target="pergolas">Pergolas</li>
                             </ul>
+                            <p class="category-description">Learn more about <a class="color-brand" href="/events/how-to-take-care-of-your-wood-floors#c">How to take care of your Outdoor Wood Flooring & Pergolas</a></p>
                         </div>
                         <div class="col-lg-8 col-12">
                             <ul class="category-images-list active" id="teak-flooring">

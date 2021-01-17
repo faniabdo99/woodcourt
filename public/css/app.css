@@ -132,6 +132,10 @@ a:hover {
 .navbar .navbar-nav .nav-item {
   margin-left: 25px;
 }
+.navbar .navbar-nav .nav-item .dropdown-toggle::after {
+  content: "";
+  border: 0;
+}
 .navbar .navbar-nav .nav-item .nav-link {
   color: #555555;
   transition: all ease 0.3s;

@@ -12,8 +12,8 @@
                     <label>Short Description</label>
                     <textarea name="description" rows="4" placeholder="Enter Event Description Here ...">{{old('description') ?? $Event->description}}</textarea>
                     <label>Image</label>
-                    <input type="file" name="image" required>
-                    <img class="d-block mb-3" src="{{$Event->imageSrc}}" width="300" height="300">
+                    <input type="file" name="image">
+                    <img class="d-block mb-3 h-auto" src="{{$Event->imageSrc}}" width="300">
                     <label>Content</label>
                     <textarea id="editor" name="content" rows="4" placeholder="Enter Event Content Here ...">{{old('content') ?? $Event->content}}</textarea>
                     <button type="submit" class="icon-button mt-3">Submit</button>
