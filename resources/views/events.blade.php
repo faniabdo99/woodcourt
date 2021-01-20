@@ -1,4 +1,8 @@
-@include('layout.header', ['PageTitle' => 'Events'])
+@include('layout.header', [
+  'PageTitle' => 'Events',
+  'Description' => 'View the latest events by The Wood Court',
+  'ogType' => 'Website'
+])
 <body>
     @include('layout.navbar')
     <!-- Page Content -->

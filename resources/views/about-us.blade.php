@@ -1,4 +1,8 @@
-@include('layout.header', ['PageTitle' => 'About us'])
+@include('layout.header', [
+  'PageTitle' => 'About us',
+  'Description' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution',
+  'ogType' => 'Website'
+])
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="about-us-hero-section">

@@ -1,4 +1,8 @@
-@include('layout.header', ['PageTitle' => 'Our Factory'])
+@include('layout.header', [
+  'PageTitle' => 'Our Factory',
+  'Description' => 'See how the beauty is made',
+  'ogType' => 'Website'
+])
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="our-factory-hero-section">

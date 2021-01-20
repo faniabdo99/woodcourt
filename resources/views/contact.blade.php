@@ -1,4 +1,8 @@
-@include('layout.header', ['PageTitle' => 'Contact Us'])
+@include('layout.header', [
+  'PageTitle' => 'Contact us',
+  'Description' => 'Available 24/7 , Our team member will be happy to serve you',
+  'ogType' => 'Website'
+])
 <body>
     @include('layout.navbar')
     <!-- Page Content -->

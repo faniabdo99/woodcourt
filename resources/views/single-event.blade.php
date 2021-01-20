@@ -1,4 +1,9 @@
-@include('layout.header', ['PageTitle' => $TheEvent->title])
+@include('layout.header', [
+  'PageTitle' => $TheEvent->title,
+  'Description' => $TheEvent->description,
+  'ogImage' => $TheEvent->imageSrc,
+  'ogType' => 'Website'
+])
 <body>
     @include('layout.navbar')
     <section class="single-event-article">

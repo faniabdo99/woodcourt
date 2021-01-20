@@ -1,4 +1,8 @@
-@include('layout.header', ['PageTitle' => 'Kitchen, Floor ... and More'])
+@include('layout.header', [
+  'PageTitle' => 'Kitchen, Floor ... and More',
+  'Description' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable',
+  'ogType' => 'Website'
+])
 <body>
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">

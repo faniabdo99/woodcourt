@@ -64,3 +64,4 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
       Route::get('/all' , 'ContactController@getAll')->name('admin.allMessages');
     });
 });
+Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');

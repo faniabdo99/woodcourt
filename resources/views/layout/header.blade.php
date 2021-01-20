@@ -20,4 +20,23 @@
     <link rel="stylesheet" href="{{url('public')}}/css/flaticon.css">
     <link rel="shortcut icon" href="{{url('public')}}/images/favicon.png" />
     <title>The Wood Court - {{$PageTitle ?? 'Kitchen, Floor ... and More'}}</title>
+    <meta name="description" content="{{$Description ?? ''}}" >
+    <meta name="keywords" content="مدونة , نقرة , مقالات , برمجة , تصميم , أكواد , تقنية">
+    <link rel="canonical" href="{{url()->current()}}" >
+    <!-- Open Graph data -->
+    <meta property="og:title" content="The Wood Court - {{$PageTitle ?? ''}}" >
+    <meta property="og:type" content="{{$ogType ?? ''}}" >
+    <meta property="og:url" content="{{url()->current()}}" >
+    <meta property="og:image" content="{{$ogImage ?? ''}}">
+    <meta property="og:description" content="{{$Description ?? ''}}" >
+    <meta property="og:site_name" content="The Wood Court" >
+    <!-- Pointless But Needed Twitter Codes -->
+    <meta name="twitter:card" content="{{$Description ?? ''}}" >
+    <meta name="twitter:site" content="@naqrahofficial" >
+    <meta name="twitter:creator" content="@naqrahofficial" >
+    {{-- <meta name="twitter:image" content="{{config('global.icon')}}/logo-fill.jpg" > --}}
+    <meta name="twitter:title" content="The Wood Court - {{$PageTitle ?? ''}}" />
+    <meta name="twitter:description" content="{{$Description ?? ''}}" >
+    <meta name="application-name" content="The Wood Court">
+    <meta name="msapplication-TileColor" content="#0D8287">
   </head>
