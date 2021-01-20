@@ -168,6 +168,16 @@ $('#submit-contact-form').click(function(e) {
         }
     });
 });
+//Counter
+$(window).scroll(function() {
+  var top_of_element = $(".our-achievements").offset().top;
+  var bottom_of_element = $(".our-achievements").offset().top + $(".our-achievements").outerHeight();
+  var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+  var top_of_screen = $(window).scrollTop();
+  if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+      $('.counter').countTo();
+  }
+});
 //Back to top
 //Show the Back to Top Button
 $(window).scroll(function() {
