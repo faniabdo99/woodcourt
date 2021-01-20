@@ -4,6 +4,7 @@
   'ogType' => 'Website'
 ])
 <body>
+  <h1 class="d-none">The Wood Court - Kitchen, Floor ... and More</h1>
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
         <div class="owl-carousel full-width-carousel">
