@@ -16,7 +16,7 @@
                         <p class="description mb-5">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
                             and engineered wood to make your life more comfortable.</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
@@ -26,14 +26,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class=" content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
                         <h2>Kitchens</h2>
                         <p class="description mb-5">Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by
                             highly-reputed interior designers.</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
                     </div>
                     <div id="slide-one" class="col-lg-8 col-12 homepage-herosection-bg-image">
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
@@ -43,13 +43,13 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class=" content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
                         <h2>Engineered Floors</h2>
                         <p class="description mb-5">All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-two" class="col-lg-8 col-12 homepage-herosection-bg-image">
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
@@ -59,14 +59,14 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class=" content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">Products</p>
                         <h2>Outdoor</h2>
                         <p class="description mb-5">Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
                             designs.</p>
                         <a class="icon-button mr-lg-5 mr-0" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png">
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-four" class="col-lg-8 col-12 homepage-herosection-bg-image">
                     </div>
@@ -75,7 +75,7 @@
         </div>
     </section>
     <section id="homepage-categories">
-        <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
+        <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12">
@@ -1649,6 +1649,32 @@
             <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i> View All Reviews</a>
         </div>
     </section>
+    {{-- <section class="latest-articles">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Latest Articles</h2>
+          </div>
+        </div>
+        <div class="row">
+          @forelse ($LatestBlogs as $SingleBlog)
+            <div class="col-lg-4 col-12">
+              <div class="single-article-card mb-4 mb-lg-0">
+                <img src="{{$SingleBlog->ImageSrc}}" title="" alt="">
+                <div class="content-container">
+                  <a href="{{route('events.single' , $SingleBlog->slug)}}"><h3>{{$SingleBlog->title}}</h3></a>
+                  <p>{{$SingleBlog->description}}</p>
+                  <a class="icon-button" href="{{route('events.single' , $SingleBlog->slug)}}"><i class="fas fa-angle-double-right"></i> Read More</a>
+                </div>
+              </div>
+            </div>
+          @empty
+
+          @endforelse
+
+        </div>
+      </div>
+    </section> --}}
     <section class="logo-parade">
         <div class="container-fluid">
             <div class="row">
@@ -1827,5 +1853,4 @@
     @include('layout.scripts')
     @include('layout.footer')
 </body>
-
 </html>

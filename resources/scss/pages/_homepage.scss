@@ -233,7 +233,8 @@
         &:hover , &.active{
           cursor: pointer;
             .why-us-icon-container{
-              background-color: $brandHover;
+              background-color: #fff;
+              color: $brand;
               transition: all ease 0.3s;
             }
         }

@@ -888,6 +888,35 @@ a:hover {
   margin: 5px;
 }
 
+.latest-articles {
+  padding: 60px 0;
+}
+.latest-articles h2 {
+  text-align: center;
+  color: #0D8287;
+  margin-bottom: 30px;
+}
+.latest-articles .single-article-card {
+  background-color: #F1F1F1;
+}
+.latest-articles .single-article-card img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.latest-articles .single-article-card .content-container {
+  padding: 15px;
+}
+.latest-articles .single-article-card .content-container h3 {
+  font-size: 1.3em;
+  color: #0D8287;
+}
+.latest-articles .single-article-card .content-container p {
+  font-size: 0.9em;
+  color: #555555;
+  height: 100px;
+}
+
 @media screen and (max-width: 768px) {
   .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
@@ -1261,7 +1290,8 @@ a:hover {
   cursor: pointer;
 }
 #homepage-cta .why-us-cards-toggler .why-us-card:hover .why-us-icon-container, #homepage-cta .why-us-cards-toggler .why-us-card.active .why-us-icon-container {
-  background-color: #249196;
+  background-color: #fff;
+  color: #0D8287;
   transition: all ease 0.3s;
 }
 #homepage-cta .why-us-cards-toggler .why-us-card .why-us-card-title {

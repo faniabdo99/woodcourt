@@ -604,6 +604,34 @@
     }
   }
 }
+.latest-articles{
+  padding: 60px 0;
+  h2{
+    text-align: center;
+    color: $brand;
+    margin-bottom: 30px;
+  }
+  .single-article-card{
+    background-color: $lightgrey;
+    img{
+      width: 100%;
+      height: 250px;
+      margin-bottom: 15px;
+    }
+    .content-container{
+      padding: 15px;
+      h3{
+        font-size: 1.3em;
+        color: $brand;
+      }
+      p{
+        font-size: 0.9em;
+        color: $medgrey;
+        height: 100px;
+      }
+    }
+  }
+}
 //Mobile Version of the components
 @media screen and (max-width: 768px) {
     .hero-section {
