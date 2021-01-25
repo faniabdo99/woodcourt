@@ -2063,3 +2063,12 @@ time {
     margin: 3px auto;
   }
 }
+#wood-flooring-hero {
+  height: 60vh;
+  background: url("../images/heros/marketing/about-us.jpg") no-repeat center center;
+  background-size: cover;
+}
+#wood-flooring-hero .dark-overlap {
+  height: 60vh;
+  padding: 15vh 5%;
+}

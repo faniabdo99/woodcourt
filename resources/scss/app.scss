@@ -37,3 +37,17 @@ a:hover{
 @import'pages/events';
 @import'pages/auth';
 @import'pages/products';
+
+
+
+
+//Marketing Pages
+#wood-flooring-hero{
+  height: 60vh;
+  background: url("../images/heros/marketing/about-us.jpg") no-repeat center center;
+  background-size: cover;
+  .dark-overlap {
+      height: 60vh;
+      padding: 15vh 5%;
+  }
+}

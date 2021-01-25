@@ -65,3 +65,10 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
     });
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
+
+
+
+//Marketing Pages Routes
+Route::get('wood-flooring','MarketingController@getWoodFlooring');
+Route::get('wood-flooring/engineered-floors','MarketingController@getEngineeredFloors');
+Route::get('wood-flooring/tiles','MarketingController@getTiles');
