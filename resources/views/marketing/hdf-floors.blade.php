@@ -1,10 +1,10 @@
-@include('layout.header', ['PageTitle' => 'Engineered Floors'])
+@include('layout.header', ['PageTitle' => 'HDF Floors'])
 
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="products-section">
         <div class="dark-overlap">
-            <h1>Engineered Floors</h1>
+            <h1>HDF Floors</h1>
             <p>Kitchen, Floor ... and More</p>
         </div>
     </section>
@@ -21,10 +21,10 @@
                             <li>
                                 <a class="main-category-filter " href="javascript:;" data-target="wood-flooring">Wood Flooring</a>
                                 <ul class="filter-sub-items">
-                                    <li><a data-target="engineered-floors" class="active" href="javascript:;">Engineered Floors</a></li>
+                                    <li><a data-target="engineered-floors" href="javascript:;">Engineered Floors</a></li>
                                     <li><a data-target="tiles"  href="javascript:;">Tiles</a></li>
                                     <li><a data-target="stairs" href="javascript:;">Stairs</a></li>
-                                    <li><a data-target="hdf-floors" href="javascript:;">HDF Floors</a></li>
+                                    <li><a data-target="hdf-floors" class="active" href="javascript:;">HDF Floors</a></li>
                                 </ul>
                             </li>
                             <li>

@@ -1,10 +1,10 @@
-@include('layout.header', ['PageTitle' => 'Engineered Floors'])
+@include('layout.header', ['PageTitle' => 'Teak Flooring'])
 
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="products-section">
         <div class="dark-overlap">
-            <h1>Engineered Floors</h1>
+            <h1>Teak Flooring</h1>
             <p>Kitchen, Floor ... and More</p>
         </div>
     </section>
@@ -21,24 +21,24 @@
                             <li>
                                 <a class="main-category-filter " href="javascript:;" data-target="wood-flooring">Wood Flooring</a>
                                 <ul class="filter-sub-items">
-                                    <li><a data-target="engineered-floors" class="active" href="javascript:;">Engineered Floors</a></li>
+                                    <li><a data-target="engineered-floors" href="javascript:;">Engineered Floors</a></li>
                                     <li><a data-target="tiles"  href="javascript:;">Tiles</a></li>
                                     <li><a data-target="stairs" href="javascript:;">Stairs</a></li>
-                                    <li><a data-target="hdf-floors" href="javascript:;">HDF Floors</a></li>
+                                    <li><a data-target="hdf-floors"  href="javascript:;">HDF Floors</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="main-category-filter " href="javascript:;" data-target="cabinets">Cabinets</a>
+                                <a class="main-category-filter" href="javascript:;" data-target="cabinets">Cabinets</a>
                                 <ul class="filter-sub-items">
                                     <li><a data-target="kitchens" href="javascript:;">Kitchens</a></li>
                                     <li><a data-target="dressings" href="javascript:;">Dressings</a></li>
-                                    <li><a data-target="bathroom-cabinets" href="javascript:;">Sink Units</a></li>
+                                    <li><a data-target="bathroom-cabinets"  href="javascript:;">Sink Units</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="main-category-filter" href="javascript:;" data-target="outdoor">Outdoor</a>
+                                <a class="main-category-filter  " href="javascript:;" data-target="outdoor">Outdoor</a>
                                 <ul class="filter-sub-items">
-                                    <li><a href="javascript:;" data-target="teak-flooring">Teak Flooring</a></li>
+                                    <li><a href="javascript:;" class="active" data-target="teak-flooring">Teak Flooring</a></li>
                                     <li><a data-target="shower-units" href="javascript:;"> Shower Units</a></li>
                                     <li><a data-target="pergolas" href="javascript:;">Pergolas</a></li>
                                 </ul>

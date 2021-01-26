@@ -28,7 +28,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a class="main-category-filter" href="javascript:;" data-target="cabinets">Cabinets</a>
+                                <a class="main-category-filter " href="javascript:;" data-target="cabinets">Cabinets</a>
                                 <ul class="filter-sub-items">
                                     <li><a data-target="kitchens" href="javascript:;">Kitchens</a></li>
                                     <li><a data-target="dressings" href="javascript:;">Dressings</a></li>
@@ -495,7 +495,7 @@
                                           alt="bathroom-cabinets-3" title="bathroom-cabinets-4"></a></li>
                                         <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets/bathroom-cabinets/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/bathroom-cabinets/5.jpg"
                                         alt="bathroom-cabinets-5" title="bathroom-cabinets-5"></a></li>
-                            <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets/bathroom-cabinets/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/bathroom-cabinets/6.jpg"
+                                        <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets/bathroom-cabinets/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/bathroom-cabinets/6.jpg"
                                         alt="bathroom-cabinets-" title="bathroom-cabinets-6"></a></li>
                             </ul>
                             <ul class="category-images-list outdoor" id="teak-flooring">
