@@ -86,43 +86,43 @@
             <div class="row">
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#wood-flooring-modal">
+                      <a href="{{route('category.wood-flooring')}}">
                             <div class="category-card-bg" id="wood-flooring"></div>
                         </a>
                         <div class="p-3">
-                            <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#wood-flooring-modal">
+                            <a href="{{route('category.wood-flooring')}}">
                                 <h3>Wood Flooring</h3>
                             </a>
                             <p>All-natural wood flooring & Fiberboard (HDF) you will need in one ...</p>
-                            <a href="javascript:;" class="categories-modal-toggler view-more-link" data-toggle="modal" data-target="#wood-flooring-modal">View More</a>
+                            <a href="{{route('category.wood-flooring')}}" class="view-more-link">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#cabinets-modal">
+                      <a href="{{route('category.cabinets')}}">
                             <div class="category-card-bg" id="cabinets"></div>
                         </a>
                         <div class="p-3">
-                            <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#cabinets-modal">
+                          <a href="{{route('category.cabinets')}}">
                                 <h3>Cabinets</h3>
                             </a>
                             <p>Not just a wide variety of materials (natural & artificial) but also ...</p>
-                            <a href="javascript:;" class="categories-modal-toggler view-more-link" data-toggle="modal" data-target="#cabinets-modal">View More</a>
+                            <a href="{{route('category.cabinets')}}" class="view-more-link">View More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
-                        <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#outdoor-modal">
+                      <a href="{{route('category.outdoor')}}">
                             <div class="category-card-bg" id="outdoor"></div>
                         </a>
                         <div class="p-3">
-                            <a href="javascript:;" class="categories-modal-toggler" data-toggle="modal" data-target="#outdoor-modal">
+                          <a href="{{route('category.outdoor')}}">
                                 <h3>Outdoor</h3>
                             </a>
                             <p>Nowadays, after quarantine we all realaized the importance of our private...</p>
-                            <a href="javascript:;" class="categories-modal-toggler view-more-link" data-toggle="modal" data-target="#outdoor-modal">View More</a>
+                            <a href="{{route('category.outdoor')}}" class="view-more-link">View More</a>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
         </div>
     </section>
     <!-- Homepage Category Modals Start -->
-    <div class="modal fade category-modal" id="wood-flooring-modal" tabindex="-1" role="dialog" aria-labelledby="wood-flooring-modal" aria-hidden="true">
+    {{-- <div class="modal fade category-modal" id="wood-flooring-modal" tabindex="-1" role="dialog" aria-labelledby="wood-flooring-modal" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -875,7 +875,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Homepage Category Modals End -->
     <section id="homepage-cta">
         <div class="dark-overlap">
