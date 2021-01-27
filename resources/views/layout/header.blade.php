@@ -27,9 +27,17 @@
     <meta property="og:title" content="The Wood Court - {{$PageTitle ?? ''}}" >
     <meta property="og:type" content="{{$ogType ?? ''}}" >
     <meta property="og:url" content="{{url()->current()}}" >
-    <meta property="og:image" content="{{$ogImage ?? ''}}">
+    <meta property="og:image" content="{{$ogImage ?? url('public/images/the-wood-court-og.jpg')}}">
     <meta property="og:description" content="{{$Description ?? ''}}" >
     <meta property="og:site_name" content="The Wood Court" >
     <meta name="application-name" content="The Wood Court">
     <meta name="msapplication-TileColor" content="#0D8287">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RND47459CZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RND47459CZ');
+    </script>
   </head>

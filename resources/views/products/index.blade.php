@@ -297,7 +297,7 @@
                                           alt="engineered-floors-1" title="engineered-floors-40"></a></li>
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/41.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/41.jpg"
                                           alt="engineered-floors-1" title="engineered-floors-41"></a></li>
-                                          
+
                               <li><a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/42.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/42.jpg" alt="tiles-42" title="tiles-42"></a></li>
 
                               <li><a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/43.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/43.jpg" alt="tiles-43" title="tiles-43"></a></li>
@@ -495,7 +495,7 @@
                                           alt="bathroom-cabinets-3" title="bathroom-cabinets-4"></a></li>
                                         <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets/bathroom-cabinets/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/bathroom-cabinets/5.jpg"
                                         alt="bathroom-cabinets-5" title="bathroom-cabinets-5"></a></li>
-                            <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets/bathroom-cabinets/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/bathroom-cabinets/6.jpg"
+                                        <li><a data-fancybox="bathroom" data-caption="" href="{{url('public')}}/images/categories/cabinets/bathroom-cabinets/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/bathroom-cabinets/6.jpg"
                                         alt="bathroom-cabinets-" title="bathroom-cabinets-6"></a></li>
                             </ul>
                             <ul class="category-images-list outdoor" id="teak-flooring">
@@ -636,41 +636,41 @@
                                 <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/5.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/5.jpg" alt="pergolas-5"
                                           title="pergolas-5"></a></li>
                                           <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/6.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/6.jpg" alt="pergolas-6"
-                                            title="pergolas-6"></a></li>        
+                                            title="pergolas-6"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/7.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/7.jpg" alt="pergolas-7"
-                                            title="pergolas-7"></a></li>        
+                                            title="pergolas-7"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/8.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/8.jpg" alt="pergolas-8"
-                                            title="pergolas-8"></a></li>        
+                                            title="pergolas-8"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/9.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/9.jpg" alt="pergolas-9"
-                                            title="pergolas-9"></a></li>        
+                                            title="pergolas-9"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/10.jpg" alt="pergolas-10"
-                                            title="pergolas-10"></a></li>        
+                                            title="pergolas-10"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/11.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/11.jpg" alt="pergolas-11"
-                                            title="pergolas-11"></a></li>        
+                                            title="pergolas-11"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/12.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/12.jpg" alt="pergolas-12"
-                                            title="pergolas-12"></a></li>        
+                                            title="pergolas-12"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/13.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/13.jpg" alt="pergolas-13"
-                                            title="pergolas-13"></a></li>        
+                                            title="pergolas-13"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/14.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/14.jpg" alt="pergolas-14"
-                                            title="pergolas-14"></a></li>        
+                                            title="pergolas-14"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/15.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/15.jpg" alt="pergolas-15"
-                                            title="pergolas-15"></a></li>        
+                                            title="pergolas-15"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/16.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/16.jpg" alt="pergolas-16"
-                                            title="pergolas-16"></a></li>        
+                                            title="pergolas-16"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/17.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/17.jpg" alt="pergolas-17"
-                                            title="pergolas-17"></a></li>        
+                                            title="pergolas-17"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/18.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/18.jpg" alt="pergolas-18"
-                                            title="pergolas-18"></a></li>        
+                                            title="pergolas-18"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/19.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/19.jpg" alt="pergolas-19"
-                                            title="pergolas-19"></a></li>        
+                                            title="pergolas-19"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/20.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/20.jpg" alt="pergolas-20"
-                                            title="pergolas-20"></a></li>        
+                                            title="pergolas-20"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/21.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/21.jpg" alt="pergolas-21"
-                                            title="pergolas-21"></a></li>        
+                                            title="pergolas-21"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/22.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/22.jpg" alt="pergolas-22"
-                                            title="pergolas-22"></a></li>        
+                                            title="pergolas-22"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/23.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/23.jpg" alt="pergolas-23"
-                                            title="pergolas-23"></a></li>        
+                                            title="pergolas-23"></a></li>
                                                                         <li><a data-fancybox="pergolas" data-caption="" href="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/outdoor/pergolas/24.jpg" alt="pergolas-24"
                                             title="pergolas-24"></a></li>
                             </ul>
