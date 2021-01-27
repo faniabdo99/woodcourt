@@ -30,13 +30,6 @@
     <meta property="og:image" content="{{$ogImage ?? ''}}">
     <meta property="og:description" content="{{$Description ?? ''}}" >
     <meta property="og:site_name" content="The Wood Court" >
-    <!-- Pointless But Needed Twitter Codes -->
-    <meta name="twitter:card" content="{{$Description ?? ''}}" >
-    <meta name="twitter:site" content="@naqrahofficial" >
-    <meta name="twitter:creator" content="@naqrahofficial" >
-    {{-- <meta name="twitter:image" content="{{config('global.icon')}}/logo-fill.jpg" > --}}
-    <meta name="twitter:title" content="The Wood Court - {{$PageTitle ?? ''}}" />
-    <meta name="twitter:description" content="{{$Description ?? ''}}" >
     <meta name="application-name" content="The Wood Court">
     <meta name="msapplication-TileColor" content="#0D8287">
   </head>
