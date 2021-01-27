@@ -49,7 +49,7 @@
                 <div class="col-lg-9 col-12">
                     <div class="row">
                         <div class="col-12" id="images-list">
-                            <ul class="category-images-list active wood-flooring" id="engineered-floors">
+                            <ul class="category-images-list  wood-flooring" id="engineered-floors">
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/1.jpg" target="_blank"><img
                                           src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/1.jpg" alt="engineered-floors-1" title="engineered-floors-1"></a></li>
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/2.jpg" target="_blank"><img
@@ -214,7 +214,7 @@
                                           <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/85.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/85.jpg" alt="engineered-floors-85" title="engineered-floors-85"></a></li>
                                           <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/engineered-floors/86.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/engineered-floors/86.jpg" alt="engineered-floors-86" title="engineered-floors-86"></a></li>
                             </ul>
-                            <ul class="category-images-list active wood-flooring" id="tiles">
+                            <ul class="category-images-list  wood-flooring" id="tiles">
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/1.jpg"
                                           alt="engineered-floors-1" title="engineered-floors-1"></a></li>
                                 <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/2.jpg"
@@ -336,7 +336,7 @@
 
                               <li><a data-fancybox="tiles" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/tiles/60.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/tiles/60.jpg" alt="tiles-60" title="tiles-60"></a></li>
                             </ul>
-                            <ul class="category-images-list active wood-flooring" id="stairs">
+                            <ul class="category-images-list  wood-flooring" id="stairs">
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/1.jpg" alt="stairs-1"
                                           title="stairs-1"></a></li>
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/2.jpg" alt="stairs-2"
@@ -358,7 +358,7 @@
                                 <li><a data-fancybox="stairs" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/stairs/10.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/stairs/10.jpg"
                                           alt="stairs-10" title="stairs-10"></a></li>
                             </ul>
-                            <ul class="category-images-list active wood-flooring" id="hdf-floors">
+                            <ul class="category-images-list  wood-flooring" id="hdf-floors">
                                 <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/1.jpg" alt="hdf-1"
                                           title="hdf-1"></a></li>
                                 <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/2.jpg" alt="hdf-2"
@@ -398,7 +398,7 @@
                                 <li><a data-fancybox="hdf" data-caption="" href="{{url('public')}}/images/categories/wood-flooring/hdf/19.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/wood-flooring/hdf/19.jpg" alt="hdf-19"
                                           title="hdf-19"></a></li>
                             </ul>
-                            <ul class="category-images-list cabinets" id="kitchens">
+                            <ul class="category-images-list active cabinets" id="kitchens">
                                 <li><a data-fancybox="kitchens" data-caption="" href="{{url('public')}}/images/categories/cabinets/kitchens/1.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/kitchens/1.jpg" alt="kitchens-1"
                                           title="kitchens-1"></a></li>
                                 <li><a data-fancybox="kitchens" data-caption="" href="{{url('public')}}/images/categories/cabinets/kitchens/2.jpg" target="_blank"><img src="{{url('public')}}/images/thumbs/cabinets/kitchens/2.jpg" alt="kitchens-2"
