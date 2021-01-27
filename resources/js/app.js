@@ -2,6 +2,25 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
+//Show Navbar Only on Scroll
+$(window).scroll(function() {
+    if($(window).width() > 992){
+      clearTimeout($.data(this, 'scrollTimer'));
+      $.data(this, 'scrollTimer', setTimeout(function() {
+        if($(window).scrollTop() < 200){
+          $(".navbar").css('position' ,'relative').css('top' , initial).css('transition' , 'all ease 0.3s');
+        }
+        $(".navbar").css('height' ,0).css('opacity' , 0).css('transition' , 'all ease 0.3s');
+      }, 600));
+    if($(window).scrollTop() < 200){
+      $(".navbar").css('position' ,'relative').css('top' , initial).css('transition' , 'all ease 0.3s');
+    }
+    $(".navbar").css('position' ,'fixed').css('top' , 0).css('height' ,60).css('opacity' , 1).css('transition' , 'all ease 0.3s');
+  }else{
+    $(".navbar").css('position' ,'fixed');
+  }
+});
+//Why Us
 $('.why-us-icon-container').mouseenter(function(){
   $('.why-us-card-content .why-us-card').hide();
   $('#'+$(this).parent().data('target')).fadeIn('slow');

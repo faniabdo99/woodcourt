@@ -1,4 +1,4 @@
-<header class="fixed-top">
+<header class="position-relative w-100">
     <div class="upper-nav">
         <div class="row">
             <ul class="col-1 text-left upper-nav-social-media">
