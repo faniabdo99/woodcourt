@@ -1,7 +1,6 @@
 @include('layout.header', [
 'PageTitle' => 'Kitchen, Floor ... and More',
-'Description' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your
-life more comfortable',
+'Description' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.',
 'ogType' => 'Website'
 ])
 
@@ -1381,30 +1380,27 @@ life more comfortable',
         </div>
     </section>
     <section class="homepage-videos-grid">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-12">
-                    <div class="video-background-homepage" id="video-one">
-                        <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                    <h2>Kitchen, floor… and more</h2>
-                    <p>The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make
-                        your life more comfortable.</p>
-                    <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=Jf1MzF_yKw4" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="video-background-homepage mb-3" id="video-one">
-                        <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                    <h2>Luxurious cabinets & pergolas</h2>
-                    <p>Could your kitchen use a makeover? Our creative design team is known for pushing the market in terms of design variety and innovation, constantly creating new designs. When creating a kitchen, we keep in mind the people
-                        spending the most time in it</p>
-                    <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=BNBKAmk72us" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
-                </div>
-            </div>
-        </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="section-title mb-5">Our Videos</h2>
+                  <ul class="owl-carousel owl-theme three-items-carousel">
+                      <li class="item">
+                          <div class="video-background-homepage" id="video-one">
+                              <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
+                              <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
+                          </div>
+                      </li>
+                      <li class="item">
+                          <div class="video-background-homepage" id="video-two">
+                              <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
+                              <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
     </section>
     <section class="our-achievements">
         <div class="dark-overlap">

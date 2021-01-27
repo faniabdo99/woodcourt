@@ -97,6 +97,32 @@
   Project Name: The WoodCourt
   Author: Picturate.ME
 */
+//Show Navbar Only on Scroll
+$(window).scroll(function () {
+  if ($(window).width() > 992) {
+    clearTimeout($.data(this, 'scrollTimer'));
+    $.data(this, 'scrollTimer', setTimeout(function () {
+      if ($(window).scrollTop() < 200) {
+        $(".navbar").css('position', 'relative').css('top', initial).css('transition', 'all ease 0.3s');
+      }
+
+      $(".navbar").css('height', 0).css('opacity', 0).css('transition', 'all ease 0.3s');
+    }, 600));
+
+    if ($(window).scrollTop() < 200) {
+      $(".navbar").css('position', 'relative').css('top', initial).css('transition', 'all ease 0.3s');
+    }
+
+    $(".navbar").css('position', 'fixed').css('top', 0).css('height', 60).css('opacity', 1).css('transition', 'all ease 0.3s');
+  } else {
+    if ($(window).scrollTop() < 150) {
+      $(".navbar").css('position', 'relative');
+    } else {
+      $(".navbar").css('position', 'fixed');
+    }
+  }
+}); //Why Us
+
 $('.why-us-icon-container').mouseenter(function () {
   $('.why-us-card-content .why-us-card').hide();
   $('#' + $(this).parent().data('target')).fadeIn('slow');
@@ -215,9 +241,9 @@ $('.sub-categories-list li').click(function () {
 
 $('#homepage-play-video-1,#homepage-play-video-2').click(function () {
   if ($(this).attr('id') == 'homepage-play-video-1') {
-    $('body').append("\n    <div class=\"full-width-video\">\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/BNBKAmk72us\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+    $('body').append("\n    <div class=\"full-width-video\">\n    <div class=\"content-part\">\n      <h2 class=\"text-white\">Luxurious cabinets & pergolas</h2>\n      <p class=\"text-white\">Could your kitchen use a makeover? Our creative design team is known for pushing the market in terms of design variety and innovation, constantly creating new designs. When creating a kitchen, we keep in mind the people spending the most time in it</p>\n      <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://www.youtube.com/watch?v=Jf1MzF_yKw4\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n    </div>\n    <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/BNBKAmk72us\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } else if ($(this).attr('id') == 'homepage-play-video-2') {
-    $('body').append("\n    <div class=\"full-width-video\">\n      <div>\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/Jf1MzF_yKw4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://www.youtube.com/watch?v=BNBKAmk72us\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/Jf1MzF_yKw4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } //Insert the elemnt into the dom
 
 
