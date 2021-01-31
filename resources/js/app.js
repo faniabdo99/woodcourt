@@ -231,6 +231,7 @@ $("#back-to-top").click(function() {
 $("img").on("contextmenu",function(){
     return false;
  });
+
  $('[data-fancybox]').fancybox({
 	toolbar  : true,
 	smallBtn : true,
