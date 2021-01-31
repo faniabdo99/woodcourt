@@ -16,14 +16,15 @@ class ProductController extends Controller{
     return view('admin.product.new' , compact('AllCategories'));
   }
   public function postNew(Request $r){
+    // dd($r->all());
     //Validate the request
     $Rules = [
       'title' => 'required',
       'serial_number' => 'required',
-      'slug' => 'required|unique:products',
+      // 'slug' => 'required|unique:products',
       'category_id' => 'required',
       'description' => 'required',
-      'image' => 'required|image'
+      // 'image' => 'required|image'
     ];
     $Validator = Validator::make($r->all() , $Rules);
     if($Validator->fails()){
@@ -62,6 +63,26 @@ class ProductController extends Controller{
         $img->save('storage/app/products/original/'.$r->slug.'.'.$r->image->getClientOriginalExtension());
         $ProductData['image'] = $r->slug.'.'.$r->image->getClientOriginalExtension();
       }
+      //Categories
+      $MainCategories = [
+        'wood-flooring' => 1,
+        'cabinets' => 2,
+        'outdoor' => 3,
+      ];
+      $SubCategories = [
+        'engineered-floors' => 3,
+        'tiles' => 4,
+        'stairs' => 5,
+        'hdf-floors' => 6,
+        'kitchens' => 7,
+        'dressings' => 8,
+        'bathroom-cabinets' => 9,
+        'teak-flooring' => 10,
+        'shower-units' => 11,
+        'pergolas' => 12,
+      ];
+      $ProductData['category_id'] = $MainCategories[$r->category_id];
+      $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
       //Upload to db
       $TheProduct = Product::create($ProductData);
       //Upload the images

@@ -20,24 +20,25 @@
                                     <div class="modal-body">
                                         <img id="thumb_img" class="d-block" src="{{url('public')}}/images/thumbs/outdoor/pergolas/24.jpg" alt="pergolas-24" title="pergolas-24">
                                         <br>
-                                        <form action="#" method="post">
-                                            <input type="hidden" name="image_src" value="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg">
+                                        <form action="{{route('postNewProduct')}}" method="post" enctype="multipart/form-data">
+                                            @csrf
+                                            <input type="hidden" name="image" value="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg">
                                             <input type="hidden" name="main_category_id" value="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg">
                                             <input type="hidden" name="category_id" value="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg">
                                             <input class="form-control mb-3" type="text" placeholder="Title" name="title">
                                             <textarea class="form-control mb-3" placeholder="Description" name="description"></textarea>
                                             <input type="text" class="form-control mb-3" placeholder="Serial Number" name="serial_number">
-                                            <input class="form-control mb-3" type="file" name="design_image" multiple>
-                                            <input class="form-control mb-3" type="file" name="gallery_images" multiple>
-                                            <label> Featured </label>
-                                            <input type="checkbox" name="featured" value="1"> <br>
-                                            <label>Promot On Homepage </label>
-                                            <input type="checkbox" name="promot_on_homepage" vlaue="1"> <br>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-success">Save changes</button>
-                                    </div>
+                                            <label>Gallery Image(s)</label>
+                                            <input class="form-control mb-3" type="file" name="gallery[]" multiple>
+                                            <label>Featured</label>
+                                            <input type="checkbox" name="is_featured" value="1"> <br>
+                                            <label>Promot On Homepage</label>
+                                            <input type="checkbox" name="is_on_homepage" value="1"> <br>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn btn-success">Save changes</button>
+                                        </div>
                                     </form>
                                 </div>
                             </div>

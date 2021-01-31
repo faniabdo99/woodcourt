@@ -12,8 +12,11 @@ class CreateProductsTable extends Migration{
             $table->string('serial_number');
             $table->string('slug');
             $table->string('image');
-            $table->integer('category_id');
             $table->text('description');
+            $table->integer('main_category_id');
+            $table->integer('category_id');
+            $table->integer('is_featured')->default(0);
+            $table->integer('is_on_homepage')->default(0);
             $table->timestamps();
         });
     }
