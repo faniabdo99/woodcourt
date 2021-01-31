@@ -3,8 +3,6 @@
 body{
   font-family: 'Work Sans' , 'Tajawal' , serif;
   font-size: 15px;
-  padding-top: 100px;
-  scroll-behavior: smooth;
 }
 a:hover{
   text-decoration: none;
@@ -17,11 +15,6 @@ a:hover{
 }
 *::-webkit-scrollbar-thumb {
   background-color: $brand;
-}
-@media screen and (max-width: 768px) {
-  body{
-    padding-top: 60px;
-  }
 }
 /* ============ Pages ============ */
 @import 'pages/contact';

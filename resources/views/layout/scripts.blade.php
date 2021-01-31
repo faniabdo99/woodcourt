@@ -1,7 +1,6 @@
 <script src="//kit.fontawesome.com/aa028fd33c.js" crossorigin="anonymous"></script>
 <script src="{{url('public')}}/js/jquery.min.js"></script>
-<script src='//imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
-<script src="{{url('public')}}/js/isotope.min.js"></script>
+{{-- <script src="{{url('public')}}/js/isotope.min.js"></script> --}}
 <script src="{{url('public')}}/js/countto.js"></script>
 <script src="{{url('public')}}/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>

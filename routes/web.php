@@ -69,16 +69,16 @@ Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
 
 
 //Marketing Pages Routes
-Route::get('wood-flooring','MarketingController@getWoodFlooring');
-Route::get('wood-flooring/engineered-floors','MarketingController@getEngineeredFloors');
-Route::get('wood-flooring/tiles','MarketingController@getTiles');
-Route::get('wood-flooring/stairs','MarketingController@getStairs');
-Route::get('wood-flooring/hdf-floors','MarketingController@getHdfFloors');
-Route::get('cabinets','MarketingController@getCabinets');
-Route::get('cabinets/kitchens','MarketingController@getKitchens');
-Route::get('cabinets/dressing','MarketingController@getDressings');
-Route::get('cabinets/sink-units','MarketingController@getSinkUnits');
-Route::get('outdoor','MarketingController@getOutdoor');
-Route::get('outdoor/teak-flooring','MarketingController@getTeakFlooring');
-Route::get('outdoor/shower-units','MarketingController@getShowerUnits');
-Route::get('outdoor/pergolas','MarketingController@getPergolas');
+Route::get('wood-flooring','MarketingController@getWoodFlooring')->name('category.wood-flooring');
+Route::get('wood-flooring/engineered-floors','MarketingController@getEngineeredFloors')->name('category.wood-flooring.engineered-floors');
+Route::get('wood-flooring/tiles','MarketingController@getTiles')->name('category.wood-flooring.tiles');
+Route::get('wood-flooring/stairs','MarketingController@getStairs')->name('category.wood-flooring.stairs');
+Route::get('wood-flooring/hdf-floors','MarketingController@getHdfFloors')->name('category.wood-flooring.hdf');
+Route::get('cabinets','MarketingController@getCabinets')->name('category.cabinets');
+Route::get('cabinets/kitchens','MarketingController@getKitchens')->name('category.cabinets.kitchens');
+Route::get('cabinets/dressing','MarketingController@getDressings')->name('category.cabinets.dressing');
+Route::get('cabinets/sink-units','MarketingController@getSinkUnits')->name('category.cabinets.sink-units');
+Route::get('outdoor','MarketingController@getOutdoor')->name('category.outdoor');
+Route::get('outdoor/teak-flooring','MarketingController@getTeakFlooring')->name('category.outdoor.teak-flooring');
+Route::get('outdoor/shower-units','MarketingController@getShowerUnits')->name('category.outdoor.shower-units');
+Route::get('outdoor/pergolas','MarketingController@getPergolas')->name('category.outdoor.pergolas');

@@ -12,37 +12,37 @@
   @endforelse
    <url>
       <loc>https://thewoodcourt.com</loc>
-      <lastmod>2021-1-15</lastmod>
+      <lastmod>2021-01-15</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    <url>
       <loc>https://thewoodcourt.com/about-us</loc>
-      <lastmod>2021-1-15</lastmod>
+      <lastmod>2021-01-15</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    <url>
       <loc>https://thewoodcourt.com/our-factory</loc>
-      <lastmod>2021-1-15</lastmod>
+      <lastmod>2021-01-15</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    <url>
       <loc>https://thewoodcourt.com/contact</loc>
-      <lastmod>2021-1-15</lastmod>
+      <lastmod>2021-01-15</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    <url>
       <loc>https://thewoodcourt.com/events</loc>
-      <lastmod>2021-1-15</lastmod>
+      <lastmod>2021-01-15</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    <url>
       <loc>https://thewoodcourt.com/products</loc>
-      <lastmod>2021-1-15</lastmod>
+      <lastmod>2021-01-15</lastmod>
       <changefreq>weekly</changefreq>
    </url>
    <url>
       <loc>https://thewoodcourt.com/about-us</loc>
-      <lastmod>2021-1-15</lastmod>
+      <lastmod>2021-01-15</lastmod>
       <changefreq>weekly</changefreq>
    </url>
 </urlset>

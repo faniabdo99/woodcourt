@@ -1,4 +1,4 @@
-<header class="fixed-top">
+<header class="position-relative w-100">
     <div class="upper-nav">
         <div class="row">
             <ul class="col-1 text-left upper-nav-social-media">
@@ -35,13 +35,12 @@
                    </div>
                  </li>
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li> --}}
-                <li class="nav-item"><a class="nav-link" href="{{route('products')}}">Products</a></li>
                 <li class="nav-item dropdown">
                    <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <i class="fas fa-chevron-down"></i></a>
                    <div class="dropdown-menu" aria-labelledby="woodCare">
-                     <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#a">Hardwood Floor</a>
-                     <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#b">Kitchens and Cabinets</a>
-                     <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#c">Outdoor Wood Flooring & Pergolas</a>
+                     <a class="dropdown-item" href="{{route('category.wood-flooring')}}">Hardwood Floor</a>
+                     <a class="dropdown-item" href="{{route('category.cabinets')}}">Kitchens and Cabinets</a>
+                     <a class="dropdown-item" href="{{route('category.outdoor')}}">Outdoor Wood Flooring & Pergolas</a>
                    </div>
                  </li>
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
