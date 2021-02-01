@@ -49,7 +49,7 @@ class ProductController extends Controller{
     }
     if($r->has('image')){
       $r->slug = strtolower(str_replace(' ' , '-' , $r->title));
-      $img = ImageLib::make('http:'.$r->image);
+      $img = ImageLib::make($r->image);
       // backup status
       $img->backup();
       // Thumb
@@ -91,7 +91,6 @@ class ProductController extends Controller{
       $TheProduct = Product::create($ProductData);
       //Upload the images
       if($r->has('gallery')){
-
       foreach ($r->gallery as $key => $file) {
         $img = ImageLib::make($file);
         // backup status
