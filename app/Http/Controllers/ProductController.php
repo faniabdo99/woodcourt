@@ -33,36 +33,39 @@ class ProductController extends Controller{
       $AllowedExt = ['png','jpeg','jpg','gif','bmb'];
       $ProductData = $r->except(['gallery' , '_token']);
       //More Validation
-      if(count($r->gallery) > 5){
-        return back()->withErrors('You can\'t upload more than 5 images!');
-      }
-      foreach ($r->gallery as $file) {
-        // Check the file type and size
-        if(!in_array($file->getClientOriginalExtension() , $AllowedExt)){
-          return back()->withErrors('Some Files Are Not Allowed!')->withInput();
+      if($r->has('gallery')){
+        if(count($r->gallery) > 5){
+          return back()->withErrors('You can\'t upload more than 5 images!');
         }
-        if($file->getSize() > 5000000){
-          return back()->withErrors('Maximum Allowed File Size is 5MB Per File!')->withInput();
+        foreach ($r->gallery as $file) {
+          // Check the file type and size
+          if(!in_array($file->getClientOriginalExtension() , $AllowedExt)){
+            return back()->withErrors('Some Files Are Not Allowed!')->withInput();
+          }
+          if($file->getSize() > 5000000){
+            return back()->withErrors('Maximum Allowed File Size is 5MB Per File!')->withInput();
+          }
         }
-      }
-      if($r->has('image')){
-        $img = ImageLib::make($r->image);
-        // backup status
-        $img->backup();
-        // Thumb
-        $img->fit(600, 300);
-        $img->save('storage/app/products/small_thumb/'.$r->slug.'.'.$r->image->getClientOriginalExtension());
-        $img->reset();
-        // Full Size
-        $waterMarkUrl = public_path('images/watermark.png');
-        $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-          ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-          $constraint->aspectRatio();
-        });
-        $img->insert($WaterMark, 'center');
-        $img->save('storage/app/products/original/'.$r->slug.'.'.$r->image->getClientOriginalExtension());
-        $ProductData['image'] = $r->slug.'.'.$r->image->getClientOriginalExtension();
-      }
+    }
+    if($r->has('image')){
+      $r->slug = strtolower(str_replace(' ' , '-' , $r->title));
+      $img = ImageLib::make('http:'.$r->image);
+      // backup status
+      $img->backup();
+      // Thumb
+      $img->fit(600, 300);
+      $img->save('storage/app/products/small_thumb/'.$r->slug.'.jpg');
+      $img->reset();
+      // Full Size
+      // $waterMarkUrl = public_path('images/watermark.png');
+      // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
+      //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
+      //   $constraint->aspectRatio();
+      // });
+      // $img->insert($WaterMark, 'center');
+      $img->save('storage/app/products/original/'.$r->slug.'.jpg');
+      $ProductData['image'] = $r->slug.'.jpg';
+    }
       //Categories
       $MainCategories = [
         'wood-flooring' => 1,
@@ -81,11 +84,14 @@ class ProductController extends Controller{
         'shower-units' => 11,
         'pergolas' => 12,
       ];
-      $ProductData['category_id'] = $MainCategories[$r->category_id];
+      $ProductData['category_id'] = $SubCategories[$r->category_id];
       $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
+      $ProductData['slug'] = $r->slug;
       //Upload to db
       $TheProduct = Product::create($ProductData);
       //Upload the images
+      if($r->has('gallery')){
+
       foreach ($r->gallery as $key => $file) {
         $img = ImageLib::make($file);
         // backup status
@@ -109,8 +115,9 @@ class ProductController extends Controller{
           'image' => $TheImage
         ]);
       }
+    }
       //Return to all projects page
-      return redirect()->route('admin.product.all')->withSuccess('Product Added!');
+      return redirect()->back()->withSuccess('Product Added!');
     }
   }
   public function getEdit($id){
