@@ -16,7 +16,6 @@ class ProductController extends Controller{
     return view('admin.product.new' , compact('AllCategories'));
   }
   public function postNew(Request $r){
-    // dd($r->all());
     //Validate the request
     $Rules = [
       'title' => 'required',
