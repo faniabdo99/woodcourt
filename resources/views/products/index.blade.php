@@ -25,6 +25,14 @@
                                             <input type="hidden" name="image" value="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg">
                                             <input type="hidden" name="main_category_id" value="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg">
                                             <input type="hidden" name="category_id" value="{{url('public')}}/images/categories/outdoor/pergolas/24.jpg">
+                                            <input type="text" class="form-control mb-3" name="name" placeholder="Name">
+                                            <input type="text" class="form-control mb-3" name="code" placeholder="Code">
+                                            <input type="text" class="form-control mb-3" name="wood_type" placeholder="Wood Type">
+                                            <input type="text" class="form-control mb-3" name="size" placeholder="Size">
+                                            <input type="text" class="form-control mb-3" name="color" placeholder="Color">
+                                            <input type="text" class="form-control mb-3" name="home" placeholder="Home">
+                                            <input type="text" class="form-control mb-3" name="design" placeholder="Design">
+                                            <input type="text" class="form-control mb-3" name="note" placeholder="Note">
                                             <input class="form-control mb-3" type="text" placeholder="Title" name="title">
                                             <textarea class="form-control mb-3" placeholder="Description" name="description"></textarea>
                                             <input type="text" class="form-control mb-3" placeholder="Serial Number" name="serial_number">

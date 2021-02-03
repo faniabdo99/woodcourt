@@ -374,8 +374,8 @@ $('a[href*="#"]') // Remove links that don't actually link to anything
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/woodcourt/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/html/woodcourt/resources/scss/app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\scss\app.scss */"./resources/scss/app.scss");
 
 
 /***/ })
