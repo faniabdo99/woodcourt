@@ -2135,6 +2135,53 @@ time {
     margin: 3px auto;
   }
 }
+h2 {
+  color: #0D8287;
+}
+
+hr {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .row {
+    padding: 0px 10px;
+  }
+}
+
+.expert-sidebar {
+  position: relative;
+}
+.expert-sidebar .products-sidebar {
+  width: 90%;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 20%;
+  margin-left: -60px;
+  overflow-x: hidden;
+}
+@media (max-width: 992px) {
+  .expert-sidebar .products-sidebar {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+.accordion p {
+  line-height: 3;
+  font-size: 15px;
+}
+.accordion .btn-link {
+  text-decoration: none;
+  font-size: 19px;
+  color: #0D8287;
+}
+.accordion button:hover {
+  text-decoration: none;
+  color: black;
+}
+
 #wood-flooring-hero {
   height: 60vh;
   background: url("../images/heros/marketing/about-us.jpg") no-repeat center center;

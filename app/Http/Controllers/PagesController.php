@@ -23,4 +23,8 @@ class PagesController extends Controller{
     {
         return view('products');
     }
+    public function getExpertHub()
+    {
+        return view('expert-hub');
+    }
 }
