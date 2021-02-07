@@ -154,13 +154,23 @@
           height: 250px;
           &#wood-flooring{
             background: url('../images/categories/wood-flooring.jpg');
+            @media(max-width: 992px){
+              background-size: 100%;
+            }
           }
           &#cabinets{
             background: url('../images/categories/cabinets.jpg');
+            @media(max-width: 992px){
+              background-size: 100%;
+            }
           }
           &#outdoor{
             background: url('../images/categories/outdoor.jpg');
+            @media(max-width: 992px){
+              background-size: 100%;
+            }
           }
+
         }
         h3 {
             font-size: 1.5em;

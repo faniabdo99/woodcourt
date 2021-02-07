@@ -1230,11 +1230,26 @@ a:hover {
 #homepage-categories .category-card .category-card-bg#wood-flooring {
   background: url("../images/categories/wood-flooring.jpg");
 }
+@media (max-width: 992px) {
+  #homepage-categories .category-card .category-card-bg#wood-flooring {
+    background-size: 100%;
+  }
+}
 #homepage-categories .category-card .category-card-bg#cabinets {
   background: url("../images/categories/cabinets.jpg");
 }
+@media (max-width: 992px) {
+  #homepage-categories .category-card .category-card-bg#cabinets {
+    background-size: 100%;
+  }
+}
 #homepage-categories .category-card .category-card-bg#outdoor {
   background: url("../images/categories/outdoor.jpg");
+}
+@media (max-width: 992px) {
+  #homepage-categories .category-card .category-card-bg#outdoor {
+    background-size: 100%;
+  }
 }
 #homepage-categories .category-card h3 {
   font-size: 1.5em;
@@ -2153,7 +2168,7 @@ hr {
   position: relative;
 }
 .expert-sidebar .products-sidebar {
-  width: 90%;
+  width: 100%;
   position: -webkit-sticky;
   position: sticky;
   z-index: 1;
@@ -2165,6 +2180,12 @@ hr {
   .expert-sidebar .products-sidebar {
     width: 100%;
     margin-left: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .expert-sidebar .products-sidebar {
+    margin-left: 0px;
+    width: 100%;
   }
 }
 
