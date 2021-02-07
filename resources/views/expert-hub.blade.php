@@ -1245,48 +1245,22 @@
               <h5>There are a number of options for teak deck maintenance:-</h5>
               <p>Traditional Teak Oils :- We don’t like using too much oil on a deck. You have to regularly apply it as it only lasts between 1 and 3 months and if it turns grey you have to reapply <br>
                 Second option is to apply an outdoor polyurethane coat, it is very easy to use and can be applied with a brush and rags. On freshly cleaned (dry) teak simply apply two coats. Then depending on wear and tear you can expect to apply a further coat every 6 – 8 months but in this case the deck will be a bit slippery and scratchable  </p>
-
             </ul>
           </div>
-
-
-
-
-
-
-
-
         </div>
       </div>
     </section>
-
-
-
     @include('layout.scripts')
     <script type="text/javascript">
-
-            // handle links with @href started with '#' only
-            $(document).on('click', 'a[href^="#"]', function(e) {
-              // target element id
-              var id = $(this).attr('href');
-
-              // target element
-              var $id = $(id);
-              if ($id.length === 0) {
-                  return;
-              }
-
-              // prevent standard hash navigation (avoid blinking in IE)
-              e.preventDefault();  
-
-              // top position relative to the document
-              $id.offset().top;
-              // pos = pos -50;
-              //
-              //
-              // // animated top scrolling
-              // $('body, html').animate({scrollTop: pos} , -1500);
-            });
+        // handle links with @href started with '#' only
+        $(document).on('click', 'a[href^="#"]', function(e) {
+          var id = $(this).attr('href');
+          var $id = $(id);
+          if ($id.length === 0) {return;}
+          e.preventDefault();
+          var pos = ($id.offset().top - 100);
+          $('body, html').animate({scrollTop: pos} , 1500);
+        });
     </script>
 
 @include('layout.footer')
