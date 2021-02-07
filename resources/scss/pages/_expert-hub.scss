@@ -1,13 +1,5 @@
-
-
-h2{
-
-    color: #0D8287;
-
-}
-hr{
-  width: 100%;
-}
+h2{color: #0D8287;}
+hr{width: 100%;}
 .row{
   @media(max-width: 576px){
     padding: 0px 10px;
@@ -38,10 +30,15 @@ hr{
     line-height: 3;
     font-size: 15px;
   }
+  .card-body{
+    padding: 0 1.25rem;
+  }
   .btn-link{
     text-decoration: none;
-    font-size: 19px;
     color: #0D8287;
+    display: block;
+    width: 100%;
+    text-align: left;
   }
   button:hover{
     text-decoration: none;
