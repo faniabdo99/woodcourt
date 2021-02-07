@@ -985,7 +985,7 @@ execution',
                 <div class="row mt-5 mb-3" id="wood-care">
                     <h2 class="mb-5">How To Take Care Of Your Wood Floors?</h2>
                     <div>
-                        <img class="mb-4" src="{{url('public')}}/images/wood-care/1.png" alt="1">
+                        <img class="mb-4" src="https://thewoodcourt.com/storage/app/images/events/how-to-take-care-of-your-wood-floors.png" alt="1">
                         <p class="mb-4">Nothing feels better under your feet than the natural comfort of natural
                             flooring. If you take good care of your floors, you’ll enjoy them for decades to come. We’ve
                             compiled for you 9 tips to take care of your wood floors.</p>
@@ -995,18 +995,18 @@ execution',
 
                     <div>
                         <h3>Water cleaning</h3>
-                        <img class="mb-3" src="{{url('public')}}/images/wood-care/2.png" alt="1">
+                        <img class="mb-3" src="http://thewoodcourt.com/storage/app/public/uploads/ltYOrtTKV30wzAOc30SEEcNOvTRv1KQHY5kbB2Ot.png" alt="1">
                         <p class="mb-4">Never ever use a wet mop to clean your wood floor either natural wood or HDF
                             (High density fiber).</p>
                         <br>
-                        <img class="mb-3" src="{{url('public')}}/images/wood-care/3.png" alt="1">
+                        <img class="mb-3" src="http://thewoodcourt.com/storage/app/public/uploads/uzYjHMQ5Tt6zyTqJHQqVR9JBzasgGw2eri7PL44n.png" alt="1">
                         <p class="mb-4">Use damp mop to remove dust first , to make your floor dust free.</p>
                         <hr> <br>
 
 
                         <div>
                             <h3>Additional cleaning</h3>
-                            <img class="mb-2" src="{{url('public')}}/images/wood-care/4.png" alt="1">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ltYOrtTKV30wzAOc30SEEcNOvTRv1KQHY5kbB2Ot.png" alt="1">
                             <p class="mb-4">Then it is recommended to use oil based cleaners specially made for your
                                 wood floors. Once a month</p>
                             <hr><br>
@@ -1014,10 +1014,10 @@ execution',
 
                         <div>
                             <h3>What not to use</h3>
-                            <img class="mb-2" src="{{url('public')}}/images/wood-care/5.png" alt="1">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/xik2fLJjV9m32ipQFLwzvnGN2gd0pKHURPVR55hO.png" alt="1">
                             <p class="mb-4">DO NOT use furniture cleaners to clean. Your wood floors will be slippery.
                             </p>
-                            <img class="mb-2" src="{{url('public')}}/images/wood-care/6.png" alt="1">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/zQ8AuYXmmmgKTIfm0PatB5JvFigvRXt0rBJV3ifA.png" alt="1">
                             <p class="mb-4">Do Not use alcohol, acids ,or chemicals to clean your wood floors. It can
                                 damage your wood flooring.</p>
                             <hr><br>
@@ -1026,32 +1026,31 @@ execution',
 
                         <div>
                             <h3>What Prefer to use</h3>
-                            <img class="mb-2" src="{{url('public')}}/images/wood-care/7.png" alt="1">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/2lUhApr6VCLOLaLGB3cFWTjfwnKZT3tjWWbLK6Js.png" alt="1">
                             <p class="mb-4">Always wipe parallel to grams direction, as that will clean the grooves much
                                 better. Use a microfiber towel to clean your wood floors. It will remove stains, clean
                                 your floor & make it shiny.</p>
-                            <img class="mb-2" src="{{url('public')}}/images/wood-care/8.png" alt="1">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/XISP3gHkBrvIlRTcEIMBqP1dkqN526xOrO7NhiJ9.png" alt="1">
                             <p class="mb-4">Remove spills immediately, long exposure to liquids will lead to damage.</p>
-                            <img class="mb-2" src="{{url('public')}}/images/wood-care/9.png" alt="1">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/onw5BJu5gAGuyOpep23IdyyOVhq6MmIN7uSpmPww.png" alt="1">
                             <p class="mb-4">Use soft coasters under your furniture to prevent scratches.</p>
-                            <img class="mb-2" src="{{url('public')}}/images/wood-care/10.png" alt="1">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/vroEA7WRzvrErOlEpIYSXjTEXdpHT3iY74LJcZXN.png" alt="1">
                             <p class="mb-4">Regulary clip your pets’ nails to avoid deep scratches.</p>
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/fejAVSLONykgFEG7MdAXeOP0Vv1pdVVYjWkyqKgs.png" alt="1">
+                            <p>A sun-kissed glow looks great for skin, but not on wood floors, inspect your wood floors once a month, and if there is any discolouration, it's time to apply a fresh top coat.</p>
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/bpqC8LR9v0fjFkVP7zGwINIYhsCoAfzfbaUK8Bwj.png" alt="1">
+                            <p>Don't put any electronics directly on the wood floor ,the heat generated from these devices will affect your floors negatively in the long run.</p>
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/AtnAVyfVg1LTVoiQcyjII8G7sLm0I2pC1cx9Bfd2.png" alt="1">
+                            <p>Don't use the same cleaner for natural wood floors & HDF, each type has its cleaning liquid.</p>
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/Br5oXoWSbrVSk1zK3IXWg96mZUpLWWYeiJkyvFb6.png" alt="1">
+                            <p>Ventilate your home, good ventilation will make your wood floors healthy & live longer.</p>
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/FnoywSowXzTiNnXp40BWtAf0ZemtsU6Cnx4mVgJX.png" alt="1">
+                            <p>Best atmosphere conditions to make your wood floors healthy is 30% - 50% relative humidity & 15- 25 ℃ temperature. Thankfully, these conditions are comfortable for us too.</p>
+
                             <ul>
-                                <li>Don't put any electronics directly on the wood floor ,the heat generated from these
-                                    devices will affect your floors negatively in the long run.</li>
                                 <li>Use door mats to protect wood floors from street sand & mud.</li>
-                                <li>Don't use the same cleaner for natural wood floors & HDF, each type has its cleaning
-                                    liquid.</li>
-                                <li>Ventilate your home, good ventilation will make your wood floors healthy & live
-                                    longer.</li>
-                                <li>Best atmosphere conditions to make your wood floors healthy is 30% - 50% relative
-                                    humidity & 15- 25 ℃ temperature. Thankfully, these conditions are comfortable for us
-                                    too.</li>
                                 <li>Always use felt protector pads on the underside of legs of tables and chairs, and
                                     never drag heavy objects across your wood floors.</li>
-                                <li>A sun-kissed glow looks great for skin, but not on wood floors, inspect your wood
-                                    floors once a month, and if there is any discolouration, it's time to apply a fresh
-                                    top coat.</li>
                                 <li>Every few decades, sound and refinish your wood floor. Typically, solid and
                                     engineered wood floors could be sanded and refinished several times up to 10 times
                                     according to the wooden top width. Sanding and refinishing are typically needed
@@ -1126,7 +1125,7 @@ execution',
 
                     <div class="row mt-5 mb-3" id="hardwood-flooring">
                         <h2 class="mb-3">Latest Trends in Hardwood Flooring</h2>
-                        <p>
+                          <p>
                             Hardwood Flooring really makes your home very welcoming & beautiful , when cared For , it
                             will stand for long time giving you worm & positive Feelings , (For wood care click here)
                             It is also considered as a long term investment , as Hard-wood Floors add considerable
@@ -1152,18 +1151,18 @@ execution',
                             leaving any marks , one of the common trends now is menuta cluing hand wood floors with
                             these marks to look similar to the hand-scraped floors , giuling the look and feed of the
                             historical wood floors
-                        </p>
-                        <br><br>
+                          </p>
+                          <br><br>
 
 
-                        <h3>Distressed Wood floors :</h3>
-                        <p>When you visit any old building like a museur , or an old company or commercial shop which
+                          <h3>Distressed Wood floors :</h3>
+                          <p>When you visit any old building like a museur , or an old company or commercial shop which
                             was built in the 1900’s you can see the wood floors distressed & marked by decades of rough
                             use , the gouges , nail holes stains , discoloring , and saw marks .<br> homeowners today
                             are showing their administration for the over when skill rather than technology was the king
                             .</p>
-                        <br>
-                        <p>wood planks are getting wider . <br>
+                            <br>
+                            <p>wood planks are getting wider . <br>
                             Remember when you visit grandpa , the wood floors pieces are about 2 to 3 cm width , and
                             15-20 cm length , each piece is installed perpendicular to the other giving a herringbone
                             pattern , later on , the piece get wider and taller , and the smaller one become an old
@@ -1302,18 +1301,31 @@ execution',
                             decking , needs low maintenance , you just need to give it some attention to keep it as
                             beautiful as day one .
                         </p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png" alt="1" width="650" height="550">
+                        <p>Pick up large debris like paper and fallen tree leaves at once.</p>
+                        <!-- <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/K9v32jyXFTry1kQugasKirduJ3vnxXcnQbL1v4Af.png" alt="1"> -->
+                        <p>Use a vacuum machine to remove dust from the in between grooves, it is much easier than whisking.</p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/K9v32jyXFTry1kQugasKirduJ3vnxXcnQbL1v4Af.png" alt="1" width="650" height="550">
+                        <p>Use a mixture of ammonia & warm water with ratio 1:4 to help you remove all the stuck dirt & debris , by wiping the wood with the mixture using a sponge mop.</p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/mdtMtQN1nUzQqKue53QTVW985Ex7h8l26pAlIfNp.png" alt="1" width="650" height="550">
+                        <p>Remember , always wip of remove dust parallel to the direction of wood grains</p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/5Q7ak86yCI3nFSB3jheeYxmSQtK3c6zL4zzNcsqa.png" alt="1" width="650" height="550">
+                        <p>let your wood either floors or pergola to dry completely , at leave 3-5 hours temperature +15 ℃</p>
+                        <!-- <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png" alt="1"> -->
+                        <p>Use a floor cleaner specially made for your hardwood, It will always be on oil-based cleaner, not water or aqua-based.</p>
+                        <!-- <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png" alt="1"> -->
+                        <p>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/lE7nGGvEI7Tb12zTc3faACm8PqcPUWXrBNcTfXe7.png" alt="1" width="650" height="550">
+                        <p>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square meter.</p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/Nmobqk9l20FgbOvhrOD4XsF3y8S2PZy1aes9nKVy.png" alt="1" width="650" height="550">
+                        <p>After one hour use a clean new rag to remove excess oil and let it completely dry before placing your furniture back to avoid spots. </p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/56SyFhfkqwJQI3NM8WjsFCpQrV4Ovx1DNKcNO8sC.png" alt="1" width="650" height="550">
+                        <p>Always wear rubber gloves, eye protection, and a mask while using any chemical materials.</p>
                         <h4>Here are some tips to keep your wood as new</h4>
                         <ul>
-                            <li>Pick up large debris like paper and fallen tree leaves at once.</li>
-                            <li>Use a vacuum machine to remove dust from the in between grooves, it is much easier than
-                                whisking.</li>
+
                             <li>A mixture of ammonia & warm water with a ratio of 1:4 will help you to remove all the
                                 stuck on dirt & debris, by wiping the wood with the mixture using a sponge mop.</li>
-                            <li>Remember , always wip of remove dust parallel to the direction of wood grains </li>
-                            <li>let your wood either floors or pergola to dry completely , at leave 3-5 hours in
-                                temperature +15 ℃ </li>
-                            <li>use a floor cleaner specially made your hardwood , it always be on oil-based cleaner not
-                                water or aqua-based </li>
                             <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
                                 repellent & prevents wood from cracking when exposed to high temperature.</li>
                             <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
@@ -1321,11 +1333,6 @@ execution',
                             <li>According to your country's weather, and daily time of direct daily sunlight hours that
                                 your wood is exposed to, you will need to reapply oil to teak wood several times a year
                                 (between 4-8 times).</li>
-                            <li>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</li>
-                            <li>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square
-                                meter.</li>
-                            <li>After one hour use a clean new rag to remove excess oil and let it completely dry before
-                                placing your furniture back to avoid spots.</li>
                             <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
                                 small amount of ammonia and it will disappear instantly.</li>
                             <li>You don't have to use any insect repellant for teak wood, as teak wood grains are rich
@@ -1334,8 +1341,6 @@ execution',
                                 exposed to extreme conditions.</li>
                             <li>Due to several climatic conditions & high UV index, teak wood surface may change to
                                 silver grey color, then it is time to reapply teak oil.</li>
-                            <li>Always wear rubber gloves, eye protection, and a mask while using any chemical
-                                materials.</li>
                             <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
                                 repellent & prevents wood from cracking when exposed to high temperature.</li>
                             <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
