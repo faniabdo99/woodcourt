@@ -47,7 +47,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expert Hub <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-menu" aria-labelledby="woodCare">
                       <a class="dropdown-item" href="{{route('expert-hub')}}">F.A.Qs</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Wood Care</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#wood-care">Wood Care</a>
                       <a class="dropdown-item" href="{{route('expert-hub')}}">Installation Methods</a>
                       <a class="dropdown-item" href="{{route('expert-hub')}}">Finish Techniques</a>
                       <a class="dropdown-item" href="{{route('expert-hub')}}">Wood Species</a>
