@@ -46,14 +46,14 @@
                  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expert Hub <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-menu" aria-labelledby="woodCare">
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">F.A.Qs</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Wood Care</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Installation Methods</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Finish Techniques</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Wood Species</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Technical Data Sheet</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Engineered Wood Techniques</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}">Top 3 Blog Articles and see more</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#FAQs">F.A.Qs</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#wood-care">Wood Care</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#installation-methods">Installation Methods</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#hardwood-flooring">Finish Techniques</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#engineered-hardwood">Wood Species</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#outdoor-woodcare">Technical Data Sheet</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#woodcare-kitchen">Engineered Wood Techniques</a>
+                      <a class="dropdown-item" href="{{route('expert-hub')}}#choose-suitable">Top 3 Blog Articles and see more</a>
                     </div>
                   </li>
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
