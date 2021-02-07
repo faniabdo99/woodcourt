@@ -43,7 +43,7 @@
                      <a class="dropdown-item" href="{{route('category.outdoor')}}">Outdoor Wood Flooring & Pergolas</a>
                    </div>
                  </li>
-                 <li class="nav-item dropdown">
+                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expert Hub <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-menu" aria-labelledby="woodCare">
                       <a class="dropdown-item" href="{{route('expert-hub')}}#FAQs">F.A.Qs</a>
@@ -55,7 +55,7 @@
                       <a class="dropdown-item" href="{{route('expert-hub')}}#woodcare-kitchen">Engineered Wood Techniques</a>
                       <a class="dropdown-item" href="{{route('expert-hub')}}#choose-suitable">Top 3 Blog Articles and see more</a>
                     </div>
-                  </li>
+                  </li> -->
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
                 @auth

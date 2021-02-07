@@ -1277,7 +1277,7 @@
               }
 
               // prevent standard hash navigation (avoid blinking in IE)
-              e.preventDefault();
+              e.preventDefault();  
 
               // top position relative to the document
               $id.offset().top;
