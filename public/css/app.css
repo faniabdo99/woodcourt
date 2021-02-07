@@ -2172,7 +2172,7 @@ hr {
   position: -webkit-sticky;
   position: sticky;
   z-index: 1;
-  top: 20%;
+  top: 7%;
   margin-left: -60px;
   overflow-x: hidden;
 }
