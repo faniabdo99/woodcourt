@@ -274,17 +274,6 @@ $('#submit-contact-form').click(function (e) {
       That.html('<i class="fas fa-paper-plane"></i> Send');
     }
   });
-}); //Counter
-
-$(window).scroll(function () {
-  var top_of_element = $(".our-achievements").offset().top;
-  var bottom_of_element = $(".our-achievements").offset().top + $(".our-achievements").outerHeight();
-  var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-  var top_of_screen = $(window).scrollTop();
-
-  if (bottom_of_screen > top_of_element && top_of_screen < bottom_of_element) {
-    $('.counter').countTo();
-  }
 }); //Back to top
 //Show the Back to Top Button
 
@@ -318,6 +307,18 @@ $('[data-fancybox]').fancybox({
   },
   buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"]
 }); //smooth scroll
+//Counter
+
+$(window).scroll(function () {
+  var top_of_element = $(".our-achievements").offset().top;
+  var bottom_of_element = $(".our-achievements").offset().top + $(".our-achievements").outerHeight();
+  var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+  var top_of_screen = $(window).scrollTop();
+
+  if (bottom_of_screen > top_of_element && top_of_screen < bottom_of_element) {
+    $('.counter').countTo();
+  }
+});
 
 /***/ }),
 
@@ -339,8 +340,8 @@ $('[data-fancybox]').fancybox({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\scss\app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! /var/www/html/woodcourt/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/html/woodcourt/resources/scss/app.scss */"./resources/scss/app.scss");
 
 
 /***/ })
