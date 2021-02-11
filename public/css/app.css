@@ -2176,6 +2176,13 @@ hr {
   margin-left: -60px;
   overflow-x: hidden;
 }
+.expert-sidebar .products-sidebar .main-category-filter {
+  font-size: 16px;
+  font-weight: 500;
+}
+.expert-sidebar .products-sidebar .sub-category-filter {
+  list-style: none;
+}
 @media (max-width: 992px) {
   .expert-sidebar .products-sidebar {
     width: 100%;
@@ -2206,6 +2213,16 @@ hr {
 .accordion button:hover {
   text-decoration: none;
   color: black;
+}
+
+#outdoor-woodcare h3 {
+  width: 100%;
+}
+
+#wood-care h2 {
+  width: 100%;
+  margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
 #wood-flooring-hero {

@@ -29,39 +29,45 @@ execution',
                 <div class="products-sidebar mb-5" id="expert-sidebar">
                     <ul class="filter-items">
                         <li>
-                            <a class="main-category-filter" href="#FAQs" data-target="wood-flooring">FAQs</a>
+                            <a class="main-category-filter" href="#FAQs" data-target="wood-flooring">FAQs  </a>
+                              <ul>
+                                <li class="sub-category-filter"><a  href="#FAQs">FAQs For Indoor Flooring</a></li>
+                                <li class="sub-category-filter"><a  href="#FAQs-kitchens"> FAQs For Kitchens & Cabinets</a></li>
+                                <li class="sub-category-filter"><a  href="#FAQs-kitchens">FAQs For Outdoor Floors & Pergolas</a> </li>
+                              </ul>
                         </li>
                         <li>
                             <a class="main-category-filter" href="#wood-care" data-target="cabinets">Wood Care</a>
-                        </li>
-                        <li>
-                            <a class="main-category-filter" href="#installation-methods"
-                                data-target="outdoor">Installation Methods</a>
-                        </li>
-                        <li>
-                            <a class="main-category-filter" href="#hardwood-flooring" data-target="outdoor">Latest
-                                Trends HardWood Flooring </a>
+                            <ul>
+                              <li class="sub-category-filter"><a  href="#indoor-flooring">How to Take Care Of Your Indoor Flooring</a></li>
+                              <li class="sub-category-filter"><a  href="#woodcare-kitchen">How to Take Care Of Your  Kitchens & Cabinets</a></li>
+                              <li class="sub-category-filter"><a  href="#outdoor-woodcare">How to Take Care Of Your Outdoor Floors & Pergolas</a> </li>
+                            </ul>
                         </li>
                         <li>
                             <a class="main-category-filter" href="#engineered-hardwood" data-target="outdoor">Engineered
                                 HardWood Flooring</a>
                         </li>
                         <li>
-                            <a class="main-category-filter" href="#outdoor-woodcare" data-target="outdoor">Outdoor Wood
-                                Care</a>
+                            <a class="main-category-filter" href="#installation-methods"
+                                data-target="outdoor">Installation Methodology</a>
                         </li>
                         <li>
-                            <a class="main-category-filter" href="#woodcare-kitchen" data-target="outdoor">Wood Care :
-                                Kitchens</a>
-                        </li>
-                        <li>
-                            <a class="main-category-filter" href="#choose-suitable" data-target="outdoor">Choose A
-                                Suitable WoodFloor</a>
+                            <a class="main-category-filter" href="#installation-methods"
+                                data-target="outdoor">Finishing Techniques</a>
                         </li>
 
                         <li>
-                            <a class="main-category-filter" href="#teak-maintenance" data-target="outdoor">Tteak
-                                maintenance and cleaning</a>
+                            <a class="main-category-filter" href="#teak-maintenance" data-target="outdoor">Articles</a>
+                            <ul>
+                              <li class="sub-category-filter"><a  href="#teak-maintenance">Teak Wood Maintenance & Cleaning</a></li>
+                              <li class="sub-category-filter"><a  href="#choose-suitable">How To Choose a Suitable Wood Flooring</a></li>
+                              <li class="sub-category-filter"><a  href="#outdoor-woodcare">Engineered Floors VS Solid Floors</a> </li>
+                              <li class="sub-category-filter"><a  href="#hardwood-flooring">What Is The Latest Trends In Wood Flooring</a> </li>
+                              <li class="sub-category-filter"><a  href="#outdoor-woodcare">What Is The HPL Boards , Why Should I Use Them?</a> </li>
+
+
+                            </ul>
                         </li>
 
                     </ul>
@@ -70,6 +76,8 @@ execution',
 
             <div class="col-lg-8" id="FAQs">
                 <h2>FAQs</h2>
+
+                  <h3>FAQs For Indoor Flooring</h3>
                 <div class="accordion" id="accordionExample">
                     <div class="card">
                         <div class="card-header" id="heading-FAQ-1">
@@ -516,7 +524,7 @@ execution',
                     </div>
                 </div>
 
-                <h2 class="my-4">Frequently asked questions for kitchens</h2>
+                <h2 class="my-4" id="FAQs-kitchens">Frequently asked questions for kitchens</h2>
 
 
                 <div class="accordion" id="faq2">
@@ -982,18 +990,21 @@ execution',
                 <hr>
 
 
-                <div class="row mt-5 mb-3" id="wood-care">
-                    <h2 class="mb-5">How To Take Care Of Your Wood Floors?</h2>
+                  <div class="row mt-5 mb-3" id="wood-care">
+                    <h2>Wood Care</h2>
+                    <p>In home and office interior designs, the value of wood cannot be denied its timeless visual appeal and natural beauty. If you take proper care of wood floorings, cabinets, installments, and claddings, you can expect them to survive for decades. Let's take a look at the top ways to take care of your wood floorings and cabinets.</p>
+                    <div id="indoor-flooring">
+
+                    </div>
+                    <h3 class="mb-2">How To Take Care Of Your Indoor Flooring?</h3>
                     <div>
                         <img class="mb-4" src="https://thewoodcourt.com/storage/app/images/events/how-to-take-care-of-your-wood-floors.png" alt="1" width="650" height="550">
-                        <p class="mb-4">Nothing feels better under your feet than the natural comfort of natural
-                            flooring. If you take good care of your floors, you’ll enjoy them for decades to come. We’ve
-                            compiled for you 9 tips to take care of your wood floors.</p>
+                        <p class="mb-4">Wooden Floors Can Be The Highlight Of Any Home. The Natural Strength And Beauty Of Wood Has Been Used For Centuries And To This Day, Remains The Material Of Choice For Flooring.If you’ve stripped back an old Victorian floor, had new solid wood or engineered flooring installed, or even used reclaimed boards, looking after and maintaining them once they’ve been oiled or varnished is key. It’s a simple fact that wooden floor finishes that have been well     maintained will look better and last much longer than those that have not. So, what is the best way to look after and maintain a wooden floor? Well you’ll be pleased to know that it’s not that difficult and doesn’t require a great deal of work. To help we’ve produced a lovely guide to help you keep your wooden floors looking amazing</p>
                         <hr>
                     </div>
 
 
-                    <div>
+                  <div>
                       <h3>Water cleaning</h3>
                       <h4>1. Don't Spill Water to Clean</h4>
                         <img class="mb-3" src="http://thewoodcourt.com/storage/app/public/uploads/ltYOrtTKV30wzAOc30SEEcNOvTRv1KQHY5kbB2Ot.png" alt="1" width="650" height="550">
@@ -1008,7 +1019,7 @@ execution',
 
                             <h3>Additional cleaning</h3>
                             <h4>3. Don't Use Furniture Sprays</h4>
-                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ltYOrtTKV30wzAOc30SEEcNOvTRv1KQHY5kbB2Ot.png" alt="1" width="650" height="550">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/Sj1vFB4I46KpAB5VlX9UEZHYsfp4MfaY0XUjVT1V.png" alt="1" width="650" height="550">
                             <p class="mb-4">Then it is recommended to use oil based cleaners specially made for your
                                 wood floors. Once a month</p>
                             <hr><br>
@@ -1016,11 +1027,11 @@ execution',
 
                         <div>
                             <h3>What not to use</h3>
-                            <h4>3. Don't Use Furniture Sprays</h4>
+                            <h4>4. Use Oil-Based Cleaners</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/xik2fLJjV9m32ipQFLwzvnGN2gd0pKHURPVR55hO.png" alt="1" width="650" height="550">
                             <p class="mb-4">DO NOT use furniture cleaners to clean. Your wood floors will be slippery.
                             </p>
-                              <h4>4. Use Oil-Based Cleaners</h4>
+                              <h4>5. Don't Use Chemicals, Acids, or Alcohols</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/zQ8AuYXmmmgKTIfm0PatB5JvFigvRXt0rBJV3ifA.png" alt="1" width="650" height="550">
                             <p class="mb-4">Do Not use alcohol, acids ,or chemicals to clean your wood floors. It can
                                 damage your wood flooring.</p>
@@ -1030,200 +1041,214 @@ execution',
 
                         <div>
                             <h3>What Prefer to use</h3>
-                              <h4>5. Don't Use Chemicals, Acids, or Alcohols</h4>
+                              <h4>6. Use Microfiber Towel in Direction of the Texture</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/2lUhApr6VCLOLaLGB3cFWTjfwnKZT3tjWWbLK6Js.png" alt="1" width="650" height="550">
                             <p class="mb-4">Always wipe parallel to grams direction, as that will clean the grooves much
                                 better. Use a microfiber towel to clean your wood floors. It will remove stains, clean
                                 your floor & make it shiny.</p>
-                                  <h4>6. Use Microfiber Towel in Direction of the Texture</h4>
 
+
+                                  <h4>7. Remove Spills Immediately</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/XISP3gHkBrvIlRTcEIMBqP1dkqN526xOrO7NhiJ9.png" alt="1" width="650" height="550">
                             <p class="mb-4">Remove spills immediately, long exposure to liquids will lead to damage.</p>
-                            <h4>7. Remove Spills Immediately</h4>
 
+                            <h4>8. Don't Forget to Use Coasters </h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/onw5BJu5gAGuyOpep23IdyyOVhq6MmIN7uSpmPww.png" alt="1" width="650" height="550">
                             <p class="mb-4">Use soft coasters under your furniture to prevent scratches.</p>
-                            <h4>8. Don't Forget to Use Coasters </h4>
 
+                            <h4>9. Keep Your Pets' Nails Trimmed </h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/vroEA7WRzvrErOlEpIYSXjTEXdpHT3iY74LJcZXN.png" alt="1" width="650" height="550">
                             <p class="mb-4">Regulary clip your pets’ nails to avoid deep scratches.</p>
-                            <h4>9. Keep Your Pets' Nails Trimmed</h4>
 
+                            <h4>10. Don't Expose to Too Much Sunlight</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/fejAVSLONykgFEG7MdAXeOP0Vv1pdVVYjWkyqKgs.png" alt="1" width="650" height="550">
                             <p>A sun-kissed glow looks great for skin, but not on wood floors, inspect your wood floors once a month, and if there is any discolouration, it's time to apply a fresh top coat.</p>
-                            <h4>10. Don't Expose to Too Much Sunlight</h4>
 
+                            <h4>11. Don't Leave Electronics Powered On</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/bpqC8LR9v0fjFkVP7zGwINIYhsCoAfzfbaUK8Bwj.png" alt="1" width="650" height="550">
                             <p>Don't put any electronics directly on the wood floor ,the heat generated from these devices will affect your floors negatively in the long run.</p>
-                            <h4>11. Don't Leave Electronics Powered On</h4>
 
+                            <h4>12. Don't Use Multipurpose Cleaner</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/AtnAVyfVg1LTVoiQcyjII8G7sLm0I2pC1cx9Bfd2.png" alt="1" width="650" height="550">
                             <p>Don't use the same cleaner for natural wood floors & HDF, each type has its cleaning liquid.</p>
-                            <h4>12. Don't Use Multipurpose Cleaner</h4>
 
+                            <h4>13. Do Ventilate Your Home</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/Br5oXoWSbrVSk1zK3IXWg96mZUpLWWYeiJkyvFb6.png" alt="1" width="650" height="550">
                             <p>Ventilate your home, good ventilation will make your wood floors healthy & live longer.</p>
-                            <h4>13. Do Ventilate Your Home</h4>
 
+                            <h4>14. Do Keep Your Humidity In-check</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/FnoywSowXzTiNnXp40BWtAf0ZemtsU6Cnx4mVgJX.png" alt="1" width="650" height="550">
                             <p>Best atmosphere conditions to make your wood floors healthy is 30% - 50% relative humidity & 15- 25 ℃ temperature. Thankfully, these conditions are comfortable for us too.</p>
-                            <h4>14. Do Keep Your Humidity In-check</h4>
-
-
                             <ul>
                                 <li>Use door mats to protect wood floors from street sand & mud.</li>
                                 <li>Always use felt protector pads on the underside of legs of tables and chairs, and
                                     never drag heavy objects across your wood floors.</li>
-                                <li>Every few decades, sound and refinish your wood floor. Typically, solid and
-                                    engineered wood floors could be sanded and refinished several times up to 10 times
-                                    according to the wooden top width. Sanding and refinishing are typically needed
-                                    every about 7-12 years according to age and care. After this process, your natural
-                                    wood floors will return like new with the ability to change its color & finish.</li>
+                                <li>
+                                  Every few decades, sound and refinish your wood floor. Typically, solid and
+                                  engineered wood floors could be sanded and refinished several times up to 10 times
+                                  according to the wooden top width. Sanding and refinishing are typically needed
+                                  every about 7-12 years according to age and care. After this process, your natural
+                                  wood floors will return like new with the ability to change its color & finish.</li>
                             </ul>
-                            <hr><br>
                         </div>
                     </div>
                     <hr>
-                    <div class="row mt-5 " id="installation-methods">
-                        <h2>installing the wood floors</h2>
-                        <ol>
-                            <li>
-                                <h4>Nailed down installing technique.</h4>
-                                <p>most common & traditional way to install wood floors wood tiles or planks are to be
-                                    installed by nailing down on wooden subfloors , the nails are incline vertical ,
-                                    paring from wood side directly fixing it to the subfloors a dram-noise is heard
-                                    while walking on due to empty space under floor. </p>
-                            </li>
-                            <li>
-                                <h4>Gluing down installing technique</h4>
-                                <p>bonding the wood floors with the subfloors wring quedown tea is a very good and cheap
-                                    way to install your wood floors or D3 water beas glue wring Polyurethane (ol based)
-                                    D4 glue is the best way to ensure lifelong band , as the glue can dissipates shear
-                                    stream restaurant because at the different expand coaticient between the wood & the
-                                    concrete tiles or ceramic tiles ,no drum-noise is heard out all .you will get
-                                    lifetime guarantee against debonding from when purchasing from the wood court</p>
-                            </li>
-                            <li>
-                                <h4>Floating installation technique</h4>
-                                <p>installing your floors using this technique make it very easy to maintain as you can
-                                    replace any damaged piece early , the wood floors are flooded over the subfloor ,
-                                    royale the lem sheet with 2mm thickness is placed between wood & subfloor to isolate
-                                    moisture and deareane sowels when walking on , this technique also makes it very
-                                    easy to uninstall your wood floor and use it again in another place , leaving the
-                                    subfloor without any damage.</p>
-                            </li>
-                            <hr>
-                        </ol>
-                        <h3>Installation : </h3>
-                        <ol>
-                            <h5>(A) sub-floors :</h5>
-                            <li>
-                                <h4>wooden sub floor</h4>
-                                <p>In this type of subfloor , wooden beams made of red pine wood with 5cm square section
-                                    or 5cm by 4cm rectangular section are installed with 25 to 35 pieces of concrete to
-                                    leave the floor , fixed with metal fixtures and concrete to be bended with the
-                                    floor. then 1.6cm by 10cm section of some wood type owe installed with about 2-10 cm
-                                    spaces in opposite direction to be a top subfloor laid in which wood floor fixation
-                                    takes place . <br>this is the traditional sub flooring used for more than loo years
-                                    ago , always used uptill now in nail down installation technique , </p>
-                            </li>
-                            <li>
-                                <h4>wood on tiles sub Floor</h4>
-                                <p>in this type , we use concrete tiles , mosaic tiles , low quality ceramic tiles
-                                    instead of wood for leaving process , tiles are installed regularly and flush on
-                                    concrete , are fixed on it , this method also is used for nailed down installation
-                                    technique </p>
-                            </li>
-                            <li>
-                                <h4> Concrete-based tiles subfloor</h4>
-                                <p>used always for glue down & floating installation technique , mosaic or ceramic tiles
-                                    are installed directly using concrete , for leaving them wood floors are glued down
-                                    on it floated on it using polythene sheets to prevent humidity , temperature , sound
-                                    .</p>
-                            </li>
-                            <hr>
-                        </ol>
+                    <div class="row mt5" id="woodcare-kitchen">
+                        <h2>How to take care of your kitchen counters and cabinets?</h2>
+                        <ul>
+                            <li>Clean all food spills from wood surfaces immediately & thoroughly, most foods can damage
+                                wood finishes eventually.</li>
+                            <li>Prevent spilling of acidic food or juices as much as you can on wood surfaces, such as
+                                orange juice .</li>
+                            <li>Tea, coffee & other many drinks are great, but will leave a bad-look stain on wood
+                                surfaces if they’re not cleaned immediately. </li>
+                            <li>When cleaning a wood surface, use a microfiber towel, do not use dish sponge or washing
+                                as it may damage wood surfaces. </li>
+                            <li>Clean your kitchen cabinets and surface wring clean water & mild soap with a clean ,
+                                lint-free rag.</li>
+                            <li>Use water sparingly and a towel to dry any excess , when water sits , it can penetrate
+                                the finish and raise the wood grains up leading to a rough uncleanable surface in future
+                                .</li>
+                            <li>Parallel to the wood grains direction , remove dust with dry micor-fiber towel , it is
+                                your first step to clean your kitchen </li>
+                            <li>Always use polish cream monthly to shine your kitchen instead of waxing , wax makes a
+                                shiny look but attracts dust.</li>
+                            <li>Be cautious of overuse of surface cleaners & sprays as they may contain silicon, which
+                                will make layers & layers order wood surface & results with a pale look with time .</li>
+                            <li>When it comes to wooden counter-top , it is very important to use a “Food grade mineral
+                                Oil ”.</li>
+                            <li>Open your windows as after as possible , fresh air is good and important for wood to
+                                breathe .</li>
+                            <li>Use a ventilating fan when cooking , it remove the majority of airborne smoke & grease
+                                which other wish may be absorbed by wood leading to bad smell & yellowish stains</li>
+                        </ul>
+                      <hr>
+
                     </div>
+                    <hr>
+                    <div class="row mt-5" id="outdoor-woodcare">
+                        <h2>How to Take Care of wooden pergolas & Outdoor Flooring ?</h2>
 
-
-                    <div class="row mt-5 mb-3" id="hardwood-flooring">
-                        <h2 class="mb-3">Latest Trends in Hardwood Flooring</h2>
-                          <p>
-                            Hardwood Flooring really makes your home very welcoming & beautiful , when cared For , it
-                            will stand for long time giving you worm & positive Feelings , (For wood care click here)
-                            It is also considered as a long term investment , as Hard-wood Floors add considerable
-                            resale value to your home .<br>
-                            As clamic , as wood floors are , It continue to evolve , nowtime , there are plenty of
-                            design which can match your taste modern , clamic , contemporary , country , vintage , even
-                            ultra-modern
-                            Here are some of the latest trends you may like some of them according to your style &
-                            personality .<br>
-                            Although Fashion and design a rale in the trends , Performance , matters too , whatever the
-                            design is , it is made out of natural hardwood which care room there , living & breathing
-                            entities we are all yamiliar & comfortable with
+                        <p class="mt-3">
+                            Wood is a beautiful option for your garden Flooring, under pergola , and outdoor area of
+                            your restaurant or cafe , also the wooden pergola itself gives your home privacy & make you
+                            have a great time outdoors, the wood grains and variety of colors when beside the wonderful
+                            green color of plants . <br> teak wood especially its very durable and has high resistance
+                            to outdoor conditions , (sun light , Heat & rain) even when installed directly as a pool
+                            decking , needs low maintenance , you just need to give it some attention to keep it as
+                            beautiful as day one .
                         </p>
-                        <br>
-                        <p>
-                            Hardwood Flooring isn't always about protection .
-                            Hand-scraped wood floors in the very beginning in 1800s , Hard wood floors are get finished
-                            by hand , no machines are used in this procern crafters were scraping thin layers of wood
-                            all a piece used of lomter , smoothing out the top surface , leaving the scraping marks
-                            behind , proving to next generation a piece of wood had been worked by hand , we all can see
-                            hand scrape marks in wood floors surface when we visit any of the old structures
-                            now , however we have machine and special tools that can sand & polish wood floors without
-                            leaving any marks , one of the common trends now is menuta cluing hand wood floors with
-                            these marks to look similar to the hand-scraped floors , giuling the look and feed of the
-                            historical wood floors
-                          </p>
-                          <br><br>
+                          <h4>1. Do Sweep Debris Immediately</h4>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png" alt="1" width="650" height="550">
+                        <p>Pick up large debris like paper and fallen tree leaves at once.</p>
+                            <h4>2. Do Use a Vacuum Cleaner for Sand</h4>
+                         <img class="mb-2" src="{{url('public')}}/images/wood-care/1.png" alt="1" width="650" height="550">
+                        <p>Use a vacuum machine to remove dust from the in between grooves, it is much easier than whisking.</p>
+
+                              <h4>3. Do Use Ammonia to Remove Dirt</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/2.png" alt="1" width="650" height="550">
+                        <p>Use a mixture of ammonia & warm water with ratio 1:4 to help you remove all the stuck dirt & debris , by wiping the wood with the mixture using a sponge mop.</p>
+
+                              <h4>4. Do Wipe Parallel to the Grain</h4>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/mdtMtQN1nUzQqKue53QTVW985Ex7h8l26pAlIfNp.png" alt="1" width="650" height="550">
+                        <p>Remember , always wip of remove dust parallel to the direction of wood grains</p>
 
 
-                          <h3>Distressed Wood floors :</h3>
-                          <p>When you visit any old building like a museur , or an old company or commercial shop which
-                            was built in the 1900’s you can see the wood floors distressed & marked by decades of rough
-                            use , the gouges , nail holes stains , discoloring , and saw marks .<br> homeowners today
-                            are showing their administration for the over when skill rather than technology was the king
-                            .</p>
-                            <br>
-                            <p>wood planks are getting wider . <br>
-                            Remember when you visit grandpa , the wood floors pieces are about 2 to 3 cm width , and
-                            15-20 cm length , each piece is installed perpendicular to the other giving a herringbone
-                            pattern , later on , the piece get wider and taller , and the smaller one become an old
-                            fashion , the width increased to about 6-8 cm and the length increased to about 35-40 cm ,
-                            Now , one of the latest trends is wide planks , or extra wide planks , people preture to
-                            install planks of width about 12-15 cm and to 20cm and length reaches to 180 cm .<br> Also
-                            installing mixed width planks together giving a very nice result in your home .</p>
-                        <br>
-                        <p>Exotic hardwoods with unused patterns , are now available time ago , oak was the king of wood
-                            floors all over the world , now it's time to discover the wealth that alnice have , mahogany
-                            , Iroka , sapeli , tails bete and much more wonderful types to discover . <a href="#">click
-                                here to learn more about exotic wood</a> </p>
+                              <h4>5. Do Let Your Wood Dry Completely </h4>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/5Q7ak86yCI3nFSB3jheeYxmSQtK3c6zL4zzNcsqa.png" alt="1" width="650" height="550">
+                        <p>let your wood either floors or pergola to dry completely , at leave 3-5 hours temperature +15 ℃</p>
+
+                              <h4>6. Do Use Oil-based Cleaners</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/3.png" alt="1" width="650" height="550">
+                        <p>Use a floor cleaner specially made for your hardwood, It will always be on oil-based cleaner, not water or aqua-based.</p>
 
 
-                        <h3>Chevron wood Flooring Pattern</h3>
-                        <p>instead of the traditional herringbone pattern , now the chevron pattern is much more modern
-                            & popular , matching a modern or contemporary taste , you will be satisfied with this
-                            pattern more than a traditional herringbone .
-                            <br> white , grey & greyish colors . <br>
-                            The brown tones of wood floors we use where around starts to become an old fashion , the
-                            white , grey , and greig colors now is the king not only your wood floors bat also pergolas
-                            , kitchens & dressing rooms . <br>
-                            these colors matching a modern ultramodern styles much better them brown & reddish brown
-                            colors. <br>
-                            Finally , we can say what is old on hardwood floors is new again .
-                        </p>
-                        <br>
-                        <div>
-                            <h5>Which trend do you love the most ?</h5>
-                            <p>we’d love to know</p>
-                            <h5>Do you know any other trends ?</h5>
-                            <p> ..Help us to cover all popular trends by an email or prem contact us.</p>
-                            <h5>Do you want to see these trends live ?</h5>
-                            <p> ..visit our store or book an appointment to visit our factory.</p>
-                        </div>
+                        <h3>Oil Cleaning Tips</h3> <br>
+                              <h4>1. Do Keep Wood Well-Oiled</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/4.png" alt="1" width="650" height="550">
+                        <p>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect repellent & prevents wood from cracking when exposed to high temperature.</p>
+
+                              <h4>2. Don’t Expose to Too Much Sunlight</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/5.png" alt="1" width="650" height="550">
+                        <p>When wood is exposed to direct sunlight, this oil  gradually by time will evaporate, leaving a bad look with silver-grey discolouration. According to your country's weather, and daily time of direct daily sunlight hours that your wood is exposed to, you will need to reapply oil to teak wood several times a year (between 4-8 times). Also several climatic conditions & high UV index, may cause the teak wood surface to change color silver, then it is also time to reapply teak oil.</p>
+
+                              <h4>3. Do Follow the Grains and Rub Well</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/6.png" alt="1" width="650" height="550">
+                        <p>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</p>
+
+                              <h4>4. Don't Use Too Much Oil</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/7.png" alt="1" width="650" height="550">
+                        <p>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square meter.</p>
+
+
+                          <h4>5. Do Wait For Oil to Dry To Avoid Spots</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/8.png" alt="1" width="650" height="550">
+                        <p>After one hour use a clean new rag to remove excess oil and let it completely dry before placing your furniture back to avoid spots.</p>
+
+                          <h3>Bouns Tips</h3>
+                            <h4>1. Do Wipe Spills Immediately</h4>
+                        <img class="mb-2" src="{{url('public')}}/images/wood-care/9.png" alt="1" width="650" height="550">
+                        <p>Always remove any spills immediately, to avoid spots. If you have spots, just apply a small amount of ammonia and it will disappear instantly.</p>
+
+                        <h4>2. Don’t Use Insect Repellants and Anti-rot Agents</h4>
+                      <img class="mb-2" src="{{url('public')}}/images/wood-care/10.png" alt="1" width="650" height="550">
+                      <p>You don't have to use any insect repellant for teak wood, as teak wood grains are rich with silica , which acts as a natural repellent for insects & bugs. Also, teak wood grains contain natural rubber oil which is resistant to rotting when exposed to extreme conditions.</p>
+
+                      <h4>3. Don't Forget Your Protective Gear</h4>
+                      <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/56SyFhfkqwJQI3NM8WjsFCpQrV4Ovx1DNKcNO8sC.png" alt="1" width="650" height="550">
+                      <p>Always wear rubber gloves, eye protection, and a mask while using any chemical materials.</p>
+
+
+
+
+
+                        <h4>Here are some tips to keep your wood as new</h4>
+                        <ul>
+
+                            <li>A mixture of ammonia & warm water with a ratio of 1:4 will help you to remove all the
+                                stuck on dirt & debris, by wiping the wood with the mixture using a sponge mop.</li>
+                            <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
+                                repellent & prevents wood from cracking when exposed to high temperature.</li>
+                            <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
+                                leaving a bad look with silver-grey discolouration. </li>
+                            <li>According to your country's weather, and daily time of direct daily sunlight hours that
+                                your wood is exposed to, you will need to reapply oil to teak wood several times a year
+                                (between 4-8 times).</li>
+                            <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
+                                small amount of ammonia and it will disappear instantly.</li>
+                            <li>You don't have to use any insect repellant for teak wood, as teak wood grains are rich
+                                with silica , which acts as a natural repellent for insects & bugs .</li>
+                            <li>Also teak wood grains contain natural rubber oil which is resistant to rotting when
+                                exposed to extreme conditions.</li>
+                            <li>Due to several climatic conditions & high UV index, teak wood surface may change to
+                                silver grey color, then it is time to reapply teak oil.</li>
+                            <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
+                                repellent & prevents wood from cracking when exposed to high temperature.</li>
+                            <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
+                                leaving a bad look with silver-grey discolouration. </li>
+                            <li>According to your country's weather, and daily time of direct daily sunlight hours that
+                                your wood is exposed to, you will need to reapply oil to teak wood several times a year
+                                (between 4-8 times).</li>
+                            <li>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</li>
+                            <li>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square
+                                meter.</li>
+                            <li>After one hour use a clean new rag to remove excess oil and let it completely dry before
+                                placing your furniture back to avoid spots.</li>
+                            <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
+                                small amount of ammonia and it will disappear instantly.</li>
+                            <li>You don't have to use any insect repellant for teak wood, as teak wood grains are rich
+                                with silica , which acts as a natural repellent for insects & bugs .</li>
+                            <li>Also teak wood grains contain natural rubber oil which is resistant to rotting when
+                                exposed to extreme conditions.</li>
+                            <li>Due to several climatic conditions & high UV index, teak wood surface may change to
+                                silver grey color, then it is time to reapply teak oil.</li>
+                            <li>Always wear rubber gloves, eye protection, and a mask while using any chemical
+                                materials.</li>
+                        </ul>
                         <hr>
                     </div>
 
+                    <hr>
 
                     <div class="row mt-5 mb-3" id="engineered-hardwood">
                         <h2>Engineered Hardwood flooring</h2>
@@ -1311,311 +1336,328 @@ execution',
                         </table>
                         <hr>
                     </div>
-
-
-                    <div class="row mt-5" id="outdoor-woodcare">
-                        <h2>How to Take Care of wooden pergolas & Outdoor Flooring ?</h2>
-
-                        <p class="mt-3">
-                            Wood is a beautiful option for your garden Flooring, under pergola , and outdoor area of
-                            your restaurant or cafe , also the wooden pergola itself gives your home privacy & make you
-                            have a great time outdoors, the wood grains and variety of colors when beside the wonderful
-                            green color of plants . <br> teak wood especially its very durable and has high resistance
-                            to outdoor conditions , (sun light , Heat & rain) even when installed directly as a pool
-                            decking , needs low maintenance , you just need to give it some attention to keep it as
-                            beautiful as day one .
-                        </p>
-                          <h4>1. Do Sweep Debris Immediately</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png" alt="1" width="650" height="550">
-                        <p>Pick up large debris like paper and fallen tree leaves at once.</p>
-                            <h4>2. Do Use a Vacuum Cleaner for Sand</h4>
-                        <!-- <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/K9v32jyXFTry1kQugasKirduJ3vnxXcnQbL1v4Af.png" alt="1"> -->
-                        <p>Use a vacuum machine to remove dust from the in between grooves, it is much easier than whisking.</p>
-
-                              <h4>3. Do Use Ammonia to Remove Dirt</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/K9v32jyXFTry1kQugasKirduJ3vnxXcnQbL1v4Af.png" alt="1" width="650" height="550">
-                        <p>Use a mixture of ammonia & warm water with ratio 1:4 to help you remove all the stuck dirt & debris , by wiping the wood with the mixture using a sponge mop.</p>
-
-                              <h4>4. Do Wipe Parallel to the Grain</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/mdtMtQN1nUzQqKue53QTVW985Ex7h8l26pAlIfNp.png" alt="1" width="650" height="550">
-                        <p>Remember , always wip of remove dust parallel to the direction of wood grains</p>
-
-                              <h4>5. Do Let Your Wood Dry Completely </h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/5Q7ak86yCI3nFSB3jheeYxmSQtK3c6zL4zzNcsqa.png" alt="1" width="650" height="550">
-                        <p>let your wood either floors or pergola to dry completely , at leave 3-5 hours temperature +15 ℃</p>
-
-                              <h4>6. Do Use Oil-based Cleaners</h4>
-                        <!-- <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png" alt="1"> -->
-                        <p>Use a floor cleaner specially made for your hardwood, It will always be on oil-based cleaner, not water or aqua-based.</p>
-
-                              <h4>7. Do Follow the Grains and Rub Well</h4>
-                        <!-- <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png" alt="1"> -->
-                        <p>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</p>
-
-                              <h4>8. Don't Use Too Much Oil</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/lE7nGGvEI7Tb12zTc3faACm8PqcPUWXrBNcTfXe7.png" alt="1" width="650" height="550">
-                        <p>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square meter.</p>
-
-                              <h4>9. Do Wait For Oil to Dry To Avoid Spots</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/Nmobqk9l20FgbOvhrOD4XsF3y8S2PZy1aes9nKVy.png" alt="1" width="650" height="550">
-                        <p>After one hour use a clean new rag to remove excess oil and let it completely dry before placing your furniture back to avoid spots. </p>
-
-                              <h4>10. Don't Forget Your Protective Gear</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/56SyFhfkqwJQI3NM8WjsFCpQrV4Ovx1DNKcNO8sC.png" alt="1" width="650" height="550">
-                        <p>Always wear rubber gloves, eye protection, and a mask while using any chemical materials.</p>
-                        <h4>Here are some tips to keep your wood as new</h4>
-                        <ul>
-
-                            <li>A mixture of ammonia & warm water with a ratio of 1:4 will help you to remove all the
-                                stuck on dirt & debris, by wiping the wood with the mixture using a sponge mop.</li>
-                            <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
-                                repellent & prevents wood from cracking when exposed to high temperature.</li>
-                            <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
-                                leaving a bad look with silver-grey discolouration. </li>
-                            <li>According to your country's weather, and daily time of direct daily sunlight hours that
-                                your wood is exposed to, you will need to reapply oil to teak wood several times a year
-                                (between 4-8 times).</li>
-                            <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
-                                small amount of ammonia and it will disappear instantly.</li>
-                            <li>You don't have to use any insect repellant for teak wood, as teak wood grains are rich
-                                with silica , which acts as a natural repellent for insects & bugs .</li>
-                            <li>Also teak wood grains contain natural rubber oil which is resistant to rotting when
-                                exposed to extreme conditions.</li>
-                            <li>Due to several climatic conditions & high UV index, teak wood surface may change to
-                                silver grey color, then it is time to reapply teak oil.</li>
-                            <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
-                                repellent & prevents wood from cracking when exposed to high temperature.</li>
-                            <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
-                                leaving a bad look with silver-grey discolouration. </li>
-                            <li>According to your country's weather, and daily time of direct daily sunlight hours that
-                                your wood is exposed to, you will need to reapply oil to teak wood several times a year
-                                (between 4-8 times).</li>
-                            <li>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</li>
-                            <li>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square
-                                meter.</li>
-                            <li>After one hour use a clean new rag to remove excess oil and let it completely dry before
-                                placing your furniture back to avoid spots.</li>
-                            <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
-                                small amount of ammonia and it will disappear instantly.</li>
-                            <li>You don't have to use any insect repellant for teak wood, as teak wood grains are rich
-                                with silica , which acts as a natural repellent for insects & bugs .</li>
-                            <li>Also teak wood grains contain natural rubber oil which is resistant to rotting when
-                                exposed to extreme conditions.</li>
-                            <li>Due to several climatic conditions & high UV index, teak wood surface may change to
-                                silver grey color, then it is time to reapply teak oil.</li>
-                            <li>Always wear rubber gloves, eye protection, and a mask while using any chemical
-                                materials.</li>
-                        </ul>
-                        <hr>
-                    </div>
-
-
-                    <div class="row mt5" id="woodcare-kitchen">
-                        <h2>How to take care of your kitchen counters and cabinets?</h2>
-                        <ul>
-                            <li>Clean all food spills from wood surfaces immediately & thoroughly, most foods can damage
-                                wood finishes eventually.</li>
-                            <li>Prevent spilling of acidic food or juices as much as you can on wood surfaces, such as
-                                orange juice .</li>
-                            <li>Tea, coffee & other many drinks are great, but will leave a bad-look stain on wood
-                                surfaces if they’re not cleaned immediately. </li>
-                            <li>When cleaning a wood surface, use a microfiber towel, do not use dish sponge or washing
-                                as it may damage wood surfaces. </li>
-                            <li>Clean your kitchen cabinets and surface wring clean water & mild soap with a clean ,
-                                lint-free rag.</li>
-                            <li>Use water sparingly and a towel to dry any excess , when water sits , it can penetrate
-                                the finish and raise the wood grains up leading to a rough uncleanable surface in future
-                                .</li>
-                            <li>Parallel to the wood grains direction , remove dust with dry micor-fiber towel , it is
-                                your first step to clean your kitchen </li>
-                            <li>Always use polish cream monthly to shine your kitchen instead of waxing , wax makes a
-                                shiny look but attracts dust.</li>
-                            <li>Be cautious of overuse of surface cleaners & sprays as they may contain silicon, which
-                                will make layers & layers order wood surface & results with a pale look with time .</li>
-                            <li>When it comes to wooden counter-top , it is very important to use a “Food grade mineral
-                                Oil ”.</li>
-                            <li>Open your windows as after as possible , fresh air is good and important for wood to
-                                breathe .</li>
-                            <li>Use a ventilating fan when cooking , it remove the majority of airborne smoke & grease
-                                which other wish may be absorbed by wood leading to bad smell & yellowish stains</li>
-                        </ul>
-                        <hr>
-                    </div>
-
-
-                    <div class="row mt-5" id="choose-suitable">
-                        <h2>CHOOSING THE RIGHT HARDWOOD FLOORS FOR YOUR HOME</h2>
-                        <p>Do you love the feel of natural wood on floors? If yes, here's how to choose the right
-                            hardwood floor for your home. <br>
-                            This information comes from working closely with customers in and around egypt and the
-                            Middle east, Connecticut, and answering their questions about what's available and what's
-                            best for them. Although the choices can get overwhelming, your first consideration when
-                            selecting a new hardwood floor should be the style and color which determines how your room
-                            will look and how it will make you feel. <br>
-                            Here are several points you have to take a decision for each:
-                        </p>
+                    <hr>
+                    <div class="row mt-5 " id="installation-methods">
+                      <h2>Installing Methodology</h2>
+                        <h3>installing the wood floors</h3>
                         <ol>
-                            <li>The whole design</li>
-                            <p>What you really need to feel out from your floor, and what the style matching your home
-                                and your personality, there are a wide varity of designs at the wood court showroom to
-                                choose from, however we can do a special one for you, or implement your custom design
-                                <br> Here are examples for some designs you may like <br>
-                                Classic designs
-                                Modern designs <br>Ultra modern designs <br> Vintage designs <br> Moroccan designs <br>
-                                Islamic designs <br> (Go to our product page to see more designs and patterns to choose
-                                from )
-                            </p>
-                            <li>The wood plank or tile dimension</li>
-                            <p>Today you have a vast array of choices from traditional 5cm width strips up to to 20 cm
-                                width plank floors. For years the 5cm width strip has been the popular choice for
-                                builders for new home construction. Reason being it is readily available and cost
-                                effective <br> Also you can choose from 30cm long up to 180 cm planks <br> You may love
-                                the random width, random length or both</p>
+                            <li>
+                                <h4>Nailed down installing technique.</h4>
+                                <p>most common & traditional way to install wood floors wood tiles or planks are to be
+                                    installed by nailing down on wooden subfloors , the nails are incline vertical ,
+                                    paring from wood side directly fixing it to the subfloors a dram-noise is heard
+                                    while walking on due to empty space under floor. </p>
+                            </li>
+                            <li>
+                                <h4>Gluing down installing technique</h4>
+                                <p>bonding the wood floors with the subfloors wring quedown tea is a very good and cheap
+                                    way to install your wood floors or D3 water beas glue wring Polyurethane (ol based)
+                                    D4 glue is the best way to ensure lifelong band , as the glue can dissipates shear
+                                    stream restaurant because at the different expand coaticient between the wood & the
+                                    concrete tiles or ceramic tiles ,no drum-noise is heard out all .you will get
+                                    lifetime guarantee against debonding from when purchasing from the wood court</p>
+                            </li>
+                            <li>
+                                <h4>Floating installation technique</h4>
+                                <p>installing your floors using this technique make it very easy to maintain as you can
+                                    replace any damaged piece early , the wood floors are flooded over the subfloor ,
+                                    royale the lem sheet with 2mm thickness is placed between wood & subfloor to isolate
+                                    moisture and deareane sowels when walking on , this technique also makes it very
+                                    easy to uninstall your wood floor and use it again in another place , leaving the
+                                    subfloor without any damage.</p>
+                            </li>
+                            <hr>
                         </ol>
-                        <h4>Hardwood Hardness</h4>
-                        <p>This shouldn't come as a surprise, but hardwood comes in different levels of hardness. The
-                            hardest woods are<b>teak. Pecan, Hard Maple and White Oak.</b> <br>
-                            Hard woods include <b> White Ash, Beech, Red Oak, Yellow Birch, Green Ash and Black Walnut,
-                                Cherry, Mahogany</b> <br>
-                            The least hard wood or we can tell the soft wood are different types of Pine. <br>
-                            Depending on the level of traffic and activity in your home - including kids and pets - you
-                            may be more interested in how hard a floor you select.
-                        </p>
-                        <h4>Two Types of WoodFloors to Choose From</h4>
-                        <p>Although we're discussing hardwood flooring, thanks to ongoing product development you'll
-                            find that hardwood comes in two categories: solid and engineered hardwood. <br>
-                            Let's explore.
-                        </p>
+                        <h3>Installation : </h3>
                         <ol>
-                            <li> Solid Hardwood</li>
-                            <p>Solid wood flooring is made from one continuous piece of wood and is available in strips,
-                                and planks. <br>
-                                Generally, a solid hardwood floor is 17mm upto 21mm thick plank. However, it can be
-                                manufactured in a variety of widths and thicknesses. <br>
-                                Solid hardwood floors are generally for nail down installation or glue down, floating
-                                technique is not recommended at all for solid wood flooring <br>
-                                The benefit of selecting solid hardwood floors is that you can customize it in terms of
-                                wood species, stain color as well as finishes. From a finish perspective, you can opt
-                                for unfinished or prefinished: <br>
-                            </p>
-
-                            <ul>
-                                <li>Unfinished flooring offers unlimited color stain options.</li>
-                                <li>Prefinished wood flooring features a factory applied finish with a more staining
-                                    colors availability.</li>
-                            </ul>
-                            <p>Because solid wood is sensitive to moisture, you don't want to install it below ground
-                                level or directly over a concrete slab unless you have an excellent isolating materials
-                            </p>
-                            <a href="#">Pre-Finished vs. Site Finished Hardwood: Which is Better? <br>
-                                Solid vs. Engineered Hardwood: Which is Better?</a>
-                            <li>Engineered Hardwood</li>
-                            <p>Engineered wood flooring is made from layers of wood stacked and glued together under
-                                heat and pressure. Usually, there are three to seven layers (plies) stacked with grains
-                                running perpendicular to each other. The top finish layer can be cut from a variety of
-                                domestic or exotic hardwood species and is generally factory prefinished with a
-                                polyurethane or an aluminum oxide finish for hardness. <br>
-                                Engineered floors range from 12mm to 20mm thickness and from 6cm to 20cm in width.
-                                Installation can be glued, floated, nailed or stapled. <br>
-                                All woods expand and contract with heat and humidity. However, engineered wood is more
-                                dimensionally stable than solid hardwood because the layers keep the movement in
-                                balance. As a result, it is less inclined to swell and shrink and can be installed in
-                                areas where solid wood can't such as over concrete or in high moisture areas such as
-                                kitchens, powder rooms and utility rooms, also it is the first choice when underfloor
-                                heating system exist <br>
-                                <li>Exotic Hardwood</li>
-                                <p>You may also hear the term 'exotic hardwood' used. This refers to hardwood species
-                                    from around the world. Exotic hardwood species come from Australia, Africa, South
-                                    American and the Far East. <br>
-                                    Exotic hardwoods offer unique wood graining and color variations. They are known for
-                                    their hardness and unique patterns. Most exotic woods are available in engineered
-                                    wood construction, although some are available in solid hardwood planks as well.
-                                    sapelli, ebony and Jatoba are examples of exotic hardwood.
-                                </p>
-                            </p>
+                            <h5>(A) sub-floors :</h5>
+                            <li>
+                                <h4>wooden sub floor</h4>
+                                <p>In this type of subfloor , wooden beams made of red pine wood with 5cm square section
+                                    or 5cm by 4cm rectangular section are installed with 25 to 35 pieces of concrete to
+                                    leave the floor , fixed with metal fixtures and concrete to be bended with the
+                                    floor. then 1.6cm by 10cm section of some wood type owe installed with about 2-10 cm
+                                    spaces in opposite direction to be a top subfloor laid in which wood floor fixation
+                                    takes place . <br>this is the traditional sub flooring used for more than loo years
+                                    ago , always used uptill now in nail down installation technique , </p>
+                            </li>
+                            <li>
+                                <h4>wood on tiles sub Floor</h4>
+                                <p>in this type , we use concrete tiles , mosaic tiles , low quality ceramic tiles
+                                    instead of wood for leaving process , tiles are installed regularly and flush on
+                                    concrete , are fixed on it , this method also is used for nailed down installation
+                                    technique </p>
+                            </li>
+                            <li>
+                                <h4> Concrete-based tiles subfloor</h4>
+                                <p>used always for glue down & floating installation technique , mosaic or ceramic tiles
+                                    are installed directly using concrete , for leaving them wood floors are glued down
+                                    on it floated on it using polythene sheets to prevent humidity , temperature , sound
+                                    .</p>
+                            </li>
+                            <hr>
                         </ol>
-                        <h4>Wood Stain and Finishing Techniques</h4>
-                        <p>Other factors that affect your hardwood floor look include stains and finishing techniques
-                            such as hand-scraping or brushing that adds a slight texture to the wood. <br>
-                            Hand-scraping or brushing <br>
-                            <i>Hand-scraping or brushing</i> <br>
-                            Hardwood that has either the hand-scraping or brushing is an excellent choice for active
-                            families with children and pets. These types of floors are usually found in planks 7cm and
-                            wider with the most popular being a 11cm to 13cm see the wood court hand-scrapped collection
-                            available in the most popular species such as oak, teak, maple, walnut, and cherry. <br>
-                            Below you see a hand-scraped or antiqued engineered wood floor by the wood court <br>
-                            <i>Wood stains </i>
-                            As for stains, browns and grays have been more popular in recent years, especially the grays
-                            being a favorite in the all modern homes we love now in egypt. <br>
-                            You'll also find dark stains (explore the wood court color collection) <br>
-                            <i>Natural oil vs. polyurethane finish </i>
-                            Many of our customers like European Oak floors which often have a natural oil finish instead
-                            of the traditional polyurethane finish. <br>
-                            While a polyurethane finish simply sits on top of your hardwood floor forming a film to
-                            protect the hardwood, a natural oil finish penetrates the wood and strengthens the wood
-                            fibers while enhancing the look of the floor since there is no film covering the wood. All
-                            wood floors will dent and scratch over time but with a natural oil finished floor there is
-                            no need for the mess and inconvenience of sanding and finishing as all that is needed is to
-                            reapply a new coat of oil in the affected areas. <br>
-                            <a href="#">(learn more about types of finishes ) </a>
-                        </p>
-                        <hr>
                     </div>
 
-                    <div class="row mt-5" id="teak-maintenance">
-                        <h2>TEAK DECK MAINTENANCE & THE BEST WAY TO CLEAN TEAK</h2>
-                        <p>Many people are put off the idea of teak decks by many of the horror stories that circulate.
-                            In reality, there is no reason to be frightened off and if looked after and cared for
-                            correctly they can be cared for with minimal hassle and cost. <br>Teak decks are one of the
-                            solutions for marine and outdoor decking. They also have practical benefits too.</p>
-                        <h5>Such as:-</h5>
-                        <ul>
-                            <li>Anti-slip – they are a great safety feature as the teak wood is naturally rough and
-                                therefore is anti-slip under pretty much all weather conditions.</li>
-                            <li>They also provide a good insulating effect on either the interior of the yacht or under
-                                your feet when walking on outdoors</li>
-                            <p>Correct teak deck maintenance is an important aspect of any outdoor care program and
-                                looked after correctly a teak deck will last for many years.</p>
-                            <h4>How to clean teak wood</h4>
-                            <p>Teak wood itself is made up of hard and softwood elements and whilst teak is very
-                                resilient it is very easy to drag out the softwood elements leaving ridges of hardwood.
-                                If cared for correctly a teak deck will wear naturally and should not require
-                                overhauling for between 10 – 15 years. After that it will only need to be sanded to have
-                                an extra life (most teak decks could be sanded more than 5 times) <br>
-                                Our advice is to wash it regularly as you would with fresh water fresh using only a soft
-                                brush. <br>Once or twice a year it is recommended you clean teak decking with a special
-                                teak deck cleaner. <br>
-                                Follow the manufacturers’ directions and make sure you gently scrub across the direction
-                                of the grain. <br>
-                                We recommend using a nano fiber cleaning pad. <br> <br>
-                                It is also worthwhile to inspect all your caulked seams as these can become worn over
-                                time – and you don’t want any moisture penetrating between the deck planks, so it is
-                                important to fix any worn or damaged caulking.
+
+                    <div class="mt-3" id="Articles">
+                      <h2>Articles</h2>
+
+                      <div class="row mt-5" id="teak-maintenance">
+                          <h3>Teak Deck Maintenance & The Best Way To Clean Teak</h3>
+                          <p>Many people are put off the idea of teak decks by many of the horror stories that circulate.
+                              In reality, there is no reason to be frightened off and if looked after and cared for
+                              correctly they can be cared for with minimal hassle and cost. <br>Teak decks are one of the
+                              solutions for marine and outdoor decking. They also have practical benefits too.</p>
+                          <h5>Such as:-</h5>
+                          <ul>
+                              <li>Anti-slip – they are a great safety feature as the teak wood is naturally rough and
+                                  therefore is anti-slip under pretty much all weather conditions.</li>
+                              <li>They also provide a good insulating effect on either the interior of the yacht or under
+                                  your feet when walking on outdoors</li>
+                              <p>Correct teak deck maintenance is an important aspect of any outdoor care program and
+                                  looked after correctly a teak deck will last for many years.</p>
+                              <h4>How to clean teak wood</h4>
+                              <p>Teak wood itself is made up of hard and softwood elements and whilst teak is very
+                                  resilient it is very easy to drag out the softwood elements leaving ridges of hardwood.
+                                  If cared for correctly a teak deck will wear naturally and should not require
+                                  overhauling for between 10 – 15 years. After that it will only need to be sanded to have
+                                  an extra life (most teak decks could be sanded more than 5 times) <br>
+                                  Our advice is to wash it regularly as you would with fresh water fresh using only a soft
+                                  brush. <br>Once or twice a year it is recommended you clean teak decking with a special
+                                  teak deck cleaner. <br>
+                                  Follow the manufacturers’ directions and make sure you gently scrub across the direction
+                                  of the grain. <br>
+                                  We recommend using a nano fiber cleaning pad. <br> <br>
+                                  It is also worthwhile to inspect all your caulked seams as these can become worn over
+                                  time – and you don’t want any moisture penetrating between the deck planks, so it is
+                                  important to fix any worn or damaged caulking.
+                              </p>
+                              <h5>What NOT to do;</h5>
+                              <p>Don’t use high-pressure cleaners, they will blast out the soft wood elements of the teak
+                                  leaving ridges and will force you into prematurely sanding your teak decks. <br>
+                                  Don’t use hard brushes or household cleaning detergents as again these can damage the
+                                  soft surface. <br>
+                                  Always make sure that you use proper teak cleaning solutions on your decks, as this will
+                                  ensure its longevity. <br>
+                                  At the end of the day less is best !!
+                              </p>
+                              <h5>Teak Deck Treatments</h5>
+                              <p>It is natural for teak to turn a silvery grey colour and for many, this is the
+                                  traditional way to leave teak decks. However some people prefer to keep the teak looking
+                                  like new and a freshly sanded colour.
+                              </p>
+                              <h5>There are a number of options for teak deck maintenance:-</h5>
+                              <p>Traditional Teak Oils :- We don’t like using too much oil on a deck. You have to
+                                  regularly apply it as it only lasts between 1 and 3 months and if it turns grey you have
+                                  to reapply <br>
+                                  Second option is to apply an outdoor polyurethane coat, it is very easy to use and can
+                                  be applied with a brush and rags. On freshly cleaned (dry) teak simply apply two coats.
+                                  Then depending on wear and tear you can expect to apply a further coat every 6 – 8
+                                  months but in this case the deck will be a bit slippery and scratchable </p>
+                          </ul>
+                      </div>
+                      <hr>
+                      <div class="row mt-5" id="choose-suitable">
+                          <h2>Choosing The Right Hardwood Floors For Your Home</h2>
+                          <p>Do you love the feel of natural wood on floors? If yes, here's how to choose the right
+                              hardwood floor for your home. <br>
+                              This information comes from working closely with customers in and around egypt and the
+                              Middle east, Connecticut, and answering their questions about what's available and what's
+                              best for them. Although the choices can get overwhelming, your first consideration when
+                              selecting a new hardwood floor should be the style and color which determines how your room
+                              will look and how it will make you feel. <br>
+                              Here are several points you have to take a decision for each:
+                          </p>
+                          <ol>
+                              <li>The whole design</li>
+                              <p>What you really need to feel out from your floor, and what the style matching your home
+                                  and your personality, there are a wide varity of designs at the wood court showroom to
+                                  choose from, however we can do a special one for you, or implement your custom design
+                                  <br> Here are examples for some designs you may like <br>
+                                  Classic designs
+                                  Modern designs <br>Ultra modern designs <br> Vintage designs <br> Moroccan designs <br>
+                                  Islamic designs <br> (Go to our product page to see more designs and patterns to choose
+                                  from )
+                              </p>
+                              <li>The wood plank or tile dimension</li>
+                              <p>Today you have a vast array of choices from traditional 5cm width strips up to to 20 cm
+                                  width plank floors. For years the 5cm width strip has been the popular choice for
+                                  builders for new home construction. Reason being it is readily available and cost
+                                  effective <br> Also you can choose from 30cm long up to 180 cm planks <br> You may love
+                                  the random width, random length or both</p>
+                          </ol>
+                          <h4>Hardwood Hardness</h4>
+                          <p>This shouldn't come as a surprise, but hardwood comes in different levels of hardness. The
+                              hardest woods are<b>teak. Pecan, Hard Maple and White Oak.</b> <br>
+                              Hard woods include <b> White Ash, Beech, Red Oak, Yellow Birch, Green Ash and Black Walnut,
+                                  Cherry, Mahogany</b> <br>
+                              The least hard wood or we can tell the soft wood are different types of Pine. <br>
+                              Depending on the level of traffic and activity in your home - including kids and pets - you
+                              may be more interested in how hard a floor you select.
+                          </p>
+                          <h4>Two Types of WoodFloors to Choose From</h4>
+                          <p>Although we're discussing hardwood flooring, thanks to ongoing product development you'll
+                              find that hardwood comes in two categories: solid and engineered hardwood. <br>
+                              Let's explore.
+                          </p>
+                          <ol>
+                              <li> Solid Hardwood</li>
+                              <p>Solid wood flooring is made from one continuous piece of wood and is available in strips,
+                                  and planks. <br>
+                                  Generally, a solid hardwood floor is 17mm upto 21mm thick plank. However, it can be
+                                  manufactured in a variety of widths and thicknesses. <br>
+                                  Solid hardwood floors are generally for nail down installation or glue down, floating
+                                  technique is not recommended at all for solid wood flooring <br>
+                                  The benefit of selecting solid hardwood floors is that you can customize it in terms of
+                                  wood species, stain color as well as finishes. From a finish perspective, you can opt
+                                  for unfinished or prefinished: <br>
+                              </p>
+
+                              <ul>
+                                  <li>Unfinished flooring offers unlimited color stain options.</li>
+                                  <li>Prefinished wood flooring features a factory applied finish with a more staining
+                                      colors availability.</li>
+                              </ul>
+                              <p>Because solid wood is sensitive to moisture, you don't want to install it below ground
+                                  level or directly over a concrete slab unless you have an excellent isolating materials
+                              </p>
+                              <a href="#">Pre-Finished vs. Site Finished Hardwood: Which is Better? <br>
+                                  Solid vs. Engineered Hardwood: Which is Better?</a>
+                              <li>Engineered Hardwood</li>
+                              <p>Engineered wood flooring is made from layers of wood stacked and glued together under
+                                  heat and pressure. Usually, there are three to seven layers (plies) stacked with grains
+                                  running perpendicular to each other. The top finish layer can be cut from a variety of
+                                  domestic or exotic hardwood species and is generally factory prefinished with a
+                                  polyurethane or an aluminum oxide finish for hardness. <br>
+                                  Engineered floors range from 12mm to 20mm thickness and from 6cm to 20cm in width.
+                                  Installation can be glued, floated, nailed or stapled. <br>
+                                  All woods expand and contract with heat and humidity. However, engineered wood is more
+                                  dimensionally stable than solid hardwood because the layers keep the movement in
+                                  balance. As a result, it is less inclined to swell and shrink and can be installed in
+                                  areas where solid wood can't such as over concrete or in high moisture areas such as
+                                  kitchens, powder rooms and utility rooms, also it is the first choice when underfloor
+                                  heating system exist <br>
+                                  <li>Exotic Hardwood</li>
+                                  <p>You may also hear the term 'exotic hardwood' used. This refers to hardwood species
+                                      from around the world. Exotic hardwood species come from Australia, Africa, South
+                                      American and the Far East. <br>
+                                      Exotic hardwoods offer unique wood graining and color variations. They are known for
+                                      their hardness and unique patterns. Most exotic woods are available in engineered
+                                      wood construction, although some are available in solid hardwood planks as well.
+                                      sapelli, ebony and Jatoba are examples of exotic hardwood.
+                                  </p>
+                              </p>
+                          </ol>
+                          <h4>Wood Stain and Finishing Techniques</h4>
+                          <p>Other factors that affect your hardwood floor look include stains and finishing techniques
+                              such as hand-scraping or brushing that adds a slight texture to the wood. <br>
+                              Hand-scraping or brushing <br>
+                              <i>Hand-scraping or brushing</i> <br>
+                              Hardwood that has either the hand-scraping or brushing is an excellent choice for active
+                              families with children and pets. These types of floors are usually found in planks 7cm and
+                              wider with the most popular being a 11cm to 13cm see the wood court hand-scrapped collection
+                              available in the most popular species such as oak, teak, maple, walnut, and cherry. <br>
+                              Below you see a hand-scraped or antiqued engineered wood floor by the wood court <br>
+                              <i>Wood stains </i>
+                              As for stains, browns and grays have been more popular in recent years, especially the grays
+                              being a favorite in the all modern homes we love now in egypt. <br>
+                              You'll also find dark stains (explore the wood court color collection) <br>
+                              <i>Natural oil vs. polyurethane finish </i>
+                              Many of our customers like European Oak floors which often have a natural oil finish instead
+                              of the traditional polyurethane finish. <br>
+                              While a polyurethane finish simply sits on top of your hardwood floor forming a film to
+                              protect the hardwood, a natural oil finish penetrates the wood and strengthens the wood
+                              fibers while enhancing the look of the floor since there is no film covering the wood. All
+                              wood floors will dent and scratch over time but with a natural oil finished floor there is
+                              no need for the mess and inconvenience of sanding and finishing as all that is needed is to
+                              reapply a new coat of oil in the affected areas. <br>
+                              <a href="#">(learn more about types of finishes ) </a>
+                          </p>
+                          <hr>
+                      </div>
+                      <hr>
+                      <div class="row mt-5 mb-3" id="hardwood-flooring">
+                          <h2 class="mb-3">Latest Trends in Hardwood Flooring</h2>
+                            <p>
+                              Hardwood Flooring really makes your home very welcoming & beautiful , when cared For , it
+                              will stand for long time giving you worm & positive Feelings , (For wood care click here)
+                              It is also considered as a long term investment , as Hard-wood Floors add considerable
+                              resale value to your home .<br>
+                              As clamic , as wood floors are , It continue to evolve , nowtime , there are plenty of
+                              design which can match your taste modern , clamic , contemporary , country , vintage , even
+                              ultra-modern
+                              Here are some of the latest trends you may like some of them according to your style &
+                              personality .<br>
+                              Although Fashion and design a rale in the trends , Performance , matters too , whatever the
+                              design is , it is made out of natural hardwood which care room there , living & breathing
+                              entities we are all yamiliar & comfortable with
+                          </p>
+                          <br>
+                          <p>
+                              Hardwood Flooring isn't always about protection .
+                              Hand-scraped wood floors in the very beginning in 1800s , Hard wood floors are get finished
+                              by hand , no machines are used in this procern crafters were scraping thin layers of wood
+                              all a piece used of lomter , smoothing out the top surface , leaving the scraping marks
+                              behind , proving to next generation a piece of wood had been worked by hand , we all can see
+                              hand scrape marks in wood floors surface when we visit any of the old structures
+                              now , however we have machine and special tools that can sand & polish wood floors without
+                              leaving any marks , one of the common trends now is menuta cluing hand wood floors with
+                              these marks to look similar to the hand-scraped floors , giuling the look and feed of the
+                              historical wood floors
                             </p>
-                            <h5>What NOT to do;</h5>
-                            <p>Don’t use high-pressure cleaners, they will blast out the soft wood elements of the teak
-                                leaving ridges and will force you into prematurely sanding your teak decks. <br>
-                                Don’t use hard brushes or household cleaning detergents as again these can damage the
-                                soft surface. <br>
-                                Always make sure that you use proper teak cleaning solutions on your decks, as this will
-                                ensure its longevity. <br>
-                                At the end of the day less is best !!
-                            </p>
-                            <h5>Teak Deck Treatments</h5>
-                            <p>It is natural for teak to turn a silvery grey colour and for many, this is the
-                                traditional way to leave teak decks. However some people prefer to keep the teak looking
-                                like new and a freshly sanded colour.
-                            </p>
-                            <h5>There are a number of options for teak deck maintenance:-</h5>
-                            <p>Traditional Teak Oils :- We don’t like using too much oil on a deck. You have to
-                                regularly apply it as it only lasts between 1 and 3 months and if it turns grey you have
-                                to reapply <br>
-                                Second option is to apply an outdoor polyurethane coat, it is very easy to use and can
-                                be applied with a brush and rags. On freshly cleaned (dry) teak simply apply two coats.
-                                Then depending on wear and tear you can expect to apply a further coat every 6 – 8
-                                months but in this case the deck will be a bit slippery and scratchable </p>
-                        </ul>
+                            <br><br>
+
+
+                            <h3>Distressed Wood floors :</h3>
+                            <p>When you visit any old building like a museur , or an old company or commercial shop which
+                              was built in the 1900’s you can see the wood floors distressed & marked by decades of rough
+                              use , the gouges , nail holes stains , discoloring , and saw marks .<br> homeowners today
+                              are showing their administration for the over when skill rather than technology was the king
+                              .</p>
+                              <br>
+                              <p>wood planks are getting wider . <br>
+                              Remember when you visit grandpa , the wood floors pieces are about 2 to 3 cm width , and
+                              15-20 cm length , each piece is installed perpendicular to the other giving a herringbone
+                              pattern , later on , the piece get wider and taller , and the smaller one become an old
+                              fashion , the width increased to about 6-8 cm and the length increased to about 35-40 cm ,
+                              Now , one of the latest trends is wide planks , or extra wide planks , people preture to
+                              install planks of width about 12-15 cm and to 20cm and length reaches to 180 cm .<br> Also
+                              installing mixed width planks together giving a very nice result in your home .</p>
+                          <br>
+                          <p>Exotic hardwoods with unused patterns , are now available time ago , oak was the king of wood
+                              floors all over the world , now it's time to discover the wealth that alnice have , mahogany
+                              , Iroka , sapeli , tails bete and much more wonderful types to discover . <a href="#">click
+                                  here to learn more about exotic wood</a> </p>
+
+
+                          <h3>Chevron wood Flooring Pattern</h3>
+                          <p>instead of the traditional herringbone pattern , now the chevron pattern is much more modern
+                              & popular , matching a modern or contemporary taste , you will be satisfied with this
+                              pattern more than a traditional herringbone .
+                              <br> white , grey & greyish colors . <br>
+                              The brown tones of wood floors we use where around starts to become an old fashion , the
+                              white , grey , and greig colors now is the king not only your wood floors bat also pergolas
+                              , kitchens & dressing rooms . <br>
+                              these colors matching a modern ultramodern styles much better them brown & reddish brown
+                              colors. <br>
+                              Finally , we can say what is old on hardwood floors is new again .
+                          </p>
+                          <br>
+                          <div>
+                              <h5>Which trend do you love the most ?</h5>
+                              <p>we’d love to know</p>
+                              <h5>Do you know any other trends ?</h5>
+                              <p> ..Help us to cover all popular trends by an email or prem contact us.</p>
+                              <h5>Do you want to see these trends live ?</h5>
+                              <p> ..visit our store or book an appointment to visit our factory.</p>
+                          </div>
+                          <hr>
+                      </div>
+
                     </div>
+
+
                 </div>
             </div>
     </section>
