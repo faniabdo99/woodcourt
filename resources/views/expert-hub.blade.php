@@ -1008,7 +1008,7 @@ execution',
 
                             <h3>Additional cleaning</h3>
                             <h4>3. Don't Use Furniture Sprays</h4>
-                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/ltYOrtTKV30wzAOc30SEEcNOvTRv1KQHY5kbB2Ot.png" alt="1" width="650" height="550">
+                            <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/Sj1vFB4I46KpAB5VlX9UEZHYsfp4MfaY0XUjVT1V.png" alt="1" width="650" height="550">
                             <p class="mb-4">Then it is recommended to use oil based cleaners specially made for your
                                 wood floors. Once a month</p>
                             <hr><br>
@@ -1016,11 +1016,11 @@ execution',
 
                         <div>
                             <h3>What not to use</h3>
-                            <h4>3. Don't Use Furniture Sprays</h4>
+                            <h4>4. Use Oil-Based Cleaners</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/xik2fLJjV9m32ipQFLwzvnGN2gd0pKHURPVR55hO.png" alt="1" width="650" height="550">
                             <p class="mb-4">DO NOT use furniture cleaners to clean. Your wood floors will be slippery.
                             </p>
-                              <h4>4. Use Oil-Based Cleaners</h4>
+                              <h4>5. Don't Use Chemicals, Acids, or Alcohols</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/zQ8AuYXmmmgKTIfm0PatB5JvFigvRXt0rBJV3ifA.png" alt="1" width="650" height="550">
                             <p class="mb-4">Do Not use alcohol, acids ,or chemicals to clean your wood floors. It can
                                 damage your wood flooring.</p>
@@ -1030,7 +1030,7 @@ execution',
 
                         <div>
                             <h3>What Prefer to use</h3>
-                              <h4>5. Don't Use Chemicals, Acids, or Alcohols</h4>
+                              <h4>6. Use Microfiber Towel in Direction of the Texture</h4>
                             <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/2lUhApr6VCLOLaLGB3cFWTjfwnKZT3tjWWbLK6Js.png" alt="1" width="650" height="550">
                             <p class="mb-4">Always wipe parallel to grams direction, as that will clean the grooves much
                                 better. Use a microfiber towel to clean your wood floors. It will remove stains, clean
