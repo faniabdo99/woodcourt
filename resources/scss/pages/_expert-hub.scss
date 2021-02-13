@@ -1,5 +1,6 @@
-h2{color: #0D8287;}
+h2{color: #0D8287; margin-bottom: 20px;}
 hr{width: 100%;}
+
 .row{
   @media(max-width: 576px){
     padding: 0px 10px;
@@ -14,6 +15,13 @@ hr{width: 100%;}
      top: 7%;
      margin-left: -60px;
      overflow-x: hidden;
+     .main-category-filter{
+       font-size: 16px;
+       font-weight: 500;
+     }
+     .sub-category-filter{
+       list-style:none;
+     }
      @media(max-width: 992px){
        width: 100%;
        margin-left: 0px;
@@ -22,6 +30,7 @@ hr{width: 100%;}
        margin-left: 0px;
        width: 100%;
      }
+
 
   }
 }
@@ -43,5 +52,19 @@ hr{width: 100%;}
   button:hover{
     text-decoration: none;
     color: black
+  }
+}
+#outdoor-woodcare{
+  h3{
+    width: 100%
+    text-transform:capitalize;
+
+  }
+}
+#wood-care{
+  h2{
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
   }
 }
