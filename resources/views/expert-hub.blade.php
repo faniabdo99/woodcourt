@@ -51,9 +51,9 @@
                             <ul>
                             <li class="sub-category-filter"><a href="#teak-maintenance">Teak Wood Maintenance & Cleaning</a></li>
                             <li class="sub-category-filter"><a href="#choose-suitable">How To Choose a Suitable Wood Flooring</a></li>
-                            <li class="sub-category-filter"><a href="#outdoor-woodcare">Engineered Floors VS Solid Floors</a> </li>
+                            {{-- <li class="sub-category-filter"><a href="#outdoor-woodcare">Engineered Floors VS Solid Floors</a> </li> --}}
                             <li class="sub-category-filter"><a href="#hardwood-flooring">What Is The Latest Trends In Wood Flooring</a></li>
-                            <li class="sub-category-filter"><a href="#outdoor-woodcare">What Is The HPL Boards , Why Should I Use Them?</a></li>
+                            <li class="sub-category-filter"><a href="#hpl-board">What Is The HPL Boards , Why Should I Use Them?</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -1077,33 +1077,53 @@
                     </div>
                     <hr>
                     <div class="row mt5" id="woodcare-kitchen">
-                        <h3>How to take care of your kitchen counters and cabinets?</h3>
-                        <ul>
-                            <li>Clean all food spills from wood surfaces immediately & thoroughly, most foods can damage
-                                wood finishes eventually.</li>
-                            <li>Prevent spilling of acidic food or juices as much as you can on wood surfaces, such as
-                                orange juice .</li>
-                            <li>Tea, coffee & other many drinks are great, but will leave a bad-look stain on wood
-                                surfaces if they’re not cleaned immediately. </li>
-                            <li>When cleaning a wood surface, use a microfiber towel, do not use dish sponge or washing
-                                as it may damage wood surfaces. </li>
-                            <li>Clean your kitchen cabinets and surface wring clean water & mild soap with a clean ,
-                                lint-free rag.</li>
-                            <li>Use water sparingly and a towel to dry any excess , when water sits , it can penetrate
+                        <h5>How to Take Care of Your Kitchen Counters and Cabinets?</h5>
+                        <img class="mb-2" src="{{url('public/images/wood-care/kitchens/1.png')}}" alt="1" width="650" height="550">
+                        <h5>1. Do Remove Food Spills Immediately</h5>
+                        <img class="mb-2" src="{{url('public/images/wood-care/kitchens/2.png')}}" alt="1" width="650" height="550">
+                        <p>Clean all food spills from wood surfaces immediately & thoroughly, most foods can damage wood finishes eventually.</p>
+                        <h5>2. Do Prevent Spilling Acidic Juices</ph5>
+                        <img class="mb-2" src="{{url('public/images/wood-care/kitchens/3.png')}}" alt="1" width="650" height="550">
+                            <p>Prevent spilling of acidic food or juices as much as you can on wood surfaces, such as
+                                orange juice .</p>
+                        <h5>3. Do Use Coasters Under Drinks</h5>
+                        <img class="mb-2" src="{{url('public/images/wood-care/kitchens/4.png')}}" alt="1" width="650" height="550">
+                            <p>Tea, coffee & other many drinks are great, but will leave a bad-look stain on wood
+                                surfaces if they’re not cleaned immediately. </p>
+                        <h5>4. Don’t Clean With a Sponge</h5>
+                        <img class="mb-2" src="{{url('public/images/wood-care/kitchens/5.png')}}" alt="1" width="650" height="550">
+                            <p>When cleaning a wood surface, use a microfiber towel, do not use dish sponge or washing
+                                as it may damage wood surfaces. </p>
+                            <h5>5. Do Wipe With Water and Soap</h5>
+                            <img class="mb-2" src="{{url('public/images/wood-care/kitchens/6.png')}}" alt="1" width="650" height="550">
+                            <p>Clean your kitchen cabinets and surface wring clean water & mild soap with a clean ,
+                                lint-free rag.</p>
+                                <h5>6. Don’t Use Too Much Water</h5>
+                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/7.png')}}" alt="1" width="650" height="550">
+                            <p>Use water sparingly and a towel to dry any excess , when water sits , it can penetrate
                                 the finish and raise the wood grains up leading to a rough uncleanable surface in future
-                                .</li>
-                            <li>Parallel to the wood grains direction , remove dust with dry micor-fiber towel , it is
-                                your first step to clean your kitchen </li>
-                            <li>Always use polish cream monthly to shine your kitchen instead of waxing , wax makes a
-                                shiny look but attracts dust.</li>
-                            <li>Be cautious of overuse of surface cleaners & sprays as they may contain silicon, which
-                                will make layers & layers order wood surface & results with a pale look with time .</li>
-                            <li>When it comes to wooden counter-top , it is very important to use a “Food grade mineral
-                                Oil ”.</li>
-                            <li>Open your windows as after as possible , fresh air is good and important for wood to
-                                breathe .</li>
-                            <li>Use a ventilating fan when cooking , it remove the majority of airborne smoke & grease
-                                which other wish may be absorbed by wood leading to bad smell & yellowish stains</li>
+                                .</p>
+                                <h5>7. Do Wipe Parallel to The Grain</h5>
+                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/8.png')}}" alt="1" width="650" height="550">
+                            <p>Wipe Parallel to the wood grains direction , remove dust with dry micor-fiber towel , it is
+                                your first step to clean your kitchen </p>
+                                <h5>8. Don’t Use Wax to Polish</h5>
+                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/9.png')}}" alt="1" width="650" height="550">
+                            <p>Always use polish cream monthly to shine your kitchen instead of waxing , wax makes a
+                                shiny look but attracts dust.</p>
+                                <h5>9. Don’t Overuse Silicon Cleaners</h5>
+                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/10.png')}}" alt="1" width="650" height="550">
+                            <p>Be cautious of overuse of surface cleaners & sprays as they may contain silicon, which
+                                will make layers & layers order wood surface & results with a pale look with time .</p>
+                                <h5>10. Do Use Food-grade Mineral Oil</h5>
+                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/11.png')}}" alt="1" width="650" height="550">
+                            <p>When it comes to wooden counter-top , it is very important to use a “Food grade mineral
+                                Oil ”.</p>
+                                <h5>11. Do Use a Ventilating Fan</h5>
+                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/12.png')}}" alt="1" width="650" height="550">
+                            
+                            <p>Use a ventilating fan when cooking , it remove the majority of airborne smoke & grease
+                                which other wish may be absorbed by wood leading to bad smell & yellowish stains</p>
                         </ul>
 
 
@@ -1133,8 +1153,8 @@
                         <p>Use a mixture of ammonia & warm water with ratio 1:4 to help you remove all the stuck dirt & debris , by wiping the wood with the mixture using a sponge mop.</p>
 
                               <h4>4. Do Wipe Parallel to the Grain</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/mdtMtQN1nUzQqKue53QTVW985Ex7h8l26pAlIfNp.png" alt="1" width="650" height="550">
-                        <p>Remember , always wip of remove dust parallel to the direction of wood grains</p>
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/11.png')}}" alt="1" width="650" height="550">
+                        grains</p>
 
 
                               <h4>5. Do Let Your Wood Dry Completely </h4>
@@ -1319,7 +1339,7 @@
                 </div>
                 <div class="tab-pane fade" id="nav-installation-methodology" role="tabpanel" aria-labelledby="nav-installation-methodology">
                   <div class="row mt-5 " id="installation-methods">
-                  <h2>Installing Methodology</h2>
+                  <h2>Installing Methodology</h2> 
                     <h3>installing the wood floors</h3>
                     <ol>
                         <li>
@@ -1380,6 +1400,87 @@
                     </ol>
                 </div>
                 </div>
+
+                <div class="tab-pane fade" id="nav-finishing-techniques" role="tabpanel" aria-labelledby="nav-finishing-techniques">
+                    <div class="row mt-5 " id="finishing-techniques">
+                        <p>When it comes to choosing hardwood floors, & the question is not  only solid or engineered wood Flooring, but also , site- Finish or pre finished Flools? .
+                            which one is better? and why ?
+                            well, each type has its benefits 
+                            </p>
+                            <h3>1.Site Finish:</h3>
+                            <p>When you go for site- Finish wood floors, then you are purchasing wood floors which will be shipped to your home unfinished  , to be Sanded, possibly stained and then sealed and finished with a top protective layer in your home.
+                                This process takes & a bit a long time, produces dust during sanding  , bad smell during coating. 
+                                in this type 
+                                </p>
+                                <ul>
+                                    <li>you can choose & either water, oil based polyurethane or natural oil finish</li>
+                                    <li>sheen level matte, semi gloss, high gloss</li>
+                                    <li> Custom installation patterns, borders, inlayes, medallions faturer </li>
+                                    <li>Refinishing is available.</li>
+                                    <li>In addition to square edges, or bucked edges</li>
+                                </ul>
+                                <p>Traditionally, you choose sile-finishing when time isn't critical new construction and nobody lives in site (to avoid dust) it Takes long time . (4-6) days to send and clean wood floors , ensure the site is clean , environment is stable within site , applying stain and top coating ( about 3-4 ) coats , and wait each application to dry <br> <br>
+                                    Remember , no one can go through the site during the whole process , the smell of  finishing is not pleased at all . <br> <br>Available finishes with site finishing 
+                                </p>
+                                <ol>
+                                    <li> Oil based polyurethane:</li>
+                                    <p> -Offensive odor <br>
+                                        -Not expressive  [ moderately expensive ] <br>
+                                        -Multiple coats are needed to active good finish <br> 
+                                        -Needs 3-5 days to walk on other application
+                                        </p>
+                                        <li>2- water based polyurethane:</li>
+                                        <p> Less odor <br>
+                                            Very expensive <br>
+                                            Either to repair<br>
+                                            Walk on other 24 hours <br>
+                                            Finish stays consistent over time<br> 
+                                            Healthy and environment friendly
+                                            </p>
+                                </ol>
+                                <p>
+                                    When you get site-finished floors you get seamless to however , with weather savings, graying from high temp , humidity, to low & vice versa , this option fade away , as wood is a living product , it expands and contracts leading to visible joints  
+                                    </p>
+                                    <h2>2. Pre-Finished:</h2>
+                                    <p>In the last 25 years, prefinished Floors started to grow, as harduratth Floors manufacturing become more technical in this <br>
+                                        Case, the Floor finishing is part of the manufacturer Job,
+                                        & the product shipped to your home finished 2 ready to be installed ..
+                                        </p>
+                                        <ul>
+                                            <li>surface is more durable and anti-scratch due to aluminium oxide and diamond finish</li>
+                                            <li>installation is faster & easier  dusten. You can walk in and put Furniture immediately.</li>
+                                        </ul>
+                                        <h4>Durability :</h4>
+                                        <p> when the floor manufacturer Finished the floor, it uses special Finished lines, which create <br>
+                                            Perfect environment to apply powerful chemical scalier such as alumerian & tilenum oxides embedded in a uv-cured urethane Coat <br>
+                                            the perfect <br>
+                                            the result is harder than anything applied in site the finish lasts bager &
+                                            Carries a better warranty for the homeowner. <br>
+                                            easier installation: <br>
+                                             Requires no sanding, no slaening , no sealing no top Coat as all are pre-done  in our factory You Just need  your Floors to be installed  then you can walk on immediately! <br>
+                                             easier maintenance : <br>
+                                            due to durable Finish, you will not need to refinish your Floor before a long time, however, you can easily replace damaged pieces, or refinish with sanding & Coating as if you have installed site finish Floors.
+                                            </p>
+                                            <h4>pre-Finished Floors have beveled edges not square ones  not like sile-Finish which can have either square edge or beveled ones</h4>
+                                            <h3>3.  UV-Curing Finish</h3>
+                                            <p>it is the process in which the coat a changes from liquid state to solid state under ultraviolet rays instantly in a sealed <br><br>
+                                              <b>  Finishing Live, no no dust will stick to planks, so it results with  smooth Surface unlike site finish which it is very hard to prevent very fine dust from sticking to floors
+                                                daring the long curing time and gran environment</b> <br> <br>
+                                                
+                                                Sub. Floors preparation: <br>
+                                                 For site- Finish , irregularity of subfloor is not a big problem as sending process is enough to regulate the surface <br> <br>
+                                                In care of prefinished floors , you need to ensure a perfectly Flat Subfloor scene <br>
+                                                you haven't the option of site-sandy
+                                                </p>
+
+
+
+                                
+                     
+                  </div>
+                  </div>
+
+
                 <div class="tab-pane fade" id="nav-articles" role="tabpanel" aria-labelledby="nav-articles">
                   <div class="mt-3" id="Articles">
                   <h2>Articles</h2>
@@ -1558,6 +1659,7 @@
                   </div>
                   <hr>
                   <div class="row mt-5 mb-3" id="hardwood-flooring">
+
                       <h3 class="mb-3">Latest Trends in Hardwood Flooring</h3>
                         <p>
                           Hardwood Flooring really makes your home very welcoming & beautiful , when cared For , it
@@ -1633,6 +1735,45 @@
                           <p> ..visit our store or book an appointment to visit our factory.</p>
                       </div>
                       <hr>
+                  </div>
+                  <div class="row mt-5 mb-3" id="hpl-board">
+                    <h2 class="mb-3">what is High Pressure Laminates (HPL)<h2>
+                        <h3>High Pressure Laminates (HPL) for Decorative Surfaces</h3>
+                        <p>High Pressure Laminate or HPL, is the direct descendent of the original plastic laminate. It is considered to be one of the most durable decorative surface <br>
+                            materials and is available with special performance properties including chemical, fire and wear resistance. Special grades of HPL can be postformed around curved edges by application of heat and restraint. <br>
+                           <br>
+                           HPL is produced by saturating multiple layers of kraft paper with phenolic resin. A layer of printed décor paper is placed on top of the kraft paper before pressing.<br>
+                            The resulting sandwich is fused together under heat and pressure (more than 1,000 PSI). Because phenolic and melamine resins are thermoset plastics<br>
+                           , the curing process transforms the resin into plastic by a cross linking process that converts the paper sheets into a single, rigid laminated sheet.<br>
+                            Thermosetting creates strong, irreversible bonds that contribute to its durability.
+                           <br>
+                           High pressure laminate is laminated to a composite panel utilizing a variety of adhesives. Particleboard or MDF are the preferred substrate<br>
+                            because they provide a stable, durable, consistent and economical foundation. Due to its durability, high pressure laminates are a common choice for <br>
+                           horizontal surfaces including flooring, countertops and desktops. <br>
+                           
+                           High pressure laminate (HPL) countertops aren't just for kitchens; they can stand up to the rigorous demands of science labs and classrooms.<br>
+                           It also performs well in horizontal and vertical applications for high traffic settings such as hospitality, office furniture, healthcare, retail casework,<br>
+                            commercial interiors and educational facilities.<br> <br>
+                            There are many types or grades of high pressure laminates (HPL) engineered for specific performance requirements: <br> <br> 
+                            <b>General Purpose</b> <br>
+                            Most widely used HPL and suitable for horizontal and vertical surface applications. Typical thickness range from 0.028” to 0.048” (0.71 to 1.22 mm). <br> <br>
+                            <b>Postforming</b> <br> 
+                            Can be formed around curved edges by application of heat and restraint. Maximum thickness is approximately 0.038” (0.97 mm) and can normally <br>
+                            be formed to radii as small as 3/8” (9.5 mm). <br> <br>
+                            <b>Backer</b> 
+                            HPL produced without a decorative face. Available as standard (most common; slightly thinner than decorative HPL) or regrind (reclaimed HPL with <br>
+                            decorative sheet sanded off). <br> <br>
+                            <b>Special Products</b> <br>
+                            Special purpose high pressure laminates include cabinet liners, high-wear, fire-rated, electrostatic dissipative and chemical resistant laminates. <br>
+                            In addition to aesthetic attributes, the lamination of particleboard or MDF with HPL can improve the physical performance of the substrate. <br>
+                            For example, a shelf of ¾” industrial (M-2) particleboard that is 24” long will carry 45 lbs per square foot (psf) of uniform loading with 0.133” deflection.  <br>
+                            The same shelf can carry 85 lbs psf before reaching the same deflection if overlaid with HPL. 
+
+
+                            
+                           
+                           
+                           </p>
                   </div>
                 </div>
             </div>
