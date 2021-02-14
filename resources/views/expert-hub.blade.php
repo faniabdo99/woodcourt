@@ -27,7 +27,7 @@
                             <ul class="faqs-sublist">
                                 <li class="sub-category-filter "><a href="#FAQs">FAQs For Indoor Flooring</a></li>
                                 <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Kitchens & Cabinets</a></li>
-                                <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Outdoor Floors & Pergolas</a> </li>
+                                {{-- <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Outdoor Floors & Pergolas</a> </li> --}}
                             </ul>
                         </li>
                         <li>
@@ -62,7 +62,7 @@
 
             <div class="col-lg-8">
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-FAQs" role="tabpanel" aria-labelledby="nav-FAQs">
+                <div class="tab-pane fade show active" id="FAQs" role="tabpanel" aria-labelledby="nav-FAQs">
 
                   <h2>FAQs</h2>
 
