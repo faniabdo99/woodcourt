@@ -4,7 +4,6 @@
 execution',
 'ogType' => 'Website'
 ])
-
 <body>
     @include('layout.navbar')
     <section class="hero-section" id="about-us-hero-section">
@@ -15,57 +14,52 @@ execution',
                         <h1>Expert Hub</h1>
                         <p class="mb-5">How To Take Care Of Your Wood Floors?</p>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
-
-
     <section class="container mt-5 mb-5">
         <div class="row">
             <div class="col-lg-4 col-12 expert-sidebar">
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <div class="products-sidebar mb-5" id="expert-sidebar">
-                      <ul class="filter-items">
-                          <li>
+                <div class="products-sidebar mb-5" id="expert-sidebar">
+                    <ul class="filter-items nav nav-tabs" id="nav-tab" role="tablist">
+                        <li>
                             <a class="nav-item nav-link main-category-filter active" data-toggle="tab" href="#nav-FAQs" aria-controls="nav-FAQs">FAQs</a>
-                              <ul>
-                                <li class="sub-category-filter "><a href="#FAQs">FAQs For Indoor Flooring</a></li>
-                                <li class="sub-category-filter"><a href="#FAQs-kitchens"> FAQs For Kitchens & Cabinets</a></li>
-                                <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Outdoor Floors & Pergolas</a> </li>
-                              </ul>
-                          </li>
-                          <li>
-                            <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-woodcare" aria-controls="nav-woodcare">Wood Care</a>
-                              <ul>
-                                <li class="sub-category-filter"><a href="#indoor-flooring">How to Take Care Of Your Indoor Flooring</a></li>
-                                <li class="sub-category-filter"><a href="#woodcare-kitchen">How to Take Care Of Your  Kitchens & Cabinets</a></li>
-                                <li class="sub-category-filter"><a href="#outdoor-woodcare">How to Take Care Of Your Outdoor Floors & Pergolas</a> </li>
-                              </ul>
-                          </li>
-                          <li>
-                            <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-engineered-floors" aria-controls="nav-engineered-floors">Engineered HardWood Flooring</a></li>
-                          <li>
-                            <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-installation-methodology" aria-controls="nav-installation-methodology">Installation Methodology</a>
-                          </li>
-                          <li>
-                            <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-finishing-techniques" aria-controls="nav-finishing-techniques">Finishing Techniques</a>
-                          </li>
-                          <li>
-                            <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-articles" aria-controls="nav-articles">Articles</a>
-                              <ul>
-                                <li class="sub-category-filter"><a href="#teak-maintenance">Teak Wood Maintenance & Cleaning</a></li>
-                                <li class="sub-category-filter"><a href="#choose-suitable">How To Choose a Suitable Wood Flooring</a></li>
-                                <li class="sub-category-filter"><a href="#outdoor-woodcare">Engineered Floors VS Solid Floors</a> </li>
-                                <li class="sub-category-filter"><a href="#hardwood-flooring">What Is The Latest Trends In Wood Flooring</a> </li>
-                                <li class="sub-category-filter"><a href="#outdoor-woodcare">What Is The HPL Boards , Why Should I Use Them?</a> </li>
-                              </ul>
-                          </li>
-                      </ul>
-                  </div>
+                            <ul>
+                            <li class="sub-category-filter "><a href="#FAQs">FAQs For Indoor Flooring</a></li>
+                            <li class="sub-category-filter"><a href="#FAQs-kitchens"> FAQs For Kitchens & Cabinets</a></li>
+                            <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Outdoor Floors & Pergolas</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                        <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-woodcare" aria-controls="nav-woodcare">Wood Care</a>
+                            <ul>
+                            <li class="sub-category-filter"><a href="#indoor-flooring">How to Take Care Of Your Indoor Flooring</a></li>
+                            <li class="sub-category-filter"><a href="#woodcare-kitchen">How to Take Care Of Your  Kitchens & Cabinets</a></li>
+                            <li class="sub-category-filter"><a href="#outdoor-woodcare">How to Take Care Of Your Outdoor Floors & Pergolas</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                        <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-engineered-floors" aria-controls="nav-engineered-floors">Engineered HardWood Flooring</a></li>
+                        <li>
+                        <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-installation-methodology" aria-controls="nav-installation-methodology">Installation Methodology</a>
+                        </li>
+                        <li>
+                        <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-finishing-techniques" aria-controls="nav-finishing-techniques">Finishing Techniques</a>
+                        </li>
+                        <li>
+                        <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-articles" aria-controls="nav-articles">Articles</a>
+                            <ul>
+                            <li class="sub-category-filter"><a href="#teak-maintenance">Teak Wood Maintenance & Cleaning</a></li>
+                            <li class="sub-category-filter"><a href="#choose-suitable">How To Choose a Suitable Wood Flooring</a></li>
+                            <li class="sub-category-filter"><a href="#outdoor-woodcare">Engineered Floors VS Solid Floors</a> </li>
+                            <li class="sub-category-filter"><a href="#hardwood-flooring">What Is The Latest Trends In Wood Flooring</a> </li>
+                            <li class="sub-category-filter"><a href="#outdoor-woodcare">What Is The HPL Boards , Why Should I Use Them?</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-              </div>
+            </div>
 
             <div class="col-lg-8">
               <div class="tab-content" id="nav-tabContent">
@@ -936,10 +930,6 @@ execution',
                               </div>
                           </div>
                       </div>
-
-
-
-
                       <div class="card">
                           <div class="card-header" id="heading-FAQ-38">
                               <h2 class="mb-0">
