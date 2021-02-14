@@ -1153,7 +1153,7 @@
                         <p>Use a mixture of ammonia & warm water with ratio 1:4 to help you remove all the stuck dirt & debris , by wiping the wood with the mixture using a sponge mop.</p>
 
                               <h4>4. Do Wipe Parallel to the Grain</h4>
-                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads                                <img class="mb-2" src="{{url('public/images/wood-care/kitchens/11.png')}}" alt="1" width="650" height="550">
+                        <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/mdtMtQN1nUzQqKue53QTVW985Ex7h8l26pAlIfNp.png" alt="1" width="650" height="550">
                         grains</p>
 
 
@@ -1201,53 +1201,6 @@
                       <img class="mb-2" src="http://thewoodcourt.com/storage/app/public/uploads/56SyFhfkqwJQI3NM8WjsFCpQrV4Ovx1DNKcNO8sC.png" alt="1" width="650" height="550">
                       <p>Always wear rubber gloves, eye protection, and a mask while using any chemical materials.</p>
 
-
-
-
-
-                        <h4>Here are some tips to keep your wood as new</h4>
-                        <ul>
-
-                            <li>A mixture of ammonia & warm water with a ratio of 1:4 will help you to remove all the
-                                stuck on dirt & debris, by wiping the wood with the mixture using a sponge mop.</li>
-                            <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
-                                repellent & prevents wood from cracking when exposed to high temperature.</li>
-                            <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
-                                leaving a bad look with silver-grey discolouration. </li>
-                            <li>According to your country's weather, and daily time of direct daily sunlight hours that
-                                your wood is exposed to, you will need to reapply oil to teak wood several times a year
-                                (between 4-8 times).</li>
-                            <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
-                                small amount of ammonia and it will disappear instantly.</li>
-                            <li>You don't have to use any insect repellant for teak wood, as teak wood grains are rich
-                                with silica , which acts as a natural repellent for insects & bugs .</li>
-                            <li>Also teak wood grains contain natural rubber oil which is resistant to rotting when
-                                exposed to extreme conditions.</li>
-                            <li>Due to several climatic conditions & high UV index, teak wood surface may change to
-                                silver grey color, then it is time to reapply teak oil.</li>
-                            <li>Teak wood has natural oil that keeps mold down, this natural oil also works as an insect
-                                repellent & prevents wood from cracking when exposed to high temperature.</li>
-                            <li>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
-                                leaving a bad look with silver-grey discolouration. </li>
-                            <li>According to your country's weather, and daily time of direct daily sunlight hours that
-                                your wood is exposed to, you will need to reapply oil to teak wood several times a year
-                                (between 4-8 times).</li>
-                            <li>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</li>
-                            <li>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square
-                                meter.</li>
-                            <li>After one hour use a clean new rag to remove excess oil and let it completely dry before
-                                placing your furniture back to avoid spots.</li>
-                            <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
-                                small amount of ammonia and it will disappear instantly.</li>
-                            <li>You don't have to use any insect repellant for teak wood, as teak wood grains are rich
-                                with silica , which acts as a natural repellent for insects & bugs .</li>
-                            <li>Also teak wood grains contain natural rubber oil which is resistant to rotting when
-                                exposed to extreme conditions.</li>
-                            <li>Due to several climatic conditions & high UV index, teak wood surface may change to
-                                silver grey color, then it is time to reapply teak oil.</li>
-                            <li>Always wear rubber gloves, eye protection, and a mask while using any chemical
-                                materials.</li>
-                        </ul>
                     </div>
                 </div></div>
                 <div class="tab-pane fade" id="nav-engineered-floors" role="tabpanel" aria-labelledby="nav-engineered-floors">
