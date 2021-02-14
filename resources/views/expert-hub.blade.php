@@ -1,7 +1,6 @@
 @include('layout.header', [
 'PageTitle' => 'Expert Hub',
-'Description' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design
-execution',
+'Description' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution',
 'ogType' => 'Website'
 ])
 <body>
@@ -20,23 +19,23 @@ execution',
     </section>
     <section class="container mt-5 mb-5">
         <div class="row">
-            <div class="col-lg-4 col-12 expert-sidebar">
-                <div class="products-sidebar mb-5" id="expert-sidebar">
+            <div class="col-lg-4 col-12 ">
+                <div class="products-sidebar mb-5" id="expert-hub-sidebar">
                     <ul class="filter-items nav nav-tabs" id="nav-tab" role="tablist">
                         <li>
                             <a class="nav-item nav-link main-category-filter active" data-toggle="tab" href="#nav-FAQs" aria-controls="nav-FAQs">FAQs</a>
-                            <ul>
-                            <li class="sub-category-filter "><a href="#FAQs">FAQs For Indoor Flooring</a></li>
-                            <li class="sub-category-filter"><a href="#FAQs-kitchens"> FAQs For Kitchens & Cabinets</a></li>
-                            <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Outdoor Floors & Pergolas</a> </li>
+                            <ul class="faqs-sublist">
+                                <li class="sub-category-filter "><a href="#FAQs">FAQs For Indoor Flooring</a></li>
+                                <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Kitchens & Cabinets</a></li>
+                                <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Outdoor Floors & Pergolas</a> </li>
                             </ul>
                         </li>
                         <li>
                         <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-woodcare" aria-controls="nav-woodcare">Wood Care</a>
                             <ul>
-                            <li class="sub-category-filter"><a href="#indoor-flooring">How to Take Care Of Your Indoor Flooring</a></li>
-                            <li class="sub-category-filter"><a href="#woodcare-kitchen">How to Take Care Of Your  Kitchens & Cabinets</a></li>
-                            <li class="sub-category-filter"><a href="#outdoor-woodcare">How to Take Care Of Your Outdoor Floors & Pergolas</a> </li>
+                                <li class="sub-category-filter"><a href="#indoor-flooring">How to Take Care Of Your Indoor Flooring</a></li>
+                                <li class="sub-category-filter"><a href="#woodcare-kitchen">How to Take Care Of Your  Kitchens & Cabinets</a></li>
+                                <li class="sub-category-filter"><a href="#outdoor-woodcare">How to Take Care Of Your Outdoor Floors & Pergolas</a> </li>
                             </ul>
                         </li>
                         <li>
@@ -53,8 +52,8 @@ execution',
                             <li class="sub-category-filter"><a href="#teak-maintenance">Teak Wood Maintenance & Cleaning</a></li>
                             <li class="sub-category-filter"><a href="#choose-suitable">How To Choose a Suitable Wood Flooring</a></li>
                             <li class="sub-category-filter"><a href="#outdoor-woodcare">Engineered Floors VS Solid Floors</a> </li>
-                            <li class="sub-category-filter"><a href="#hardwood-flooring">What Is The Latest Trends In Wood Flooring</a> </li>
-                            <li class="sub-category-filter"><a href="#outdoor-woodcare">What Is The HPL Boards , Why Should I Use Them?</a> </li>
+                            <li class="sub-category-filter"><a href="#hardwood-flooring">What Is The Latest Trends In Wood Flooring</a></li>
+                            <li class="sub-category-filter"><a href="#outdoor-woodcare">What Is The HPL Boards , Why Should I Use Them?</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -1635,27 +1634,31 @@ execution',
                       </div>
                       <hr>
                   </div>
-
                 </div>
-                </div>
-              </div>
             </div>
+        </div>
+    </div>
     </section>
     @include('layout.scripts')
     <script type="text/javascript">
-          $('.sub-category-filter a').click(function(e) {
-
-            var id = $(this).attr('href');
-            var $id = $(id);
-            if ($id.length === 0) {
-                return;
-            }
-            e.preventDefault();
-            var pos = ($id.offset().top - 100);
-            $('body, html').animate({
-                scrollTop: pos
-            }, 1500);
-          });
+        $('.filter-items .main-category-filter').click(function(){
+            //Hide all open uls
+            $('.filter-items .main-category-filter').next('ul').slideUp('fast');
+            //SHow the current selected one
+            $(this).next('ul').slideDown();
+        });
+        $('.sub-category-filter a').click(function(e) {
+        var id = $(this).attr('href');
+        var $id = $(id);
+        if ($id.length === 0) {
+            return;
+        }
+        e.preventDefault();
+        var pos = ($id.offset().top - 100);
+        $('body, html').animate({
+            scrollTop: pos
+        }, 1500);
+        });
 
     </script>
 
