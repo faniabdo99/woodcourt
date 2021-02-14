@@ -2152,6 +2152,7 @@ time {
 }
 h2 {
   color: #0D8287;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -2160,8 +2161,13 @@ hr {
 
 @media (max-width: 576px) {
   .row {
-    padding: 0px 10px;
+    padding: 0 10px;
   }
+}
+
+#expert-sidebar {
+  height: 600px;
+  overflow-y: scroll;
 }
 
 .expert-sidebar {
@@ -2169,12 +2175,14 @@ hr {
 }
 .expert-sidebar .products-sidebar {
   width: 100%;
+  height: 300px;
   position: -webkit-sticky;
   position: sticky;
   z-index: 1;
   top: 7%;
   margin-left: -60px;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 .expert-sidebar .products-sidebar .main-category-filter {
   font-size: 16px;
@@ -2186,12 +2194,12 @@ hr {
 @media (max-width: 992px) {
   .expert-sidebar .products-sidebar {
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media (max-width: 1200px) {
   .expert-sidebar .products-sidebar {
-    margin-left: 0px;
+    margin-left: 0;
     width: 100%;
   }
 }
@@ -2217,6 +2225,7 @@ hr {
 
 #outdoor-woodcare h3 {
   width: 100%;
+  text-transform: capitalize;
 }
 
 #wood-care h2 {
