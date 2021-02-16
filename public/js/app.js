@@ -107,7 +107,7 @@ $(window).scroll(function () {
       }
 
       $(".navbar").css('height', 0).css('opacity', 0).css('transition', 'all ease 0.3s');
-    }, 600));
+    }, 3000));
 
     if ($(window).scrollTop() < 200) {
       $(".navbar").css('position', 'relative').css('top', initial).css('transition', 'all ease 0.3s');
