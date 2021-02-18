@@ -1379,6 +1379,47 @@
             </div>
         </div>
     </section>
+    <section class="expert-hub-cta text-center py-5">
+        <h2 class="text-center d-inline-block section-title">Expert Hub</h2>
+        <div class="container">
+          <div class="row mt-5">
+            <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
+              <div class="row section-mob-style">
+                <div class="col-sm-5 col-lg-12  image-section">
+                  <img class="mb-2" src="{{url('public')}}/images/expert-hub/wood-floors.svg" alt="">
+                </div>
+                <div class="col-sm-7 col-lg-12 mt-3">
+                  <h3>Wood Care Techniques</h3>
+                  <p>Get advanced knowledge on how to take care of your wooden possestions like floors and kitchens</p>
+                </div>
+              </div>
+              </div>
+              <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
+                <div class="row section-mob-style">
+                  <div class="col-sm-5 col-lg-12 image-section ">
+                    <img class="mb-2" src="{{url('public')}}/images/expert-hub/faq.svg" alt="">
+                  </div>
+                  <div class="col-sm-7 col-lg-12 mt-3">
+                    <h3>Frequently Asked Questions</h3>
+                    <p>Answer most of your questions about wood floors and other items</p>
+                  </div>
+                </div>
+                </div>
+                <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
+                  <div class="row section-mob-style">
+                        <div class="col-sm-5 col-lg-12 image-section ">
+                              <img class="mb-2" src="{{url('public')}}/images/expert-hub/articles.svg" alt="">
+                        </div>
+                        <div class="col-sm-7 col-lg-12 mt-3">
+                            <h3>Articles</h3>
+                           <p>Stay up-to-date about new wood care techniques and methedology</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <a class="mb-3 icon-button" href="{{route('expert-hub')}}">Enter Experts Hub</a>
+    </section>
     <section class="homepage-videos-grid">
       <div class="container">
           <div class="row">

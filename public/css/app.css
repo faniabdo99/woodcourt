@@ -920,6 +920,37 @@ a:hover {
   height: 100px;
 }
 
+.expert-hub-cta {
+  background: black;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7203256303) 100%, #c1c1cb 100%, #00d4ff 100%), url("../images/expert-hub/expert-hub-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.expert-hub-cta .section-title {
+  color: #fff;
+}
+.expert-hub-cta h3 {
+  font-size: 1.3em;
+}
+.expert-hub-cta img {
+  width: 130px;
+}
+@media (max-width: 992px) {
+  .expert-hub-cta .container .section-mob-style {
+    justify-content: center;
+    text-align: left;
+  }
+  .expert-hub-cta .container .section-mob-style .image-section {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .expert-hub-cta .container .section-mob-style img {
+    margin-right: auto;
+    width: 80px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
