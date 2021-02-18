@@ -38,6 +38,7 @@
                 <li class="nav-item dropdown">
                    <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <i class="fas fa-chevron-down"></i></a>
                    <div class="dropdown-menu" aria-labelledby="woodCare">
+                     <a class="dropdown-item" href="{{route('category.wood-flooring')}}">All</a>
                      <a class="dropdown-item" href="{{route('category.wood-flooring')}}">Hardwood Floor</a>
                      <a class="dropdown-item" href="{{route('category.cabinets')}}">Kitchens and Cabinets</a>
                      <a class="dropdown-item" href="{{route('category.outdoor')}}">Outdoor Wood Flooring & Pergolas</a>

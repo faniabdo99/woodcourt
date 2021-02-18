@@ -1,8 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@getHome')->name('home');
-//Route::get('/', 'PagesController@getSoonPage');
-//Route::get('/home', 'PagesController@getHome')->name('home');
 Route::get('about-us' , 'PagesController@getAboutUs')->name('about');
 Route::get('our-factory' , 'PagesController@getOurFactory')->name('factory');
 Route::get('contact' , 'ContactController@getContact')->name('contact');
@@ -83,8 +81,4 @@ Route::get('outdoor','MarketingController@getOutdoor')->name('category.outdoor')
 Route::get('outdoor/teak-flooring','MarketingController@getTeakFlooring')->name('category.outdoor.teak-flooring');
 Route::get('outdoor/shower-units','MarketingController@getShowerUnits')->name('category.outdoor.shower-units');
 Route::get('outdoor/pergolas','MarketingController@getPergolas')->name('category.outdoor.pergolas');
-
-
-
-
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');

@@ -11,10 +11,23 @@ execution',
         <div class="dark-overlap">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-lg-7 col-12">
                         <h1>Expert Hub</h1>
                         <p class="mb-5">How To Take Care Of Your Wood Floors?</p>
                     </div>
+                    <div class="col-12 col-lg-5 hero-section-content">
+                        <div class="social-media-hero">
+                          <h3>Contact Us</h3>
+                          <p>Find Us On Social Media</p>
+                          <ul>
+                            <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                            <li class="instagram-li"><a href="https://www.instagram.com/thewoodcourt/" target="_blank "><i class="fab fa-instagram"></i> <span>@thewoodcourt</span></a></li>
+                            <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a></li>
+                            <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                            <li class="youtube-li"><a href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ" target="_blank "><i class="fab fa-youtube"></i> <span>The Wood Court</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -1461,39 +1474,26 @@ execution',
                     <div class="tab-pane fade" id="nav-engineered-floors" role="tabpanel"
                         aria-labelledby="nav-engineered-floors">
                         <div class="row mt-5 mb-3" id="engineered-hardwood">
-                            <h2>Engineered Hardwood flooring</h2>
-                            <p>the world (engineered) before hardwoods is to indicate that <br> <br>
-                                the floor planks are made of multilayer <br> <br>
-                                <b>
-                                    A.base Lawyer <br>
-                                    B. Top Layer <br>
-                                    see Fig(1) <br>
-                                </b>
+                            <h2>Engineered Hardwood Flooring</h2>
+                            <p>the word (engineered) before hardwoods is to indicate that the floor planks are made of multilayer <br> <br>
+                                <b>A.base Layer</b><br>
+                                <b>B. Top Layer</b><br>
+                                see Fig(1) <br>
                             </p>
                             <ul>
-                                <li> <b>(A)the base layer :</b>
-                                    <p>the base layer is consisting of about 7-9 layers of plywood each layer is banked
-                                        with
-                                        the previous one amki-grained [ the grains each layer is 90° related to the
-                                        previous
-                                        on ] see Figure (2) This method gives very high dimensional stability and makes
-                                        the
+                                <li><b>(A) the base layer :</b>
+                                    <p>the base layer is consisting of about 7-9 layers of plywood each layer is banked with
+                                        the previous one amki-grained [ the grains each layer is 90° related to the previous
+                                        on ] see Figure (2) This method gives very high dimensional stability and makes the
                                         planks also to be installed over any loved subfloor.</p>
                                 </li>
                                 <li><b>(B) the Top Layer</b>
-                                    <p>the top layer is the expression wood type , it is bonded to the base layer under
-                                        high
-                                        pressure (about 5 KG/cm) and 70°c temperature , this layer is also to be sanded
-                                        re
-                                        coated several times [up to more than 6 times ] according to its thickener 4 ,
-                                        6, or
-                                        9 mm .</p>
+                                    <p>the top layer is the expression wood type , it is bonded to the base layer under high
+                                        pressure (about 5 KG/cm) and 70°c temperature , this layer is also to be standedre
+                                        coated several times [up to more than 6 times ] according to its thickener 4 , 6, or 9 mm .</p>
                                 </li>
                             </ul>
-                            <p>Now we can say engineered wood flooring has more dimensional stability , then deformation
-                                in
-                                share when exposed to high / low temperature or humidity . be aware of the (antigraned)
-                                bottom layer. </p>
+                            <p>Now we can say engineered wood flooring has more dimensional stability , then deformation in share when exposed to high / low temperature or humidity . be aware of the (antigraned) bottom layer. </p>
                             <h4>Time to talk about finish ?</h4>
                             <p>you can ask for a refinished engineered flooring in which coating are by the menutaclured
                                 in

@@ -5,13 +5,10 @@
 //Show Navbar Only on Scroll
 $(window).scroll(function() {
     if($(window).width() > 992){
-      clearTimeout($.data(this, 'scrollTimer'));
-      $.data(this, 'scrollTimer', setTimeout(function() {
         if($(window).scrollTop() < 200 ){
           $(".navbar").css('position' ,'relative').css('top' , initial).css('transition' , 'all ease 0.3s');
         }
         $(".navbar").css('height' ,0).css('opacity' , 0).css('transition' , 'all ease 0.3s');
-      }, 3000));
     if($(window).scrollTop() < 200){
       $(".navbar").css('position' ,'relative').css('top' , initial).css('transition' , 'all ease 0.3s');
     }
@@ -206,7 +203,7 @@ $('#submit-contact-form').click(function(e) {
 //Show the Back to Top Button
 $(window).scroll(function() {
   var scrollPercent = 100 * $(window).scrollTop()/($(document).height() - $(window).height());
-  if (scrollPercent > 60) { //Show the Button after 50% of the page
+  if (scrollPercent > 15) { //Show the Button after 50% of the page
     $("#back-to-top").css('right', '50px').css('transition', 'all ease .6s');
   } else {
     $("#back-to-top").css('right', '-100px').css('transition', 'all ease .6s');
@@ -240,6 +237,35 @@ $("img").on("contextmenu",function(){
     ],
 });
 //smooth scroll
+
+(function() {
+  'use strict';
+  // define variables
+  var items = document.querySelectorAll(".timeline li");
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+  }
+
+  function callbackFunc() {
+      for (var i = 0; i < items.length; i++) {
+          if (isElementInViewport(items[i])) {
+              items[i].classList.add("in-view");
+          }
+      }
+  }
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})();
 
 //Counter
 $(window).scroll(function() {
