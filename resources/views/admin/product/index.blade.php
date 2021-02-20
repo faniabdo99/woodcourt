@@ -1,7 +1,7 @@
 @include('layout.header', ['PageTitle' => 'All Products'])
 <body>
     @include('layout.navbar')
-    <div class="container py-5">
+    <div class="container-fluid py-5">
       <div class="row">
         <div class="col-12">
           <h1>All Products ({{$AllProducts->count()}})</h1>
@@ -9,8 +9,10 @@
           <a class="text-success font-weight-bold" href="{{route('admin.product.getNew')}}">+ Add New</a></p>
           <table id="data-table" class="table table-striped">
             <thead>
+              <th>#</th>
               <th>Title</th>
               <th>Slug</th>
+              <th>Image</th>
               <th>Category</th>
               <th>Description</th>
               <th>Actions</th>
@@ -18,8 +20,10 @@
             <tbody>
               @forelse ($AllProducts as $Product)
                 <tr>
+                  <td>{{$Product->serial_number}}</td>
                   <td>{{$Product->title}}</td>
                   <td>{{$Product->slug}}</td>
+                  <td><img width="100" height="100" src="{{$Product->ImagePath}}"></td>
                   <td>{{$Product->Category->title}}</td>
                   <td>{{strip_tags($Product->ShortDescription)}}</td>
                   <td>
