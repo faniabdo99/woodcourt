@@ -23,7 +23,7 @@
                   <td>{{$Product->serial_number}}</td>
                   <td>{{$Product->title}}</td>
                   <td>{{$Product->slug}}</td>
-                  <td><img width="100" height="100" src="{{$Product->ImagePath}}"></td>
+                  <td><img width="100" height="100" src="{{$Product->ThumbPath}}"></td>
                   <td>{{$Product->Category->title}}</td>
                   <td>{{strip_tags($Product->ShortDescription)}}</td>
                   <td>
