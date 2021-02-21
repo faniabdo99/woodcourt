@@ -7,7 +7,7 @@ Route::get('contact' , 'ContactController@getContact')->name('contact');
 Route::post('contact-limited-edition' , 'ContactController@postLimitedEdition')->name('contactLimitedEdition');
 Route::post('upload-product' , 'ProductController@postNew')->name('postNewProduct');
 Route::prefix('products')->group(function(){
-  Route::get('/{slug}' , 'PhotosController@getSingle')->name('products.single');
+  Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'PhotosController@getUserHome')->name('products');
 });
 Route::prefix('events')->group(function(){
