@@ -34,7 +34,7 @@
                 <td><a class="text-success font-weight-bold" href="{{route('admin.photos.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.photos.all')}}"><i class="fas fa-edit"></i> View All</a></td>
               </tr>
               <tr>
-                <td>Events</td>
+                <td>Events / Blog</td>
                 <td>{{$EventsCount}}</td>
                 <td><a class="text-success font-weight-bold" href="{{route('admin.getNewEvent')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.allEvents')}}"><i class="fas fa-edit"></i> View All</a></td>
               </tr>

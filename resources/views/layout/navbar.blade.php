@@ -58,6 +58,7 @@
                     </div>
                   </li> -->
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('blogs')}}">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
                 <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#exampleModal">Get a Quote</a></li>
                   @auth

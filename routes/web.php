@@ -14,6 +14,10 @@ Route::prefix('events')->group(function(){
   Route::get('/' , 'EventsController@getUserHome')->name('events');
   Route::get('/{slug}' , 'EventsController@getSingle')->name('events.single');
 });
+Route::prefix('blog')->group(function(){
+  Route::get('/' , 'EventsController@getBlogUserHome')->name('blogs');
+  Route::get('/{slug}' , 'EventsController@getBlogSingle')->name('blog.single');
+});
 Route::middleware('guest')->group(function(){
   Route::get('login' , 'AuthController@getLogin')->name('login');
   Route::post('login' , 'AuthController@postLogin')->name('login.post');
@@ -64,9 +68,6 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
     });
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
-
-
-
 //Marketing Pages Routes
 Route::get('wood-flooring','MarketingController@getWoodFlooring')->name('category.wood-flooring');
 Route::get('wood-flooring/engineered-floors','MarketingController@getEngineeredFloors')->name('category.wood-flooring.engineered-floors');
