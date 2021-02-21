@@ -14,27 +14,23 @@ execution',
                     <div class="col-lg-7 col-12">
                         <h1>Expert Hub</h1>
                         <p class="mb-5">How To Take Care Of Your Wood Floors?</p>
-
                         <div class="row ">
-
-                          <div class="col-lg-4 ">
+                          <div class="col-lg-4  col-md-4 col-sm-4 col-4">
                             <div class="row icons-row d-flex ">
                               <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/wood-floors.svg" alt="" >
+                                <a href="#toturials">   <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/wood-floors.svg" alt="" ></a>
                               </div>
                               <div class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
                                 <h4>Tutorials</h4>
                                 <p>Get advanced knowledge on how to take care of your wooden possestions like floors and kitchens</p>
                               </div>
-
                             </div>
                           </div>
-
-
-                          <div class="col-lg-4 ">
+                          <div class="col-lg-4  col-md-4 col-sm-4 col-4">
                             <div class="row icons-row d-flex ">
                               <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/articles.svg" alt="" >
+                                <a href="resources"> <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/articles.svg" alt="" >
+                                </a>
                               </div>
                               <div class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
                                 <h4>Resources</h4>
@@ -43,64 +39,19 @@ execution',
 
                             </div>
                           </div>
-
-
-
-                          <div class="col-lg-4 ">
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                             <div class="row icons-row d-flex ">
                               <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/faq.svg" alt="" >
+                                <a href="FAQs-section"> <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/faq.svg" alt="" > </a>
                               </div>
                               <div class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
-                                <h4>Frequently Asked Questions</h4>
+                                <h4>FAQs</h4>
                                 <p>Answer most of your questions about wood floors and other items</p>
                               </div>
-
                             </div>
                           </div>
-
-
                         </div>
-                    </div>
-
-<!--
-                    <div class="container">
-                      <div class="row ">
-                        <div class=" col-lg-4 col-md-12 col-sm-12">
-                          <div class="row section-mob-style">
-                            <div class="col-sm-5 col-lg-12  image-section">
-                              <img class="mb-2" src="{{url('public')}}/images/expert-hub/wood-floors.svg" alt="">
-                            </div>
-                            <div class="col-sm-7 col-lg-12 mt-3">
-                              <h3>Wood Care Techniques</h3>
-                              <p>Get advanced knowledge on how to take care of your wooden possestions like floors and kitchens</p>
-                            </div>
-                          </div>
-                          </div>
-                          <div class=" col-lg-4 col-md-12 col-sm-12">
-                            <div class="row section-mob-style">
-                              <div class="col-sm-5 col-lg-12 image-section ">
-                                <img class="mb-2" src="{{url('public')}}/images/expert-hub/faq.svg" alt="">
-                              </div>
-                              <div class="col-sm-7 col-lg-12 mt-3">
-                                <h3>Frequently Asked Questions</h3>
-                                <p>Answer most of your questions about wood floors and other items</p>
-                              </div>
-                            </div>
-                            </div>
-                            <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
-                              <div class="row section-mob-style">
-                                    <div class="col-sm-5 col-lg-12 image-section ">
-                                          <img class="mb-2" src="{{url('public')}}/images/expert-hub/articles.svg" alt="">
-                                    </div>
-                                    <div class="col-sm-7 col-lg-12 mt-3">
-                                        <h3>Articles</h3>
-                                       <p>Stay up-to-date about new wood care techniques and methedology</p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                </div> -->
+                    </div>   
                     <div class="col-12 col-lg-5 hero-section-content">
                         <div class="social-media-hero">
                           <h3>Contact Us</h3>
@@ -124,7 +75,7 @@ execution',
                 <div class="products-sidebar mb-5" id="expert-hub-sidebar">
                     <ul class="filter-items nav nav-tabs" id="nav-tab" role="tablist">
                         <li>
-                          <a class="nav-item nav-link  main-category-filter" data-toggle="tab" href="#nav-toturial">Tutorials</a>
+                          <a class="nav-item nav-link main-category-filter" id="toturials" data-toggle="tab" href="#nav-toturial">Tutorials</a>
                           <ul>
                             <li>
                                 <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#nav-woodcare">Wood Care</a>
@@ -141,9 +92,8 @@ execution',
                                 <a class="nav-item nav-link main-category-filter" href="#nav-installation-methodology">Installation Methodology</a>
                             </li>
                             <li>
-                                <a class="nav-item nav-link" data-toggle="tab"
-                                    href="#nav-finishing-techniques" aria-controls="nav-finishing-techniques">Finishing
-                                    Techniques</a>
+                                <a class="nav-item nav-link" data-toggle="tab" href="#nav-finishing-techniques" aria-controls="nav-finishing-techniques">
+                                   Finishing Techniques</a>
                             </li>
 
                           </ul>
@@ -152,7 +102,7 @@ execution',
 
 
                         <li>
-                          <a class="nav-item nav-link main-category-filter " data-toggle="tab" href="#">Resources</a>
+                          <a class="nav-item nav-link main-category-filter" id="resources" data-toggle="tab" href="#">Resources</a>
                           <ul>
 
                             <li>
@@ -164,7 +114,7 @@ execution',
 
                         </li>
                         <li>
-                            <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#FAQs" aria-controls="FAQs">FAQs</a>
+                            <a class="nav-item nav-link main-category-filter" id="FAQs-section" data-toggle="tab" href="#FAQs" aria-controls="FAQs">FAQs</a>
                             <ul class="faqs-sublist">
                                 <li class="sub-category-filter "><a href="#FAQs">FAQs For Indoor Flooring</a></li>
                                 <li class="sub-category-filter"><a href="#FAQs-kitchens">FAQs For Kitchens &

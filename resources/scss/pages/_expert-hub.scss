@@ -52,8 +52,15 @@ hr {width: 100%;}
   .icon-image-floors{
     width: 120px !important;
   }
-}
 
+}
+@media(max-width:992px){
+    .icons-row{
+        p{
+            display: none;
+        }
+    }
+}
 .accordion {
     p {
         line-height: 3;

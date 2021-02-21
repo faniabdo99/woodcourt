@@ -2245,6 +2245,11 @@ hr {
   width: 120px !important;
 }
 
+@media (max-width: 992px) {
+  .icons-row p {
+    display: none;
+  }
+}
 .accordion p {
   line-height: 3;
   font-size: 15px;
