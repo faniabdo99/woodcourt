@@ -138,7 +138,7 @@ $('.sub-categories-list li').click(function() {
     $('#' + $(this).data('target')).addClass('active');
 });
 //Homepage Video Call to Action
-$('#homepage-play-video-1,#homepage-play-video-2').click(function() {
+$('.homepage-play-video').click(function() {
   if($(this).attr('id') == 'homepage-play-video-1'){
     $('body').append(`
     <div class="full-width-video">
@@ -164,6 +164,76 @@ $('#homepage-play-video-1,#homepage-play-video-2').click(function() {
       <div class="video-part">
         <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
         <iframe src="https://www.youtube.com/embed/Jf1MzF_yKw4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
+  }else if($(this).attr('id') == 'homepage-play-video-3'){
+    $('body').append(`
+    <div class="full-width-video">
+      <div class="content-part">
+        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
+        <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=EBKz4HCj9y8" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+      </div>
+      <div class="video-part">
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://www.youtube.com/embed/EBKz4HCj9y8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
+  }else if($(this).attr('id') == 'homepage-play-video-4'){
+    $('body').append(`
+    <div class="full-width-video">
+      <div class="content-part">
+        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
+        <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/YkxYzmqYa0g" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+      </div>
+      <div class="video-part">
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://www.youtube.com/embed/YkxYzmqYa0g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
+  }else if($(this).attr('id') == 'homepage-play-video-5'){
+    $('body').append(`
+    <div class="full-width-video">
+      <div class="content-part">
+        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
+        <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/0zM8mOaCKsg" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+      </div>
+      <div class="video-part">
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://www.youtube.com/embed/0zM8mOaCKsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
+  }else if($(this).attr('id') == 'homepage-play-video-6'){
+    $('body').append(`
+    <div class="full-width-video">
+      <div class="content-part">
+        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
+        <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/K0nhops9w-M" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+      </div>
+      <div class="video-part">
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://www.youtube.com/embed/K0nhops9w-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
+  }else if($(this).attr('id') == 'homepage-play-video-7'){
+    $('body').append(`
+    <div class="full-width-video">
+      <div class="content-part">
+        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
+        <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/zvGTKiSplH0" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+      </div>
+      <div class="video-part">
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://www.youtube.com/embed/zvGTKiSplH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
     `).css('overflow', 'hidden');

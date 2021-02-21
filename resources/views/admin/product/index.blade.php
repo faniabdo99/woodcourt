@@ -1,7 +1,7 @@
 @include('layout.header', ['PageTitle' => 'All Products'])
 <body>
     @include('layout.navbar')
-    <div class="container-fluid py-5">
+    <div class="container py-5">
       <div class="row">
         <div class="col-12">
           <h1>All Products ({{$AllProducts->count()}})</h1>
@@ -13,7 +13,7 @@
               <th>Title</th>
               <th>Slug</th>
               <th>Image</th>
-              <th>Category</th>
+              {{-- <th>Category</th> --}}
               <th>Description</th>
               <th>Actions</th>
             </thead>
@@ -24,7 +24,7 @@
                   <td>{{$Product->title}}</td>
                   <td>{{$Product->slug}}</td>
                   <td><img width="100" height="100" src="{{$Product->ThumbPath}}"></td>
-                  <td>{{$Product->Category->title}}</td>
+                  {{-- <td>{{$Product->Category->title}}</td> --}}
                   <td>{{strip_tags($Product->ShortDescription)}}</td>
                   <td>
                     <a class="text-danger font-weight-bold" href="{{route('admin.product.delete' , $Product->id)}}"><i class="fas fa-trash"></i> Delete</a>

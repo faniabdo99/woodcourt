@@ -58,4 +58,21 @@ class ContactController extends Controller{
         return redirect()->back()->withSuccess('Thank you for your request, We will contact you in 24 Hours');
       }
     }
+    public function postQuote(Request $r){
+      //Validate the request
+      $Rules = [
+        'name' => 'required',
+        'contact_method' => 'required',
+        'message' => 'required'
+      ];
+      $Validator = Validator::make($r->all(), $Rules);
+      if($Validator->fails()){
+        return redirect()->back()->withErrors($Validator->errors()->first());
+      }else{
+        //Upload to the datasheet
+        $TheMessageSheetData = $r->except('_token');
+        Sheets::spreadsheet('1Q0_PmHIfx5VH4xP5uDUOime2fkHHAKWF1dshyyUmXFQ')->sheet('GetQuote')->append([$TheMessageSheetData]);
+        return redirect()->back()->withSuccess('Thank you for your request, We will contact you in 24 Hours');
+      }
+    }
 }

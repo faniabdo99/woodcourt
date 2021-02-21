@@ -181,6 +181,36 @@
                               <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
                           </div>
                       </li>
+                      <li class="item">
+                        <div class="video-background-homepage" id="video-three">
+                            <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-3"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                      <div class="video-background-homepage" id="video-three">
+                          <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
+                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
+                      </div>
+                  </li>
+                  <li class="item">
+                      <div class="video-background-homepage" id="video-three">
+                          <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
+                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
+                      </div>
+                  </li>
+                  <li class="item">
+                      <div class="video-background-homepage" id="video-three">
+                          <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
+                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
+                      </div>
+                  </li>
+                  <li class="item">
+                      <div class="video-background-homepage" id="video-three">
+                          <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
+                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
+                      </div>
+                  </li>
                   </ul>
               </div>
           </div>
