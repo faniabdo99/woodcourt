@@ -60,7 +60,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('blogs')}}">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
-                <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#exampleModal">Get a Quote</a></li>
+                <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a></li>
                   @auth
                 <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth
@@ -72,11 +72,11 @@
 
 </header>
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Get a Quote</h5>
+        <h5 class="modal-title" id="getQuoteModalLabel">Get a Quote</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
