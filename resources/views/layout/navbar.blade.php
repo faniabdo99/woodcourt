@@ -59,7 +59,8 @@
                   </li> -->
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
-                @auth
+                <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#exampleModal">Get a Quote</a></li>
+                  @auth
                 <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth
                 {{-- <li class="nav-item"><a class="nav-link" href="#">Promotions Collection</a></li> --}}
@@ -67,7 +68,40 @@
             </ul>
         </div>
     </nav>
+
 </header>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get a Quote</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="" action="index.html" method="post">
+                      <label>Name</label>
+                      <input class="form-control" required placeholder="Please Enter Your Name" type="text" name="name">
+                      <br>
+                      <label>Contact Method</label>
+                      <input class="form-control" required placeholder="Contact Method (Email , Phone Number) " type="text" name="email">
+                      <br>
+                      <label>Message</label>
+                      <textarea class="form-control" required placeholder="Please Enter Your Message" name="message" rows="8"></textarea>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success">Save changes</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
 <div id="back-to-top"><i class="fas fa-chevron-up"></i></div>
 @if(session()->has('success'))
     <div class="container">
