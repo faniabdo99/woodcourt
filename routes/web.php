@@ -8,7 +8,7 @@ Route::post('contact-limited-edition' , 'ContactController@postLimitedEdition')-
 Route::post('contact-get-quote' , 'ContactController@postQuote')->name('contactGetQuote');
 Route::post('upload-product' , 'ProductController@postNew')->name('postNewProduct');
 Route::prefix('products')->group(function(){
-  Route::get('/{slug}' , 'PhotosController@getSingle')->name('products.single');
+  Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'PhotosController@getUserHome')->name('products');
 });
 Route::prefix('events')->group(function(){
@@ -22,8 +22,9 @@ Route::prefix('blog')->group(function(){
 Route::middleware('guest')->group(function(){
   Route::get('login' , 'AuthController@getLogin')->name('login');
   Route::post('login' , 'AuthController@postLogin')->name('login.post');
-  Route::get('logout' , 'AuthController@Logout')->name('logout');
 });
+Route::get('logout' , 'AuthController@Logout')->name('logout');
+
 Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
   Route::get('/' , 'AdminController@getIndex')->name('admin.home');
     Route::prefix('events')->group(function(){

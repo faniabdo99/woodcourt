@@ -15,16 +15,14 @@ class PagesController extends Controller{
     public function getAboutUs(){
         return view('about-us');
     }
-    public function getOurFactory()
-    {
+    public function getOurFactory(){
         return view('factory');
     }
-    public function getProductsPage()
-    {
+    public function getProductsPage(){
         return view('products');
     }
-    public function getExpertHub()
-    {
-        return view('expert-hub');
+    public function getExpertHub(){
+        $AllArticles = Event::where('type' , 'article')->where('is_important' , 1)->limit(3)->get();
+        return view('expert-hub',compact('AllArticles'));
     }
 }
