@@ -920,6 +920,37 @@ a:hover {
   height: 100px;
 }
 
+.expert-hub-cta {
+  background: black;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7203256303) 100%, #c1c1cb 100%, #00d4ff 100%), url("../images/expert-hub/expert-hub-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.expert-hub-cta .section-title {
+  color: #fff;
+}
+.expert-hub-cta h3 {
+  font-size: 1.3em;
+}
+.expert-hub-cta img {
+  width: 130px;
+}
+@media (max-width: 992px) {
+  .expert-hub-cta .container .section-mob-style {
+    justify-content: center;
+    text-align: left;
+  }
+  .expert-hub-cta .container .section-mob-style .image-section {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .expert-hub-cta .container .section-mob-style img {
+    margin-right: auto;
+    width: 80px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
@@ -2152,6 +2183,8 @@ time {
 }
 h2 {
   color: #0D8287;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 hr {
@@ -2160,42 +2193,63 @@ hr {
 
 @media (max-width: 576px) {
   .row {
-    padding: 0px 10px;
+    padding: 0 10px;
   }
 }
 
-.expert-sidebar {
-  position: relative;
-}
-.expert-sidebar .products-sidebar {
-  width: 100%;
+#expert-hub-sidebar {
+  border-radius: 4px;
+  width: 90%;
+  height: auto;
+  max-height: 80vh;
+  overflow-y: scroll;
   position: -webkit-sticky;
   position: sticky;
   z-index: 1;
-  top: 7%;
-  margin-left: -60px;
-  overflow-x: hidden;
+  top: 12%;
 }
-.expert-sidebar .products-sidebar .main-category-filter {
+#expert-hub-sidebar .main-category-filter {
   font-size: 16px;
   font-weight: 500;
 }
-.expert-sidebar .products-sidebar .sub-category-filter {
+#expert-hub-sidebar .sub-category-filter {
   list-style: none;
 }
 @media (max-width: 992px) {
-  .expert-sidebar .products-sidebar {
+  #expert-hub-sidebar {
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 @media (max-width: 1200px) {
-  .expert-sidebar .products-sidebar {
-    margin-left: 0px;
+  #expert-hub-sidebar {
+    margin-left: 0;
     width: 100%;
   }
 }
 
+.hero-section .icons-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.hero-section .icons-row p {
+  font-size: 16px;
+}
+.hero-section .icon-image {
+  width: 100px !important;
+}
+.hero-section .icon-image-floors {
+  width: 120px !important;
+}
+
+@media (max-width: 992px) {
+  .icons-row p {
+    display: none;
+  }
+}
 .accordion p {
   line-height: 3;
   font-size: 15px;
@@ -2217,12 +2271,24 @@ hr {
 
 #outdoor-woodcare h3 {
   width: 100%;
+  text-transform: capitalize;
 }
 
 #wood-care h2 {
   width: 100%;
   margin-bottom: 20px;
   text-transform: capitalize;
+}
+
+.filter-items li {
+  display: block;
+  width: 100%;
+}
+.filter-items ul {
+  display: none;
+}
+.filter-items ul.faqs-sublist {
+  display: block;
 }
 
 #wood-flooring-hero {

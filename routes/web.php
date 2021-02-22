@@ -1,12 +1,11 @@
 <?php
 use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@getHome')->name('home');
-//Route::get('/', 'PagesController@getSoonPage');
-//Route::get('/home', 'PagesController@getHome')->name('home');
 Route::get('about-us' , 'PagesController@getAboutUs')->name('about');
 Route::get('our-factory' , 'PagesController@getOurFactory')->name('factory');
 Route::get('contact' , 'ContactController@getContact')->name('contact');
 Route::post('contact-limited-edition' , 'ContactController@postLimitedEdition')->name('contactLimitedEdition');
+Route::post('contact-get-quote' , 'ContactController@postQuote')->name('contactGetQuote');
 Route::post('upload-product' , 'ProductController@postNew')->name('postNewProduct');
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'PhotosController@getSingle')->name('products.single');
@@ -15,6 +14,10 @@ Route::prefix('products')->group(function(){
 Route::prefix('events')->group(function(){
   Route::get('/' , 'EventsController@getUserHome')->name('events');
   Route::get('/{slug}' , 'EventsController@getSingle')->name('events.single');
+});
+Route::prefix('blog')->group(function(){
+  Route::get('/' , 'EventsController@getBlogUserHome')->name('blogs');
+  Route::get('/{slug}' , 'EventsController@getBlogSingle')->name('blog.single');
 });
 Route::middleware('guest')->group(function(){
   Route::get('login' , 'AuthController@getLogin')->name('login');
@@ -66,9 +69,6 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
     });
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
-
-
-
 //Marketing Pages Routes
 Route::get('wood-flooring','MarketingController@getWoodFlooring')->name('category.wood-flooring');
 Route::get('wood-flooring/engineered-floors','MarketingController@getEngineeredFloors')->name('category.wood-flooring.engineered-floors');
@@ -83,8 +83,4 @@ Route::get('outdoor','MarketingController@getOutdoor')->name('category.outdoor')
 Route::get('outdoor/teak-flooring','MarketingController@getTeakFlooring')->name('category.outdoor.teak-flooring');
 Route::get('outdoor/shower-units','MarketingController@getShowerUnits')->name('category.outdoor.shower-units');
 Route::get('outdoor/pergolas','MarketingController@getPergolas')->name('category.outdoor.pergolas');
-
-
-
-
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');

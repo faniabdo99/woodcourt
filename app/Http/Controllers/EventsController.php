@@ -84,7 +84,7 @@ class EventsController extends Controller{
        return json_encode(['location' => $FinalPath]);
     }
 
-    //Non-Admin Stuff
+    //Non-Admin Stuff (Events)
     public function getUserHome(){
         $AllEvents = Event::where('type' , 'event')->latest()->paginate(10);
         return view('events' , compact('AllEvents'));
@@ -95,5 +95,17 @@ class EventsController extends Controller{
       if(!$TheEvent){abort(404);}
       views($TheEvent)->record();
       return view('single-event' , compact('TheEvent' , 'LatestEvents'));
+    }
+    //Non-Admin Stuff (Blog)
+    public function getBlogUserHome(){
+      $AllArticles = Event::where('type' , 'article')->latest()->paginate(10);
+      return view('blog.index' , compact('AllArticles'));
+    }
+    public function getBlogSingle($slug){
+      $TheArticle = Event::where('slug' ,$slug)->first();
+      $LatestArticles = Event::latest()->where('slug' , '!=' , $slug)->limit(6)->get();
+      if(!$TheArticle){abort(404);}
+      views($TheArticle)->record();
+      return view('blog.single' , compact('TheArticle' , 'LatestArticles'));
     }
 }

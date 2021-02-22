@@ -26,18 +26,19 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About Us</a></li>
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                    <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wood Care <i class="fas fa-chevron-down"></i></a>
                    <div class="dropdown-menu" aria-labelledby="woodCare">
                      <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#a">Hardwood Floor</a>
                      <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#b">Kitchens and Cabinets</a>
                      <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#c">Outdoor Wood Flooring & Pergolas</a>
                    </div>
-                 </li>
+                 </li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li> --}}
                 <li class="nav-item dropdown">
                    <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <i class="fas fa-chevron-down"></i></a>
                    <div class="dropdown-menu" aria-labelledby="woodCare">
+                     <a class="dropdown-item" href="{{route('category.wood-flooring')}}">All</a>
                      <a class="dropdown-item" href="{{route('category.wood-flooring')}}">Hardwood Floor</a>
                      <a class="dropdown-item" href="{{route('category.cabinets')}}">Kitchens and Cabinets</a>
                      <a class="dropdown-item" href="{{route('category.outdoor')}}">Outdoor Wood Flooring & Pergolas</a>
@@ -57,8 +58,10 @@
                     </div>
                   </li> -->
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('blogs')}}">Blog</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
-                @auth
+                <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a></li>
+                  @auth
                 <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth
                 {{-- <li class="nav-item"><a class="nav-link" href="#">Promotions Collection</a></li> --}}
@@ -66,7 +69,38 @@
             </ul>
         </div>
     </nav>
+
 </header>
+<!-- Modal -->
+<div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="getQuoteModalLabel">Get a Quote</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="{{route('contactGetQuote')}}" method="post">
+          @csrf
+          <label>Name</label>
+          <input class="form-control" placeholder="Please Enter Your Name" type="text" name="name" required>
+          <br>
+          <label>Contact Method</label>
+          <input class="form-control" placeholder="Contact Method (Email , Phone Number) " type="text" name="contact_method" required>
+          <br>
+          <label>Message</label>
+          <textarea class="form-control" placeholder="Please Enter Your Message" name="message" rows="6" required></textarea>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-success">Send Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="back-to-top"><i class="fas fa-chevron-up"></i></div>
 @if(session()->has('success'))
     <div class="container">

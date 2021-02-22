@@ -100,14 +100,11 @@
 //Show Navbar Only on Scroll
 $(window).scroll(function () {
   if ($(window).width() > 992) {
-    clearTimeout($.data(this, 'scrollTimer'));
-    $.data(this, 'scrollTimer', setTimeout(function () {
-      if ($(window).scrollTop() < 200) {
-        $(".navbar").css('position', 'relative').css('top', initial).css('transition', 'all ease 0.3s');
-      }
+    if ($(window).scrollTop() < 200) {
+      $(".navbar").css('position', 'relative').css('top', initial).css('transition', 'all ease 0.3s');
+    }
 
-      $(".navbar").css('height', 0).css('opacity', 0).css('transition', 'all ease 0.3s');
-    }, 600));
+    $(".navbar").css('height', 0).css('opacity', 0).css('transition', 'all ease 0.3s');
 
     if ($(window).scrollTop() < 200) {
       $(".navbar").css('position', 'relative').css('top', initial).css('transition', 'all ease 0.3s');
@@ -239,11 +236,21 @@ $('.sub-categories-list li').click(function () {
   $('#' + $(this).data('target')).addClass('active');
 }); //Homepage Video Call to Action
 
-$('#homepage-play-video-1,#homepage-play-video-2').click(function () {
+$('.homepage-play-video').click(function () {
   if ($(this).attr('id') == 'homepage-play-video-1') {
     $('body').append("\n    <div class=\"full-width-video\">\n    <div class=\"content-part\">\n      <h2 class=\"text-white\">Luxurious cabinets & pergolas</h2>\n      <p class=\"text-white\">Could your kitchen use a makeover? Our creative design team is known for pushing the market in terms of design variety and innovation, constantly creating new designs. When creating a kitchen, we keep in mind the people spending the most time in it</p>\n      <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://www.youtube.com/watch?v=Jf1MzF_yKw4\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n    </div>\n    <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/BNBKAmk72us\"  frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } else if ($(this).attr('id') == 'homepage-play-video-2') {
     $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://www.youtube.com/watch?v=BNBKAmk72us\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/Jf1MzF_yKw4\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } else if ($(this).attr('id') == 'homepage-play-video-3') {
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://www.youtube.com/watch?v=EBKz4HCj9y8\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/EBKz4HCj9y8\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } else if ($(this).attr('id') == 'homepage-play-video-4') {
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://youtu.be/YkxYzmqYa0g\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/YkxYzmqYa0g\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } else if ($(this).attr('id') == 'homepage-play-video-5') {
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://youtu.be/0zM8mOaCKsg\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/0zM8mOaCKsg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } else if ($(this).attr('id') == 'homepage-play-video-6') {
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://youtu.be/K0nhops9w-M\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/K0nhops9w-M\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } else if ($(this).attr('id') == 'homepage-play-video-7') {
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://youtu.be/zvGTKiSplH0\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/zvGTKiSplH0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } //Insert the elemnt into the dom
 
 
@@ -280,7 +287,7 @@ $('#submit-contact-form').click(function (e) {
 $(window).scroll(function () {
   var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
 
-  if (scrollPercent > 60) {
+  if (scrollPercent > 15) {
     //Show the Button after 50% of the page
     $("#back-to-top").css('right', '50px').css('transition', 'all ease .6s');
   } else {
@@ -307,7 +314,32 @@ $('[data-fancybox]').fancybox({
   },
   buttons: ["zoom", "slideShow", "fullScreen", "thumbs", "close"]
 }); //smooth scroll
-//Counter
+
+(function () {
+  'use strict'; // define variables
+
+  var items = document.querySelectorAll(".timeline li"); // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
+      }
+    }
+  } // listen for events
+
+
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})(); //Counter
+
 
 $(window).scroll(function () {
   var top_of_element = $(".our-achievements").offset().top;
@@ -329,7 +361,7 @@ $(window).scroll(function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \";\".\n   ╷\n60 │     text-transform:capitalize;\r\n   │                   ^\n   ╵\n  resources\\scss\\pages\\_expert-hub.scss 60:19  @import\n  C:\\xampp\\htdocs\\woodcourt\\resources\\scss\\app.scss 33:8                                   root stylesheet\n    at C:\\xampp\\htdocs\\woodcourt\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\xampp\\htdocs\\woodcourt\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\xampp\\htdocs\\woodcourt\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\xampp\\htdocs\\woodcourt\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass-loader\\dist\\index.js:73:7\n    at Function.call$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:90547:16)\n    at _render_closure1.call$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:79617:12)\n    at _RootZone.runBinary$3$3 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:27035:18)\n    at _FutureListener.handleError$1 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25563:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25860:49)\n    at Object._Future__propagateToListeners (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4539:77)\n    at _Future._completeError$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25693:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25036:12)\n    at Object._asyncRethrow (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4288:17)\n    at C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:13174:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4313:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25057:12)\n    at _awaitOnObject_closure0.call$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25049:25)\n    at _RootZone.runBinary$3$3 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:27035:18)\n    at _FutureListener.handleError$1 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25563:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25860:49)\n    at Object._Future__propagateToListeners (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4539:77)\n    at _Future._completeError$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25693:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25036:12)\n    at Object._asyncRethrow (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4288:17)\n    at C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:17915:20\n    at _wrapJsFunctionForAsync_closure.$protected (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4313:15)\n    at _wrapJsFunctionForAsync_closure.call$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25057:12)\n    at _awaitOnObject_closure0.call$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25049:25)\n    at _RootZone.runBinary$3$3 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:27035:18)\n    at _FutureListener.handleError$1 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25563:19)\n    at _Future__propagateToListeners_handleError.call$0 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25860:49)\n    at Object._Future__propagateToListeners (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4539:77)\n    at _Future._completeError$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25693:9)\n    at _AsyncAwaitCompleter.completeError$2 (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:25036:12)\n    at Object._asyncRethrow (C:\\xampp\\htdocs\\woodcourt\\node_modules\\sass\\sass.dart.js:4288:17)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -340,8 +372,8 @@ throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\scss\app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! /var/www/html/woodcourt/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/html/woodcourt/resources/scss/app.scss */"./resources/scss/app.scss");
 
 
 /***/ })

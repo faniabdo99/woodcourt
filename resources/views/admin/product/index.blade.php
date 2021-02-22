@@ -9,18 +9,22 @@
           <a class="text-success font-weight-bold" href="{{route('admin.product.getNew')}}">+ Add New</a></p>
           <table id="data-table" class="table table-striped">
             <thead>
+              <th>#</th>
               <th>Title</th>
               <th>Slug</th>
-              <th>Category</th>
+              <th>Image</th>
+              {{-- <th>Category</th> --}}
               <th>Description</th>
               <th>Actions</th>
             </thead>
             <tbody>
               @forelse ($AllProducts as $Product)
                 <tr>
+                  <td>{{$Product->serial_number}}</td>
                   <td>{{$Product->title}}</td>
                   <td>{{$Product->slug}}</td>
-                  <td>{{$Product->Category->title}}</td>
+                  <td><img width="100" height="100" src="{{$Product->ThumbPath}}"></td>
+                  {{-- <td>{{$Product->Category->title}}</td> --}}
                   <td>{{strip_tags($Product->ShortDescription)}}</td>
                   <td>
                     <a class="text-danger font-weight-bold" href="{{route('admin.product.delete' , $Product->id)}}"><i class="fas fa-trash"></i> Delete</a>

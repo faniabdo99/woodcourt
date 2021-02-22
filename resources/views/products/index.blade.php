@@ -718,7 +718,7 @@
             var thumb_src = $(this).find('img').attr('src');
             var image_src = $(this).attr('href');
             $('#thumb_img').attr('src', thumb_src);
-            $('input[name="image_src"]').val(image_src);
+            $('input[name="image"]').val(image_src);
             $('input[name="category_id"]').val(img_id);
             if (img_id == 'engineered-floors' || img_id == 'tiles' || img_id == 'stairs' || img_id == 'hdf-floors') {
                 var main_category = "wood-flooring";

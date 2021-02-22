@@ -635,6 +635,41 @@
     }
   }
 }
+.expert-hub-cta{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.7203256302521008) 100%, rgba(193,193,203,1) 100%, rgba(0,212,255,1) 100%) , url("../images/expert-hub/expert-hub-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;
+  .section-title{
+    color:#fff;
+  }
+  h3{
+    font-size: 1.3em;
+  }
+  img {
+    width: 130px;
+  }
+  .container {
+    .section-mob-style {
+      @media(max-width: 992px) {
+        justify-content: center;
+        text-align: left;
+
+        .image-section {
+          display: flex;
+          justify-content: flex-end;
+        }
+        img {
+          margin-right: auto;
+          width: 80px;
+        }
+      }
+    }
+
+
+  }
+}
 //Mobile Version of the components
 @media screen and (max-width: 768px) {
     .hero-section {
