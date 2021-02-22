@@ -51,7 +51,7 @@ execution',
                             </div>
                           </div>
                         </div>
-                    </div>   
+                    </div>
                     <div class="col-12 col-lg-5 hero-section-content">
                         <div class="social-media-hero">
                           <h3>Contact Us</h3>
@@ -152,334 +152,334 @@ execution',
                           look at the top ways to take care of your wood floorings and cabinets.</p>
                           <div id="indoor-flooring">
 
-                          </div>
-                          <h3 class="mb-2">How To Take Care Of Your Indoor Flooring?</h3>
-                          <div>
-                            <img class="mb-4 w-100" src="https://thewoodcourt.com/storage/app/images/events/how-to-take-care-of-your-wood-floors.png" alt="1">
-                            <p class="mb-4">Wooden Floors Can Be The Highlight Of Any Home. The Natural Strength And
-                              Beauty Of Wood Has Been Used For Centuries And To This Day, Remains The Material Of
-                              Choice For Flooring.If you’ve stripped back an old Victorian floor, had new solid
-                              wood or engineered flooring installed, or even used reclaimed boards, looking after
-                              and maintaining them once they’ve been oiled or varnished is key. It’s a simple fact
-                              that wooden floor finishes that have been well maintained will look better and last
-                              much longer than those that have not. So, what is the best way to look after and
-                              maintain a wooden floor? Well you’ll be pleased to know that it’s not that difficult
-                              and doesn’t require a great deal of work. To help we’ve produced a lovely guide to
-                              help you keep your wooden floors looking amazing</p>
-                              <hr>
-                            </div>
+                      </div>
+                      <h3 class="mb-2">How To Take Care Of Your Indoor Flooring?</h3>
+                      <div>
+                        <img class="mb-4 w-100" src="https://thewoodcourt.com/storage/app/images/events/how-to-take-care-of-your-wood-floors.png" alt="1">
+                        <p class="mb-4">Wooden Floors Can Be The Highlight Of Any Home. The Natural Strength And
+                          Beauty Of Wood Has Been Used For Centuries And To This Day, Remains The Material Of
+                          Choice For Flooring.If you’ve stripped back an old Victorian floor, had new solid
+                          wood or engineered flooring installed, or even used reclaimed boards, looking after
+                          and maintaining them once they’ve been oiled or varnished is key. It’s a simple fact
+                          that wooden floor finishes that have been well maintained will look better and last
+                          much longer than those that have not. So, what is the best way to look after and
+                          maintain a wooden floor? Well you’ll be pleased to know that it’s not that difficult
+                          and doesn’t require a great deal of work. To help we’ve produced a lovely guide to
+                          help you keep your wooden floors looking amazing</p>
+                          <hr>
+                        </div>
 
 
+                        <div>
+                          <h3>Water cleaning</h3>
+                          <h4>1. Don't Spill Water to Clean</h4>
+                          <img class="mb-3 w-100"
+                          src="http://thewoodcourt.com/storage/app/public/uploads/ltYOrtTKV30wzAOc30SEEcNOvTRv1KQHY5kbB2Ot.png"
+                          alt="1">
+                          <p class="mb-4">Never ever use a wet mop to clean your wood floor either natural wood or
+                            HDF
+                            (High density fiber).</p>
+                            <br>
+                            <h4>2. Use a Damp Mop</h4>
+                            <img class="mb-3 w-100"
+                            src="http://thewoodcourt.com/storage/app/public/uploads/uzYjHMQ5Tt6zyTqJHQqVR9JBzasgGw2eri7PL44n.png"
+                            alt="1">
+                            <p class="mb-4">Use damp mop to remove dust first , to make your floor dust free.</p>
+                            <hr> <br>
                             <div>
-                              <h3>Water cleaning</h3>
-                              <h4>1. Don't Spill Water to Clean</h4>
-                              <img class="mb-3 w-100"
-                              src="http://thewoodcourt.com/storage/app/public/uploads/ltYOrtTKV30wzAOc30SEEcNOvTRv1KQHY5kbB2Ot.png"
+
+                              <h3>Additional cleaning</h3>
+                              <h4>3. Don't Use Furniture Sprays</h4>
+                              <img class="mb-2 w-100"
+                              src="http://thewoodcourt.com/storage/app/public/uploads/Sj1vFB4I46KpAB5VlX9UEZHYsfp4MfaY0XUjVT1V.png"
                               alt="1">
-                              <p class="mb-4">Never ever use a wet mop to clean your wood floor either natural wood or
-                                HDF
-                                (High density fiber).</p>
-                                <br>
-                                <h4>2. Use a Damp Mop</h4>
-                                <img class="mb-3 w-100"
-                                src="http://thewoodcourt.com/storage/app/public/uploads/uzYjHMQ5Tt6zyTqJHQqVR9JBzasgGw2eri7PL44n.png"
+                              <p class="mb-4">Then it is recommended to use oil based cleaners specially made for
+                                your
+                                wood floors. Once a month</p>
+                                <hr><br>
+                              </div>
+
+                              <div>
+                                <h3>What not to use</h3>
+                                <h4>4. Use Oil-Based Cleaners</h4>
+                                <img class="mb-2 w-100"
+                                src="http://thewoodcourt.com/storage/app/public/uploads/xik2fLJjV9m32ipQFLwzvnGN2gd0pKHURPVR55hO.png"
                                 alt="1">
-                                <p class="mb-4">Use damp mop to remove dust first , to make your floor dust free.</p>
-                                <hr> <br>
+                                <p class="mb-4">DO NOT use furniture cleaners to clean. Your wood floors will be
+                                  slippery.
+                                </p>
+                                <h4>5. Don't Use Chemicals, Acids, or Alcohols</h4>
+                                <img class="mb-2 w-100"
+                                src="http://thewoodcourt.com/storage/app/public/uploads/zQ8AuYXmmmgKTIfm0PatB5JvFigvRXt0rBJV3ifA.png"
+                                alt="1">
+                                <p class="mb-4">Do Not use alcohol, acids ,or chemicals to clean your wood floors.
+                                  It can
+                                  damage your wood flooring.</p>
+                                  <hr><br>
+                                </div>
+
+
                                 <div>
-
-                                  <h3>Additional cleaning</h3>
-                                  <h4>3. Don't Use Furniture Sprays</h4>
+                                  <h3>What Prefer to use</h3>
+                                  <h4>6. Use Microfiber Towel in Direction of the Texture</h4>
                                   <img class="mb-2 w-100"
-                                  src="http://thewoodcourt.com/storage/app/public/uploads/Sj1vFB4I46KpAB5VlX9UEZHYsfp4MfaY0XUjVT1V.png"
+                                  src="http://thewoodcourt.com/storage/app/public/uploads/2lUhApr6VCLOLaLGB3cFWTjfwnKZT3tjWWbLK6Js.png"
                                   alt="1">
-                                  <p class="mb-4">Then it is recommended to use oil based cleaners specially made for
-                                    your
-                                    wood floors. Once a month</p>
-                                    <hr><br>
-                                  </div>
+                                  <p class="mb-4">Always wipe parallel to grams direction, as that will clean the
+                                    grooves much
+                                    better. Use a microfiber towel to clean your wood floors. It will remove stains,
+                                    clean
+                                    your floor & make it shiny.</p>
 
-                                  <div>
-                                    <h3>What not to use</h3>
-                                    <h4>4. Use Oil-Based Cleaners</h4>
+
+                                    <h4>7. Remove Spills Immediately</h4>
                                     <img class="mb-2 w-100"
-                                    src="http://thewoodcourt.com/storage/app/public/uploads/xik2fLJjV9m32ipQFLwzvnGN2gd0pKHURPVR55hO.png"
+                                    src="http://thewoodcourt.com/storage/app/public/uploads/XISP3gHkBrvIlRTcEIMBqP1dkqN526xOrO7NhiJ9.png"
                                     alt="1">
-                                    <p class="mb-4">DO NOT use furniture cleaners to clean. Your wood floors will be
-                                      slippery.
-                                    </p>
-                                    <h4>5. Don't Use Chemicals, Acids, or Alcohols</h4>
-                                    <img class="mb-2 w-100"
-                                    src="http://thewoodcourt.com/storage/app/public/uploads/zQ8AuYXmmmgKTIfm0PatB5JvFigvRXt0rBJV3ifA.png"
-                                    alt="1">
-                                    <p class="mb-4">Do Not use alcohol, acids ,or chemicals to clean your wood floors.
-                                      It can
-                                      damage your wood flooring.</p>
-                                      <hr><br>
-                                    </div>
+                                    <p class="mb-4">Remove spills immediately, long exposure to liquids will lead to
+                                      damage.</p>
 
-
-                                    <div>
-                                      <h3>What Prefer to use</h3>
-                                      <h4>6. Use Microfiber Towel in Direction of the Texture</h4>
+                                      <h4>8. Don't Forget to Use Coasters </h4>
                                       <img class="mb-2 w-100"
-                                      src="http://thewoodcourt.com/storage/app/public/uploads/2lUhApr6VCLOLaLGB3cFWTjfwnKZT3tjWWbLK6Js.png"
+                                      src="http://thewoodcourt.com/storage/app/public/uploads/onw5BJu5gAGuyOpep23IdyyOVhq6MmIN7uSpmPww.png"
                                       alt="1">
-                                      <p class="mb-4">Always wipe parallel to grams direction, as that will clean the
-                                        grooves much
-                                        better. Use a microfiber towel to clean your wood floors. It will remove stains,
-                                        clean
-                                        your floor & make it shiny.</p>
+                                      <p class="mb-4">Use soft coasters under your furniture to prevent scratches.</p>
+
+                                      <h4>9. Keep Your Pets' Nails Trimmed </h4>
+                                      <img class="mb-2 w-100"
+                                      src="http://thewoodcourt.com/storage/app/public/uploads/vroEA7WRzvrErOlEpIYSXjTEXdpHT3iY74LJcZXN.png"
+                                      alt="1">
+                                      <p class="mb-4">Regulary clip your pets’ nails to avoid deep scratches.</p>
+
+                  <h4>10. Don't Expose to Too Much Sunlight</h4>
+                  <img class="mb-2 w-100"
+                  src="http://thewoodcourt.com/storage/app/public/uploads/fejAVSLONykgFEG7MdAXeOP0Vv1pdVVYjWkyqKgs.png"
+                  alt="1">
+                  <p>A sun-kissed glow looks great for skin, but not on wood floors, inspect your wood
+                    floors once a month, and if there is any discolouration, it's time to apply a
+                    fresh top coat.</p>
+
+                    <h4>11. Don't Leave Electronics Powered On</h4>
+                    <img class="mb-2 w-100"
+                    src="http://thewoodcourt.com/storage/app/public/uploads/bpqC8LR9v0fjFkVP7zGwINIYhsCoAfzfbaUK8Bwj.png"
+                    alt="1">
+                    <p>Don't put any electronics directly on the wood floor ,the heat generated from
+                      these devices will affect your floors negatively in the long run.</p>
+
+                      <h4>12. Don't Use Multipurpose Cleaner</h4>
+                      <img class="mb-2 w-100"
+                      src="http://thewoodcourt.com/storage/app/public/uploads/AtnAVyfVg1LTVoiQcyjII8G7sLm0I2pC1cx9Bfd2.png"
+                      alt="1">
+                      <p>Don't use the same cleaner for natural wood floors & HDF, each type has its
+                        cleaning liquid.</p>
+
+                        <h4>13. Do Ventilate Your Home</h4>
+                        <img class="mb-2 w-100"
+                        src="http://thewoodcourt.com/storage/app/public/uploads/Br5oXoWSbrVSk1zK3IXWg96mZUpLWWYeiJkyvFb6.png"
+                        alt="1">
+                        <p>Ventilate your home, good ventilation will make your wood floors healthy & live
+                          longer.</p>
+
+                          <h4>14. Do Keep Your Humidity In-check</h4>
+                          <img class="mb-2 w-100"
+                          src="http://thewoodcourt.com/storage/app/public/uploads/FnoywSowXzTiNnXp40BWtAf0ZemtsU6Cnx4mVgJX.png"
+                          alt="1">
+                          <p>Best atmosphere conditions to make your wood floors healthy is 30% - 50% relative
+                            humidity & 15- 25 ℃ temperature. Thankfully, these conditions are comfortable
+                            for us too.</p>
+                            <ul>
+                              <li>Use door mats to protect wood floors from street sand & mud.</li>
+                              <li>Always use felt protector pads on the underside of legs of tables and
+                                chairs, and
+                                never drag heavy objects across your wood floors.</li>
+                                <li>
+                                  Every few decades, sound and refinish your wood floor. Typically, solid and
+                                  engineered wood floors could be sanded and refinished several times up to 10
+                                  times
+                                  according to the wooden top width. Sanding and refinishing are typically
+                                  needed
+                                  every about 7-12 years according to age and care. After this process, your
+                                  natural
+                                  wood floors will return like new with the ability to change its color &
+                                  finish.</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <hr>
+                            <div class="row mt5" id="woodcare-kitchen">
+                              <h5>How to Take Care of Your Kitchen Counters and Cabinets?</h5>
+                              <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/1.png')}}" alt="1">
+                              <h5>1. Do Remove Food Spills Immediately</h5>
+                              <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/2.png')}}" alt="1">
+                              <p>Clean all food spills from wood surfaces immediately & thoroughly, most foods can
+                                damage wood finishes eventually.</p>
+                                <h5>2. Do Prevent Spilling Acidic Juices</ph5>
+                                  <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/3.png')}}" alt="1">
+                                  <p>Prevent spilling of acidic food or juices as much as you can on wood surfaces,
+                                    such as
+                                    orange juice .</p>
+                                    <h5>3. Do Use Coasters Under Drinks</h5>
+                                    <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/4.png')}}" alt="1">
+                                    <p>Tea, coffee & other many drinks are great, but will leave a bad-look stain on
+                                      wood
+                                      surfaces if they’re not cleaned immediately. </p>
+                                      <h5>4. Don’t Clean With a Sponge</h5>
+                                      <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/5.png')}}" alt="1">
+                                      <p>When cleaning a wood surface, use a microfiber towel, do not use dish sponge or
+                                        washing
+                                        as it may damage wood surfaces. </p>
+                                        <h5>5. Do Wipe With Water and Soap</h5>
+                                        <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/6.png')}}" alt="1">
+                                        <p>Clean your kitchen cabinets and surface wring clean water & mild soap with a
+                                          clean ,
+                                          lint-free rag.</p>
+                                          <h5>6. Don’t Use Too Much Water</h5>
+                                          <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/7.png')}}" alt="1">
+                                          <p>Use water sparingly and a towel to dry any excess , when water sits , it can
+                                            penetrate
+                                            the finish and raise the wood grains up leading to a rough uncleanable surface
+                                            in future
+                                            .</p>
+                                            <h5>7. Do Wipe Parallel to The Grain</h5>
+                                            <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/8.png')}}" alt="1">
+                                            <p>Wipe Parallel to the wood grains direction , remove dust with dry micor-fiber
+                                              towel , it is
+                                              your first step to clean your kitchen </p>
+                                              <h5>8. Don’t Use Wax to Polish</h5>
+                                              <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/9.png')}}" alt="1">
+                                              <p>Always use polish cream monthly to shine your kitchen instead of waxing , wax
+                                                makes a
+                                                shiny look but attracts dust.</p>
+                                                <h5>9. Don’t Overuse Silicon Cleaners</h5>
+                                                <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/10.png')}}" alt="1">
+                                                <p>Be cautious of overuse of surface cleaners & sprays as they may contain silicon,
+                                                  which
+                                                  will make layers & layers order wood surface & results with a pale look with
+                                                  time .</p>
+                                                  <h5>10. Do Use Food-grade Mineral Oil</h5>
+                                                  <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/11.png')}}" alt="1">
+                                                  <p>When it comes to wooden counter-top , it is very important to use a “Food grade
+                                                    mineral
+                                                    Oil ”.</p>
+                                                    <h5>11. Do Use a Ventilating Fan</h5>
+                                                    <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/12.png')}}" alt="1">
+
+                                                    <p>Use a ventilating fan when cooking , it remove the majority of airborne smoke &
+                                                      grease
+                                                      which other wish may be absorbed by wood leading to bad smell & yellowish stains
+                                                    </p>
+                                                  </ul>
 
 
-                                        <h4>7. Remove Spills Immediately</h4>
-                                        <img class="mb-2 w-100"
-                                        src="http://thewoodcourt.com/storage/app/public/uploads/XISP3gHkBrvIlRTcEIMBqP1dkqN526xOrO7NhiJ9.png"
-                                        alt="1">
-                                        <p class="mb-4">Remove spills immediately, long exposure to liquids will lead to
-                                          damage.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="row mt-5" id="outdoor-woodcare">
+                                                  <h3>How to Take Care of wooden pergolas & Outdoor Flooring ?</h3>
 
-                                          <h4>8. Don't Forget to Use Coasters </h4>
-                                          <img class="mb-2 w-100"
-                                          src="http://thewoodcourt.com/storage/app/public/uploads/onw5BJu5gAGuyOpep23IdyyOVhq6MmIN7uSpmPww.png"
-                                          alt="1">
-                                          <p class="mb-4">Use soft coasters under your furniture to prevent scratches.</p>
-
-                                          <h4>9. Keep Your Pets' Nails Trimmed </h4>
-                                          <img class="mb-2 w-100"
-                                          src="http://thewoodcourt.com/storage/app/public/uploads/vroEA7WRzvrErOlEpIYSXjTEXdpHT3iY74LJcZXN.png"
-                                          alt="1">
-                                          <p class="mb-4">Regulary clip your pets’ nails to avoid deep scratches.</p>
-
-                                          <h4>10. Don't Expose to Too Much Sunlight</h4>
-                                          <img class="mb-2 w-100"
-                                          src="http://thewoodcourt.com/storage/app/public/uploads/fejAVSLONykgFEG7MdAXeOP0Vv1pdVVYjWkyqKgs.png"
-                                          alt="1">
-                                          <p>A sun-kissed glow looks great for skin, but not on wood floors, inspect your wood
-                                            floors once a month, and if there is any discolouration, it's time to apply a
-                                            fresh top coat.</p>
-
-                                            <h4>11. Don't Leave Electronics Powered On</h4>
-                                            <img class="mb-2 w-100"
-                                            src="http://thewoodcourt.com/storage/app/public/uploads/bpqC8LR9v0fjFkVP7zGwINIYhsCoAfzfbaUK8Bwj.png"
-                                            alt="1">
-                                            <p>Don't put any electronics directly on the wood floor ,the heat generated from
-                                              these devices will affect your floors negatively in the long run.</p>
-
-                                              <h4>12. Don't Use Multipurpose Cleaner</h4>
-                                              <img class="mb-2 w-100"
-                                              src="http://thewoodcourt.com/storage/app/public/uploads/AtnAVyfVg1LTVoiQcyjII8G7sLm0I2pC1cx9Bfd2.png"
-                                              alt="1">
-                                              <p>Don't use the same cleaner for natural wood floors & HDF, each type has its
-                                                cleaning liquid.</p>
-
-                                                <h4>13. Do Ventilate Your Home</h4>
-                                                <img class="mb-2 w-100"
-                                                src="http://thewoodcourt.com/storage/app/public/uploads/Br5oXoWSbrVSk1zK3IXWg96mZUpLWWYeiJkyvFb6.png"
-                                                alt="1">
-                                                <p>Ventilate your home, good ventilation will make your wood floors healthy & live
-                                                  longer.</p>
-
-                                                  <h4>14. Do Keep Your Humidity In-check</h4>
+                                                  <p class="mt-3">
+                                                    Wood is a beautiful option for your garden Flooring, under pergola , and outdoor
+                                                    area of
+                                                    your restaurant or cafe , also the wooden pergola itself gives your home privacy &
+                                                    make you
+                                                    have a great time outdoors, the wood grains and variety of colors when beside the
+                                                    wonderful
+                                                    green color of plants . <br> teak wood especially its very durable and has high
+                                                    resistance
+                                                    to outdoor conditions , (sun light , Heat & rain) even when installed directly as a
+                                                    pool
+                                                    decking , needs low maintenance , you just need to give it some attention to keep it
+                                                    as
+                                                    beautiful as day one .
+                                                  </p>
+                                                  <h4>1. Do Sweep Debris Immediately</h4>
                                                   <img class="mb-2 w-100"
-                                                  src="http://thewoodcourt.com/storage/app/public/uploads/FnoywSowXzTiNnXp40BWtAf0ZemtsU6Cnx4mVgJX.png"
+                                                  src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png"
                                                   alt="1">
-                                                  <p>Best atmosphere conditions to make your wood floors healthy is 30% - 50% relative
-                                                    humidity & 15- 25 ℃ temperature. Thankfully, these conditions are comfortable
-                                                    for us too.</p>
-                                                    <ul>
-                                                      <li>Use door mats to protect wood floors from street sand & mud.</li>
-                                                      <li>Always use felt protector pads on the underside of legs of tables and
-                                                        chairs, and
-                                                        never drag heavy objects across your wood floors.</li>
-                                                        <li>
-                                                          Every few decades, sound and refinish your wood floor. Typically, solid and
-                                                          engineered wood floors could be sanded and refinished several times up to 10
-                                                          times
-                                                          according to the wooden top width. Sanding and refinishing are typically
-                                                          needed
-                                                          every about 7-12 years according to age and care. After this process, your
-                                                          natural
-                                                          wood floors will return like new with the ability to change its color &
-                                                          finish.</li>
-                                                        </ul>
+                                                  <p>Pick up large debris like paper and fallen tree leaves at once.</p>
+                                  <h4>2. Do Use a Vacuum Cleaner for Sand</h4>
+                                  <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/1.png" alt="1">
+                                  <p>Use a vacuum machine to remove dust from the in between grooves, it is much easier
+                                    than whisking.</p>
+
+                                    <h4>3. Do Use Ammonia to Remove Dirt</h4>
+                                    <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/2.png" alt="1">
+                                    <p>Use a mixture of ammonia & warm water with ratio 1:4 to help you remove all the stuck
+                                      dirt & debris , by wiping the wood with the mixture using a sponge mop.</p>
+
+                                      <h4>4. Do Wipe Parallel to the Grain</h4>
+                                      <img class="mb-2 w-100"
+                                      src="http://thewoodcourt.com/storage/app/public/uploads/mdtMtQN1nUzQqKue53QTVW985Ex7h8l26pAlIfNp.png"
+                                      alt="1">
+                                      grains</p>
+
+
+                                      <h4>5. Do Let Your Wood Dry Completely </h4>
+                                      <img class="mb-2 w-100"
+                                      src="http://thewoodcourt.com/storage/app/public/uploads/5Q7ak86yCI3nFSB3jheeYxmSQtK3c6zL4zzNcsqa.png"
+                                      alt="1">
+                                      <p>let your wood either floors or pergola to dry completely , at leave 3-5 hours
+                                        temperature +15 ℃</p>
+
+                                        <h4>6. Do Use Oil-based Cleaners</h4>
+                                        <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/3.png" alt="1">
+                                        <p>Use a floor cleaner specially made for your hardwood, It will always be on oil-based
+                                          cleaner, not water or aqua-based.</p>
+
+
+                                          <h3>Oil Cleaning Tips</h3> <br>
+                                          <h4>1. Do Keep Wood Well-Oiled</h4>
+                                          <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/4.png" alt="1">
+                                          <p>Teak wood has natural oil that keeps mold down, this natural oil also works as an
+                                            insect repellent & prevents wood from cracking when exposed to high temperature.</p>
+
+                                            <h4>2. Don’t Expose to Too Much Sunlight</h4>
+                                            <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/5.png" alt="1">
+                                            <p>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
+                                              leaving a bad look with silver-grey discolouration. According to your country's
+                                              weather, and daily time of direct daily sunlight hours that your wood is exposed to,
+                                              you will need to reapply oil to teak wood several times a year (between 4-8 times).
+                                              Also several climatic conditions & high UV index, may cause the teak wood surface to
+                                              change color silver, then it is also time to reapply teak oil.</p>
+
+                                              <h4>3. Do Follow the Grains and Rub Well</h4>
+                                              <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/6.png" alt="1">
+                                              <p>When applying teak oil, follow the wood grains using a clean rag, and rub in well.
+                                              </p>
+
+                                              <h4>4. Don't Use Too Much Oil</h4>
+                                              <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/7.png" alt="1">
+                                              <p>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square
+                                                meter.</p>
+
+
+                                                <h4>5. Do Wait For Oil to Dry To Avoid Spots</h4>
+                                                <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/8.png" alt="1">
+                                                <p>After one hour use a clean new rag to remove excess oil and let it completely dry
+                                                  before placing your furniture back to avoid spots.</p>
+
+                                                  <h3>Bouns Tips</h3>
+                                                  <h4>1. Do Wipe Spills Immediately</h4>
+                                                  <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/9.png" alt="1">
+                                                  <p>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
+                                                    small amount of ammonia and it will disappear instantly.</p>
+
+                                                    <h4>2. Don’t Use Insect Repellants and Anti-rot Agents</h4>
+                                                    <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/10.png" alt="1">
+                                                    <p>You don't have to use any insect repellant for teak wood, as teak wood grains are
+                                                      rich with silica , which acts as a natural repellent for insects & bugs. Also, teak
+                                                      wood grains contain natural rubber oil which is resistant to rotting when exposed to
+                                                      extreme conditions.</p>
+
+                                                      <h4>3. Don't Forget Your Protective Gear</h4>
+                                                      <img class="mb-2 w-100"
+                                                      src="http://thewoodcourt.com/storage/app/public/uploads/56SyFhfkqwJQI3NM8WjsFCpQrV4Ovx1DNKcNO8sC.png"
+                                                      alt="1">
+                                                      <p>Always wear rubber gloves, eye protection, and a mask while using any chemical
+                                                        materials.</p>
+
                                                       </div>
                                                     </div>
-                                                    <hr>
-                                                    <div class="row mt5" id="woodcare-kitchen">
-                                                      <h5>How to Take Care of Your Kitchen Counters and Cabinets?</h5>
-                                                      <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/1.png')}}" alt="1">
-                                                      <h5>1. Do Remove Food Spills Immediately</h5>
-                                                      <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/2.png')}}" alt="1">
-                                                      <p>Clean all food spills from wood surfaces immediately & thoroughly, most foods can
-                                                        damage wood finishes eventually.</p>
-                                                        <h5>2. Do Prevent Spilling Acidic Juices</ph5>
-                                                          <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/3.png')}}" alt="1">
-                                                          <p>Prevent spilling of acidic food or juices as much as you can on wood surfaces,
-                                                            such as
-                                                            orange juice .</p>
-                                                            <h5>3. Do Use Coasters Under Drinks</h5>
-                                                            <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/4.png')}}" alt="1">
-                                                            <p>Tea, coffee & other many drinks are great, but will leave a bad-look stain on
-                                                              wood
-                                                              surfaces if they’re not cleaned immediately. </p>
-                                                              <h5>4. Don’t Clean With a Sponge</h5>
-                                                              <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/5.png')}}" alt="1">
-                                                              <p>When cleaning a wood surface, use a microfiber towel, do not use dish sponge or
-                                                                washing
-                                                                as it may damage wood surfaces. </p>
-                                                                <h5>5. Do Wipe With Water and Soap</h5>
-                                                                <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/6.png')}}" alt="1">
-                                                                <p>Clean your kitchen cabinets and surface wring clean water & mild soap with a
-                                                                  clean ,
-                                                                  lint-free rag.</p>
-                                                                  <h5>6. Don’t Use Too Much Water</h5>
-                                                                  <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/7.png')}}" alt="1">
-                                                                  <p>Use water sparingly and a towel to dry any excess , when water sits , it can
-                                                                    penetrate
-                                                                    the finish and raise the wood grains up leading to a rough uncleanable surface
-                                                                    in future
-                                                                    .</p>
-                                                                    <h5>7. Do Wipe Parallel to The Grain</h5>
-                                                                    <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/8.png')}}" alt="1">
-                                                                    <p>Wipe Parallel to the wood grains direction , remove dust with dry micor-fiber
-                                                                      towel , it is
-                                                                      your first step to clean your kitchen </p>
-                                                                      <h5>8. Don’t Use Wax to Polish</h5>
-                                                                      <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/9.png')}}" alt="1">
-                                                                      <p>Always use polish cream monthly to shine your kitchen instead of waxing , wax
-                                                                        makes a
-                                                                        shiny look but attracts dust.</p>
-                                                                        <h5>9. Don’t Overuse Silicon Cleaners</h5>
-                                                                        <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/10.png')}}" alt="1">
-                                                                        <p>Be cautious of overuse of surface cleaners & sprays as they may contain silicon,
-                                                                          which
-                                                                          will make layers & layers order wood surface & results with a pale look with
-                                                                          time .</p>
-                                                                          <h5>10. Do Use Food-grade Mineral Oil</h5>
-                                                                          <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/11.png')}}" alt="1">
-                                                                          <p>When it comes to wooden counter-top , it is very important to use a “Food grade
-                                                                            mineral
-                                                                            Oil ”.</p>
-                                                                            <h5>11. Do Use a Ventilating Fan</h5>
-                                                                            <img class="mb-2 w-100" src="{{url('public/images/wood-care/kitchens/12.png')}}" alt="1">
-
-                                                                            <p>Use a ventilating fan when cooking , it remove the majority of airborne smoke &
-                                                                              grease
-                                                                              which other wish may be absorbed by wood leading to bad smell & yellowish stains
-                                                                            </p>
-                                                                          </ul>
-
-
-                                                                        </div>
-                                                                        <hr>
-                                                                        <div class="row mt-5" id="outdoor-woodcare">
-                                                                          <h3>How to Take Care of wooden pergolas & Outdoor Flooring ?</h3>
-
-                                                                          <p class="mt-3">
-                                                                            Wood is a beautiful option for your garden Flooring, under pergola , and outdoor
-                                                                            area of
-                                                                            your restaurant or cafe , also the wooden pergola itself gives your home privacy &
-                                                                            make you
-                                                                            have a great time outdoors, the wood grains and variety of colors when beside the
-                                                                            wonderful
-                                                                            green color of plants . <br> teak wood especially its very durable and has high
-                                                                            resistance
-                                                                            to outdoor conditions , (sun light , Heat & rain) even when installed directly as a
-                                                                            pool
-                                                                            decking , needs low maintenance , you just need to give it some attention to keep it
-                                                                            as
-                                                                            beautiful as day one .
-                                                                          </p>
-                                                                          <h4>1. Do Sweep Debris Immediately</h4>
-                                                                          <img class="mb-2 w-100"
-                                                                          src="http://thewoodcourt.com/storage/app/public/uploads/ZoYMinuvWQUUD4ZSO0KhjwRnHSKaihAB1i3SVBII.png"
-                                                                          alt="1">
-                                                                          <p>Pick up large debris like paper and fallen tree leaves at once.</p>
-                                                                          <h4>2. Do Use a Vacuum Cleaner for Sand</h4>
-                                                                          <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/1.png" alt="1">
-                                                                          <p>Use a vacuum machine to remove dust from the in between grooves, it is much easier
-                                                                            than whisking.</p>
-
-                                                                            <h4>3. Do Use Ammonia to Remove Dirt</h4>
-                                                                            <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/2.png" alt="1">
-                                                                            <p>Use a mixture of ammonia & warm water with ratio 1:4 to help you remove all the stuck
-                                                                              dirt & debris , by wiping the wood with the mixture using a sponge mop.</p>
-
-                                                                              <h4>4. Do Wipe Parallel to the Grain</h4>
-                                                                              <img class="mb-2 w-100"
-                                                                              src="http://thewoodcourt.com/storage/app/public/uploads/mdtMtQN1nUzQqKue53QTVW985Ex7h8l26pAlIfNp.png"
-                                                                              alt="1">
-                                                                              grains</p>
-
-
-                                                                              <h4>5. Do Let Your Wood Dry Completely </h4>
-                                                                              <img class="mb-2 w-100"
-                                                                              src="http://thewoodcourt.com/storage/app/public/uploads/5Q7ak86yCI3nFSB3jheeYxmSQtK3c6zL4zzNcsqa.png"
-                                                                              alt="1">
-                                                                              <p>let your wood either floors or pergola to dry completely , at leave 3-5 hours
-                                                                                temperature +15 ℃</p>
-
-                                                                                <h4>6. Do Use Oil-based Cleaners</h4>
-                                                                                <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/3.png" alt="1">
-                                                                                <p>Use a floor cleaner specially made for your hardwood, It will always be on oil-based
-                                                                                  cleaner, not water or aqua-based.</p>
-
-
-                                                                                  <h3>Oil Cleaning Tips</h3> <br>
-                                                                                  <h4>1. Do Keep Wood Well-Oiled</h4>
-                                                                                  <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/4.png" alt="1">
-                                                                                  <p>Teak wood has natural oil that keeps mold down, this natural oil also works as an
-                                                                                    insect repellent & prevents wood from cracking when exposed to high temperature.</p>
-
-                                                                                    <h4>2. Don’t Expose to Too Much Sunlight</h4>
-                                                                                    <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/5.png" alt="1">
-                                                                                    <p>When wood is exposed to direct sunlight, this oil gradually by time will evaporate,
-                                                                                      leaving a bad look with silver-grey discolouration. According to your country's
-                                                                                      weather, and daily time of direct daily sunlight hours that your wood is exposed to,
-                                                                                      you will need to reapply oil to teak wood several times a year (between 4-8 times).
-                                                                                      Also several climatic conditions & high UV index, may cause the teak wood surface to
-                                                                                      change color silver, then it is also time to reapply teak oil.</p>
-
-                                                                                      <h4>3. Do Follow the Grains and Rub Well</h4>
-                                                                                      <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/6.png" alt="1">
-                                                                                      <p>When applying teak oil, follow the wood grains using a clean rag, and rub in well.
-                                                                                      </p>
-
-                                                                                      <h4>4. Don't Use Too Much Oil</h4>
-                                                                                      <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/7.png" alt="1">
-                                                                                      <p>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square
-                                                                                        meter.</p>
-
-
-                                                                                        <h4>5. Do Wait For Oil to Dry To Avoid Spots</h4>
-                                                                                        <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/8.png" alt="1">
-                                                                                        <p>After one hour use a clean new rag to remove excess oil and let it completely dry
-                                                                                          before placing your furniture back to avoid spots.</p>
-
-                                                                                          <h3>Bouns Tips</h3>
-                                                                                          <h4>1. Do Wipe Spills Immediately</h4>
-                                                                                          <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/9.png" alt="1">
-                                                                                          <p>Always remove any spills immediately, to avoid spots. If you have spots, just apply a
-                                                                                            small amount of ammonia and it will disappear instantly.</p>
-
-                                                                                            <h4>2. Don’t Use Insect Repellants and Anti-rot Agents</h4>
-                                                                                            <img class="mb-2 w-100" src="{{url('public')}}/images/wood-care/10.png" alt="1">
-                                                                                            <p>You don't have to use any insect repellant for teak wood, as teak wood grains are
-                                                                                              rich with silica , which acts as a natural repellent for insects & bugs. Also, teak
-                                                                                              wood grains contain natural rubber oil which is resistant to rotting when exposed to
-                                                                                              extreme conditions.</p>
-
-                                                                                              <h4>3. Don't Forget Your Protective Gear</h4>
-                                                                                              <img class="mb-2 w-100"
-                                                                                              src="http://thewoodcourt.com/storage/app/public/uploads/56SyFhfkqwJQI3NM8WjsFCpQrV4Ovx1DNKcNO8sC.png"
-                                                                                              alt="1">
-                                                                                              <p>Always wear rubber gloves, eye protection, and a mask while using any chemical
-                                                                                                materials.</p>
-
-                                                                                              </div>
-                                                                                            </div>
-                                                                                          </div>
+                                                  </div>
                     <div class="tab-pane fade" id="nav-installation-methodology">
                       <div class="row mt-5 fade" id="installation-methods">
                       <h2>Installing Methodology</h2>
@@ -1782,7 +1782,7 @@ execution',
                             </div>
                           </div>
                         </div>
-<<<<<<< HEAD
+
                     </div>
                     <hr>
                     <div class="row mt5" id="woodcare-kitchen">
@@ -2058,7 +2058,7 @@ execution',
                                     easy to uninstall your wood floor and use it again in another place , leaving the
                                     subfloor without any damage.</p>
                             </li>
-=======
+
                     <div class="tab-pane fade" id="nav-articles" role="tabpanel" aria-labelledby="nav-articles">
                         <div class="mt-3" id="Articles">
                             <h2>Articles</h2>
@@ -2138,7 +2138,7 @@ execution',
                                         months but in this case the deck will be a bit slippery and scratchable </p>
                                 </ul>
                             </div>
->>>>>>> 2cce42601146dc850d7b97dbaf12f8f33bf930f2
+
                             <hr>
                             <div class="row mt-5" id="choose-suitable">
                                 <h3>Choosing The Right Hardwood Floors For Your Home</h3>
@@ -2310,7 +2310,7 @@ execution',
                                 </p>
                             </div>
                             <hr>
-<<<<<<< HEAD
+
                         </ol>
                     </div>
 
