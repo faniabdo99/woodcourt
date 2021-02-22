@@ -22,8 +22,9 @@ Route::prefix('blog')->group(function(){
 Route::middleware('guest')->group(function(){
   Route::get('login' , 'AuthController@getLogin')->name('login');
   Route::post('login' , 'AuthController@postLogin')->name('login.post');
-  Route::get('logout' , 'AuthController@Logout')->name('logout');
 });
+Route::get('logout' , 'AuthController@Logout')->name('logout');
+
 Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
   Route::get('/' , 'AdminController@getIndex')->name('admin.home');
     Route::prefix('events')->group(function(){
