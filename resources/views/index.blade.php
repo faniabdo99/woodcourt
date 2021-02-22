@@ -1462,12 +1462,20 @@
                           <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
                       </div>
                   </li>
+
                   <li class="item">
                       <div class="video-background-homepage" id="video-three">
                           <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
                           <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
                       </div>
                   </li>
+                  <li class="item">
+                      <div class="video-background-homepage" id="video-three">
+                          <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
+                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
+                      </div>
+                  </li>
+
                   </ul>
               </div>
           </div>

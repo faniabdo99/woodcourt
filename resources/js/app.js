@@ -237,6 +237,20 @@ $('.homepage-play-video').click(function() {
     </div>
     </div>
     `).css('overflow', 'hidden');
+  }else if($(this).attr('id') == 'homepage-play-video-8'){
+    $('body').append(`
+    <div class="full-width-video">
+      <div class="content-part">
+        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
+        <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/ktSSIegq2oY" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
+      </div>
+      <div class="video-part">
+        <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
+        <iframe src="https://www.youtube.com/embed/ktSSIegq2oY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+    `).css('overflow', 'hidden');
   }
     //Insert the elemnt into the dom
     $(document).on('click', '#video-close-button , .full-width-video', function(e) {

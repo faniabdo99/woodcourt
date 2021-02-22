@@ -251,6 +251,8 @@ $('.homepage-play-video').click(function () {
     $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://youtu.be/K0nhops9w-M\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/K0nhops9w-M\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } else if ($(this).attr('id') == 'homepage-play-video-7') {
     $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://youtu.be/zvGTKiSplH0\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/zvGTKiSplH0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
+  } else if ($(this).attr('id') == 'homepage-play-video-8') {
+    $('body').append("\n    <div class=\"full-width-video\">\n      <div class=\"content-part\">\n        <h2 class=\"text-white\">Kitchen, floor\u2026 and more</h2>\n        <p class=\"text-white\">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>\n        <a class=\"icon-button youtube-button d-lg-inline d-none\" href=\"https://youtu.be/ktSSIegq2oY\" target=\"_blank\"><i class=\"fab fa-youtube\"></i> Watch on YouTube</a>\n      </div>\n      <div class=\"video-part\">\n        <a href=\"javascript:;\" id=\"video-close-button\"><i class=\"fas fa-times\"></i></a>\n        <iframe src=\"https://www.youtube.com/embed/ktSSIegq2oY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    </div>\n    ").css('overflow', 'hidden');
   } //Insert the elemnt into the dom
 
 
@@ -372,8 +374,8 @@ $(window).scroll(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/woodcourt/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/html/woodcourt/resources/scss/app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\scss\app.scss */"./resources/scss/app.scss");
 
 
 /***/ })
