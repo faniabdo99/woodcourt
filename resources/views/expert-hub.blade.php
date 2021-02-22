@@ -13,11 +13,11 @@ execution',
                     <div class="col-lg-7 col-12">
                         <h1>Expert Hub</h1>
                         <p class="mb-5">How To Take Care Of Your Wood Floors?</p>
-                        {{-- <div class="row ">
+                        <div class="row ">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div class="row icons-row d-flex">
                                     <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                        <a href="#toturials"><img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/wood-floors.svg" alt=""></a>
+                                        <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/wood-floors.svg" alt="">
                                     </div>
                                     <div class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
                                         <h4>Tutorials</h4>
@@ -29,9 +29,7 @@ execution',
                             <div class="col-lg-4  col-md-4 col-sm-4 col-4">
                                 <div class="row icons-row d-flex ">
                                     <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                        <a href="#resources"> <img class="mb-2 icon-image"
-                                                src="{{url('public')}}/images/expert-hub/articles.svg" alt="">
-                                        </a>
+                                        <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/articles.svg" alt="">
                                     </div>
                                     <div
                                         class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
@@ -43,8 +41,7 @@ execution',
                             <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div class="row icons-row d-flex ">
                                     <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                        <a href="#FAQs-section"> <img class="mb-2 icon-image"
-                                                src="{{url('public')}}/images/expert-hub/faq.svg" alt=""> </a>
+                                        <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/faq.svg" alt="">
                                     </div>
                                     <div
                                         class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
@@ -53,7 +50,7 @@ execution',
                                     </div>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                     <div class="col-12 col-lg-5 hero-section-content">
                         <div class="social-media-hero">
