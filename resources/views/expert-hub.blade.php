@@ -1338,7 +1338,7 @@ execution',
                     </div>
                     <hr>
                     <div class="row mt-5 " id="installation-methods">
-                      <h2>Installing Methodology</h2>
+                        <h2>Installing Methodology</h2>
                         <h3>installing the wood floors</h3>
                         <ol>
                             <li>
@@ -1400,119 +1400,119 @@ execution',
                     </div>
 
 
-                    <div class="mt-3" id="Articles">
-                      <h2>Articles</h2>
+                <div class="mt-3" id="Articles">
+                    <h2>Articles</h2>
 
-                      <div class="row mt-5" id="teak-maintenance">
-                          <h3>Teak Deck Maintenance & The Best Way To Clean Teak</h3>
-                          <p>Many people are put off the idea of teak decks by many of the horror stories that circulate.
-                              In reality, there is no reason to be frightened off and if looked after and cared for
-                              correctly they can be cared for with minimal hassle and cost. <br>Teak decks are one of the
-                              solutions for marine and outdoor decking. They also have practical benefits too.</p>
-                          <h5>Such as:-</h5>
-                          <ul>
-                              <li>Anti-slip – they are a great safety feature as the teak wood is naturally rough and
-                                  therefore is anti-slip under pretty much all weather conditions.</li>
-                              <li>They also provide a good insulating effect on either the interior of the yacht or under
-                                  your feet when walking on outdoors</li>
-                              <p>Correct teak deck maintenance is an important aspect of any outdoor care program and
-                                  looked after correctly a teak deck will last for many years.</p>
-                              <h4>How to clean teak wood</h4>
-                              <p>Teak wood itself is made up of hard and softwood elements and whilst teak is very
-                                  resilient it is very easy to drag out the softwood elements leaving ridges of hardwood.
-                                  If cared for correctly a teak deck will wear naturally and should not require
-                                  overhauling for between 10 – 15 years. After that it will only need to be sanded to have
-                                  an extra life (most teak decks could be sanded more than 5 times) <br>
-                                  Our advice is to wash it regularly as you would with fresh water fresh using only a soft
-                                  brush. <br>Once or twice a year it is recommended you clean teak decking with a special
-                                  teak deck cleaner. <br>
-                                  Follow the manufacturers’ directions and make sure you gently scrub across the direction
-                                  of the grain. <br>
-                                  We recommend using a nano fiber cleaning pad. <br> <br>
-                                  It is also worthwhile to inspect all your caulked seams as these can become worn over
-                                  time – and you don’t want any moisture penetrating between the deck planks, so it is
-                                  important to fix any worn or damaged caulking.
-                              </p>
-                              <h5>What NOT to do;</h5>
-                              <p>Don’t use high-pressure cleaners, they will blast out the soft wood elements of the teak
-                                  leaving ridges and will force you into prematurely sanding your teak decks. <br>
-                                  Don’t use hard brushes or household cleaning detergents as again these can damage the
-                                  soft surface. <br>
-                                  Always make sure that you use proper teak cleaning solutions on your decks, as this will
-                                  ensure its longevity. <br>
-                                  At the end of the day less is best !!
-                              </p>
-                              <h5>Teak Deck Treatments</h5>
-                              <p>It is natural for teak to turn a silvery grey colour and for many, this is the
-                                  traditional way to leave teak decks. However some people prefer to keep the teak looking
-                                  like new and a freshly sanded colour.
-                              </p>
-                              <h5>There are a number of options for teak deck maintenance:-</h5>
-                              <p>Traditional Teak Oils :- We don’t like using too much oil on a deck. You have to
-                                  regularly apply it as it only lasts between 1 and 3 months and if it turns grey you have
-                                  to reapply <br>
-                                  Second option is to apply an outdoor polyurethane coat, it is very easy to use and can
-                                  be applied with a brush and rags. On freshly cleaned (dry) teak simply apply two coats.
-                                  Then depending on wear and tear you can expect to apply a further coat every 6 – 8
-                                  months but in this case the deck will be a bit slippery and scratchable </p>
-                          </ul>
-                      </div>
-                      <hr>
-                      <div class="row mt-5" id="choose-suitable">
-                          <h2>Choosing The Right Hardwood Floors For Your Home</h2>
-                          <p>Do you love the feel of natural wood on floors? If yes, here's how to choose the right
-                              hardwood floor for your home. <br>
-                              This information comes from working closely with customers in and around egypt and the
-                              Middle east, Connecticut, and answering their questions about what's available and what's
-                              best for them. Although the choices can get overwhelming, your first consideration when
-                              selecting a new hardwood floor should be the style and color which determines how your room
-                              will look and how it will make you feel. <br>
-                              Here are several points you have to take a decision for each:
-                          </p>
+                    <div class="row mt-5" id="teak-maintenance">
+                        <h3>Teak Deck Maintenance & The Best Way To Clean Teak</h3>
+                        <p>Many people are put off the idea of teak decks by many of the horror stories that circulate.
+                        In reality, there is no reason to be frightened off and if looked after and cared for
+                        correctly they can be cared for with minimal hassle and cost. <br>Teak decks are one of the
+                        solutions for marine and outdoor decking. They also have practical benefits too.</p>
+                        <h5>Such as:-</h5>
+                     <ul>
+                        <li>Anti-slip – they are a great safety feature as the teak wood is naturally rough and
+                            therefore is anti-slip under pretty much all weather conditions.</li>
+                        <li>They also provide a good insulating effect on either the interior of the yacht or under
+                            your feet when walking on outdoors</li>
+                        <p>Correct teak deck maintenance is an important aspect of any outdoor care program and
+                            looked after correctly a teak deck will last for many years.</p>
+                        <h4>How to clean teak wood</h4>
+                        <p>Teak wood itself is made up of hard and softwood elements and whilst teak is very
+                            resilient it is very easy to drag out the softwood elements leaving ridges of hardwood.
+                            If cared for correctly a teak deck will wear naturally and should not require
+                            overhauling for between 10 – 15 years. After that it will only need to be sanded to have
+                            an extra life (most teak decks could be sanded more than 5 times) <br>
+                            Our advice is to wash it regularly as you would with fresh water fresh using only a soft
+                            brush. <br>Once or twice a year it is recommended you clean teak decking with a special
+                            teak deck cleaner. <br>
+                            Follow the manufacturers’ directions and make sure you gently scrub across the direction
+                            of the grain. <br>
+                            We recommend using a nano fiber cleaning pad. <br> <br>
+                            It is also worthwhile to inspect all your caulked seams as these can become worn over
+                            time – and you don’t want any moisture penetrating between the deck planks, so it is
+                            important to fix any worn or damaged caulking.
+                        </p>
+                        <h5>What NOT to do;</h5>
+                        <p>Don’t use high-pressure cleaners, they will blast out the soft wood elements of the teak
+                            leaving ridges and will force you into prematurely sanding your teak decks. <br>
+                            Don’t use hard brushes or household cleaning detergents as again these can damage the
+                            soft surface. <br>
+                            Always make sure that you use proper teak cleaning solutions on your decks, as this will
+                            ensure its longevity. <br>
+                            At the end of the day less is best !!
+                        </p>
+                        <h5>Teak Deck Treatments</h5>
+                        <p>It is natural for teak to turn a silvery grey colour and for many, this is the
+                            traditional way to leave teak decks. However some people prefer to keep the teak looking
+                            like new and a freshly sanded colour.
+                        </p>
+                        <h5>There are a number of options for teak deck maintenance:-</h5>
+                        <p>Traditional Teak Oils :- We don’t like using too much oil on a deck. You have to
+                            regularly apply it as it only lasts between 1 and 3 months and if it turns grey you have
+                            to reapply <br>
+                            Second option is to apply an outdoor polyurethane coat, it is very easy to use and can
+                            be applied with a brush and rags. On freshly cleaned (dry) teak simply apply two coats.
+                            Then depending on wear and tear you can expect to apply a further coat every 6 – 8
+                            months but in this case the deck will be a bit slippery and scratchable </p>
+                        </ul>
+                    </div>
+                <hr>
+                <div class="row mt-5" id="choose-suitable">
+                    <h2>Choosing The Right Hardwood Floors For Your Home</h2>
+                    <p>Do you love the feel of natural wood on floors? If yes, here's how to choose the right
+                        hardwood floor for your home. <br>
+                        This information comes from working closely with customers in and around egypt and the
+                        Middle east, Connecticut, and answering their questions about what's available and what's
+                        best for them. Although the choices can get overwhelming, your first consideration when
+                        selecting a new hardwood floor should be the style and color which determines how your room
+                        will look and how it will make you feel. <br>
+                        Here are several points you have to take a decision for each:
+                        </p>
+                        <ol>
+                        <li>The whole design</li>
+                        <p>What you really need to feel out from your floor, and what the style matching your home
+                        and your personality, there are a wide varity of designs at the wood court showroom to
+                        choose from, however we can do a special one for you, or implement your custom design
+                        <br> Here are examples for some designs you may like <br>
+                        Classic designs
+                        Modern designs <br>Ultra modern designs <br> Vintage designs <br> Moroccan designs <br>
+                        Islamic designs <br> (Go to our product page to see more designs and patterns to choose
+                        from )
+                        </p>
+                        <li>The wood plank or tile dimension</li>
+                        <p>Today you have a vast array of choices from traditional 5cm width strips up to to 20 cm
+                        width plank floors. For years the 5cm width strip has been the popular choice for
+                        builders for new home construction. Reason being it is readily available and cost
+                        effective <br> Also you can choose from 30cm long up to 180 cm planks <br> You may love
+                        the random width, random length or both</p>
+                        </ol>
+                        <h4>Hardwood Hardness</h4>
+                        <p>This shouldn't come as a surprise, but hardwood comes in different levels of hardness. The
+                        hardest woods are<b>teak. Pecan, Hard Maple and White Oak.</b> <br>
+                        Hard woods include <b> White Ash, Beech, Red Oak, Yellow Birch, Green Ash and Black Walnut,
+                        Cherry, Mahogany</b> <br>
+                        The least hard wood or we can tell the soft wood are different types of Pine. <br>
+                        Depending on the level of traffic and activity in your home - including kids and pets - you
+                        may be more interested in how hard a floor you select.
+                        </p>
+                        <h4>Two Types of WoodFloors to Choose From</h4>
+                        <p>Although we're discussing hardwood flooring, thanks to ongoing product development you'll
+                            find that hardwood comes in two categories: solid and engineered hardwood. <br>
+                            Let's explore.
+                            </p>
                           <ol>
-                              <li>The whole design</li>
-                              <p>What you really need to feel out from your floor, and what the style matching your home
-                                  and your personality, there are a wide varity of designs at the wood court showroom to
-                                  choose from, however we can do a special one for you, or implement your custom design
-                                  <br> Here are examples for some designs you may like <br>
-                                  Classic designs
-                                  Modern designs <br>Ultra modern designs <br> Vintage designs <br> Moroccan designs <br>
-                                  Islamic designs <br> (Go to our product page to see more designs and patterns to choose
-                                  from )
-                              </p>
-                              <li>The wood plank or tile dimension</li>
-                              <p>Today you have a vast array of choices from traditional 5cm width strips up to to 20 cm
-                                  width plank floors. For years the 5cm width strip has been the popular choice for
-                                  builders for new home construction. Reason being it is readily available and cost
-                                  effective <br> Also you can choose from 30cm long up to 180 cm planks <br> You may love
-                                  the random width, random length or both</p>
-                          </ol>
-                          <h4>Hardwood Hardness</h4>
-                          <p>This shouldn't come as a surprise, but hardwood comes in different levels of hardness. The
-                              hardest woods are<b>teak. Pecan, Hard Maple and White Oak.</b> <br>
-                              Hard woods include <b> White Ash, Beech, Red Oak, Yellow Birch, Green Ash and Black Walnut,
-                                  Cherry, Mahogany</b> <br>
-                              The least hard wood or we can tell the soft wood are different types of Pine. <br>
-                              Depending on the level of traffic and activity in your home - including kids and pets - you
-                              may be more interested in how hard a floor you select.
-                          </p>
-                          <h4>Two Types of WoodFloors to Choose From</h4>
-                          <p>Although we're discussing hardwood flooring, thanks to ongoing product development you'll
-                              find that hardwood comes in two categories: solid and engineered hardwood. <br>
-                              Let's explore.
-                          </p>
-                          <ol>
-                              <li> Solid Hardwood</li>
-                              <p>Solid wood flooring is made from one continuous piece of wood and is available in strips,
-                                  and planks. <br>
-                                  Generally, a solid hardwood floor is 17mm upto 21mm thick plank. However, it can be
-                                  manufactured in a variety of widths and thicknesses. <br>
-                                  Solid hardwood floors are generally for nail down installation or glue down, floating
-                                  technique is not recommended at all for solid wood flooring <br>
-                                  The benefit of selecting solid hardwood floors is that you can customize it in terms of
-                                  wood species, stain color as well as finishes. From a finish perspective, you can opt
-                                  for unfinished or prefinished: <br>
-                              </p>
+                            <li> Solid Hardwood</li>
+                            <p>Solid wood flooring is made from one continuous piece of wood and is available in strips,
+                                and planks. <br>
+                                Generally, a solid hardwood floor is 17mm upto 21mm thick plank. However, it can be
+                                manufactured in a variety of widths and thicknesses. <br>
+                                Solid hardwood floors are generally for nail down installation or glue down, floating
+                                technique is not recommended at all for solid wood flooring <br>
+                                The benefit of selecting solid hardwood floors is that you can customize it in terms of
+                                wood species, stain color as well as finishes. From a finish perspective, you can opt
+                                for unfinished or prefinished: <br>
+                                </p>
 
                               <ul>
                                   <li>Unfinished flooring offers unlimited color stain options.</li>
@@ -1577,6 +1577,7 @@ execution',
                           <hr>
                       </div>
                       <hr>
+
                       <div class="row mt-5 mb-3" id="hardwood-flooring">
                           <h2 class="mb-3">Latest Trends in Hardwood Flooring</h2>
                             <p>
