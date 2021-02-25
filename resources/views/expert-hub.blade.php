@@ -97,7 +97,12 @@ execution',
                         <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#outdoor-faqs">Outdoor Floors & Pergolas FAQs</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#articles">Articles</a></li>
+                <li>
+                  <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#articles">Articles</a>
+                  <ul>
+                      <li><a class="nav-item nav-link sub-category-filter active" data-toggle="tab" href="#latest-trends">Latest Trends in Hardwood Flooring</a></li>
+                  </ul>
+                </li>
               </ul>
           </div>
         </div>
@@ -253,37 +258,41 @@ execution',
                   </div>
                   <div class="tab-pane fade" id="installation-methodology" role="tabpanel">
                     <h2>Installing Methodology</h2>
-                    <h3>installing the wood floors</h3>
-                    <ol>
-                        <li>
-                            <h4>Nailed down installing technique.</h4>
-                            <p>most common & traditional way to install wood floors wood tiles or planks are to be installed by nailing down on wooden subfloors , the nails are incline vertical ,paring from wood side directly fixing it to the subfloors a dram-noise is heard while walking on due to empty space under floor.</p>
-                        </li>
-                        <li>
-                            <h4>Gluing down installing technique</h4>
-                            <p>bonding the wood floors with the subfloors wring quedown tea is a very good and cheap way to install your wood floors or D3 water beas glue wring Polyurethane (ol based) D4 glue is the best way to ensure lifelong band , as the glue can dissipates shear stream restaurant because at the different expand coaticient between the wood & the concrete tiles or ceramic tiles ,no drum-noise is heard out all .you will get lifetime guarantee against debonding from when purchasing from the wood court</p>
-                        </li>
-                        <li>
-                            <h4>Floating installation technique</h4>
-                            <p>installing your floors using this technique make it very easy to maintain as you can replace any damaged piece early , the wood floors are flooded over the subfloor , royale the lem sheet with 2mm thickness is placed between wood & subfloor to isolate moisture and deareane sowels when walking on , this technique also makes it very easy to uninstall your wood floor and use it again in another place , leaving the subfloor without any damage.</p>
-                        </li>
-                    </ol>
+                    <h3>Installing the wood floors :</h3>
+                            <h4>1- Nailed down installing technique</h4>
+                            <p>The most common & traditional way to install wood floors wood tiles or planks are to be installed by nailing down on wooden subfloors, the nails are inclined vertical, paring from the woodside directly fixing it to the subfloors a drum-noise is heard while walking on due to space under the wood floor. <br> </p>
+                            <h4>2- Gluing down installing technique</h4>
+                            <img class="mb-2 w-100" src="{{url('public')}}/images/expert-hub/articles/5.png" alt="1">
+                            <p>Bonding the wood floors with the subfloors using gluing is a very good and cheap way to install your wood floors or D3 water base glue using Polyurethane (oil-based) D4 glue is the best way to ensure lifelong bond, as the glue can dissipates shear stream restaurant because at the different expand coefficient between the wood & the concrete tiles or ceramic tiles,
+                            no drum-noise is heard out all.
+                            you will get a lifetime guarantee against debonding when purchasing from The Wood Court.
+                            </p>
+                            <h4>3- Floating installation technique. </h4>
+                            <img class="mb-2 w-100" src="{{url('public')}}/images/expert-hub/articles/6.png" alt="1">
+
+                            <p>Installing your floors using this technique make it very easy to maintain as you can replace any damaged piece early, the wood floors are floated over the subfloor, royale the LEM sheet with 2mm thickness is placed between wood & subfloor to isolate moisture and decrease sounds when walking on. this technique also makes it very easy to uninstall your wood floor and use it again in another place, leaving the subfloor without any damage. </p>
                     <h3>Installation:</h3>
-                    <ol>
+
                         <h5>(A) sub-floors:</h5>
-                        <li>
-                            <h4>wooden sub floor</h4>
-                            <p>In this type of subfloor , wooden beams made of red pine wood with 5cm square section or 5cm by 4cm rectangular section are installed with 25 to 35 pieces of concrete to leave the floor , fixed with metal fixtures and concrete to be bended with the floor. then 1.6cm by 10cm section of some wood type owe installed with about 2-10 cm spaces in opposite direction to be a top subfloor laid in which wood floor fixation takes place . <br>this is the traditional sub flooring used for more than 100 years ago , always used uptill now in nail down installation technique , </p>
-                        </li>
-                        <li>
-                            <h4>wood on tiles sub Floor</h4>
-                            <p>in this type , we use concrete tiles , mosaic tiles , low quality ceramic tiles instead of wood for leaving process , tiles are installed regularly and flush on concrete , are fixed on it , this method also is used for nailed down installation technique </p>
-                        </li>
-                        <li>
-                            <h4> Concrete-based tiles subfloor</h4>
-                            <p>used always for glue down & floating installation technique , mosaic or ceramic tiles are installed directly using concrete , for leaving them wood floors are glued down on it floated on it using polythene sheets to prevent humidity , temperature,sound.</p>
-                        </li>
-                    </ol>
+
+                            <h4>1- Wooden subfloor:</h4>
+                            <p>In this type of subfloor, wooden beams made of red pine wood with 5cm square section or 5cm by 4cm rectangular section are installed with 25 to 35 pieces of concrete to leave the floor, fixed with metal fixtures and concrete to be bent with the floor. <br>
+
+                              Then 1.6cm by 10cm section of some wood type owe installed with about 2-10 cm spaces in opposite direction to be a top subfloor laid in which wood floor
+                              fixation takes place. <br>
+
+                              This is the traditional subflooring used more than 100 years ago, always used up till now in nail down installation technique.  <br>
+                               </p>
+
+
+                            <h4>2- Wood on tiles sub Floor:</h4>
+                            <p>In this type, we use concrete tiles, mosaic tiles, low quality ceramic tiles instead of wood for the installation process. Tiles are installed regularly and flush on concrete, are fixed on it. This method also is used for nailed down installation technique  </p>
+
+
+                            <h4>3- Concrete-based tiles subfloor: </h4>
+                            <p>Used always for glue down & floating installation technique, mosaic or ceramic tiles are installed directly using concrete, for leaving them wood floors are glued down on it floated on it using polythene sheets to prevent humidity, temperature, sound. </p>
+
+
                   </div>
                   <div class="tab-pane fade" id="finishing-techniques" role="tabpanel">
                     <p>When it comes to choosing hardwood floors, & the question is not only solid or engineered wood Flooring, but also , site- Finish or pre finished Flools? . which one is better? and why ? well, each type has its benefits</p>
@@ -1448,117 +1457,9 @@ execution',
                                       textures like textile and marple Fire Retardant Laminates</p>
                               </div>
                           </div>
-                            <div class="row mt-5 mb-3" id="hardwood-flooring">
-
-                                <h3 class="mb-3">Latest Trends in Hardwood Flooring</h3>
-                                <p>
-                                    Hardwood Flooring really makes your home very welcoming & beautiful , when cared For
-                                    , it
-                                    will stand for long time giving you worm & positive Feelings , (For wood care click
-                                    here)
-                                    It is also considered as a long term investment , as Hard-wood Floors add
-                                    considerable
-                                    resale value to your home .<br>
-                                    As clamic , as wood floors are , It continue to evolve , nowtime , there are plenty
-                                    of
-                                    design which can match your taste modern , clamic , contemporary , country , vintage
-                                    , even
-                                    ultra-modern
-                                    Here are some of the latest trends you may like some of them according to your style
-                                    &
-                                    personality .<br>
-                                    Although Fashion and design a rale in the trends , Performance , matters too ,
-                                    whatever the
-                                    design is , it is made out of natural hardwood which care room there , living &
-                                    breathing
-                                    entities we are all yamiliar & comfortable with
-                                </p>
-                                <br>
-                                <p>
-                                    Hardwood Flooring isn't always about protection .
-                                    Hand-scraped wood floors in the very beginning in 1800s , Hard wood floors are get
-                                    finished
-                                    by hand , no machines are used in this procern crafters were scraping thin layers of
-                                    wood
-                                    all a piece used of lomter , smoothing out the top surface , leaving the scraping
-                                    marks
-                                    behind , proving to next generation a piece of wood had been worked by hand , we all
-                                    can see
-                                    hand scrape marks in wood floors surface when we visit any of the old structures
-                                    now , however we have machine and special tools that can sand & polish wood floors
-                                    without
-                                    leaving any marks , one of the common trends now is menuta cluing hand wood floors
-                                    with
-                                    these marks to look similar to the hand-scraped floors , giuling the look and feed
-                                    of the
-                                    historical wood floors
-                                </p>
-                                <br><br>
 
 
-                                <h3>Distressed Wood floors :</h3>
-                                <p>When you visit any old building like a museur , or an old company or commercial shop
-                                    which
-                                    was built in the 1900’s you can see the wood floors distressed & marked by decades
-                                    of rough
-                                    use , the gouges , nail holes stains , discoloring , and saw marks .<br> homeowners
-                                    today
-                                    are showing their administration for the over when skill rather than technology was
-                                    the king
-                                    .</p>
-                                <br>
-                                <p>wood planks are getting wider . <br>
-                                    Remember when you visit grandpa , the wood floors pieces are about 2 to 3 cm width ,
-                                    and
-                                    15-20 cm length , each piece is installed perpendicular to the other giving a
-                                    herringbone
-                                    pattern , later on , the piece get wider and taller , and the smaller one become an
-                                    old
-                                    fashion , the width increased to about 6-8 cm and the length increased to about
-                                    35-40 cm ,
-                                    Now , one of the latest trends is wide planks , or extra wide planks , people
-                                    preture to
-                                    install planks of width about 12-15 cm and to 20cm and length reaches to 180 cm
-                                    .<br> Also
-                                    installing mixed width planks together giving a very nice result in your home .</p>
-                                <br>
-                                <p>Exotic hardwoods with unused patterns , are now available time ago , oak was the king
-                                    of wood
-                                    floors all over the world , now it's time to discover the wealth that alnice have ,
-                                    mahogany
-                                    , Iroka , sapeli , tails bete and much more wonderful types to discover . <a
-                                        href="#">click
-                                        here to learn more about exotic wood</a> </p>
 
-
-                                <h3>Chevron wood Flooring Pattern</h3>
-                                <p>instead of the traditional herringbone pattern , now the chevron pattern is much more
-                                    modern
-                                    & popular , matching a modern or contemporary taste , you will be satisfied with
-                                    this
-                                    pattern more than a traditional herringbone .
-                                    <br> white , grey & greyish colors . <br>
-                                    The brown tones of wood floors we use where around starts to become an old fashion ,
-                                    the
-                                    white , grey , and greig colors now is the king not only your wood floors bat also
-                                    pergolas
-                                    , kitchens & dressing rooms . <br>
-                                    these colors matching a modern ultramodern styles much better them brown & reddish
-                                    brown
-                                    colors. <br>
-                                    Finally , we can say what is old on hardwood floors is new again .
-                                </p>
-                                <br>
-                                <div>
-                                    <h5>Which trend do you love the most ?</h5>
-                                    <p>we’d love to know</p>
-                                    <h5>Do you know any other trends ?</h5>
-                                    <p> ..Help us to cover all popular trends by an email or prem contact us.</p>
-                                    <h5>Do you want to see these trends live ?</h5>
-                                    <p> ..visit our store or book an appointment to visit our factory.</p>
-                                </div>
-                                <hr>
-                            </div>
                             <div class="row mt-5 mb-3" id="hpl-board">
                                 <h2 class="mb-3">what is High Pressure Laminates (HPL)<h2>
                                         <h3>High Pressure Laminates (HPL) for Decorative Surfaces</h3>
@@ -1617,26 +1518,87 @@ execution',
                                             deflection. <br>
                                             The same shelf can carry 85 lbs psf before reaching the same deflection if
                                             overlaid with HPL.
-
-
-
-
-
-                                        </p>
+                                </p>
                             </div>
                         </div>
                     </div>
-=======
+                  </div>
+
+                    <div class="tab-pane fade" id="latest-trends" role="tabpanel">
+                        <div class="mt-5 mb-3">
+                          <h3 class="mb-3">Latest Trends in Hardwood Flooring </h3>
+                              <p>
+                                Hardwood Flooring really makes your home very welcoming & beautiful. When properly cared for, it will stand for a long time giving you warm & positive feelings. (For wood care click here) <br>
+                                It is also considered a long term investment, as hardwood floors add considerable resale value to your home.  <br>
+                                As classic as wood floors are, they continue to evolve. Nowadays, there are plenty of designs that can match your taste; modern, Islamic, contemporary, country, vintage, even ultra-modern. <br>
+                                Here are some of the latest trends you may like some of them according to your style & personality. <br>
+                                Hardwood Flooring isn't always about protection.<br>
+                                Hand-scraped wood floors in the very beginning in the 1800s, Hardwood floors are getting finished by hand, no machines are used in this process. Crafters were scraping thin layers of wood at a time, smoothing out the top surface, leaving the scraping marks behind, proving to the next generation a piece of wood had been worked by hand, we all can see hand scrape marks in wood floors surface when we visit any of the old structures.<br>
+                                Now, however, we have machines and special tools that can sand & polish wood floors without leaving any marks, one of the common trends now is marking hardwood floors with these marks to look similar to the hand-scraped floors, giving the look and feel of the historical wood floors. <br>
+                              </p>
+                              <br>
+                              <h3>Distressed Wood floors :</h3>
+                                   <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/1.png" alt="">
+                              <p>When you visit any old building like a museum, or an old company or commercial shop which was built in the 1900’s
+                                 you can see the wood floors distressed & marked by decades of rough use, the gouges, nail holes stains, discolouring, and saw marks. <br>
+                                  homeowners today are showing their administration for the over when skill rather than technology was the king.<br>
+                                  .</p>
+                              <br>
+                              <p>Wood planks are getting wider<br>
+                                  Remember when you visit grandpa, the wood floors pieces are about 2 to 3 cm width, and 15-20 cm length, each piece is installed perpendicular to the other giving a herringbone pattern, later on, the piece gets wider and taller, and the smaller one becomes an old fashion, the width increased to about 6-8 cm and the length increased to about 35-40 cm,
+                                  Now, one of the latest trends is wide planks or extra wide planks, people prefer to install planks of width about 12-15 cm and to 20cm and length reaches to 180 cm. <br>
+                                  Also installing mixed-width planks together giving a very nice result in your home. <br>
+                                </p>
+                              <br>
+                              <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/2.png" alt="">
+                              <h3>Exotic hardwoods</h3>
+                              <p>Exotic hardwoods with unusual patterns are now available. A long time ago, oak was the king of wood floors all over the world, now it's time to discover the wealth that Africa has, mahogany, Iroko, Sapele, teak and many more wonderful types to discover. <br>
+                                 <a href="#">Click here to learn more about exotic wood</a> </p>
+                              <h3>Chevron wood Flooring Pattern.</h3>
+                              <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/3.png" alt="">
+                              <p>Instead of the traditional herringbone pattern, now the chevron pattern is much more modern & popular, matching a modern or contemporary taste, you will be satisfied with this pattern more than a traditional herringbone. <br>
+                              </p>
+                              <br>
+                              <h3>White, Grey & Greyish Colors.</h3>
+                              <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/4.png" alt="">
+                              <p>The brown tones of wood floors we use where around starts to become an old fashion, the white, grey, and greyish colours now are the king, not only for your wood floors but also pergolas, kitchens & dressing rooms. <br>
+
+                                these colours matching modern ultramodern styles much better them brown & reddish-brown colours <br>
+
+                                Finally, we can say what is old on hardwood floors is new again. <br>
+
+                                Which trend do you love the most? <br>
+                                Contact us on our social media channels <br>
+                              </p>
+                                <a href="#">(Social media links)</a> <br>
+                                <p>  Do you know any other trends? <br>
+                                   Help us to cover all the popular trends by emailing us your opinion. <br></p>
+                                <a href="#">(Send an email to info@thewoodcourt.com)</a>
+                                <p>Do you want to see these trends live? <br>
+                                Visit our store or book an appointment to visit our factory. <br></p>
+                                <a href="#">(About us)</a>
+                              <div>
+                                  <h5>Which trend do you love the most ?</h5>
+                                  <p>we’d love to know</p>
+                                  <h5>Do you know any other trends ?</h5>
+                                  <p> ..Help us to cover all popular trends by an email or prem contact us.</p>
+                                  <h5>Do you want to see these trends live ?</h5>
+                                  <p> ..visit our store or book an appointment to visit our factory.</p>
+                              </div>
+                              <hr>
+                          </div>
                       </div>
                   </div>
                 </div>
+
                 <div class="tab-pane fade" id="outdoor-faqs" role="tabpanel">
                   <h2 class="my-4" id="FAQs-kitchens">Frequently Asked Questions For Outdoors</h2>
                   Coming Soon ...
                 </div>
               </div>
+                  </div>
             </div>
-            <div class="tab-pane fade" id="articles" role="tabpanel">
+            <div class="tab-pane fade" id="articless" role="tabpanel">
               <h2>Check out our latest blog articles</h2>
               @forelse ($AllArticles as $Article)
                 <div class="single-event mb-4">
@@ -1651,7 +1613,6 @@ execution',
                     <p>{{$Article->description}}</p>
                     <a class="icon-button" href="{{route('blog.single',$Article->slug)}}"><i class="fas fa-plus"></i> View More</a>
                   </div>
->>>>>>> ee1e1d43e942d996ed57341f113e50eb72a7735f
                 </div>
               @empty
                 <p>There is no articles yet, Stay tunde!</p>
