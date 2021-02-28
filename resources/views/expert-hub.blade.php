@@ -474,7 +474,7 @@ execution',
                                 <p>When it comes to choosing hardwood floors, & the question is not only solid or
                                     engineered wood Flooring, but also , site- Finish or pre finished Flools? . which
                                     one is better? and why ? well, each type has its benefits</p>
-                                <h3>1.Site Finish:</h3>
+                                <h2>1.Site Finish:</h2>
                                 <p>When you go for site- Finish wood floors, then you are purchasing wood floors which
                                     will be shipped to your home unfinished , to be Sanded, possibly stained and then
                                     sealed and finished with a top protective layer in your home. This process takes & a
@@ -546,7 +546,7 @@ execution',
                                 </p>
                                 <h4>pre-Finished Floors have beveled edges not square ones not like sile-Finish which
                                     can have either square edge or beveled ones</h4>
-                                <h3>3. UV-Curing Finish</h3>
+                                <h2>3. UV-Curing Finish</h2>
                                 <p>it is the process in which the coat a changes from liquid state to solid state under
                                     ultraviolet rays instantly in a sealed <br><br>
                                     <b> Finishing Live, no no dust will stick to planks, so it results with smooth
@@ -656,7 +656,7 @@ execution',
                     <div class="tab-pane fade" id="faqs" role="tabpanel">
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="indoor-faqs" role="tabpanel">
-                                <h3>FAQs For Indoor Flooring</h3>
+                                <h2>Frequently Asked Questions For Indoor Flooring</h2>
                                 <div class="accordion" id="accordionExample">
                                     <div class="card">
                                         <div class="card-header" id="heading-FAQ-1">
@@ -1276,7 +1276,7 @@ execution',
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="kitchens-faqs" role="tabpanel">
-                                <h2 class="my-4" id="FAQs-kitchens">Frequently asked questions for kitchens</h2>
+                                <h2 class="my-4" id="FAQs-kitchens">Frequently Asked Questions for kitchens</h2>
                                 <div class="accordion" id="faq2">
                                     <div class="card">
                                         <div class="card-header" id="heading-FAQ-19">
@@ -1880,7 +1880,7 @@ execution',
                             </div>
                             <div class="tab-pane fade" id="latest-trends" role="tabpanel">
                                 <div class="mt-5 mb-3">
-                                    <h3 class="mb-3">Latest Trends in Hardwood Flooring </h3>
+                                    <h2 class="mb-3">Latest Trends in Hardwood Flooring </h2>
                                     <p>
                                         Hardwood Flooring really makes your home very welcoming & beautiful. When properly
                                         cared for, it will stand for a long time giving you warm & positive feelings. (For
