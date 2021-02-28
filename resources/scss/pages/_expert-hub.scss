@@ -36,6 +36,17 @@ hr {width: 100%;}
     }
 }
 .hero-section{
+  [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 78px;
+    font-style: normal;
+    margin-left: 0px;
+
+  }
+  h4{
+    margin-top: -8px;
+  }
+
   .icons-row{
     display: flex;
     justify-content: center;

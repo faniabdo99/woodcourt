@@ -16,7 +16,10 @@
         }
     }
     .social-media-hero {
-        width: 60%;
+        width: fit-content;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: -o-fit-content;
         margin: auto;
         background-color: rgba(0,0,0,0.4);
         padding: 25px;
@@ -97,6 +100,12 @@
                     }
                 }
             }
+        }
+        @media(max-width:992px){
+          .hero-section-content{
+
+            display: none;
+          }
         }
     }
 }
@@ -671,7 +680,7 @@
   }
 }
 //Mobile Version of the components
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .hero-section {
         .dark-overlap {
             h1 ,h2{

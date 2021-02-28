@@ -304,7 +304,10 @@ a:hover {
   font-size: 1.6em;
 }
 .hero-section .social-media-hero {
-  width: 60%;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: -o-fit-content;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 25px;
@@ -380,6 +383,11 @@ a:hover {
 .hero-section .social-media-hero ul li.youtube-li:hover {
   transition: all ease 0.3s;
   background-color: #d40f0f;
+}
+@media (max-width: 992px) {
+  .hero-section .social-media-hero .hero-section-content {
+    display: none;
+  }
 }
 
 .testimonials-section {
@@ -951,7 +959,7 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
     text-align: center;
@@ -2228,6 +2236,15 @@ hr {
   }
 }
 
+.hero-section [class^=flaticon-]:before, .hero-section [class*=" flaticon-"]:before, .hero-section [class^=flaticon-]:after, .hero-section [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 78px;
+  font-style: normal;
+  margin-left: 0px;
+}
+.hero-section h4 {
+  margin-top: -8px;
+}
 .hero-section .icons-row {
   display: flex;
   justify-content: center;
