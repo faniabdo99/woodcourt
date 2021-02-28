@@ -313,8 +313,7 @@ a:hover {
   padding: 25px;
   border-radius: 4px;
 }
-.hero-section .social-media-hero h3,
-.hero-section .social-media-hero p {
+.hero-section .social-media-hero h3, .hero-section .social-media-hero p {
   color: #fff;
 }
 .hero-section .social-media-hero p {
@@ -2236,12 +2235,6 @@ hr {
   }
 }
 
-.hero-section [class^=flaticon-]:before, .hero-section [class*=" flaticon-"]:before, .hero-section [class^=flaticon-]:after, .hero-section [class*=" flaticon-"]:after {
-  font-family: Flaticon;
-  font-size: 78px;
-  font-style: normal;
-  margin-left: 0px;
-}
 .hero-section h4 {
   margin-top: -8px;
 }
@@ -2251,6 +2244,14 @@ hr {
   flex-direction: column;
   align-items: center;
   color: white;
+}
+.hero-section .icons-row i {
+  font-family: Flaticon;
+  font-style: normal;
+  margin-left: 0px;
+}
+.hero-section .icons-row i:before {
+  font-size: 78px !important;
 }
 .hero-section .icons-row p {
   font-size: 16px;
