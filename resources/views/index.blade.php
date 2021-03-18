@@ -881,7 +881,7 @@
         <div class="dark-overlap">
             <div class="container">
                 <div class="row">
-                    <h2 class="col-12 d-block">Why Us?</h2>
+                    <h2 class="section-heading col-12 d-block">Why Us?</h2>
                     <div class="col-lg-7 col-12">
                         <div class="row why-us-cards-toggler">
                             <div class="col-lg-2 col-3">
@@ -1380,7 +1380,7 @@
         </div>
     </section>
     <section class="expert-hub-cta text-center py-5">
-        <h2 class="text-center d-inline-block section-title">Expert Hub</h2>
+        <h2 class="text-center d-inline-block">Expert Hub</h2>
         <div class="container">
           <div class="row mt-5">
             <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
@@ -1486,7 +1486,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="section-heading">Our Achievements</h2>
+                        <h2>Our Achievements</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -1972,7 +1972,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2>Our Clients</h2>
+                    <h2 class="section-title">Our Clients</h2>
                     <div class="owl-carousel owl-theme full-width-carousel-with-nav">
                         <div class="row">
                             <div class="col-lg-2 col-4">
@@ -2146,5 +2146,4 @@
     @include('layout.scripts')
     @include('layout.footer')
 </body>
-
 </html>

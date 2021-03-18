@@ -293,6 +293,7 @@ a:hover {
 .hero-section .dark-overlap {
   width: 100%;
   height: calc(100vh - 100px);
+  overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .hero-section .dark-overlap h2, .hero-section .dark-overlap h1 {
@@ -428,8 +429,11 @@ a:hover {
   padding: 100px 0;
 }
 .testimonials-section .dark-overlap h2 {
-  text-align: center;
   color: #fff;
+  width: 100%;
+  margin-bottom: 60px;
+  font-size: 2.5em;
+  text-align: center;
 }
 .testimonials-section .dark-overlap .slide {
   padding: 80px 0;
@@ -597,6 +601,7 @@ a:hover {
 .section-title {
   position: relative;
   text-align: center;
+  font-size: 2.5em;
 }
 .section-title:after {
   content: "";
@@ -734,20 +739,22 @@ a:hover {
 }
 
 .our-achievements {
-  height: 400px;
+  height: 430px;
   background: url("../images/achivements-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 .our-achievements .dark-overlap {
   padding: 50px 0;
-  height: 400px;
+  height: 430px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.our-achievements .dark-overlap .section-heading {
+.our-achievements .dark-overlap h2 {
   color: #fff;
+  width: 100%;
+  margin-bottom: 60px;
+  font-size: 2.5em;
   text-align: center;
-  margin-bottom: 30px;
 }
 .our-achievements .dark-overlap .single-counter-item {
   background-color: rgba(0, 0, 0, 0.5);
@@ -934,8 +941,11 @@ a:hover {
   background-size: cover;
   color: #fff;
 }
-.expert-hub-cta .section-title {
+.expert-hub-cta h2 {
   color: #fff;
+  width: 100%;
+  margin-bottom: 60px;
+  font-size: 2.5em;
 }
 .expert-hub-cta h3 {
   font-size: 1.3em;
@@ -1318,8 +1328,9 @@ a:hover {
 }
 #homepage-cta .dark-overlap h2 {
   color: #fff;
-  font-size: 5em;
-  margin-bottom: 55px;
+  width: 100%;
+  margin-bottom: 100px;
+  font-size: 2.5em;
 }
 #homepage-cta .dark-overlap p {
   color: #fff;
@@ -1478,9 +1489,6 @@ a:hover {
 .homepage-videos-grid {
   background: #F1F1F1;
   padding: 50px 0;
-}
-.homepage-videos-grid h2 {
-  color: #333333;
 }
 .homepage-videos-grid ul {
   list-style-type: none;

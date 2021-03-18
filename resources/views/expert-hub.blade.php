@@ -1875,7 +1875,7 @@ execution',
                                     </div>
                                 </div>
                                 @empty
-                                <p>There is no articles yet, Stay tunde!</p>
+                                <p>There is no articles yet, Stay tuned!</p>
                                 @endforelse
                             </div>
                             <div class="tab-pane fade" id="latest-trends" role="tabpanel">
