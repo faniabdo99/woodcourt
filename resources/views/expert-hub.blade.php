@@ -1859,24 +1859,26 @@ execution',
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="blog" role="tabpanel">
                                 <h2>Check out our latest blog articles</h2>
-                                @forelse ($AllArticles as $Article)
-                                <div class="single-event mb-4">
-                                    <div class="image-container">
-                                        <img src="{{$Article->imageSrc}}" alt="{{$Article->title}}">
-                                    </div>
-                                    <div class="content-container">
-                                        <h2>{{$Article->title}}</h2>
-                                        <span class="metabox d-block mb-3">
-                                            <i class="fas fa-calendar"></i> {{$Article->created_at->format('d, M Y')}}
-                                        </span>
-                                        <p>{{$Article->description}}</p>
-                                        <a class="icon-button" href="{{route('blog.single',$Article->slug)}}"><i
-                                                class="fas fa-plus"></i> View More</a>
-                                    </div>
-                                </div>
-                                @empty
-                                <p>There is no articles yet, Stay tuned!</p>
-                                @endforelse
+                                <section class="events-list">
+                                    @forelse ($AllArticles as $Article)
+                                        <div class="single-event mb-4">
+                                            <div class="image-container">
+                                                <img src="{{$Article->imageSrc}}" alt="{{$Article->title}}">
+                                            </div>
+                                            <div class="content-container">
+                                                <h2>{{$Article->title}}</h2>
+                                                <span class="metabox d-block mb-3">
+                                                    <i class="fas fa-calendar"></i> {{$Article->created_at->format('d, M Y')}}
+                                                </span>
+                                                <p>{{$Article->description}}</p>
+                                                <a class="icon-button" href="{{route('blog.single',$Article->slug)}}"><i
+                                                        class="fas fa-plus"></i> View More</a>
+                                            </div>
+                                        </div>
+                                    @empty
+                                    <p>There is no articles yet, Stay tuned!</p>
+                                    @endforelse
+                                </section>
                             </div>
                             <div class="tab-pane fade" id="latest-trends" role="tabpanel">
                                 <div class="mt-5 mb-3">
