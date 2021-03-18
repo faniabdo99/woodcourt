@@ -5,7 +5,7 @@ use Validator;
 use App\Models\Event;
 class EventsController extends Controller{
     public function getIndex(){
-      $AllEvents = Event::where('type' , 'event')->latest()->get();
+      $AllEvents = Event::latest()->get();
       return view('admin.events.index' , compact('AllEvents'));
     }
     public function getNew(){
@@ -91,7 +91,7 @@ class EventsController extends Controller{
     }
     public function getSingle($slug){
       $TheEvent = Event::where('slug' ,$slug)->first();
-      $LatestEvents = Event::latest()->where('slug' , '!=' , $slug)->limit(6)->get();
+      $LatestEvents = Event::latest()->where('slug' , '!=' , $slug)->where('type' , 'event')->limit(6)->get();
       if(!$TheEvent){abort(404);}
       views($TheEvent)->record();
       return view('single-event' , compact('TheEvent' , 'LatestEvents'));
@@ -103,7 +103,7 @@ class EventsController extends Controller{
     }
     public function getBlogSingle($slug){
       $TheArticle = Event::where('slug' ,$slug)->first();
-      $LatestArticles = Event::latest()->where('slug' , '!=' , $slug)->limit(6)->get();
+      $LatestArticles = Event::latest()->where('slug' , '!=' , $slug)->where('type' , 'article')->limit(6)->get();
       if(!$TheArticle){abort(404);}
       views($TheArticle)->record();
       return view('blog.single' , compact('TheArticle' , 'LatestArticles'));

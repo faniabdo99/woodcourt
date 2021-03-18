@@ -1862,9 +1862,6 @@ execution',
                                 <section class="events-list">
                                     @forelse ($AllArticles as $Article)
                                         <div class="single-event mb-4">
-                                            <div class="image-container">
-                                                <img src="{{$Article->imageSrc}}" alt="{{$Article->title}}">
-                                            </div>
                                             <div class="content-container">
                                                 <h2>{{$Article->title}}</h2>
                                                 <span class="metabox d-block mb-3">
