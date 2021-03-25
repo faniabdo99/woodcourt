@@ -32,6 +32,7 @@ class ContactController extends Controller{
         //Upload to the datasheet
         $TheMessageSheetData = $r->all();
         $TheMessageSheetData['form_location'] = 'Contact Us Page';
+        $TheMessageSheetData['date'] = date('Y-m-d');
         Sheets::spreadsheet('1Q0_PmHIfx5VH4xP5uDUOime2fkHHAKWF1dshyyUmXFQ')->sheet('ContactUs')->append([$TheMessageSheetData]);
         return response('Message Sent!' , 200);
         //Send the message
@@ -54,6 +55,8 @@ class ContactController extends Controller{
       }else{
         //Upload to the datasheet
         $TheMessageSheetData = $r->except('_token');
+        $TheMessageSheetData = $r->all();
+        $TheMessageSheetData['date'] = date('Y-m-d');
         Sheets::spreadsheet('1Q0_PmHIfx5VH4xP5uDUOime2fkHHAKWF1dshyyUmXFQ')->sheet('LimitedEditionRequests')->append([$TheMessageSheetData]);
         return redirect()->back()->withSuccess('Thank you for your request, We will contact you in 24 Hours');
       }
@@ -63,9 +66,12 @@ class ContactController extends Controller{
       $Rules = [
         'name' => 'required',
         'contact_method' => 'required',
+        'area' => 'required',
         'message' => 'required'
       ];
-      $Validator = Validator::make($r->all(), $Rules);
+      $Content = $r->all();
+      $Content['date'] = date('Y-m-d');
+      $Validator = Validator::make($Content, $Rules);
       if($Validator->fails()){
         return redirect()->back()->withErrors($Validator->errors()->first());
       }else{

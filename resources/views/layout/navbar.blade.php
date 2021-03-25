@@ -58,7 +58,7 @@
                     </div>
                   </li> -->
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('blogs')}}">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">Expert Hub</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
                 <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a></li>
                   @auth
@@ -86,6 +86,16 @@
           @csrf
           <label>Name</label>
           <input class="form-control" placeholder="Please Enter Your Name" type="text" name="name" required>
+          <br>
+          <label>Estimated Area (m<sup>2</sup>)</label>
+          <input class="form-control" placeholder="Please Enter Estimted Area" type="number" name="area" required>
+          <br>
+          <label>Choose Product(s):</label>
+          <select class="form-control" name="product_id" multiple>
+            <option value="dd">dd</option>
+            <option value="dd">dd</option>
+            <option value="dd">dd</option>
+          </select>
           <br>
           <label>Contact Method</label>
           <input class="form-control" placeholder="Contact Method (Email , Phone Number) " type="text" name="contact_method" required>
