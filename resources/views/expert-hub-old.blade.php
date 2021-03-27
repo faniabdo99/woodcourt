@@ -56,7 +56,7 @@ execution',
             </div>
             <div class="col-lg-8">
                 <div class="tab-content" id="nav-tabContent">
-            
+
                     <div class="tab-pane fade" id="nav-engineered-floors">
                         <div class="row mt-5 mb-3" id="engineered-hardwood">
 
@@ -65,8 +65,8 @@ execution',
 
                     <div class="tab-pane fade  " id="FAQs">
                         <h2>FAQs</h2>
-                   
-                 
+
+
                     </div>
                     <div class="tab-pane fade" id="nav-articles" role="tabpanel" aria-labelledby="nav-articles">
                         <div class="mt-3" id="Articles">
@@ -396,10 +396,9 @@ execution',
                                     of wood
                                     floors all over the world , now it's time to discover the wealth that alnice have ,
                                     mahogany
-                                    , Iroka , sapeli , tails bete and much more wonderful types to discover . <a
-                                        href="#">click
-                                        here to learn more about exotic wood</a> </p>
-
+                                    , Iroka , sapeli , tails bete and much more wonderful types to discover .
+                                     <a href="#">here to learn more about exotic wood</a>
+                                    </p>
 
                                 <h3>Chevron wood Flooring Pattern</h3>
                                 <p>instead of the traditional herringbone pattern , now the chevron pattern is much more
@@ -431,68 +430,63 @@ execution',
                             </div>
                             <div class="row mt-5 mb-3" id="hpl-board">
                                 <h2 class="mb-3">what is High Pressure Laminates (HPL)<h2>
-                                        <h3>High Pressure Laminates (HPL) for Decorative Surfaces</h3>
-                                        <p>High Pressure Laminate or HPL, is the direct descendent of the original
-                                            plastic laminate. It is considered to be one of the most durable decorative
-                                            surface <br>
-                                            materials and is available with special performance properties including
-                                            chemical, fire and wear resistance. Special grades of HPL can be postformed
-                                            around curved edges by application of heat and restraint. <br>
-                                            <br>
-                                            HPL is produced by saturating multiple layers of kraft paper with phenolic
-                                            resin. A layer of printed décor paper is placed on top of the kraft paper
-                                            before pressing.<br>
-                                            The resulting sandwich is fused together under heat and pressure (more than
-                                            1,000 PSI). Because phenolic and melamine resins are thermoset plastics<br>
-                                            , the curing process transforms the resin into plastic by a cross linking
-                                            process that converts the paper sheets into a single, rigid laminated
-                                            sheet.<br>
-                                            Thermosetting creates strong, irreversible bonds that contribute to its
-                                            durability.
-                                            <br>
-                                            High pressure laminate is laminated to a composite panel utilizing a variety
-                                            of adhesives. Particleboard or MDF are the preferred substrate<br>
-                                            because they provide a stable, durable, consistent and economical
-                                            foundation. Due to its durability, high pressure laminates are a common
-                                            choice for <br>
-                                            horizontal surfaces including flooring, countertops and desktops. <br>
+                                  <h3>High Pressure Laminates (HPL) for Decorative Surfaces</h3>
+                                  <p>High Pressure Laminate or HPL, is the direct descendent of the original
+                                      plastic laminate. It is considered to be one of the most durable decorative
+                                      surface <br>
+                                      materials and is available with special performance properties including
+                                      chemical, fire and wear resistance. Special grades of HPL can be postformed
+                                      around curved edges by application of heat and restraint. <br>
+                                      <br>
+                                      HPL is produced by saturating multiple layers of kraft paper with phenolic
+                                      resin. A layer of printed décor paper is placed on top of the kraft paper
+                                      before pressing.<br>
+                                      The resulting sandwich is fused together under heat and pressure (more than
+                                      1,000 PSI). Because phenolic and melamine resins are thermoset plastics<br>
+                                      , the curing process transforms the resin into plastic by a cross linking
+                                      process that converts the paper sheets into a single, rigid laminated
+                                      sheet.<br>
+                                      Thermosetting creates strong, irreversible bonds that contribute to its
+                                      durability.
+                                      <br>
+                                      High pressure laminate is laminated to a composite panel utilizing a variety
+                                      of adhesives. Particleboard or MDF are the preferred substrate<br>
+                                      because they provide a stable, durable, consistent and economical
+                                      foundation. Due to its durability, high pressure laminates are a common
+                                      choice for <br>
+                                      horizontal surfaces including flooring, countertops and desktops. <br>
 
-                                            High pressure laminate (HPL) countertops aren't just for kitchens; they can
-                                            stand up to the rigorous demands of science labs and classrooms.<br>
-                                            It also performs well in horizontal and vertical applications for high
-                                            traffic settings such as hospitality, office furniture, healthcare, retail
-                                            casework,<br>
-                                            commercial interiors and educational facilities.<br> <br>
-                                            There are many types or grades of high pressure laminates (HPL) engineered
-                                            for specific performance requirements: <br> <br>
-                                            <b>General Purpose</b> <br>
-                                            Most widely used HPL and suitable for horizontal and vertical surface
-                                            applications. Typical thickness range from 0.028” to 0.048” (0.71 to 1.22
-                                            mm). <br> <br>
-                                            <b>Postforming</b> <br>
-                                            Can be formed around curved edges by application of heat and restraint.
-                                            Maximum thickness is approximately 0.038” (0.97 mm) and can normally <br>
-                                            be formed to radii as small as 3/8” (9.5 mm). <br> <br>
-                                            <b>Backer</b>
-                                            HPL produced without a decorative face. Available as standard (most common;
-                                            slightly thinner than decorative HPL) or regrind (reclaimed HPL with <br>
-                                            decorative sheet sanded off). <br> <br>
-                                            <b>Special Products</b> <br>
-                                            Special purpose high pressure laminates include cabinet liners, high-wear,
-                                            fire-rated, electrostatic dissipative and chemical resistant laminates. <br>
-                                            In addition to aesthetic attributes, the lamination of particleboard or MDF
-                                            with HPL can improve the physical performance of the substrate. <br>
-                                            For example, a shelf of ¾” industrial (M-2) particleboard that is 24” long
-                                            will carry 45 lbs per square foot (psf) of uniform loading with 0.133”
-                                            deflection. <br>
-                                            The same shelf can carry 85 lbs psf before reaching the same deflection if
-                                            overlaid with HPL.
-
-
-
-
-
-                                        </p>
+                                      High pressure laminate (HPL) countertops aren't just for kitchens; they can
+                                      stand up to the rigorous demands of science labs and classrooms.<br>
+                                      It also performs well in horizontal and vertical applications for high
+                                      traffic settings such as hospitality, office furniture, healthcare, retail
+                                      casework,<br>
+                                      commercial interiors and educational facilities.<br> <br>
+                                      There are many types or grades of high pressure laminates (HPL) engineered
+                                      for specific performance requirements: <br> <br>
+                                      <b>General Purpose</b> <br>
+                                      Most widely used HPL and suitable for horizontal and vertical surface
+                                      applications. Typical thickness range from 0.028” to 0.048” (0.71 to 1.22
+                                      mm). <br> <br>
+                                      <b>Postforming</b> <br>
+                                      Can be formed around curved edges by application of heat and restraint.
+                                      Maximum thickness is approximately 0.038” (0.97 mm) and can normally <br>
+                                      be formed to radii as small as 3/8” (9.5 mm). <br> <br>
+                                      <b>Backer</b>
+                                      HPL produced without a decorative face. Available as standard (most common;
+                                      slightly thinner than decorative HPL) or regrind (reclaimed HPL with <br>
+                                      decorative sheet sanded off). <br> <br>
+                                      <b>Special Products</b> <br>
+                                      Special purpose high pressure laminates include cabinet liners, high-wear,
+                                      fire-rated, electrostatic dissipative and chemical resistant laminates. <br>
+                                      In addition to aesthetic attributes, the lamination of particleboard or MDF
+                                      with HPL can improve the physical performance of the substrate. <br>
+                                      For example, a shelf of ¾” industrial (M-2) particleboard that is 24” long
+                                      will carry 45 lbs per square foot (psf) of uniform loading with 0.133”
+                                      deflection. <br>
+                                      The same shelf can carry 85 lbs psf before reaching the same deflection if
+                                      overlaid with HPL.
+                                  </p>
                             </div>
                         </div>
                     </div>

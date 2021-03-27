@@ -13,13 +13,11 @@ execution',
                     <div class="col-lg-7 col-12">
                         <h1>Expert Hub</h1>
                         <p class="mb-5">How To Take Care Of Your Wood Floors?</p>
-                        <div class="row ">
+                        <div class="row expert-hub-header-icons">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div class="row icons-row d-flex">
-                                    <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                        <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/wood-floors.svg" alt="">
-                                    </div>
-                                    <div class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
+                                      <i class="icon flaticon-laptop"></i>
+                                    <div class="col-sm-7 col-lg-12  d-flex justify-content-center flex-column align-items-center text-center">
                                         <h4>Tutorials</h4>
                                         <p>Get advanced knowledge on how to take care of your wooden possestions like
                                             floors and kitchens</p>
@@ -28,23 +26,19 @@ execution',
                             </div>
                             <div class="col-lg-4  col-md-4 col-sm-4 col-4">
                                 <div class="row icons-row d-flex ">
-                                    <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                        <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/articles.svg" alt="">
-                                    </div>
+                                      <i class="icon flaticon-text"></i>
                                     <div
-                                        class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
+                                        class="col-sm-7 col-lg-12 d-flex justify-content-center flex-column align-items-center text-center">
                                         <h4>Resources</h4>
                                         <p>Stay up-to-date about new wood care techniques and methedology</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                                <div class="row icons-row d-flex ">
-                                    <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                        <img class="mb-2 icon-image" src="{{url('public')}}/images/expert-hub/faq.svg" alt="">
-                                    </div>
+                                <div class="row icons-row ">
+                                      <i class="icon flaticon-faq"></i>
                                     <div
-                                        class="col-sm-7 col-lg-12 mt-3 d-flex justify-content-center flex-column align-items-center text-center">
+                                        class="col-sm-7 col-lg-12  d-flex justify-content-center flex-column align-items-center text-center">
                                         <h4>FAQs</h4>
                                         <p>Answer most of your questions about wood floors and other items</p>
                                     </div>
@@ -98,9 +92,9 @@ execution',
                     </ul>
                 </li>
                 <li>
-                  <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#articles">Articles</a>
+                  <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#articless">Articles</a>
                   <ul>
-                      <li><a class="nav-item nav-link sub-category-filter active" data-toggle="tab" href="#latest-trends">Latest Trends in Hardwood Flooring</a></li>
+                      <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" role="tab" aria-controls="latest-trends"href="#latest-trends">Latest Trends in Hardwood Flooring</a></li>
                   </ul>
                 </li>
               </ul>
@@ -950,16 +944,15 @@ execution',
                   <h2 class="my-4" id="FAQs-kitchens">Frequently asked questions for kitchens</h2>
                   <div class="accordion" id="faq2">
                       <div class="card">
-                          <div class="card-header" id="heading-FAQ-19">
-                              <h2 class="mb-0">
-                                  <button class="btn btn-link" type="button" data-toggle="collapse"
-                                      data-target="#collapse-20" aria-expanded="true" aria-controls="collapse-20">
-                                      What are my countertop options?
-                                  </button>
-                              </h2>
-                          </div>
-
-                          <div class="card-body">
+                        <div class="card-header" id="heading-FAQ-19">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapse-20" aria-expanded="true" aria-controls="collapse-20">
+                                    What are my countertop options?
+                                </button>
+                            </h2>
+                        </div>
+                        <div class="card-body">
                               <div id="collapse-20" class="collapse " aria-labelledby="heading-FAQ-19"
                                   data-parent="#faq2">
                                   <p>You have a lot of different traditional and modern countertop options:
@@ -1411,6 +1404,7 @@ execution',
                               </div>
                           </div>
                       </div>
+
                       <div class="card">
                           <div class="card-header" id="heading-FAQ-38">
                               <h2 class="mb-0">
@@ -1434,6 +1428,7 @@ execution',
                               </div>
                           </div>
                       </div>
+
                       <div class="card">
                           <div class="card-header" id="heading-FAQ-39">
                               <h2 class="mb-0">
@@ -1521,84 +1516,101 @@ execution',
                                 </p>
                             </div>
                         </div>
+
                     </div>
+
+
                   </div>
 
-                    <div class="tab-pane fade" id="latest-trends" role="tabpanel">
-                        <div class="mt-5 mb-3">
-                          <h3 class="mb-3">Latest Trends in Hardwood Flooring </h3>
-                              <p>
-                                Hardwood Flooring really makes your home very welcoming & beautiful. When properly cared for, it will stand for a long time giving you warm & positive feelings. (For wood care click here) <br>
-                                It is also considered a long term investment, as hardwood floors add considerable resale value to your home.  <br>
-                                As classic as wood floors are, they continue to evolve. Nowadays, there are plenty of designs that can match your taste; modern, Islamic, contemporary, country, vintage, even ultra-modern. <br>
-                                Here are some of the latest trends you may like some of them according to your style & personality. <br>
-                                Hardwood Flooring isn't always about protection.<br>
-                                Hand-scraped wood floors in the very beginning in the 1800s, Hardwood floors are getting finished by hand, no machines are used in this process. Crafters were scraping thin layers of wood at a time, smoothing out the top surface, leaving the scraping marks behind, proving to the next generation a piece of wood had been worked by hand, we all can see hand scrape marks in wood floors surface when we visit any of the old structures.<br>
-                                Now, however, we have machines and special tools that can sand & polish wood floors without leaving any marks, one of the common trends now is marking hardwood floors with these marks to look similar to the hand-scraped floors, giving the look and feel of the historical wood floors. <br>
-                              </p>
-                              <br>
-                              <h3>Distressed Wood floors :</h3>
-                                   <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/1.png" alt="">
-                              <p>When you visit any old building like a museum, or an old company or commercial shop which was built in the 1900’s
-                                 you can see the wood floors distressed & marked by decades of rough use, the gouges, nail holes stains, discolouring, and saw marks. <br>
-                                  homeowners today are showing their administration for the over when skill rather than technology was the king.<br>
-                                  .</p>
-                              <br>
-                              <p>Wood planks are getting wider<br>
-                                  Remember when you visit grandpa, the wood floors pieces are about 2 to 3 cm width, and 15-20 cm length, each piece is installed perpendicular to the other giving a herringbone pattern, later on, the piece gets wider and taller, and the smaller one becomes an old fashion, the width increased to about 6-8 cm and the length increased to about 35-40 cm,
-                                  Now, one of the latest trends is wide planks or extra wide planks, people prefer to install planks of width about 12-15 cm and to 20cm and length reaches to 180 cm. <br>
-                                  Also installing mixed-width planks together giving a very nice result in your home. <br>
-                                </p>
-                              <br>
-                              <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/2.png" alt="">
-                              <h3>Exotic hardwoods</h3>
-                              <p>Exotic hardwoods with unusual patterns are now available. A long time ago, oak was the king of wood floors all over the world, now it's time to discover the wealth that Africa has, mahogany, Iroko, Sapele, teak and many more wonderful types to discover. <br>
-                                 <a href="#">Click here to learn more about exotic wood</a> </p>
-                              <h3>Chevron wood Flooring Pattern.</h3>
-                              <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/3.png" alt="">
-                              <p>Instead of the traditional herringbone pattern, now the chevron pattern is much more modern & popular, matching a modern or contemporary taste, you will be satisfied with this pattern more than a traditional herringbone. <br>
-                              </p>
-                              <br>
-                              <h3>White, Grey & Greyish Colors.</h3>
-                              <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/4.png" alt="">
-                              <p>The brown tones of wood floors we use where around starts to become an old fashion, the white, grey, and greyish colours now are the king, not only for your wood floors but also pergolas, kitchens & dressing rooms. <br>
+                </div>
 
-                                these colours matching modern ultramodern styles much better them brown & reddish-brown colours <br>
+              <div class="tab-content">
+                    <div class="tab-pane fade active" id="articless"  aria-labelledby="latest-trends" role="tabpanel">
+                      <div class="tab-pane fade" id="latest-trends"  aria-labelledby="latest-trends" role="tabpanel">
+                        <h3  class="mb-3">Latest Trends in Hardwood Flooring </h3>
+                        <p>
+                          Hardwood Flooring really makes your home very welcoming & beautiful. When properly cared for, it will stand for a long time giving you warm & positive feelings. (For wood care click here) <br>
+                          It is also considered a long term investment, as hardwood floors add considerable resale value to your home.  <br>
+                          As classic as wood floors are, they continue to evolve. Nowadays, there are plenty of designs that can match your taste; modern, Islamic, contemporary, country, vintage, even ultra-modern. <br>
+                          Here are some of the latest trends you may like some of them according to your style & personality. <br>
+                          Hardwood Flooring isn't always about protection.<br>
+                          Hand-scraped wood floors in the very beginning in the 1800s, Hardwood floors are getting finished by hand, no machines are used in this process. Crafters were scraping thin layers of wood at a time, smoothing out the top surface, leaving the scraping marks behind, proving to the next generation a piece of wood had been worked by hand, we all can see hand scrape marks in wood floors surface when we visit any of the old structures.<br>
+                          Now, however, we have machines and special tools that can sand & polish wood floors without leaving any marks, one of the common trends now is marking hardwood floors with these marks to look similar to the hand-scraped floors, giving the look and feel of the historical wood floors. <br>
+                        </p>
+                        <br>
+                        <h3>Distressed Wood floors :</h3>
+                        <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/1.png" alt="">
+                        <p>When you visit any old building like a museum, or an old company or commercial shop which was built in the 1900’s
+                          you can see the wood floors distressed & marked by decades of rough use, the gouges, nail holes stains, discolouring, and saw marks. <br>
+                          homeowners today are showing their administration for the over when skill rather than technology was the king.<br>
+                          .</p>
+                          <br>
+                          <p>Wood planks are getting wider<br>
+                            Remember when you visit grandpa, the wood floors pieces are about 2 to 3 cm width, and 15-20 cm length, each piece is installed perpendicular to the other giving a herringbone pattern, later on, the piece gets wider and taller, and the smaller one becomes an old fashion, the width increased to about 6-8 cm and the length increased to about 35-40 cm,
+                            Now, one of the latest trends is wide planks or extra wide planks, people prefer to install planks of width about 12-15 cm and to 20cm and length reaches to 180 cm. <br>
+                            Also installing mixed-width planks together giving a very nice result in your home. <br>
+                          </p>
+                          <br>
+                          <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/2.png" alt="">
+                          <h3>Exotic hardwoods</h3>
+                          <p>Exotic hardwoods with unusual patterns are now available. A long time ago, oak was the king of wood floors all over the world, now it's time to discover the wealth that Africa has, mahogany, Iroko, Sapele, teak and many more wonderful types to discover. <br>
+                            <a href="#">Click here to learn more about exotic wood</a> </p>
+                            <h3>Chevron wood Flooring Pattern.</h3>
+                            <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/3.png" alt="">
+                            <p>Instead of the traditional herringbone pattern, now the chevron pattern is much more modern & popular, matching a modern or contemporary taste, you will be satisfied with this pattern more than a traditional herringbone. <br>
+                            </p>
+                            <br>
+                            <h3>White, Grey & Greyish Colors.</h3>
+                            <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/expert-hub/articles/4.png" alt="">
+                            <p>The brown tones of wood floors we use where around starts to become an old fashion, the white, grey, and greyish colours now are the king, not only for your wood floors but also pergolas, kitchens & dressing rooms. <br>
 
-                                Finally, we can say what is old on hardwood floors is new again. <br>
+                              these colours matching modern ultramodern styles much better them brown & reddish-brown colours <br>
 
-                                Which trend do you love the most? <br>
-                                Contact us on our social media channels <br>
-                              </p>
-                                <a href="#">(Social media links)</a> <br>
-                                <p>  Do you know any other trends? <br>
-                                   Help us to cover all the popular trends by emailing us your opinion. <br></p>
-                                <a href="#">(Send an email to info@thewoodcourt.com)</a>
-                                <p>Do you want to see these trends live? <br>
+                              Finally, we can say what is old on hardwood floors is new again. <br>
+
+                              Which trend do you love the most? <br>
+                              Contact us on our social media channels <br>
+                            </p>
+                            <a href="#">(Social media links)</a> <br>
+                            <p>  Do you know any other trends? <br>
+                              Help us to cover all the popular trends by emailing us your opinion. <br></p>
+                              <a href="#">(Send an email to info@thewoodcourt.com)</a>
+                              <p>Do you want to see these trends live? <br>
                                 Visit our store or book an appointment to visit our factory. <br></p>
                                 <a href="#">(About us)</a>
-                              <div>
+                                <div>
                                   <h5>Which trend do you love the most ?</h5>
                                   <p>we’d love to know</p>
                                   <h5>Do you know any other trends ?</h5>
                                   <p> ..Help us to cover all popular trends by an email or prem contact us.</p>
                                   <h5>Do you want to see these trends live ?</h5>
                                   <p> ..visit our store or book an appointment to visit our factory.</p>
-                              </div>
-                              <hr>
-                          </div>
-                      </div>
-                  </div>
+                                </div>
+
+
+                        </div>
+
+                    </div>
                 </div>
 
+                </div>
+                </div>
                 <div class="tab-pane fade" id="outdoor-faqs" role="tabpanel">
                   <h2 class="my-4" id="FAQs-kitchens">Frequently Asked Questions For Outdoors</h2>
                   Coming Soon ...
                 </div>
               </div>
-                  </div>
+
+
+
+
+          </div>
             </div>
-            <div class="tab-pane fade" id="articless" role="tabpanel">
+            <div class="tab-pane fade" id="articles" role="tabpanel">
+
+
+
+
               <h2>Check out our latest blog articles</h2>
               @forelse ($AllArticles as $Article)
                 <div class="single-event mb-4">

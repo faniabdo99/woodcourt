@@ -2228,8 +2228,11 @@ hr {
   }
 }
 
+.hero-section .expert-hub-header-icons [class^=flaticon-]:before, .hero-section .expert-hub-header-icons [class*=" flaticon-"]:before, .hero-section .expert-hub-header-icons [class^=flaticon-]:after, .hero-section .expert-hub-header-icons [class*=" flaticon-"]:after {
+  font-size: 83px !important;
+  margin-left: 0px;
+}
 .hero-section .icons-row {
-  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -2237,12 +2240,6 @@ hr {
 }
 .hero-section .icons-row p {
   font-size: 16px;
-}
-.hero-section .icon-image {
-  width: 100px !important;
-}
-.hero-section .icon-image-floors {
-  width: 120px !important;
 }
 
 @media (max-width: 992px) {
