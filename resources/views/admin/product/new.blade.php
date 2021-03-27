@@ -48,10 +48,8 @@
                     <input type="text" class="form-control mb-3" name="design" placeholder="Design">
                     <label>Additioal Notes</label>
                     <textarea class="form-control mb-3" placeholder="Note" name="note"></textarea>
-                    <label>Featured</label>
-                    <input type="checkbox" name="is_featured" value="1"> <br>
-                    <label>Promot On Homepage</label>
-                    <input type="checkbox" name="is_on_homepage" value="1"> <br>
+                    <input type="checkbox" name="is_featured" value="1"> Featured <br>
+                    <input type="checkbox" name="is_on_homepage" value="1"> Promot On Homepage <br>
                     <button type="submit" class="icon-button mt-3">Submit</button>
                 </form>
             </div>

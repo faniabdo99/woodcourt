@@ -114,7 +114,6 @@
   #slide-three{background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;}
   #slide-four{background: url('../images/heros/outdoor-hero.jpg') no-repeat center center;background-size:cover;}
 }
-//Start Our Achievements
 
 // Start Our Clients
 .logo-parade{
@@ -200,8 +199,9 @@
         text-align: center;
         h2 {
             color: #fff;
-            font-size: 5em;
-            margin-bottom: 55px;
+            width: 100%;
+            margin-bottom: 100px;
+            font-size: 2.5em;
         }
         p {
             color: #fff;
@@ -365,7 +365,6 @@
 .homepage-videos-grid{
   background: $lightgrey;
   padding: 50px 0;
-  h2{color: $black;}
   ul{list-style-type: none;margin-bottom: 0;}
   .owl-nav {
       position: absolute;

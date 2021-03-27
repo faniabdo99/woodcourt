@@ -19,7 +19,7 @@
         <ul>
           <li><a href="{{route('products')}}"><i class="fas fa-box"></i> Products</a></li>
           <li><a href="{{route('contact')}}"><i class="fas fa-envelope"></i> Contact</a></li>
-          <li><a href="/events/how-to-take-care-of-your-wood-floors"><i class="fas fa-check"></i> Wood Care</a></li>
+          <li><a href="{{route('expert-hub')}}"><i class="fas fa-check"></i> Blog</a></li>
         </ul>
       </div>
       <div class="col-lg-4 col-12 footer-map">

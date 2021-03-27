@@ -36,19 +36,23 @@ hr {width: 100%;}
     }
 }
 .hero-section{
-
-  .expert-hub-header-icons{
-    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after{
-      font-size: 83px !important;
-      margin-left: 0px;
-    }
-
+  h4{
+    margin-top: -8px;
   }
+
   .icons-row{
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: white;
+    i{
+        &:before{
+            font-size: 78px !important;
+        }
+        font-family: Flaticon;
+        font-style: normal;
+        margin-left: 0px;
+    }
     p{
       font-size: 16px
     }

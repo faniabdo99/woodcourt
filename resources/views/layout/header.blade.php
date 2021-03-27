@@ -18,8 +18,9 @@
     @endif
     <link rel="stylesheet" href="{{url('public')}}/css/app.css">
     <link rel="stylesheet" href="{{url('public')}}/css/flaticon.css">
-    <link rel="stylesheet" href="{{url('public')}}/font/flaticon.css">
-    
+    @if(Route::currentRouteName() == 'expert-hub')
+      <link rel="stylesheet" href="{{url('public')}}/font/flaticon.css">
+    @endif
     <link rel="shortcut icon" href="{{url('public')}}/images/favicon.png" />
     <title>The Wood Court - {{$PageTitle ?? 'Kitchen, Floor ... and More'}}</title>
     <meta name="description" content="{{$Description ?? ''}}" >

@@ -146,9 +146,7 @@
             </div>
         </div>
       </section>
-
     @include('layout.scripts')
     @include('layout.footer')
 </body>
-
 </html>
