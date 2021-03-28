@@ -148,8 +148,7 @@ execution',
                             <div class="tab-pane fade show active" id="floor-care">
                                 <h2>How To Take Care Of Your Wood Floors?</h2>
                                 <img class="w-100 h-50 my-3"
-                                    src="{{url('public/images/categories/wood-flooring/engineered-floors/1.jpg')}}"
-                                    alt="wood-care">
+                                    src="{{url('public/images/categories/wood-flooring/engineered-floors/1.jpg')}}" alt="wood-care">
                                 <p>In home and office interior designs, the value of wood cannot be denied its timeless
                                     visual appeal and natural beauty. If you take proper care of wood floorings,
                                     cabinets, installments, and claddings, you can expect them to survive for decades.
@@ -300,7 +299,7 @@ execution',
                                     paring from the woodside directly fixing it to the subfloors a drum-noise is heard
                                     while walking on due to space under the wood floor. <br> </p>
                                 <h4>2- Gluing down installing technique</h4>
-                                <img class="mb-2 w-100" src="{{url('public')}}/images/expert-hub/articles/5.png" alt="1">
+                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/5.png" alt="1">
                                 <p>Bonding the wood floors with the subfloors using gluing is a very good and cheap way
                                     to install your wood floors or D3 water base glue using Polyurethane (oil-based) D4
                                     glue is the best way to ensure lifelong bond, as the glue can dissipates shear
@@ -311,7 +310,7 @@ execution',
                                     Court.
                                 </p>
                                 <h4>3- Floating installation technique. </h4>
-                                <img class="mb-2 w-100" src="{{url('public')}}/images/expert-hub/articles/6.png" alt="1">
+                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/6.png" alt="1">
 
                                 <p>Installing your floors using this technique make it very easy to maintain as you can
                                     replace any damaged piece early, the wood floors are floated over the subfloor,
@@ -1837,10 +1836,10 @@ execution',
                                     <a href="#">(Social media links)</a> <br>
                                     <p> Do you know any other trends? <br>
                                         Help us to cover all the popular trends by emailing us your opinion. <br></p>
-                                    <a href="#">(Send an email to info@thewoodcourt.com)</a>
+                                    <a href="mailto:info@thewoodcourt.com">(Send an email to info@thewoodcourt.com)</a>
                                     <p>Do you want to see these trends live? <br>
                                         Visit our store or book an appointment to visit our factory. <br></p>
-                                    <a href="#">(About us)</a>
+                                    <a href="{{route('about')}}" target="_blank"> About us</a>
                                     <h5>Which trend do you love the most ?</h5>
                                     <p>we’d love to know</p>
                                     <h5>Do you know any other trends ?</h5>

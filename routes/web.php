@@ -85,3 +85,4 @@ Route::get('outdoor/teak-flooring','MarketingController@getTeakFlooring')->name(
 Route::get('outdoor/shower-units','MarketingController@getShowerUnits')->name('category.outdoor.shower-units');
 Route::get('outdoor/pergolas','MarketingController@getPergolas')->name('category.outdoor.pergolas');
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
+  
