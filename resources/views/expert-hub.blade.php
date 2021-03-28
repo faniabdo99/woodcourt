@@ -130,13 +130,8 @@ execution',
                         </li>
                         <li>
                             <a class="nav-item nav-link main-category-filter" data-toggle="tab"
-                                href="#articles">Articles</a>
-                            <ul class="nav nav-tabs ml-5">
-                                <li><a class="nav-item nav-link sub-category-filter active" data-toggle="tab"
-                                        href="#blog">Blog</a></li>
-                                <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab"
-                                        href="#latest-trends">Latest Trends in Hardwood Flooring</a></li>
-                            </ul>
+                                href="#blogs">Blog</a>
+                            
                         </li>
                     </ul>
                 </div>
@@ -146,9 +141,9 @@ execution',
                     <div class="tab-pane fade show active" id="wood-care">
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="floor-care">
-                                <h2>How To Take Care Of Your Wood Floors?</h2>
+                                <h2>How To Take Care Of Your Indoor Flooring?</h2>
                                 <img class="w-100 h-50 my-3"
-                                    src="{{url('public/images/categories/wood-flooring/engineered-floors/1.jpg')}}" alt="wood-care">
+                                    src="{{url('public/images/wood-care/1.jpg')}}" alt="wood-care">
                                 <p>In home and office interior designs, the value of wood cannot be denied its timeless
                                     visual appeal and natural beauty. If you take proper care of wood floorings,
                                     cabinets, installments, and claddings, you can expect them to survive for decades.
@@ -208,7 +203,7 @@ execution',
                             <div class="tab-pane fade" id="kitchen-care">
                                 <h2>How to Take Care of Your Kitchen Counters and Cabinets?</h2>
                                 <img class="w-100 h-50 my-3"
-                                    src="{{url('public/images/categories/cabinets/kitchens/1.jpg')}}" alt="kitchens">
+                                    src="{{url('public/images/wood-care/2.jpg')}}" alt="kitchens">
                                 <ul>
                                     <li>Clean all food spills from wood surfaces immediately & thoroughly, most foods can
                                         damage wood finishes eventually.</li>
@@ -240,7 +235,7 @@ execution',
                             <div class="tab-pane fade" id="outdoor-care">
                                 <h2>How to Take Care of Wooden Pergolas & Outdoor Flooring?</h2>
                                 <img class="w-100 h-50 my-3"
-                                    src="{{url('public/images/categories/outdoor/pergolas/1.jpg')}}" alt="outdoor">
+                                    src="{{url('public/images/wood-care/3.jpg')}}" alt="outdoor">
                                 <p class="mt-3">Wood is a beautiful option for your garden Flooring, under pergola ,
                                     and outdoor area of your restaurant or cafe , also the wooden pergola itself
                                     gives your home privacy & make you have a great time outdoors, the wood grains
@@ -1733,9 +1728,9 @@ execution',
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="articles">
+                    <div class="tab-pane fade" id="blogs">
                         <div class="tab-content">
-                            <div class="tab-pane fade show active" id="blog">
+                           
                                 <h2>Check out our latest blog articles</h2>
                                 <section class="events-list">
                                     @forelse ($AllArticles as $Article)
@@ -1754,8 +1749,8 @@ execution',
                                     <p>There is no articles yet, Stay tuned!</p>
                                     @endforelse
                                 </section>
-                            </div>
-                            <div class="tab-pane fade" id="latest-trends">
+                           
+                            {{-- <div class="tab-pane fade" id="latest-trends">
                                 <div class="mt-5 mb-3">
                                     <h2 class="mb-3">Latest Trends in Hardwood Flooring </h2>
                                     <p>
@@ -1783,8 +1778,7 @@ execution',
                                     </p>
                                     <br>
                                     <h3>Distressed Wood floors :</h3>
-                                    <img class="mb-2 icon-image-floors"
-                                        src="{{url('public')}}/images/expert-hub/articles/1.png" alt="">
+                                    <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/blog/1.png" alt="">
                                     <p>When you visit any old building like a museum, or an old company or commercial shop
                                         which was built in the 1900’s
                                         you can see the wood floors distressed & marked by decades of rough use, the gouges,
@@ -1806,24 +1800,22 @@ execution',
                                         <br>
                                     </p>
                                     <br>
-                                    <img class="mb-2 icon-image-floors"
-                                        src="{{url('public')}}/images/expert-hub/articles/2.png" alt="">
                                     <h3>Exotic hardwoods</h3>
+                                    <img class="mb-2 icon-image-floors"
+                                        src="{{url('public')}}/images/blog/2.png" alt="">
                                     <p>Exotic hardwoods with unusual patterns are now available. A long time ago, oak was
                                         the king of wood floors all over the world, now it's time to discover the wealth
                                         that Africa has, mahogany, Iroko, Sapele, teak and many more wonderful types to
                                         discover. <br>
                                         <a href="#">Click here to learn more about exotic wood</a></p>
                                     <h3>Chevron wood Flooring Pattern.</h3>
-                                    <img class="mb-2 icon-image-floors"
-                                        src="{{url('public')}}/images/expert-hub/articles/3.png" alt="">
+                                    <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/blog/3.png" alt="">
                                     <p>Instead of the traditional herringbone pattern, now the chevron pattern is much more
                                         modern & popular, matching a modern or contemporary taste, you will be satisfied
                                         with this pattern more than a traditional herringbone. <br></p>
                                     <br>
                                     <h3>White, Grey & Greyish Colors.</h3>
-                                    <img class="mb-2 icon-image-floors"
-                                        src="{{url('public')}}/images/expert-hub/articles/4.png" alt="">
+                                    <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/blog/4.png" alt="">
                                     <p>The brown tones of wood floors we use where around starts to become an old fashion,
                                         the white, grey, and greyish colours now are the king, not only for your wood floors
                                         but also pergolas, kitchens & dressing rooms. <br>
@@ -1848,7 +1840,7 @@ execution',
                                     <p> ..visit our store or book an appointment to visit our factory.</p>
                                     <hr>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
