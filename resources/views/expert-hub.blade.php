@@ -129,9 +129,7 @@ execution',
                             </ul>
                         </li>
                         <li>
-                            <a class="nav-item nav-link main-category-filter" data-toggle="tab"
-                                href="#blogs">Blog</a>
-                            
+                            <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#blogs">Blog</a>
                         </li>
                     </ul>
                 </div>
