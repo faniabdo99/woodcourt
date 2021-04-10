@@ -1,16 +1,18 @@
 h2 {
-    color: #0D8287;
+    color: #0d8287;
     margin-bottom: 20px;
     width: 100%;
 }
 
-hr {width: 100%;}
+hr {
+    width: 100%;
+}
 .row {
-    @media(max-width: 576px) {
+    @media (max-width: 576px) {
         padding: 0 10px;
     }
 }
-#expert-hub-sidebar{
+#expert-hub-sidebar {
     border-radius: 4px;
     width: 90%;
     height: auto;
@@ -26,42 +28,41 @@ hr {width: 100%;}
     .sub-category-filter {
         list-style: none;
     }
-    @media(max-width: 992px) {
+    @media (max-width: 992px) {
         width: 100%;
         margin-left: 0;
     }
-    @media(max-width: 1200px) {
+    @media (max-width: 1200px) {
         margin-left: 0;
         width: 100%;
     }
 }
-.hero-section{
-  h4{
-    margin-top: -8px;
-  }
+.hero-section {
+    h4 {
+        margin-top: -8px;
+    }
 
-  .icons-row{
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    i{
-        &:before{
-            font-size: 78px !important;
+    .icons-row {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        i {
+            &:before {
+                font-size: 78px !important;
+            }
+            font-family: Flaticon;
+            font-style: normal;
+            margin-left: 0px;
         }
-        font-family: Flaticon;
-        font-style: normal;
-        margin-left: 0px;
+        p {
+            font-size: 16px;
+        }
     }
-    p{
-      font-size: 16px
-    }
-  }
-
 }
-@media(max-width:992px){
-    .icons-row{
-        p{
+@media (max-width: 992px) {
+    .icons-row {
+        p {
             display: none;
         }
     }
@@ -78,7 +79,7 @@ hr {width: 100%;}
 
     .btn-link {
         text-decoration: none;
-        color: #0D8287;
+        color: #0d8287;
         display: block;
         width: 100%;
         text-align: left;
@@ -92,7 +93,8 @@ hr {width: 100%;}
 
 #outdoor-woodcare {
     h3 {
-        width:100%; text-transform: capitalize;
+        width: 100%;
+        text-transform: capitalize;
     }
 }
 #wood-care {
@@ -102,14 +104,14 @@ hr {width: 100%;}
         text-transform: capitalize;
     }
 }
-.filter-items{
-    li{
+.filter-items {
+    li {
         display: block;
         width: 100%;
     }
-    ul{
+    ul {
         display: none;
-        &.toturials-sublist{
+        &.toturials-sublist {
             display: block;
         }
     }
