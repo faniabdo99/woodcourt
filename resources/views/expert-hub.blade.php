@@ -1520,7 +1520,7 @@ execution',
                             {{-- <div class="tab-pane fade show active" id="latest-trends">
                                 <div class="mb-3">
                                     {{-- <h2 class="mb-3">Latest Trends in Hardwood Flooring </h2> --}}
-                                    <p>
+                                    {{-- <p>
                                         Hardwood Flooring really makes your home very welcoming & beautiful. When
                                         properly
                                         cared for, it will stand for a long time giving you warm & positive feelings.
