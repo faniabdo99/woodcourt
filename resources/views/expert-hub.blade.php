@@ -275,14 +275,14 @@ execution',
                                 </h3>
                                 <h4>1- Nailed Down Installing Technique
                                 </h4>
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/7.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/7.png" alt="1">
                                 <p>The most common & traditional way to install wood floors wood tiles or planks are to
                                     be installed by nailing down on wooden subfloors, the nails are inclined vertical,
                                     paring from the woodside directly fixing it to the subfloors a drum-noise is heard
                                     while walking on due to space under the wood floor. <br> </p>
                                 <h4>2- Gluing Down Installing Technique
                                 </h4>
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/5.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/5.png" alt="1">
                                 <p>Bonding the wood floors with the subfloors using gluing is a very good and cheap way
                                     to install your wood floors or d3 water base glue using polyurethane (oil-based) d4
                                     glue is the best way to ensure lifelong bond, as the glue can dissipates shear
@@ -292,7 +292,7 @@ execution',
                                 </p>
                                 <h4>3- Floating Installation Technique.
                                 </h4>
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/6.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/6.png" alt="1">
 
                                 <p>Installing your floors using this technique makes it very easy to maintain as you can
                                     replace any damaged piece early, the wood floors are floated over the subfloor,
@@ -304,7 +304,7 @@ execution',
                                 <h5>(A) Sub-floors:
                                 </h5>
                                 <h4>1- Wooden Subfloor:</h4>
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/8.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/8.png" alt="1">
                                 <p>In this type of subfloor, wooden beams made of red pine wood with 5cm square section
                                     or 5cm by 4cm rectangular section are installed with 25 to 35 pieces of concrete to
                                     leave the floor, fixed with metal fixtures and concrete to be bent with the floor.
@@ -315,7 +315,7 @@ execution',
                                     till now in nail down installation technique.
                                 </p>
                                 <h4>2- Wood On Tiles Sub Floor:</h4>
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/9.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/9.png" alt="1">
                                 <p>In this type, we use concrete tiles, mosaic tiles, low quality ceramic tiles instead
                                     of wood for the installation process. Tiles are installed regularly and flush on
                                     concrete, are fixed on it. This method also is used for nailed down installation
@@ -331,7 +331,7 @@ execution',
                                     engineered wood flooring but also, site- finish or pre-finished floors? Which one is
                                     better? And why? Well, each type has its benefits</p>
                                 <h2>1.Site Finish:</h2>
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/Pict 6.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/Pict 6.png" alt="1">
                                 <p>When you go for the site- finish wood floors, then you are purchasing wood floors
                                     which will be shipped to your home unfinished, to be sanded, possibly stained, and
                                     then sealed and finished with a top protective layer in your home. This process
@@ -347,8 +347,8 @@ execution',
                                         Custom installation patterns, borders, inlays, medallions features</li>
                                     <li>Refinishing is available.</li>
                                     <li>In addition to square edges, or bucked edges</li>
-                                    <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
-                                    <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
+                                    <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
+                                    <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
                                 </ul>
                                 <p>Traditionally, you choose sile-finishing when time isn't critical new construction
                                     and nobody lives in site (to avoid dust) it takes a long time. (4-6) days to send
@@ -410,8 +410,8 @@ execution',
                                 </p>
                                 <h4>Pre-finished floors have beveled edges, not square ones, not like sile-finish which
                                     can have either square edge or beveled ones</h4>
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
-                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
                                 <h4>Uv-curing Finish: </h4>
                                 <p>It is the process in which the coat changes from liquid state to solid state under
                                     ultraviolet rays instantly in a sealed<br><br>
@@ -1498,7 +1498,7 @@ execution',
                     <div class="tab-pane fade" id="blogs">
                         <div class="tab-content">
 
-                            <!-- <h2>Check out our latest blog articles</h2>
+                             <h2>Check out our latest blog articles</h2>
                             <section class="events-list">
                                 @forelse ($AllArticles as $Article)
                                 <div class="single-event mb-4">
@@ -1514,10 +1514,10 @@ execution',
                                 @empty
                                 <p>There is no articles yet, Stay tuned!</p>
                                 @endforelse
-                            </section> -->
-                            <div class="tab-pane fade show active" id="latest-trends">
+                            </section> 
+                            {{-- <div class="tab-pane fade show active" id="latest-trends">
                                 <div class="mb-3">
-                                    <h2 class="mb-3">Latest Trends in Hardwood Flooring </h2>
+                                    {{-- <h2 class="mb-3">Latest Trends in Hardwood Flooring </h2> --}}
                                     <p>
                                         Hardwood Flooring really makes your home very welcoming & beautiful. When
                                         properly
@@ -1551,7 +1551,7 @@ execution',
                                     </p>
                                     <br>
                                     <h3>Distressed Wood floors :</h3>
-                                    <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/blog/1.png" alt="">
+                                    <img class="mb-2 icon-image-floors"src="/public/images/blog/1.png" alt="">
                                     <p>When you visit any old building like a museum, or an old company or commercial
                                         shop
                                         which was built in the 1900’s
@@ -1563,7 +1563,7 @@ execution',
                                     </p>
                                     <br>
                                     <h3>Wood planks are getting wider</h3>
-                                    <img class="mb-3 icon-image-floors w-50" src="{{url('public')}}/images/blog/5.png" alt=""><br>
+                                    <img class="mb-3 icon-image-floors" src="/public/images/blog/5.png" alt=""><br>
                                     Remember when you visit grandpa, the wood floors pieces are about 2 to 3 cm width,
                                     and 15-20 cm length, each piece is installed perpendicular to the other giving a
                                     herringbone pattern, later on, the piece gets wider and taller, and the smaller one
@@ -1577,23 +1577,23 @@ execution',
                                     </p>
                                     <br>
                                     <h3>Exotic hardwoods</h3>
-                                    <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/blog/2.png" alt="">
+                                    <img class="mb-2 icon-image-floors" src="/public/images/blog/2.png" alt="">
                                     <p>Exotic hardwoods with unusual patterns are now available. A long time ago, oak
                                         was
                                         the king of wood floors all over the world, now it's time to discover the wealth
                                         that Africa has, mahogany, Iroko, Sapele, teak and many more wonderful types to
                                         discover. <br>
-                                        <a href="#">Click here to learn more about exotic wood</a>
+                                        <a href="/expert-hub">Check Expert Hub For More Articles</a>
                                     </p>
                                     <h3>Chevron wood Flooring Pattern.</h3>
-                                    <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/blog/3.png" alt="">
+                                    <img class="mb-2 icon-image-floors" src="/public/images/blog/3.png" alt="">
                                     <p>Instead of the traditional herringbone pattern, now the chevron pattern is much
                                         more
                                         modern & popular, matching a modern or contemporary taste, you will be satisfied
                                         with this pattern more than a traditional herringbone. <br></p>
                                     <br>
                                     <h3>White, Grey & Greyish Colors.</h3>
-                                    <img class="mb-2 icon-image-floors" src="{{url('public')}}/images/blog/4.png" alt="">
+                                    <img class="mb-2 icon-image-floors" src="/public/images/blog/4.png" alt="">
                                     <p>The brown tones of wood floors we use where around starts to become an old
                                         fashion,
                                         the white, grey, and greyish colours now are the king, not only for your wood
@@ -1605,13 +1605,17 @@ execution',
                                         Which trend do you love the most? <br>
                                         Contact us on our social media channels <br>
                                     </p>
-                                    <a href="#">(Social media links)</a> <br>
+                                     
+                                        <a href="https://www.facebook.com/thewoodcourt/" target="_blank"> <h4 class="d-inline-block"> <i class="fab fa-facebook"></i></h4></a>
+                                        <a href="https://www.instagram.com/thewoodcourt/" target="_blank"> <h4 class="d-inline-block"><i class="fab fa-instagram"></i></h4> </a>
+                                        <a href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ" target="_blank"> <h4 class="d-inline-block"><i class="fab fa-youtube"></i></h4> </a>
+                                       <br>
                                     <p> Do you know any other trends? <br>
                                         Help us to cover all the popular trends by emailing us your opinion. <br></p>
-                                    <a href="mailto:info@thewoodcourt.com">(Send an email to info@thewoodcourt.com)</a>
+                                    <a href="mailto:info@thewoodcourt.com">Send an email to info@thewoodcourt.com</a>
                                     <p>Do you want to see these trends live? <br>
                                         Visit our store or book an appointment to visit our factory. <br></p>
-                                    <a href="{{route('about')}}" target="_blank"> About us</a>
+                                    <a href="/about-us" target="_blank"> About us</a>
                                     <h5>Which trend do you love the most ?</h5>
                                     <p>we’d love to know</p>
                                     <h5>Do you know any other trends ?</h5>
@@ -1621,6 +1625,8 @@ execution',
                                     <hr>
                                 </div>
                             </div>
+
+
                             <div class="tab-pane fade " id="choose-suitable">
                                 <div class="mb-3">
                                     <h2 class="mb-3">Choosing The Right Hardwood Floors For Your Home</h2>
@@ -1642,22 +1648,22 @@ execution',
                                     </h6>
                                     <ul class="owl-carousel owl-theme three-items-carousel list-unstyled">
                                         <li class="item">
-                                            <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/1.png" alt="">
+                                            <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/1.png" alt="">
                                         </li>
                                         <li class="item">
-                                            <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/2.png" alt="">
+                                            <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/2.png" alt="">
                                         </li>
                                         <li class="item">
-                                            <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/3.png" alt="">
+                                            <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/3.png" alt="">
                                         </li>
                                         <li class="item">
-                                            <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/4.png" alt="">
+                                            <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/4.png" alt="">
                                         </li>
                                         <li class="item">
-                                            <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/5.png" alt="">
+                                            <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/5.png" alt="">
                                         </li>
                                         <li class="item">
-                                            <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/6.png" alt="">
+                                            <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/6.png" alt="">
                                         </li>
                                     </ul>
                                     <h5>The wood plank or tile dimension</h5>
@@ -1686,7 +1692,7 @@ execution',
                                         Let's explore.
                                     </p>
                                     <h5>Solid Hardwood</h5>
-                                    <img class="w-50 icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/11.png" alt="">
+                                    <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/11.png" alt="">
                                     <p>Solid wood flooring is made from one continuous piece of wood and is available in
                                         strips, and planks. <br>
                                         Generally, a solid hardwood floor is 17mm up to 21mm thick plank. However, it
@@ -1710,6 +1716,7 @@ execution',
                                     </h6>
                                     <h4>Installation techniques</h4>
                                     <h5>Engineered Hardwood</h5>
+                                    <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/10.png" alt="">
                                     <p>Engineered wood flooring is made from layers of wood stacked and glued together
                                         under heat and pressure. Usually, there are three to seven layers (plies)
                                         stacked with grains running perpendicular to each other. The top finish layer
@@ -1726,7 +1733,7 @@ execution',
                                         the first choice when an underfloor heating system exists.
                                     </p>
                                     <h6>Exotic Hardwood </h6>
-                                    <img class="w-50 icon-image-floors" src="{{url('public')}}/images/blog/2.png" alt="">
+                                    <img class=" icon-image-floors" src="/public/images/blog/2.png" alt="">
                                     <p>You may also hear the term 'exotic hardwood' used. This refers to hardwood
                                         species from around the world. Exotic hardwood species come from Australia,
                                         Africa, South American and the Far East. <br>
@@ -1740,7 +1747,7 @@ execution',
                                         techniques such as hand-scraping or brushing that adds a slight texture to the
                                         wood.</p>
                                     <h6>Hand-scraping or brushing </h6>
-                                    <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/7.png" alt="">
+                                    <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/7.png" alt="">
                                     <p>Hardwood that has either hand-scraping or brushing is an excellent choice for
                                         active families with children and pets. These types of floors are usually found
                                         in planks 7cm and wider with the most popular being 11cm to 13cm see the wood
@@ -1749,13 +1756,13 @@ execution',
                                         Below you see a hand-scraped or antiqued engineered wood floor by the wood court
                                     </p>
                                     <h6>Wood stains</h6>
-                                    <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/8.png" alt="">
+                                    <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/8.png" alt="">
                                     <p>As for stains, browns and greys have been more popular in recent years,
                                         especially the greys being a favourite in all modern homes we love now in Egypt.
                                         You'll also find dark stains (explore the wood court colour collection)
                                     </p>
                                     <h6>Natural oil vs. polyurethane finish</h6>
-                                    <img class=" icon-image-floors" src="{{url('public')}}/images/blog/suitable-hardwood/9.png" alt="">
+                                    <img class=" icon-image-floors" src="/public/images/blog/suitable-hardwood/9.png" alt="">
                                     <p>Many of our customers like European Oak floors which often have a natural oil
                                         finish instead of the traditional polyurethane finish. <br>
                                         While a polyurethane finish simply sits on top of your hardwood floor forming a
@@ -1766,7 +1773,7 @@ execution',
                                         inconvenience of sanding and finishing as all that is needed is to reapply a new
                                         coat of oil in the affected areas.
                                     </p>
-                                    <a href="#">learn more about types of finishes</a>
+                                    <a href="/expert-hub">Check Expert Hub For More Articles</a>
 
 
                                 </div>
@@ -1783,7 +1790,7 @@ execution',
                                 <ul>
                                     <li>Anti-slip – they are a great safety feature as the teak wood is naturally rough
                                         and therefore is anti-slip under pretty much all weather conditions
-                                        <img class="w-50 icon-image-floors" src="{{url('public')}}/images/blog/teak-maintenance/pict18.png" alt="">
+                                        <img class=" icon-image-floors" src="/public/images/blog/teak-maintenance/pict18.png" alt="">
 
                                     </li>
                                     <li>They also provide an excellent insulating effect on either the interior of the
@@ -1791,7 +1798,7 @@ execution',
                                 </ul>
                                 <p>Correct teak deck maintenance is an important aspect of any outdoor care program and looked after correctly a teak deck will last for many years.</p>
                                 <h5>How to clean teak wood</h5>
-                                <img class="w-50 icon-image-floors" src="{{url('public')}}/images/blog/teak-maintenance/1.png" alt="">
+                                <img class=" icon-image-floors" src="/public/images/blog/teak-maintenance/1.png" alt="">
                                 <p>Teak wood itself is made up of hard, and softwood elements and whilst teak is very resilient. <br> It is very easy to drag out the softwood elements leaving ridges of hardwood. <br>
                                     If cared for correctly a teak deck will wear naturally and should not require overhauling for between 10 – 15 years. After that, it will only need to be sanded to have an extra life (most teak decks could be sanded more than 5 times) <br>
                                     Our advice is to wash it regularly as you would with freshwater fresh using only a soft brush. <br>
@@ -1813,8 +1820,9 @@ execution',
                                     Traditional Teak Oils:- We don’t like using too much oil on a deck. <br> You have to regularly apply it as it only lasts between 1 and 3 months and if it turns grey you have to reapply <br>
                                     The second option is to apply an outdoor polyurethane coat, it is very easy to use and can be applied with a brush and rags. <br> On freshly cleaned (dry) teak simply apply two coats. <br> Then depending on wear and tear you can expect to apply a further coat every 6 – 8 months but in this case, the deck will be a bit slippery and scratchable
                                 </p>
-                                <a href="#">see more care tips for outdoors</a>
+                                <a href="/expert-hub">Check Expert Hub For More Articles</a>
                             </div>
+
                             <div class="tab-pane fade " id="hpl-boards">
                                 <h2>What are High-Pressure Laminates (HPL)</h2>
                                 <h3>High-Pressure Laminates (HPL) for Decorative Surfaces</h3>
@@ -1848,7 +1856,7 @@ execution',
                                     The same shelf can carry 85 lbs PSF before reaching the same deflection if overlaid with HPL.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
 
 

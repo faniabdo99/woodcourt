@@ -22,7 +22,7 @@ class PagesController extends Controller{
         return view('products');
     }
     public function getExpertHub(){
-        $AllArticles = Event::where('type' , 'article')->where('is_important' , 1)->limit(3)->get();
+        $AllArticles = Event::where('type' , 'article')->where('is_important' , 1)->limit(5)->get();
         return view('expert-hub',compact('AllArticles'));
     }
 }
