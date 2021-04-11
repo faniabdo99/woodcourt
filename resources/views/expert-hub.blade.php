@@ -108,13 +108,13 @@ execution',
                         </li>
                         <li>
                             <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#blogs">Blog</a>
-                            <ul class="nav nav-tabs ml-5">
+                            {{-- <ul class="nav nav-tabs ml-5">
                                 <li><a class="nav-item nav-link sub-category-filter active" data-toggle="tab" href="#latest-trends">Latest Trends In Wood Flooring</a></li>
                                 <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#choose-suitable">How To Choose A Suitable HardWood Floor</a></li>
                                 <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#teak-maintenance">Teak Deck Maintenance</a></li>
                                 <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#hpl-boards">What Is The HPL Boards</a></li>
 
-                            </ul>
+                            </ul> --}}
                         </li>
                     </ul>
                 </div>
