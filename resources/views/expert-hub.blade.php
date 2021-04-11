@@ -412,6 +412,7 @@ execution',
                                     can have either square edge or beveled ones</h4>
                                 <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
                                 <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
+                              
                                 <h4>Uv-curing Finish: </h4>
                                 <p>It is the process in which the coat changes from liquid state to solid state under
                                     ultraviolet rays instantly in a sealed<br><br>
@@ -474,6 +475,7 @@ execution',
                                     wage, the color not also to be removed fig.3
                                 </p>
                                 <h4>Comparison Hardwood Solid & Engineered </h4>
+                                <img class="mb-2 w-50 " src="{{url('public')}}/images/categories/wood-flooring/engineered-floors/8.png" alt="1">
                                 <table class="table table-bordered table-striped">
                                     <tbody>
                                         <tr>
