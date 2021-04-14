@@ -20,11 +20,11 @@ class ProductController extends Controller{
     //Validate the request
     $Rules = [
       'title' => 'required',
-      'serial_number' => 'required',
-      // 'slug' => 'required|unique:products',
+      // 'serial_number' => 'required',
+      'slug' => 'required|unique:products',
       'category_id' => 'required',
       'description' => 'required',
-      // 'image' => 'required|image'
+      'image' => 'required|image'
     ];
     $Validator = Validator::make($r->all() , $Rules);
     if($Validator->fails()){
@@ -34,8 +34,8 @@ class ProductController extends Controller{
       $ProductData = $r->except(['gallery' , '_token']);
       //More Validation
       if($r->has('gallery')){
-        if(count($r->gallery) > 5){
-          return back()->withErrors('You can\'t upload more than 5 images!');
+        if(count($r->gallery) > 50){
+          return back()->withErrors('You can\'t upload more than 50 images!');
         }
         foreach ($r->gallery as $file) {
           // Check the file type and size
@@ -66,26 +66,26 @@ class ProductController extends Controller{
       $img->save('storage/app/products/original/'.$r->slug.'.jpg');
       $ProductData['image'] = $r->slug.'.jpg';
     }
-      //Categories
-      $MainCategories = [
-        'wood-flooring' => 1,
-        'cabinets' => 2,
-        'outdoor' => 3,
-      ];
-      $SubCategories = [
-        'engineered-floors' => 3,
-        'tiles' => 4,
-        'stairs' => 5,
-        'hdf-floors' => 6,
-        'kitchens' => 7,
-        'dressings' => 8,
-        'bathroom-cabinets' => 9,
-        'teak-flooring' => 10,
-        'shower-units' => 11,
-        'pergolas' => 12,
-      ];
-      $ProductData['category_id'] = $SubCategories[$r->category_id];
-      $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
+      // //Categories
+      // $MainCategories = [
+      //   'wood-flooring' => 1,
+      //   'cabinets' => 2,
+      //   'outdoor' => 3,
+      // ];
+      // $SubCategories = [
+      //   'engineered-floors' => 3,
+      //   'tiles' => 4,
+      //   'stairs' => 5,
+      //   'hdf-floors' => 6,
+      //   'kitchens' => 7,
+      //   'dressings' => 8,
+      //   'bathroom-cabinets' => 9,
+      //   'teak-flooring' => 10,
+      //   'shower-units' => 11,
+      //   'pergolas' => 12,
+      // ];
+      // $ProductData['category_id'] = $SubCategories[$r->category_id];
+      // $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
       $ProductData['slug'] = $r->slug;
       //Upload to db
       $TheProduct = Product::create($ProductData);
@@ -96,12 +96,12 @@ class ProductController extends Controller{
         // backup status
         $img->backup();
         // Full Size
-        $waterMarkUrl = public_path('images/watermark.png');
-        $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-          ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-          $constraint->aspectRatio();
-        });
-        $img->insert($WaterMark, 'center');
+        // $waterMarkUrl = public_path('images/watermark.png');
+        // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
+        //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
+        //   $constraint->aspectRatio();
+        // });
+        // $img->insert($WaterMark, 'center');
         $img->save('storage/app/products_gallery/original/'.$r->slug.$key.'.'.$file->getClientOriginalExtension());
         $img->reset();
         // Thumbial
@@ -130,7 +130,6 @@ class ProductController extends Controller{
       //Validate the request
       $Rules = [
         'title' => 'required',
-        'serial_number' => 'required',
         'category_id' => 'required',
         'description' => 'required',
       ];
@@ -143,8 +142,8 @@ class ProductController extends Controller{
         $ProductData = $r->except(['gallery' , '_token']);
         //More Validation
         if($r->has('gallery')){
-          if(count($r->gallery) > 5){
-            return back()->withErrors('You can\'t upload more than 5 images!');
+          if(count($r->gallery) > 50){
+            return back()->withErrors('You can\'t upload more than 50 images!');
           }
           foreach ($r->gallery as $file) {
             // Check the file type and size

@@ -10,15 +10,13 @@
                     @csrf
                     <label>Title</label>
                     <input type="text" name="title" value="{{old('title') ?? ''}}" placeholder="Enter Product Title Here ..." required>
-                    <label>Serial Number</label>
-                    <input type="text" name="serial_number" value="{{old('serial_number') ?? ''}}" placeholder="Enter Product Serial Number Here ..." required>
                     <label>Slug</label>
                     <input type="text" name="slug" value="{{old('slug') ?? ''}}" placeholder="Enter Product Slug Here ..." required>
                     <label>Category</label>
                     <select name="main_category_id" required>
                         <option value="">Choose Category</option>
                         @forelse ($AllCategories as $Category)
-                          <option value="{{$Category->slug}}">{{$Category->title}}</option>
+                          <option value="{{$Category->id}}">{{$Category->title}}</option>
                         @empty
                         @endforelse
                     </select>
@@ -26,7 +24,7 @@
                     <select name="category_id" required>
                         <option value="">Choose Sub Category</option>
                         @forelse ($AllSubCategories as $SCategory)
-                          <option value="{{$SCategory->slug}}">{{$SCategory->title}}</option>
+                          <option value="{{$SCategory->id}}">{{$SCategory->title}}</option>
                         @empty
                         @endforelse
                     </select>
