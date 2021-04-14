@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.green.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/basic.min.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/dropzone.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
     @if(strpos(url()->current(), 'admin'))
       <link rel="stylesheet" type="text/css" href="{{url('public')}}/datatables/datatables.min.css" >

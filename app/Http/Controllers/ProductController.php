@@ -5,6 +5,7 @@ use App\Models\Product;
 use App\Models\ProductGallery;
 use App\Models\Category;
 use Validator;
+use DB;
 use Image as ImageLib;
 class ProductController extends Controller{
   public function getIndex(){
@@ -14,7 +15,9 @@ class ProductController extends Controller{
   public function getNew(){
     $AllSubCategories = Category::where('type' , 'sub')->latest()->get();
     $AllCategories = Category::where('type' , '!=' , 'sub')->latest()->get();
-    return view('admin.product.new' , compact('AllCategories','AllSubCategories'));
+    $id = DB::select("SHOW TABLE STATUS LIKE 'products'");
+    $NextProductId= $id[0]->Auto_increment;
+    return view('admin.product.new' , compact('AllCategories','AllSubCategories','NextProductId'));
   }
   public function postNew(Request $r){
     //Validate the request
@@ -57,35 +60,9 @@ class ProductController extends Controller{
       $img->save('storage/app/products/small_thumb/'.$r->slug.'.jpg');
       $img->reset();
       // Full Size
-      // $waterMarkUrl = public_path('images/watermark.png');
-      // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-      //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-      //   $constraint->aspectRatio();
-      // });
-      // $img->insert($WaterMark, 'center');
       $img->save('storage/app/products/original/'.$r->slug.'.jpg');
       $ProductData['image'] = $r->slug.'.jpg';
     }
-      // //Categories
-      // $MainCategories = [
-      //   'wood-flooring' => 1,
-      //   'cabinets' => 2,
-      //   'outdoor' => 3,
-      // ];
-      // $SubCategories = [
-      //   'engineered-floors' => 3,
-      //   'tiles' => 4,
-      //   'stairs' => 5,
-      //   'hdf-floors' => 6,
-      //   'kitchens' => 7,
-      //   'dressings' => 8,
-      //   'bathroom-cabinets' => 9,
-      //   'teak-flooring' => 10,
-      //   'shower-units' => 11,
-      //   'pergolas' => 12,
-      // ];
-      // $ProductData['category_id'] = $SubCategories[$r->category_id];
-      // $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
       $ProductData['slug'] = $r->slug;
       //Upload to db
       $TheProduct = Product::create($ProductData);
@@ -96,12 +73,6 @@ class ProductController extends Controller{
         // backup status
         $img->backup();
         // Full Size
-        // $waterMarkUrl = public_path('images/watermark.png');
-        // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-        //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-        //   $constraint->aspectRatio();
-        // });
-        // $img->insert($WaterMark, 'center');
         $img->save('storage/app/products_gallery/original/'.$r->slug.$key.'.'.$file->getClientOriginalExtension());
         $img->reset();
         // Thumbial
@@ -165,67 +136,41 @@ class ProductController extends Controller{
         $img->save('storage/app/products/small_thumb/'.$TheProduct->slug.'.jpg');
         $img->reset();
         // Full Size
-        // $waterMarkUrl = public_path('images/watermark.png');
-        // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-        //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-        //   $constraint->aspectRatio();
-        // });
-        // $img->insert($WaterMark, 'center');
         $img->save('storage/app/products/original/'.$TheProduct->slug.'.jpg');
         $ProductData['image'] = $TheProduct->slug.'.jpg';
       }
-        //Categories
-        $MainCategories = [
-          'wood-flooring' => 1,
-          'cabinets' => 2,
-          'outdoor' => 3,
-        ];
-        $SubCategories = [
-          'engineered-floors' => 3,
-          'tiles' => 4,
-          'stairs' => 5,
-          'hdf-floors' => 6,
-          'kitchens' => 7,
-          'dressings' => 8,
-          'bathroom-cabinets' => 9,
-          'teak-flooring' => 10,
-          'shower-units' => 11,
-          'pergolas' => 12,
-        ];
-        $ProductData['category_id'] = $SubCategories[$r->category_id];
-        $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
-        //Upload to db
-        $TheProduct->update($ProductData);
-        //Upload the images
-        if($r->has('gallery')){
-          //Delete current gallery images
-          ProductGallery::where('product_id' , $TheProduct->id)->get()->map(function($item){
-            $item->delete();
+      //Upload to db
+      $TheProduct->update($ProductData);
+      //Upload the images
+      if($r->has('gallery')){
+        //Delete current gallery images
+        ProductGallery::where('product_id' , $TheProduct->id)->get()->map(function($item){
+          $item->delete();
+        });
+        foreach ($r->gallery as $key => $file) {
+          $img = ImageLib::make($file);
+          // backup status
+          $img->backup();
+          // Full Size
+          $waterMarkUrl = public_path('images/watermark.png');
+          $WaterMark = ImageLib::make($waterMarkUrl)->resize(
+            ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
+            $constraint->aspectRatio();
           });
-          foreach ($r->gallery as $key => $file) {
-            $img = ImageLib::make($file);
-            // backup status
-            $img->backup();
-            // Full Size
-            $waterMarkUrl = public_path('images/watermark.png');
-            $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-              ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-              $constraint->aspectRatio();
-            });
-            $img->insert($WaterMark, 'center');
-            $img->save('storage/app/products_gallery/original/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
-            $img->reset();
-            // Thumbial
-            $img->fit(200, 200);
-            $img->save('storage/app/products_gallery/small_thumb/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
-            $img->reset();
-            $TheImage = $TheProduct->slug.$key.'.'.$file->getClientOriginalExtension();
-            ProductGallery::create([
-              'product_id' => $TheProduct->id,
-              'image' => $TheImage
-            ]);
-          }
-      }
+          $img->insert($WaterMark, 'center');
+          $img->save('storage/app/products_gallery/original/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
+          $img->reset();
+          // Thumbial
+          $img->fit(200, 200);
+          $img->save('storage/app/products_gallery/small_thumb/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
+          $img->reset();
+          $TheImage = $TheProduct->slug.$key.'.'.$file->getClientOriginalExtension();
+          ProductGallery::create([
+            'product_id' => $TheProduct->id,
+            'image' => $TheImage
+          ]);
+        }
+    }
     //Return to all projects page
     return redirect()->route('admin.product.all')->withSuccess('Product Updated!');
     }
@@ -235,11 +180,22 @@ class ProductController extends Controller{
     return back()->withSuccess('Product Deleted');
   }
   public function uploadImage(Request $r){
-     $imgpath = request()->file('file')->store('uploads', 'public');
-     $FinalPath  = url("storage/app/public/")."/".$imgpath;
-     return json_encode(['location' => $FinalPath]);
+    $img = ImageLib::make($r->image);
+    // backup status
+    $img->backup();
+    // Full Size
+    $img->save('storage/app/products_gallery/original/'.$r->product_id.date('YmdHis').'.'.$r->image->getClientOriginalExtension());
+    $img->reset();
+    // Thumbial
+    $img->fit(200, 200);
+    $img->save('storage/app/products_gallery/small_thumb/'.$r->product_id.date('YmdHis').'.'.$r->image->getClientOriginalExtension());
+    $img->reset();
+    $TheImage = $r->product_id.date('YmdHis').'.'.$r->image->getClientOriginalExtension();
+    ProductGallery::create([
+      'product_id' => $r->product_id,
+      'image' => $TheImage
+    ]);
   }
-
   //Non-Admin Stuff
   public function getUserHome($isFiltered = null , $Filter = null){
       if(!$Filter){

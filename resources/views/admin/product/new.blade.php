@@ -7,6 +7,7 @@
                 <h1>Add New Product</h1>
                 <p>Control Your Site Data From Here</p>
                 <form class="woodcourt-form mt-4" action="{{route('admin.product.postNew')}}" method="post" enctype="multipart/form-data">
+                    <input hidden name="id" value={{$NextProductId}}>
                     @csrf
                     <label>Title</label>
                     <input type="text" name="title" value="{{old('title') ?? ''}}" placeholder="Enter Product Title Here ..." required>
@@ -33,7 +34,8 @@
                     <label>Image</label>
                     <input type="file" name="image">
                     <label>Gallery Images</label>
-                    <input type="file" name="gallery[]" multiple>
+                    <div id="drop-zone" class="dropzone"></div>
+                    <br>
                     <label>Wood Type</label>
                     <input type="text" class="form-control mb-3" name="wood_type" placeholder="Wood Type">
                     <label>Size</label>
@@ -61,6 +63,15 @@
             SlugValue = $(this).val().replace(/\s+/g, '-').replace(/^\[(\d+)\]\[(\s+)\]$/, "-").toLowerCase();
             //Assign the value to the input
             $('input[name="slug"]').val(SlugValue);
+        });
+          //Dropzone For Images
+        var myDropzone = new Dropzone("div#drop-zone", {
+             url: "{{route('product.uploadImage')}}",
+             paramName: "image",
+             params: {'product_id':$('input[name="id"]').val()},
+             acceptedFiles: 'image/*',
+             maxFiles: 50,
+             dictDefaultMessage: "Drag Images or Click to Upload",
         });
     </script>
 </body>

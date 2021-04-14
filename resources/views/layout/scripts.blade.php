@@ -14,4 +14,6 @@
   <script type="text/javascript" src="{{url('public')}}/js/admin.js"></script>
 @endif
 <script src="{{url('public')}}/js/owl.carousel.min.js"></script>
+<script src="{{url('public')}}/js/dropzone.min.js"></script>
+<script src="{{url('public')}}/js/dropzone-amd-module.min.js"></script>
 <script src="{{url('public')}}/js/app.js"></script>
