@@ -7,7 +7,8 @@
                 <h1>Add New Product</h1>
                 <p>Control Your Site Data From Here</p>
                 <form class="woodcourt-form mt-4" action="{{route('admin.product.postNew')}}" method="post" enctype="multipart/form-data">
-                    <input hidden name="id" value={{$NextProductId}}>
+                    <label>ID</label>
+                    <input name="id" value="{{$NextProductId}}" required>
                     @csrf
                     <label>Title</label>
                     <input type="text" name="title" value="{{old('title') ?? ''}}" placeholder="Enter Product Title Here ..." required>

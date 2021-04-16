@@ -15,8 +15,8 @@ class ProductController extends Controller{
   public function getNew(){
     $AllSubCategories = Category::where('type' , 'sub')->latest()->get();
     $AllCategories = Category::where('type' , '!=' , 'sub')->latest()->get();
-    $id = DB::select("SHOW TABLE STATUS LIKE 'products'");
-    $NextProductId= $id[0]->Auto_increment;
+    $id =Product::latets()->first()->id;
+    $NextProductId= $id + 1;
     return view('admin.product.new' , compact('AllCategories','AllSubCategories','NextProductId'));
   }
   public function postNew(Request $r){
