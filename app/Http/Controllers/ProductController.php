@@ -15,7 +15,7 @@ class ProductController extends Controller{
   public function getNew(){
     $AllSubCategories = Category::where('type' , 'sub')->latest()->get();
     $AllCategories = Category::where('type' , '!=' , 'sub')->latest()->get();
-    $id =Product::latets()->first()->id;
+    $id =Product::latest()->first()->id;
     $NextProductId= $id + 1;
     return view('admin.product.new' , compact('AllCategories','AllSubCategories','NextProductId'));
   }
