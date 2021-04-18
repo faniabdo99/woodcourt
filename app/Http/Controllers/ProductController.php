@@ -222,6 +222,8 @@ class ProductController extends Controller{
     $TheProduct = Product::where('slug' ,$slug)->first();
     $LatestProducts = Product::latest()->where('slug' , '!=' , $slug)->limit(6)->get();
     if(!$TheProduct){abort(404);}
-    return view('products.single' , compact('TheProduct' , 'LatestProducts'));
+    $Next = Product::where('id', '>', $TheProduct->id)->orderBy('id')->first();
+    $Previous = Product::where('id', '<', $TheProduct->id)->orderBy('id','desc')->first();
+    return view('products.single' , compact('TheProduct' , 'LatestProducts' , 'Previous' , 'Next'));
   }
 }

@@ -29,6 +29,10 @@
                 &:hover {
                     color: $brand;
                 }
+                &.active{
+                  color: $brand;
+                  font-weight: bold;
+                }
             }
             .main-category-filter.active{
               color: $brand;
@@ -48,6 +52,26 @@
             }
         }
     }
+}
+.product-controls{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    a{
+      background-color: $lightgrey;
+      padding: 10px;
+      border-radius: 4px;
+      color: $black;
+      transition: all ease 0.3s;
+      &:hover{
+        background-color: $brand;
+        transition: all ease 0.3s;
+        color: #fff;
+    }
+  }
 }
 .single-photo{
   display: block;

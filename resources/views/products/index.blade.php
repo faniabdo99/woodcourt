@@ -16,10 +16,10 @@
                         <ul class="filter-items">
                             @foreach ($AllCategories as $key => $Category)
                             <li>
-                                <a href="{{route('products' , ['category' , $Category->slug])}}">{{$Category->title}}</a>
+                                <a @if(request()->route('filter') == $Category->slug) class="active" @endif href="{{route('products' , ['category' , $Category->slug])}}">{{$Category->title}}</a>
                                 <ul class="filter-sub-items">
                                     @forelse ($Category->SubCategories as $key => $SCategory)
-                                        <li><a href="{{route('products' , ['category' , $SCategory->slug])}}">{{$SCategory->title}}</a></li>
+                                        <li><a href="{{route('products' , ['category' , $SCategory->slug])}}" @if(request()->route('filter') == $SCategory->slug) class="active" @endif>{{$SCategory->title}}</a></li>
                                     @empty
                                     @endforelse
                                 </ul>
@@ -33,7 +33,7 @@
                             <li>
                                 <ul class="filter-sub-items">
                                     @foreach ($AllWoodTypes as $key => $WoodType)
-                                        <li><a href="{{route('products' , ['wood-type' , $WoodType])}}">{{$WoodType}}</a></li>
+                                        <li><a href="{{route('products' , ['wood-type' , $WoodType])}}" @if(request()->route('filter') == $WoodType) class="active" @endif>{{$WoodType}}</a></li>
                                     @endforeach
                                 </ul>
                             </li>
@@ -42,6 +42,14 @@
                 </div>
                 <div class="col-lg-9 col-12">
                     <div class="row">
+                        @if(request()->route('isFiltered') != null)
+                            <div class="col-12">
+                                <h2>
+                                    @if(request()->route('isFiltered') == 'wood-type') Wood Type @endif
+                                    @if(request()->route('isFiltered') == 'category') Category @endif
+                                     : {{ucwords(str_replace('-' , ' ' ,request()->route('filter')))}}</h2>
+                            </div>
+                        @endif
                         @forelse ($AllProducts as $key => $Product)
                         <div class="col-lg-3 col-12">
                             <a class="single-photo" href="{{route('products.single' , $Product->slug)}}">
@@ -55,15 +63,8 @@
                 </div>
             </div>
         </div>
-
     </section>
-
-
-
-
-
     @include('layout.scripts')
     @include('layout.footer')
 </body>
-
 </html>

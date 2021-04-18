@@ -2092,6 +2092,10 @@ time {
 .products-sidebar ul.filter-items li > a:hover {
   color: #0D8287;
 }
+.products-sidebar ul.filter-items li > a.active {
+  color: #0D8287;
+  font-weight: bold;
+}
 .products-sidebar ul.filter-items li .main-category-filter.active {
   color: #0D8287;
   font-weight: bold;
@@ -2105,6 +2109,27 @@ time {
 .products-sidebar ul.filter-items li ul.filter-sub-items li a.active {
   color: #0D8287;
   font-weight: bold;
+}
+
+.product-controls {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.product-controls a {
+  background-color: #F1F1F1;
+  padding: 10px;
+  border-radius: 4px;
+  color: #333333;
+  transition: all ease 0.3s;
+}
+.product-controls a:hover {
+  background-color: #0D8287;
+  transition: all ease 0.3s;
+  color: #fff;
 }
 
 .single-photo {
