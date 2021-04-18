@@ -201,16 +201,22 @@ class ProductController extends Controller{
       if(!$Filter){
         $AllProducts = Product::latest()->paginate(50);
       }else{
-        $TheCategory = Category::where('slug' , $Filter)->first();
-        if($TheCategory->type == 'sub'){
-          $AllProducts = Product::where('category_id' , $TheCategory->id)->latest()->paginate(50);
-        }else{
-          $SubCategoriesArray = Category::where('category_id' , $TheCategory->id)->pluck('id')->toArray();
-          $AllProducts = Product::whereIn('category_id' , $SubCategoriesArray)->latest()->paginate(50);
+        if($isFiltered == 'category'){
+          $TheCategory = Category::where('slug' , $Filter)->first();
+          if($TheCategory->type == 'sub'){
+            $AllProducts = Product::where('category_id' , $TheCategory->id)->latest()->paginate(50);
+          }else{
+            $SubCategoriesArray = Category::where('category_id' , $TheCategory->id)->pluck('id')->toArray();
+            $AllProducts = Product::whereIn('category_id' , $SubCategoriesArray)->latest()->paginate(50);
+          }
+        }
+        if($isFiltered == 'wood-type'){
+          $AllProducts = Product::where('wood_type' , $Filter)->latest()->paginate(50);
         }
       }
       $AllCategories = Category::where('type' , 'main')->latest()->get();
-      return view('products.index' , compact('AllProducts','AllCategories'));
+      $AllWoodTypes = Product::pluck('wood_type')->unique();
+      return view('products.index' , compact('AllProducts','AllCategories' , 'AllWoodTypes'));
   }
   public function getSingle($slug){
     $TheProduct = Product::where('slug' ,$slug)->first();

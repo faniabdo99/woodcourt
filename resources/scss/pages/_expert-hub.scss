@@ -104,15 +104,17 @@ hr {
         text-transform: capitalize;
     }
 }
-.filter-items {
-    li {
-        display: block;
-        width: 100%;
-    }
-    ul {
-        display: none;
-        &.toturials-sublist {
+#expert-hub-sidebar{
+    .filter-items {
+        li {
             display: block;
+            width: 100%;
+        }
+        ul {
+            display: none;
+            &.toturials-sublist {
+                display: block;
+            }
         }
     }
 }
