@@ -199,19 +199,19 @@ class ProductController extends Controller{
   //Non-Admin Stuff
   public function getUserHome($isFiltered = null , $Filter = null){
       if(!$Filter){
-        $AllProducts = Product::latest()->paginate(50);
+        $AllProducts = Product::latest()->get();
       }else{
         if($isFiltered == 'category'){
           $TheCategory = Category::where('slug' , $Filter)->first();
           if($TheCategory->type == 'sub'){
-            $AllProducts = Product::where('category_id' , $TheCategory->id)->latest()->paginate(50);
+            $AllProducts = Product::where('category_id' , $TheCategory->id)->latest()->get();
           }else{
             $SubCategoriesArray = Category::where('category_id' , $TheCategory->id)->pluck('id')->toArray();
-            $AllProducts = Product::whereIn('category_id' , $SubCategoriesArray)->latest()->paginate(50);
+            $AllProducts = Product::whereIn('category_id' , $SubCategoriesArray)->latest()->get();
           }
         }
         if($isFiltered == 'wood-type'){
-          $AllProducts = Product::where('wood_type' , $Filter)->latest()->paginate(50);
+          $AllProducts = Product::where('wood_type' , $Filter)->latest()->get();
         }
       }
       $AllCategories = Category::where('type' , 'main')->latest()->get();
