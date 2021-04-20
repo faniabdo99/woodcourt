@@ -5,6 +5,7 @@ use App\Models\Product;
 use App\Models\ProductGallery;
 use App\Models\Category;
 use Validator;
+use DB;
 use Image as ImageLib;
 class ProductController extends Controller{
   public function getIndex(){
@@ -14,17 +15,19 @@ class ProductController extends Controller{
   public function getNew(){
     $AllSubCategories = Category::where('type' , 'sub')->latest()->get();
     $AllCategories = Category::where('type' , '!=' , 'sub')->latest()->get();
-    return view('admin.product.new' , compact('AllCategories','AllSubCategories'));
+    $id = Product::latest()->limit(1)->first()->id;
+    $NextProductId= $id + 1;
+    return view('admin.product.new' , compact('AllCategories','AllSubCategories','NextProductId'));
   }
   public function postNew(Request $r){
     //Validate the request
     $Rules = [
       'title' => 'required',
-      'serial_number' => 'required',
-      // 'slug' => 'required|unique:products',
+      // 'serial_number' => 'required',
+      'slug' => 'required|unique:products',
       'category_id' => 'required',
       'description' => 'required',
-      // 'image' => 'required|image'
+      'image' => 'required|image'
     ];
     $Validator = Validator::make($r->all() , $Rules);
     if($Validator->fails()){
@@ -34,8 +37,8 @@ class ProductController extends Controller{
       $ProductData = $r->except(['gallery' , '_token']);
       //More Validation
       if($r->has('gallery')){
-        if(count($r->gallery) > 5){
-          return back()->withErrors('You can\'t upload more than 5 images!');
+        if(count($r->gallery) > 50){
+          return back()->withErrors('You can\'t upload more than 50 images!');
         }
         foreach ($r->gallery as $file) {
           // Check the file type and size
@@ -57,35 +60,9 @@ class ProductController extends Controller{
       $img->save('storage/app/products/small_thumb/'.$r->slug.'.jpg');
       $img->reset();
       // Full Size
-      // $waterMarkUrl = public_path('images/watermark.png');
-      // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-      //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-      //   $constraint->aspectRatio();
-      // });
-      // $img->insert($WaterMark, 'center');
       $img->save('storage/app/products/original/'.$r->slug.'.jpg');
       $ProductData['image'] = $r->slug.'.jpg';
     }
-      //Categories
-      $MainCategories = [
-        'wood-flooring' => 1,
-        'cabinets' => 2,
-        'outdoor' => 3,
-      ];
-      $SubCategories = [
-        'engineered-floors' => 3,
-        'tiles' => 4,
-        'stairs' => 5,
-        'hdf-floors' => 6,
-        'kitchens' => 7,
-        'dressings' => 8,
-        'bathroom-cabinets' => 9,
-        'teak-flooring' => 10,
-        'shower-units' => 11,
-        'pergolas' => 12,
-      ];
-      $ProductData['category_id'] = $SubCategories[$r->category_id];
-      $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
       $ProductData['slug'] = $r->slug;
       //Upload to db
       $TheProduct = Product::create($ProductData);
@@ -96,12 +73,6 @@ class ProductController extends Controller{
         // backup status
         $img->backup();
         // Full Size
-        $waterMarkUrl = public_path('images/watermark.png');
-        $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-          ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-          $constraint->aspectRatio();
-        });
-        $img->insert($WaterMark, 'center');
         $img->save('storage/app/products_gallery/original/'.$r->slug.$key.'.'.$file->getClientOriginalExtension());
         $img->reset();
         // Thumbial
@@ -130,7 +101,6 @@ class ProductController extends Controller{
       //Validate the request
       $Rules = [
         'title' => 'required',
-        'serial_number' => 'required',
         'category_id' => 'required',
         'description' => 'required',
       ];
@@ -143,8 +113,8 @@ class ProductController extends Controller{
         $ProductData = $r->except(['gallery' , '_token']);
         //More Validation
         if($r->has('gallery')){
-          if(count($r->gallery) > 5){
-            return back()->withErrors('You can\'t upload more than 5 images!');
+          if(count($r->gallery) > 50){
+            return back()->withErrors('You can\'t upload more than 50 images!');
           }
           foreach ($r->gallery as $file) {
             // Check the file type and size
@@ -166,67 +136,41 @@ class ProductController extends Controller{
         $img->save('storage/app/products/small_thumb/'.$TheProduct->slug.'.jpg');
         $img->reset();
         // Full Size
-        // $waterMarkUrl = public_path('images/watermark.png');
-        // $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-        //   ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-        //   $constraint->aspectRatio();
-        // });
-        // $img->insert($WaterMark, 'center');
         $img->save('storage/app/products/original/'.$TheProduct->slug.'.jpg');
         $ProductData['image'] = $TheProduct->slug.'.jpg';
       }
-        //Categories
-        $MainCategories = [
-          'wood-flooring' => 1,
-          'cabinets' => 2,
-          'outdoor' => 3,
-        ];
-        $SubCategories = [
-          'engineered-floors' => 3,
-          'tiles' => 4,
-          'stairs' => 5,
-          'hdf-floors' => 6,
-          'kitchens' => 7,
-          'dressings' => 8,
-          'bathroom-cabinets' => 9,
-          'teak-flooring' => 10,
-          'shower-units' => 11,
-          'pergolas' => 12,
-        ];
-        $ProductData['category_id'] = $SubCategories[$r->category_id];
-        $ProductData['main_category_id'] = $MainCategories[$r->main_category_id];
-        //Upload to db
-        $TheProduct->update($ProductData);
-        //Upload the images
-        if($r->has('gallery')){
-          //Delete current gallery images
-          ProductGallery::where('product_id' , $TheProduct->id)->get()->map(function($item){
-            $item->delete();
+      //Upload to db
+      $TheProduct->update($ProductData);
+      //Upload the images
+      if($r->has('gallery')){
+        //Delete current gallery images
+        ProductGallery::where('product_id' , $TheProduct->id)->get()->map(function($item){
+          $item->delete();
+        });
+        foreach ($r->gallery as $key => $file) {
+          $img = ImageLib::make($file);
+          // backup status
+          $img->backup();
+          // Full Size
+          $waterMarkUrl = public_path('images/watermark.png');
+          $WaterMark = ImageLib::make($waterMarkUrl)->resize(
+            ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
+            $constraint->aspectRatio();
           });
-          foreach ($r->gallery as $key => $file) {
-            $img = ImageLib::make($file);
-            // backup status
-            $img->backup();
-            // Full Size
-            $waterMarkUrl = public_path('images/watermark.png');
-            $WaterMark = ImageLib::make($waterMarkUrl)->resize(
-              ($img->width() - ($img->width() * 0.20))  , null,  function ($constraint) {
-              $constraint->aspectRatio();
-            });
-            $img->insert($WaterMark, 'center');
-            $img->save('storage/app/products_gallery/original/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
-            $img->reset();
-            // Thumbial
-            $img->fit(200, 200);
-            $img->save('storage/app/products_gallery/small_thumb/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
-            $img->reset();
-            $TheImage = $TheProduct->slug.$key.'.'.$file->getClientOriginalExtension();
-            ProductGallery::create([
-              'product_id' => $TheProduct->id,
-              'image' => $TheImage
-            ]);
-          }
-      }
+          $img->insert($WaterMark, 'center');
+          $img->save('storage/app/products_gallery/original/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
+          $img->reset();
+          // Thumbial
+          $img->fit(200, 200);
+          $img->save('storage/app/products_gallery/small_thumb/'.$TheProduct->slug.$key.'.'.$file->getClientOriginalExtension());
+          $img->reset();
+          $TheImage = $TheProduct->slug.$key.'.'.$file->getClientOriginalExtension();
+          ProductGallery::create([
+            'product_id' => $TheProduct->id,
+            'image' => $TheImage
+          ]);
+        }
+    }
     //Return to all projects page
     return redirect()->route('admin.product.all')->withSuccess('Product Updated!');
     }
@@ -236,31 +180,50 @@ class ProductController extends Controller{
     return back()->withSuccess('Product Deleted');
   }
   public function uploadImage(Request $r){
-     $imgpath = request()->file('file')->store('uploads', 'public');
-     $FinalPath  = url("storage/app/public/")."/".$imgpath;
-     return json_encode(['location' => $FinalPath]);
+    $img = ImageLib::make($r->image);
+    // backup status
+    $img->backup();
+    // Full Size
+    $img->save('storage/app/products_gallery/original/'.$r->product_id.date('YmdHis').'.'.$r->image->getClientOriginalExtension());
+    $img->reset();
+    // Thumbial
+    $img->fit(200, 200);
+    $img->save('storage/app/products_gallery/small_thumb/'.$r->product_id.date('YmdHis').'.'.$r->image->getClientOriginalExtension());
+    $img->reset();
+    $TheImage = $r->product_id.date('YmdHis').'.'.$r->image->getClientOriginalExtension();
+    ProductGallery::create([
+      'product_id' => $r->product_id,
+      'image' => $TheImage
+    ]);
   }
-
   //Non-Admin Stuff
   public function getUserHome($isFiltered = null , $Filter = null){
       if(!$Filter){
-        $AllProducts = Product::latest()->paginate(50);
+        $AllProducts = Product::latest()->get();
       }else{
-        $TheCategory = Category::where('slug' , $Filter)->first();
-        if($TheCategory->type == 'sub'){
-          $AllProducts = Product::where('category_id' , $TheCategory->id)->latest()->paginate(50);
-        }else{
-          $SubCategoriesArray = Category::where('category_id' , $TheCategory->id)->pluck('id')->toArray();
-          $AllProducts = Product::whereIn('category_id' , $SubCategoriesArray)->latest()->paginate(50);
+        if($isFiltered == 'category'){
+          $TheCategory = Category::where('slug' , $Filter)->first();
+          if($TheCategory->type == 'sub'){
+            $AllProducts = Product::where('category_id' , $TheCategory->id)->latest()->get();
+          }else{
+            $SubCategoriesArray = Category::where('category_id' , $TheCategory->id)->pluck('id')->toArray();
+            $AllProducts = Product::whereIn('category_id' , $SubCategoriesArray)->latest()->get();
+          }
+        }
+        if($isFiltered == 'wood-type'){
+          $AllProducts = Product::where('wood_type' , $Filter)->latest()->get();
         }
       }
       $AllCategories = Category::where('type' , 'main')->latest()->get();
-      return view('products.index' , compact('AllProducts','AllCategories'));
+      $AllWoodTypes = Product::pluck('wood_type')->unique();
+      return view('products.index' , compact('AllProducts','AllCategories' , 'AllWoodTypes'));
   }
   public function getSingle($slug){
     $TheProduct = Product::where('slug' ,$slug)->first();
     $LatestProducts = Product::latest()->where('slug' , '!=' , $slug)->limit(6)->get();
     if(!$TheProduct){abort(404);}
-    return view('products.single' , compact('TheProduct' , 'LatestProducts'));
+    $Next = Product::where('id', '>', $TheProduct->id)->orderBy('id')->first();
+    $Previous = Product::where('id', '<', $TheProduct->id)->orderBy('id','desc')->first();
+    return view('products.single' , compact('TheProduct' , 'LatestProducts' , 'Previous' , 'Next'));
   }
 }

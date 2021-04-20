@@ -9,7 +9,7 @@ Route::post('contact-get-quote' , 'ContactController@postQuote')->name('contactG
 Route::post('upload-product' , 'ProductController@postNew')->name('postNewProduct');
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
-  Route::get('/{isFiltered?}/{filter?}' , 'PhotosController@getUserHome')->name('products');
+  Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');
 });
 Route::prefix('events')->group(function(){
   Route::get('/' , 'EventsController@getUserHome')->name('events');

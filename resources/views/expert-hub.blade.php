@@ -113,7 +113,6 @@ execution',
                                 <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#choose-suitable">How To Choose A Suitable HardWood Floor</a></li>
                                 <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#teak-maintenance">Teak Deck Maintenance</a></li>
                                 <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#hpl-boards">What Is The HPL Boards</a></li>
-
                             </ul> --}}
                         </li>
                     </ul>

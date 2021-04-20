@@ -38,38 +38,22 @@
                 <li class="nav-item dropdown">
                    <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <i class="fas fa-chevron-down"></i></a>
                    <div class="dropdown-menu" aria-labelledby="woodCare">
-                     <a class="dropdown-item" href="{{route('category.wood-flooring')}}">All</a>
-                     <a class="dropdown-item" href="{{route('category.wood-flooring')}}">Hardwood Floor</a>
-                     <a class="dropdown-item" href="{{route('category.cabinets')}}">Kitchens and Cabinets</a>
-                     <a class="dropdown-item" href="{{route('category.outdoor')}}">Outdoor Wood Flooring & Pergolas</a>
+                     <a class="dropdown-item" href="{{route('products')}}">All</a>
+                     <a class="dropdown-item" href="{{route('products', ['category','wood-flooring'])}}">Hardwood Floor</a>
+                     <a class="dropdown-item" href="{{route('products', ['category','cabinets'])}}">Kitchens and Cabinets</a>
+                     <a class="dropdown-item" href="{{route('products', ['category','outdoor'])}}">Outdoor Wood Flooring & Pergolas</a>
                    </div>
                  </li>
-                 <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expert Hub <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-menu" aria-labelledby="woodCare">
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#FAQs">F.A.Qs</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#wood-care">Wood Care</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#installation-methods">Installation Methods</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#hardwood-flooring">Finish Techniques</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#engineered-hardwood">Wood Species</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#outdoor-woodcare">Technical Data Sheet</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#woodcare-kitchen">Engineered Wood Techniques</a>
-                      <a class="dropdown-item" href="{{route('expert-hub')}}#choose-suitable">Top 3 Blog Articles and see more</a>
-                    </div>
-                  </li> -->
                 <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">Expert Hub</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
                 <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a></li>
-                  @auth
-                <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
+                @auth
+                  <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth
-                {{-- <li class="nav-item"><a class="nav-link" href="#">Promotions Collection</a></li> --}}
-                {{-- <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-search"></i></a></li> --}}
             </ul>
         </div>
     </nav>
-
 </header>
 <!-- Modal -->
 <div class="modal fade" id="getQuoteModal" tabindex="-1" role="dialog" aria-labelledby="getQuoteModalLabel" aria-hidden="true">
@@ -92,9 +76,10 @@
           <br>
           <label>Choose Product(s):</label>
           <select class="form-control" name="product_id" multiple>
-            <option value="dd">dd</option>
-            <option value="dd">dd</option>
-            <option value="dd">dd</option>
+            @forelse(getCategories() as $Category)
+              <option value="{{$Category->title}}">{{$Category->title}}</option>
+            @empty
+            @endforelse
           </select>
           <br>
           <label>Contact Method</label>

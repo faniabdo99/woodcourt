@@ -10,8 +10,16 @@
               <i class="fas fa-calendar"></i> {{$TheProduct->created_at->format('d, M Y')}}
             </span>
             <a href="{{$TheProduct->imagePath}}" data-fancybox="fd">
-              <img class="w-100 mb-3" src="{{$TheProduct->ThumbPath}}" alt="{{$TheProduct->title}}">
+              <img class="w-100 mb-3" src="{{$TheProduct->ImagePath}}" alt="{{$TheProduct->title}}">
             </a>
+            <div class="product-controls">
+              @if($Previous != null)
+                <a href="{{route('products.single' , $Previous->slug)}}"><i class="fas fa-chevron-left"></i> Previous Product</a>
+              @endif
+              @if($Next != null)
+                <a href="{{route('products.single' , $Next->slug)}}">Next Product <i class="fas fa-chevron-right"></i></a>
+              @endif
+            </div>
             <div class="event-content">
               {!! $TheProduct->description !!}
               <div class="single-product-images">

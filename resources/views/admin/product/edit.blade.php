@@ -9,8 +9,6 @@
                     @csrf
                     <label>Title</label>
                     <input type="text" name="title" value="{{old('title') ?? $Product->title}}" placeholder="Enter Product Title Here ..." required>
-                    <label>Serial Number</label>
-                    <input type="text" name="serial_number" value="{{old('serial_number') ?? $Product->serial_number}}" placeholder="Enter Product Serial Number Here ..." required>
                     <label>Category</label>
                     <select name="main_category_id" required>
                         <option value="">Choose Category</option>

@@ -7,18 +7,18 @@
                 <h1>Add New Product</h1>
                 <p>Control Your Site Data From Here</p>
                 <form class="woodcourt-form mt-4" action="{{route('admin.product.postNew')}}" method="post" enctype="multipart/form-data">
+                    <label>ID</label>
+                    <input name="id" value="{{$NextProductId}}" required>
                     @csrf
                     <label>Title</label>
                     <input type="text" name="title" value="{{old('title') ?? ''}}" placeholder="Enter Product Title Here ..." required>
-                    <label>Serial Number</label>
-                    <input type="text" name="serial_number" value="{{old('serial_number') ?? ''}}" placeholder="Enter Product Serial Number Here ..." required>
                     <label>Slug</label>
                     <input type="text" name="slug" value="{{old('slug') ?? ''}}" placeholder="Enter Product Slug Here ..." required>
                     <label>Category</label>
                     <select name="main_category_id" required>
                         <option value="">Choose Category</option>
                         @forelse ($AllCategories as $Category)
-                          <option value="{{$Category->slug}}">{{$Category->title}}</option>
+                          <option value="{{$Category->id}}">{{$Category->title}}</option>
                         @empty
                         @endforelse
                     </select>
@@ -26,7 +26,7 @@
                     <select name="category_id" required>
                         <option value="">Choose Sub Category</option>
                         @forelse ($AllSubCategories as $SCategory)
-                          <option value="{{$SCategory->slug}}">{{$SCategory->title}}</option>
+                          <option value="{{$SCategory->id}}">{{$SCategory->title}}</option>
                         @empty
                         @endforelse
                     </select>
@@ -35,7 +35,8 @@
                     <label>Image</label>
                     <input type="file" name="image">
                     <label>Gallery Images</label>
-                    <input type="file" name="gallery[]" multiple>
+                    <div id="drop-zone" class="dropzone"></div>
+                    <br>
                     <label>Wood Type</label>
                     <input type="text" class="form-control mb-3" name="wood_type" placeholder="Wood Type">
                     <label>Size</label>
@@ -63,6 +64,15 @@
             SlugValue = $(this).val().replace(/\s+/g, '-').replace(/^\[(\d+)\]\[(\s+)\]$/, "-").toLowerCase();
             //Assign the value to the input
             $('input[name="slug"]').val(SlugValue);
+        });
+          //Dropzone For Images
+        var myDropzone = new Dropzone("div#drop-zone", {
+             url: "{{route('product.uploadImage')}}",
+             paramName: "image",
+             params: {'product_id':$('input[name="id"]').val()},
+             acceptedFiles: 'image/*',
+             maxFiles: 50,
+             dictDefaultMessage: "Drag Images or Click to Upload",
         });
     </script>
 </body>
