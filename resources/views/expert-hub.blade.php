@@ -412,7 +412,7 @@ execution',
                                     can have either square edge or beveled ones</h4>
                                 <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
                                 <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
-                              
+
                                 <h4>Uv-curing Finish: </h4>
                                 <p>It is the process in which the coat changes from liquid state to solid state under
                                     ultraviolet rays instantly in a sealed<br><br>
@@ -1516,7 +1516,7 @@ execution',
                                 @empty
                                 <p>There is no articles yet, Stay tuned!</p>
                                 @endforelse
-                            </section> 
+                            </section>
                             {{-- <div class="tab-pane fade show active" id="latest-trends">
                                 <div class="mb-3">
                                     {{-- <h2 class="mb-3">Latest Trends in Hardwood Flooring </h2> --}}
@@ -1607,7 +1607,7 @@ execution',
                                         Which trend do you love the most? <br>
                                         Contact us on our social media channels <br>
                                     </p>
-                                     
+
                                         <a href="https://www.facebook.com/thewoodcourt/" target="_blank"> <h4 class="d-inline-block"> <i class="fab fa-facebook"></i></h4></a>
                                         <a href="https://www.instagram.com/thewoodcourt/" target="_blank"> <h4 class="d-inline-block"><i class="fab fa-instagram"></i></h4> </a>
                                         <a href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ" target="_blank"> <h4 class="d-inline-block"><i class="fab fa-youtube"></i></h4> </a>
