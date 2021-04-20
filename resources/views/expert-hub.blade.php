@@ -330,7 +330,7 @@ execution',
                                     engineered wood flooring but also, site- finish or pre-finished floors? Which one is
                                     better? And why? Well, each type has its benefits</p>
                                 <h2>1.Site Finish:</h2>
-                                <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/Pict 6.png" alt="1">
+                                <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/Pict 6.png" alt="1">
                                 <p>When you go for the site- finish wood floors, then you are purchasing wood floors
                                     which will be shipped to your home unfinished, to be sanded, possibly stained, and
                                     then sealed and finished with a top protective layer in your home. This process
@@ -436,12 +436,14 @@ execution',
                                 <h2>Engineered Hardwood Flooring</h2>
                                 <p>The word (engineered) before hardwoods is to indicate that the floor planks are made
                                     of multilayer <br><br>
+                                    <img class="mb-2 w-50 " src="{{url('public')}}/images/blog/suitable-hardwood/11.png" alt="1">
                                     <b>A. Base Layer</b><br>
                                     <b>B. Top Layer</b><br>
                                     See Fig(1) <br>
                                 </p>
                                 <ul>
-                                    <li><b>(a) the base layer :</b>
+                                    <li><b>(a) the base layer :</b> <br>
+                                <img class="mb-2 w-50 " src="{{url('public')}}/images/blog/suitable-hardwood/10.png" alt="1">
                                         <p>The base layer is consisting of about 7-9 layers of plywood each layer is
                                             banked with the previous one make-grained [ the grains each layer is 90°
                                             related to the previous one] see figure (2) this method gives very high
