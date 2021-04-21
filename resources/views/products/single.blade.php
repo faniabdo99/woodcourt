@@ -12,6 +12,17 @@
             <a href="{{$TheProduct->imagePath}}" data-fancybox="fd">
               <img class="w-100 mb-3" src="{{$TheProduct->ImagePath}}" alt="{{$TheProduct->title}}">
             </a>
+            <div class="event-content">
+              <div class="single-product-images w-100">
+                <ul>
+                  @forelse ($TheProduct->Gallery as $key => $Gallery)
+                  <li><a href="{{$Gallery->ImagePath}}" data-fancybox="gallery"><img src="{{$Gallery->ThumbPath}}" ></a></li>
+                  @empty
+                  
+                  @endforelse
+                </ul>
+              </div>
+            </div>
             <div class="product-controls">
               @if($Previous != null)
                 <a href="{{route('products.single' , $Previous->slug)}}"><i class="fas fa-chevron-left"></i> Previous Product</a>
@@ -21,22 +32,20 @@
               @endif
             </div>
             <div class="event-content">
+              <div class="whatsapp-cta-product mb-5">
+                <p>OTHER COLORS ARE AVAILABLE UPON REQUEST</p>
+              </div>
               {!! $TheProduct->description !!}
-              <div class="single-product-images">
-                <h3>More Images For : {{$TheProduct->title}}</h3>
-                <ul>
-                  @forelse ($TheProduct->Gallery as $key => $Gallery)
-                    <li><a href="{{$Gallery->ImagePath}}" data-fancybox="gallery"><img src="{{$Gallery->ThumbPath}}" ></a></li>
-                  @empty
-
-                  @endforelse
-                </ul>
+              <div class="whatsapp-cta-product">
+                <p>GET A QOUTE ABOUT THIS PRODUCT</p>
+                <a href="https://wa.me/00201115751111?text={{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Contact Us</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    @include('layout.footer')
     @include('layout.scripts')
 </body>
 </html>

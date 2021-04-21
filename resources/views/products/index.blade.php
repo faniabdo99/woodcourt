@@ -52,9 +52,15 @@
                         @endif
                         @forelse ($AllProducts as $key => $Product)
                         <div class="col-lg-3 col-12">
-                            <a class="single-photo" href="{{route('products.single' , $Product->slug)}}">
-                                <img src="{{$Product->ThumbPath}}" />
-                            </a>
+                            <div class="single-product-item">
+                                <a href="{{route('products.single' , $Product->slug)}}">
+                                    <div class="image-container" style="background:url({{$Product->ThumbPath}}) no-repeat center center;"></div>
+                                    <div class="content-container">
+                                        <h2>{{$Product->title}}</h2>
+                                    </div>
+                                    <a class="icon-button d-block w-100 text-center" href="{{route('products.single' , $Product->slug)}}">View Details</a>
+                                </a>
+                            </div>
                         </div>
                         @empty
                         <p>There is no products matches your requirments</p>

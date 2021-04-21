@@ -76,11 +76,21 @@
 .single-photo{
   display: block;
   margin-bottom: 10px;
-  height: 250px;
+  height: 300px;
   width: 250px;
   img{
     height: 250px;
     width: 250px;
+    margin-bottom: 10px;
+  }
+  .single-photo-content{
+    background-color: red;
+    padding: 10px;
+    p{
+      color: $black;
+      text-align: center;
+      font-size: 1.5em;
+    }
   }
 }
 .single-product-item {
@@ -89,20 +99,19 @@
     box-shadow: 0 0 6px rgba(0,0,0,0.3);
     .image-container {
         height: 300px;
-        width: auto;
+        width: 100%;
         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
     }
     .content-container {
         padding: 15px;
         h2 {
             color: $brand;
             font-size: 1.2em;
+            margin-bottom: 0;
         }
-        p {
-            color: $black;
-        }
+    }
+    a.icon-button{
+      border-radius: 0;
     }
 }
 .category-images-list{

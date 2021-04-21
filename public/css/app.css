@@ -1232,7 +1232,7 @@ a:hover {
   background-size: cover;
 }
 .homepage-hero-section #slide-two {
-  background: url("../images/heros/floors-hero.jpg") no-repeat center center;
+  background: url("../images/heros/floors-hero.jpeg") no-repeat center center;
   background-size: cover;
 }
 .homepage-hero-section #slide-three {
@@ -2026,6 +2026,30 @@ time {
   color: #555555;
   line-height: 2em;
 }
+.single-event-article .event-content .whatsapp-cta-product {
+  background-color: #F1F1F1;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.single-event-article .event-content .whatsapp-cta-product p {
+  font-size: 1.5em;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.single-event-article .event-content .whatsapp-cta-product a {
+  background-color: #25D366;
+  padding: 10px 25px;
+  border-radius: 50px;
+  color: #fff;
+  margin-bottom: 0;
+  transition: all ease 0.3s;
+}
+.single-event-article .event-content .whatsapp-cta-product a:hover {
+  background-color: #21a150;
+  transition: all ease 0.3s;
+}
 
 @media screen and (max-width: 768px) {
   .events-list {
@@ -2039,6 +2063,14 @@ time {
   }
   .events-list .single-event .content-container h2 {
     font-size: 1.3em;
+  }
+
+  .whatsapp-cta-product {
+    flex-direction: column;
+    text-align: center;
+  }
+  .whatsapp-cta-product p {
+    margin-bottom: 25px;
   }
 }
 .login-form {
@@ -2135,12 +2167,22 @@ time {
 .single-photo {
   display: block;
   margin-bottom: 10px;
-  height: 250px;
+  height: 300px;
   width: 250px;
 }
 .single-photo img {
   height: 250px;
   width: 250px;
+  margin-bottom: 10px;
+}
+.single-photo .single-photo-content {
+  background-color: red;
+  padding: 10px;
+}
+.single-photo .single-photo-content p {
+  color: #333333;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .single-product-item {
@@ -2150,10 +2192,8 @@ time {
 }
 .single-product-item .image-container {
   height: 300px;
-  width: auto;
+  width: 100%;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 .single-product-item .content-container {
   padding: 15px;
@@ -2161,9 +2201,10 @@ time {
 .single-product-item .content-container h2 {
   color: #0D8287;
   font-size: 1.2em;
+  margin-bottom: 0;
 }
-.single-product-item .content-container p {
-  color: #333333;
+.single-product-item a.icon-button {
+  border-radius: 0;
 }
 
 .category-images-list {
