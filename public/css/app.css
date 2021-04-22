@@ -2027,7 +2027,7 @@ time {
   line-height: 2em;
 }
 .single-event-article .event-content .whatsapp-cta-product {
-  background-color: #F1F1F1;
+  background: #F1F1F1;
   border-radius: 4px;
   padding: 15px;
   display: flex;
@@ -2049,6 +2049,42 @@ time {
 .single-event-article .event-content .whatsapp-cta-product a:hover {
   background-color: #21a150;
   transition: all ease 0.3s;
+}
+.single-event-article .event-content #other-colors-products {
+  background: url("../images/wood-colors-image.jpg") no-repeat center center;
+  background-size: cover;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.single-event-article .event-content #other-colors-products p {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 4px;
+}
+.single-event-article .event-content .share-product-info {
+  margin-bottom: 25px;
+}
+.single-event-article .event-content .share-product-info p {
+  margin-bottom: 5px;
+}
+.single-event-article .event-content .share-product-info #facebook {
+  background-color: #4267B2;
+  border-radius: 4px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 0.9em;
+  margin-right: 15px;
+}
+.single-event-article .event-content .share-product-info #whatsapp {
+  background-color: #25D366;
+  border-radius: 4px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 0.9em;
+  margin-right: 15px;
 }
 
 @media screen and (max-width: 768px) {

@@ -271,38 +271,8 @@ execution',
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="installation-methodology">
                                 <h2>Installing Methodology</h2>
-                                <h3>Installing the wood floors :
-                                </h3>
-                                <h4>1- Nailed Down Installing Technique
-                                </h4>
-                                <img class="mb-2 " src="{{url('public')}}/images/articles/7.png" alt="1">
-                                <p>The most common & traditional way to install wood floors wood tiles or planks are to
-                                    be installed by nailing down on wooden subfloors, the nails are inclined vertical,
-                                    paring from the woodside directly fixing it to the subfloors a drum-noise is heard
-                                    while walking on due to space under the wood floor. <br> </p>
-                                <h4>2- Gluing Down Installing Technique
-                                </h4>
-                                <img class="mb-2 " src="{{url('public')}}/images/articles/5.png" alt="1">
-                                <p>Bonding the wood floors with the subfloors using gluing is a very good and cheap way
-                                    to install your wood floors or d3 water base glue using polyurethane (oil-based) d4
-                                    glue is the best way to ensure lifelong bond, as the glue can dissipate over time
-                                    because at the different expand coefficient between the wood & the
-                                    concrete tiles or ceramic tiles, no drum-noise is heard at all. <br> You will get a
-                                    lifetime guarantee against debonding when purchasing from The Wood Court.
-                                </p>
-                                <h4>3- Floating Installation Technique.
-                                </h4>
-                                <img class="mb-2 " src="{{url('public')}}/images/articles/6.png" alt="1">
-
-                                <p>Installing your floors using this technique makes it very easy to maintain as you can
-                                    replace any damaged piece early, the wood floors are floated over the subfloor,
-                                    then laminate sheet with 2mm thickness is placed between wood & subfloor to isolate
-                                    moisture and decrease sounds when walking on. <br> This technique also makes it very easy
-                                    to uninstall your wood floor and use it again in another place, leaving the subfloor
-                                    without any damage.</p>
                                 <h3>Installation:</h3>
-                                <h5>(A) Sub-floors:
-                                </h5>
+                                <h5>(A) Sub-floors:</h5>
                                 <h4>1- Wooden Subfloor:</h4>
                                 <img class="mb-2 " src="{{url('public')}}/images/articles/8.png" alt="1">
                                 <p>In this type of subfloor, wooden beams made of red pine wood with 5cm square section
@@ -325,6 +295,31 @@ execution',
                                     are installed directly using concrete, for leaving the wood floors are glued down
                                     on it floated on it using polythene sheets to prevent humidity, temperature, sound.
                                 </p>
+                                <h3>Installing the wood floors :</h3>
+                                <h4>1- Nailed Down Installing Technique</h4>
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/7.png" alt="1">
+                                <p>The most common & traditional way to install wood floors wood tiles or planks are to
+                                    be installed by nailing down on wooden subfloors, the nails are inclined vertical,
+                                    paring from the woodside directly fixing it to the subfloors a drum-noise is heard
+                                    while walking on due to space under the wood floor. <br> </p>
+                                <h4>2- Gluing Down Installing Technique
+                                </h4>
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/5.png" alt="1">
+                                <p>Bonding the wood floors with the subfloors using gluing is a very good and cheap way
+                                    to install your wood floors or d3 water base glue using polyurethane (oil-based) d4
+                                    glue is the best way to ensure lifelong bond, as the glue can dissipate over time
+                                    because at the different expand coefficient between the wood & the
+                                    concrete tiles or ceramic tiles, no drum-noise is heard at all. <br> You will get a
+                                    lifetime guarantee against debonding when purchasing from The Wood Court.
+                                </p>
+                                <h4>3- Floating Installation Technique.</h4>
+                                <img class="mb-2 " src="{{url('public')}}/images/articles/6.png" alt="1">
+                                <p>Installing your floors using this technique makes it very easy to maintain as you can
+                                    replace any damaged piece early, the wood floors are floated over the subfloor,
+                                    then laminate sheet with 2mm thickness is placed between wood & subfloor to isolate
+                                    moisture and decrease sounds when walking on. <br> This technique also makes it very easy
+                                    to uninstall your wood floor and use it again in another place, leaving the subfloor
+                                    without any damage.</p>
                             </div>
                             <div class="tab-pane fade" id="finishing-techniques">
                                 <p>When it comes to choosing hardwood floors, & the question is not only solid or
@@ -429,7 +424,6 @@ execution',
                                 </p>
                             </div>
                         </div>
-
                     </div>
                     <div class="tab-pane fade" id="resources">
                         <div class="tab-content">

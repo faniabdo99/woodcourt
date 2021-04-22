@@ -32,13 +32,20 @@
               @endif
             </div>
             <div class="event-content">
-              <div class="whatsapp-cta-product mb-5">
-                <p>OTHER COLORS ARE AVAILABLE UPON REQUEST</p>
+              <div class="whatsapp-cta-product mb-5" id="other-colors-products">
+                <p>OTHER COLORS ARE AVAILABLE UPON REQUEST<br>
+                The Wood Court offers a large variety of colors for each product line.</p>
               </div>
               {!! $TheProduct->description !!}
-              <div class="whatsapp-cta-product">
+ 
+              <div class="whatsapp-cta-product mb-5">
                 <p>GET A QOUTE ABOUT THIS PRODUCT</p>
                 <a href="https://wa.me/00201115751111?text={{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Contact Us</a>
+              </div>
+              <div class="share-product-info">
+                <p>Share <b>{{$TheProduct->title}}</b> with your friends:</p>
+                <a id="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+                <a id="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
               </div>
             </div>
           </div>
