@@ -9,9 +9,9 @@
               @forelse($AllProducts as $Product)
                 <li>
                     <h5>{{$Product->title}}</h5>
-                    <ul>
-                        @forelse($Product->Gallery() as $Image)
-                            <li><a href="{{route('gallerydelete' , $Image->id)}}" target="_blank"><img src="{{$Image->ThumbPath}}"></a></li>
+                    <ul class="d-flex" style="list-style:none;padding:0;margin-bottom:25px;">
+                        @forelse($Product->Gallery as $Image)
+                            <li><a href="{{route('gallerydelete' , $Image->id)}}" target="_blank"><img height="150" width="150" src="{{$Image->ThumbPath}}"></a></li>
                         @empty
                         @endforelse
                     </ul>
