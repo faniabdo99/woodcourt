@@ -190,7 +190,7 @@
     #other-colors-products{
       background: url('../images/wood-colors-image.jpg') no-repeat center center;
       background-size: cover;
-      height: 150px;
+      height: auto;
       align-items: center;
       justify-content: center;
       p{
@@ -200,7 +200,6 @@
         padding: 15px;
         border-radius: 4px;
       }
-      
     }
     .share-product-info{
       margin-bottom: 25px;
@@ -231,19 +230,25 @@
     padding:50px 0;
     .single-event{
         flex-direction: column;
-
         .content-container{
           padding: 15px;
           h2{font-size: 1.3em;}
         }
     }
   }
-  .whatsapp-cta-product{
-    
-    flex-direction: column;
-    text-align: center;
-    p{
-      margin-bottom: 25px;
+  .event-content{
+    .whatsapp-cta-product{
+      flex-direction: column;
+      text-align: center;
+      p{
+        margin-bottom: 25px;
+      }
+    }
+    #other-colors-products{
+      p{
+        font-size: 0.9em;
+      }
     }
   }
+
 }

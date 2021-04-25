@@ -2053,7 +2053,7 @@ time {
 .single-event-article .event-content #other-colors-products {
   background: url("../images/wood-colors-image.jpg") no-repeat center center;
   background-size: cover;
-  height: 150px;
+  height: auto;
   align-items: center;
   justify-content: center;
 }
@@ -2101,12 +2101,15 @@ time {
     font-size: 1.3em;
   }
 
-  .whatsapp-cta-product {
+  .event-content .whatsapp-cta-product {
     flex-direction: column;
     text-align: center;
   }
-  .whatsapp-cta-product p {
+  .event-content .whatsapp-cta-product p {
     margin-bottom: 25px;
+  }
+  .event-content #other-colors-products p {
+    font-size: 0.9em;
   }
 }
 .login-form {
@@ -2221,6 +2224,15 @@ time {
   font-size: 1.5em;
 }
 
+.single-category-item.single-product-item {
+  height: 700px;
+}
+.single-category-item.single-product-item .content-container h2 {
+  color: #0D8287;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
 .single-product-item {
   background-color: #F1F1F1;
   margin-bottom: 15px;
@@ -2239,6 +2251,9 @@ time {
   font-size: 1.2em;
   margin-bottom: 0;
 }
+.single-product-item p.category-description {
+  color: #333333;
+}
 .single-product-item a.icon-button {
   border-radius: 0;
 }
@@ -2246,13 +2261,15 @@ time {
   list-style: none;
 }
 .single-product-item ul li {
-  color: #333;
+  font-size: 0.9em;
+  color: #555555;
+  margin-bottom: 10px;
 }
 .single-product-item ul li a {
-  color: #333;
+  color: #0D8287;
 }
 .single-product-item ul li a:hover {
-  color: #0D8287;
+  text-decoration: underline;
 }
 
 .category-images-list {
@@ -2319,6 +2336,16 @@ time {
   }
   .category-images-list li {
     margin: 3px auto;
+  }
+
+  .sub-category-box {
+    padding: 10px;
+  }
+  .sub-category-box span {
+    font-size: 0.8em;
+  }
+  .sub-category-box h4 {
+    font-size: 1.2em;
   }
 }
 h2 {

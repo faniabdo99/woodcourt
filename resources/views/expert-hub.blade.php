@@ -341,8 +341,8 @@
                                             Custom installation patterns, borders, inlays, medallions features</li>
                                         <li>Refinishing is available.</li>
                                         <li>In addition to square edges, or bucked edges</li> <br>
-                                        <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
-                                        <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
+                                        <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
+                                        <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
                                     </ul>
                                     <p>Traditionally, you choose sile-finishing when time isn't critical new construction
                                         and nobody lives in site (to avoid dust) it takes a long time. (4-6) days to send
@@ -404,8 +404,8 @@
                                     </p>
                                     <h4>Pre-finished floors have beveled edges, not square ones, not like sile-finish which
                                         can have either square edge or beveled ones</h4>
-                                    <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
-                                    <img class="mb-2 " src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
+                                    <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
+                                    <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
 
                                     <h4>Uv-curing Finish: </h4>
                                     <p>It is the process in which the coat changes from liquid state to solid state under

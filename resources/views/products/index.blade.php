@@ -54,12 +54,12 @@
                         @if(request()->route('isFiltered') == null)
                             @forelse($AllCategories as $SingleCategory)
                             <div class="col-lg-4 col-12">
-                                <div class="single-product-item">
+                                <div class="single-product-item single-category-item">
                                     <a href="{{route('products.single' , $SingleCategory->slug)}}">
                                         <div class="image-container" style="background:url({{$SingleCategory->ThumbPath}}) no-repeat center center;"></div>
                                         <div class="content-container">
                                             <h2>{{$SingleCategory->title}}</h2>
-                                            <p>{{$SingleCategory->description}}</p>
+                                            <p class="category-description">{{$SingleCategory->description}}</p>
                                             <p>
                                                 <ul class="p-0">
                                                     @forelse($SingleCategory->SubCategories as $SubCategory)
@@ -81,7 +81,7 @@
                                 $TheCategory = App\Models\Category::where('slug' , request()->route('filter'))->first();
                             @endphp
                             @forelse($TheCategory->SubCategories as $SubCat)
-                            <div class="col-lg-3 col-6">
+                            <div class="col-lg-4 col-6 mb-3">
                                 <div class="sub-category-box">
                                     <a href="{{route('products' , ['category' , $SubCat->slug])}}">
                                         <span>{{$TheCategory->title}}</span>
