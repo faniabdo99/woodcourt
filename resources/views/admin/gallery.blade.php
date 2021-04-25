@@ -5,13 +5,13 @@
       <div class="row">
         <div class="col-12">
           <h1>All Images</h1>
-          <ul>
+          <ul class="w-100">
               @forelse($AllProducts as $Product)
                 <li>
                     <h5>{{$Product->title}}</h5>
                     <ul class="d-flex" style="list-style:none;padding:0;margin-bottom:25px;">
                         @forelse($Product->Gallery as $Image)
-                            <li><a href="{{route('gallerydelete' , $Image->id)}}" target="_blank"><img height="150" width="150" src="{{$Image->ThumbPath}}"></a></li>
+                            <li><a href="{{route('gallerydelete' , $Image->id)}}"><img height="150" width="150" src="{{$Image->ThumbPath}}"></a></li>
                         @empty
                         @endforelse
                     </ul>
