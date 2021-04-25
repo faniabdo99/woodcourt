@@ -46,6 +46,33 @@
                 <a id="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
                 <a id="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
               </div>
+              <div class="similar-products mt-5">
+                <div class="row">
+                  <div class="col-12">
+                    <h3 class="mb-4">Similar Products to {{$TheProduct->title}}</h3>
+                    <div class="owl-carousel owl-theme full-width-carousel-with-nav">
+                      @forelse (array_chunk($TheProduct->SimilarProducts->toArray(), 3)  as $chunk)
+                      <div class="row">
+                        @forelse ($chunk as $SProduct)
+                          <div class="col-lg-4">
+                            @php
+                              $SProduct = App\Models\Product::find($SProduct['item_id']);
+                            @endphp
+                            <img class="w-100 mb-2" src="{{$SProduct->ThumbPath}}" alt="">
+                            <h5>{{$SProduct->title}}</h5>
+                            <a class="icon-button" href="{{route('products.single' , $SProduct->slug)}}">View Details</a>
+                          </div>
+                        @empty
+                            <p>We are working on preparing the list</p>
+                        @endforelse
+                      </div>
+                      @empty
+                        <p>We are working on preparing the list, Please bare with us</p>
+                      @endforelse
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

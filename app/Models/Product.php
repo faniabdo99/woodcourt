@@ -15,6 +15,9 @@ class Product extends Model{
     public function Gallery(){
       return $this->hasMany(ProductGallery::class , 'product_id');
     }
+    public function SimilarProducts(){
+      return $this->hasMany(SimilarProduct::class,'product_id');
+    }
     public function getShortDescriptionAttribute(){
       return Str::limit($this->description , 40);
     }

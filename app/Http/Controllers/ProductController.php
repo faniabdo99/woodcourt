@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\ProductGallery;
 use App\Models\Category;
+use App\Models\SimilarProduct;
 use Validator;
 use DB;
 use Image as ImageLib;
@@ -195,6 +196,35 @@ class ProductController extends Controller{
       'product_id' => $r->product_id,
       'image' => $TheImage
     ]);
+  }
+  //Cross Sell
+  public function getCrossSell($id){
+    $Product = Product::findOrFail($id);
+    $AllProducts = Product::where('id' , '!=' , $id)->latest()->get();
+    return view('admin.product.cross-sell' , compact('Product' , 'AllProducts'));
+  }
+  public function postCrossSell(Request $r, $id){
+    $Rules = [
+      'item_id' => 'required'
+    ];
+    $Validator = Validator::make($r->all() , $Rules);
+    if($Validator->fails()){
+      return back()->withErrors($Validator->errors()->all());
+    }else{
+      if(count($r->item_id) > 0){
+        //Delete Old Records
+        SimilarProduct::where('product_id' , $id)->get()->map(function($item){
+          $item->delete();
+        });
+        foreach($r->item_id as $item){
+          SimilarProduct::create([
+            'product_id' => $id,
+            'item_id' => $item
+          ]);
+        }
+      }
+      return back()->withSuccess('List Created');
+    }
   }
   //Non-Admin Stuff
   public function getUserHome($isFiltered = null , $Filter = null){

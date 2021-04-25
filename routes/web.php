@@ -49,6 +49,8 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
       Route::post('/new' , 'ProductController@postNew')->name('admin.product.postNew');
       Route::get('/edit/{id}' , 'ProductController@getEdit')->name('admin.product.getEdit');
       Route::post('/edit/{id}' , 'ProductController@postEdit')->name('admin.product.postEdit');
+      Route::get('/cross-sell/{id}' , 'ProductController@getCrossSell')->name('admin.product.getCrossSell');
+      Route::post('/cross-sell/{id}' , 'ProductController@postCrossSell')->name('admin.product.postCrossSell');
       Route::get('/delete/{id}' , 'ProductController@delete')->name('admin.product.delete');
     });
     Route::prefix('photos')->group(function(){
