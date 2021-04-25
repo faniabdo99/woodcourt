@@ -37,7 +37,6 @@
                 The Wood Court offers a large variety of colors for each product line.</p>
               </div>
               {!! $TheProduct->description !!}
- 
               <div class="whatsapp-cta-product mb-5">
                 <p>GET A QOUTE ABOUT THIS PRODUCT</p>
                 <a href="https://wa.me/00201115751111?text={{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Contact Us</a>
