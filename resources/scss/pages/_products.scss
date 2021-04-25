@@ -113,6 +113,18 @@
     a.icon-button{
       border-radius: 0;
     }
+    ul{
+      list-style: none;
+      li{
+        color:#333;
+        a{
+          color:#333;
+          &:hover{
+            color: $brand;
+          }
+        }
+      }
+    }
 }
 .category-images-list{
   display: none;
@@ -124,6 +136,19 @@
   }
   &.active{
     display: block;
+  }
+}
+.sub-category-box{
+  padding:15px;
+  border-radius: 4px;
+  background-color: $lightgrey;
+  span{
+    color:$medgrey;
+    font-size: 0.9em;
+  }
+  h4{
+    margin-bottom: 0;
+    color: $brand;
   }
 }
 //Single Product Page
