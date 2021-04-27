@@ -180,6 +180,12 @@ class ProductController extends Controller{
     Product::findOrFail($id)->delete();
     return back()->withSuccess('Product Deleted');
   }
+  public function deleteGalleryImages($id){
+    ProductGallery::where('product_id' , $id)->get()->map(function($item){
+      $item->delete();
+    });
+    return back()->withSuccess('Product Gallery Images Deleted');
+  }
   public function uploadImage(Request $r){
     $img = ImageLib::make($r->image);
     // backup status

@@ -71,7 +71,7 @@ class EventsController extends Controller{
         $EventData['user_id'] = 1;
         $TheEvent->update($EventData);
         //Return Success Message
-        return redirect()->route('admin.allEvents')->withSuccess('Event Updated');
+        return redirect()->route('admin.allEvents')->withSuccess('Event / Article Updated');
       }
     }
     public function delete($id){

@@ -28,13 +28,17 @@
                     <input type="file" name="image" required>
                     <label>Content</label>
                     <textarea id="editor" name="content" rows="4" placeholder="Enter Event Content Here ...">{{old('content') ?? ''}}</textarea>
+                    <br>
+                    <label>Show in Expert Hub?</label>
+                    <select name="is_important">
+                        <option value="1">Yes</option>
+                        <option value="0">No</option>
+                    </select>
                     <button type="submit" class="icon-button mt-3">Submit</button>
                 </form>
             </div>
         </div>
     </div>
     @include('layout.scripts')
-
 </body>
-
 </html>

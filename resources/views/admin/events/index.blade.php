@@ -4,13 +4,14 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-12">
-          <h1>All Events ({{$AllEvents->count()}})</h1>
+          <h1>All Events / Articles ({{$AllEvents->count()}})</h1>
           <p>Control Your Events Data From Here <br>
             <a class="text-success font-weight-bold" href="{{route('admin.getNewEvent')}}">+ Add New</a></p>
           <table id="data-table" class="table table-striped">
             <thead>
               <th>Title</th>
               <th>Slug</th>
+              <th>Type</th>
               <th>Views</th>
               <th>Visitors</th>
               <th>Actions</th>
@@ -20,6 +21,7 @@
                 <tr>
                   <td>{{$Event->title}}</td>
                   <td>{{$Event->slug}}</td>
+                  <td>{{ucwords($Event->type)}}</td>
                   <td>{{views($Event)->count()}}</td>
                   <td>{{views($Event)->unique()->count()}}</td>
                   <td>

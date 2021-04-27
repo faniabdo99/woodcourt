@@ -16,6 +16,12 @@
                     <img class="d-block mb-3 h-auto" src="{{$Event->imageSrc}}" width="300">
                     <label>Content</label>
                     <textarea id="editor" name="content" rows="4" placeholder="Enter Event Content Here ...">{{old('content') ?? $Event->content}}</textarea>
+                    <br>
+                    <label>Show in Expert Hub?</label>
+                    <select name="is_important">
+                        <option @if($Event->is_important == 1) selected @endif value="1">Yes</option>
+                        <option @if($Event->is_important == 0) selected @endif value="0">No</option>
+                    </select>
                     <button type="submit" class="icon-button mt-3">Submit</button>
                 </form>
             </div>

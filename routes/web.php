@@ -52,6 +52,7 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
       Route::get('/cross-sell/{id}' , 'ProductController@getCrossSell')->name('admin.product.getCrossSell');
       Route::post('/cross-sell/{id}' , 'ProductController@postCrossSell')->name('admin.product.postCrossSell');
       Route::get('/delete/{id}' , 'ProductController@delete')->name('admin.product.delete');
+      Route::get('/delete-gallery/{id}' , 'ProductController@deleteGalleryImages')->name('admin.product.deleteGalleryImages');
     });
     Route::prefix('photos')->group(function(){
       Route::get('/' , 'PhotosController@getIndex')->name('admin.photos.all');
