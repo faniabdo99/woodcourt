@@ -686,6 +686,19 @@
 
   }
 }
+.datatables-button{
+  padding: 7px 15px;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  margin-right: 10px;
+  &.excel-export{
+    background-color: #1D6F42;
+  }
+  &.copy-content{
+    background-color: darkorange;
+  }
+}
 //Mobile Version of the components
 @media screen and (max-width: 992px) {
     .hero-section {
@@ -821,17 +834,15 @@
       }
     }
 }
-.datatables-button{
-  padding: 7px 15px;
-  border: none;
-  color: #fff;
-  border-radius: 50px;
-  margin-right: 10px;
-  &.excel-export{
-    background-color: #1D6F42;
+@media screen and (max-width: 1150px) {
+  .hero-section {
+    height: calc(100vh - 100px);
+    .dark-overlap {
+        h2,h1 {
+            font-size: 4em;
+        }
+    }
   }
-  &.copy-content{
-    background-color: darkorange;
-  }
-
+  
 }
+

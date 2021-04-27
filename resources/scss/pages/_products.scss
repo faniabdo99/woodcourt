@@ -166,6 +166,20 @@
     color: $brand;
   }
 }
+.products-breadcrumbs{
+  background-color: $lightgrey;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  ul{
+    padding: 0;
+    margin-bottom: 0;
+    li{
+      display: inline;
+      font-size: 0.9em;
+    }
+  }
+}
 //Single Product Page
 .single-product-images{
     padding: 40px 0;

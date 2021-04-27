@@ -5,6 +5,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
+            <div class="products-breadcrumbs">
+              <ul>
+                <li><a href="{{route('products' , ['category' , $TheProduct->Category->slug])}}">{{$TheProduct->Category->title}}</a> ></li>
+                <li><a href="{{route('products' , ['category' , $TheProduct->SubCategory->slug])}}">{{$TheProduct->SubCategory->title}}</a> ></li>
+                <li>{{$TheProduct->title}}</li>
+              </ul>
+            </div>
             <h1 class="mb-2">{{$TheProduct->title}}</h1>
             <span class="metabox d-block mb-3">
               <i class="fas fa-calendar"></i> {{$TheProduct->created_at->format('d, M Y')}}

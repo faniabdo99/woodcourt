@@ -10,6 +10,9 @@ class Product extends Model{
     protected $guarded = [];
     use HasFactory;
     public function Category(){
+      return $this->belongsTo(Category::class , 'main_category_id');
+    }
+    public function SubCategory(){
       return $this->belongsTo(Category::class , 'category_id');
     }
     public function Gallery(){
