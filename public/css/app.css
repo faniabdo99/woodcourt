@@ -305,6 +305,10 @@ a:hover {
     width: 100%;
   }
 }
+.instore-payment-method {
+  font-size: 13px;
+}
+
 /* ============ COMPONENTS ============ */
 .bg-brand {
   background-color: #0D8287;
@@ -1147,6 +1151,17 @@ a:hover {
   }
 }
 /* ============ PAGES ============ */
+* .brand {
+  color: #0D8287;
+}
+* iframe {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
 .homepage-hero-section .homepage-herosection-bg-image {
   height: 100vh;
 }
@@ -2544,6 +2559,16 @@ hr {
 }
 #expert-hub-sidebar .filter-items ul.toturials-sublist {
   display: block;
+}
+
+.in-store-payment {
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0D8287;
+  border-radius: 4px;
+  flex-direction: column;
+  margin-bottom: 32px;
 }
 
 #wood-flooring-hero {
