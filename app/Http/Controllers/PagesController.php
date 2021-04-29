@@ -21,6 +21,12 @@ class PagesController extends Controller{
     public function getProductsPage(){
         return view('products');
     }
+    public function getPaymentMethodsPage(){
+        return view('payment-methods');
+    }
+    public function getPolicyPage(){
+        return view('policy');
+    }
     public function getExpertHub(){
         $AllArticles = Event::where('type' , 'article')->where('is_important' , 1)->limit(5)->get();
         return view('expert-hub',compact('AllArticles'));

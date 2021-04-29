@@ -1,4 +1,16 @@
 //Mansy Code Starts Here
+*{
+  .brand{
+    color: $brand;
+  }
+  iframe{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+}
 .homepage-hero-section{
   .homepage-herosection-bg-image{height: 100vh;}
   .logo-img{
