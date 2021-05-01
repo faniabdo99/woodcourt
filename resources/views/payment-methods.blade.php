@@ -6,20 +6,20 @@
 
 <body>
     @include('layout.navbar')
-    
+
     <section>
         <div class="container">
             <h1 class="brand text-center">Pament Methods</h1>
-            <div class="row in-store-payment">
-                <div class="col">
+            <div class="row flex-column">
+                <div class="col in-store-payment">
                     <h3 class="text-center">In-Store Payment Methods</h3>
                     <div class="d-flex ">
-                        <div class="d-flex align-items-center">
-                            <img  class="w-50" src="{{url('public/images')}}/payment-images/qnb-2.png" alt="">
+                        <div class="d-flex flex-column align-items-center">
+                            <img  class="w-50" src="{{url('public/images')}}/payment-images/qnb1.svg" alt="">
                             <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
                         </div>
-                        <div class="d-flex align-items-center">
-                            <img  class="w-50 mt-3 mr-2" src="{{url('public/images')}}/payment-images/visa_2.png" alt="">
+                        <div class="d-flex flex-column align-items-center">
+                            <img  class=" mr-2" src="{{url('public/images')}}/payment-images/visa-electron.svg" alt="">
                             <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
                         </div>
 
@@ -27,8 +27,20 @@
                     </div>
 
                 </div>
-                <div class="col">
-                    <h3>Installment Payment Options</h3>
+                <div class="col in-store-payment">
+                    <h3 class="text-center">Installment Payment Options</h3>
+                    <div class="d-flex ">
+                        <div class="d-flex flex-column align-items-center mt-5">
+                            <img  class="mb-3" src="{{url('public/images')}}/payment-images/belcash.svg" alt="">
+                            <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center mt-5">
+                            <img  class="mb-3" src="{{url('public/images')}}/payment-images/belcash.svg" alt="">
+                            <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
 

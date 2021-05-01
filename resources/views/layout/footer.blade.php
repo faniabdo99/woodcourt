@@ -31,13 +31,13 @@
               </div>
               <div class="bg-white p-2 ">
                 <p class=" text-dark font-weight-bold">In-Store Payment</p>
-               
-                  <img class="w-50" src="{{url('public/images')}}/payment-images/qnb-logo_2.png" alt="">
+
+                  <img class="w-25" src="{{url('public/images')}}/payment-images/qnb-logo_2.png" alt="">
                   {{-- <img src="{{url('public/images')}}/payment-images/001-credit-card.png" alt="">
                   <img src="{{url('public/images')}}/payment-images/check (2).png" alt=""> --}}
-                  <p class="text-dark instore-payment-method mb-0 mt-3">We Accept Credit Cards, Checks And Bank Transfer</p>
+                  <p class="text-dark instore-payment-method mb-0">We Accept Credit Cards, Checks And Bank Transfer</p>
               </div>
-             
+
             </div>
 
           </div>
