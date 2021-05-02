@@ -4,6 +4,10 @@ body {
   font-size: 15px;
 }
 
+.brand {
+  color: #0D8287;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -2559,18 +2563,6 @@ hr {
 }
 #expert-hub-sidebar .filter-items ul.toturials-sublist {
   display: block;
-}
-
-.in-store-payment {
-  padding: 24px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  margin-bottom: 32px;
-}
-
-img {
-  width: 200px;
 }
 
 #wood-flooring-hero {

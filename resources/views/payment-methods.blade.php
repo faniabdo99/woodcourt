@@ -8,42 +8,14 @@
     @include('layout.navbar')
 
     <section>
-        <div class="container">
-            <h1 class="brand text-center">Pament Methods</h1>
-            <div class="row flex-column">
-                <div class="col in-store-payment">
-                    <h3 class="text-center">In-Store Payment Methods</h3>
-                    <div class="d-flex ">
-                        <div class="d-flex flex-column align-items-center">
-                            <img  class="w-50" src="{{url('public/images')}}/payment-images/qnb1.svg" alt="">
-                            <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
-                        </div>
-                        <div class="d-flex flex-column align-items-center">
-                            <img  class=" mr-2" src="{{url('public/images')}}/payment-images/visa-electron.svg" alt="">
-                            <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
-                        </div>
-
-
-                    </div>
-
-                </div>
-                <div class="col in-store-payment">
-                    <h3 class="text-center">Installment Payment Options</h3>
-                    <div class="d-flex ">
-                        <div class="d-flex flex-column align-items-center mt-5">
-                            <img  class="mb-3" src="{{url('public/images')}}/payment-images/belcash.svg" alt="">
-                            <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
-                        </div>
-                        <div class="d-flex flex-column align-items-center mt-5">
-                            <img  class="mb-3" src="{{url('public/images')}}/payment-images/belcash.svg" alt="">
-                            <p>With QNB’s e-Commerce Payment Gateway, accepting online card payments is safe.</p>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
+        <div class="container mt-3 mb-5">
+            <h1 class="brand text-center mt-5 mb-4">Pament Methods</h1>
+            <h3>What Payment Methods Can I Use?</h3>
+            <p>You can pay in a variety of ways, cash on delivery (belcash ), wire transfer (credit card , QNB Bank) </p>
+            <h3> QNB Bank Payment , Credit Card Payments and Checks</h3>
+            <p>You can pay with qnb bank, credit card or check.</p>
+            <h3>Cash on Delivery:</h3>
+            <p>We also have Cash on Delivery within Egypt By <b>Baelcash and Valu</b> .</p>
         </div>
 
     </section>

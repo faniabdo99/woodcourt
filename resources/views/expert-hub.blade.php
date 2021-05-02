@@ -1503,6 +1503,7 @@
                                             <span class="metabox d-block mb-3">
                                                 <i class="fas fa-calendar"></i> {{$Article->created_at->format('d, M Y')}}
                                             </span>
+                                            <img src="{{$Article->image}}" alt="">
                                             <p>{{$Article->description}}</p>
                                             <a class="icon-button" href="{{route('blog.single',$Article->slug)}}"><i class="fas fa-plus"></i> View More</a>
                                         </div>
@@ -1575,6 +1576,6 @@
                             }, 1000);
                         }
                      </script>
-        
+
     </body>
 </html>
