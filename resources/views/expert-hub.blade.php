@@ -107,12 +107,6 @@
                             </li>
                             <li>
                                 <a class="nav-item nav-link main-category-filter" data-toggle="tab" href="#blogs">Blog</a>
-                                {{-- <ul class="nav nav-tabs ml-5">
-                                    <li><a class="nav-item nav-link sub-category-filter active" data-toggle="tab" href="#latest-trends">Latest Trends In Wood Flooring</a></li>
-                                    <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#choose-suitable">How To Choose A Suitable HardWood Floor</a></li>
-                                    <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#teak-maintenance">Teak Deck Maintenance</a></li>
-                                    <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#hpl-boards">What Is The HPL Boards</a></li>
-                                </ul> --}}
                             </li>
                         </ul>
                     </div>
@@ -1498,12 +1492,14 @@
                                 <section class="events-list">
                                     @forelse ($AllArticles as $Article)
                                     <div class="single-event mb-4">
+                                        <div class="image-container">
+                                          <img src="{{$Article->imageSrc}}" alt="{{$Article->title}}">
+                                        </div>
                                         <div class="content-container">
                                             <h2>{{$Article->title}}</h2>
                                             <span class="metabox d-block mb-3">
                                                 <i class="fas fa-calendar"></i> {{$Article->created_at->format('d, M Y')}}
                                             </span>
-                                            <img src="{{$Article->image}}" alt="">
                                             <p>{{$Article->description}}</p>
                                             <a class="icon-button" href="{{route('blog.single',$Article->slug)}}"><i class="fas fa-plus"></i> View More</a>
                                         </div>

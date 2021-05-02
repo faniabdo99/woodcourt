@@ -1967,7 +1967,6 @@ time {
   padding: 100px 0;
 }
 .events-list .single-event {
-  display: flex;
   flex-basis: 0;
 }
 .events-list .single-event .image-container {
