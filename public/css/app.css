@@ -208,6 +208,20 @@ a:hover {
 .footer .footer-links ul li a {
   color: #fff;
 }
+.footer .footer-map .footer-payment-methods {
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 4px;
+  padding: 15px;
+}
+.footer .footer-map .footer-payment-methods img {
+  margin-right: 15px;
+  height: auto;
+  width: 60px;
+}
+.footer .footer-map .footer-payment-methods p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
 
 #back-to-top {
   height: 60px;

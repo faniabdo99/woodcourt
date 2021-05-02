@@ -8,7 +8,7 @@ Route::post('contact-limited-edition' , 'ContactController@postLimitedEdition')-
 Route::post('contact-get-quote' , 'ContactController@postQuote')->name('contactGetQuote');
 Route::post('upload-product' , 'ProductController@postNew')->name('postNewProduct');
 Route::get('payment-methods' , 'PagesController@getPaymentMethodsPage')->name('paymentMethods');
-Route::get('policy' , 'PagesController@getPolicyPage')->name('policy');
+Route::get('privacy-policy' , 'PagesController@getPolicyPage')->name('policy');
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');
