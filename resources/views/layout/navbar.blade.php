@@ -10,7 +10,7 @@
                 <li><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> 81 El-Hussein St, Dokki, Giza</a></li>
                 <li><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a> | <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a></li>
                 <li><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
-                <li><i class="fas fa-clock"></i> <a>SAT-THU 10:00 - 22:00</a></li>
+                <li><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">SAT-THU 10:00 - 23:00</a></li>
             </ul>
         </div>
     </div>

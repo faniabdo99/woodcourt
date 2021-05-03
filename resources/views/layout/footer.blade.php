@@ -22,11 +22,13 @@
                     <li><a href="{{route('home')}}"><i class="fas fa-home"></i> Home</a></li>
                     <li><a href="{{route('about')}}"><i class="fas fa-question-circle"></i> About Us</a></li>
                     <li><a href="{{route('events')}}"><i class="fas fa-calendar"></i> Events</a></li>
+                    <li><a href="{{route('paymentMethods')}}"><i class="fas fa-credit-card"></i> Payment Methods</a></li>
                 </ul>
                 <ul>
                     <li><a href="{{route('products')}}"><i class="fas fa-box"></i> Products</a></li>
                     <li><a href="{{route('contact')}}"><i class="fas fa-envelope"></i> Contact</a></li>
                     <li><a href="{{route('expert-hub')}}"><i class="fas fa-check"></i> Blog</a></li>
+                    <li><a href="{{route('privacy')}}"><i class="fas fa-lock"></i> Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="col-lg-5 col-12 footer-map d-flex flex-column">
