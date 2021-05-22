@@ -55,7 +55,7 @@
                             @forelse($AllCategories as $SingleCategory)
                             <div class="col-lg-4 col-12">
                                 <div class="single-product-item single-category-item">
-                                    <a href="{{route('products.single' , $SingleCategory->slug)}}">
+                                    <a href="{{route('products' , ['category' , $SingleCategory->slug])}}">
                                         <div class="image-container" style="background:url({{$SingleCategory->ThumbPath}}) no-repeat center center;"></div>
                                         <div class="content-container">
                                             <h2>{{$SingleCategory->title}}</h2>
