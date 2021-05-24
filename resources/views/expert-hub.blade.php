@@ -1,7 +1,6 @@
 @include('layout.header', [
     'PageTitle' => 'Expert Hub',
-    'Description' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design
-    execution',
+    'Description' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution',
     'ogType' => 'Website'
 ])
 <body>
@@ -117,7 +116,7 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="floor-care">
                                     <h2>How To Take Care Of Your Indoor Flooring?</h2>
-                                    <img class="w-100 h-50 my-3" src="{{url('public/images/wood-care/1.jpg')}}" alt="wood-care">
+                                    <img class="w-100 h-50 my-3" src="https://thewoodcourt.com/public/images/wood-care/1.jpg" alt="wood-care">
                                     <p>In home and office interior designs, the value of wood cannot be denied its timeless
                                         visual appeal and natural beauty. <br> If you take proper care of wood floorings,
                                         cabinets, installments, and claddings, you can expect them to survive for decades. <br>
@@ -177,7 +176,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="kitchen-care">
                                     <h2>How to Take Care of Your Kitchen Counters and Cabinets?</h2>
-                                    <img class="w-100 h-50 my-3" src="{{url('public/images/wood-care/2.jpg')}}" alt="kitchens">
+                                    <img class="w-100 h-50 my-3" src="https://thewoodcourt.com/public/images/wood-care/2.jpg" alt="kitchens">
                                     <ul>
                                         <li>Clean all food spills from wood surfaces immediately & thoroughly, most foods
                                             can damage wood finishes eventually.</li>
@@ -208,7 +207,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="outdoor-care">
                                     <h2>How to Take Care of Wooden Pergolas & Outdoor Flooring?</h2>
-                                    <img class="w-100 h-50 my-3" src="{{url('public/images/wood-care/3.jpg')}}" alt="outdoor">
+                                    <img class="w-100 h-50 my-3" src="https://thewoodcourt.com/public/images/wood-care/3.jpg" alt="outdoor">
                                     <p class="mt-3">Wood is a beautiful option for your garden flooring, under the pergola,
                                         and outdoor area of your restaurant or cafe, also the wooden pergola itself gives
                                         your home privacy & make you have a great time outdoors, the wood grains and variety
@@ -263,157 +262,155 @@
                         <div class="tab-pane fade" id="toturial">
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="installation-methodology">
-                                    <h2>Installing Methodology</h2>
-                                    <h3>Installation:</h3>
-                                    <h5>(A) Sub-floors:</h5>
-                                    <h4>1- Wooden Subfloor:</h4>
-                                    <img class="mb-2 " src="{{url('public')}}/images/articles/8.png" alt="1">
+                                    <h2>Installation Methodology</h2>
+                                    <h3>(A) Sub-floors:</h3>
+                                    <h4>1-Wooden Subfloor:</h4>
+                                    <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/8.png" alt="1">
                                     <p>In this type of subfloor, wooden beams made of red pine wood with 5cm square section
-                                        or 5cm by 4cm rectangular section are installed with 25 to 35 pieces of concrete to
-                                        leave the floor, fixed with metal fixtures and concrete to be bent with the floor. <br>
-                                        Than 1.6cm by 10cm section of some wood type are installed with about 2-10 cm spaces
+                                        or 5cm by 4cm rectangular section are installed with 25 to 35 spaces of concrete to
+                                        level the floor, fixed with metal fixtures and concrete to be bonded with the floor.<br>
+                                        Then, 1.6cm by 10cm section of same wood type are installed with about 2-10 cm spaces
                                         in opposite direction to be a top subfloor laid in which wood floor fixation takes
                                         place. <br>
-                                        This is the traditional subflooring used more than 100 years ago, always used up
-                                        till now in nail down installation technique.
+                                        This is the traditional subflooring, used more than 100 years ago, always used up
+                                        till now in nailed down installation technique.
                                     </p>
-                                    <h4>2- Wood On Tiles Sub Floor:</h4>
-                                    <img class="mb-2 " src="{{url('public')}}/images/articles/9.png" alt="1">
+                                    <h4>2-Wood On Tiles Sub Floor:</h4>
+                                    <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/9.png" alt="1">
                                     <p>In this type, we use concrete tiles, mosaic tiles, low quality ceramic tiles instead
-                                        of wood for the installation process. Tiles are installed regularly and flush on
-                                        concrete, are fixed on it. <br> This method also is used for nailed down installation
+                                        of wood for the leveling process, Tiles are installed regularly and flush on
+                                        concrete, wood slabes of 1.6cm by 10cm or sheets of 10mm plywood are fixed on it, This method also is used for nailed down installation
                                         technique</p>
-                                    <h4>3- Concrete-based Tiles Subfloor: </h4>
+                                    <h4>3-Concrete-based Tiles Subfloor: </h4>
                                     <p>Used always for glue down & floating installation technique, mosaic or ceramic tiles
-                                        are installed directly using concrete, for leaving the wood floors are glued down
-                                        on it floated on it using polythene sheets to prevent humidity, temperature, sound.
+                                        are installed directly using concrete, for leveling then wood floors are glued down
+                                        on it, or floated on it using polyethylene sheets to prove humidity, temperature, and sound.
                                     </p>
-                                    <h3>Installing the wood floors :</h3>
-                                    <h4>1- Nailed Down Installing Technique</h4>
-                                    <img class="mb-2 " src="{{url('public')}}/images/articles/7.png" alt="1">
-                                    <p>The most common & traditional way to install wood floors wood tiles or planks are to
-                                        be installed by nailing down on wooden subfloors, the nails are inclined vertical,
-                                        paring from the woodside directly fixing it to the subfloors a drum-noise is heard
-                                        while walking on due to space under the wood floor. <br> </p>
-                                    <h4>2- Gluing Down Installing Technique
-                                    </h4>
-                                    <img class="mb-2 " src="{{url('public')}}/images/articles/5.png" alt="1">
-                                    <p>Bonding the wood floors with the subfloors using gluing is a very good and cheap way
-                                        to install your wood floors or d3 water base glue using polyurethane (oil-based) d4
-                                        glue is the best way to ensure lifelong bond, as the glue can dissipate over time
-                                        because at the different expand coefficient between the wood & the
-                                        concrete tiles or ceramic tiles, no drum-noise is heard at all. <br> You will get a
+                                    <h3>(B) Installing the Wood Floors:</h3>
+                                    <h4>1-Nalied Down Installing Technique</h4>
+                                    <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/7.png" alt="1">
+                                    <p>The most common & traditional way to install wood floors, wood tiles or planks are to
+                                        be installed by nailing them down on wooden subfloors, the nails are inclined 45 degree not vertical,
+                                        passing from the woodside directly fixing it to the subfloors a drum-noise is heard
+                                        while walking on due to space empty spaces under the wood floor. <br> </p>
+                                    <h4>2-Gluing Down Installing Technique</h4>
+                                    <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/5.png" alt="1">
+                                    <p>Bonding the wood floors with the subfloors using glue-down technique is a very good and cheap way
+                                        to install your wood floors. <br>
+                                        using polyurethane (oil-based) D4
+                                        glue or D3 water-based glue is the best way to ensure lifelong bond, as the glue can dissipate
+                                        shear stress resulted on it because of the different expansion coefficient between the wood & the
+                                        concrete tiles or ceramic tiles.<br>
+                                        no drum-noise is heard at all, You will get a
                                         lifetime guarantee against debonding when purchasing from The Wood Court.
                                     </p>
-                                    <h4>3- Floating Installation Technique.</h4>
-                                    <img class="mb-2 " src="{{url('public')}}/images/articles/6.png" alt="1">
+                                    <h4>3-Floating Installation Technique.</h4>
+                                    <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/6.png" alt="1">
                                     <p>Installing your floors using this technique makes it very easy to maintain as you can
-                                        replace any damaged piece early, the wood floors are floated over the subfloor,
-                                        then laminate sheet with 2mm thickness is placed between wood & subfloor to isolate
-                                        moisture and decrease sounds when walking on. <br> This technique also makes it very easy
+                                        replace any damaged piece easily, the wood floors are floated over the subfloor,
+                                        polyethylene sheet with 2mm thickness is placed between wood & subfloor to isolate
+                                        moisture and decrease sounds when walking on., This technique also makes it very easy
                                         to uninstall your wood floor and use it again in another place, leaving the subfloor
                                         without any damage.</p>
                                 </div>
                                 <div class="tab-pane fade" id="finishing-techniques">
-                                    <p>When it comes to choosing hardwood floors, & the question is not only solid or
+                                    <p>When it comes to choosing hardwood floors, the question is not only solid or
                                         engineered wood flooring but also, site-finish or pre-finished floors? Which one is
-                                        better? And why? Well, each type has its benefits</p>
-                                    <h2>1.Site Finish:</h2>
-                                    <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/Pict 6.png" alt="1">
+                                        better? And why? Well, each type has its benefits.</p>
+                                    <h2>1-Site Finish:</h2>
+                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/Pict 6.png" alt="1">
                                     <p>When you go for the site-finish wood floors, then you are purchasing wood floors
                                         which will be shipped to your home unfinished, to be sanded, possibly stained, and
                                         then sealed and finished with a top protective layer in your home. <br> This process
-                                        takes a bit of a long time, produces dust during sanding, and bad smell during coating.
-                                        In this type
+                                        takes a bit long time, produces dust during sanding, and bad smell during coating.
                                     </p>
+                                    <b>In this type:</b>
                                     <ul>
-                                        <li>You can choose & either water, oil-based polyurethane, or natural oil finish
-                                        </li>
-                                        <li>Sheen level matte, semi-gloss, high gloss
-                                        </li>
-                                        <li>
-                                            Custom installation patterns, borders, inlays, medallions features</li>
-                                        <li>Refinishing is available.</li>
-                                        <li>In addition to square edges, or bucked edges</li> <br>
-                                        <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
-                                        <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
+                                        <li>You can choose & either water, oil-based polyurethane, or natural oil finish</li>
+                                        <li>Sheen level (matte, setin, glossy)</li>
+                                        <li>Custom installation patterns, borders, inlays, medallions</li>
+                                        <li>Future Refinishing is available.</li>
                                     </ul>
-                                    <p>Traditionally, you choose sile-finishing when time isn't critical new construction
-                                        and nobody lives in site (to avoid dust) it takes a long time. (4-6) days to send
+                                    <p>In addition to square edges, or beveled edges</p>
+                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.1.png" alt="1">
+                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.2.png" alt="1">
+                                    <p>Traditionally, you choose site-finishing when time isn't critical, new construction
+                                        and nobody lives in site (to avoid dust) it takes a long time, (4-6) days to send
                                         and clean wood floors, ensure the site is clean, the environment is stable within
-                                        site, applying stain and top coating ( about 3-4 ) coats, and wait for each
+                                        site, applying stain, sealing and top coating (about 3-4 coats), and wait for each
                                         application to dry <br>
                                         <br>
                                         Remember, no one can go through the site during the whole process, the smell of
-                                        finishing is not pleasant at all. <br> <br>
-                                        Available finishes with site finishing
+                                        finishing is not pleasant at all. <br><br>
                                     </p>
+                                    <b>Available finishes with site finishing:</b>
                                     <ol>
                                         <li> Oil-based Polyurethane:</li>
-                                        <p> -Offensive odor <br>
-                                            -Not expressive [ moderately expensive ]<br>
-                                            -Multiple coats are needed to an active good finish <br>
-                                            -Needs 3-5 days to walk on other application
-                                        </p>
-                                        <li>2- Water-based Polyurethane:</li>
+                                            <p> -Offensive odor <br>
+                                                -Not expensive (moderately expensive)<br>
+                                                -Multiple coats are needed to achieve good finish <br>
+                                                -Needs 3-5 days to walk on after application
+                                            </p>
+                                        <li>Water-based Polyurethane:</li>
                                         <p>Less odor<br>
-                                            Very expensive <br>
-                                            Either to repair<br>
-                                            Walk on other 24 hours <br>
-                                            The finish stays consistent over time<br>
-                                            Healthy and environment friendly
+                                            -More expensive <br>
+                                            -More durable <br>
+                                            -Dry faster (8-12 hours) <br>
+                                        </p>
+                                        <li>Natural-Oil finish</li>
+                                            -Odor less<br>
+                                            -Very expensive<br>
+                                            -Easier to repair<br>
+                                            -Walk on after 24 hours <br>
+                                            -The finish stays consistent over time<br>
+                                            -Healthy and environment friendly
                                         </p>
                                     </ol>
-                                    <p>When you get site-finished floors you get seamless too, however, with weather
-                                        savings, graying from high temp, humidity, to low & vice versa, this option fade
+                                    <p>When you get site-finished floors you get seamless look, however, with weather
+                                        swings, gaping from high temperature, humidity, to low & vice versa, this option fade
                                         away, as wood is a living product, it expands and contracts to lead to visible
                                         joints</p>
                                     <h2>2.Pre-finished:</h2>
-                                    <p>In the last 25 years, prefinished floors started to grow, as hardwood floors'
+                                    <p>In the last 25 years, prefinished floors started to grow, as hardwood floors
                                         manufacturing become more technical in this case, the floor finishing is part of the
                                         manufacturer's job, & the product shipped to your home finished and ready to be
-                                        installed...
-
+                                        installed.
                                     </p>
                                     <ul>
-                                        <li>The surface is more durable and anti-scratch due to aluminum oxide and diamond
-                                            finish
-                                        </li>
-                                        <li>Installation is faster & easier dusting. <br> You can walk in and put furniture
-                                            immediately.</li>
+                                        <li>The surface is more durable and anti-scratch due to aluminum oxide and diamond finish</li>
+                                        <li>Installation is faster & easier dustless.</li>
+                                        <li>You can walk on and put furniture immediately after installation.</li>
                                     </ul>
                                     <h4>Durability :</h4>
-                                    <p>When the floor manufacturer finished the floor, they use special finished lines,
-                                        which create a perfect environment to apply powerful chemical scaler such as
-                                        sumerian & tilenum oxides embedded in a uv-cured urethane coat. <br> The perfect result
-                                        is harder than anything applied on-site, the finish lasts longer & carries a better
-                                        warranty for the homeowner <br>
+                                    <p>When the floor manufacturer finished the floor, he use special finishing lines,
+                                        which create a perfect environment to apply powerful chemical sealer such as
+                                        aluminum & titenum oxides embedded in a uv-cured urethane coat.<br> 
+                                        The result is harder than anything applied on-site, the finish lasts longer & carries a better
+                                        warranty for the homeowner<br>
                                         <b>Easier installation:</b>
-                                        Requires no sanding, no staining, no sealing no top coat as all are pre-done in our
+                                        Requires no sanding, no staining, no sealing, no top coating, all are pre-done in our
                                         factory you just need your floors to be installed then you can walk on immediately! <br>
-                                        <b>easier maintenance:</b>
+                                        <b>Easier maintenance:</b>
                                         Due to durable finish, you will not need to refinish your floor for a long time,
                                         however, you can easily replace damaged pieces, or refinish with sanding & coating
-                                        as if you have installed site finish floors.
+                                        as if you have installed site finished floors.
+                                        <br>
+                                        Pre-finished floors have beveled edges, not square ones, not like site-finish which
+                                        can have either square edge or beveled ones
                                     </p>
-                                    <h4>Pre-finished floors have beveled edges, not square ones, not like sile-finish which
-                                        can have either square edge or beveled ones</h4>
-                                    <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.1.png" alt="1">
-                                    <img class="mb-2 w-50" src="{{url('public')}}/images/articles/finishing/8.2.png" alt="1">
-
+                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.1.png" alt="1">
+                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.2.png" alt="1">
+                                    <br>
                                     <h4>Uv-curing Finish: </h4>
                                     <p>It is the process in which the coat changes from liquid state to solid state under
-                                        ultraviolet rays instantly in a sealed<br><br>
-                                        <b>Finishing live, no no dust will stick to planks, so it results with smooth
+                                        ultraviolet rays instantly in a sealed finishing line, no no dust will stick to planks, so it results with a smooth
                                             surface unlike site finish which it is very hard to prevent very fine dust from
-                                            sticking to floors daring the long curing time and gran environment</b><br><br>
-                                        Sub. Floors preparation: <br>
+                                            sticking to floors daring the long curing time and open environment<br><br>
+                                        <h4>Sub. Floors preparation:</h4>
                                         For site- finish, irregularity of subfloor is not a big problem as sending process
-                                        is enough to regulate the surface<br><br>
+                                        is enough to regulate the surface<br>
                                         In the care of prefinished floors, you need to ensure a perfectly flat subfloor
-                                        scene
-                                        <br>
-                                        You haven't the option of site-sandy
+                                        surface since you haven't the option of site-sanding
                                     </p>
                                 </div>
                             </div>
@@ -422,90 +419,79 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="engineered-floors">
                                     <h2>Engineered Hardwood Flooring</h2>
-                                    <p>The word (engineered) before hardwoods is to indicate that the floor planks are made
-                                        of multilayer <br><br>
-                                        <img class="mb-2 w-50 " src="{{url('public')}}/images/blog/suitable-hardwood/11.png" alt="1"> <br>
-                                        <b>A. Base Layer</b><br>
-                                        <b>B. Top Layer</b><br>
-                                        See Fig(1) <br>
+                                    <p>The word (engineered) before hardwoods is to indicate that the floor planks are made of multilayers<br><br>
+                                        <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/blog/suitable-hardwood/11.png" alt="1"> <br>
+                                        A. Base Layer<br>
+                                        B. Top Layer<br>
                                     </p>
-                                    <ul>
-                                        <li><b>(a) the base layer :</b> <br>
-                                    <img class="mb-2 w-50 " src="{{url('public')}}/images/blog/suitable-hardwood/10.png" alt="1">
-                                            <p>The base layer is consisting of about 7-9 layers of plywood each layer is
-                                                banked with the previous one make-grained [ the grains each layer is 90°
-                                                related to the previous one] see figure (2) this method gives very high
-                                                dimensional stability and makes the planks also to be installed over any
-                                                loved subfloor.</p>
+                                    <ul class="p-0">
+                                        <li><b>A. The Base Layer :</b><br><br>
+                                            <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/blog/suitable-hardwood/10.png" alt="1">
+                                            <p>The base layer is consisting of about 7-9 layers of plywood each layer is bonded with the previous one anty-grained [the grains each layer is 90° rotate to the previous one]
+                                                <br>
+                                                this method gives very high dimensional stability and makes the planks also to be installed over any leveled subfloors.
+                                            </p>
                                         </li>
-                                        <li><b>(b) the top layer</b>
-                                            <p>The top layer is the expression wood type, it is bonded to the base layer
-                                                under high pressure (about 5 kg/cm) and 70°c temperature, this layer is also
-                                                to be stranded coated several times [up to more than 6 times ] according to
-                                                its thickener 4,6, or 9 mm.</p>
+                                        <li><b>B. The Top Layer:</b><br><br>
+                                            <p>The top layer is the expensive wood type, it is bonded to the base layer
+                                                under high pressure (about 5 kg/cm) and 70°c temperature, this layer is able to be sanded and re-coated
+                                                several times [up to more than 6 times] according to its thickness 4,6 or 9 mm.</p>
                                         </li>
                                     </ul>
-                                    <p>Now we can say engineered wood flooring has more dimensional stability than
-                                        deformation in share when exposed to high/low temperature or humidity. <br> Be aware of
-                                        the (integrated) bottom layer. </p>
+                                    <p>Now we can say engineered wood flooring has more dimensional stability, less
+                                        deformation in shape when exposed to high/low temperature or humidity because of
+                                        the anti-grained bottom layer. </p>
                                     <h4>Time To Talk About The Finish?</h4>
-                                    <p>You can ask for a refinished engineered flooring in which coating is manufactured in
+                                    <p>You can ask for prefinished engineered flooring in which coating is manufacturer in
                                         the factory, not by the installer on site
                                         <br><br>
-                                        This operation is done using very high coating technology [uv] technology, as they
-                                        protect are coated with polymers which change from liquid slate to violet rays were
-                                        the leaders & make it anti-scratch, more durable, and smoother as the whole
-                                        operation is done inside a(uv) coating exposed to there is no dust sticky to the
-                                        surface and decrease smoother.
+                                        This operation is done using very high coating technology [uv] technology, as the
+                                        protect are coated with polymers which changes from liquid state to solid state under ultra violet rays,
+                                        this finish is more durable, smoother, the whole operation is done in sight special coating line in the factory.
                                         <br><br>
-                                        At least (2) sealing rates, and one layer of (anti-scratch) topcoat are applied to
-                                        engineered planks, in addition to staining layer (if needed) which is applied on
+                                        At least (2) sealing coats, and (1)) layer of (anti-scratch) topcoat are applied to
+                                        planks, in addition to staining layer (if needed) which is applied on
                                         wood before applying the bottom and top layers, so it is guaranteed that under bad
-                                        wage, the color not also to be removed fig.3
+                                        usage, the color not able to be removed.
                                     </p>
-                                    <h4>Comparison Hardwood Solid & Engineered </h4>
-                                    <img class="mb-2 w-50 " src="{{url('public')}}/images/categories/wood-flooring/engineered-floors/8.png" alt="1">
+                                    <h4>Comparison Between Solid & Engineered </h4>
+                                    <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/categories/wood-flooring/engineered-floors/8.png" alt="1">
                                     <table class="table table-bordered table-striped">
                                         <tbody>
                                             <tr>
-                                                <td>Wear layer the layer above the tongue and groove,</td>
-                                                <td>4,6,9 as per reavert can be renewed several times ace yo wear layer
-                                                    thickness</td>
-                                                <td>From [6-9] mm upon request can be renewed several times over to wear
-                                                    layer thickness</td>
+                                                <th>Wear layer<br>  The layer above the tongue and groove</th>
+                                                <td>4,6,9 as per request <br> can be renewed several times ace yo wear layer thickness</td>
+                                                <td>From [6-9] mm upon request<br>can be renewed several times over to wear layer thickness</td>
                                             </tr>
                                             <tr>
-                                                <td>Durability</td>
+                                                <th>Durability</th>
                                                 <td>Excellent</td>
                                                 <td>Very good</td>
                                             </tr>
                                             <tr>
-                                                <td>Maximum width of plank </td>
+                                                <th>Maximum width of plank</th>
                                                 <td>Up to (30)cm</td>
                                                 <td>Up to (15)cm</td>
                                             </tr>
                                             <tr>
-                                                <td>Pre Finish</td>
-                                                <td>Present can be installed pre finish width all installation teah</td>
-                                                <td>Absent(can't be installed pre finished expect in very rare conditions )
-                                                </td>
+                                                <th>Pre Finish</th>
+                                                <td>Present<br> can be installed pre finish width all installation teah</td>
+                                                <td>Absent<br> can't be installed pre finished expect in very rare conditions</td>
                                             </tr>
                                             <tr>
-                                                <td>Installation technique</td>
-                                                <td>Floating glue down nailed</td>
-                                                <td>Glue down nailed </td>
+                                                <th>Installation technique</th>
+                                                <td>Floating <br> Gluedown<br> Nailed</td>
+                                                <td>Gluedown <br> Nailed </td>
                                             </tr>
                                             <tr>
-                                                <td>Time to install 100 ㎡</td>
-                                                <td>8-12 hours only two technical wring hand tools</td>
-                                                <td>80-100 hours by means of at least Four tech . <br> wring hand tools & special
-                                                    machines</td>
+                                                <th>Time to install 100 ㎡</th>
+                                                <td>8-12 hours <br> Only two technicals with hand tools</td>
+                                                <td>80-100 hours <br> by means of at least Four technicals , With hand tools & special machines</td>
                                             </tr>
                                             <tr>
-                                                <td>Maintaining </td>
-                                                <td>Easy to menta and replace pieces cleaning & Fast</td>
-                                                <td>Moderate to hard meanlaining , wring adhesives and chemicals which needs
-                                                    sile to be empty</td>
+                                                <th>Maintaining </th>
+                                                <td>Easy to maintaining and replace pieces cleaning & Fast</td>
+                                                <td>Moderate to hard maintaining , with adhesives and chemicals which needs site to be empty</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1490,24 +1476,60 @@
                             <div class="tab-content">
                                 <h2>Check out our latest blog articles</h2>
                                 <section class="events-list">
-                                    @forelse ($AllArticles as $Article)
-                                    <div class="single-event mb-4">
+                                                                        <div class="single-event mb-4">
                                         <div class="image-container">
-                                          <img src="{{$Article->imageSrc}}" alt="{{$Article->title}}">
+                                          <img src="https://thewoodcourt.com/storage/app/images/events/latest-trends-in-hardwood-flooring.png" alt="Latest Trends in Hardwood Flooring">
                                         </div>
                                         <div class="content-container">
-                                            <h2>{{$Article->title}}</h2>
+                                            <h2>Latest Trends in Hardwood Flooring</h2>
                                             <span class="metabox d-block mb-3">
-                                                <i class="fas fa-calendar"></i> {{$Article->created_at->format('d, M Y')}}
+                                                <i class="fas fa-calendar"></i> 11, Apr 2021
                                             </span>
-                                            <p>{{$Article->description}}</p>
-                                            <a class="icon-button" href="{{route('blog.single',$Article->slug)}}"><i class="fas fa-plus"></i> View More</a>
+                                            <p>Hardwood Flooring really makes your home very welcoming &amp; beautiful. When properly cared for, it will stand for a long time giving you warm &amp; positive feelings.</p>
+                                            <a class="icon-button" href="https://thewoodcourt.com/blog/latest-trends-in-hardwood-flooring"><i class="fas fa-plus"></i> View More</a>
                                         </div>
                                     </div>
-                                    @empty
-                                    <p>There is no articles yet, Stay tuned!</p>
-                                    @endforelse
-                                </section>
+                                                                        <div class="single-event mb-4">
+                                        <div class="image-container">
+                                          <img src="https://thewoodcourt.com/storage/app/images/events/choosing-the-right-hardwood-floors-for-your-home.png" alt="Choosing The Right Hardwood Floors For Your Home">
+                                        </div>
+                                        <div class="content-container">
+                                            <h2>Choosing The Right Hardwood Floors For Your Home</h2>
+                                            <span class="metabox d-block mb-3">
+                                                <i class="fas fa-calendar"></i> 11, Apr 2021
+                                            </span>
+                                            <p>Do you love the feel of natural wood on floors?
+If yes, here&#039;s how to choose the right hardwood floor for your home.</p>
+                                            <a class="icon-button" href="https://thewoodcourt.com/blog/choosing-the-right-hardwood-floors-for-your-home"><i class="fas fa-plus"></i> View More</a>
+                                        </div>
+                                    </div>
+                                                                        <div class="single-event mb-4">
+                                        <div class="image-container">
+                                          <img src="https://thewoodcourt.com/storage/app/images/events/teak-deck-maintenance-&amp;-the-best-way-to-clean-teak.png" alt="Teak Deck Maintenance &amp; The Best Way To Clean Teak">
+                                        </div>
+                                        <div class="content-container">
+                                            <h2>Teak Deck Maintenance &amp; The Best Way To Clean Teak</h2>
+                                            <span class="metabox d-block mb-3">
+                                                <i class="fas fa-calendar"></i> 11, Apr 2021
+                                            </span>
+                                            <p>Many people are put off the idea of teak decks by many of the horror stories that circulate. In reality, there is no reason to be frightened off and if looked after and cared for correctly they can be cared for with minimal hassle and cost.</p>
+                                            <a class="icon-button" href="https://thewoodcourt.com/blog/teak-deck-maintenance-&amp;-the-best-way-to-clean-teak"><i class="fas fa-plus"></i> View More</a>
+                                        </div>
+                                    </div>
+                                                                        <div class="single-event mb-4">
+                                        <div class="image-container">
+                                          <img src="https://thewoodcourt.com/storage/app/images/events/what-are-high-pressure-laminates-(hpl).jpg" alt="What are High-Pressure Laminates (HPL)">
+                                        </div>
+                                        <div class="content-container">
+                                            <h2>What are High-Pressure Laminates (HPL)</h2>
+                                            <span class="metabox d-block mb-3">
+                                                <i class="fas fa-calendar"></i> 11, Apr 2021
+                                            </span>
+                                            <p>High-Pressure Laminate or HPL is the direct descendent of the original plastic laminate. It is considered to be one of the most durable decorative surface materials and is available with special performance properties including chemical, fire and wear resistance. Special grades of HPL can be post-formed around curved edges by application of heat and restraint.</p>
+                                            <a class="icon-button" href="https://thewoodcourt.com/blog/what-are-high-pressure-laminates-%28hpl%29"><i class="fas fa-plus"></i> View More</a>
+                                        </div>
+                                    </div>
+                                                                    </section>
                             </div>
                         </div>
                     </div>
