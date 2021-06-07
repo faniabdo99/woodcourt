@@ -46,7 +46,7 @@
               {!! $TheProduct->description !!}
               <div class="whatsapp-cta-product mb-5">
                 <p>GET A QOUTE ABOUT THIS PRODUCT</p>
-                <a href="https://wa.me/00201115751111?text={{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Contact Us</a>
+                <a href="https://wa.me/00201117571111?text={{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Contact Us</a>
               </div>
               <div class="share-product-info">
                 <p>Share <b>{{$TheProduct->title}}</b> with your friends:</p>
