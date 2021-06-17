@@ -91,4 +91,10 @@ Route::get('outdoor/teak-flooring','MarketingController@getTeakFlooring')->name(
 Route::get('outdoor/shower-units','MarketingController@getShowerUnits')->name('category.outdoor.shower-units');
 Route::get('outdoor/pergolas','MarketingController@getPergolas')->name('category.outdoor.pergolas');
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
-  
+
+//Error Pages
+Route::get('404','ErrorsController@get404Page')->name('errors.404page');
+Route::get('403','ErrorsController@get403Page')->name('errors.403page');
+Route::get('500','ErrorsController@get505Page')->name('errors.500page');
+Route::get('vr-tour','PagesController@getVrTourPage')->name('vr-tour');
+

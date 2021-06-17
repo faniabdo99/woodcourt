@@ -738,6 +738,23 @@
           </div>
       </div>
     </section>
+    <section class="vr-tour p-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+                    <iframe width='700' height='380' src='https://my.matterport.com/show/?m=trid4Kk6SPS' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex justify-content-center">
+                    <div class="welcome_docmed_info">
+                        <h2>Welcome to The Wood Court</h2>
+                        <h5>Can't come to our showroom? Our showroom will come to your screen. Visit our Virtual Reality showroom to see the variety and quality of our products up close.</h5>
+                        <br>
+                        <a href="{{route('vr-tour')}}" target="_blank" class="icon-button d-lg-inline d-block text-center mx-auto">View in Full Screen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="our-achievements">
         <div class="dark-overlap">
             <div class="container">
