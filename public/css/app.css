@@ -2621,6 +2621,18 @@ hr {
   font-size: 15px !important;
 }
 
+@media (max-width: 768px) {
+  .not-found {
+    height: 150px;
+  }
+  .not-found h1 {
+    font-size: 120px;
+    letter-spacing: -26px;
+  }
+  .not-found h1 span {
+    text-shadow: -8px 0 0 #fff;
+  }
+}
 #wood-flooring-hero {
   height: 60vh;
   background: url("../images/heros/marketing/about-us.jpg") no-repeat center center;

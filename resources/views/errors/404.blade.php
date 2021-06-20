@@ -17,16 +17,17 @@
                         </div>
                         <div class="mt-5 text-center">
                             <h4 class="mt-3">Try these other helpful links</h4>
-                            <div class="d-flex justify-content-center">
-                                <ul class="quick-links d-flex  mr-5">
-                                    <li class="mt-1 ml-3 mr-3 mb-4"><a class="" href="{{route('home')}}">Homepage</a></li>
-                                    <li class="mt-1 ml-3 mr-3 mb-4"><a class="" href="{{route('about')}}">About Us</a></li>
-                                    <li class="mt-1 ml-3 mr-3 mb-4"><a class="" href="{{route('factory')}}">Our Factory</a></li>
-                                    <li class="mt-1 ml-3 mr-3 mb-4"><a class="" href="{{route('contact')}}">Contact Us</a></li>
-                                    <li class="mt-1 ml-3 mr-3 mb-4"><a class="" href="{{route('vr-tour')}}">VR Tour</a></li>
-                                    <li class="mt-1 ml-3 mr-3 mb-4"><a class="" href="{{route('expert-hub')}}">Expert Hub</a></li>
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <ul class="quick-links d-flex">
+                                    <li class="mt-1"><a class="" href="{{route('home')}}">Homepage</a></li>
+                                    <li class="mt-1 ml-3  "><a class="" href="{{route('about')}}">About Us</a></li>
+                                    <li class="mt-1 ml-3  "><a class="" href="{{route('factory')}}">Our Factory</a></li>
                                 </ul>
-                            
+                                <ul class="quick-links d-flex">
+                                    <li class=""><a class="" href="{{route('contact')}}">Contact Us</a></li>
+                                    <li class=" ml-3  "><a class="" href="{{route('vr-tour')}}">VR Tour</a></li>
+                                    <li class=" ml-3  "><a class="" href="{{route('expert-hub')}}">Expert Hub</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

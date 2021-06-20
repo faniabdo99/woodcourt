@@ -55,3 +55,15 @@
 .error-header-content{
     font-size: 15px !important  ;
 }
+@media(max-width:768px){
+    .not-found{
+        height: 150px;
+        h1{
+            font-size: 120px;
+            letter-spacing: -26px;
+            span{
+                text-shadow: -8px 0 0 #fff;
+            }
+        }
+    }
+}
