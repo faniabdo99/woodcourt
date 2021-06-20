@@ -738,18 +738,24 @@
           </div>
       </div>
     </section>
+
     <section class="vr-tour p-50">
         <div class="container">
+            <h2 class="section-title mb-5">VR tour of our showroom</h2>
             <div class="row">
                 <div class="col-lg-6 col-md-6 d-flex justify-content-center">
                     <iframe width='700' height='380' src='https://my.matterport.com/show/?m=trid4Kk6SPS' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
                 </div>
                 <div class="col-lg-6 col-md-6 d-flex justify-content-center">
-                    <div class="welcome_docmed_info">
-                        <h2>Welcome to The Wood Court</h2>
-                        <h5>Can't come to our showroom? Our showroom will come to your screen. Visit our Virtual Reality showroom to see the variety and quality of our products up close.</h5>
+                    <div class="welcome_docmed_info d-flex flex-column justify-content-around">
+                        <div>
+                            <p>Can't come to our showroom? Our showroom will come to your screen. Visit our Virtual Reality showroom to see the variety and quality of our products up close.</p>
+                        </div>
                         <br>
-                        <a href="{{route('vr-tour')}}" target="_blank" class="icon-button d-lg-inline d-block text-center mx-auto">View in Full Screen</a>
+                        <div class="d-flex">
+                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="{{route('vr-tour')}}" target="_blank">View in Full Screen</a>
+                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">View Our Showroom Location</a>
+                        </div>
                     </div>
                 </div>
             </div>

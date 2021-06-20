@@ -2584,7 +2584,41 @@ hr {
 }
 
 .quick-links li {
+  text-decoration: none;
   list-style: none;
+}
+.quick-links a {
+  color: #0D8287;
+}
+
+.not-found-container {
+  position: relative;
+}
+
+.not-found {
+  height: 250px;
+}
+.not-found h1 {
+  font-family: montserrat, sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 252px;
+  font-weight: 900;
+  margin: 0;
+  color: #262626;
+  text-transform: uppercase;
+  letter-spacing: -63px;
+  margin-left: -20px;
+}
+.not-found h1 span {
+  text-shadow: -8px 0 0 #fff;
+}
+
+.error-header-content {
+  font-size: 15px !important;
 }
 
 #wood-flooring-hero {
