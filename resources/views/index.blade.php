@@ -548,15 +548,15 @@
                         </li>
                         <li class="item">
                             <span class="item-flag limited">Limited</span>
-                            <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotice Wood Coasters">
+                            <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">
                                 <div class="limited-edition-bg" id="satined-coasters"></div>
                             </a>
                             <div class="content-container">
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotice Wood Coasters">
-                                    <h3>Exotice Wood Coasters</h3>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">
+                                    <h3>Exotic Wood Coasters</h3>
                                 </a>
                                 <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotice Wood Coasters">View More</a>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">View More</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/1.jpg" alt="coasters-1"
@@ -1349,37 +1349,7 @@
                         <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/presendcy.jpg" alt="EG Presidency"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cabient.png" alt="EG Cabinet"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/leagueofarabstates.png" alt="League of Arab States"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cairo_governorate.png" alt="Cairo Governorate"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/parlement.jpg" alt="EG Parliament"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/elab.jpg" alt="ELAB"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
@@ -1387,31 +1357,7 @@
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/shorta.png" alt="Nadi al Shorta"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cairo-airport.png" alt="Nadi al Shorta"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/beni_suef_governorate.png" alt="benisuef"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/coop.jpg" alt="benisuef"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/suez.jpg" alt="suez"></a>
-                                </div>
-                            </div>
+
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>

@@ -7,34 +7,35 @@
     @include('layout.navbar')
     <section>
         <div class="container mt-3 mb-5">
-            <h1 class="brand text-center mt-5 mb-4">Pament Methods</h1>
+            <h1 class="brand text-center mt-5 mb-4">Payment Methods</h1>
             <div class="static-content-section mb-5">
                 <h2>One Time Payment</h2>
-                <p>
-                    The Wood Court offers various payment options including cash, credit cards, and installments.
+                <p> The Wood Court offers various payment options including cash, credit cards, and installments.</p>
                     <br><br>
+                    <img class="mb-2 payment-methods-image" src="{{url('public/images/payment-images/qnb.png')}}" alt="QNB"> <br>
                     <b>Cash</b>
                     <br>
-                    Qatar National Bank (QNB) Transfers, Cash at Showroom, Checks are also accepted.
+                   <p>Qatar National Bank (QNB) Transfers, Cash at Showroom, Checks are also accepted.</p> 
                     <br><br>
-                    <b>Credit Cards</b>
+                    <img class="mb-2 payment-methods-image" src="{{url('public/images/payment-images/credit.png')}}" alt="Credit Card"> <br>
+                       <b>Credit Cards</b>
                     <br>
-                    You can use your credit cards (Visa, Master Card) in our showroom
-                </p>
+                    <p>You can use your credit cards (Visa, Master Card) in our showroom</p>
             </div>
             <div class="static-content-section mb-5">
                 <h2>Installment Options</h2>
-                <p>
-                    The Wood Court offers up to 60 months installments plans in association with the top two companies in Egypt
+                <p>The Wood Court offers up to 60 months installments plans in association with the top two companies in Egypt. </p>
                     <br><br>
+                    <img class="mb-2 payment-methods-image" src="{{url('public/images/payment-images/valu.png')}}" alt="ValU"> <br>
                     <b>ValU</b>
                     <br>
-                    Up to 60 months.
+                   <p>Up to 60 months.</p> 
                     <br><br>
+                    <img class="mb-2 payment-methods-image" src="{{url('public/images/payment-images/belcash.png')}}" alt="BelCash Egypt"> <br>
                     <b>BelCash</b>
                     <br>
-                    Up to 60 months.
-                </p>
+                   <p>Up to 60 months.</p> 
+                
             </div>
         </div>
     </section>
