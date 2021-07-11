@@ -2756,6 +2756,41 @@ hr {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  #arabic-landing-hero .dark-overlap {
+    padding: 20vh 5%;
+  }
+  #arabic-landing-hero .dark-overlap h1 {
+    font-size: 2.5em;
+  }
+
+  #our-products .row {
+    margin-bottom: 50px;
+  }
+  #our-products img {
+    margin-bottom: 25px;
+  }
+
+  #about-woodcourt a {
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #about-woodcourt img {
+    margin: 40px auto 0 auto;
+  }
+
+  #landing-contact-us .contact-card {
+    margin-top: 20px;
+    padding: 25px;
+  }
+  #landing-contact-us .contact-card i {
+    font-size: 2em;
+  }
+  #landing-contact-us .contact-card p {
+    font-size: 1.3em;
+  }
+}
 grammarly-desktop-integration {
   position: absolute;
 }

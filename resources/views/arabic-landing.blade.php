@@ -118,7 +118,7 @@
                             <div class="col-12">
                                 <label for="message">الرسالة:</label>
                                 <textarea name="message" id="message" rows="8" placeholder="أدخل رسالتك هنا"></textarea>
-                                <button class="icon-button d-lg-inline d-block text-center w-100" data-target="{{route('contact.post')}}" id="submit-contact-form" type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+                                <button class="icon-button d-lg-inline d-block text-center w-100" data-target="{{route('contact.post')}}" id="submit-contact-form" type="submit"><i class="fas fa-paper-plane"></i> ارسال</button>
                             </div>
                         </div>
                     </form>

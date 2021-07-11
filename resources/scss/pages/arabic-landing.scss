@@ -118,6 +118,48 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width:768px){
+    #arabic-landing-hero{
+        .dark-overlap{
+          padding:20vh 5%;
+          h1{
+              font-size: 2.5em;
+          }
+        }
+    }
+    #our-products{
+        .row{
+            margin-bottom: 50px;
+        }
+        img{
+      
+            margin-bottom: 25px;
+        }
+    }
+    #about-woodcourt{
+        a{
+            display: block;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        img{
+            margin: 40px auto 0 auto;
+        }
+    }
+    #landing-contact-us{
+        .contact-card{
+            margin-top: 20px;       
+            padding: 25px;
+            i{
+                font-size: 2em;
+            }
+            p{
+                font-size: 1.3em;
+            }
+        }
+    }  
+}
 //Fix for users who use grammarly integration
 grammarly-desktop-integration{
     position: absolute;
