@@ -131,7 +131,7 @@
                 <div class="col-12 text-center">
                     <a class="icon-button mr-lg-0 d-lg-inline d-block text-center" href="{{route('products')}}"> <i class="fas fa-bullhorn"></i> Explore Products</a>
                 </div>
-            </div>
+            </div>brand
         </div>
     </section>
     <section id="homepage-cta">

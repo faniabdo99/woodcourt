@@ -2638,6 +2638,128 @@ hr {
     text-shadow: -8px 0 0 #fff;
   }
 }
+#arabic-landing-hero {
+  background: url("../images/heros/arabic-landing.jpg") no-repeat center center;
+  background-size: cover;
+}
+#arabic-landing-hero .dark-overlap {
+  padding: 25vh 5%;
+}
+#arabic-landing-hero .dark-overlap h1 {
+  font-size: 4em;
+}
+
+#our-products .row {
+  margin-bottom: 100px;
+}
+#our-products img {
+  height: auto;
+  width: 100%;
+}
+#our-products h2 {
+  font-size: 1.5em;
+}
+#our-products p {
+  color: #555555;
+  line-height: 2em;
+}
+
+#gallery .section-heading {
+  text-align: center;
+  font-size: 2.5em;
+}
+#gallery .grid-item {
+  width: 25%;
+}
+#gallery .grid-item img {
+  width: 100%;
+  height: 100%;
+}
+#gallery .filter-button-group {
+  padding: 25px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#gallery .filter-button-group button {
+  background-color: #0D8287;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 15px;
+  transition: all ease 0.3s;
+}
+#gallery .filter-button-group button:hover {
+  transition: all ease 0.3s;
+  background-color: #166a6e;
+}
+#gallery .filter-button-group button:focus {
+  background-color: #166a6e;
+  border: none;
+  outline: none;
+}
+
+#about-woodcourt {
+  margin-top: 50px;
+}
+#about-woodcourt p {
+  color: #555555;
+  line-height: 2.1em;
+}
+#about-woodcourt a.sub-button {
+  color: #0D8287;
+  margin-right: 15px;
+}
+#about-woodcourt img {
+  display: block;
+  width: 75%;
+  height: auto;
+  margin: auto;
+}
+
+#landing-contact-us .contact-card {
+  display: flex;
+  flex-basis: 0;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+  direction: ltr;
+  padding: 25px;
+}
+#landing-contact-us .contact-card i {
+  font-size: 3em;
+}
+#landing-contact-us .contact-card p {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: -6px;
+}
+#landing-contact-us .contact-card p a {
+  color: #fff;
+}
+#landing-contact-us .contact-card.contact-facebook {
+  background-color: #3b5998;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+#landing-contact-us .contact-card.contact-whatsapp {
+  background-color: #25d366;
+  border-radius: 4px;
+}
+
+#landing-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+#landing-footer p {
+  margin-bottom: 0;
+}
+
+grammarly-desktop-integration {
+  position: absolute;
+}
+
 #wood-flooring-hero {
   height: 60vh;
   background: url("../images/heros/marketing/about-us.jpg") no-repeat center center;

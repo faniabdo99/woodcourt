@@ -12,6 +12,9 @@ class PagesController extends Controller{
       $LatestBlogs = Event::where('type' , 'article')->latest()->limit(3)->get();
       return view('index' , compact('LimitedEditionCategories','LatestBlogs'));
     }
+    public function getArabicLanding(){
+        return view('arabic-landing');
+    }
     public function getAboutUs(){
         return view('about-us');
     }

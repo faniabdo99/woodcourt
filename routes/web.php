@@ -1,6 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@getHome')->name('home');
+Route::get('/arabic-landing', 'PagesController@getArabicLanding');
 Route::get('about-us' , 'PagesController@getAboutUs')->name('about');
 Route::get('our-factory' , 'PagesController@getOurFactory')->name('factory');
 Route::get('contact' , 'ContactController@getContact')->name('contact');
