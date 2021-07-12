@@ -20,6 +20,12 @@
             <img class="w-100 mb-3" src="{{$TheArticle->imageSrc}}" alt="{{$TheArticle->title}}">
             <div class="event-content">
               {!! $TheArticle->content !!}
+              <div class="share-product-info">
+                <p> <b>Share article with your friends:</b></p>
+                <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+                <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Article%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
+                <a class="pinterest" href="https://pinterest.com/pin/create/button/?url={{url()->current()}}" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
+            </div>
               <div class="fb-comments" data-href="https://thewoodcourt.com/blog" data-width="100%" data-numposts="20"></div>
             </div>
           </div>
@@ -46,6 +52,7 @@
           </div>
         </div>
       </div>
+
     </section>
     @include('layout.scripts')
     @include('layout.footer')

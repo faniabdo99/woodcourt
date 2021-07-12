@@ -173,12 +173,7 @@
                                             color & finish.
                                         </li>
                                     </ul>
-                                    <div class="share-product-info">
-                                        <p> <b>Share article with your friends:</b></p>
-                                        <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
-                                        <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
-                                        <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
-                                    </div>
+                                   
                                 </div>
                                 <div class="tab-pane fade" id="kitchen-care">
                                     <h2>How to Take Care of Your Kitchen Counters and Cabinets?</h2>
@@ -210,12 +205,7 @@
                                             grease which other wishes may be absorbed by wood leading to a bad smell &
                                             yellowish stains.</li>
                                     </ul>
-                                    <div class="share-product-info">
-                                        <p> <b>Share article with your friends:</b></p>
-                                        <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
-                                        <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
-                                        <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
-                                    </div>
+                                   
                                 </div>
                                 <div class="tab-pane fade" id="outdoor-care">
                                     <h2>How to Take Care of Wooden Pergolas & Outdoor Flooring?</h2>
@@ -268,12 +258,7 @@
                                         <li>Always wear rubber gloves, eye protection, and a mask while using any chemical
                                             materials.</li>
                                     </ul>
-                                    <div class="share-product-info">
-                                        <p> <b>Share article with your friends:</b></p>
-                                        <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
-                                        <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
-                                        <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>

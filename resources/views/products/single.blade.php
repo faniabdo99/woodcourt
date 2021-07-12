@@ -52,7 +52,7 @@
                 <p>Share <b>{{$TheProduct->title}}</b> with your friends:</p>
                 <a id="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
                 <a id="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
-                <a id="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
+                <a id="pinterest" href="https://pinterest.com/pin/create/button/?url={{url()->current()}}" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
               </div>
               <div class="similar-products mt-5">
                 <div class="row">
