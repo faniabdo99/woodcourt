@@ -1014,7 +1014,7 @@ a:hover {
   }
   .expert-hub-cta .container .section-mob-style .image-section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
   .expert-hub-cta .container .section-mob-style img {
     margin-right: auto;
@@ -2192,6 +2192,21 @@ time {
   font-size: 0.9em;
   margin-right: 15px;
 }
+.single-event-article .event-content .share-product-info #pinterest {
+  background-color: #E60023;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 5px 15px;
+  color: #fff !important;
+  font-size: 0.9em;
+  margin-right: 15px;
+}
+.single-event-article .event-content .share-product-info #pinterest .fa-pinterest {
+  color: white;
+}
 
 @media screen and (max-width: 768px) {
   .events-list {
@@ -2581,6 +2596,45 @@ hr {
 }
 #expert-hub-sidebar .filter-items ul.toturials-sublist {
   display: block;
+}
+
+.facebook {
+  background-color: #4267B2;
+  border-radius: 4px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 0.9em;
+  margin-right: 15px;
+}
+
+.whatsapp {
+  background-color: #25D366;
+  border-radius: 4px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 0.9em;
+  margin-right: 15px;
+}
+
+.pinterest {
+  background-color: #E60023;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 5px 15px;
+  color: #fff !important;
+  font-size: 0.9em;
+  margin-right: 15px;
+}
+.pinterest .fa-pinterest {
+  color: white;
+}
+
+.whatsapp:hover, .facebook:hover, .pinterest:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .payment-methods-image {

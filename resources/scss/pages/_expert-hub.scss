@@ -118,3 +118,40 @@ hr {
         }
     }
 }
+.facebook{
+    background-color: #4267B2;
+    border-radius: 4px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: .9em;
+    margin-right: 15px;
+}
+.whatsapp{
+    background-color: #25D366;
+    border-radius: 4px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: .9em;
+    margin-right: 15px;
+}
+.pinterest{
+    background-color: #E60023;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 5px 15px;
+    color: #fff !important;
+    font-size: .9em;
+    margin-right: 15px;
+    .fa-pinterest{
+        color: white;
+    }
+}
+.whatsapp , .facebook , .pinterest{
+    &:hover{
+        color: white;
+        cursor:pointer
+    }
+}

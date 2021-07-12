@@ -13,35 +13,35 @@
                             <h1>Expert Hub</h1>
                             <p class="mb-5">How To Take Care Of Your Wood Floors?</p>
                             <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <div class="row icons-row d-flex">
                                         <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
-                                            <i class="flaticon-education"></i>
+                                            <i class="flaticon-parquet"></i>
                                         </div>
-                                        <div class="col-sm-7 col-lg-12  d-flex justify-content-center flex-column align-items-center text-center">
+                                        <div class="col-sm-7 col-lg-12 mt-2 d-flex justify-content-center flex-column align-items-center text-center">
                                             <h4>Tutorials</h4>
                                             <p>Get advanced knowledge on how to take care of your wooden possesions like
                                                 floors and kitchens</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <div class="row icons-row d-flex">
                                         <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
                                             <i class="flaticon-faq"></i>
                                         </div>
-                                        <div class="col-sm-7 col-lg-12  d-flex justify-content-center flex-column align-items-center text-center">
+                                        <div class="col-sm-7 col-lg-12 mt-2 d-flex justify-content-center flex-column align-items-center text-center">
                                             <h4>Resources</h4>
                                             <p>Stay updated about new wood care techniques and methodologies</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <div class="row icons-row d-flex">
                                         <div class="col-sm-5 col-lg-12 d-flex justify-content-center">
                                             <i class="flaticon-text"></i>
                                         </div>
-                                        <div class="col-sm-7 col-lg-12  d-flex justify-content-center flex-column align-items-center text-center">
+                                        <div class="col-sm-7 col-lg-12 mt-2 d-flex justify-content-center flex-column align-items-center text-center">
                                             <h4>FAQs</h4>
                                             <p>Answer most of your questions about wood floors and other items</p>
                                         </div>
@@ -173,6 +173,12 @@
                                             color & finish.
                                         </li>
                                     </ul>
+                                    <div class="share-product-info">
+                                        <p> <b>Share article with your friends:</b></p>
+                                        <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+                                        <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
+                                        <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
+                                    </div>
                                 </div>
                                 <div class="tab-pane fade" id="kitchen-care">
                                     <h2>How to Take Care of Your Kitchen Counters and Cabinets?</h2>
@@ -204,6 +210,12 @@
                                             grease which other wishes may be absorbed by wood leading to a bad smell &
                                             yellowish stains.</li>
                                     </ul>
+                                    <div class="share-product-info">
+                                        <p> <b>Share article with your friends:</b></p>
+                                        <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+                                        <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
+                                        <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
+                                    </div>
                                 </div>
                                 <div class="tab-pane fade" id="outdoor-care">
                                     <h2>How to Take Care of Wooden Pergolas & Outdoor Flooring?</h2>
@@ -256,6 +268,12 @@
                                         <li>Always wear rubber gloves, eye protection, and a mask while using any chemical
                                             materials.</li>
                                     </ul>
+                                    <div class="share-product-info">
+                                        <p> <b>Share article with your friends:</b></p>
+                                        <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
+                                        <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
+                                        <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -384,7 +402,7 @@
                                     <h4>Durability :</h4>
                                     <p>When the floor manufacturer finished the floor, he use special finishing lines,
                                         which create a perfect environment to apply powerful chemical sealer such as
-                                        aluminum & titenum oxides embedded in a uv-cured urethane coat.<br> 
+                                        aluminum & titenum oxides embedded in a uv-cured urethane coat.<br>
                                         The result is harder than anything applied on-site, the finish lasts longer & carries a better
                                         warranty for the homeowner<br>
                                         <b>Easier installation:</b>
@@ -722,7 +740,6 @@
                                                         type of urethane finish and will cloud up and become sticky if a
                                                         paste wax is applied to the finish
                                                     </p>
-                                                    <p>Click here to learn about floor care</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1594,6 +1611,11 @@ If yes, here&#039;s how to choose the right hardwood floor for your home.</p>
                             }, 1000);
                         }
                      </script>
+                     <script
+                     type="text/javascript"
+                     async defer
+                     src="//assets.pinterest.com/js/pinit.js"
+                 ></script>
 
     </body>
 </html>

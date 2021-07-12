@@ -25,7 +25,7 @@
                   @forelse ($TheProduct->Gallery as $key => $Gallery)
                   <li><a href="{{$Gallery->ImagePath}}" data-fancybox="gallery"><img src="{{$Gallery->ThumbPath}}" ></a></li>
                   @empty
-                  
+
                   @endforelse
                 </ul>
               </div>
@@ -45,13 +45,14 @@
               </div>
               {!! $TheProduct->description !!}
               <div class="whatsapp-cta-product mb-5">
-                <p>GET A QOUTE ABOUT THIS PRODUCT</p>
+                <p>GET A QUOTE ABOUT THIS PRODUCT</p>
                 <a href="https://wa.me/00201117571111?text={{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Contact Us</a>
               </div>
               <div class="share-product-info">
                 <p>Share <b>{{$TheProduct->title}}</b> with your friends:</p>
                 <a id="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
                 <a id="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
+                <a id="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
               </div>
               <div class="similar-products mt-5">
                 <div class="row">
@@ -74,7 +75,7 @@
                         @endforelse
                       </div>
                       @empty
-                        <p>We are working on preparing the list, Please bare with us</p>
+                        <p>We are working on preparing the list, Please bear with us</p>
                       @endforelse
                     </div>
                   </div>
