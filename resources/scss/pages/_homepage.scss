@@ -563,4 +563,27 @@
     }
   }
 }
-
+.hidden-btn-parent{
+    z-index: 200;
+    width: 50%;
+    color: white;
+    background-color: $brand;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.hidden-btn{
+    z-index: 1;
+    width: 5px;
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    &:focus{
+        outline: 0;
+        border: none;
+        background-color: transparent;
+    }
+}

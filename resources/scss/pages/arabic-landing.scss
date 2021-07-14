@@ -8,9 +8,17 @@
           font-size: 4em;
       }
     }
+
     ::-webkit-scrollbar {
         display: none;
     }
+}
+.navbar-toggler{
+    position: absolute;
+    left: 0;
+    &:focus{
+        outline: 0 !important;
+}
 }
 #our-products{
     .row{
