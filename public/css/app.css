@@ -2692,10 +2692,6 @@ hr {
     text-shadow: -8px 0 0 #fff;
   }
 }
-::-webkit-scrollbar {
-  display: none;
-}
-
 #arabic-landing-hero {
   background: url("../images/heros/arabic-landing.jpg") no-repeat center center;
   background-size: cover;
@@ -2705,6 +2701,9 @@ hr {
 }
 #arabic-landing-hero .dark-overlap h1 {
   font-size: 4em;
+}
+#arabic-landing-hero ::-webkit-scrollbar {
+  display: none;
 }
 
 #our-products .row {
@@ -2815,6 +2814,10 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   #arabic-landing-hero .dark-overlap {
     padding: 20vh 5%;
   }
