@@ -2692,6 +2692,10 @@ hr {
     text-shadow: -8px 0 0 #fff;
   }
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 #arabic-landing-hero {
   background: url("../images/heros/arabic-landing.jpg") no-repeat center center;
   background-size: cover;
