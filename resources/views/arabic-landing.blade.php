@@ -134,9 +134,9 @@
                             <i class="fab fa-whatsapp"></i>
                             <div>
                                 <p>
-                                    <a href="https://api.whatsapp.com/send/?phone=00201117571111" target="_blank">0111 757 1111</a>
+                                    <a href="https://api.whatsapp.com/send/?phone=201117571111" target="_blank">0111 757 1111</a>
                                     <br>
-                                    <a href="https://api.whatsapp.com/send/?phone=00201115751111" target="_blank">0111 575 1111</a>
+                                    <a href="https://api.whatsapp.com/send/?phone=201115751111" target="_blank">0111 575 1111</a>
                                 </p>
                             </div>
                         </div>
