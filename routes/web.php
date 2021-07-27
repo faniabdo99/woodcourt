@@ -99,3 +99,6 @@ Route::get('403','ErrorsController@get403Page')->name('errors.403page');
 Route::get('500','ErrorsController@get505Page')->name('errors.500page');
 Route::get('vr-tour','PagesController@getVrTourPage')->name('vr-tour');
 
+//Languge Changing
+Route::get('lang/{locale}', 'PagesController@getSwitchlang')->name('switchLang');
+

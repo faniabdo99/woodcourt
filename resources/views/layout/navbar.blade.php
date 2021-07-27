@@ -2,19 +2,28 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPPW7VJ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-<header class="position-relative w-100">
+<header class="position-relative w-100 @lang('settings.text_align')" dir="@lang('settings.direction')">
     <div class="upper-nav">
         <div class="row">
-            <ul class="col-1 text-left upper-nav-social-media">
+            <ul class="@lang('settings.col_1_eng') text-left upper-nav-social-media">
                 <li><a href="https://facebook.com/thewoodcourt" target="_blank"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="https://instagram.com/thewoodcourt" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
             </ul>
-            <ul class="col-11">
-                <li><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> 81 El-Hussein St, Dokki, Giza</a></li>
+            <ul class="@lang('settongs.col_11_eng')">
+                <li><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> @lang('navbar.navbar_location')</a></li>
                 <li><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a> | <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a></li>
                 <li><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
-                <li><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">SAT-THU 10:00 - 23:00</a></li>
+                <li><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">@lang('navbar.navbar_clock')</a></li>
+                <li class="ml-0">
+                    @if(session()->get('locale') == 'ar')
+                    <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-language"></i> English</a></li>
+                    @elseif(session()->get('locale') == 'en' )
+                    <li><a href="{{route('switchLang' , 'ar')}}"><i class="fas fa-language"></i> العربية</a></li>
+                    @else
+                    <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-language"></i> English</a></li>
+                    @endif
+                </li>
             </ul>
         </div>
     </div>
@@ -27,33 +36,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('vr-tour')}}">VR Tour</a></li>
-                {{-- <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wood Care <i class="fas fa-chevron-down"></i></a>
-                   <div class="dropdown-menu" aria-labelledby="woodCare">
-                     <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#a">Hardwood Floor</a>
-                     <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#b">Kitchens and Cabinets</a>
-                     <a class="dropdown-item" href="/events/how-to-take-care-of-your-wood-floors#c">Outdoor Wood Flooring & Pergolas</a>
-                   </div>
-                 </li> --}}
+                <li class="nav-item"><a class="nav-link" href="{{route('home')}}">@lang('navbar.navbar_home')</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('about')}}">@lang('navbar.navbar_about')</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('vr-tour')}}">@lang('navbar.navbar_vr')</a></li>
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li> --}}
                 <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products <i class="fas fa-chevron-down"></i></a>
-                   <div class="dropdown-menu" aria-labelledby="woodCare">
-                     <a class="dropdown-item" href="{{route('products')}}">All</a>
-                     <a class="dropdown-item" href="{{route('products', ['category','wood-flooring'])}}">Hardwood Floor</a>
-                     <a class="dropdown-item" href="{{route('products', ['category','cabinets'])}}">Kitchens and Cabinets</a>
-                     <a class="dropdown-item" href="{{route('products', ['category','outdoor'])}}">Outdoor Wood Flooring & Pergolas</a>
-                   </div>
-                 </li>
-                <li class="nav-item"><a class="nav-link" href="{{route('events')}}">Events</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">Expert Hub</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact Us</a></li>
-                <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">Get a Quote</a></li>
+                <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@lang('navbar.navbar_products') <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-menu @lang('settings.text_align')" dir="@lang('settings.direction')" aria-labelledby="woodCare">
+                    <a class="dropdown-item" href="{{route('products')}}">@lang('navbar.navbar_products_all')</a>
+                    <a class="dropdown-item" href="{{route('products', ['category','wood-flooring'])}}">@lang('navbar.navbar_products_hardwood_floor')</a>
+                    <a class="dropdown-item" href="{{route('products', ['category','cabinets'])}}">@lang('navbar.navbar_products_kitchens')</a>
+                    <a class="dropdown-item" href="{{route('products', ['category','outdoor'])}}">@lang('navbar.navbar_products_outdoor')</a>
+                </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{route('events')}}">@lang('navbar.navbar_events')</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">@lang('navbar.navbar_expert')</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">@lang('navbar.navbar_contact')</a></li>
+                <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">@lang('navbar.navbar_quote')</a></li>
                 @auth
-                  <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth
             </ul>
         </div>
@@ -64,7 +65,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="getQuoteModalLabel">Get a Quote</h5>
+        <h5 class="modal-title" id="getQuoteModalLabel">@lang('navbar.navbar_quote')</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>

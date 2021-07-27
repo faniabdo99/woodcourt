@@ -24,7 +24,7 @@
                                 <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> Share</a>
                                 <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> Send</a>
                                 <a class="pinterest" href="https://pinterest.com/pin/create/button/?url=http://thewoodcourt.com/expert-hub&media=&description=" target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i> Save</a>
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>

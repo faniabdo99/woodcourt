@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use Sheets;
 use App\Models\LimitedEditionCategory;
 use App\Models\Event;
+use App;
 class PagesController extends Controller{
     public function getSoonPage(){return view('soon');}
     public function getHome(){
@@ -36,5 +37,14 @@ class PagesController extends Controller{
     }
     public function getVrTourPage(){
         return view('vr-tour');
+    }
+    //lang Func
+    public function getSwitchLang($locale){
+        if (! in_array($locale, ['en', 'ar'])) {
+            abort(400);
+        }
+        App::setLocale($locale);
+        session()->put('locale', $locale);
+        return redirect()->back();
     }
 }
