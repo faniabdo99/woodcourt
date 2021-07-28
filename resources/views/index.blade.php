@@ -1,22 +1,21 @@
 @include('layout.header', [
-'PageTitle' => 'Kitchen, Floor ... and More',
-'Description' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.',
+'PageTitle' => "@lang('homepage.homepage_title')",
+'Description' => "@lang('homepage.homepage_desc')",
 'ogType' => 'Website'
 ])
 
-<body>
-    <h1 class="d-none">The Wood Court - Kitchen, Floor ... and More</h1>
+<body class="">
+    <h1 class="d-none">@lang('homepage.homepage_weclome_h1')</h1>
     @include('layout.navbar')
-    <section class="homepage-hero-section" id="homepage-hero-section">
+    <section class="homepage-hero-section text-left" id="homepage-hero-section">
         <div class="owl-carousel full-width-carousel">
             <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12">
-                        <h2>Welcome to <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
+                        <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
                             src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
-                        <p class="description mb-5">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
-                            and engineered wood to make your life more comfortable.</p>
-                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
+                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
+                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -29,11 +28,10 @@
                     <div class=" content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <p class="p-category">Products</p>
-                        <h2>Kitchens</h2>
-                        <p class="description mb-5">Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by
-                            highly-reputed interior designers.</p>
-                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
+                        <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
+                        <h2>@lang('homepage.homepage_hero_sec_2_h')</h2>
+                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_2_desc')</p>
+                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
                     </div>
                     <div id="slide-one" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -46,10 +44,10 @@
                     <div class=" content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <p class="p-category">Products</p>
-                        <h2>Engineered Floors</h2>
-                        <p class="description mb-5">All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.</p>
-                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
+                        <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
+                        <h2>@lang('homepage.homepage_hero_sec_3_h')</h2>
+                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_3_desc')</p>
+                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-two" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -62,11 +60,10 @@
                     <div class=" content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <p class="p-category">Products</p>
-                        <h2>Outdoor</h2>
-                        <p class="description mb-5">Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
-                            designs.</p>
-                        <a class="icon-button mr-lg-5 mr-0" href="#homepage-categories"> <i class="fas fa-star"></i> Our Products</a>
+                        <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
+                        <h2>@lang('homepage.homepage_hero_sec_4_h')</h2>
+                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_4_desc')</p>
+                        <a class="icon-button mr-lg-5 mr-0" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-four" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -80,7 +77,7 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12">
-                    <h2 class="section-title">Our Products</h2>
+                    <h2 class="section-title">@lang('homepage.homepage_hero_sec_btn_h')</h2>
                 </div>
             </div>
             <div class="row">
@@ -91,10 +88,10 @@
                         </a>
                         <div class="p-3">
                             <a href="{{route('products',['category','wood-flooring'])}}">
-                                <h3>Wood Flooring</h3>
+                                <h3>@lang('homepage.homepage_our_products_sec_1_h')</h3>
                             </a>
-                            <p>All-natural wood flooring & Fiberboard (HDF) you will need in one ...</p>
-                            <a href="{{route('products',['category','wood-flooring'])}}" class="view-more-link">View More</a>
+                            <p>@lang('homepage.homepage_our_products_sec_1_p').</p>
+                            <a href="{{route('products',['category','wood-flooring'])}}" class="view-more-link">@lang('homepage.homepage_our_products_sec_vmore')</a>
                         </div>
                     </div>
                 </div>
@@ -104,11 +101,11 @@
                             <div class="category-card-bg" id="cabinets"></div>
                         </a>
                         <div class="p-3">
-                          <a href="{{route('products',['category','cabinets'])}}">
-                                <h3>Cabinets</h3>
+                                <a href="{{route('products',['category','cabinets'])}}">
+                                <h3>@lang('homepage.homepage_our_products_sec_2_h')</h3>
                             </a>
-                            <p>Not just a wide variety of materials (natural & artificial) but also ...</p>
-                            <a href="{{route('products',['category','cabinets'])}}" class="view-more-link">View More</a>
+                            <p>@lang('homepage.homepage_our_products_sec_2_p')</p>
+                            <a href="{{route('products',['category','cabinets'])}}" class="view-more-link">@lang('homepage.homepage_our_products_sec_vmore')</a>
                         </div>
                     </div>
                 </div>
@@ -118,18 +115,18 @@
                             <div class="category-card-bg" id="outdoor"></div>
                         </a>
                         <div class="p-3">
-                          <a href="{{route('products',['category','outdoor'])}}">
-                                <h3>Outdoor</h3>
+                            <a href="{{route('products',['category','outdoor'])}}">
+                                <h3>@lang('homepage.homepage_our_products_sec_3_h')</h3>
                             </a>
-                            <p>Nowadays, after quarantine we all realaized the importance of our private...</p>
-                            <a href="{{route('products' ,['category','outdoor'])}}" class="view-more-link">View More</a>
+                            <p>@lang('homepage.homepage_our_products_sec_3_p')</p>
+                            <a href="{{route('products' ,['category','outdoor'])}}" class="view-more-link">@lang('homepage.homepage_our_products_sec_vmore')</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-12 text-center">
-                    <a class="icon-button mr-lg-0 d-lg-inline d-block text-center" href="{{route('products')}}"> <i class="fas fa-bullhorn"></i> Explore Products</a>
+                    <a class="icon-button mr-lg-0 d-lg-inline d-block text-center" href="{{route('products')}}"> <i class="fas fa-bullhorn"></i>@lang('homepage.homepage_our_products_sec_btn')</a>
                 </div>
             </div>
         </div>
@@ -138,13 +135,13 @@
         <div class="dark-overlap">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-heading col-12 d-block">Why Us?</h2>
+                    <h2 class="section-heading col-12 d-block">@lang('homepage.homepage_why_us_sec_h')</h2>
                     <div class="col-lg-7 col-12">
                         <div class="row why-us-cards-toggler">
                             <div class="col-lg-2 col-3">
                                 <div class="why-us-card why-us-single-toggler" data-target="market-leaders">
                                     <div class="why-us-icon-container"><i class="flaticon-team-leader"></i></div>
-                                    <h3 class="why-us-card-title">Market Leaders</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_1_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -152,7 +149,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-experience"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">40 Years of Experience</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_2_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -160,7 +157,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-construction-and-tools"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Trained Human Resources</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_3_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -168,7 +165,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-budget"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">No Hidden Costs</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_4_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -176,7 +173,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-affordable"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Affordable Pricing</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_5_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -184,7 +181,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-moisture-wicking-fabric"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Moisture Free</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_6_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -192,7 +189,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-no-bugs"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Insects Free</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_7_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -200,7 +197,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-gear"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Quick Installation</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_8_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -208,7 +205,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-clean"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Easy Clean</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_9_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -216,7 +213,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-fast-delivery"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Delivery in Time</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_10_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -224,7 +221,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-log"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Anti-Scratch</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_11_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -232,7 +229,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-mute-volume-control"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Sound Proof</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_12_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -240,7 +237,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-debt"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Life-Lasting Stains</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_13_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -248,7 +245,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-guarantee"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Life Time Guarantee</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_14_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -256,7 +253,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-flag"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Pre Finished Products</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_15_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -264,7 +261,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-customer-service"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Customer Support</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_16_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3 offset-lg-0 offset-3">
@@ -272,7 +269,7 @@
                                     <div class="why-us-icon-container">
                                         <i class="flaticon-green-earth"></i>
                                     </div>
-                                    <h3 class="why-us-card-title">Environment Friendly</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_17_h')</h3>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-3">
@@ -280,7 +277,7 @@
                                     <div class="why-us-icon-container ">
                                         <a class="why-us-card-toggler" data-target="card-heading-one"> <i class="flaticon-equalizer"></i> </a>
                                     </div>
-                                    <h3 class="why-us-card-title">Custom Designs</h3>
+                                    <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_18_h')</h3>
                                 </div>
                             </div>
                         </div>
@@ -289,139 +286,129 @@
                         <div class="why-us-card-content">
                             <div class="why-us-card active" id="market-leaders">
                                 <div class="why-us-icon-container"><i class="flaticon-team-leader"></i></div>
-                                <h3 class="why-us-card-title">Market Leaders</h3>
-                                <p class="why-us-card-description">40 years ago, till now we are thankfully enjoying a very good reputation, this didn't come out of thin air, hard-working, trained human resources & investing in new technologies are
-                                    factors which made us the market leaders</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_1_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_1_p')</p>
                             </div>
                             <div class="why-us-card" id="experience">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-experience"></i>
                                 </div>
-                                <h3 class="why-us-card-title">40 Years of Experience</h3>
-                                <p class="why-us-card-description">Over more than 40 years of hard work, we had a great experience in designing, manufacturing & installation of various projects, in addition to the most important part, finishing.
-                                    We achieve the best results including resolving any challenges smoothly without errors.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_2_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_2_p')</p>
                             </div>
                             <div class="why-us-card" id="trained-human-resources">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-construction-and-tools"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Trained Human Resources</h3>
-                                <p class="why-us-card-description">Over the years we built great teams for sales, customer care, production & installation. Building such well-trained and creative professionals doesn't happen in a couple of years,
-                                    it took so much time and effort</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_3_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_3_p')</p>
                             </div>
                             <div class="why-us-card" id="no-hidden-costs">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-budget"></i>
                                 </div>
-                                <h3 class="why-us-card-title">No Hidden Costs</h3>
-                                <p class="why-us-card-description">Don't worry, we don't have any hidden fees, every single pound is agreed on from day one</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_4_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_4_p')</p>
                             </div>
                             <div class="why-us-card" id="affordable-pricing">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-affordable"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Affordable Pricing</h3>
-                                <p class="why-us-card-description">High quality, reasonable prices are very hard to find anywhere else, contact us and book a visit to see how can we fit perfect work within your budget</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_5_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_5_p')</p>
                             </div>
                             <div class="why-us-card" id="moisture-free">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-moisture-wicking-fabric"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Moisture Free</h3>
-                                <p class="why-us-card-description">All our wood is moisture-free, we don't depend on air drying as we have our own kiln dryers to ensure wood humidity level before manufacturing. As humidity is the most important
-                                    factor affecting your final product, this is a critical process that we ensure is done successfully.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_6_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_6_p')</p>
                             </div>
                             <div class="why-us-card" id="insect-free">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-no-bugs"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Insects Free</h3>
-                                <p class="why-us-card-description">In the year 2008, we had a good deal with the Egyptian ministry of agriculture to send their specialized wood insect control team to our factory to ensure all wood are
-                                    insect-free.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_7_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_7_p')</p>
                             </div>
                             <div class="why-us-card" id="quick-and-easy-installation">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-gear"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Quick and Easy Installation</h3>
-                                <p class="why-us-card-description">One of the most challenging jobs is renewing your wood floors while your family is existing in the home, now you can purchase engineered floors from the wood court which is ready
-                                    to be installed on the same day, and walk on it instantly.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_8_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_8_p')</p>
                             </div>
                             <div class="why-us-card" id="easy-clean">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-clean"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Easy Clean</h3>
-                                <p class="why-us-card-description">Either your wood floor or your kitchen from the wood court is the easiest to clean, our fourth-generation finish materials are awesome, easy to be clean & clear from stains and
-                                    dust, very hard to react with most home dirties.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_9_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_9_p')</p>
                             </div>
                             <div class="why-us-card" id="delivery-in-time">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-fast-delivery"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Delivery in Time</h3>
-                                <p class="why-us-card-description">We pay back 1% for every week after delivery time in case of not delivering in time, just in time delivery is not our goal, we seek to deliver your items before delivery time!.
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_10_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_10_p')
                                 </p>
                             </div>
                             <div class="why-us-card" id="anti-scratch">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-log"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Anti-Scratch</h3>
-                                <p class="why-us-card-description">Some of our finishes are scratch-resistant, such as UV-finish for wood floors & polyethylene finishes for kitchens. We also use HPI high-pressure laminate as anti scratch boards
-                                    for kitchens & dressing rooms.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_11_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_11_p')</p>
                             </div>
                             <div class="why-us-card" id="sound-proof">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-mute-volume-control"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Sound Proof</h3>
-                                <p class="why-us-card-description">Hearing the drummy sound when walking on wood floors is very annoying, ask for glue-down floors or floating engineered floors to ensure soundless steps.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_12_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_12_p')</p>
                             </div>
                             <div class="why-us-card" id="life-lasting-stains">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-debt"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Life-Lasting Stains</h3>
-                                <p class="why-us-card-description">When you need to stain your natural wood floors or your kitchen to have a nice color matching your home decor, don't be afraid of stain disappearing from heavy traffic areas, our
-                                    stains are all high quality and & life-lasting even with heavy use.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_13_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_13_p')</p>
                             </div>
                             <div class="why-us-card" id="lifetime-guarantee">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-guarantee"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Life Time Guarantee</h3>
-                                <p class="why-us-card-description">When purchasing from "The Wood Court" for any natural flooring, either floor or cabinets, you obtain a lifetime guarantee against manufacturing or installation faults or defects.
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_14_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_14_p')
                                 </p>
                             </div>
                             <div class="why-us-card" id="pre-finished">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-flag"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Pre Finished Products</h3>
-                                <p class="why-us-card-description">Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly after installation, all our cabinets (Kitchen or Dressing)
-                                    is shipped finished and packed with care.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_15_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_15_p')</p>
                             </div>
                             <div class="why-us-card" id="customer-support">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-customer-service"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Customer Support</h3>
-                                <p class="why-us-card-description">Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to support and solve problems.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_16_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_16_p')</p>
                             </div>
                             <div class="why-us-card" id="env-friendly">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-green-earth"></i>
                                 </div>
-                                <h3 class="why-us-card-title">Environment Friendly</h3>
-                                <p class="why-us-card-description">All our products are environment friendly, we don't use any harmful material, starting from fiberboards, glue, nails ending with chemical adhesive and finishing materials.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_17_h')</h3>
+                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_17_p')</p>
                             </div>
                             <div class="why-us-card" id="custom-designs">
                                 <div class="why-us-icon-container ">
                                     <a class="why-us-card-toggler" data-target="card-heading-one"> <i class="flaticon-equalizer"></i> </a>
                                 </div>
-                                <h3 class="why-us-card-title">Custom Designs</h3>
-                                <p class="why-us-card-description ">We do any custom designs, in addition to our wide variety of pre-made designs. We also accept either editing existing designs or creating new ones.</p>
+                                <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_18_h')</h3>
+                                <p class="why-us-card-description ">@lang('homepage.homepage_why_us_sec_18_p')</p>
                             </div>
                         </div>
                     </div>
@@ -433,19 +420,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="section-title mb-5">Limited Edition</h2>
+                    <h2 class="section-title mb-5">@lang('homepage.homepage_limit_sec_btn_h')</h2>
                     <ul class="owl-carousel owl-theme three-items-carousel">
                         <li class="item">
-                            <span class="item-flag limited">Limited</span>
+                            <span class="item-flag limited">@lang('homepage.homepage_limit_sec_1_2_4_span')</span>
                             <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">
                                 <div class="limited-edition-bg" id="live-egd"></div>
                             </a>
                             <div class="content-container">
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">
-                                    <h3>Live-edge</h3>
+                                    <h3>@lang('homepage.homepage_limit_sec_1_h')</h3>
                                 </a>
-                                <p>The most luxurious desks make their own statements! Limited and absolutely unique.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">View More</a>
+                                <p>@lang('homepage.homepage_limit_sec_1_p')</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/1.jpg"
@@ -497,16 +484,16 @@
                             </div>
                         </li>
                         <li class="item">
-                            <span class="item-flag limited">Limited</span>
+                            <span class="item-flag limited">@lang('homepage.homepage_limit_sec_1_2_4_span')</span>
                             <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories">
                                 <div class="limited-edition-bg" id="lighting-accessories"></div>
                             </a>
                             <div class="content-container">
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories">
-                                    <h3>Lighting Accessories</h3>
+                                    <h3>@lang('homepage.homepage_limit_sec_2_h')</h3>
                                 </a>
-                                <p>Light up your room or office with a modern and elegant touch made from genuine wood.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories">View More</a>
+                                <p>@lang('homepage.homepage_limit_sec_2_p')</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/light/thumbs/1.jpg" alt="light-1"
@@ -520,16 +507,16 @@
                             </div>
                         </li>
                         <li class="item">
-                            <span class="item-flag sale">Customizable</span>
+                            <span class="item-flag sale">@lang('homepage.homepage_limit_sec_3_span')</span>
                             <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards">
                                 <div class="limited-edition-bg" id="business-cards"></div>
                             </a>
                             <div class="content-container">
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards">
-                                    <h3>Business Cards</h3>
+                                    <h3>@lang('homepage.homepage_limit_sec_3_h')</h3>
                                 </a>
-                                <p>Unique laser-cut business cards are a powerful way to be remembered. Order yours now.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards">View More</a>
+                                <p>@lang('homepage.homepage_limit_sec_3_p')</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/1.jpg" alt="b-cards-1"
@@ -547,16 +534,16 @@
                             </div>
                         </li>
                         <li class="item">
-                            <span class="item-flag limited">Limited</span>
+                            <span class="item-flag limited">@lang('homepage.homepage_limit_sec_1_2_4_span')</span>
                             <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">
                                 <div class="limited-edition-bg" id="satined-coasters"></div>
                             </a>
                             <div class="content-container">
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">
-                                    <h3>Exotic Wood Coasters</h3>
+                                    <h3>@lang('homepage.homepage_limit_sec_4_h')</h3>
                                 </a>
-                                <p>The touch and feel of genuine wood is irreplaceable. Accentuate your tables with nature.</p>
-                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">View More</a>
+                                <p>@lang('homepage.homepage_limit_sec_4_p')</p>
+                                <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/1.jpg" alt="coasters-1"
@@ -599,7 +586,7 @@
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="PlaceOrderModalLabel">View More</h5>
+                        <h5 class="modal-title" id="PlaceOrderModalLabel">@lang('homepage.homepage_limit_sec_vmore')</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -610,16 +597,16 @@
                                 <form action="{{route('contactLimitedEdition')}}" method="post" id="place-order-modal-form">
                                     @csrf
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">Name:</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Please enter your name" required>
+                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_name')</label>
+                                        <input type="text" name="name" class="form-control" placeholder="@lang('homepage.homepage_limit_sec_order_form_name_ph')" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">Email / Phone Number:</label>
-                                        <input type="text" name="email" class="form-control" placeholder="Please enter your phone number or email" required>
+                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_email')</label>
+                                        <input type="text" name="email" class="form-control" placeholder="@lang('homepage.homepage_limit_sec_order_form_email_ph')" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="message-text" class="col-form-label">Message: (Optional)</label>
-                                        <textarea class="form-control" name="message" placeholder="Enter any additional details here"></textarea>
+                                        <label for="message-text" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_message')</label>
+                                        <textarea class="form-control" name="message" placeholder="@lang('homepage.homepage_limit_sec_order_form_message_ph')"></textarea>
                                     </div>
                                     <input type="hidden" name="item_name">
                                     <input type="hidden" name="form_location" value="Limited Edition">
@@ -1217,7 +1204,7 @@
         </div>
         <div class="testimonial-rating">
             <h3>Rated 4.8/5 Stars According to 125 Customers</h3>
-            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i> View All Reviews</a>
+            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i>View All Reviews</a>
         </div>
     </section>
     {{-- <section class="latest-articles">
