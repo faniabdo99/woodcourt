@@ -4,7 +4,7 @@
 'ogType' => 'Website'
 ])
 
-<body class="">
+<body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     <h1 class="d-none">@lang('homepage.homepage_weclome_h1')</h1>
     @include('layout.navbar')
     <section class="homepage-hero-section text-left" id="homepage-hero-section">
@@ -624,7 +624,7 @@
         </div>
     </section>
     <section class="expert-hub-cta text-center py-5">
-        <h2 class="text-center d-inline-block">Expert Hub</h2>
+        <h2 class="text-center d-inline-block">@lang('homepage.homepage_expert_hub_sec_h')</h2>
         <div class="container">
         <div class="row mt-5">
             <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
@@ -633,8 +633,8 @@
                 <img class="mb-2" src="{{url('public')}}/images/expert-hub/new.svg" alt="">
                 </div>
                 <div class="col-sm-7 col-lg-12 mt-3 ">
-                <h3>Wood Care Techniques</h3>
-                <p>Get advanced knowledge on how to take care of your wooden possestions like floors and kitchens</p>
+                <h3>@lang('homepage.homepage_expert_hub_sec_1_h')</h3>
+                <p>@lang('homepage.homepage_expert_hub_sec_1_p')</p>
                 </div>
             </div>
             </div>
@@ -644,8 +644,8 @@
                     <img class="mb-2" src="{{url('public')}}/images/expert-hub/faq.svg" alt="">
                 </div>
                 <div class="col-sm-7 col-lg-12 mt-3 ">
-                    <h3>Frequently Asked Questions</h3>
-                    <p>Answer most of your questions about wood floors and other items</p>
+                    <h3>@lang('homepage.homepage_expert_hub_sec_2_h')</h3>
+                    <p>@lang('homepage.homepage_expert_hub_sec_2_p')</p>
                 </div>
                 </div>
                 </div>
@@ -655,20 +655,20 @@
                             <img class="mb-2" src="{{url('public')}}/images/expert-hub/articles.svg" alt="">
                         </div>
                         <div class="col-sm-7 col-lg-12 mt-3 ">
-                            <h3>Articles</h3>
-                        <p>Stay up-to-date about new wood care techniques and methedology</p>
+                            <h3>@lang('homepage.homepage_expert_hub_sec_3_h')</h3>
+                        <p>@lang('homepage.homepage_expert_hub_sec_3_p')</p>
                         </div>
                     </div>
                 </div>
         </div>
     </div>
-    <a class="mb-3 icon-button" href="{{route('expert-hub')}}">Enter Experts Hub</a>
+    <a class="mb-3 icon-button" href="{{route('expert-hub')}}">@lang('homepage.homepage_expert_hub_sec_btn')</a>
     </section>
     <section class="homepage-videos-grid">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="section-title mb-5">Our Videos</h2>
+                <h2 class="section-title mb-5">@lang('homepage.homepage_our_videos_sec_h')</h2>
                 <ul class="owl-carousel owl-theme three-items-carousel">
                     <li class="item">
                         <div class="video-background-homepage" id="video-one">
@@ -728,7 +728,7 @@
 
     <section class="vr-tour p-50">
         <div class="container">
-            <h2 class="section-title mb-5">VR tour of our showroom</h2>
+            <h2 class="section-title mb-5">@lang('homepage.homepage_vr_tour_sec_h')</h2>
             <div class="row">
                 <div class="col-lg-6 col-md-6 d-flex justify-content-center">
                     <iframe width='700' height='380' src='https://my.matterport.com/show/?m=trid4Kk6SPS' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
@@ -736,12 +736,12 @@
                 <div class="col-lg-6 col-md-6 d-flex justify-content-center">
                     <div class="welcome_docmed_info d-flex flex-column justify-content-around">
                         <div>
-                            <p>Can't come to our showroom? Our showroom will come to your screen. Visit our Virtual Reality showroom to see the variety and quality of our products up close.</p>
+                            <p>@lang('homepage.homepage_vr_tour_sec_p')</p>
                         </div>
                         <br>
                         <div class="d-flex">
-                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="{{route('vr-tour')}}" target="_blank">View in Full Screen</a>
-                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">View Our Showroom Location</a>
+                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="{{route('vr-tour')}}" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_1')</a>
+                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_2')</a>
                         </div>
                     </div>
                 </div>
@@ -753,7 +753,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Our Achievements</h2>
+                        <h2>@lang('homepage.homepage_our_achievements_sec_h')</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -763,8 +763,7 @@
                                 <i class="fas fa-heart"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="1500" data-speed="3000"></span>+<br>
-                                Premade<br>Designs
+                                <span class="counter" data-from="25" data-to="1500" data-speed="3000"></span>@lang('homepage.homepage_our_achievements_sec_1')
                             </div>
                         </div>
                     </div>
@@ -774,8 +773,7 @@
                                 <i class="fas fa-user-tie"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="3000" data-speed="3000"></span>+<br>
-                                Customers & Projects
+                                <span class="counter" data-from="25" data-to="3000" data-speed="3000"></span>@lang('homepage.homepage_our_achievements_sec_2')
                             </div>
                         </div>
                     </div>
@@ -785,8 +783,7 @@
                                 <i class="fas fa-chart-area"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="2000" data-speed="3000"></span>+<br>
-                                Square Meter<br>Per Year
+                                <span class="counter" data-from="25" data-to="2000" data-speed="3000"></span>@lang('homepage.homepage_our_achievements_sec_3')
                             </div>
                         </div>
                     </div>
@@ -796,8 +793,7 @@
                                 <i class="fas fa-users"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="60" data-speed="3000"></span>+<br>
-                                Trained Workers &<br>Engineers
+                                <span class="counter" data-from="25" data-to="60" data-speed="3000"></span>@lang('homepage.homepage_our_achievements_sec_4')
                             </div>
                         </div>
                     </div>
@@ -810,13 +806,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>We are <span><img height="50" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo" title="The Wood Court Logo"></span></h2>
-                    <p>Looking for a company to purchase your wood floors, kitchen, dressing room or pergolas?
+                    <h2>@lang('homepage.homepage_about_us_sec_h')<span><img height="50" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo" title="The Wood Court Logo"></span></h2>
+                    <p>@lang('homepage.homepage_about_us_sec_p_1')
                     </p>
-                    <p class="mb-3">The Wood Court is servicing and supplying a vastly growing number of projects for business and private residences in Egypt since 1979. We provide quality work, and help you achieve the most effective improvement
-                        you can make for your home or business with reasonable and affordable prices.
+                    <p class="mb-3">@lang('homepage.homepage_about_us_sec_p_2')
                     </p>
-                    <a href="{{route('about')}}" class="icon-button d-lg-inline d-block text-center mx-auto"><i class="fas fa-star"></i>About us</a>
+                    <a href="{{route('about')}}" class="icon-button d-lg-inline d-block text-center mx-auto"><i class="fas fa-star"></i>@lang('homepage.homepage_about_us_sec_btn')</a>
                 </div>
                 <div class="col-lg-6 col-12">
                     <img class="we-are-the-wood-court-image w-100 h-auto" src="{{url('public')}}/images/about-home.jpg" alt="About the Wood Court">
@@ -829,7 +824,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h2>What People are Saying</h2>
+                        <h2>@lang('homepage.homepage_testim_sec_h')</h2>
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme full-width-carousel-with-nav">
@@ -1203,8 +1198,8 @@
             </div>
         </div>
         <div class="testimonial-rating">
-            <h3>Rated 4.8/5 Stars According to 125 Customers</h3>
-            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i>View All Reviews</a>
+            <h3>@lang('homepage.homepage_testim_sec_rated_h')</h3>
+            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i>@lang('homepage.homepage_testim_sec_rated_btn')</a>
         </div>
     </section>
     {{-- <section class="latest-articles">
@@ -1239,7 +1234,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="section-title">Our Clients</h2>
+                    <h2 class="section-title">@lang('homepage.homepage_our_clients_sec_h')</h2>
                     <div class="owl-carousel owl-theme full-width-carousel-with-nav">
                         <div class="row">
                             <div class="col-lg-2 col-4">

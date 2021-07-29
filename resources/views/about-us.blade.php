@@ -1,7 +1,7 @@
 @include('layout.header', [
-  'PageTitle' => 'About us',
-  'Description' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution',
-  'ogType' => 'Website'
+    'PageTitle' => "@lang('about.about_title')",
+    'Description' => "@lang('about.about_desc')",
+    'ogType' => 'Website'
 ])
 <body>
     @include('layout.navbar')
@@ -10,8 +10,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h1>About Us</h1>
-                        <p class="mb-5">Kitchen, Floor ... and More</p>
+                        <h1>@lang('about.about_title')</h1>
+                        <p class="mb-5">@lang('about.about_hero_sec_p')</p>
                     </div>
                 </div>
             </div>
@@ -21,14 +21,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>We are <span><img height="50" src="{{url('public')}}/images/logo-black.png"></span></h2>
-                    <p class="mb-3">The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution. </p>
-                    <p class="mb-3">We launched our business in 1979 as a small workshop working to a total area of less than 300 square meters, in Sayeda Zainab district in Old Cairo, as the first specialized wood flooring company in Egypt. Within a
-                        few years, the founder Mr. Adel Zahran succeeded in positioning The Wood Court as the market leader in wood flooring industry. Over the years, by means of hardwork and relentless innovation, The Wood Court has become the main
-                        supplier for most of projects all over Egypt.
+                    <h2>@lang('about.about_main_con_h') <span><img height="50" src="{{url('public')}}/images/logo-black.png"></span></h2>
+                    <p class="mb-3">@lang('about.about_main_con_p_1') </p>
+                    <p class="mb-3">@lang('about.about_main_con_p_2')
                     </p>
-                    <p class="mb-3">In 2015 we installed our production line for pergolas and outdoor units with new modern designs, colours, and finishing. This was done in addition to our cooperation with our sister company (Laregina) to produce
-                        kitchens, dressing rooms and sink units.</p>
+                    <p class="mb-3">@lang('about.about_main_con_p_3') </p>
                 </div>
                 <div class="col-lg-6 col-12">
                     <img class="we-are-the-wood-court-image w-100" src="{{url('public')}}/images/about-us-descrition.jpg" alt="We are the wood court">
@@ -36,11 +33,9 @@
             </div>
             <div class="row mt-4">
                 <div class="col-12">
-                    <p class="mb-3">Now in 2020 we are operating from a 6200-square meter factory in Abo Rawash, one of the biggest industrial zones in Egypt, a 400-square meter showroom in Dokki. With over 200 technicians and engineers on board, we
-                        are utilizing the latest technology in wood flooring manufacturing, finishing and installation with a dedicated after-sales team.</p>
-                    <p class="mb-3">We are heavily investing our time and resources to produce the highest quality products using diamond tool equipment, laser-cutting machines, and ultraviolet finishing lines. This enables us to transform a raw
-                        piece of wood into an artistic masterpiece.</p>
-                    <a href="{{route('contact')}}" class="icon-button d-lg-inline d-block text-center"><i class="fas fa-phone"></i>Contact Us</a>
+                    <p class="mb-3">@lang('about.about_main_con_p_4')</p>
+                    <p class="mb-3">@lang('about.about_main_con_p_5') </p>
+                    <a href="{{route('contact')}}" class="icon-button d-lg-inline d-block text-center"><i class="fas fa-phone"></i>@lang('about.about_main_con_btn') </a>
                 </div>
             </div>
         </div>
@@ -50,7 +45,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="section-heading">Our Achievements</h2>
+                        <h2 class="section-heading">@lang('about.about_our_achievements_sec_h')</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -60,8 +55,7 @@
                                 <i class="fas fa-heart"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="1500" data-speed="3000"></span>+<br>
-                                Premade<br>Designs
+                                <span class="counter" data-from="25" data-to="1500" data-speed="3000"></span>@lang('about.about_our_achievements_sec_1')
                             </div>
                         </div>
                     </div>
@@ -71,8 +65,7 @@
                                 <i class="fas fa-user-tie"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="3000" data-speed="3000"></span>+<br>
-                                Customers & Projects
+                                <span class="counter" data-from="25" data-to="3000" data-speed="3000"></span>@lang('about.about_our_achievements_sec_2')
                             </div>
                         </div>
                     </div>
@@ -82,8 +75,7 @@
                                 <i class="fas fa-chart-area"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="2000" data-speed="3000"></span>+<br>
-                                Square Meter<br>Per Year
+                                <span class="counter" data-from="25" data-to="2000" data-speed="3000"></span>@lang('about.about_our_achievements_sec_3')
                             </div>
                         </div>
                     </div>
@@ -93,8 +85,7 @@
                                 <i class="fas fa-users"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="60" data-speed="3000"></span>+<br>
-                                Trained Workers &<br>Engineers
+                                <span class="counter" data-from="25" data-to="60" data-speed="3000"></span>@lang('about.about_our_achievements_sec_4')
                             </div>
                         </div>
                     </div>
@@ -106,56 +97,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Milestones & History</h2>
+                    <h2>@lang('about.about_history_h')</h2>
                     <ul>
                         <li>
                             <div>
-                                <time>1979</time> Started our business with very low budget equipment on a-300 meters workshop.
+                                <time>1979</time> @lang('about.about_history_li_1')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>1984</time> Purchased new types of equipment from SCM Group, For better quality in our new extensions.
+                                <time>1984</time> @lang('about.about_history_li_2')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>1992</time> Expanding our working area approximately to the double.
+                                <time>1992</time>@lang('about.about_history_li_3')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>2000</time> Moving our factory to a bigger one in abo rawash industrial zone, Giza.
+                                <time>2000</time> @lang('about.about_history_li_4')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>2002</time> Replacing our machines and equipment with fully automated production lines.
+                                <time>2002</time> @lang('about.about_history_li_5')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>2006</time> Purchasing new production line to produce geometric wooden tiles.
+                                <time>2006</time> @lang('about.about_history_li_6')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>2009</time> Expanding our working area in abo rawash to approximately 6000+ square meters.
+                                <time>2009</time>@lang('about.about_history_li_7')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>2014</time> Purchasing our brand new ultraviolet curing finishing line from Gbrdina, Italy to produce pre-finished engineered floors.
+                                <time>2014</time> @lang('about.about_history_li_8')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>2015</time> Setting up a new production line for pergolas and outdoor units.
+                                <time>2015</time> @lang('about.about_history_li_9')
                             </div>
                         </li>
                         <li>
                             <div>
-                                <time>2018</time> We signed a cooperation contract with "Laregina For Wood Industries" for doors & cabients products "Kitchens, Dressing Rooms, Sink Units".
+                                <time>2018</time>@lang('about.about_history_li_10')
                             </div>
                         </li>
                     </ul>
@@ -164,70 +155,70 @@
         </div>
     </section>
     <section class="homepage-videos-grid">
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <h2 class="section-title mb-5">Our Videos</h2>
-                  <ul class="owl-carousel owl-theme three-items-carousel">
-                      <li class="item">
-                          <div class="video-background-homepage" id="video-one">
-                              <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
-                              <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
-                          </div>
-                      </li>
-                      <li class="item">
-                          <div class="video-background-homepage" id="video-two">
-                              <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
-                              <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
-                          </div>
-                      </li>
-                      <li class="item">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-title mb-5">@lang('about.about_our_videos_h')</h2>
+                <ul class="owl-carousel owl-theme three-items-carousel">
+                    <li class="item">
+                        <div class="video-background-homepage" id="video-one">
+                            <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="video-background-homepage" id="video-two">
+                            <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
+                    <li class="item">
                         <div class="video-background-homepage" id="video-three">
                             <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-3"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
-                      <div class="video-background-homepage" id="video-three">
-                          <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
-                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
-                      </div>
-                  </li>
-                  <li class="item">
-                      <div class="video-background-homepage" id="video-three">
-                          <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
-                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
-                      </div>
-                  </li>
-                  <li class="item">
-                      <div class="video-background-homepage" id="video-three">
-                          <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
-                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
-                      </div>
-                  </li>
-                  <li class="item">
-                      <div class="video-background-homepage" id="video-three">
-                          <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
-                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
-                      </div>
-                  </li>
-                  <li class="item">
-                      <div class="video-background-homepage" id="video-three">
-                          <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
-                          <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
-                      </div>
-                  </li>
-                  </ul>
-              </div>
-          </div>
-      </div>
+                    <div class="video-background-homepage" id="video-three">
+                        <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="video-background-homepage" id="video-three">
+                        <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="video-background-homepage" id="video-three">
+                        <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="video-background-homepage" id="video-three">
+                        <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="video-background-homepage" id="video-three">
+                        <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
+                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     </section>
     <section class="testimonials-section" id="about-us-testimonials">
         <div class="dark-overlap">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h2>What People are Saying</h2>
+                        <h2>@lang('about.about_testim_sec_h')</h2>
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme full-width-carousel-with-nav">
@@ -601,15 +592,15 @@
             </div>
         </div>
         <div class="testimonial-rating">
-            <h3>Rated 4.8/5 Stars According to 125 Customers</h3>
-            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i> View All Reviews</a>
+            <h3>@lang('about.about_testim_sec_rated_h')</h3>
+            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i> @lang('about.about_testim_sec_rated_btn')</a>
         </div>
     </section>
     <section class="logo-parade">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2>Our Clients</h2>
+                    <h2>@lang('about.about_our_clients_sec_h')</h2>
                     <div class="owl-carousel owl-theme full-width-carousel-with-nav">
                         <div class="row">
                             <div class="col-lg-2 col-4">
@@ -706,37 +697,7 @@
                         <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/presendcy.jpg" alt="EG Presidency"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cabient.png" alt="EG Cabinet"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/leagueofarabstates.png" alt="League of Arab States"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cairo_governorate.png" alt="Cairo Governorate"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/parlement.jpg" alt="EG Parliament"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/elab.jpg" alt="ELAB"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
@@ -744,31 +705,7 @@
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/shorta.png" alt="Nadi al Shorta"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cairo-airport.png" alt="Nadi al Shorta"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/beni_suef_governorate.png" alt="benisuef"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/coop.jpg" alt="benisuef"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/suez.jpg" alt="suez"></a>
-                                </div>
-                            </div>
+
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
