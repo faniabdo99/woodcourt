@@ -35,7 +35,7 @@
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto pr-0">
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">@lang('navbar.navbar_home')</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('about')}}">@lang('navbar.navbar_about')</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('vr-tour')}}">@lang('navbar.navbar_vr')</a></li>
@@ -73,13 +73,13 @@
       <div class="modal-body">
         <form action="{{route('contactGetQuote')}}" method="post">
           @csrf
-          <label>Name</label>
-          <input class="form-control" placeholder="Please Enter Your Name" type="text" name="name" required>
+          <label>@lang('navbar.navbar_quote_name')</label>
+          <input class="form-control" placeholder="@lang('navbar.navbar_quote_name_ph')" type="text" name="name" required>
           <br>
-          <label>Estimated Area (m<sup>2</sup>)</label>
-          <input class="form-control" placeholder="Please Enter Estimted Area" type="number" name="area" required>
+          <label>@lang('navbar.navbar_quote_estimated_area')</label>
+          <input class="form-control" placeholder="@lang('navbar.navbar_quote_estimated_area_ph')" type="number" name="area" required>
           <br>
-          <label>Choose Product(s):</label>
+          <label>@lang('navbar.navbar_quote_choose_product')</label>
           <select class="form-control" name="product_id" multiple>
             @forelse(getCategories() as $Category)
               <option value="{{$Category->title}}">{{$Category->title}}</option>
@@ -87,14 +87,14 @@
             @endforelse
           </select>
           <br>
-          <label>Contact Method</label>
-          <input class="form-control" placeholder="Contact Method (Email , Phone Number) " type="text" name="contact_method" required>
+          <label>@lang('navbar.navbar_quote_contact_method')</label>
+          <input class="form-control" placeholder="@lang('navbar.navbar_quote_choose_product_ph') " type="text" name="contact_method" required>
           <br>
-          <label>Message</label>
-          <textarea class="form-control" placeholder="Please Enter Your Message" name="message" rows="6" required></textarea>
+          <label>@lang('navbar.navbar_quote_message')</label>
+          <textarea class="form-control" placeholder="@lang('navbar.navbar_quote_message_ph')" name="message" rows="6" required></textarea>
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-success">Send Request</button>
+            <button type="button" class="btn btn-danger mr-1 ml-1" data-dismiss="modal">@lang('navbar.navbar_quote_close')</button>
+            <button type="submit" class="btn btn-success">@lang('navbar.navbar_quote_message_btn')</button>
           </div>
         </form>
       </div>

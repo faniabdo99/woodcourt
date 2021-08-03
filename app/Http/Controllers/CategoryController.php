@@ -82,6 +82,33 @@ class CategoryController extends Controller{
       return redirect()->route('admin.category.all')->withSuccess('Category Updated');
     }
   }
+  public function getLocalize($id){
+      $TheCategory = Category::findOrFail($id);
+      return view('admin.category.localize' , compact('TheCategory'));
+  }
+  public function postLocalize($r, $id){
+    $Rules = [
+        'title_value' => 'required',
+        'description_value' => 'required',
+        'type_value' => 'required'
+    ];
+    $Validator = Validator::make($r->all() , $Rules);
+    if($Validator->fails()){
+        return back()->withErrors($Validator->errors()->all());
+    }else{
+        $LocalData = $r->all();
+        $LocalData['category_id'] = $id;
+        //Create or update category local
+        $TheLocal = Category::where('category_id' , $id)->first();
+        if($TheLocal){
+            //Update
+            $TheLocal->update($LocalData);
+        }else{
+            //Create
+            Category::create($LocalData);
+        }
+    return view('admin.category.localize' , compact('TheCategory'));
+}
   public function delete($id){
     Category::findOrFail($id)->delete();
     return back()->withSuccess('Category Deleted');

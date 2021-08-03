@@ -10,6 +10,7 @@ Route::post('contact-get-quote' , 'ContactController@postQuote')->name('contactG
 Route::post('upload-product' , 'ProductController@postNew')->name('postNewProduct');
 Route::get('payment-methods' , 'PagesController@getPaymentMethodsPage')->name('paymentMethods');
 Route::get('privacy-policy' , 'PagesController@getPolicyPage')->name('privacy');
+Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');
@@ -43,6 +44,8 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
       Route::post('/new' , 'CategoryController@postNew')->name('admin.category.postNew');
       Route::get('/edit/{id}' , 'CategoryController@getEdit')->name('admin.category.getEdit');
       Route::post('/edit/{id}' , 'CategoryController@postEdit')->name('admin.category.postEdit');
+      Route::get('/localize/{id}' , 'CategoryController@getLocalize')->name('admin.category.getLocalize');
+      Route::post('/localize/{id}' , 'CategoryController@postLocalize')->name('admin.category.postLocalize');
       Route::get('/delete/{id}' , 'CategoryController@delete')->name('admin.category.delete');
     });
     Route::prefix('products')->group(function(){
@@ -79,8 +82,11 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
     });
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
+<<<<<<< HEAD
 //Marketing Pages Routes
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
+=======
+>>>>>>> 8264d49 (Make accordion)
 
 //Error Pages
 Route::get('404','ErrorsController@get404Page')->name('errors.404page');

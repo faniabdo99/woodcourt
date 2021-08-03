@@ -1,6 +1,6 @@
 @include('layout.header', [
-    'PageTitle' => "@lang('about.about_title')",
-    'Description' => "@lang('about.about_desc')",
+    'PageTitle' =>  __('about.about_title'),
+    'Description' => __('about.about_desc'),
     'ogType' => 'Website'
 ])
 <body>

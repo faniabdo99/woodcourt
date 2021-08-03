@@ -1,14 +1,14 @@
 @include('layout.header', [
-'PageTitle' => "@lang('homepage.homepage_title')",
-'Description' => "@lang('homepage.homepage_desc')",
+'PageTitle' => __('homepage.homepage_title'),
+'Description' => __('homepage.homepage_desc'),
 'ogType' => 'Website'
 ])
 
 <body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     <h1 class="d-none">@lang('homepage.homepage_weclome_h1')</h1>
     @include('layout.navbar')
-    <section class="homepage-hero-section text-left" id="homepage-hero-section">
-        <div class="owl-carousel full-width-carousel">
+    <section class="homepage-hero-section" id="homepage-hero-section">
+        <div class="owl-carousel  owl-theme full-width-carousel" dir="ltr">
             <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12">
@@ -71,6 +71,7 @@
                 </div>
             </div>
         </div>
+
     </section>
     <section id="homepage-categories">
         <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
@@ -421,7 +422,7 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="section-title mb-5">@lang('homepage.homepage_limit_sec_btn_h')</h2>
-                    <ul class="owl-carousel owl-theme three-items-carousel">
+                    <ul class="owl-carousel owl-theme owl-theme three-items-carousel">
                         <li class="item">
                             <span class="item-flag limited">@lang('homepage.homepage_limit_sec_1_2_4_span')</span>
                             <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">
@@ -669,7 +670,7 @@
         <div class="row">
             <div class="col-12">
                 <h2 class="section-title mb-5">@lang('homepage.homepage_our_videos_sec_h')</h2>
-                <ul class="owl-carousel owl-theme three-items-carousel">
+                <ul class="owl-carousel owl-theme owl-theme three-items-carousel">
                     <li class="item">
                         <div class="video-background-homepage" id="video-one">
                             <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
@@ -827,7 +828,7 @@
                         <h2>@lang('homepage.homepage_testim_sec_h')</h2>
                     </div>
                 </div>
-                <div class="owl-carousel owl-theme full-width-carousel-with-nav">
+                <div class="owl-carousel owl-theme owl-theme full-width-carousel-with-nav">
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
@@ -1235,7 +1236,7 @@
             <div class="row">
                 <div class="col-12">
                     <h2 class="section-title">@lang('homepage.homepage_our_clients_sec_h')</h2>
-                    <div class="owl-carousel owl-theme full-width-carousel-with-nav">
+                    <div class="owl-carousel owl-theme owl-theme full-width-carousel-with-nav">
                         <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
@@ -1352,6 +1353,7 @@
         </div>
     </section>
     @include('layout.scripts')
+
     @include('layout.footer')
 </body>
 </html>
