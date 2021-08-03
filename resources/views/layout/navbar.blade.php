@@ -3,7 +3,7 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 <header class="position-relative w-100 @lang('settings.text_align')" dir="@lang('settings.direction')">
-    <div class="upper-nav @lang('settings.text_align_inverse')" dir="@lang('settings.direction_reverse')">
+    <div class="upper-nav">
         <div class="row">
             <ul class="@lang('settings.col_1_eng') text-left upper-nav-social-media">
                 <li><a href="https://facebook.com/thewoodcourt" target="_blank"><i class="fab fa-facebook"></i></a></li>
