@@ -82,11 +82,6 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
     });
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
-<<<<<<< HEAD
-//Marketing Pages Routes
-Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
-=======
->>>>>>> 8264d49 (Make accordion)
 
 //Error Pages
 Route::get('404','ErrorsController@get404Page')->name('errors.404page');

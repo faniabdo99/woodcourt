@@ -3,6 +3,7 @@
 return [
 
     'direction' => 'ltr' ,
+    'direction_reverse' => 'rtl' ,
     'text_align' => 'text-left',
     'text_align_inverse' => 'text-right',
     'col_11_eng' => 'col-11',
