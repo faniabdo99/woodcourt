@@ -31,6 +31,7 @@
                     <span style="visibility:hidden;">ss</span>
                     <a class="text-primary font-weight-bold mr-3" href="{{route('admin.product.getEdit', $Product->id)}}"><i class="fas fa-edit"></i> Edit</a>
                     <a class="text-success font-weight-bold mr-3" href="{{route('admin.product.getCrossSell', $Product->id)}}"><i class="fas fa-sitemap"></i> Cross Sell</a>
+                    <a class="text-success font-weight-bold mr-3" href="{{route('admin.product.getLocalize', $Product->id)}}">Localize</a>
                     </td>
                 </tr>
               @empty

@@ -51,6 +51,8 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
       Route::post('/new' , 'ProductController@postNew')->name('admin.product.postNew');
       Route::get('/edit/{id}' , 'ProductController@getEdit')->name('admin.product.getEdit');
       Route::post('/edit/{id}' , 'ProductController@postEdit')->name('admin.product.postEdit');
+      Route::get('/localize/{id}' , 'ProductController@getLocalize')->name('admin.product.getLocalize');
+      Route::post('/localize/{id}' , 'ProductController@postLocalize')->name('admin.product.postLocalize');
       Route::get('/cross-sell/{id}' , 'ProductController@getCrossSell')->name('admin.product.getCrossSell');
       Route::post('/cross-sell/{id}' , 'ProductController@postCrossSell')->name('admin.product.postCrossSell');
       Route::get('/delete/{id}' , 'ProductController@delete')->name('admin.product.delete');
@@ -78,19 +80,6 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
 //Marketing Pages Routes
-Route::get('wood-flooring','MarketingController@getWoodFlooring')->name('category.wood-flooring');
-Route::get('wood-flooring/engineered-floors','MarketingController@getEngineeredFloors')->name('category.wood-flooring.engineered-floors');
-Route::get('wood-flooring/tiles','MarketingController@getTiles')->name('category.wood-flooring.tiles');
-Route::get('wood-flooring/stairs','MarketingController@getStairs')->name('category.wood-flooring.stairs');
-Route::get('wood-flooring/hdf-floors','MarketingController@getHdfFloors')->name('category.wood-flooring.hdf');
-Route::get('cabinets','MarketingController@getCabinets')->name('category.cabinets');
-Route::get('cabinets/kitchens','MarketingController@getKitchens')->name('category.cabinets.kitchens');
-Route::get('cabinets/dressing','MarketingController@getDressings')->name('category.cabinets.dressing');
-Route::get('cabinets/sink-units','MarketingController@getSinkUnits')->name('category.cabinets.sink-units');
-Route::get('outdoor','MarketingController@getOutdoor')->name('category.outdoor');
-Route::get('outdoor/teak-flooring','MarketingController@getTeakFlooring')->name('category.outdoor.teak-flooring');
-Route::get('outdoor/shower-units','MarketingController@getShowerUnits')->name('category.outdoor.shower-units');
-Route::get('outdoor/pergolas','MarketingController@getPergolas')->name('category.outdoor.pergolas');
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
 
 //Error Pages

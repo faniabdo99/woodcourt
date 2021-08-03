@@ -176,6 +176,33 @@ class ProductController extends Controller{
     return redirect()->route('admin.product.all')->withSuccess('Product Updated!');
     }
   }
+  public function getLocalize($id){
+    $TheProduct = Product::finOrFail($id)->all();
+    return view('admin.product.getLocalize' , compact('TheProduct'));
+  }
+  public function postLocalize(Request $r , $id){
+    $Rules = [
+      'title_value' => 'required',
+      'description_value' => 'required',
+      'type_value' => 'required',
+    ];
+    $Validator = Validator::make($r->all() , $Rules);
+    if($Validator->fails()){
+      return back()->withErrors($Validator->errors()->all())->withInput();
+    }
+    else{
+      $LocalData = $r->all();
+      $LocalData['doctor_id'] = $id;
+      //Create or update category local
+      $TheLocal = Product_Locale::where('product_id' , $id)->first();
+      if($TheLocal){        
+          $TheLocal->update($LocalData);
+      }else{
+          Product_Locale::create($LocalData);
+      }
+    }
+    return view('admin.product.all')->withSuccess('Translate Added');
+  }
   public function delete($id){
     Product::findOrFail($id)->delete();
     return back()->withSuccess('Product Deleted');
