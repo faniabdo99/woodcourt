@@ -33,12 +33,23 @@
         </div>
     </div>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="{{route('home')}}">
+        <a class="navbar-brand  href="{{route('home')}}">
             <img src="{{url('public')}}/images/logo-blue.png" alt="The Wood Court Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        @if(session()->get('locale') == 'ar')
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
+        @elseif(session()->get('locale') == 'en' )
+        <button class="navbar-toggler " id="navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        @else
+        <button class="navbar-toggler " id="navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        @endif
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto pr-0">
                 <li class="nav-item"><a class="nav-link" href="{{route('home')}}">@lang('navbar.navbar_home')</a></li>

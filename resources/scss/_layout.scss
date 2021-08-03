@@ -15,7 +15,7 @@
           text-align: left;
           justify-content: flex-start;
           width: 100%;
-          
+
           li{
             font-size: 1.5em;
           }
@@ -45,6 +45,11 @@
             width: auto;
         }
     }
+    #navbar-toggler-right{
+        position: absolute;
+        right:0;
+    }
+
     .navbar-nav {
         .nav-item {
             margin-left: 25px;
@@ -220,6 +225,7 @@
         margin: 8px 30px !important;
     }
 
+}
 @media screen and (max-width: 768px) {
     .upper-nav {
         display: none;
@@ -231,6 +237,7 @@
             color: #000;
             margin-right: 10px;
         }
+
 
         .navbar-brand {
             margin-left: 10px;

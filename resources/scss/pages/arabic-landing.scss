@@ -13,13 +13,14 @@
         display: none;
     }
 }
-.navbar-toggler{
+.navbar-toggler-left{
     position: absolute;
     left: 0;
     &:focus{
         outline: 0 !important;
 }
 }
+
 #our-products{
     .row{
         margin-bottom: 100px;

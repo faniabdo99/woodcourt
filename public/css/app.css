@@ -100,7 +100,6 @@ a:hover {
   text-align: left;
   justify-content: flex-start;
   width: 100%;
-  margin: -5px 0 0 0;
 }
 .upper-nav ul.upper-nav-social-media li {
   font-size: 1.5em;
@@ -127,6 +126,10 @@ a:hover {
 .navbar .navbar-brand img {
   height: 50px;
   width: auto;
+}
+.navbar #navbar-toggler-right {
+  position: absolute;
+  right: 0;
 }
 .navbar .navbar-nav .nav-item {
   margin-left: 25px;
@@ -297,8 +300,8 @@ a:hover {
     align-items: center;
   }
 
-  .upper-nav-social-media {
-    margin: 8px 30px;
+  .upper-nav ul.upper-nav-social-media {
+    margin: 8px 30px !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -2746,11 +2749,11 @@ hr {
   display: none;
 }
 
-.navbar-toggler {
+.navbar-toggler-left {
   position: absolute;
   left: 0;
 }
-.navbar-toggler:focus {
+.navbar-toggler-left:focus {
   outline: 0 !important;
 }
 
