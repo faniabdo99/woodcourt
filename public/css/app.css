@@ -2,6 +2,7 @@
 body {
   font-family: "Work Sans", "Tajawal", serif;
   font-size: 15px;
+  box-sizing: border-box;
 }
 
 .brand {
@@ -86,7 +87,7 @@ a:hover {
   width: 100%;
   height: 50px;
   background-color: #0D8287;
-  padding: 15px 50px 0 50px;
+  padding: 9px 50px 40px 50px;
 }
 .upper-nav ul {
   flex: 1;
@@ -126,6 +127,9 @@ a:hover {
 .navbar .navbar-brand img {
   height: 50px;
   width: auto;
+}
+.navbar .navbar-toggler {
+  outline: 0;
 }
 .navbar #navbar-toggler-right {
   position: absolute;
@@ -282,6 +286,7 @@ a:hover {
 
   .navbar {
     padding: 0;
+    top: 0;
   }
   .navbar .navbar-brand {
     margin-left: 10px;
@@ -302,6 +307,30 @@ a:hover {
 
   .upper-nav ul.upper-nav-social-media {
     margin: 8px 30px !important;
+  }
+}
+@media (min-width: 1150px) and (max-width: 1240px) {
+  .navbar .navbar-nav .nav-item {
+    margin-left: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav {
+    padding-top: 10vh;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100% !important;
+    background: #fff;
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    background: #ffffff;
   }
 }
 @media screen and (max-width: 768px) {
@@ -610,14 +639,14 @@ a:hover {
 }
 .logo-parade .owl-nav button.owl-prev {
   position: absolute;
-  left: -5%;
+  left: -51px;
   background: #0D8287;
   color: #fff;
   border-radius: 50%;
 }
 .logo-parade .owl-nav button.owl-next {
   position: absolute;
-  right: -5%;
+  right: -30px;
   background: #0D8287;
   color: #fff;
   border-radius: 50%;
@@ -943,14 +972,14 @@ a:hover {
 }
 .products-list .owl-nav button.owl-prev {
   position: absolute;
-  left: -7%;
+  left: -51px;
   background: #0D8287;
   color: #fff;
   border-radius: 50%;
 }
 .products-list .owl-nav button.owl-next {
   position: absolute;
-  right: -5%;
+  right: -8px;
   background: #0D8287;
   color: #fff;
   border-radius: 50%;
@@ -1602,14 +1631,14 @@ a:hover {
 }
 .homepage-videos-grid .owl-nav button.owl-prev {
   position: absolute;
-  left: -7%;
+  left: -51px;
   background: #0D8287;
   color: #fff;
   border-radius: 50%;
 }
 .homepage-videos-grid .owl-nav button.owl-next {
   position: absolute;
-  right: -5%;
+  right: -8px;
   background: #0D8287;
   color: #fff;
   border-radius: 50%;
@@ -1745,6 +1774,23 @@ a:hover {
     left: 40%;
   }
 }
+.vr-btn-parent .vr-btn {
+  border: 5px solid #FFF;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .vr-btn-parent .vr-btn {
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 1150px) {
   .homepage-videos-grid {
     background: #F1F1F1;
@@ -1760,7 +1806,7 @@ a:hover {
     font-size: 1em;
   }
   .homepage-videos-grid .owl-nav button.owl-prev {
-    left: -4%;
+    left: -5.3%;
   }
   .homepage-videos-grid .owl-nav button.owl-next {
     right: 0%;

@@ -740,9 +740,9 @@
                             <p>@lang('homepage.homepage_vr_tour_sec_p')</p>
                         </div>
                         <br>
-                        <div class="d-flex">
-                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="{{route('vr-tour')}}" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_1')</a>
-                            <a class="icon-button text-center mx-auto align-self-end vr-btn" href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_2')</a>
+                        <div class="row vr-btn-parent">
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-6 col-md-12 col-sm-12" href="{{route('vr-tour')}}" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_1')</a>
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-6 col-md-12 col-sm-12" href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_2')</a>
                         </div>
                     </div>
                 </div>

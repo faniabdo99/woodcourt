@@ -31,8 +31,8 @@
                 </ul>
             </div>
             <div class="col-lg-5 col-12 footer-map d-flex flex-column">
-                <div class="d-flex">
-                    <div class="p-1">
+                <div class="row justify-content-center">
+                    <div class="p-1 w-75">
                         <b>@lang('footer.footer_location_1') <button class="hidden-btn-parent" onclick="myFunction1()">@lang('footer.footer_location_btn')<input class="hidden-btn" type="text" value="https://g.page/thewoodcourt?share" id="iframe1">
                         </button>
                             </b>
@@ -41,7 +41,7 @@
                             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                             tabindex="0"></iframe>
                     </div>
-                    <div class="p-1">
+                    <div class="p-1 w-75">
                         <b>@lang('footer.footer_location_2') <button class="hidden-btn-parent" onclick="myFunction2()">@lang('footer.footer_location_btn') <input class="hidden-btn" type="text" value="https://goo.gl/maps/3VvUAo7KPgCHz9r79" id="iframe2">
                         </button>
                         </b>
@@ -69,13 +69,13 @@ function myFunction1() {
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   document.execCommand("copy");
-  alert("Link Copied");
+  alert("Showroom Link Copied");
 }
 function myFunction2() {
   var copyText = document.getElementById("iframe2");
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   document.execCommand("copy");
-  alert("Link Copied");
+  alert("Factory Link Copied");
 }
 </script>

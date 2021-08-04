@@ -258,14 +258,14 @@
             }
             &.owl-prev {
                 position: absolute;
-                left: -5%;
+                left: -51px;
                 background: $brand;
                 color: #fff;
                 border-radius: 50%;
             }
             &.owl-next {
                 position: absolute;
-                right: -5%;
+                right: -30px;
                 background: $brand;
                 color: #fff;
                 border-radius: 50%;
@@ -586,14 +586,14 @@
           }
           &.owl-prev {
               position: absolute;
-              left: -7%;
+              left: -51px;
               background: $brand;
               color: #fff;
               border-radius: 50%;
           }
           &.owl-next {
               position: absolute;
-              right: -5%;
+              right: -8px;
               background: $brand;
               color: #fff;
               border-radius: 50%;

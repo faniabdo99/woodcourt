@@ -3,7 +3,8 @@
     width: 100%;
     height: 50px;
     background-color: $brand;
-    padding: 15px 50px 0 50px;
+    padding: 9px 50px 40px 50px;
+
     ul {
         flex: 1;
         margin: 0 0 0 auto;
@@ -44,6 +45,9 @@
             height: 50px;
             width: auto;
         }
+    }
+    .navbar-toggler{
+        outline: 0;
     }
     #navbar-toggler-right{
         position: absolute;
@@ -181,6 +185,7 @@
   }
 }
 //Mobile Design
+
 @media screen and (max-width: 1150px) {
   .upper-nav{
     height: auto;
@@ -204,6 +209,7 @@
   }
   .navbar {
     padding: 0;
+    top: 0;
     .navbar-brand {
         margin-left: 10px;
     }
@@ -226,6 +232,33 @@
     }
 
 }
+@media (min-width: 1150px) and (max-width: 1240px) {
+    .navbar .navbar-nav .nav-item{
+        margin-left: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+        padding-top: 10vh;
+        margin: 0 auto;
+        height: 100vh;
+        width: 100% !important;
+        background: #fff;
+        text-align: center;
+
+        .nav-item {
+            margin-bottom: 15px;
+            margin-left: 0;
+        }
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link::after{
+        background: #ffffff;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .upper-nav {
         display: none;
