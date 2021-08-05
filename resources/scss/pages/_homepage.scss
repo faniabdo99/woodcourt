@@ -608,10 +608,14 @@
 }
 .hidden-btn-parent{
     z-index: 200;
-    width: 30%;
+
     color: white;
     background-color: transparent;
     border: none;
+}
+.hidden-btn-parent:focus{
+    border: none;
+    outline: 0;
 }
 .hidden-btn{
     z-index: 1;
