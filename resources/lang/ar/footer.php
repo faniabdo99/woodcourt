@@ -10,7 +10,7 @@ return[
     'footer_links_7' => 'سياسة الخصوصية',
     'footer_location_1' => 'المعرض',
     'footer_location_2' => 'المصنع',
-    'footer_location_btn' => 'نسخ الرابط',
+    'footer_location_btn' => '(نسخ الرابط)',
     'footer_pay_h' => 'طرق الدفع',
     'footer_pay_credit' => '*بطاقات الائتمان والشيكات والتحويلات المصرفية مقبولة',
 ];

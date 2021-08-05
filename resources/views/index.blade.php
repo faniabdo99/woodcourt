@@ -1293,19 +1293,24 @@
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
                                 </div>
                             </div>
+
+
+                        </div>
+                        <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
                                 </div>
                             </div>
+
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
@@ -1328,22 +1333,19 @@
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
                                 </div>
                             </div>
-
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
                                 </div>
                             </div>
                         </div>

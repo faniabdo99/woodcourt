@@ -12,7 +12,7 @@ return[
     'footer_links_7' => 'Privacy Policy',
     'footer_location_1' => 'Showroom',
     'footer_location_2' => 'Factory',
-    'footer_location_btn' => 'Copy Link',
+    'footer_location_btn' => '(Copy Link)',
     'footer_pay_h' => 'Payment Methods',
     'footer_pay_credit' => '*Credit cards, checks & Bank transfers are acceptable',
 ];

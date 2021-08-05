@@ -1825,17 +1825,28 @@ a:hover {
     left: 40%;
   }
 }
+@media screen and (max-width: 992px) {
+  .about-us-description .row {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 575px) {
+  .section-mob-style {
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+  }
+
+  .section-mob-style img {
+    margin-right: 0px !important;
+  }
+}
 .hidden-btn-parent {
   z-index: 200;
-  width: 50%;
+  width: 30%;
   color: white;
-  background-color: #0D8287;
+  background-color: transparent;
   border: none;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .hidden-btn {
