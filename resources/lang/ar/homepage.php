@@ -25,7 +25,7 @@ return [
     'homepage_our_products_sec_3_p' => 'في الوقت الحاضر ، بعد الحجر الصحي ، أدركنا جميعًا أهمية خصوصيتنا ...',
     'homepage_our_products_sec_vmore' => 'عرض المزيد',
     'homepage_our_products_sec_btn' => 'اكتشف المنتجات',
-    'homepage_why_us_sec_h' => 'لماذا نحن؟',
+    'homepage_why_us_sec_h' => 'لماذا تختار وود كورت',
     'homepage_why_us_sec_1_h' => 'قادة السوق',
     'homepage_why_us_sec_2_h' => '40 عاما من الخبرة',
     'homepage_why_us_sec_3_h' => 'الموارد البشرية المدربة',
