@@ -1,10 +1,10 @@
 @include('layout.header', ['PageTitle' => 'Kitchen, Floor ... and More'])
-<body>
+<body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     @include('layout.navbar')
     <section class="hero-section mb-5" id="products-section">
         <div class="dark-overlap">
-            <h1>Our Products</h1>
-            <p>Kitchen, Floor ... and More</p>
+            <h1>@lang('products.products_h')</h1>
+            <p>@lang('products.products_p')</p>
         </div>
     </section>
     <section class="products-page mt-5">
@@ -12,9 +12,9 @@
             <div class="row">
                 <div class="col-lg-3 col-12">
                     <div class="products-sidebar mb-5">
-                        <h3 class="sidebar-title">Filter By Category</h3>
+                        <h3 class="sidebar-title">@lang('products.products_sidebar_cat')</h3>
                         <ul class="filter-items">
-                            <li><a href="{{route('products')}}">All</a></li>
+                            <li><a href="{{route('products')}}">@lang('products.products_sidebar_all')</a></li>
                             @foreach ($AllCategories as $key => $Category)
                             <li>
                                 <a @if(request()->route('filter') == $Category->slug) class="active" @endif href="{{route('products' , ['category' , $Category->slug])}}">{{$Category->title}}</a>
@@ -29,7 +29,7 @@
                         </ul>
                     </div>
                     <div class="products-sidebar mb-5">
-                        <h3 class="sidebar-title">Filter By Wood Type</h3>
+                        <h3 class="sidebar-title">@lang('products.products_sidebar_type')</h3>
                         <ul class="filter-items">
                             <li>
                                 <ul class="filter-sub-items">
@@ -46,8 +46,8 @@
                         @if(request()->route('isFiltered') != null)
                             <div class="col-12">
                                 <h2>
-                                    @if(request()->route('isFiltered') == 'wood-type') Wood Type @endif
-                                    @if(request()->route('isFiltered') == 'category') Category @endif
+                                    @if(request()->route('isFiltered') == 'wood-type') @lang('products.products_sidebar_content_h_1') @endif
+                                    @if(request()->route('isFiltered') == 'category') @lang('products.products_sidebar_content_h_2') @endif
                                      : {{ucwords(str_replace('-' , ' ' ,request()->route('filter')))}}</h2>
                             </div>
                         @endif
@@ -67,7 +67,7 @@
                                                     @empty
                                                     @endforelse
                                                     <br>
-                                                    <li><a href="{{route('products' , ['category' , $SingleCategory->slug])}}">View All <b>{{$SingleCategory->title}}</b></a></li>
+                                                    <li><a href="{{route('products' , ['category' , $SingleCategory->slug])}}">@lang('products.products_sidebar_content_btn_1') <b>{{$SingleCategory->title}}</b></a></li>
                                                 </ul>
                                             </p>
                                         </div>
@@ -103,12 +103,12 @@
                                     <div class="content-container">
                                         <h2>{{$Product->title}}</h2>
                                     </div>
-                                    <a class="icon-button d-block w-100 text-center" href="{{route('products.single' , $Product->slug)}}">View Details</a>
+                                    <a class="icon-button d-block w-100 text-center" href="{{route('products.single' , $Product->slug)}}">@lang('products.products_sidebar_content_btn_2')</a>
                                 </a>
                             </div>
                         </div>
                         @empty
-                        <p>There is no products matches your requirments</p>
+                        <p>@lang('products.products_sidebar_content_p')</p>
                         @endforelse
                     </div>
                 </div>

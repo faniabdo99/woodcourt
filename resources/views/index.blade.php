@@ -11,7 +11,7 @@
         <div class="owl-carousel  owl-theme full-width-carousel" dir="ltr">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="pt-5 content-section col-lg-4 col-12">
+                    <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
                         <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
                             src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
@@ -420,7 +420,7 @@
         <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12"  dir="@lang('settings.direction_initial')">
                     <h2 class="section-title mb-5">@lang('homepage.homepage_limit_sec_btn_h')</h2>
                     <ul class="owl-carousel owl-theme owl-theme three-items-carousel">
                         <li class="item">
@@ -432,7 +432,7 @@
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">
                                     <h3>@lang('homepage.homepage_limit_sec_1_h')</h3>
                                 </a>
-                                <p>@lang('homepage.homepage_limit_sec_1_p')</p>
+                                <p dir="@lang('settings.direction')">@lang('homepage.homepage_limit_sec_1_p')</p>
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
@@ -661,12 +661,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
-    </div>
-    <a class="mb-3 icon-button" href="{{route('expert-hub')}}">@lang('homepage.homepage_expert_hub_sec_btn')</a>
+        <a class="mb-3 icon-button" href="{{route('expert-hub')}}">@lang('homepage.homepage_expert_hub_sec_btn')</a>
     </section>
-    <section class="homepage-videos-grid">
-    <div class="container">
+    <section class="homepage-videos-grid"  dir="@lang('settings.direction_initial')">
+      <div class="container">
         <div class="row">
             <div class="col-12">
                 <h2 class="section-title mb-5">@lang('homepage.homepage_our_videos_sec_h')</h2>
@@ -724,9 +724,8 @@
                 </ul>
             </div>
         </div>
-    </div>
+     </div>
     </section>
-
     <section class="vr-tour p-50">
         <div class="container">
             <h2 class="section-title mb-5">@lang('homepage.homepage_vr_tour_sec_h')</h2>
@@ -820,7 +819,7 @@
             </div>
         </div>
     </section>
-    <section class="testimonials-section" id="about-us-testimonials">
+    <section class="testimonials-section" id="about-us-testimonials" d dir="@lang('settings.direction_initial')">
         <div class="dark-overlap">
             <div class="container-fluid">
                 <div class="row">
@@ -1198,40 +1197,12 @@
                 </div>
             </div>
         </div>
-        <div class="testimonial-rating">
-            <h3>@lang('homepage.homepage_testim_sec_rated_h')</h3>
+        <div class="testimonial-rating" dir=" dir="@lang('settings.direction')"">
+            <h3 class="mr-1">@lang('homepage.homepage_testim_sec_rated_h')</h3>
             <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i>@lang('homepage.homepage_testim_sec_rated_btn')</a>
         </div>
     </section>
-    {{-- <section class="latest-articles">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2>Latest Articles</h2>
-          </div>
-        </div>
-        <div class="row">
-          @forelse ($LatestBlogs as $SingleBlog)
-            <div class="col-lg-4 col-12">
-              <div class="single-article-card mb-4 mb-lg-0">
-                <img src="{{$SingleBlog->ImageSrc}}" title="" alt="">
-    <div class="content-container">
-        <a href="{{route('events.single' , $SingleBlog->slug)}}">
-            <h3>{{$SingleBlog->title}}</h3>
-        </a>
-        <p>{{$SingleBlog->description}}</p>
-        <a class="icon-button" href="{{route('events.single' , $SingleBlog->slug)}}"><i class="fas fa-angle-double-right"></i> Read More</a>
-    </div>
-    </div>
-    </div>
-    @empty
-
-    @endforelse
-
-    </div>
-    </div>
-    </section> --}}
-    <section class="logo-parade">
+    <section class="logo-parade" dir="@lang('settings.direction_initial')">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">

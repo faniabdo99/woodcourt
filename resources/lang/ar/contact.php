@@ -3,7 +3,7 @@
 return[
     'contact_hero_sec_h' => 'تواصل معنا',
     'contact_hero_sec_p' => 'المطابخ والأرضيات ... والمزيد',
-    'contact_hero_sec_sidebar_p' => 'Find Us On Social Media',
+    'contact_hero_sec_sidebar_p' => 'تجدنا على وسائل التواصل الاجتماعي',
     'contact_con_form_h' => 'معلومات الاتصال',
     'contact_con_form_p' => 'متاح على مدار الساعة طوال أيام الأسبوع ، سيسعد أعضاء فريقنا بخدمتك',
     'contact_location_title_phone_1' => 'المعرض',

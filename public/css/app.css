@@ -1082,6 +1082,10 @@ a:hover {
   background-color: darkorange;
 }
 
+.location-map {
+  border: 3px solid transparent;
+}
+
 @media screen and (max-width: 992px) {
   .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
@@ -1241,9 +1245,6 @@ a:hover {
 .homepage-hero-section .p-category {
   color: #0D8287;
   margin-bottom: 0;
-}
-.homepage-hero-section h2, .homepage-hero-section p, .homepage-hero-section a, .homepage-hero-section .logo-img {
-  margin-left: 6%;
 }
 .homepage-hero-section h2 {
   font-weight: 600;

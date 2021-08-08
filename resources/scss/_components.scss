@@ -703,6 +703,9 @@
     background-color: darkorange;
   }
 }
+.location-map{
+    border: 3px solid transparent;
+}
 //Mobile Version of the components
 @media screen and (max-width: 992px) {
     .hero-section {

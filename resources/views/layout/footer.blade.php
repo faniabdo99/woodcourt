@@ -20,8 +20,9 @@
                     <li><a href="{{ route('home') }}"><i class="fas fa-home"> </i>&nbsp; @lang('footer.footer_links_1')</a></li>
                     <li><a href="{{ route('about') }}"><i class="fas fa-question-circle"></i> &nbsp;@lang('footer.footer_links_2')</a></li>
                     <li><a href="{{ route('events') }}"><i class="fas fa-calendar"></i> &nbsp;@lang('footer.footer_links_3')</a></li>
-                    <li><a href="{{ route('paymentMethods') }}"><i class="fas fa-credit-card"></i> &nbsp; @lang('footer.footer_pay_h')</a>
-                    </li>
+                    <li><a href="{{ route('paymentMethods') }}"><i class="fas fa-credit-card"></i> &nbsp; @lang('footer.footer_pay_h')</a></li>
+                    <li><a href="{{ route('vr-tour') }}"><i class="fas fa-glasses"></i> &nbsp;@lang('footer.footer_links_8')</a></li>
+
                 </ul>
                 <ul>
                     <li><a href="{{ route('products') }}"><i class="fas fa-box"></i> &nbsp;@lang('footer.footer_links_4')</a></li>
@@ -32,7 +33,7 @@
             </div>
             <div class="col-lg-5 col-12 footer-map d-flex flex-column">
                 <div class="row ">
-                    <div class="p-1 col-lg-6  col-sm-6">
+                    <div class="p-1 col-lg-6 col-sm-6 location-map">
                         <b>@lang('footer.footer_location_1') <button href="javascript:;" class="hidden-btn-parent" onclick="myFunction1()">@lang('footer.footer_location_btn')<input class="hidden-btn" type="text" value="https://g.page/thewoodcourt?share" id="iframe1">
                         </button>
                             </b>
@@ -41,7 +42,7 @@
                             frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                             tabindex="0"></iframe>
                     </div>
-                    <div class="p-1 col-lg-6  col-sm-6">
+                    <div class="p-1 col-lg-6 col-sm-6 location-map">
                         <b>@lang('footer.footer_location_2') <button href="javascript:;" class="hidden-btn-parent" onclick="myFunction2()">@lang('footer.footer_location_btn') <input class="hidden-btn" type="text" value="https://goo.gl/maps/3VvUAo7KPgCHz9r79" id="iframe2">
                         </button>
                         </b>

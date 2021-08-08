@@ -10,6 +10,7 @@ return[
     'footer_links_5' => 'Contact',
     'footer_links_6' => 'Blog',
     'footer_links_7' => 'Privacy Policy',
+    'footer_links_8' => 'VR Tour',
     'footer_location_1' => 'Showroom',
     'footer_location_2' => 'Factory',
     'footer_location_btn' => '(Copy Link)',

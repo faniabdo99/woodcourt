@@ -2,7 +2,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPPW7VJ"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-<header class="position-relative w-100 @lang('settings.text_align')" dir="@lang('settings.direction')">
+<header class="position-relative w-100 @lang('settings.text_align')" dir="@lang('settings.direction_initial')">
     <div class="upper-nav">
         <div class="row">
             <ul class="@lang('settings.col_1_eng') text-left upper-nav-social-media">
@@ -18,22 +18,22 @@
                 <div class="d-flex align-items-center">
                     <li><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
                     <li><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">@lang('navbar.navbar_clock')</a></li>
-                    {{-- <li class="ml-0">
+                    <li class="ml-0">
                         @if(session()->get('locale') == 'ar')
-                        <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-language"></i> English</a></li>
+                        <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @elseif(session()->get('locale') == 'en' )
-                        <li><a href="{{route('switchLang' , 'ar')}}"><i class="fas fa-language"></i> العربية</a></li>
+                        <li><a href="{{route('switchLang' , 'ar')}}"><i class="fas fa-globe-africa"></i> العربية</a></li>
                         @else
-                        <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-language"></i> English</a></li>
+                        <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @endif
-                    </li> --}}
+                    </li>
 
                 </div>
             </ul>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand  href="{{route('home')}}">
+        <a class="navbar-brand " href="{{route('home')}}">
             <img src="{{url('public')}}/images/logo-blue.png" alt="The Wood Court Logo">
         </a>
         @if(session()->get('locale') == 'ar')
@@ -52,20 +52,14 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto pr-0">
-                <li class="nav-item"><a class="nav-link" href="{{route('home')}}">@lang('navbar.navbar_home')</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('about')}}">@lang('navbar.navbar_about')</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{route('vr-tour')}}">@lang('navbar.navbar_vr')</a></li>
+                {{-- <li class="nav-item"><a class="nav-link" href="{{route('home')}}">@lang('navbar.navbar_home')</a></li> --}}
+                {{-- <li class="nav-item"><a class="nav-link" href="{{route('about')}}">@lang('navbar.navbar_about')</a></li> --}}
+                {{-- <li class="nav-item"><a class="nav-link" href="{{route('vr-tour')}}">@lang('navbar.navbar_vr')</a></li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li> --}}
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="woodCare" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@lang('navbar.navbar_products') <i class="fas fa-chevron-down"></i></a>
-                <div class="dropdown-menu @lang('settings.text_align')" dir="@lang('settings.direction')" aria-labelledby="woodCare">
-                    <a class="dropdown-item" href="{{route('products')}}">@lang('navbar.navbar_products_all')</a>
-                    <a class="dropdown-item" href="{{route('products', ['category','wood-flooring'])}}">@lang('navbar.navbar_products_hardwood_floor')</a>
-                    <a class="dropdown-item" href="{{route('products', ['category','cabinets'])}}">@lang('navbar.navbar_products_kitchens')</a>
-                    <a class="dropdown-item" href="{{route('products', ['category','outdoor'])}}">@lang('navbar.navbar_products_outdoor')</a>
-                </div>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="{{route('events')}}">@lang('navbar.navbar_events')</a></li>
+                    <li class="nav-item"> <a  class="nav-link" href="{{route('products', ['category','wood-flooring'])}}">@lang('navbar.navbar_products_hardwood_floor')</a></li>
+                    <li class="nav-item">  <a  class="nav-link" href="{{route('products', ['category','cabinets'])}}">@lang('navbar.navbar_products_kitchens')</a></li>
+                    <li class="nav-item">   <a  class="nav-link" href="{{route('products', ['category','outdoor'])}}">@lang('navbar.navbar_products_outdoor')</a></li>
+                {{-- <li class="nav-item"><a class="nav-link" href="{{route('events')}}">@lang('navbar.navbar_events')</a></li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">@lang('navbar.navbar_expert')</a></li> --}}
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">@lang('navbar.navbar_contact')</a></li>
                 <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">@lang('navbar.navbar_quote')</a></li>
