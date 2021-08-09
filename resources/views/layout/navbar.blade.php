@@ -12,19 +12,19 @@
             </ul>
             <ul class="nav-upper-flex @lang('settings.col_11_eng') d-flex">
                 <div class="d-flex align-items-center">
-                    <li><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> @lang('navbar.navbar_location')</a></li>
-                    <li><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a> | <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a></li>
+                    <li class="mx-2"><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> @lang('navbar.navbar_location')</a></li>
+                    <li class="mx-2"><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a> | <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a></li>
                 </div>
                 <div class="d-flex align-items-center">
-                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
-                    <li><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">@lang('navbar.navbar_clock')</a></li>
+                    <li class="mx-2"><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
+                    <li class="mx-2"><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">@lang('navbar.navbar_clock')</a></li>
                     <li class="ml-0">
                         @if(session()->get('locale') == 'ar')
-                        <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
+                        <li class="mx-2"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @elseif(session()->get('locale') == 'en' )
-                        <li><a href="{{route('switchLang' , 'ar')}}"><i class="fas fa-globe-africa"></i> العربية</a></li>
+                        <li class="mx-2"><a href="{{route('switchLang' , 'ar')}}"><i class="fas fa-globe-africa"></i> العربية</a></li>
                         @else
-                        <li><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
+                        <li class="mx-2"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @endif
                     </li>
 
@@ -63,6 +63,15 @@
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">@lang('navbar.navbar_expert')</a></li> --}}
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">@lang('navbar.navbar_contact')</a></li>
                 <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">@lang('navbar.navbar_quote')</a></li>
+                <li class="ml-0">
+                    @if(session()->get('locale') == 'ar')
+                    <li class="switch-lang-mobile" ><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
+                    @elseif(session()->get('locale') == 'en' )
+                    <li class="switch-lang-mobile"><a href="{{route('switchLang' , 'ar')}}"><i class="fas fa-globe-africa"></i> العربية</a></li>
+                    @else
+                    <li class="switch-lang-mobile"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
+                    @endif
+                </li>
                 @auth
                 <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth

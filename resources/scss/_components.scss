@@ -706,6 +706,10 @@
 .location-map{
     border: 3px solid transparent;
 }
+.switch-lang-mobile{
+    display: none;
+    color: #575757;
+}
 //Mobile Version of the components
 @media screen and (max-width: 992px) {
     .hero-section {
@@ -850,5 +854,13 @@
         }
     }
   }
+}
+@media screen and (max-width: 768px) {
+ .switch-lang-mobile{
+     display: block;
+     a{
+         color: #0D8287;
+     }
 
+ }
 }

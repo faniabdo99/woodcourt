@@ -299,7 +299,7 @@ a:hover {
     font-size: 0.8em;
   }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 912px) {
   .nav-upper-flex {
     flex-direction: column;
     align-items: center;
@@ -1086,6 +1086,11 @@ a:hover {
   border: 3px solid transparent;
 }
 
+.switch-lang-mobile {
+  display: none;
+  color: #575757;
+}
+
 @media screen and (max-width: 992px) {
   .hero-section .dark-overlap h1, .hero-section .dark-overlap h2 {
     font-size: 3.5em;
@@ -1221,6 +1226,14 @@ a:hover {
   }
   .hero-section .dark-overlap h2, .hero-section .dark-overlap h1 {
     font-size: 4em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .switch-lang-mobile {
+    display: block;
+  }
+  .switch-lang-mobile a {
+    color: #0D8287;
   }
 }
 /* ============ PAGES ============ */
@@ -2813,7 +2826,7 @@ hr {
 
 .navbar-toggler-left {
   position: absolute;
-  left: 0;
+  right: 0;
 }
 .navbar-toggler-left:focus {
   outline: 0 !important;
