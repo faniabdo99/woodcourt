@@ -23,12 +23,15 @@
                     <li><a href="{{ route('paymentMethods') }}"><i class="fas fa-credit-card"></i> &nbsp; @lang('footer.footer_pay_h')</a></li>
                     <li><a href="{{ route('vr-tour') }}"><i class="fas fa-glasses"></i> &nbsp;@lang('footer.footer_links_8')</a></li>
 
+
                 </ul>
                 <ul>
                     <li><a href="{{ route('products') }}"><i class="fas fa-box"></i> &nbsp;@lang('footer.footer_links_4')</a></li>
                     <li><a href="{{ route('contact') }}"><i class="fas fa-envelope"></i> &nbsp;@lang('footer.footer_links_5')</a></li>
                     <li><a href="{{ route('expert-hub') }}"><i class="fas fa-check"></i> &nbsp;@lang('footer.footer_links_6')</a></li>
                     <li><a href="{{ route('privacy') }}"><i class="fas fa-lock"></i> &nbsp;@lang('footer.footer_links_7')</a></li>
+                    <li><a href="{{route('expert-hub')}}"><i class="fas fa-graduation-cap"></i> &nbsp; @lang('navbar.navbar_expert')</a></li>
+
                 </ul>
             </div>
             <div class="col-lg-5 col-12 footer-map d-flex flex-column">
