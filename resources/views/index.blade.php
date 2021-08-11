@@ -9,13 +9,14 @@
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
         <div class="owl-carousel  owl-theme full-width-carousel" dir="ltr">
-            <div class="container-fluid">
+            <div class="container-fluid ">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
                         <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
                             src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
-                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                                    <a class="icon-button" href="{{ route('vr-tour') }}"> <i class="fas fa-glasses"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_1')</a>
+                                    <a class="icon-button" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -63,7 +64,7 @@
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_4_h')</h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_4_desc')</p>
-                        <a class="icon-button mr-lg-5 mr-0" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button mr-0" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-four" class="col-lg-8 col-12 homepage-herosection-bg-image">

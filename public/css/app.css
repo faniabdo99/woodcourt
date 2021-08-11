@@ -1276,6 +1276,9 @@ a:hover {
   width: 300px !important;
   z-index: -1;
 }
+.homepage-hero-section .owl-dots {
+  display: none;
+}
 @media (max-width: 768px) {
   .homepage-hero-section .content-section {
     background-color: rgba(0, 0, 0, 0.5);
@@ -1395,7 +1398,7 @@ a:hover {
   position: absolute;
   transform: rotate(90deg);
   opacity: 0.2;
-  top: -16px;
+  top: 4px;
   left: -5px;
   width: 300px !important;
 }

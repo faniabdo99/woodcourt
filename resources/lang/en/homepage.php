@@ -8,6 +8,8 @@ return [
     'homepage_hero_sec_1_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
             and engineered wood to make your life more comfortable.' ,
     'homepage_hero_sec_2_3_4_p' => 'Products',
+    'homepage_hero_sec_btn_h_1' => 'VR Tour',
+    'homepage_hero_sec_btn_h_2' => 'About Us ',
     'homepage_hero_sec_2_h' => 'Kitchens',
     'homepage_hero_sec_2_desc' => 'Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by
         highly-reputed interior designers.' ,
@@ -17,6 +19,7 @@ return [
     'homepage_hero_sec_4_desc' => 'Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
             designs.' ,
     'homepage_hero_sec_btn_h' => 'Our Products',
+
     'homepage_our_products_sec_1_h' => 'Wood Flooring',
     'homepage_our_products_sec_1_p' => 'All-natural wood flooring & Fiberboard (HDF) you will need in one ...',
     'homepage_our_products_sec_2_h' => 'Cabinets',
