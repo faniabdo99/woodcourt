@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+
 Route::get('/', 'PagesController@getHome')->name('home');
 Route::get('/arabic-landing', 'PagesController@getArabicLanding');
 Route::get('about-us' , 'PagesController@getAboutUs')->name('about');
@@ -91,4 +92,8 @@ Route::get('vr-tour','PagesController@getVrTourPage')->name('vr-tour');
 
 //Languge Changing
 Route::get('lang/{locale}', 'PagesController@getSwitchlang')->name('switchLang');
+
+//301 redirection
+Route::get('/{slug}' , 'ProductController@getRedirectProducts');
+
 
