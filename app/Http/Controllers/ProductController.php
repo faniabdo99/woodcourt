@@ -21,11 +21,6 @@ class ProductController extends Controller
     public function getRedirectProducts($slug)
     {
         $Urls = Category::all()->pluck('slug')->toArray();
-        foreach($Urls as $item){
-            dump('https://thewoodcourt.com/' .$item);
-        }
-        die();
-
         if (in_array($slug, $Urls)) {
             return redirect()->route('products',['category' , $slug]);
         } else {
