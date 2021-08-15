@@ -2106,9 +2106,6 @@ time {
 .events-list {
   padding: 100px 0;
 }
-.events-list .single-event {
-  flex-basis: 0;
-}
 .events-list .single-event .image-container {
   flex: 1;
 }
@@ -2690,7 +2687,6 @@ hr {
   color: #0d8287;
   display: block;
   width: 100%;
-  text-align: left;
 }
 .accordion button:hover {
   text-decoration: none;
@@ -2856,6 +2852,7 @@ hr {
 }
 #gallery .grid-item {
   width: 25%;
+  border: 5px solid transparent;
 }
 #gallery .grid-item img {
   width: 100%;

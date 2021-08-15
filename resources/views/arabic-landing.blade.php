@@ -56,52 +56,52 @@
                         <button data-filter=".outdoors">خارجي</button>
                     </div>
                     <div class="grid">
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/1.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/1.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/2.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/2.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/3.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/3.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/4.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/4.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/5.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/5.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/6.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/6.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/7.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/7.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/8.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/8.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/9.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/9.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/10.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/10.jpg" alt=""></a></div>
-                        <div class="grid-item indoors"><a data-fancybox="gallery"
+                        <div class="grid-item  indoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/11.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/11.jpg" alt=""></a></div>
-                        <div class="grid-item outdoors"><a data-fancybox="gallery"
+                        <div class="grid-item  outdoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/12.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/12.jpg" alt=""></a></div>
-                        <div class="grid-item outdoors"><a data-fancybox="gallery"
+                        <div class="grid-item  outdoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/13.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/13.jpg" alt=""></a></div>
-                        <div class="grid-item outdoors"><a data-fancybox="gallery"
+                        <div class="grid-item  outdoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/14.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/14.jpg" alt=""></a></div>
-                        <div class="grid-item outdoors"><a data-fancybox="gallery"
+                        <div class="grid-item  outdoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/15.jpg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/15.jpg" alt=""></a></div>
-                        <div class="grid-item outdoors"><a data-fancybox="gallery"
+                        <div class="grid-item  outdoors"><a data-fancybox="gallery"
                                 href="{{ url('public') }}/images/landing-page/16.jpeg"><img
                                     src="{{ url('public') }}/images/landing-page/thumb/16.jpg" alt=""></a></div>
                     </div>
@@ -174,8 +174,6 @@
                                 <a href="https://api.whatsapp.com/send/?phone=201117571111" target="_blank">0111 757
                                     1111</a>
                                 <br>
-                                <a href="https://api.whatsapp.com/send/?phone=201115751111" target="_blank">0111 575
-                                    1111</a>
                             </p>
                         </div>
                     </div>
@@ -228,7 +226,7 @@
             });
         });
 
-    
+
     </script>
 </body>
 

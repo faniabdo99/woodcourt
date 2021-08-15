@@ -12,6 +12,7 @@ Route::post('upload-product' , 'ProductController@postNew')->name('postNewProduc
 Route::get('payment-methods' , 'PagesController@getPaymentMethodsPage')->name('paymentMethods');
 Route::get('privacy-policy' , 'PagesController@getPolicyPage')->name('privacy');
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
+Route::get('test-expert-hub' , 'PagesController@getTestExpertHub')->name('test-expert-hub');
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');

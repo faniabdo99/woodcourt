@@ -35,6 +35,10 @@ class PagesController extends Controller{
         $AllArticles = Event::where('type' , 'article')->where('is_important' , 1)->limit(5)->get();
         return view('expert-hub',compact('AllArticles'));
     }
+    public function getTestExpertHub(){
+        $AllArticles = Event::where('type' , 'article')->where('is_important' , 1)->limit(5)->get();
+        return view('test-expert-hub',compact('AllArticles'));
+    }
     public function getVrTourPage(){
         return view('vr-tour');
     }
