@@ -147,7 +147,7 @@ $('select[name="type"]').change(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\woodcourt\resources\js\admin.js */"./resources/js/admin.js");
+module.exports = __webpack_require__(/*! /var/www/html/woodcourt/resources/js/admin.js */"./resources/js/admin.js");
 
 
 /***/ })

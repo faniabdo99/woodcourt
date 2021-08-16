@@ -37,7 +37,6 @@
               @empty
                 <p>No Events Added Yet</p>
               @endforelse
-
             </tbody>
           </table>
         </div>

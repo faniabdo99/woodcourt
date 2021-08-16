@@ -2367,56 +2367,107 @@ time {
   }
 }
 #products-section {
-  height: 60vh;
+  height: 30vh;
   background: url("../images/heros/products.jpg") no-repeat center center;
   background-size: cover;
 }
 #products-section .dark-overlap {
-  height: 60vh;
-  padding: 15vh 5%;
+  display: flex;
+  align-items: center;
+  height: 30vh;
+  justify-content: center;
+}
+#products-section .dark-overlap h1 {
+  font-size: 2.5em;
 }
 
-.products-sidebar {
-  background: #F1F1F1;
-  padding: 20px;
-  width: 75%;
-  margin: auto;
+#filters-sidepanel-trigger {
+  position: fixed;
+  left: 0;
+  top: 30%;
+  background-color: #0D8287;
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#filters-sidepanel-trigger:focus {
+  outline: 0;
+}
+
+.filters-sidepanel {
+  position: fixed;
+  left: -25%;
+  top: 0;
+  width: 24%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 999;
+  overflow-y: scroll;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all ease 0.3s;
+}
+.filters-sidepanel .filters-sidepanel-header {
+  background-color: #F1F1F1;
+  padding: 25px;
+  color: #0D8287;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filters-sidepanel .filters-sidepanel-header h4 {
+  margin-bottom: 0;
+}
+.filters-sidepanel .filters-sidepanel-header .close-sidepanel {
+  background-color: #0D8287;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+}
+.filters-sidepanel .products-sidebar {
+  padding: 25px 25px 60px 25px;
   border-radius: 4px;
 }
-.products-sidebar .sidebar-title {
+.filters-sidepanel .products-sidebar .sidebar-title {
   color: #0D8287;
   font-size: 1.1em;
   margin-bottom: 25px;
 }
-.products-sidebar ul.filter-items {
+.filters-sidepanel .products-sidebar ul.filter-items {
   -webkit-padding-start: 0;
           padding-inline-start: 0;
   list-style-type: none;
 }
-.products-sidebar ul.filter-items li {
+.filters-sidepanel .products-sidebar ul.filter-items li {
   margin-bottom: 10px;
 }
-.products-sidebar ul.filter-items li > a {
+.filters-sidepanel .products-sidebar ul.filter-items li > a {
   color: #333333;
 }
-.products-sidebar ul.filter-items li > a:hover {
+.filters-sidepanel .products-sidebar ul.filter-items li > a:hover {
   color: #0D8287;
 }
-.products-sidebar ul.filter-items li > a.active {
-  color: #0D8287;
-  font-weight: bold;
-}
-.products-sidebar ul.filter-items li .main-category-filter.active {
+.filters-sidepanel .products-sidebar ul.filter-items li > a.active {
   color: #0D8287;
   font-weight: bold;
 }
-.products-sidebar ul.filter-items li ul.filter-sub-items li {
+.filters-sidepanel .products-sidebar ul.filter-items li .main-category-filter.active {
+  color: #0D8287;
+  font-weight: bold;
+}
+.filters-sidepanel .products-sidebar ul.filter-items li ul.filter-sub-items li {
   margin-bottom: 0;
 }
-.products-sidebar ul.filter-items li ul.filter-sub-items li a {
+.filters-sidepanel .products-sidebar ul.filter-items li ul.filter-sub-items li a {
   font-size: 0.9em;
 }
-.products-sidebar ul.filter-items li ul.filter-sub-items li a.active {
+.filters-sidepanel .products-sidebar ul.filter-items li ul.filter-sub-items li a.active {
   color: #0D8287;
   font-weight: bold;
 }
@@ -2600,6 +2651,36 @@ time {
   }
   .sub-category-box h4 {
     font-size: 1.2em;
+  }
+
+  #filters-sidepanel-trigger {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    background-color: #0D8287;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 998;
+  }
+  #filters-sidepanel-trigger:focus {
+    outline: 0;
+  }
+
+  .filters-sidepanel {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.3s;
   }
 }
 h2 {

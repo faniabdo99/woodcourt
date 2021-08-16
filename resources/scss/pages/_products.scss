@@ -1,58 +1,108 @@
 #products-section {
-    height: 60vh;
+    height: 30vh;
     background: url("../images/heros/products.jpg") no-repeat center center;
     background-size: cover;
     .dark-overlap {
-        height: 60vh;
-        padding: 15vh 5%;
+      display: flex;
+      align-items: center;
+      height: 30vh;
+      justify-content: center;
+      h1{
+        font-size: 2.5em;
+      }
     }
+}
+#filters-sidepanel-trigger{
+  position: fixed;
+  left: 0;
+  top: 30%;
+  background-color: $brand;
+  border:0;
+  color: #fff;
+  padding:10px 20px;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  &:focus{
+    outline:0;
+  }
+}
+.filters-sidepanel{
+    position: fixed;
+    left: -25%;
+    top: 0;
+    width: 24%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all ease 0.3s;
+    .filters-sidepanel-header{
+      background-color: $lightgrey;
+      padding: 25px;
+      color: $brand;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h4{
+        margin-bottom: 0;
+      }
+      .close-sidepanel{
+        background-color: $brand;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        padding-top: 5px;
+      }
+    }
+    .products-sidebar {
+      padding: 25px 25px 60px 25px;
+      border-radius: 4px;
+      .sidebar-title {
+          color: $brand;
+          font-size: 1.1em;
+          margin-bottom: 25px;
+      }
+      ul.filter-items {
+          padding-inline-start: 0;
+          list-style-type: none;
+          li {
+              margin-bottom: 10px;
+              & > a {
+                  color: $black;
+                  &:hover {
+                      color: $brand;
+                  }
+                  &.active{
+                    color: $brand;
+                    font-weight: bold;
+                  }
+              }
+              .main-category-filter.active{
+                color: $brand;
+                font-weight: bold;
+              }
+              ul.filter-sub-items {
+                  li {
+                      margin-bottom: 0;
+                      a {
+                          font-size: 0.9em;
+                          &.active{
+                            color: $brand;
+                            font-weight: bold;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
 }
 
-.products-sidebar {
-    background: $lightgrey;
-    padding: 20px;
-    width: 75%;
-    margin: auto;
-    border-radius: 4px;
-    .sidebar-title {
-        color: $brand;
-        font-size: 1.1em;
-        margin-bottom: 25px;
-    }
-    ul.filter-items {
-        padding-inline-start: 0;
-        list-style-type: none;
-        li {
-            margin-bottom: 10px;
-            & > a {
-                color: $black;
-                &:hover {
-                    color: $brand;
-                }
-                &.active{
-                  color: $brand;
-                  font-weight: bold;
-                }
-            }
-            .main-category-filter.active{
-              color: $brand;
-              font-weight: bold;
-            }
-            ul.filter-sub-items {
-                li {
-                    margin-bottom: 0;
-                    a {
-                        font-size: 0.9em;
-                        &.active{
-                          color: $brand;
-                          font-weight: bold;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
 .product-controls{
     padding: 0;
     display: flex;
@@ -218,5 +268,33 @@
     h4{
       font-size: 1.2em;
     }
+  }
+  #filters-sidepanel-trigger{
+    position: fixed;
+    left: 0;
+    top: 30%;
+    background-color: $brand;
+    border:0;
+    color: #fff;
+    padding:10px 20px;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 998;
+    &:focus{
+      outline:0;
+    }
+  }
+  .filters-sidepanel{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all ease 0.3s;
   }
 }
