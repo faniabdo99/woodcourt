@@ -88,6 +88,7 @@ class CategoryController extends Controller{
   }
   public function postLocalize($r, $id){
     $Rules = [
+        'category_id' => 'required',
         'title_value' => 'required',
         'description_value' => 'required',
         'type_value' => 'required'
@@ -109,6 +110,7 @@ class CategoryController extends Controller{
         }
     return view('admin.category.localize' , compact('TheCategory'));
 }
+  }
   public function delete($id){
     Category::findOrFail($id)->delete();
     return back()->withSuccess('Category Deleted');

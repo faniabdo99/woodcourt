@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateProductLocalsTable extends Migration
+class CreateProductLocalesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateProductLocalsTable extends Migration
      */
     public function up()
     {
-        Schema::create('product_locals', function (Blueprint $table) {
+        Schema::create('product__locales', function (Blueprint $table) {
             $table->id();
+            $table->string('product_id');
             $table->string('title_value');
             $table->text('description_value');
             $table->text('locale')->nullable();
+            $table->string('type_value');
             $table->timestamps();
         });
     }
@@ -29,6 +31,6 @@ class CreateProductLocalsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_locals');
+        Schema::dropIfExists('product__locales');
     }
 }
