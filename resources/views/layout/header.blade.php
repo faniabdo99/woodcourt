@@ -18,7 +18,7 @@
     @if(strpos(url()->current(), 'admin'))
       <link rel="stylesheet" type="text/css" href="{{url('public')}}/datatables/datatables.min.css" >
     @endif
-    <link rel="stylesheet" href="{{url('public')}}/css/app.css">
+    <link rel="stylesheet" href="{{url('public')}}/css/app.css?v=0.1">
     <link rel="stylesheet" href="{{url('public')}}/css/flaticon.css">
     @if(Route::currentRouteName() == 'expert-hub')
       <link rel="stylesheet" href="{{url('public')}}/font/flaticon.css">

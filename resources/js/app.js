@@ -361,3 +361,16 @@ $(window).scroll(function() {
       $('.counter').countTo();
   }
 });
+//Products Page Sidefilter
+let CollapseSize;
+if(screen.width > 768){
+    CollapseSize = '-24%';
+}else{
+    CollapseSize = '-100%';
+}
+$('.close-sidepanel').click(function(){
+    $('#'+$(this).data('target')).css('left' , CollapseSize);
+});
+$('#filters-sidepanel-trigger').click(function(){
+    $('#'+$(this).data('target')).css('left' , '0');
+});
