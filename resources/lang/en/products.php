@@ -11,6 +11,7 @@ return [
         'products_sidebar_content_btn_1' => 'View All',
         'products_sidebar_content_btn_2' => 'View Details',
         'products_sidebar_content_p' => 'There is no products matches your requirments',
-
+        'products_filter_title' => 'All Filters',
+        'products_filter_trigger' => 'Filter'
 
 ];

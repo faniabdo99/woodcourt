@@ -532,14 +532,26 @@
   }
 }
 .vr-btn-parent{
-    .vr-btn{
-        border: 5px solid #FFF;
-        border-radius: 8px;
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
+  .vr-btn{
+      border: 5px solid #FFF;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+  }
 }
+.homepage-card{
+  border-radius: 4px;
+  margin: 20px 10px;
+  text-align: center;
+  color: #fff;
+  .dark-overlap{
+    border-radius: 4px;
+    font-size: 1.5em;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.5);
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
     .vr-btn-parent{

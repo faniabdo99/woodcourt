@@ -5,7 +5,11 @@
         <div class="dark-overlap">
             <h1>
                 @if(request()->route('isFiltered') != null)
-                    {{ucwords(str_replace('-' , ' ' ,request()->route('filter')))}}
+                    @if(request()->route('filter') == 'hdf-floors')
+                        HDF Floors
+                    @else
+                        {{ucwords(str_replace('-' , ' ' ,request()->route('filter')))}}
+                    @endif
                 @else
                     @lang('products.products_h')
                 @endif
@@ -16,7 +20,7 @@
         <div class="container">
             <div id="products-page-filters-sidepanel" class="filters-sidepanel">
                 <div class="filters-sidepanel-header">
-                    <h4>All Filters</h4>
+                    <h4>@lang('products.products_filter_title')</h4>
                     <span class="close-sidepanel" data-target="products-page-filters-sidepanel"><i class="fas fa-times"></i></span>
                 </div>
                 <div class="products-sidebar">
@@ -50,7 +54,7 @@
                 </div>
             </div>
             <div class="row">
-                <button id="filters-sidepanel-trigger" data-target="products-page-filters-sidepanel" title="Filter Products"><i class="fas fa-filter"></i> <span class="d-none d-lg-inline">Filter</span></button>
+                <button id="filters-sidepanel-trigger" data-target="products-page-filters-sidepanel" title="Filter Products"><i class="fas fa-filter"></i> <span class="d-none d-lg-inline">@lang('products.products_filter_trigger')</span></button>
                 <div class="col-lg-12 col-12">
                     <div class="row">
                         @forelse ($AllProducts as $key => $Product)

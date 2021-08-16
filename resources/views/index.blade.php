@@ -1,9 +1,8 @@
 @include('layout.header', [
-'PageTitle' => __('homepage.homepage_title'),
-'Description' => __('homepage.homepage_desc'),
-'ogType' => 'Website'
+    'PageTitle' => __('homepage.homepage_title'),
+    'Description' => __('homepage.homepage_desc'),
+    'ogType' => 'Website'
 ])
-
 <body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     <h1 class="d-none">@lang('homepage.homepage_weclome_h1')</h1>
     @include('layout.navbar')
@@ -83,7 +82,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                @forelse(getCategories() as $Category)
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="#">
+                            <div class="homepage-card" style="background:url('{{$Category->ThumbPath}}') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                    {{$Category->title}}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                @empty
+                @endforelse
+                {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="category-card h-100">
                         <a href="{{route('products',['category','wood-flooring'])}}">
                             <div class="category-card-bg" id="wood-flooring"></div>
@@ -124,7 +135,7 @@
                             <a href="{{route('products' ,['category','outdoor'])}}" class="view-more-link">@lang('homepage.homepage_our_products_sec_vmore')</a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="row mt-5">
                 <div class="col-12 text-center">
@@ -277,7 +288,7 @@
                             <div class="col-lg-2 col-3">
                                 <div class="why-us-card why-us-single-toggler" data-target="custom-designs">
                                     <div class="why-us-icon-container ">
-                                        <a class="why-us-card-toggler" data-target="card-heading-one"> <i class="flaticon-equalizer"></i> </a>
+                                        <a class="why-us-card-toggler" data-target="card-heading-one"><i class="flaticon-equalizer"></i></a>
                                     </div>
                                     <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_18_h')</h3>
                                 </div>

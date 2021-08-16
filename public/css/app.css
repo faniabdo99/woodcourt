@@ -1800,6 +1800,19 @@ a:hover {
   -o-border-radius: 8px;
 }
 
+.homepage-card {
+  border-radius: 4px;
+  margin: 20px 10px;
+  text-align: center;
+  color: #fff;
+}
+.homepage-card .dark-overlap {
+  border-radius: 4px;
+  font-size: 1.5em;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 @media (min-width: 992px) and (max-width: 1200px) {
   .vr-btn-parent .vr-btn {
     height: 73px;
@@ -2665,7 +2678,7 @@ time {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    z-index: 998;
+    z-index: 9;
   }
   #filters-sidepanel-trigger:focus {
     outline: 0;
