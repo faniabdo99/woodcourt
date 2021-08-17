@@ -5,5 +5,5 @@ function getProducts(){
     return Product::latest()->get();
 }
 function getCategories(){
-    return Category::latest()->get();
+    return Category::orderBy('order_num' , 'ASC')->get();
 }
