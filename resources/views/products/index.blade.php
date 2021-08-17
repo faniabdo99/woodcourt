@@ -29,10 +29,10 @@
                         <li><a href="{{route('products')}}">@lang('products.products_sidebar_all')</a></li>
                         @foreach ($AllCategories as $key => $Category)
                         <li>
-                            <a @if(request()->route('filter') == $Category->slug) class="active" @endif href="{{route('products' , ['category' , $Category->slug])}}">{{$Category->title}}</a>
+                            <a @if(request()->route('filter') == $Category->slug) class="active" @endif href="{{route('products' , ['category' , $Category->slug])}}">{{$Category->LocalTitle}}</a>
                             <ul class="filter-sub-items">
                                 @forelse ($Category->SubCategories as $key => $SCategory)
-                                    <li><a href="{{route('products' , ['category' , $SCategory->slug])}}" @if(request()->route('filter') == $SCategory->slug) class="active" @endif>{{$SCategory->title}}</a></li>
+                                    <li><a href="{{route('products' , ['category' , $SCategory->slug])}}" @if(request()->route('filter') == $SCategory->slug) class="active" @endif>{{$SCategory->LocalTitle}}</a></li>
                                 @empty
                                 @endforelse
                             </ul>
@@ -63,7 +63,7 @@
                                 <a href="{{route('products.single' , $Product->slug)}}">
                                     <div class="image-container" style="background:url({{$Product->ThumbPath}}) no-repeat center center;"></div>
                                     <div class="content-container">
-                                        <h2>{{$Product->title}}</h2>
+                                        <h2>{{$Product->LocalTitle}}</h2>
                                     </div>
                                     <a class="icon-button d-block w-100 text-center" href="{{route('products.single' , $Product->slug)}}">@lang('products.products_sidebar_content_btn_2')</a>
                                 </a>

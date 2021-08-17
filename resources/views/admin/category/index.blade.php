@@ -13,6 +13,7 @@
               <th>Slug</th>
               <th>Parent</th>
               <th>Description</th>
+              <th>Order Number</th>
               <th>Actions</th>
             </thead>
             <tbody>
@@ -28,15 +29,18 @@
                     @endif
                   </td>
                   <td>{{$Category->ShortDescription}}</td>
+                  <td>{{$Category->order_num}}</td>
                   <td>
                     <a class="text-danger font-weight-bold" href="{{route('admin.category.delete' , $Category->id)}}"><i class="fas fa-trash"></i> Delete</a>
                     <span style="visibility:hidden;">ss</span>
-                    <a class="text-primary font-weight-bold mr-3" href="{{route('admin.category.getEdit', $Category->id)}}"><i class="fas fa-edit"></i> Edit</a></td>
+                    <a class="text-primary font-weight-bold mr-3" href="{{route('admin.category.getEdit', $Category->id)}}"><i class="fas fa-edit"></i> Edit</a>
+                    <a class="text-info font-weight-bold mr-3" href="{{route('admin.category.getLocalize', $Category->id)}}"><i class="fas fa-spell-check"></i> Localize</a>
+
+                </td>
                 </tr>
               @empty
                 <p>No Events Added Yet</p>
               @endforelse
-
             </tbody>
           </table>
         </div>

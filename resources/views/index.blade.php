@@ -87,7 +87,7 @@
                         <a href="#">
                             <div class="homepage-card" style="background:url('{{$Category->ThumbPath}}') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
-                                    {{$Category->title}}
+                                    {{$Category->LocalTitle}}
                                 </div>
                             </div>
                         </a>

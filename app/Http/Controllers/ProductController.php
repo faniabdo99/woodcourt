@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use App\Models\Product_Locale;
 use App\Models\ProductGallery;
 use App\Models\Category;
 use App\Models\SimilarProduct;
@@ -203,8 +204,8 @@ class ProductController extends Controller
     }
     public function getLocalize($id)
     {
-        $TheProduct = Product::finOrFail($id)->all();
-        return view('admin.product.getLocalize', compact('TheProduct'));
+        $TheProduct = Product::findOrFail($id);
+        return view('admin.product.localize', compact('TheProduct'));
     }
     public function postLocalize(Request $r, $id)
     {
@@ -218,7 +219,7 @@ class ProductController extends Controller
             return back()->withErrors($Validator->errors()->all())->withInput();
         } else {
             $LocalData = $r->all();
-            $LocalData['doctor_id'] = $id;
+            $LocalData['product_id'] = $id;
             //Create or update category local
             $TheLocal = Product_Locale::where('product_id', $id)->first();
             if ($TheLocal) {
@@ -227,7 +228,8 @@ class ProductController extends Controller
                 Product_Locale::create($LocalData);
             }
         }
-        return view('admin.product.all')->withSuccess('Translate Added');
+        return redirect()->route('admin.product.all')->withSuccess('Translation Added');
+
     }
     public function delete($id)
     {

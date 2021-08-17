@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product_Locale extends Model
 {
+    protected $guarded = [];
     use HasFactory;
 }

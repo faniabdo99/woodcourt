@@ -18,7 +18,7 @@ class CreateCategoryLocalesTable extends Migration
             $table->string('category_id');
             $table->string('title_value');
             $table->text('description_value')->nullable();
-            $table->string('type_value');
+            $table->text('locale')->default('ar');
             $table->timestamps();
         });
     }

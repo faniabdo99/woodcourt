@@ -24,4 +24,31 @@ class Category extends Model{
     public function getThumbPathAttribute(){
       return url('storage/app/categories').'/'.$this->image;
     }
+    public function getLocalTitleAttribute(){
+        if(session()->get('locale') == 'ar'){
+            $Locale = Category_Locale::where('category_id' , $this->id)->where('locale' , 'ar')->first();
+            if($Locale){
+                return $Locale->title_value;
+            }else{
+                return $this->title;
+            }
+        }
+        else{
+            return $this->title;
+        }
+    }
+    public function getLocalDescriptionAttribute(){
+        if(session()->get('locale') == 'ar'){
+            $Locale = Category_Locale::where('category_id' , $this->id)->where('locale' , 'ar')->first();
+            if($Locale){
+                return $Locale->description_value;
+            }else{
+                return $this->description;
+            }
+        }
+        else{
+            return $this->description;
+        }
+    }
+
 }

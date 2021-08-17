@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Category;
+use App\Models\Category_Locale;
 use Image as ImageLib;
 use Validator;
 class CategoryController extends Controller{
@@ -86,12 +87,11 @@ class CategoryController extends Controller{
       $TheCategory = Category::findOrFail($id);
       return view('admin.category.localize' , compact('TheCategory'));
   }
-  public function postLocalize($r, $id){
+  public function postLocalize(Request $r, $id){
+
     $Rules = [
-        'category_id' => 'required',
         'title_value' => 'required',
         'description_value' => 'required',
-        'type_value' => 'required'
     ];
     $Validator = Validator::make($r->all() , $Rules);
     if($Validator->fails()){
@@ -100,15 +100,15 @@ class CategoryController extends Controller{
         $LocalData = $r->all();
         $LocalData['category_id'] = $id;
         //Create or update category local
-        $TheLocal = Category::where('category_id' , $id)->first();
+        $TheLocal = Category_Locale::where('category_id' , $id)->first();
         if($TheLocal){
             //Update
             $TheLocal->update($LocalData);
         }else{
             //Create
-            Category::create($LocalData);
+            Category_Locale::create($LocalData);
         }
-    return view('admin.category.localize' , compact('TheCategory'));
+    return redirect()->route('admin.category.all')->withSuccess('Translation Added');
 }
   }
   public function delete($id){

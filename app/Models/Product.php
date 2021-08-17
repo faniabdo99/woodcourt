@@ -29,4 +29,43 @@ class Product extends Model{
     public function getImagePathAttribute(){
       return url('storage/app/products/original').'/'.$this->image;
     }
+    public function getLocalTitleAttribute(){
+        if(session()->get('locale') == 'ar'){
+            $Locale = Product_Locale::where('product_id' , $this->id)->where('locale' , 'ar')->first();
+            if($Locale){
+                return $Locale->title_value;
+            }else{
+                return $this->title;
+            }
+        }
+        else{
+            return $this->title;
+        }
+    }
+    public function getLocalDescritionAttribute(){
+        if(session()->get('locale') == 'ar'){
+            $Locale = Product_Locale::where('product_id' , $this->id)->where('locale' , 'ar')->first();
+            if($Locale){
+                return $Locale->description_value;
+            }else{
+                return $this->description;
+            }
+        }
+        else{
+            return $this->description;
+        }
+    }
+    public function getLocalTypeAttribute(){
+        if(session()->get('locale') == 'ar'){
+            $Locale = Product_Locale::where('product_id' , $this->id)->where('locale' , 'ar')->first();
+            if($Locale){
+                return $Locale->type_value;
+            }else{
+                return $this->wood_type;
+            }
+        }
+        else{
+            return $this->wood_type;
+        }
+    }
 }

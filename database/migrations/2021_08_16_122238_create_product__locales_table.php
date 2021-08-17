@@ -18,7 +18,7 @@ class CreateProductLocalesTable extends Migration
             $table->string('product_id');
             $table->string('title_value');
             $table->text('description_value');
-            $table->text('locale')->nullable();
+            $table->text('locale')->default('ar');
             $table->string('type_value');
             $table->timestamps();
         });

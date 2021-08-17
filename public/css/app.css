@@ -1380,6 +1380,11 @@ a:hover {
   background-size: cover;
 }
 
+.close-model {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
 .logo-parade ul {
   flex-flow: wrap;
   justify-content: space-around;
@@ -2638,6 +2643,10 @@ time {
 .single-product-images ul li img {
   width: 150px;
   height: 150px;
+}
+
+.similar-product-dir {
+  direction: ltr;
 }
 
 @media (max-width: 768px) {

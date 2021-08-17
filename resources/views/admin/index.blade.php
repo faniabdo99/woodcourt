@@ -16,7 +16,7 @@
               <tr>
                 <td>Categories</td>
                 <td>{{$CategoriesCount}}</td>
-                <td><a class="text-success font-weight-bold" href="{{route('admin.category.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.category.all')}}"><i class="fas fa-edit"></i> View All</a></td>
+                <td><a class="text-success font-weight-bold" href="{{route('admin.category.getNew')}}">+ Add New</a> <span style="visibility:hidden;">ss</span> <a class="text-primary font-weight-bold mr-3" href="{{route('admin.category.all')}}"><i class="fas fa-edit"></i> View All</a> </td>
               </tr>
               <tr>
                 <td>Products</td>
