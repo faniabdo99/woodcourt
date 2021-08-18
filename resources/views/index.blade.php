@@ -84,7 +84,7 @@
             <div class="row">
                 @forelse(getCategories() as $Category)
                     <div class="col-lg-3 col-12 mb-4 mb-lg-0">
-                        <a href="#">
+                        <a href="{{route('products' , ['category' , $Category->slug])}}">
                             <div class="homepage-card" style="background:url('{{$Category->ThumbPath}}') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                     {{$Category->LocalTitle}}

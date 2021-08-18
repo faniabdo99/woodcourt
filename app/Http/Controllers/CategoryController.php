@@ -75,8 +75,8 @@ class CategoryController extends Controller{
         $img->backup();
         // Cover Low Res
         $img->fit(600, 600);
-        $img->save('storage/app/categories/'.$r->slug.'.'.$r->image->getClientOriginalExtension());
-        $CategoryData['image'] = $r->slug.'.'.$r->image->getClientOriginalExtension();
+        $img->save('storage/app/categories/'.$TheCategory->slug.'.'.$r->image->getClientOriginalExtension());
+        $CategoryData['image'] = $TheCategory->slug.'.'.$r->image->getClientOriginalExtension();
       }
       $TheCategory->update($CategoryData);
       //Return Success Message
