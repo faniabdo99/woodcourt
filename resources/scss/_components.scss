@@ -303,6 +303,7 @@
     display: inline-block;
     border-radius: 4px;
     color: #fff;
+    direction: ltr !important;
     transition: all ease 0.3s;
     i {
         margin-right: 10px;

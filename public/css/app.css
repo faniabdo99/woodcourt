@@ -678,6 +678,7 @@ a:hover {
   display: inline-block;
   border-radius: 4px;
   color: #fff;
+  direction: ltr !important;
   transition: all ease 0.3s;
 }
 .icon-button i {
