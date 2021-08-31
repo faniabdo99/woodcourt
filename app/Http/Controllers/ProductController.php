@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Product_Locale;
@@ -11,16 +9,12 @@ use App\Models\SimilarProduct;
 use Validator;
 use DB;
 use Image as ImageLib;
-
-class ProductController extends Controller
-{
-    public function getIndex()
-    {
+class ProductController extends Controller{
+    public function getIndex(){
         $AllProducts = Product::latest()->get();
         return view('admin.product.index', compact('AllProducts'));
     }
-    public function getRedirectProducts($slug)
-    {
+    public function getRedirectProducts($slug){
         $Urls = Category::all()->pluck('slug')->toArray();
         if (in_array($slug, $Urls)) {
             return redirect()->route('products',['category' , $slug]);
@@ -30,16 +24,14 @@ class ProductController extends Controller
         $AllProducts = Product::latest()->get();
         return view('admin.product.index', compact('AllProducts'));
     }
-    public function getNew()
-    {
+    public function getNew(){
         $AllSubCategories = Category::where('type', 'sub')->latest()->get();
         $AllCategories = Category::where('type', '!=', 'sub')->latest()->get();
         $id = Product::latest()->limit(1)->first()->id;
         $NextProductId = $id + 1;
         return view('admin.product.new', compact('AllCategories', 'AllSubCategories', 'NextProductId'));
     }
-    public function postNew(Request $r)
-    {
+    public function postNew(Request $r){
         //Validate the request
         $Rules = [
             'title' => 'required',
@@ -110,8 +102,7 @@ class ProductController extends Controller
             return redirect()->back()->withSuccess('Product Added!');
         }
     }
-    public function getEdit($id)
-    {
+    public function getEdit($id){
         $AllSubCategories = Category::where('type', 'sub')->latest()->get();
         $AllCategories = Category::where('type', '!=', 'sub')->latest()->get();
         $Product = Product::findOrFail($id);
@@ -120,8 +111,7 @@ class ProductController extends Controller
         }
         return view('admin.product.edit', compact('Product', 'AllCategories', 'AllSubCategories'));
     }
-    public function postEdit(Request $r, $id)
-    {
+    public function postEdit(Request $r, $id){
         //Validate the request
         $Rules = [
             'title' => 'required',
@@ -202,13 +192,11 @@ class ProductController extends Controller
             return redirect()->route('admin.product.all')->withSuccess('Product Updated!');
         }
     }
-    public function getLocalize($id)
-    {
+    public function getLocalize($id){
         $TheProduct = Product::findOrFail($id);
         return view('admin.product.localize', compact('TheProduct'));
     }
-    public function postLocalize(Request $r, $id)
-    {
+    public function postLocalize(Request $r, $id){
         $Rules = [
             'title_value' => 'required',
             'description_value' => 'required',
@@ -231,20 +219,17 @@ class ProductController extends Controller
         return redirect()->route('admin.product.all')->withSuccess('Translation Added');
 
     }
-    public function delete($id)
-    {
+    public function delete($id){
         Product::findOrFail($id)->delete();
         return back()->withSuccess('Product Deleted');
     }
-    public function deleteGalleryImages($id)
-    {
+    public function deleteGalleryImages($id){
         ProductGallery::where('product_id', $id)->get()->map(function ($item) {
             $item->delete();
         });
         return back()->withSuccess('Product Gallery Images Deleted');
     }
-    public function uploadImage(Request $r)
-    {
+    public function uploadImage(Request $r){
         $img = ImageLib::make($r->image);
         // backup status
         $img->backup();
@@ -262,14 +247,12 @@ class ProductController extends Controller
         ]);
     }
     //Cross Sell
-    public function getCrossSell($id)
-    {
+    public function getCrossSell($id){
         $Product = Product::findOrFail($id);
         $AllProducts = Product::where('id', '!=', $id)->latest()->get();
         return view('admin.product.cross-sell', compact('Product', 'AllProducts'));
     }
-    public function postCrossSell(Request $r, $id)
-    {
+    public function postCrossSell(Request $r, $id){
         $Rules = [
             'item_id' => 'required'
         ];
@@ -293,10 +276,10 @@ class ProductController extends Controller
         }
     }
     //Non-Admin Stuff
-    public function getUserHome($isFiltered = null, $Filter = null)
-    {
+    public function getUserHome($isFiltered = null, $Filter = null){
         if (!$Filter) {
             $AllProducts = Product::latest()->get();
+            $PageTitle = 'All Products';
         } else {
             if ($isFiltered == 'category') {
                 $TheCategory = Category::where('slug', $Filter)->first();
@@ -306,14 +289,16 @@ class ProductController extends Controller
                     $SubCategoriesArray = Category::where('category_id', $TheCategory->id)->pluck('id')->toArray();
                     $AllProducts = Product::whereIn('category_id', $SubCategoriesArray)->latest()->get();
                 }
+                $PageTitle = $TheCategory->LocalTitle; 
             }
             if ($isFiltered == 'wood-type') {
                 $AllProducts = Product::where('wood_type', $Filter)->latest()->get();
+                $PageTitle = $Filter;
             }
         }
         $AllCategories = Category::where('type', 'main')->latest()->get();
         $AllWoodTypes = Product::pluck('wood_type')->unique();
-        return view('products.index', compact('AllProducts', 'AllCategories', 'AllWoodTypes'));
+        return view('products.index', compact('AllProducts', 'AllCategories', 'AllWoodTypes' , 'PageTitle'));
     }
     public function getSingle($slug)
     {

@@ -1,4 +1,7 @@
-@include('layout.header', ['PageTitle' => 'Kitchen, Floor ... and More'])
+@include('layout.header', [
+         'PageTitle' => $PageTitle,
+         
+    ])
 <body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     @include('layout.navbar')
     <section class="hero-section mb-5" id="products-section">
