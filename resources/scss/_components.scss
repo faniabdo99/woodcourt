@@ -244,7 +244,7 @@
     }
     .owl-nav {
         position: absolute;
-        margin-top: -15%;
+        margin-top: -155px;
         width: 100%;
         button {
             width: 40px;
@@ -661,7 +661,6 @@
     h2 {
       color: #fff;
       width: 100%;
-      margin-bottom: 60px;
       font-size: 2.5em;
   }
   h3{
@@ -863,4 +862,16 @@
      }
 
  }
+ .logo-parade .owl-nav  {
+        margin-top: -200px;
+    }
+    .logo-parade .owl-nav button.owl-prev{
+        left: -55px;
+    }
+    .logo-parade .owl-nav button.owl-next {
+        right: -50px;
+    }
+    .testimonials-section .owl-nav{
+        display: none;
+    }
 }

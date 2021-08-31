@@ -18,7 +18,7 @@
                 <div class="d-flex align-items-center">
                     <li class="mx-2"><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
                     <li class="mx-2"><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">@lang('navbar.navbar_clock')</a></li>
-                    {{-- <li class="ml-0">
+                    <li class="ml-0">
                         @if(session()->get('locale') == 'ar')
                         <li class="mx-2"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @elseif(session()->get('locale') == 'en' )
@@ -26,13 +26,13 @@
                         @else
                         <li class="mx-2"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @endif
-                    </li> --}}
+                    </li>
 
                 </div>
             </ul>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg"  dir="@lang('settings.direction_default')">
         <a class="navbar-brand " href="{{route('home')}}">
             <img src="{{url('public')}}/images/logo-blue.png" alt="The Wood Court Logo">
         </a>
