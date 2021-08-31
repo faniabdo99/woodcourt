@@ -76,9 +76,6 @@
       fbq('init', '2927744987493196');
       fbq('track', 'PageView');
       </script>
-      <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=2927744987493196&ev=PageView&noscript=1"
-      /></noscript>
     <!-- End Facebook Pixel Code -->
     <meta name="facebook-domain-verification" content="weyegato6riz4pj0brhv0q9q67jbpx" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
