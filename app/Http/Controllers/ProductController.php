@@ -280,6 +280,7 @@ class ProductController extends Controller{
         if (!$Filter) {
             $AllProducts = Product::latest()->get();
             $PageTitle = 'All Products';
+            $Description = 'All Products available to view in the wood court showroom and factory';
         } else {
             if ($isFiltered == 'category') {
                 $TheCategory = Category::where('slug', $Filter)->first();
@@ -290,15 +291,17 @@ class ProductController extends Controller{
                     $AllProducts = Product::whereIn('category_id', $SubCategoriesArray)->latest()->get();
                 }
                 $PageTitle = $TheCategory->LocalTitle; 
+                $Description = 'All Products in Category: '.$TheCategory->LocalTitle; 
             }
             if ($isFiltered == 'wood-type') {
                 $AllProducts = Product::where('wood_type', $Filter)->latest()->get();
                 $PageTitle = $Filter;
+                $Description = 'All Products Made with Wood: '.$Filter;
             }
         }
         $AllCategories = Category::where('type', 'main')->latest()->get();
         $AllWoodTypes = Product::pluck('wood_type')->unique();
-        return view('products.index', compact('AllProducts', 'AllCategories', 'AllWoodTypes' , 'PageTitle'));
+        return view('products.index', compact('AllProducts', 'AllCategories', 'AllWoodTypes' , 'PageTitle', 'Description'));
     }
     public function getSingle($slug)
     {

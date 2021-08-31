@@ -1,6 +1,6 @@
 @include('layout.header', [
          'PageTitle' => $PageTitle,
-         
+         'Description' => $Description
     ])
 <body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     @include('layout.navbar')
