@@ -136,6 +136,7 @@
           "image": "{{$TheProduct->ThumbPath}}",
           "description": "{{$TheProduct->description}}",
           "mpn": "TWC_{{$TheProduct->id}}",
+          "sku": "TWC_{{$TheProduct->id}}",
           "brand": {
             "@type": "Thing",
             "name": "The Wood Court"
