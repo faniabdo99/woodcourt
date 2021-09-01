@@ -208,7 +208,7 @@
                 "dateCreated": "2020-09-20",
                 "dateModified": "2011-09-20",
                 "description": "The Wood Court Experts hub",
-                "articleBody": "                <div class="col-lg-9 col-12">
+                "articleBody": '<div class="col-lg-9 col-12">
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="wood-care">
                             <div class="tab-content">
@@ -271,7 +271,7 @@
                             </div>
                         </div>
                     </div>
-                </div>"
+                </div>'
              }
         </script>
     </body>
