@@ -262,8 +262,8 @@
                     "@type": "Organization",
                     "name": "The Wood Court",
                     "logo": {
-                    "@type": "ImageObject",
-                    "url": "{{url('/public/images/logo-blue.png')}}"
+                        "@type": "ImageObject",
+                        "url": "{{url('/public/images/logo-blue.png')}}"
                     }
                 },
                 "url": "{{url()->current()}}",

@@ -1,6 +1,6 @@
 <?php
 return[
-    'expert_title' => 'Expert Hub' ,
+    'expert_title' => 'Expert Hub | Online Resources for Wood Experts' ,
     'expert_desc' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution.' ,
     'expert_hero_sec_h_1_p' => 'How To Take Care Of Your Wood Floors?' ,
     'expert_hero_sec_h_2' => 'Tutorials' ,
