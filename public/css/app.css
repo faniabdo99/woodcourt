@@ -2432,6 +2432,50 @@ time {
   outline: 0;
 }
 
+.products-sidebar {
+  background: #F1F1F1;
+  padding: 20px;
+  width: 75%;
+  margin: auto;
+  border-radius: 4px;
+}
+.products-sidebar .sidebar-title {
+  color: #0D8287;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+.products-sidebar ul.filter-items {
+  list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+.products-sidebar ul.filter-items li {
+  margin-bottom: 10px;
+}
+.products-sidebar ul.filter-items li > a {
+  color: #333333;
+}
+.products-sidebar ul.filter-items li > a:hover {
+  color: #0D8287;
+}
+.products-sidebar ul.filter-items li .main-category-filter.active {
+  color: #0D8287;
+  font-weight: bold;
+}
+.products-sidebar ul.filter-items li ul.filter-sub-items {
+  list-style: none;
+}
+.products-sidebar ul.filter-items li ul.filter-sub-items li {
+  margin-bottom: 0;
+}
+.products-sidebar ul.filter-items li ul.filter-sub-items li a {
+  font-size: 0.9em;
+}
+.products-sidebar ul.filter-items li ul.filter-sub-items li a.active {
+  color: #0D8287;
+  font-weight: bold;
+}
+
 .filters-sidepanel {
   position: fixed;
   left: -25%;
@@ -2747,6 +2791,7 @@ hr {
   position: sticky;
   z-index: 1;
   top: 12%;
+  background-color: #F1F1F1;
 }
 #expert-hub-sidebar .main-category-filter {
   font-size: 16px;

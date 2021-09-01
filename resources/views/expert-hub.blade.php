@@ -233,7 +233,7 @@
                             <div class='tab-content'>
                                 <div class='tab-pane fade show active' id='installation-methodology'>
                                     @lang('expert-hub.expert_con_tutorials_installation_methodology_h')
-                                    <img class='mb-2 ' src='https://thewoodcourt.com/public/images/articles/8.png' alt='1'>
+                                    <img class='mb-2' src='https://thewoodcourt.com/public/images/articles/8.png' alt='1'>
                                     @lang('expert-hub.expert_con_tutorials_installation_methodology')
                                 </div>
                                 <div class='tab-pane fade' id='finishing-techniques'>
