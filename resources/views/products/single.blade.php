@@ -128,6 +128,20 @@
     </section>
     @include('layout.footer')
     @include('layout.scripts')
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "{{$TheProduct->LocalTitle}}",
+          "image": "{{$TheProduct->ThumbPath}}",
+          "description": "{{$TheProduct->description}}",
+          "mpn": "TWC_{{$TheProduct->id}}",
+          "brand": {
+            "@type": "Thing",
+            "name": "The Wood Court"
+          }
+        }
+    </script>
 </body>
 
 </html>
