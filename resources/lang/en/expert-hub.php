@@ -174,7 +174,7 @@ return[
                                             till now in nailed down installation technique.
                                         </p>
                                         <h4>2-Wood On Tiles Sub Floor:</h4>
-                                        <img class="mb-2" src="https://thewoodcourt.com/public/images/articles/9.png" alt="1">
+                                        <img class="mb-2" src="https://thewoodcourt.com/public/images/articles/9.png" alt="Wood On Tiles Sub Floor">
                                         <p>In this type, we use concrete tiles, mosaic tiles, low quality ceramic tiles instead
                                             of wood for the leveling process, Tiles are installed regularly and flush on
                                             concrete, wood slabes of 1.6cm by 10cm or sheets of 10mm plywood are fixed on it, This method also is used for nailed down installation
@@ -186,13 +186,13 @@ return[
                                         </p>
                                         <h3>(B) Installing the Wood Floors:</h3>
                                         <h4>1-Nalied Down Installing Technique</h4>
-                                        <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/7.png" alt="1">
+                                        <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/7.png" alt="Nalied Down Installing Technique">
                                         <p>The most common & traditional way to install wood floors, wood tiles or planks are to
                                             be installed by nailing them down on wooden subfloors, the nails are inclined 45 degree not vertical,
                                             passing from the woodside directly fixing it to the subfloors a drum-noise is heard
                                             while walking on due to space empty spaces under the wood floor. <br> </p>
                                         <h4>2-Gluing Down Installing Technique</h4>
-                                        <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/5.png" alt="1">
+                                        <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/5.png" alt="Gluing Down Installing Technique">
                                         <p>Bonding the wood floors with the subfloors using glue-down technique is a very good and cheap way
                                             to install your wood floors. <br>
                                             using polyurethane (oil-based) D4
@@ -203,7 +203,7 @@ return[
                                             lifetime guarantee against debonding when purchasing from The Wood Court.
                                         </p>
                                         <h4>3-Floating Installation Technique.</h4>
-                                        <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/6.png" alt="1">
+                                        <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/6.png" alt="Floating Installation Technique">
                                         <p>Installing your floors using this technique makes it very easy to maintain as you can
                                             replace any damaged piece easily, the wood floors are floated over the subfloor,
                                             polyethylene sheet with 2mm thickness is placed between wood & subfloor to isolate
@@ -276,8 +276,8 @@ return[
                                         Pre-finished floors have beveled edges, not square ones, not like site-finish which
                                         can have either square edge or beveled ones
                                     </p>
-                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.1.png" alt="1">
-                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.2.png" alt="1">
+                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.1.png" alt="finishing 1">
+                                    <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.2.png" alt="finishing 2">
                                     <br>
                                     <h4>Uv-curing Finish: </h4>
                                     <p>It is the process in which the coat changes from liquid state to solid state under
@@ -293,13 +293,13 @@ return[
                                     </p>',
     'expert_con_resources_engineered_floors' => '<h2>Engineered Hardwood Flooring</h2>
                                     <p>The word (engineered) before hardwoods is to indicate that the floor planks are made of multilayers<br><br>
-                                        <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/blog/suitable-hardwood/11.png" alt="1"> <br>
+                                        <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/blog/suitable-hardwood/11.png" alt="Engineered Hardwood Flooring"> <br>
                                         A. Base Layer<br>
                                         B. Top Layer<br>
                                     </p>
                                     <ul class="p-0">
                                         <li><b>A. The Base Layer :</b><br><br>
-                                            <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/blog/suitable-hardwood/10.png" alt="1">
+                                            <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/blog/suitable-hardwood/10.png" alt="The Base Layer">
                                             <p>The base layer is consisting of about 7-9 layers of plywood each layer is bonded with the previous one anty-grained [the grains each layer is 90° rotate to the previous one]
                                                 <br>
                                                 this method gives very high dimensional stability and makes the planks also to be installed over any leveled subfloors.
@@ -327,8 +327,8 @@ return[
                                         wood before applying the bottom and top layers, so it is guaranteed that under bad
                                         usage, the color not able to be removed.
                                     </p>
-                                    <h4>Comparison Between Solid & Engineered </h4>
-                                    <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/categories/wood-flooring/engineered-floors/8.png" alt="1">
+                                    <h4>Comparison Between Solid & Engineered</h4>
+                                    <img class="mb-2 w-50 " src="https://thewoodcourt.com/public/images/categories/wood-flooring/engineered-floors/8.png" alt="Comparison Between Solid & Engineered">
                                     <table class="table table-bordered table-striped">
                                         <tbody>
                                             <tr>
