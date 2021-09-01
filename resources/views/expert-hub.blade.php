@@ -178,37 +178,9 @@
         @include('layout.footer')
         @include('layout.scripts')
         <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js" ></script>
-        <script type="application/ld+json">
-            { 
-                "@context": "https://schema.org", 
-                "@type": "Article",
-                "headline": "{{__('expert-hub.expert_title')}}",
-                "alternativeHeadline": "{{__('expert-hub.expert_hero_sec_h_1_p')}}",
-                "image": "{{url('public/images/heros/about-us.jpg')}}",
-                "author": "The Wood Court", 
-                "award": "The most advanced guide for wood experts",
-                "editor": "The Wood Court", 
-                "genre": "Guide", 
-                "keywords": "thewoodcourt wood experts hardwood wood-flooring floors kitchens", 
-                "wordcount": "720",
-                "publisher": {
-                    "@type": "Organization",
-                    "name": "The Wood Court",
-                    "logo": {
-                    "@type": "ImageObject",
-                    "url": "{{url('/public/images/logo-blue.png')}}"
-                    }
-                },
-                "url": "{{url()->current()}}",
-                "mainEntityOfPage": {
-                    "@type": "WebPage",
-                    "@id": "{{url()->current()}}"
-                },
-                "datePublished": "2020-09-20",
-                "dateCreated": "2020-09-20",
-                "dateModified": "2011-09-20",
-                "description": "The Wood Court Experts hub",
-                "articleBody": "<div class='col-lg-9 col-12'>
+        @php 
+            //Prepare the contnet
+            $TheContent = str_replace("'" , "\"" , "<div class='col-lg-9 col-12'>
                     <div class='tab-content'>
                         <div class='tab-pane fade show active' id='wood-care'>
                             <div class='tab-content'>
@@ -271,7 +243,39 @@
                             </div>
                         </div>
                     </div>
-                </div>"
+                </div>");
+        @endphp
+        <script type="application/ld+json">
+            { 
+                "@context": "https://schema.org", 
+                "@type": "Article",
+                "headline": "{{__('expert-hub.expert_title')}}",
+                "alternativeHeadline": "{{__('expert-hub.expert_hero_sec_h_1_p')}}",
+                "image": "{{url('public/images/heros/about-us.jpg')}}",
+                "author": "The Wood Court", 
+                "award": "The most advanced guide for wood experts",
+                "editor": "The Wood Court", 
+                "genre": "Guide", 
+                "keywords": "thewoodcourt wood experts hardwood wood-flooring floors kitchens", 
+                "wordcount": "720",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "The Wood Court",
+                    "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{url('/public/images/logo-blue.png')}}"
+                    }
+                },
+                "url": "{{url()->current()}}",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "{{url()->current()}}"
+                },
+                "datePublished": "2020-09-20",
+                "dateCreated": "2020-09-20",
+                "dateModified": "2011-09-20",
+                "description": "The Wood Court Experts hub",
+                "articleBody": "{{$TheContent}}"
              }
         </script>
     </body>
