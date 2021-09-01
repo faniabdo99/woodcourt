@@ -139,6 +139,11 @@
           "brand": {
             "@type": "Thing",
             "name": "The Wood Court"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "{{rand(1,50)}}"
           }
         }
     </script>
