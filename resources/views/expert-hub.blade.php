@@ -178,5 +178,101 @@
         @include('layout.footer')
         @include('layout.scripts')
         <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js" ></script>
+        <script type="application/ld+json">
+            { 
+                "@context": "https://schema.org", 
+                "@type": "Article",
+                "headline": "{{__('expert-hub.expert_title')}}",
+                "alternativeHeadline": "{{__('expert-hub.expert_hero_sec_h_1_p')}}",
+                "image": "{{url('public/images/heros/about-us.jpg')}}",
+                "author": "The Wood Court", 
+                "award": "The most advanced guide for wood experts",
+                "editor": "The Wood Court", 
+                "genre": "Guide", 
+                "keywords": "thewoodcourt wood experts hardwood wood-flooring floors kitchens", 
+                "wordcount": "720",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "The Wood Court",
+                    "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{url('/public/images/logo-blue.png')}}"
+                    }
+                },
+                "url": "{{url()->current()}}",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "{{url()->current()}}"
+                },
+                "datePublished": "2020-09-20",
+                "dateCreated": "2020-09-20",
+                "dateModified": "2011-09-20",
+                "description": "The Wood Court Experts hub",
+                "articleBody": "                <div class="col-lg-9 col-12">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="wood-care">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="floor-care">
+                                    <h2> @lang('expert-hub.expert_con_wood_care_floor_care_h')</h2>
+                                    <img class="w-100 h-50 my-3" src="https://thewoodcourt.com/public/images/wood-care/1.jpg" alt="wood-care">
+                                    @lang('expert-hub.expert_con_wood_care_floor_care')
+                                </div>
+                                <div class="tab-pane fade" id="kitchen-care">
+                                    <h2>@lang('expert-hub.expert_con_wood_care_kitchen_care_h')</h2>
+                                    <img class="w-100 h-50 my-3" src="https://thewoodcourt.com/public/images/wood-care/2.jpg" alt="kitchens">
+                                    @lang('expert-hub.expert_con_wood_care_kitchen_care')
+                                </div>
+                                <div class="tab-pane fade" id="outdoor-care">
+                                    <h2>@lang('expert-hub.expert_con_wood_care_outdoor_care_h')</h2>
+                                    <img class="w-100 h-50 my-3" src="https://thewoodcourt.com/public/images/wood-care/3.jpg" alt="outdoor">
+                                    @lang('expert-hub.expert_con_wood_care_outdoor_care')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="toturial">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="installation-methodology">
+                                    @lang('expert-hub.expert_con_tutorials_installation_methodology_h')
+                                    <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/8.png" alt="1">
+                                    @lang('expert-hub.expert_con_tutorials_installation_methodology')
+                                </div>
+                                <div class="tab-pane fade" id="finishing-techniques">
+                                    @lang('expert-hub.expert_con_tutorials_finishing_techniques')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="resources">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="engineered-floors">
+                                    @lang('expert-hub.expert_con_resources_engineered_floors')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="faqs">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="indoor-faqs">
+                                    <h2>@lang('expert-hub.expert_con_faqs_indoor_faqs_h')</h2>
+                                    <div class="accordion" id="accordionExample">
+                                        @lang('expert-hub.expert_con_faqs_indoor_faqs')
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="kitchens-faqs">
+                                    <h2 class="my-4" id="FAQs-kitchens">@lang('expert-hub.expert_con_faqs_kitchens_faqs_h')</h2>
+                                    @lang('expert-hub.expert_con_faqs_kitchens_faqs')
+                                </div>
+                                <div class="tab-pane fade" id="outdoor-faqs">
+                                    @lang('expert-hub.expert_con_faqs_outdoor_faqs')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="blogs">
+                            <div class="tab-content">
+                              @lang('expert-hub.expert_con_blogs')
+                            </div>
+                        </div>
+                    </div>
+                </div>"
+             }
+        </script>
     </body>
 </html>
