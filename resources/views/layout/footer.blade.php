@@ -16,14 +16,14 @@
                 </ul>
             </div>
             <div class="col-lg-4 col-12 d-flex footer-links">
-                <ul class="p-0 pl-3">
+                <ul class="p-0 px-3">
                     <li><a href="{{ route('home') }}"><i class="fas fa-home"> </i>&nbsp; @lang('footer.footer_links_1')</a></li>
                     <li><a href="{{ route('about') }}"><i class="fas fa-question-circle"></i> &nbsp;@lang('footer.footer_links_2')</a></li>
                     <li><a href="{{ route('events') }}"><i class="fas fa-calendar"></i> &nbsp;@lang('footer.footer_links_3')</a></li>
                     <li><a href="{{ route('paymentMethods') }}"><i class="fas fa-credit-card"></i> &nbsp; @lang('footer.footer_pay_h')</a></li>
                     <li><a href="{{ route('vr-tour') }}"><i class="fas fa-glasses"></i> &nbsp;@lang('footer.footer_links_8')</a></li>
                 </ul>
-                <ul class="p-0 pr-3">
+                <ul class="p-0 px-3">
                     <li><a href="{{ route('products') }}"><i class="fas fa-box"></i> &nbsp;@lang('footer.footer_links_4')</a></li>
                     <li><a href="{{ route('contact') }}"><i class="fas fa-envelope"></i> &nbsp;@lang('footer.footer_links_5')</a></li>
                     <li><a href="{{ route('expert-hub') }}"><i class="fas fa-check"></i> &nbsp;@lang('footer.footer_links_6')</a></li>
