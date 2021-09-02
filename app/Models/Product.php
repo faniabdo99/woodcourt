@@ -29,6 +29,9 @@ class Product extends Model{
     public function getImagePathAttribute(){
       return url('storage/app/products/original').'/'.$this->image;
     }
+    public function Locale(){
+        return $this->hasOne(Product_Locale::class , 'product_id');
+    }
     public function getLocalTitleAttribute(){
         if(session()->get('locale') == 'ar'){
             $Locale = Product_Locale::where('product_id' , $this->id)->where('locale' , 'ar')->first();
