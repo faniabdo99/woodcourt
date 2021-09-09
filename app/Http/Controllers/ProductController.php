@@ -19,17 +19,17 @@ class ProductController extends Controller
         $AllProducts = Product::latest()->get();
         return view('admin.product.index', compact('AllProducts'));
     }
-    public function getRedirectProducts($slug)
-    {
-        $Urls = Category::all()->pluck('slug')->toArray();
-        if (in_array($slug, $Urls)) {
-            return redirect()->route('products',['category' , $slug]);
-        } else {
-            abort(404);
+        public function getRedirectProducts($slug)
+        {
+            $Urls = Category::all()->pluck('slug')->toArray();
+            if (in_array($slug, $Urls)) {
+                return redirect()->route('products',['category' , $slug]);
+            } else {
+                abort(404);
+            }
+            $AllProducts = Product::latest()->get();
+            return view('admin.product.index', compact('AllProducts'));
         }
-        $AllProducts = Product::latest()->get();
-        return view('admin.product.index', compact('AllProducts'));
-    }
     public function getNew()
     {
         $AllSubCategories = Category::where('type', 'sub')->latest()->get();
