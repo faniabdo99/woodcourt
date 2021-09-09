@@ -374,3 +374,62 @@ $('.close-sidepanel').click(function(){
 $('#filters-sidepanel-trigger').click(function(){
     $('#'+$(this).data('target')).css('left' , '0');
 });
+//Experts Hub
+$('.filter-items .main-category-filter').click(function() {
+  //Hide all open uls
+  $('.filter-items .main-category-filter').next('ul').slideUp('fast');
+  //SHow the current selected one
+  $(this).next('ul').slideDown();
+});
+$('.sub-category-filter, .filter-items .main-category-filter').click(function(e) {
+  var id = $('#content-section');
+  if (id.length === 0) {
+      return;
+  }
+  e.preventDefault();
+  var pos = (id.offset().top - 100);
+  $('body, html').animate({
+      scrollTop: pos
+  }, 1000);
+});
+
+//Recive Outer Hook and Toggle Tab Using it
+var getParams = function (url) {
+  var params = {};
+  var parser = document.createElement('a');
+  parser.href = url;
+  var query = parser.search.substring(1);
+  var vars = query.split('&');
+  for (var i = 0; i < vars.length; i++) {
+      var pair = vars[i].split('=');
+      params[pair[0]] = decodeURIComponent(pair[1]);
+  }
+  return params;
+};
+var UrlParamaters = getParams(window.location.href);
+if ('tab' in UrlParamaters){
+  //Show the requested tab and active the link in sidebar
+  //Hide Wood Care
+  $('#wood-care').removeClass('active');
+  $('#floor-care').removeClass('active');
+  $('#installation-methodology').removeClass('active');
+  $('#engineered-floors').removeClass('active');
+  $('#indoor-faqs').removeClass('active');
+  //inactive wood care side links
+  $('.main-category-filter').removeClass('active');
+  $('.toturials-sublist').removeClass('toturials-sublist');
+  $('.sub-category-filter').removeClass('active');
+  //Show the requested tab and parent tab
+  $('#'+UrlParamaters.tab).parent().parent().tab('show');
+  $('#'+UrlParamaters.tab).tab('show');
+  //Active the correct side panel links
+  $('.sub-category-filter[href="#'+UrlParamaters.tab+'"]').addClass('active');
+  $('.sub-category-filter[href="#'+UrlParamaters.tab+'"]').parent().parent().parent().find('a.main-category-filter').addClass('active');
+  $('.sub-category-filter[href="#'+UrlParamaters.tab+'"]').parent().parent().addClass('toturials-sublist');
+  //Scroll to content
+  var id = $('#content-section');
+  var pos = (id.offset().top - 200);
+  $('body, html').animate({
+      scrollTop: pos
+  }, 1000);
+}

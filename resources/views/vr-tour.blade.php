@@ -1,4 +1,6 @@
-@include('layout.header')
+@include('layout.header' , [
+    'PageTitle' => __('vr-tour.vr_main_con_h')
+])
 <html>
 <body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     @include('layout.navbar')

@@ -25,15 +25,15 @@
     @endif
     <link rel="shortcut icon" href="{{url('public')}}/images/favicon.png" />
     <title>The Wood Court - {{$PageTitle ?? 'Kitchen, Floor ... and More'}}</title>
-    <meta name="description" content="{{$Description ?? ''}}" >
-    <meta name="keywords" content="مدونة , نقرة , مقالات , برمجة , تصميم , أكواد , تقنية">
+    <meta name="description" content="{{$Description ?? 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams'}}" >
+    <meta name="keywords" content="The Wood Court, the woodcourt, woodcourt, hardwood flooring, kitchens, pergolas">
     <link rel="canonical" href="{{url()->current()}}" >
     <!-- Open Graph data -->
     <meta property="og:title" content="The Wood Court - {{$PageTitle ?? ''}}" >
-    <meta property="og:type" content="{{$ogType ?? ''}}" >
+    <meta property="og:type" content="{{$ogType ?? 'Website'}}" >
     <meta property="og:url" content="{{url()->current()}}" >
     <meta property="og:image" content="{{$ogImage ?? url('public/images/the-wood-court-og.jpg')}}">
-    <meta property="og:description" content="{{$Description ?? ''}}" >
+    <meta property="og:description" content="{{$Description ?? 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams'}}" >
     <meta property="og:site_name" content="The Wood Court" >
     <meta name="application-name" content="The Wood Court">
     <meta name="msapplication-TileColor" content="#0D8287">
@@ -76,9 +76,6 @@
       fbq('init', '2927744987493196');
       fbq('track', 'PageView');
       </script>
-      <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=2927744987493196&ev=PageView&noscript=1"
-      /></noscript>
     <!-- End Facebook Pixel Code -->
     <meta name="facebook-domain-verification" content="weyegato6riz4pj0brhv0q9q67jbpx" />
     <!-- Global site tag (gtag.js) - Google Analytics -->

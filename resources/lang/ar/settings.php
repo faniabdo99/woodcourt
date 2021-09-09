@@ -3,7 +3,7 @@
 return [
 
     'direction' => 'rtl' ,
-    'direction_reverse' => 'ltr' ,
+    'direction_default' => 'ltr' ,
     'direction_initial' => 'initial' ,
     'text_align' => 'text-right',
     'text_align_inverse' => 'text-left',

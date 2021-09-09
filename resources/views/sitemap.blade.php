@@ -10,39 +10,75 @@
   @empty
 
   @endforelse
+  @forelse ($AllProducts as $Product)
+   <url>
+      <loc>{{route('products.single',$Product->slug)}}</loc>
+      <lastmod>{{$Product->updated_at->format('Y-m-d')}}</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1</priority>
+   </url>
+   @empty
+
+   @endforelse
    <url>
       <loc>https://thewoodcourt.com</loc>
-      <lastmod>2021-01-15</lastmod>
+      <lastmod>2021-09-01</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>1</priority>
    </url>
    <url>
       <loc>https://thewoodcourt.com/about-us</loc>
-      <lastmod>2021-01-15</lastmod>
+      <lastmod>2021-09-01</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>1</priority>
    </url>
    <url>
       <loc>https://thewoodcourt.com/our-factory</loc>
-      <lastmod>2021-01-15</lastmod>
+      <lastmod>2021-09-01</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>1</priority>
    </url>
    <url>
       <loc>https://thewoodcourt.com/contact</loc>
-      <lastmod>2021-01-15</lastmod>
+      <lastmod>2021-09-01</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>1</priority>
    </url>
    <url>
       <loc>https://thewoodcourt.com/events</loc>
-      <lastmod>2021-01-15</lastmod>
+      <lastmod>2021-09-01</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>1</priority>
    </url>
    <url>
       <loc>https://thewoodcourt.com/products</loc>
-      <lastmod>2021-01-15</lastmod>
+      <lastmod>2021-09-01</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>1</priority>
    </url>
    <url>
       <loc>https://thewoodcourt.com/about-us</loc>
-      <lastmod>2021-01-15</lastmod>
+      <lastmod>2021-09-01</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>1</priority>
    </url>
+   <url>
+      <loc>https://thewoodcourt.com/expert-hub</loc>
+      <lastmod>2021-09-01</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>https://thewoodcourt.com/vr-tour</loc>
+      <lastmod>2021-09-01</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>https://thewoodcourt.com/privacy-policy</loc>
+      <lastmod>2021-09-01</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1</priority>
+   </url>
+   
 </urlset>

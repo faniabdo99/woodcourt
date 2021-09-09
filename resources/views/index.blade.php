@@ -14,8 +14,8 @@
                         <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
                             src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
-                                    <a class="icon-button" href="{{ route('vr-tour') }}"> <i class="fas fa-glasses"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_1')</a>
-                                    <a class="icon-button" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                                    <a class="icon-button" dir="ltr" href="{{ route('vr-tour') }}"> <i class="fas fa-glasses"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_1')</a>
+                                    <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -31,7 +31,7 @@
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_2_h')</h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_2_desc')</p>
-                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
                     </div>
                     <div id="slide-one" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -71,7 +71,6 @@
                 </div>
             </div>
         </div>
-
     </section>
     <section id="homepage-categories">
         <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
@@ -94,52 +93,10 @@
                     </div>
                 @empty
                 @endforelse
-                {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="category-card h-100">
-                        <a href="{{route('products',['category','wood-flooring'])}}">
-                            <div class="category-card-bg" id="wood-flooring"></div>
-                        </a>
-                        <div class="p-3">
-                            <a href="{{route('products',['category','wood-flooring'])}}">
-                                <h3>@lang('homepage.homepage_our_products_sec_1_h')</h3>
-                            </a>
-                            <p>@lang('homepage.homepage_our_products_sec_1_p').</p>
-                            <a href="{{route('products',['category','wood-flooring'])}}" class="view-more-link">@lang('homepage.homepage_our_products_sec_vmore')</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="category-card h-100">
-                        <a href="{{route('products',['category','cabinets'])}}">
-                            <div class="category-card-bg" id="cabinets"></div>
-                        </a>
-                        <div class="p-3">
-                                <a href="{{route('products',['category','cabinets'])}}">
-                                <h3>@lang('homepage.homepage_our_products_sec_2_h')</h3>
-                            </a>
-                            <p>@lang('homepage.homepage_our_products_sec_2_p')</p>
-                            <a href="{{route('products',['category','cabinets'])}}" class="view-more-link">@lang('homepage.homepage_our_products_sec_vmore')</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="category-card h-100">
-                        <a href="{{route('products',['category','outdoor'])}}">
-                            <div class="category-card-bg" id="outdoor"></div>
-                        </a>
-                        <div class="p-3">
-                            <a href="{{route('products',['category','outdoor'])}}">
-                                <h3>@lang('homepage.homepage_our_products_sec_3_h')</h3>
-                            </a>
-                            <p>@lang('homepage.homepage_our_products_sec_3_p')</p>
-                            <a href="{{route('products' ,['category','outdoor'])}}" class="view-more-link">@lang('homepage.homepage_our_products_sec_vmore')</a>
-                        </div>
-                    </div>
-                </div> --}}
             </div>
             <div class="row mt-5">
                 <div class="col-12 text-center">
-                    <a class="icon-button mr-lg-0 d-lg-inline d-block text-center" href="{{route('products')}}"> <i class="fas fa-bullhorn"></i>@lang('homepage.homepage_our_products_sec_btn')</a>
+                    <a class="icon-button mr-lg-0 d-lg-inline d-block text-center" dir="ltr" href="{{route('products')}}"> <i class="fas fa-bullhorn"></i> @lang('homepage.homepage_our_products_sec_btn')</a>
                 </div>
             </div>
         </div>
@@ -432,7 +389,7 @@
         <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
             <div class="row">
-                <div class="col-12"  dir="@lang('settings.direction_initial')">
+                <div class="col-12"  dir="@lang('settings.direction_default')">
                     <h2 class="section-title mb-5">@lang('homepage.homepage_limit_sec_btn_h')</h2>
                     <ul class="owl-carousel owl-theme owl-theme three-items-carousel">
                         <li class="item">
@@ -639,7 +596,7 @@
     <section class="expert-hub-cta text-center py-5">
         <h2 class="text-center d-inline-block">@lang('homepage.homepage_expert_hub_sec_h')</h2>
         <div class="container">
-        <div class="row mt-5">
+        <div class="row ">
             <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
             <div class="row section-mob-style">
                 <div class="col-sm-5 col-lg-12  image-section">
@@ -677,7 +634,7 @@
         </div>
         <a class="mb-3 icon-button" href="{{route('expert-hub')}}">@lang('homepage.homepage_expert_hub_sec_btn')</a>
     </section>
-    <section class="homepage-videos-grid"  dir="@lang('settings.direction_initial')">
+    <section class="homepage-videos-grid"  dir="@lang('settings.direction_default')">
       <div class="container">
         <div class="row">
             <div class="col-12">
@@ -702,37 +659,35 @@
                         </div>
                     </li>
                     <li class="item">
-                    <div class="video-background-homepage" id="video-three">
-                        <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="video-background-homepage" id="video-three">
-                        <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="video-background-homepage" id="video-three">
-                        <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                </li>
-
-                <li class="item">
-                    <div class="video-background-homepage" id="video-three">
-                        <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                </li>
-                <li class="item">
-                    <div class="video-background-homepage" id="video-three">
-                        <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
-                        <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
-                    </div>
-                </li>
-
+                        <div class="video-background-homepage" id="video-three">
+                            <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="video-background-homepage" id="video-three">
+                            <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="video-background-homepage" id="video-three">
+                            <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="video-background-homepage" id="video-three">
+                            <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="video-background-homepage" id="video-three">
+                            <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -752,8 +707,8 @@
                         </div>
                         <br>
                         <div class="row vr-btn-parent">
-                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-6 col-md-12 col-sm-12" href="{{route('vr-tour')}}" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_1')</a>
-                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-6 col-md-12 col-sm-12" href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_2')</a>
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-6 col-md-12 col-sm-12" dir="ltr" href="https://my.matterport.com/show/?m=trid4Kk6SPS" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_1')</a>
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-6 col-md-12 col-sm-12" dir="ltr" href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">@lang('homepage.homepage_vr_tour_sec_btn_2')</a>
                         </div>
                     </div>
                 </div>
@@ -823,7 +778,7 @@
                     </p>
                     <p class="mb-3">@lang('homepage.homepage_about_us_sec_p_2')
                     </p>
-                    <a href="{{route('about')}}" class="icon-button d-lg-inline d-block text-center mx-auto"><i class="fas fa-star"></i>@lang('homepage.homepage_about_us_sec_btn')</a>
+                    <a href="{{route('about')}}" class="icon-button d-lg-inline d-block text-center mx-auto" dir="ltr"><i class="fas fa-star"></i>@lang('homepage.homepage_about_us_sec_btn')</a>
                 </div>
                 <div class="col-lg-6 col-12">
                     <img class="we-are-the-wood-court-image w-100 h-auto" src="{{url('public')}}/images/about-home.jpg" alt="About the Wood Court">
@@ -831,7 +786,7 @@
             </div>
         </div>
     </section>
-    <section class="testimonials-section" id="about-us-testimonials" d dir="@lang('settings.direction_initial')">
+    <section class="testimonials-section" id="about-us-testimonials" d dir="@lang('settings.direction_default')">
         <div class="dark-overlap">
             <div class="container-fluid">
                 <div class="row">
@@ -1209,12 +1164,12 @@
                 </div>
             </div>
         </div>
-        <div class="testimonial-rating" dir=" dir="@lang('settings.direction')"">
+        <div class="testimonial-rating" dir="@lang('settings.direction')">
             <h3 class="mr-1">@lang('homepage.homepage_testim_sec_rated_h')</h3>
-            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i>@lang('homepage.homepage_testim_sec_rated_btn')</a>
+            <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i> @lang('homepage.homepage_testim_sec_rated_btn')</a>
         </div>
     </section>
-    <section class="logo-parade" dir="@lang('settings.direction_initial')">
+    <section class="logo-parade" dir="@lang('settings.direction_default')">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">

@@ -136,7 +136,6 @@
                                     @lang('expert-hub.expert_con_tutorials_installation_methodology_h')
                                     <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/8.png" alt="1">
                                     @lang('expert-hub.expert_con_tutorials_installation_methodology')
-
                                 </div>
                                 <div class="tab-pane fade" id="finishing-techniques">
                                     @lang('expert-hub.expert_con_tutorials_finishing_techniques')
@@ -178,68 +177,106 @@
         </section>
         @include('layout.footer')
         @include('layout.scripts')
-        <script type="text/javascript">
-                        $('.filter-items .main-category-filter').click(function() {
-                            //Hide all open uls
-                            $('.filter-items .main-category-filter').next('ul').slideUp('fast');
-                            //SHow the current selected one
-                            $(this).next('ul').slideDown();
-                        });
-                        $('.sub-category-filter, .filter-items .main-category-filter').click(function(e) {
-                            var id = $('#content-section');
-                            if (id.length === 0) {
-                                return;
-                            }
-                            e.preventDefault();
-                            var pos = (id.offset().top - 100);
-                            $('body, html').animate({
-                                scrollTop: pos
-                            }, 1000);
-                        });
-
-                        //Recive Outer Hook and Toggle Tab Using it
-                        var getParams = function (url) {
-                            var params = {};
-                            var parser = document.createElement('a');
-                            parser.href = url;
-                            var query = parser.search.substring(1);
-                            var vars = query.split('&');
-                            for (var i = 0; i < vars.length; i++) {
-                                var pair = vars[i].split('=');
-                                params[pair[0]] = decodeURIComponent(pair[1]);
-                            }
-                            return params;
-                        };
-                        var UrlParamaters = getParams(window.location.href);
-                        if ('tab' in UrlParamaters){
-                            //Show the requested tab and active the link in sidebar
-                            //Hide Wood Care
-                            $('#wood-care').removeClass('active');
-                            //inactive wood care side links
-                            $('.main-category-filter').removeClass('active');
-                            $('.toturials-sublist').removeClass('toturials-sublist');
-                            $('.sub-category-filter').removeClass('active');
-                            //Show the requested tab and parent tab
-                            $('#'+UrlParamaters.tab).parent().parent().tab('show');
-                            $('#'+UrlParamaters.tab).tab('show');
-                            //Active the correct side panel links
-                            $('.sub-category-filter[href="#'+UrlParamaters.tab+'"]').addClass('active');
-                            $('.sub-category-filter[href="#'+UrlParamaters.tab+'"]').parent().parent().parent().find('a.main-category-filter').addClass('active');
-                            $('.sub-category-filter[href="#'+UrlParamaters.tab+'"]').parent().parent().addClass('toturials-sublist');
-                            //Scroll to content
-                            var id = $('#content-section');
-                            var pos = (id.offset().top - 200);
-                            $('body, html').animate({
-                                scrollTop: pos
-                            }, 1000);
-                        }
-                    </script>
-
-                    <script
-                    type="text/javascript"
-                    async defer
-                    src="//assets.pinterest.com/js/pinit.js"
-                ></script>
-
+        <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js" ></script>
+        @php 
+            //Prepare the contnet
+            $TheContent = str_replace("'" , "\"" , "<div class='col-lg-9 col-12'>
+                    <div class='tab-content'>
+                        <div class='tab-pane fade show active' id='wood-care'>
+                            <div class='tab-content'>
+                                <div class='tab-pane fade show active' id='floor-care'>
+                                    <h2> @lang('expert-hub.expert_con_wood_care_floor_care_h')</h2>
+                                    <img class='w-100 h-50 my-3' src='https://thewoodcourt.com/public/images/wood-care/1.jpg' alt='wood-care'>
+                                    @lang('expert-hub.expert_con_wood_care_floor_care')
+                                </div>
+                                <div class='tab-pane fade' id='kitchen-care'>
+                                    <h2>@lang('expert-hub.expert_con_wood_care_kitchen_care_h')</h2>
+                                    <img class='w-100 h-50 my-3' src='https://thewoodcourt.com/public/images/wood-care/2.jpg' alt='kitchens'>
+                                    @lang('expert-hub.expert_con_wood_care_kitchen_care')
+                                </div>
+                                <div class='tab-pane fade' id='outdoor-care'>
+                                    <h2>@lang('expert-hub.expert_con_wood_care_outdoor_care_h')</h2>
+                                    <img class='w-100 h-50 my-3' src='https://thewoodcourt.com/public/images/wood-care/3.jpg' alt='outdoor'>
+                                    @lang('expert-hub.expert_con_wood_care_outdoor_care')
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tab-pane fade' id='toturial'>
+                            <div class='tab-content'>
+                                <div class='tab-pane fade show active' id='installation-methodology'>
+                                    @lang('expert-hub.expert_con_tutorials_installation_methodology_h')
+                                    <img class='mb-2' src='https://thewoodcourt.com/public/images/articles/8.png' alt='1'>
+                                    @lang('expert-hub.expert_con_tutorials_installation_methodology')
+                                </div>
+                                <div class='tab-pane fade' id='finishing-techniques'>
+                                    @lang('expert-hub.expert_con_tutorials_finishing_techniques')
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tab-pane fade' id='resources'>
+                            <div class='tab-content'>
+                                <div class='tab-pane fade show active' id='engineered-floors'>
+                                    @lang('expert-hub.expert_con_resources_engineered_floors')
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tab-pane fade' id='faqs'>
+                            <div class='tab-content'>
+                                <div class='tab-pane fade show active' id='indoor-faqs'>
+                                    <h2>@lang('expert-hub.expert_con_faqs_indoor_faqs_h')</h2>
+                                    <div class='accordion' id='accordionExample'>
+                                        @lang('expert-hub.expert_con_faqs_indoor_faqs')
+                                    </div>
+                                </div>
+                                <div class='tab-pane fade' id='kitchens-faqs'>
+                                    <h2 class='my-4' id='FAQs-kitchens'>@lang('expert-hub.expert_con_faqs_kitchens_faqs_h')</h2>
+                                    @lang('expert-hub.expert_con_faqs_kitchens_faqs')
+                                </div>
+                                <div class='tab-pane fade' id='outdoor-faqs'>
+                                    @lang('expert-hub.expert_con_faqs_outdoor_faqs')
+                                </div>
+                            </div>
+                        </div>
+                        <div class='tab-pane fade' id='blogs'>
+                            <div class='tab-content'>
+                              @lang('expert-hub.expert_con_blogs')
+                            </div>
+                        </div>
+                    </div>
+                </div>");
+        @endphp
+        <script type="application/ld+json">
+            { 
+                "@context": "https://schema.org", 
+                "@type": "Article",
+                "headline": "{{__('expert-hub.expert_title')}}",
+                "alternativeHeadline": "{{__('expert-hub.expert_hero_sec_h_1_p')}}",
+                "image": "{{url('public/images/heros/about-us.jpg')}}",
+                "author": "The Wood Court", 
+                "award": "The most advanced guide for wood experts",
+                "editor": "The Wood Court", 
+                "genre": "Guide", 
+                "keywords": "thewoodcourt wood experts hardwood wood-flooring floors kitchens", 
+                "wordcount": "720",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "The Wood Court",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "{{url('/public/images/logo-blue.png')}}"
+                    }
+                },
+                "url": "{{url()->current()}}",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "{{url()->current()}}"
+                },
+                "datePublished": "2020-09-20",
+                "dateCreated": "2020-09-20",
+                "dateModified": "2011-09-20",
+                "description": "The Wood Court Experts hub",
+                "articleBody": "{{$TheContent}}"
+             }
+        </script>
     </body>
 </html>
