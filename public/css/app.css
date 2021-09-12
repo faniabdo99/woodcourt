@@ -496,7 +496,7 @@ a:hover {
 }
 .testimonials-section .owl-nav {
   position: absolute;
-  margin-top: -20%;
+  margin-top: -16%;
   width: 100%;
 }
 .testimonials-section .owl-nav button {
@@ -1110,6 +1110,9 @@ a:hover {
     display: none;
   }
 
+  .testimonials-section .owl-nav {
+    margin-top: -8%;
+  }
   .testimonials-section .dark-overlap {
     padding: 50px 0;
   }
