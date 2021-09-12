@@ -566,7 +566,7 @@ a:hover {
   font-size: 0.9em;
   line-height: 2em;
   height: 250px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .testimonials-section .dark-overlap .slide a.view-on-facebook {
   position: absolute;

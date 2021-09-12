@@ -2,7 +2,7 @@
 
 return [
         'products_h' => 'منتجاتنا',
-        'products_p' => 'المطبخ والأرضية ... والمزيد',
+        'products_p' => 'مطابخ ,أرضيات ... والمزيد',
         'products_sidebar_cat' => 'الفئة',
         'products_sidebar_all' => 'الجميع',
         'products_sidebar_type' => 'نوع الخشب',
@@ -16,7 +16,7 @@ return [
         'products_single_prev' => 'المنتج السابق',
         'products_single_next' => 'المنتج التالي',
         'products_single_whats_cta_p' => 'ألوان أخرى متاحة عند الطلب<br>
-        تقدم وود كورت مجموعة كبيرة ومتنوعة من الألوان لكل خط إنتاج.',
+        تقدم (وود كورت) مجموعة كبيرة ومتنوعة من الألوان لكل خط إنتاج.',
         'products_single_quote' => 'احصل على عرض أسعار حول هذا المنتج',
         'products_single_contact' => 'اتصل بنا',
         'products_single_share_title_1' => 'شارك',

@@ -30,7 +30,7 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_2_h')</h2>
-                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_2_desc')</p>
+                        <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_2_desc')</p>
                         <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
                     </div>
@@ -46,7 +46,7 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_3_h')</h2>
-                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_3_desc')</p>
+                        <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_3_desc')</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
@@ -62,7 +62,7 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_4_h')</h2>
-                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_4_desc')</p>
+                        <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_4_desc')</p>
                         <a class="icon-button mr-0" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
@@ -257,70 +257,70 @@
                             <div class="why-us-card active" id="market-leaders">
                                 <div class="why-us-icon-container"><i class="flaticon-team-leader"></i></div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_1_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_1_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_1_p')</p>
                             </div>
                             <div class="why-us-card" id="experience">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-experience"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_2_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_2_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_2_p')</p>
                             </div>
                             <div class="why-us-card" id="trained-human-resources">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-construction-and-tools"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_3_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_3_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_3_p')</p>
                             </div>
                             <div class="why-us-card" id="no-hidden-costs">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-budget"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_4_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_4_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_4_p')</p>
                             </div>
                             <div class="why-us-card" id="affordable-pricing">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-affordable"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_5_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_5_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_5_p')</p>
                             </div>
                             <div class="why-us-card" id="moisture-free">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-moisture-wicking-fabric"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_6_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_6_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_6_p')</p>
                             </div>
                             <div class="why-us-card" id="insect-free">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-no-bugs"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_7_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_7_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_7_p')</p>
                             </div>
                             <div class="why-us-card" id="quick-and-easy-installation">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-gear"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_8_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_8_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_8_p')</p>
                             </div>
                             <div class="why-us-card" id="easy-clean">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-clean"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_9_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_9_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_9_p')</p>
                             </div>
                             <div class="why-us-card" id="delivery-in-time">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-fast-delivery"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_10_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_10_p')
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_10_p')
                                 </p>
                             </div>
                             <div class="why-us-card" id="anti-scratch">
@@ -328,28 +328,28 @@
                                     <i class="flaticon-log"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_11_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_11_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_11_p')</p>
                             </div>
                             <div class="why-us-card" id="sound-proof">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-mute-volume-control"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_12_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_12_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_12_p')</p>
                             </div>
                             <div class="why-us-card" id="life-lasting-stains">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-debt"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_13_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_13_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_13_p')</p>
                             </div>
                             <div class="why-us-card" id="lifetime-guarantee">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-guarantee"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_14_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_14_p')
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_14_p')
                                 </p>
                             </div>
                             <div class="why-us-card" id="pre-finished">
@@ -357,28 +357,28 @@
                                     <i class="flaticon-flag"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_15_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_15_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_15_p')</p>
                             </div>
                             <div class="why-us-card" id="customer-support">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-customer-service"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_16_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_16_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_16_p')</p>
                             </div>
                             <div class="why-us-card" id="env-friendly">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-green-earth"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_17_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_17_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_17_p')</p>
                             </div>
                             <div class="why-us-card" id="custom-designs">
                                 <div class="why-us-icon-container ">
                                     <a class="why-us-card-toggler" data-target="card-heading-one"> <i class="flaticon-equalizer"></i> </a>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_18_h')</h3>
-                                <p class="why-us-card-description ">@lang('homepage.homepage_why_us_sec_18_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align') ">@lang('homepage.homepage_why_us_sec_18_p')</p>
                             </div>
                         </div>
                     </div>
@@ -567,11 +567,11 @@
                                 <form action="{{route('contactLimitedEdition')}}" method="post" id="place-order-modal-form">
                                     @csrf
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_name')</label>
+                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_name')<span class="text-danger">*</span></label>
                                         <input type="text" name="name" class="form-control" placeholder="@lang('homepage.homepage_limit_sec_order_form_name_ph')" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_email')</label>
+                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_email')<span class="text-danger">*</span></label>
                                         <input type="text" name="email" class="form-control" placeholder="@lang('homepage.homepage_limit_sec_order_form_email_ph')" required>
                                     </div>
                                     <div class="form-group">
@@ -580,7 +580,7 @@
                                     </div>
                                     <input type="hidden" name="item_name">
                                     <input type="hidden" name="form_location" value="Limited Edition">
-                                    <input class="icon-button p-2" type="submit" value="Send Request">
+                                    <input class="icon-button p-2" type="submit" value="@lang('homepage.homepage_limit_sec_order_form_send_req')">
                                 </form>
                             </div>
                             <div class="col-lg-7 col-12">
@@ -725,7 +725,7 @@
                 </div>
                 <div class="row">
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-heart"></i>
                             </div>
@@ -735,7 +735,7 @@
                         </div>
                     </div>
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-user-tie"></i>
                             </div>
@@ -745,7 +745,7 @@
                         </div>
                     </div>
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-chart-area"></i>
                             </div>
@@ -755,7 +755,7 @@
                         </div>
                     </div>
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-users"></i>
                             </div>
@@ -875,7 +875,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Hussein Mahmoud‎‏">
                                 <h4 class="user-name">‏‎Hussein Mahmoud‎‏</h4>
-                                <p><b>Nice</b><br>
+                                <p><b>Highly Recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     Nice and Friendly people high recommend for dealing with them
                                 </p>
@@ -941,7 +941,7 @@
                                     <i class="fas fa-quote-right color-brand"></i>
                                     مهما تكلمت و شكرت في The Wood Court الكلام هيكون غير منصف ... مواعيد محترمة و التزام و دقة في الشغل ... و أسعار مناسبة جداً م/أيمن زهران عملي فيلا في الشيخ زايد ... ريسبشن و غرف وسلم و خشب تيك للتراث ... و السلم ده
                                     قصة تانية خالص بجد حاجة تجنن ... أنا مشس هحكي كتير الصور بتتكلم <br>
-                                    فعلاً شكراً وود كورت و شكراً أيمن زهران على الشغل المحترم
+                                    فعلاً شكراً (وود كورت) و شكراً أيمن زهران على الشغل المحترم
                                 </p>
                             </div>
                         </div>
@@ -963,7 +963,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
                                 <h4 class="user-name">Ashraf Esmail</h4>
-                                <p><b>the best wooden floors ever</b><br>
+                                <p><b>The Best Wooden Floors Ever</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     الجوده في الخامه . الجوده في المواعيد . الجوده في التعامل . الأدب و الالتزام من فنيين التركيب
                                 </p>
@@ -1065,19 +1065,18 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mai-refaat.jpg" alt="Mai Refaat">
-                                <h4>Mai Refaat</h4>
-                                <p><b>اتمني ليكم كل النجاح</b><br>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/omar-badr.jpg" alt="Mai Refaat">
+                                <h4>Omar Badr</h4>
+                                <p><b>The Product Was Great</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
-                                    من اكثر الناس امحترمين اللي اتعملت معاهم اتمني ليكم كل النجاح
-                                </p>
+                                    I bought engineered wood flooring from the wood court and the product was great. The staff are professional and the installation team was very helpful, decent and professional. Thank you!                                </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/mai.refaat.52/posts/10160725040675597" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
-                                <h4 class="user-name"> ‏‎Ehab Doss‎‏ </h4>
+                                <h4 class="user-name">‏‎Ehab Doss‎‏</h4>
                                 <p><b>من اكثر الشركات احتراما للعميل</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     من اكثر الشركات احتراما للعميل ومصداقيه في الخامات
@@ -1113,7 +1112,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
                                 <h4 class="user-name">Mohamed Abo Hendi</h4>
-                                <p><b>Professional </b><br><i class="fas fa-quote-right color-brand"></i>
+                                <p><b>Professional and accurate timing </b><br><i class="fas fa-quote-right color-brand"></i>
                                     Professional and accurate timing , reliable and handing over without any comments.
                                 </p>
                             </div>
@@ -1123,7 +1122,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
                                 <h4 class="user-name">Mohamed El Alfy</h4>
-                                <p><b>Perfect</b><br><i class="fas fa-quote-right color-brand"></i>
+                                <p><b>Perfect Quality</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Perfect follow up perfect timing perfect quality to sum up this is the place to go, well done wood court
                                 </p>
                             </div>
@@ -1135,7 +1134,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
                                 <h4>Rafik Makar</h4>
-                                <p><b>Thanks</b><br><i class="fas fa-quote-right color-brand"></i>
+                                <p><b>Thanks Woodcourt</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Thanks Woodcourt for the excellent quality of products and professional installation. Well done</p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/rafik.makar/posts/10157818271656593" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
@@ -1152,11 +1151,11 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
-                                <h4>‏‎Tahra El Semary‎‏</h4>
-                                <p><b>احسن حد ممكن تتعامل معاه</b><br><i class="fas fa-quote-right color-brand"></i>
-                                    بجد احسن حد ممكن تتعامل معاه مهندس ايمن فاهم و مهاود و طلعت عينه في إختيار الالوان محترمين جدا و ملتزمين في المواعيد
-                                </p>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/dina-ismail-mahmoud.jpg" alt="‏‎Tahra El Semary‎‏‎‏">
+                                <h4>Dina Ismail Mahmoud</h4>
+                                <p><b>مبسوطة جدا من التعامل</b><br><i class="fas fa-quote-right color-brand"></i>
+                                    مبسوطة جدا من التعامل مع الشركة لتاني مرة.
+                                    مثال نادر للالتزام في المواعيد و الجوده العالية للمنتج و اسعار منافسة جدا و العماله المحترفة في التركيب و التشطيب                                </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/tahra.semary/posts/10158657423222145" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
