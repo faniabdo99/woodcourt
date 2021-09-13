@@ -5,10 +5,10 @@
 ])
 <body>
     @include('layout.navbar')
-    <section class="hero-section" id="about-us-hero-section">
-        <div class="dark-overlap">
-            <div class="container-fluid">
-                <div class="row">
+    <section class="hero-section " id="about-us-hero-section">
+        <div class="dark-overlap overflow-auto">
+            <div class="container-fluid @lang('settings.text_align')" dir="@lang('settings.direction')">
+                <div class="row ">
                     <div class="col-12">
                         <h1>@lang('about.about_title')</h1>
                         <p class="mb-5">@lang('about.about_hero_sec_p')</p>
@@ -17,15 +17,15 @@
             </div>
         </div>
     </section>
-    <section class="about-us-description">
+    <section class="about-us-description @lang('settings.text_align')" dir="@lang('settings.direction')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <h2>@lang('about.about_main_con_h') <span><img height="50" src="{{url('public')}}/images/logo-black.png"></span></h2>
-                    <p class="mb-3">@lang('about.about_main_con_p_1') </p>
-                    <p class="mb-3">@lang('about.about_main_con_p_2')
+                    <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_1') </p>
+                    <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_2')
                     </p>
-                    <p class="mb-3">@lang('about.about_main_con_p_3') </p>
+                    <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_3') </p>
                 </div>
                 <div class="col-lg-6 col-12">
                     <img class="we-are-the-wood-court-image w-100" src="{{url('public')}}/images/about-us-descrition.jpg" alt="We are the wood court">
@@ -33,9 +33,9 @@
             </div>
             <div class="row mt-4">
                 <div class="col-12">
-                    <p class="mb-3">@lang('about.about_main_con_p_4')</p>
-                    <p class="mb-3">@lang('about.about_main_con_p_5') </p>
-                    <a href="{{route('contact')}}" class="icon-button d-lg-inline d-block text-center"><i class="fas fa-phone"></i>@lang('about.about_main_con_btn') </a>
+                    <p class="mb-3  @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_4')</p>
+                    <p class="mb-3  @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_5') </p>
+                    <a href="{{route('contact')}}" class="icon-button d-lg-inline d-block text-center" dir="@lang('settings.direction')"><i class="fas fa-phone"></i>@lang('about.about_main_con_btn') </a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="row">
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-heart"></i>
                             </div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-user-tie"></i>
                             </div>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-chart-area"></i>
                             </div>
@@ -80,7 +80,7 @@
                         </div>
                     </div>
                     <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-users"></i>
                             </div>
@@ -100,52 +100,52 @@
                     <h2>@lang('about.about_history_h')</h2>
                     <ul>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>1979</time> @lang('about.about_history_li_1')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>1984</time> @lang('about.about_history_li_2')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>1992</time>@lang('about.about_history_li_3')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2000</time> @lang('about.about_history_li_4')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2002</time> @lang('about.about_history_li_5')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2006</time> @lang('about.about_history_li_6')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2009</time>@lang('about.about_history_li_7')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2014</time> @lang('about.about_history_li_8')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2015</time> @lang('about.about_history_li_9')
                             </div>
                         </li>
                         <li>
-                            <div>
+                            <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2018</time>@lang('about.about_history_li_10')
                             </div>
                         </li>
@@ -173,37 +173,37 @@
                         </div>
                     </li>
                     <li class="item">
-                        <div class="video-background-homepage" id="video-three">
+                        <div class="video-background-homepage" >
                             <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-3"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
-                    <div class="video-background-homepage" id="video-three">
+                    <div class="video-background-homepage" >
                         <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
                         <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
                 </li>
                 <li class="item">
-                    <div class="video-background-homepage" id="video-three">
+                    <div class="video-background-homepage" >
                         <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
                         <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
                 </li>
                 <li class="item">
-                    <div class="video-background-homepage" id="video-three">
+                    <div class="video-background-homepage" >
                         <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
                         <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
                 </li>
                 <li class="item">
-                    <div class="video-background-homepage" id="video-three">
+                    <div class="video-background-homepage" >
                         <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
                         <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
                 </li>
                 <li class="item">
-                    <div class="video-background-homepage" id="video-three">
+                    <div class="video-background-homepage" >
                         <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
                         <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                     </div>
@@ -663,6 +663,24 @@
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
                                 </div>
                             </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-4">
+                                <div class="client-card">
+                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
+                                </div>
+                            </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
@@ -691,24 +709,6 @@
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-2 col-4">
-                                <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
                                 </div>
                             </div>
                         </div>
