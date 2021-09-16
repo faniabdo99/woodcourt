@@ -411,6 +411,10 @@ if ('tab' in UrlParamaters){
   //Show the requested tab and active the link in sidebar
   //Hide Wood Care
   $('#wood-care').removeClass('active');
+  $('#floor-care').removeClass('active');
+  $('#installation-methodology').removeClass('active');
+  $('#engineered-floors').removeClass('active');
+  $('#indoor-faqs').removeClass('active');
   //inactive wood care side links
   $('.main-category-filter').removeClass('active');
   $('.toturials-sublist').removeClass('toturials-sublist');

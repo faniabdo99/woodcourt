@@ -8,6 +8,8 @@
     </Files>
     <IfModule mod_rewrite.c>
     RewriteEngine On
+    RewriteCond %{HTTP_HOST} !^localhost(?::\d+)?$ [NC]
+    RewriteCond %{HTTP_HOST} !^127\.0\.0\.1(?::\d+)?$
     RewriteCond %{HTTPS} off [OR]
     RewriteCond %{HTTP_HOST} ^www\. [NC]
     RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]

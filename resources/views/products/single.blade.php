@@ -37,32 +37,25 @@
                         </div>
                     </div>
                     <div class="product-controls ">
-
                         @if (session()->get('locale') == 'ar')
                             @if ($Previous != null)
-                                <a href="{{ route('products.single', $Previous->slug) }}"><i
-                                        class="fas fa-chevron-right"></i>@lang('products.products_single_prev')</a>
+                                <a href="{{ route('products.single', $Previous->slug) }}"><i class="fas fa-chevron-right"></i> @lang('products.products_single_prev')</a>
                             @endif
                             @if ($Next != null)
-                                <a href="{{ route('products.single', $Next->slug) }}">@lang('products.products_single_next')
-                                    <i class="fas fa-chevron-left"></i></a>
+                                <a href="{{ route('products.single', $Next->slug) }}">@lang('products.products_single_next') <i class="fas fa-chevron-left"></i></a>
                             @endif
                         @elseif(session()->get('locale') == 'en' )
                             @if ($Previous != null)
-                                <a href="{{ route('products.single', $Previous->slug) }}"><i
-                                        class="fas fa-chevron-left"></i>@lang('products.products_single_prev')</a>
+                                <a href="{{ route('products.single', $Previous->slug) }}"><i class="fas fa-chevron-left"></i> @lang('products.products_single_prev')</a>
                             @endif
                             @if ($Next != null)
-                                <a href="{{ route('products.single', $Next->slug) }}">@lang('products.products_single_next')
-                                    <i class="fas fa-chevron-right"></i></a>
+                                <a href="{{ route('products.single', $Next->slug) }}">@lang('products.products_single_next') <i class="fas fa-chevron-right"></i></a>
                         @endif @else
                             @if ($Previous != null)
-                                <a href="{{ route('products.single', $Previous->slug) }}"><i
-                                        class="fas fa-chevron-left"></i>@lang('products.products_single_prev')</a>
+                                <a href="{{ route('products.single', $Previous->slug) }}"><i class="fas fa-chevron-left"></i> @lang('products.products_single_prev')</a>
                             @endif
                             @if ($Next != null)
-                                <a href="{{ route('products.single', $Next->slug) }}">@lang('products.products_single_next')
-                                    <i class="fas fa-chevron-right"></i></a>
+                                <a href="{{ route('products.single', $Next->slug) }}">@lang('products.products_single_next') <i class="fas fa-chevron-right"></i></a>
                             @endif
                         @endif
                     </div>
@@ -70,15 +63,17 @@
                         <div class="whatsapp-cta-product mb-5" id="other-colors-products">
                             <p>@lang('products.products_single_whats_cta_p')</p>
                         </div>
-                        {!! $TheProduct->LocalDescrition !!}
+                        <div>
+                            {!! $TheProduct->LocalDescrition !!}
+                        </div>
+                        <br>
                         <div class="whatsapp-cta-product mb-5">
                             <p>@lang('products.products_single_quote')</p>
-                            <a href="https://wa.me/00201117571111?text={{ url()->current() }}" target="_blank"><i
-                                    class="fab fa-whatsapp"></i>@lang('products.products_single_contact')</a>
+                            <a href="https://wa.me/00201117571111?text={{ url()->current() }}" target="_blank"><i class="fab fa-whatsapp"></i> @lang('products.products_single_contact')</a>
                         </div>
                         <div class="share-product-info">
                             <p>@lang('products.products_single_share_title_1')
-                                <b>{{ $TheProduct->LocalTitle }}</b>@lang('products.products_single_share_title_1')</p>
+                                <b>{{ $TheProduct->LocalTitle }}</b> @lang('products.products_single_share_title_1')</p>
                             <a id="facebook" href="http://www.facebook.com/share.php?u={{ url()->current() }}"
                                 target="_blank"><i class="fab fa-facebook"></i>
                                 @lang('products.products_single_share_title_1')</a>

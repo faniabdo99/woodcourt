@@ -6,7 +6,7 @@
 <body >
         @include('layout.navbar')
         <section class="hero-section" id="about-us-hero-section">
-            <div class="dark-overlap">
+            <div class="dark-overlap overflow-auto">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-7 col-12">
@@ -178,7 +178,7 @@
         @include('layout.footer')
         @include('layout.scripts')
         <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js" ></script>
-        @php 
+        @php
             //Prepare the contnet
             $TheContent = str_replace("'" , "\"" , "<div class='col-lg-9 col-12'>
                     <div class='tab-content'>
@@ -246,17 +246,17 @@
                 </div>");
         @endphp
         <script type="application/ld+json">
-            { 
-                "@context": "https://schema.org", 
+            {
+                "@context": "https://schema.org",
                 "@type": "Article",
                 "headline": "{{__('expert-hub.expert_title')}}",
                 "alternativeHeadline": "{{__('expert-hub.expert_hero_sec_h_1_p')}}",
                 "image": "{{url('public/images/heros/about-us.jpg')}}",
-                "author": "The Wood Court", 
+                "author": "The Wood Court",
                 "award": "The most advanced guide for wood experts",
-                "editor": "The Wood Court", 
-                "genre": "Guide", 
-                "keywords": "thewoodcourt wood experts hardwood wood-flooring floors kitchens", 
+                "editor": "The Wood Court",
+                "genre": "Guide",
+                "keywords": "thewoodcourt wood experts hardwood wood-flooring floors kitchens",
                 "wordcount": "720",
                 "publisher": {
                     "@type": "Organization",

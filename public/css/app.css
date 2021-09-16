@@ -496,7 +496,7 @@ a:hover {
 }
 .testimonials-section .owl-nav {
   position: absolute;
-  margin-top: -20%;
+  margin-top: -16%;
   width: 100%;
 }
 .testimonials-section .owl-nav button {
@@ -566,7 +566,7 @@ a:hover {
   font-size: 0.9em;
   line-height: 2em;
   height: 250px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .testimonials-section .dark-overlap .slide a.view-on-facebook {
   position: absolute;
@@ -1110,6 +1110,9 @@ a:hover {
     display: none;
   }
 
+  .testimonials-section .owl-nav {
+    margin-top: -8%;
+  }
   .testimonials-section .dark-overlap {
     padding: 50px 0;
   }
@@ -1261,7 +1264,6 @@ a:hover {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .homepage-hero-section .homepage-herosection-bg-image {
@@ -1419,7 +1421,7 @@ a:hover {
   position: absolute;
   transform: rotate(90deg);
   opacity: 0.2;
-  top: 4px;
+  top: 6px;
   left: -5px;
   width: 300px !important;
 }
@@ -2009,6 +2011,9 @@ time {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -ms-transition: background 0.5s ease-in-out;
 }
 
 .timeline ul li.in-view::after {
@@ -2023,16 +2028,25 @@ time {
 
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px, 0, 0);
+  -webkit-transform: translate3d(200px, 0, 0);
+  -moz-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
   transform: translate3d(-200px, 0, 0);
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -moz-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
 }
 
 .timeline ul li.in-view div {
-  transform: none;
   visibility: visible;
   opacity: 1;
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
 }
 
 /* GENERAL MEDIA QUERIES
@@ -2350,7 +2364,6 @@ time {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -o-border-radius: 4px;
   padding: 5px 15px;
   color: #fff !important;
   font-size: 0.9em;
@@ -2903,7 +2916,6 @@ hr {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -o-border-radius: 4px;
   padding: 5px 15px;
   color: #fff !important;
   font-size: 0.9em;
