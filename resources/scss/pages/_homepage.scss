@@ -8,7 +8,6 @@
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
-    -o-border-radius: 4px;
 }
 }
 .homepage-hero-section{
@@ -42,6 +41,42 @@
     .owl-dots {
     display: none;
   }
+  .owl-nav {
+    position: absolute;
+    margin-top: -25%;
+    width: 100%;
+    button {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 1.6em;
+        z-index: 5;
+        &:hover , &:focus{
+          border:none;
+          outline: none;
+        }
+        &.owl-prev {
+            position: absolute;
+            left: 3%;
+            background: $brand;
+            color: #fff;
+            border-radius: 50%;
+            z-index: 5;
+            border: none;
+        }
+        &.owl-next {
+            position: absolute;
+            right: 3%;
+            background: $brand;
+            color: #fff;
+            border-radius: 50%;
+            z-index: 5;
+            border: none;
+        }
+    }
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
   @media(max-width: 768px){
     .content-section{
       background-color: rgba(0,0,0,0.5);
@@ -156,7 +191,7 @@
         position: absolute;
         transform: rotate(90deg);
         opacity: 0.2;
-        top:4px;
+        top:6px;
         left: -5px;
         width: 300px !important;
     }

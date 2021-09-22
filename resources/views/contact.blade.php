@@ -7,8 +7,8 @@
 <body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     @include('layout.navbar')
     <!-- Page Content -->
-    <section class="hero-section" id="contact-us-hero">
-        <div class="dark-overlap">
+    <section class="hero-section " id="contact-us-hero">
+        <div class="dark-overlap overflow-auto">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-7 col-12">

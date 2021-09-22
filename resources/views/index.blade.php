@@ -7,15 +7,15 @@
     <h1 class="d-none">@lang('homepage.homepage_weclome_h1')</h1>
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
-        <div class="owl-carousel  owl-theme full-width-carousel" dir="ltr">
-            <div class="container-fluid ">
+        <div class="owl-carousel  owl-theme full-width-carousel" dir="ltr" >
+            <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
                         <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
                             src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
-                                    <a class="icon-button" dir="ltr" href="{{ route('vr-tour') }}"> <i class="fas fa-glasses"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_1')</a>
-                                    <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                            <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
+                            <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="row">
-                @forelse(getCategories() as $Category)
+                @forelse(getSubCategories() as $Category)
                     <div class="col-lg-3 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , $Category->slug])}}">
                             <div class="homepage-card" style="background:url('{{$Category->ThumbPath}}') no-repeat center center;background-size:cover;">
@@ -653,37 +653,37 @@
                         </div>
                     </li>
                     <li class="item">
-                        <div class="video-background-homepage" id="video-three">
+                        <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-3"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
-                        <div class="video-background-homepage" id="video-three">
+                        <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
-                        <div class="video-background-homepage" id="video-three">
+                        <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
-                        <div class="video-background-homepage" id="video-three">
+                        <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
-                        <div class="video-background-homepage" id="video-three">
+                        <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
-                        <div class="video-background-homepage" id="video-three">
+                        <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
@@ -875,7 +875,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Hussein Mahmoud‎‏">
                                 <h4 class="user-name">‏‎Hussein Mahmoud‎‏</h4>
-                                <p><b>Nice</b><br>
+                                <p><b>Highly Recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     Nice and Friendly people high recommend for dealing with them
                                 </p>
@@ -941,7 +941,7 @@
                                     <i class="fas fa-quote-right color-brand"></i>
                                     مهما تكلمت و شكرت في The Wood Court الكلام هيكون غير منصف ... مواعيد محترمة و التزام و دقة في الشغل ... و أسعار مناسبة جداً م/أيمن زهران عملي فيلا في الشيخ زايد ... ريسبشن و غرف وسلم و خشب تيك للتراث ... و السلم ده
                                     قصة تانية خالص بجد حاجة تجنن ... أنا مشس هحكي كتير الصور بتتكلم <br>
-                                    فعلاً شكراً وود كورت و شكراً أيمن زهران على الشغل المحترم
+                                    فعلاً شكراً (وود كورت) و شكراً أيمن زهران على الشغل المحترم
                                 </p>
                             </div>
                         </div>
@@ -963,7 +963,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
                                 <h4 class="user-name">Ashraf Esmail</h4>
-                                <p><b>the best wooden floors ever</b><br>
+                                <p><b>The Best Wooden Floors Ever</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     الجوده في الخامه . الجوده في المواعيد . الجوده في التعامل . الأدب و الالتزام من فنيين التركيب
                                 </p>
@@ -1065,19 +1065,18 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mai-refaat.jpg" alt="Mai Refaat">
-                                <h4>Mai Refaat</h4>
-                                <p><b>اتمني ليكم كل النجاح</b><br>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/omar-badr.jpg" alt="Mai Refaat">
+                                <h4>Omar Badr</h4>
+                                <p><b>The Product Was Great</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
-                                    من اكثر الناس امحترمين اللي اتعملت معاهم اتمني ليكم كل النجاح
-                                </p>
+                                    I bought engineered wood flooring from the wood court and the product was great. The staff are professional and the installation team was very helpful, decent and professional. Thank you!                                </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/mai.refaat.52/posts/10160725040675597" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
-                                <h4 class="user-name"> ‏‎Ehab Doss‎‏ </h4>
+                                <h4 class="user-name">‏‎Ehab Doss‎‏</h4>
                                 <p><b>من اكثر الشركات احتراما للعميل</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
                                     من اكثر الشركات احتراما للعميل ومصداقيه في الخامات
@@ -1113,7 +1112,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
                                 <h4 class="user-name">Mohamed Abo Hendi</h4>
-                                <p><b>Professional </b><br><i class="fas fa-quote-right color-brand"></i>
+                                <p><b>Professional and accurate timing </b><br><i class="fas fa-quote-right color-brand"></i>
                                     Professional and accurate timing , reliable and handing over without any comments.
                                 </p>
                             </div>
@@ -1123,7 +1122,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
                                 <h4 class="user-name">Mohamed El Alfy</h4>
-                                <p><b>Perfect</b><br><i class="fas fa-quote-right color-brand"></i>
+                                <p><b>Perfect Quality</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Perfect follow up perfect timing perfect quality to sum up this is the place to go, well done wood court
                                 </p>
                             </div>
@@ -1135,7 +1134,7 @@
                             <div class="single-testemonials-card">
                                 <img class="user-image" src="{{url('public')}}/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
                                 <h4>Rafik Makar</h4>
-                                <p><b>Thanks</b><br><i class="fas fa-quote-right color-brand"></i>
+                                <p><b>Thanks Woodcourt</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Thanks Woodcourt for the excellent quality of products and professional installation. Well done</p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/rafik.makar/posts/10157818271656593" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
@@ -1152,11 +1151,11 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
-                                <h4>‏‎Tahra El Semary‎‏</h4>
-                                <p><b>احسن حد ممكن تتعامل معاه</b><br><i class="fas fa-quote-right color-brand"></i>
-                                    بجد احسن حد ممكن تتعامل معاه مهندس ايمن فاهم و مهاود و طلعت عينه في إختيار الالوان محترمين جدا و ملتزمين في المواعيد
-                                </p>
+                                <img class="user-image" src="{{url('public')}}/images/testemonials/dina-ismail-mahmoud.jpg" alt="‏‎Tahra El Semary‎‏‎‏">
+                                <h4>Dina Ismail Mahmoud</h4>
+                                <p><b>مبسوطة جدا من التعامل</b><br><i class="fas fa-quote-right color-brand"></i>
+                                    مبسوطة جدا من التعامل مع الشركة لتاني مرة.
+                                    مثال نادر للالتزام في المواعيد و الجوده العالية للمنتج و اسعار منافسة جدا و العماله المحترفة في التركيب و التشطيب                                </p>
                             </div>
                             <a class="view-on-facebook" href="https://www.facebook.com/tahra.semary/posts/10158657423222145" target="_blank" title="View on Facebook"><i class="fab fa-facebook"></i></a>
                         </div>
@@ -1231,21 +1230,18 @@
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
                                 </div>
                             </div>
-
-
-                        </div>
-                        <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
                                 </div>
                             </div>
-
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
                                     <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
@@ -1294,5 +1290,23 @@
     </section>
     @include('layout.scripts')
     @include('layout.footer')
+    <script>
+        $("#homepage-hero-section").owlCarousel({
+            nav: true,
+            loop:true,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:1,
+                },
+                1000:{
+                    items:1,
+                }
+            }
+   });
+   $('#homepage-hero-section .owl-nav').css('direction' , 'ltr')
+    </script>
 </body>
 </html>

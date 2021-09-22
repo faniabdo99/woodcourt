@@ -496,7 +496,7 @@ a:hover {
 }
 .testimonials-section .owl-nav {
   position: absolute;
-  margin-top: -20%;
+  margin-top: -16%;
   width: 100%;
 }
 .testimonials-section .owl-nav button {
@@ -566,7 +566,7 @@ a:hover {
   font-size: 0.9em;
   line-height: 2em;
   height: 250px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .testimonials-section .dark-overlap .slide a.view-on-facebook {
   position: absolute;
@@ -1110,6 +1110,9 @@ a:hover {
     display: none;
   }
 
+  .testimonials-section .owl-nav {
+    margin-top: -8%;
+  }
   .testimonials-section .dark-overlap {
     padding: 50px 0;
   }
@@ -1261,7 +1264,6 @@ a:hover {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .homepage-hero-section .homepage-herosection-bg-image {
@@ -1294,6 +1296,45 @@ a:hover {
 }
 .homepage-hero-section .owl-dots {
   display: none;
+}
+.homepage-hero-section .owl-nav {
+  position: absolute;
+  margin-top: -25%;
+  width: 100%;
+}
+.homepage-hero-section .owl-nav button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.6em;
+  z-index: 5;
+}
+.homepage-hero-section .owl-nav button:hover, .homepage-hero-section .owl-nav button:focus {
+  border: none;
+  outline: none;
+}
+.homepage-hero-section .owl-nav button.owl-prev {
+  position: absolute;
+  left: 3%;
+  background: #0D8287;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 5;
+  border: none;
+}
+.homepage-hero-section .owl-nav button.owl-next {
+  position: absolute;
+  right: 3%;
+  background: #0D8287;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 5;
+  border: none;
+}
+.homepage-hero-section .owl-prev i, .homepage-hero-section .owl-next i {
+  transform: scale(1, 6);
+  color: #ccc;
 }
 @media (max-width: 768px) {
   .homepage-hero-section .content-section {
@@ -1419,7 +1460,7 @@ a:hover {
   position: absolute;
   transform: rotate(90deg);
   opacity: 0.2;
-  top: 4px;
+  top: 6px;
   left: -5px;
   width: 300px !important;
 }
@@ -2009,6 +2050,9 @@ time {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -ms-transition: background 0.5s ease-in-out;
 }
 
 .timeline ul li.in-view::after {
@@ -2023,16 +2067,25 @@ time {
 
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px, 0, 0);
+  -webkit-transform: translate3d(200px, 0, 0);
+  -moz-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
   transform: translate3d(-200px, 0, 0);
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -moz-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
 }
 
 .timeline ul li.in-view div {
-  transform: none;
   visibility: visible;
   opacity: 1;
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
 }
 
 /* GENERAL MEDIA QUERIES
@@ -2350,7 +2403,6 @@ time {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -o-border-radius: 4px;
   padding: 5px 15px;
   color: #fff !important;
   font-size: 0.9em;
@@ -2903,7 +2955,6 @@ hr {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  -o-border-radius: 4px;
   padding: 5px 15px;
   color: #fff !important;
   font-size: 0.9em;

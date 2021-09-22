@@ -117,7 +117,7 @@
     background-size: cover;
     .owl-nav {
         position: absolute;
-        margin-top: -20%;
+        margin-top: -16%;
         width: 100%;
         button {
             width: 40px;
@@ -135,6 +135,7 @@
                 background: $brand;
                 color: #fff;
                 border-radius: 50%;
+                
             }
             &.owl-next {
                 position: absolute;
@@ -184,7 +185,7 @@
                   font-size: 0.9em;
                   line-height: 2em;
                   height: 250px;
-                  overflow-y: scroll;
+                  overflow-y: auto;
                 }
             }
             a.view-on-facebook{
@@ -735,6 +736,9 @@
         }
     }
     .testimonials-section {
+        .owl-nav{
+            margin-top: -8%;
+        }
         .dark-overlap {
             padding: 50px 0;
             .slide {

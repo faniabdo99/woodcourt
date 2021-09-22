@@ -80,6 +80,7 @@ time {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
+
 }
 
 
@@ -88,6 +89,9 @@ time {
 
 .timeline ul li::after {
   transition: background .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -ms-transition: background .5s ease-in-out;
 }
 .timeline ul li.in-view::after {
   background: $brand;
@@ -101,14 +105,23 @@ time {
 
 .timeline ul li:nth-child(odd) div {
   transform: translate3d(200px, 0, 0);
+  -webkit-transform: translate3d(200px, 0, 0);
+  -moz-transform: translate3d(200px, 0, 0);
+  -ms-transform: translate3d(200px, 0, 0);
 }
 .timeline ul li:nth-child(even) div {
   transform: translate3d(-200px, 0, 0);
+  -webkit-transform: translate3d(-200px, 0, 0);
+  -moz-transform: translate3d(-200px, 0, 0);
+  -ms-transform: translate3d(-200px, 0, 0);
 }
 .timeline ul li.in-view div {
-  transform: none;
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
 }
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
