@@ -11,7 +11,7 @@ return [
         'navbar_products_kitchens' => 'المطابخ والخزائن' ,
         'navbar_products_outdoor' => 'ارضيات وبرجولات خشبية' ,
         'navbar_events' => 'الأحداث',
-        'navbar_expert' => 'مركز الخبراء' ,
+        'navbar_expert' => 'قسم الخبراء' ,
         'navbar_contact' => 'تواصل معنا' ,
         'navbar_quote' => 'احصل على عرض سعر' ,
         'navbar_quote_name' => 'الأسم' ,

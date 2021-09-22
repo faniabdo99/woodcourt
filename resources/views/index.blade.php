@@ -30,7 +30,7 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_2_h')</h2>
-                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_2_desc')</p>
+                        <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_2_desc')</p>
                         <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
                     </div>
@@ -46,7 +46,7 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_3_h')</h2>
-                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_3_desc')</p>
+                        <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_3_desc')</p>
                         <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
@@ -62,7 +62,7 @@
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_4_h')</h2>
-                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_4_desc')</p>
+                        <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_4_desc')</p>
                         <a class="icon-button mr-0" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
@@ -257,70 +257,70 @@
                             <div class="why-us-card active" id="market-leaders">
                                 <div class="why-us-icon-container"><i class="flaticon-team-leader"></i></div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_1_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_1_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_1_p')</p>
                             </div>
                             <div class="why-us-card" id="experience">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-experience"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_2_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_2_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_2_p')</p>
                             </div>
                             <div class="why-us-card" id="trained-human-resources">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-construction-and-tools"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_3_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_3_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_3_p')</p>
                             </div>
                             <div class="why-us-card" id="no-hidden-costs">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-budget"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_4_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_4_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_4_p')</p>
                             </div>
                             <div class="why-us-card" id="affordable-pricing">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-affordable"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_5_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_5_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_5_p')</p>
                             </div>
                             <div class="why-us-card" id="moisture-free">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-moisture-wicking-fabric"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_6_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_6_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_6_p')</p>
                             </div>
                             <div class="why-us-card" id="insect-free">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-no-bugs"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_7_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_7_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_7_p')</p>
                             </div>
                             <div class="why-us-card" id="quick-and-easy-installation">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-gear"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_8_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_8_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_8_p')</p>
                             </div>
                             <div class="why-us-card" id="easy-clean">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-clean"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_9_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_9_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_9_p')</p>
                             </div>
                             <div class="why-us-card" id="delivery-in-time">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-fast-delivery"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_10_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_10_p')
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_10_p')
                                 </p>
                             </div>
                             <div class="why-us-card" id="anti-scratch">
@@ -328,28 +328,28 @@
                                     <i class="flaticon-log"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_11_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_11_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_11_p')</p>
                             </div>
                             <div class="why-us-card" id="sound-proof">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-mute-volume-control"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_12_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_12_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_12_p')</p>
                             </div>
                             <div class="why-us-card" id="life-lasting-stains">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-debt"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_13_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_13_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_13_p')</p>
                             </div>
                             <div class="why-us-card" id="lifetime-guarantee">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-guarantee"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_14_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_14_p')
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_14_p')
                                 </p>
                             </div>
                             <div class="why-us-card" id="pre-finished">
@@ -357,28 +357,28 @@
                                     <i class="flaticon-flag"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_15_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_15_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_15_p')</p>
                             </div>
                             <div class="why-us-card" id="customer-support">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-customer-service"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_16_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_16_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_16_p')</p>
                             </div>
                             <div class="why-us-card" id="env-friendly">
                                 <div class="why-us-icon-container">
                                     <i class="flaticon-green-earth"></i>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_17_h')</h3>
-                                <p class="why-us-card-description">@lang('homepage.homepage_why_us_sec_17_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_17_p')</p>
                             </div>
                             <div class="why-us-card" id="custom-designs">
                                 <div class="why-us-icon-container ">
                                     <a class="why-us-card-toggler" data-target="card-heading-one"> <i class="flaticon-equalizer"></i> </a>
                                 </div>
                                 <h3 class="why-us-card-title">@lang('homepage.homepage_why_us_sec_18_h')</h3>
-                                <p class="why-us-card-description ">@lang('homepage.homepage_why_us_sec_18_p')</p>
+                                <p class="why-us-card-description @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('homepage.homepage_why_us_sec_18_p')</p>
                             </div>
                         </div>
                     </div>
@@ -406,49 +406,49 @@
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/1.jpg"
-                                                  alt="life-edge-1" title="life-edge-1"></a></li>
+                                            alt="life-edge-1" title="life-edge-1"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/2.jpg"
-                                                  alt="life-edge-2" title="life-edge-2"></a></li>
+                                            alt="life-edge-2" title="life-edge-2"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/3.jpg"
-                                                  alt="life-edge-3" title="life-edge-3"></a></li>
+                                            alt="life-edge-3" title="life-edge-3"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/4.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/4.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/5.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/5.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/6.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/6.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/7.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/7.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/8.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/8.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/9.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/9.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/10.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/10.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/11.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/11.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/12.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/12.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/13.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/13.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/14.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/14.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/15.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/15.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/16.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/16.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/17.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/17.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/18.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/18.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/19.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/19.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/20.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/20.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                         <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/21.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/21.jpg"
-                                                  alt="life-edge-4" title="life-edge-4"></a></li>
+                                            alt="life-edge-4" title="life-edge-4"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -467,11 +467,11 @@
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/light/thumbs/1.jpg" alt="light-1"
-                                                  title="light-1"></a></li>
+                                            title="light-1"></a></li>
                                         <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/light/thumbs/2.jpg" alt="light-2"
-                                                  title="light-2"></a></li>
+                                            title="light-2"></a></li>
                                         <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/light/thumbs/3.jpg" alt="light-3"
-                                                  title="light-3"></a></li>
+                                            title="light-3"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -490,15 +490,15 @@
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/1.jpg" alt="b-cards-1"
-                                                  title="b-cards-1"></a></li>
+                                            title="b-cards-1"></a></li>
                                         <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/2.jpg" alt="b-cards-2"
-                                                  title="b-cards-2"></a></li>
+                                            title="b-cards-2"></a></li>
                                         <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/3.jpg" alt="b-cards-3"
-                                                  title="b-cards-3"></a></li>
+                                            title="b-cards-3"></a></li>
                                         <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/4.jpg" alt="b-cards-4"
-                                                  title="b-cards-4"></a></li>
+                                            title="b-cards-4"></a></li>
                                         <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/5.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/5.jpg" alt="b-cards-5"
-                                                  title="b-cards-5"></a></li>
+                                            title="b-cards-5"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -517,33 +517,33 @@
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/1.jpg" alt="coasters-1"
-                                                  title="coasters-1"></a></li>
+                                            title="coasters-1"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/2.jpg" alt="coasters-2"
-                                                  title="coasters-2"></a></li>
+                                            title="coasters-2"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/3.jpg" alt="coasters-3"
-                                                  title="coasters-3"></a></li>
+                                            title="coasters-3"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/4.jpg" alt="coasters-4"
-                                                  title="coasters-4"></a></li>
+                                            title="coasters-4"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/5.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/5.jpg" alt="coasters-5"
-                                                  title="coasters-5"></a></li>
+                                            title="coasters-5"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/6.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/6.jpg" alt="coasters-6"
-                                                  title="coasters-6"></a></li>
+                                            title="coasters-6"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/7.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/7.jpg" alt="coasters-7"
-                                                  title="coasters-7"></a></li>
+                                            title="coasters-7"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/8.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/8.jpg" alt="coasters-8"
-                                                  title="coasters-8"></a></li>
+                                            title="coasters-8"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/9.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/9.jpg" alt="coasters-9"
-                                                  title="coasters-9"></a></li>
+                                            title="coasters-9"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/10.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/10.jpg"
-                                                  alt="coasters-10" title="coasters-10"></a></li>
+                                            alt="coasters-10" title="coasters-10"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/11.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/11.jpg"
-                                                  alt="coasters-11" title="coasters-11"></a></li>
+                                            alt="coasters-11" title="coasters-11"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/12.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/12.jpg"
-                                                  alt="coasters-12" title="coasters-12"></a></li>
+                                            alt="coasters-12" title="coasters-12"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/13.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/13.jpg"
-                                                  alt="coasters-13" title="coasters-13"></a></li>
+                                            alt="coasters-13" title="coasters-13"></a></li>
                                         <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/14.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/14.jpg"
-                                                  alt="coasters-14" title="coasters-14"></a></li>
+                                            alt="coasters-14" title="coasters-14"></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -567,11 +567,11 @@
                                 <form action="{{route('contactLimitedEdition')}}" method="post" id="place-order-modal-form">
                                     @csrf
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_name')</label>
+                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_name') <span class="text-danger">*</span></label>
                                         <input type="text" name="name" class="form-control" placeholder="@lang('homepage.homepage_limit_sec_order_form_name_ph')" required>
                                     </div>
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_email')</label>
+                                        <label for="recipient-name" class="col-form-label">@lang('homepage.homepage_limit_sec_order_form_email') <span class="text-danger">*</span></label>
                                         <input type="text" name="email" class="form-control" placeholder="@lang('homepage.homepage_limit_sec_order_form_email_ph')" required>
                                     </div>
                                     <div class="form-group">
@@ -580,7 +580,7 @@
                                     </div>
                                     <input type="hidden" name="item_name">
                                     <input type="hidden" name="form_location" value="Limited Edition">
-                                    <input class="icon-button p-2" type="submit" value="Send Request">
+                                    <input class="icon-button p-2" type="submit" value="@lang('homepage.homepage_limit_sec_order_form_send_req')">
                                 </form>
                             </div>
                             <div class="col-lg-7 col-12">
@@ -724,8 +724,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3 ">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-heart"></i>
                             </div>
@@ -734,8 +734,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3 ">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-user-tie"></i>
                             </div>
@@ -744,8 +744,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3 ">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-chart-area"></i>
                             </div>
@@ -754,8 +754,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3">
-                        <div class="single-counter-item">
+                    <div class="our-card col-6 col-lg-3 col-md-3 col-sm-3 ">
+                        <div class="single-counter-item h-100">
                             <div class="icon-container">
                                 <i class="fas fa-users"></i>
                             </div>
@@ -1293,7 +1293,6 @@
         </div>
     </section>
     @include('layout.scripts')
-
     @include('layout.footer')
 </body>
 </html>

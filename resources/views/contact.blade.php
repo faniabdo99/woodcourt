@@ -82,12 +82,12 @@
                     <form class="woodcourt-form">
                         <div class="row">
                             <div class="col-lg-6 col-12">
-                                <label for="name">@lang('contact.contact_location_name')</label>
+                                <label for="name">@lang('contact.contact_location_name')<span class="text-danger">*</span></label>
                                 <input type="text" placeholder="@lang('contact.contact_location_name_ph')" name="name"
                                     id="name" required>
                             </div>
                             <div class="col-lg-6 col-12">
-                                <label for="name">@lang('contact.contact_location_email')</label>
+                                <label for="name">@lang('contact.contact_location_email')<span class="text-danger">*</span></label>
                                 <input type="email" placeholder="@lang('contact.contact_location_email_ph')"
                                     name="email" id="email" required>
                             </div>
@@ -97,7 +97,7 @@
                                 <label for="name">@lang('contact.contact_location_company')</label>
                                 <input type="text" placeholder="@lang('contact.contact_location_company_ph')"
                                     name="company_name" id="company_name">
-                                <label for="message">@lang('contact.contact_location_message')</label>
+                                <label for="message">@lang('contact.contact_location_message')<span class="text-danger">*</span></label>
                                 <textarea name="message" id="message" rows="8"
                                     placeholder="@lang('contact.contact_location_message_ph')"></textarea>
                                 <button class="icon-button d-lg-inline d-block text-center w-100"
