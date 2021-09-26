@@ -13,6 +13,15 @@ Route::get('payment-methods' , 'PagesController@getPaymentMethodsPage')->name('p
 Route::get('privacy-policy' , 'PagesController@getPolicyPage')->name('privacy');
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
 Route::get('test-expert-hub' , 'PagesController@getTestExpertHub')->name('test-expert-hub');
+Route::get('products/cateogry/engineered' , 'PagesController@getEngineeredWoodPage')->name('category.engineered');
+Route::get('products/cateogry/tiles' , 'PagesController@getEngineeredWoodPage')->name('category.tiles');
+Route::get('products/cateogry/stairs' , 'PagesController@getEngineeredWoodPage')->name('category.stairs');
+Route::get('products/cateogry/kitchen' , 'PagesController@getEngineeredWoodPage')->name('category.kitchen');
+Route::get('products/cateogry/dressing' , 'PagesController@getEngineeredWoodPage')->name('category.dressing');
+Route::get('products/cateogry/teakFloor' , 'PagesController@getEngineeredWoodPage')->name('category.teakFloor');
+Route::get('products/cateogry/pergolas' , 'PagesController@getEngineeredWoodPage')->name('category.pergolas');
+Route::get('products/cateogry/vanity' , 'PagesController@getEngineeredWoodPage')->name('category.vanity');
+Route::get('products/cateogry/hdf' , 'PagesController@getEngineeredWoodPage')->name('category.hdf');
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');

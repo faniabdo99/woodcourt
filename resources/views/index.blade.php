@@ -81,18 +81,88 @@
                 </div>
             </div>
             <div class="row">
-                @forelse(getSubCategories() as $Category)
                     <div class="col-lg-3 col-12 mb-4 mb-lg-0">
-                        <a href="{{route('products' , ['category' , $Category->slug])}}">
-                            <div class="homepage-card" style="background:url('{{$Category->ThumbPath}}') no-repeat center center;background-size:cover;">
+                        <a href="{{route('products' , ['category' , 'wood-flooring'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/wood-flooring.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
-                                    {{$Category->LocalTitle}}
+                                    Engineered Floors
                                 </div>
                             </div>
                         </a>
                     </div>
-                @empty
-                @endforelse
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'tiles'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/tiles.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                    Tiles
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'stairs'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/stairs.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                Stairs
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'kitchens'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/kitchens.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                Kitchens
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'dressings'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/dressings.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                Dressings
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'teak-flooring'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/teak-flooring.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                Teak Flooring
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'pergolas'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/pergolas.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                Pergolas
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'vanity'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/vanity.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                Vanity
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                        <a href="{{route('products' , ['category' , 'hdf-floors'])}}">
+                            <div class="homepage-card" style="background:url('storage/app/categories/hdf-floors.jpg') no-repeat center center;background-size:cover;">
+                                <div class="dark-overlap">
+                                HDF Floors
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
             </div>
             <div class="row mt-5">
                 <div class="col-12 text-center">
@@ -688,10 +758,16 @@
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
+                    <li class="item">
+                        <div class="video-background-homepage">
+                            <img src="{{url('public')}}/images/7.png" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-9"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
-     </div>
+    </div>
     </section>
     <section class="vr-tour p-50">
         <div class="container">
@@ -750,7 +826,7 @@
                                 <i class="fas fa-chart-area"></i>
                             </div>
                             <div class="content-container">
-                                <span class="counter" data-from="25" data-to="2000" data-speed="3000"></span>@lang('homepage.homepage_our_achievements_sec_3')
+                                <span class="counter" data-from="25" data-to="20000" data-speed="3000"></span>@lang('homepage.homepage_our_achievements_sec_3')
                             </div>
                         </div>
                     </div>
