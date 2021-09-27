@@ -20,11 +20,6 @@
                         <i class="fas fa-calendar"></i> {{ $TheProduct->created_at->format('d, M Y') }}
                     </span>
                     <div class="row">
-                        <div class="col-10">
-                            <a href="{{ $TheProduct->imagePath }}" data-fancybox="gallery">
-                                <img class="w-100 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
-                            </a>
-                        </div>
                         <div class="event-content col-2">
                             <div class="single-product-images w-100">
                                 <ul class="flex-column">
@@ -35,6 +30,12 @@
                                 </ul>
                             </div>
                         </div>
+                        <div class="col-10">
+                            <a href="{{ $TheProduct->imagePath }}" data-fancybox="gallery">
+                                <img class="w-100 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
+                            </a>
+                        </div>
+                     
                     </div>
                     <div class="product-controls ">
                         @if (session()->get('locale') == 'ar')
