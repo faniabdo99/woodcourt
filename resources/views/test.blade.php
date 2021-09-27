@@ -8,7 +8,7 @@
                 <a href="{{ route('products.single', [$Product->slug, $Product->id]) }}">{{ $Product->title }}</a>
                 <ul class="d-flex w-100">
                     @forelse($Product->Gallery as $Gallery)
-                        <li><a href="#" target="_blank"><img class="mr-2" loading="lazy" width="250" height="250" src="{{$Gallery->ImagePath}}"></a></li>
+                        <li><a href="{{route('product.deleteGalleryImagesTest' ,$Gallery->id )}}" target="_blank"><img class="mr-2" loading="lazy" width="250" height="250" src="{{$Gallery->ImagePath}}"></a></li>
                     @empty
                     @endforelse
                 </ul>
