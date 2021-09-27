@@ -24,7 +24,7 @@
                             <div class="single-product-images w-100">
                                 <ul class="flex-column">
                                     @forelse ($TheProduct->Gallery as $key => $Gallery)
-                                        <li class="border-2 border-light"><a href="{{ $Gallery->ImagePath }}" data-fancybox="gallery"><img src="{{ $Gallery->ThumbPath }}"></a></li>
+                                        <li class="border border-light"><a href="{{ $Gallery->ImagePath }}" data-fancybox="gallery"><img src="{{ $Gallery->ThumbPath }}"></a></li>
                                     @empty
                                     @endforelse
                                 </ul>
