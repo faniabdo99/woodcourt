@@ -20,14 +20,14 @@
                         <i class="fas fa-calendar"></i> {{ $TheProduct->created_at->format('d, M Y') }}
                     </span>
                     <div class="row">
-                        <div>
-                            <a href="{{ $TheProduct->imagePath }}" data-fancybox="fd">
+                        <div class="col-10">
+                            <a href="{{ $TheProduct->imagePath }}" data-fancybox="gallery">
                                 <img class="w-100 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
                             </a>
                         </div>
-                        <div class="event-content">
+                        <div class="event-content col-2">
                             <div class="single-product-images w-100">
-                                <ul>
+                                <ul class="flex-column">
                                     @forelse ($TheProduct->Gallery as $key => $Gallery)
                                         <li><a href="{{ $Gallery->ImagePath }}" data-fancybox="gallery"><img src="{{ $Gallery->ThumbPath }}"></a></li>
                                     @empty
