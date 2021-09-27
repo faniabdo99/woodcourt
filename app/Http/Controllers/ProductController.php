@@ -19,10 +19,8 @@ class ProductController extends Controller{
         return view('test', compact('AllProducts'));
     }
     public function deleteGalleryImagesTest($id){
-        ProductGallery::where('product_id', $id)->get()->map(function ($item) {
-            $item->delete();
-        });
-        return back()->withSuccess('Product Gallery Images Deleted');
+        ProductGallery::findOrFail($id)->delete();
+        dd('Deleted');
     }
     public function getRedirectProducts($slug){
         $Urls = Category::all()->pluck('slug')->toArray();
