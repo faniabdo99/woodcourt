@@ -141,6 +141,12 @@
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
+                    <li class="item">
+                        <div class="video-background-homepage">
+                            <img src="{{url('public')}}/images/7.png" alt="Video Thumb">
+                            <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-9"> <i class="fas fa-play-circle fa-5x"></i></a>
+                        </div>
+                    </li>
                     </ul>
                 </div>
             </div>
