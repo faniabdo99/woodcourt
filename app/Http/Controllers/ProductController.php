@@ -20,7 +20,6 @@ class ProductController extends Controller{
     }
     public function deleteGalleryImagesTest($id){
         ProductGallery::where('product_id', $id)->get()->map(function ($item) {
-            dd($item);
             $item->delete();
         });
         return back()->withSuccess('Product Gallery Images Deleted');
