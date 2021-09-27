@@ -20,7 +20,7 @@
                         <i class="fas fa-calendar"></i> {{ $TheProduct->created_at->format('d, M Y') }}
                     </span>
                     <a href="{{ $TheProduct->imagePath }}" data-fancybox="fd">
-                        <img class="w-100 mb-3" src="{{ $TheProduct->ThumbPath }}" alt="{{ $TheProduct->LocalTitle }}">
+                        <img class="w-100 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
                     </a>
                     <div class="event-content">
                         <div class="single-product-images w-100">
