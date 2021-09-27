@@ -19,17 +19,21 @@
                     <span class="metabox d-block mb-3">
                         <i class="fas fa-calendar"></i> {{ $TheProduct->created_at->format('d, M Y') }}
                     </span>
-                    <a href="{{ $TheProduct->imagePath }}" data-fancybox="fd">
-                        <img class="w-100 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
-                    </a>
-                    <div class="event-content">
-                        <div class="single-product-images w-100">
-                            <ul>
-                                @forelse ($TheProduct->Gallery as $key => $Gallery)
-                                    <li><a href="{{ $Gallery->ImagePath }}" data-fancybox="gallery"><img src="{{ $Gallery->ThumbPath }}"></a></li>
-                                @empty
-                                @endforelse
-                            </ul>
+                    <div class="row">
+                        <div>
+                            <a href="{{ $TheProduct->imagePath }}" data-fancybox="fd">
+                                <img class="w-100 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
+                            </a>
+                        </div>
+                        <div class="event-content">
+                            <div class="single-product-images w-100">
+                                <ul>
+                                    @forelse ($TheProduct->Gallery as $key => $Gallery)
+                                        <li><a href="{{ $Gallery->ImagePath }}" data-fancybox="gallery"><img src="{{ $Gallery->ThumbPath }}"></a></li>
+                                    @empty
+                                    @endforelse
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="product-controls ">
