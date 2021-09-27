@@ -8,11 +8,9 @@
                 <div class="col-lg-12">
                     <div class="products-breadcrumbs">
                         <ul>
-                            <li><a
-                                    href="{{ route('products', ['category', $TheProduct->Category->slug]) }}">{{ $TheProduct->Category->title }}</a>
+                            <li><a href="{{ route('products', ['category', $TheProduct->Category->slug]) }}">{{ $TheProduct->Category->title }}</a>
                                 ></li>
-                            <li><a
-                                    href="{{ route('products', ['category', $TheProduct->SubCategory->slug]) }}">{{ $TheProduct->SubCategory->title }}</a>
+                            <li><a href="{{ route('products', ['category', $TheProduct->SubCategory->slug]) }}">{{ $TheProduct->SubCategory->title }}</a>
                                 ></li>
                             <li>{{ $TheProduct->LocalTitle }}</li>
                         </ul>
@@ -22,16 +20,14 @@
                         <i class="fas fa-calendar"></i> {{ $TheProduct->created_at->format('d, M Y') }}
                     </span>
                     <a href="{{ $TheProduct->imagePath }}" data-fancybox="fd">
-                        <img class="w-100 mb-3" src="{{ $TheProduct->ImagePath }}" alt="{{ $TheProduct->LocalTitle }}">
+                        <img class="w-100 mb-3" src="{{ $TheProduct->ThumbPath }}" alt="{{ $TheProduct->LocalTitle }}">
                     </a>
                     <div class="event-content">
                         <div class="single-product-images w-100">
                             <ul>
                                 @forelse ($TheProduct->Gallery as $key => $Gallery)
-                                    <li><a href="{{ $Gallery->ImagePath }}" data-fancybox="gallery"><img
-                                                src="{{ $Gallery->ThumbPath }}"></a></li>
+                                    <li><a href="{{ $Gallery->ImagePath }}" data-fancybox="gallery"><img src="{{ $Gallery->ThumbPath }}"></a></li>
                                 @empty
-
                                 @endforelse
                             </ul>
                         </div>
