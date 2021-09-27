@@ -14,6 +14,8 @@ Route::get('privacy-policy' , 'PagesController@getPolicyPage')->name('privacy');
 Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
 Route::get('test-expert-hub' , 'PagesController@getTestExpertHub')->name('test-expert-hub');
 Route::get('test-products' , 'ProductController@getTest')->name('test-products');
+Route::get('/delete-gallery/{id}' , 'ProductController@deleteGalleryImagesTest')->name('product.deleteGalleryImagesTest');
+
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');

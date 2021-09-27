@@ -18,6 +18,13 @@ class ProductController extends Controller{
         $AllProducts = Product::latest()->paginate(100);
         return view('test', compact('AllProducts'));
     }
+    public function deleteGalleryImagesTest($id){
+        ProductGallery::where('product_id', $id)->get()->map(function ($item) {
+            dd($item);
+            $item->delete();
+        });
+        return back()->withSuccess('Product Gallery Images Deleted');
+    }
     public function getRedirectProducts($slug){
         $Urls = Category::all()->pluck('slug')->toArray();
         if (in_array($slug, $Urls)) {
