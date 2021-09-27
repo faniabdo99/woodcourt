@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-10">
                             <a href="{{ $TheProduct->imagePath }}" data-fancybox="gallery">
-                                <img class="w-100 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
+                                <img class="w-100 h-75 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
                             </a>
                         </div>
                      
