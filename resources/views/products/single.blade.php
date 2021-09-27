@@ -124,6 +124,12 @@
     </section>
     @include('layout.footer')
     @include('layout.scripts')
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            showNavArrows : true
+            });
+
+    </script>
     <script type="application/ld+json">
         {
           "@context": "https://schema.org/",
