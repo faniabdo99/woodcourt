@@ -295,7 +295,7 @@
 }
 .similar-product-dir{
     direction: ltr;
-   
+
 }
 @media(max-width: 768px){
   #products-section {margin-bottom: 50px;}
@@ -344,4 +344,55 @@
     transition: all ease 0.3s;
   }
 }
-
+.clients-reviews{
+    .rating-stars{
+        position: absolute;
+        right: 41px;
+        top: -18px;
+        background-color: #0D8287;
+        padding: 9px;
+        border-radius: 4px;
+        color: white;
+    }
+    .rating-content{
+        background-color: #f1f1f1;
+        padding: 25px;
+        border-radius: 4px;
+    }
+    .rates-list{
+        max-height: 700px;
+        overflow: auto;
+    }
+    .stars-box{
+        background-color: #0D8287;
+        padding: 50px 31px;
+        border-radius: 4px;
+        color: white;
+        i{
+            font-size: 60px;
+        }
+    }
+    .rate-request-form{
+        input,textarea{
+            background-color: #F1F1F1;
+            border: 0;
+        }
+        .form-group{
+            margin-bottom: 2rem;
+        }
+        label{
+            font-weight: 500;
+            font-size: 17px;
+        }
+        h3{
+            font-size: 31px;
+        }
+        button[type=submit]{
+            background-color: #0D8287;
+            border: 0;
+            padding: 10px 35px;
+            color: white;
+            border-radius: 4px;
+        }
+    }
+}

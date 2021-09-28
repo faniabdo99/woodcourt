@@ -35,7 +35,7 @@
                                 <img class="w-100 h-75 mb-3" src="{{ $TheProduct->imagePath }}" alt="{{ $TheProduct->LocalTitle }}">
                             </a>
                         </div>
-                     
+
                     </div>
                     <div class="product-controls ">
                         @if (session()->get('locale') == 'ar')
@@ -87,6 +87,103 @@
                                 target="_blank" data-pin-custom="true"><i class="fab fa-pinterest"></i>
                                 @lang('products.products_single_share_pinterest')</a>
                         </div>
+                        <div class="clients-reviews mt-5 mb-5">
+                            <h3 class="mb-3">25 Reviews about Pine Vanity</h3>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8 col-md-12 rates-list">
+                                    <div class="position-relative mt-5 mb-5">
+                                        <div class="rating-stars">
+                                            <span>@for ($i = 0; $i <= 5; $i++)
+                                                <i class="fas fa-star"></i> &nbsp;
+                                            @endfor Awesome &nbsp;</span>
+                                        </div>
+                                        <div class="rating-content">
+                                            <h4>Abdulrahman Fani</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative mt-5 mb-5">
+                                        <div class="rating-stars">
+                                            <span>@for ($i = 0; $i <= 5; $i++)
+                                                <i class="fas fa-star"></i> &nbsp;
+                                            @endfor Awesome &nbsp;</span>
+                                        </div>
+                                        <div class="rating-content">
+                                            <h4>Abdulrahman Fani</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative mt-5 mb-5">
+                                        <div class="rating-stars">
+                                            <span>@for ($i = 0; $i <= 5; $i++)
+                                                <i class="fas fa-star"></i> &nbsp;
+                                            @endfor Awesome &nbsp;</span>
+                                        </div>
+                                        <div class="rating-content">
+                                            <h4>Abdulrahman Fani</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative mt-5 mb-5">
+                                        <div class="rating-stars">
+                                            <span>@for ($i = 0; $i <= 5; $i++)
+                                                <i class="fas fa-star"></i> &nbsp;
+                                            @endfor Awesome &nbsp;</span>
+                                        </div>
+                                        <div class="rating-content">
+                                            <h4>Abdulrahman Fani</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="position-relative mt-5 mb-5">
+                                        <div class="rating-stars">
+                                            <span>@for ($i = 0; $i <= 5; $i++)
+                                                <i class="fas fa-star"></i> &nbsp;
+                                            @endfor Awesome &nbsp;</span>
+                                        </div>
+                                        <div class="rating-content">
+                                            <h4>Abdulrahman Fani</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rate-request-form col-lg-4 col-md-12">
+                                    <div class="stars-box d-flex justify-content-around mb-5">
+                                        <div>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="d-flex justify-content-center align-items-center flex-column">
+                                            <h3 class="m-0">5 / 5 Stars</h3>
+                                                <p class="text-white m-0 font-weight-light">Based on 7 Reviews</p>
+                                        </div>
+                                    </div>
+                                    <form>
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input type="text" class="form-control" placeholder="Please enter your name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email (Will not be published)</label>
+                                            <input type="email" class="form-control"  placeholder="Please enter your email (not required)">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Rating</label>
+                                            <input type="text" class="form-control"  placeholder="Please select a rating">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Review</label>
+                                            <textarea class="form-control" cols="30" rows="7" placeholder="Please enter your review (255 Charachters)"></textarea>
+                                        </div>
+                                        <button type="submit" class="">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                         <div class="similar-products mt-5">
                             <div class="row">
                                 <div class="col-12">
@@ -124,12 +221,6 @@
     </section>
     @include('layout.footer')
     @include('layout.scripts')
-    <script>
-        Fancybox.bind('[data-fancybox="gallery"]', {
-            showNavArrows : true
-            });
-
-    </script>
     <script type="application/ld+json">
         {
           "@context": "https://schema.org/",
