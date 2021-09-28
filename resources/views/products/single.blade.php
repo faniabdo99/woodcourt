@@ -1,5 +1,4 @@
 @include('layout.header', ['PageTitle' => $TheProduct->LocalTitle])
-
 <body class="@lang('settings.text_align')" dir="@lang('settings.direction')">
     @include('layout.navbar')
     <section class="single-event-article">
@@ -8,12 +7,8 @@
                 <div class="col-lg-12">
                     <div class="products-breadcrumbs">
                         <ul>
-                            <li><a
-                                    href="{{ route('products', ['category', $TheProduct->Category->slug]) }}">{{ $TheProduct->Category->title }}</a>
-                                ></li>
-                            <li><a
-                                    href="{{ route('products', ['category', $TheProduct->SubCategory->slug]) }}">{{ $TheProduct->SubCategory->title }}</a>
-                                ></li>
+                            <li><a href="{{ route('products', ['category', $TheProduct->Category->slug]) }}">{{ $TheProduct->Category->title }}</a> > </li>
+                            <li><a href="{{ route('products', ['category', $TheProduct->SubCategory->slug]) }}">{{ $TheProduct->SubCategory->title }}</a> ></li>
                             <li>{{ $TheProduct->LocalTitle }}</li>
                         </ul>
                     </div>
@@ -144,5 +139,4 @@
         }
     </script>
 </body>
-
 </html>
