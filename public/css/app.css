@@ -2872,6 +2872,18 @@ time {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 992px) {
+  .stars-box {
+    justify-content: center !important;
+  }
+  .stars-box div {
+    margin-right: 20px;
+  }
+
+  .rate-request-form {
+    margin-top: 50px;
+  }
+}
 h2 {
   color: #0d8287;
   margin-bottom: 20px;

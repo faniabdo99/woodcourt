@@ -396,3 +396,15 @@
         }
     }
 }
+
+@media screen and (max-width:992px){
+    .stars-box{
+        justify-content: center !important;
+        div{
+            margin-right: 20px;
+        }
+    }
+    .rate-request-form{
+        margin-top: 50px;
+    }
+}
