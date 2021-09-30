@@ -94,12 +94,12 @@
                                     <div class="position-relative mt-5 mb-5">
                                         <div class="rating-stars">
                                             <span>@for ($i = 0; $i <= 5; $i++)
-                                                <i class="fas fa-star"></i> &nbsp;
-                                            @endfor Awesome &nbsp;</span>
+                                                <i class="fas fa-star active"></i> &nbsp;
+                                                @endfor Awesome &nbsp;</span>
                                         </div>
                                         <div class="rating-content">
                                             <h4>Abdulrahman Fani</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
+                                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
                                             </p>
                                         </div>
                                     </div>
@@ -157,27 +157,37 @@
                                         <div>
                                             <i class="fas fa-star"></i>
                                         </div>
-                                        <div class="d-flex justify-content-center align-items-center flex-column">
+                                        <div>
                                             <h3 class="m-0">5 / 5 Stars</h3>
                                                 <p class="text-white m-0 font-weight-light">Based on 7 Reviews</p>
                                         </div>
                                     </div>
                                     <form>
                                         <div class="form-group">
-                                            <label>Name</label>
-                                            <input type="text" class="form-control" placeholder="Please enter your name">
+                                            <label>Name
+                                            <input type="text" class="form-control" placeholder="Please enter your name" required>
+                                            </label>
                                         </div>
                                         <div class="form-group">
-                                            <label>Email (Will not be published)</label>
-                                            <input type="email" class="form-control"  placeholder="Please enter your email (not required)">
+                                            <label>Email (Will not be published)
+                                            <input type="email" class="form-control"  placeholder="Please enter your email (not required)" required>
+                                            </label>
                                         </div>
                                         <div class="form-group">
-                                            <label>Rating</label>
-                                            <input type="text" class="form-control"  placeholder="Please select a rating">
+                                            <label>Rating
+                                                <select class="form-control p-0" name="" id="">
+                                                    <option value="1">Bad</option>
+                                                    <option value="2">Normal</option>
+                                                    <option value="3">Medium</option>
+                                                    <option value="4">Good</option>
+                                                    <option value="5">Very Good</option>
+                                                </select>
+                                            </label>
                                         </div>
                                         <div class="form-group">
-                                            <label>Review</label>
-                                            <textarea class="form-control" cols="30" rows="7" placeholder="Please enter your review (255 Charachters)"></textarea>
+                                            <label>Review
+                                            <textarea class="form-control" cols="30" rows="5" placeholder="Please enter your review (255 Charachters)" required></textarea>
+                                            </label>
                                         </div>
                                         <button type="submit" class="">Submit</button>
                                     </form>

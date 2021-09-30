@@ -15,6 +15,7 @@ a:hover {
 
 *::-webkit-scrollbar {
   width: 5px;
+  border-radius: 10px;
 }
 
 *::-webkit-scrollbar-track {
@@ -2858,6 +2859,7 @@ time {
   margin-bottom: 2rem;
 }
 .clients-reviews .rate-request-form label {
+  width: 100%;
   font-weight: 500;
   font-size: 17px;
 }
