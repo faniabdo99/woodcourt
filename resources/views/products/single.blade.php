@@ -91,66 +91,27 @@
                             <h3 class="mb-3">25 Reviews about Pine Vanity</h3>
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-12 rates-list">
-                                    <div class="position-relative mt-5 mb-5">
-                                        <div class="rating-stars">
-                                            <span>@for ($i = 0; $i <= 5; $i++)
-                                                <i class="fas fa-star active"></i> &nbsp;
-                                                @endfor Awesome &nbsp;</span>
+                                    @forelse($TheProduct->Reviews as $Review)
+                                        <div class="position-relative mt-5 mb-5">
+                                            <div class="rating-stars">
+                                                <span>
+                                                        @for ($i = 0; $i <= $Review->rate; $i++)
+                                                            <i class="fas fa-star active text-danger"></i>
+                                                        @endfor 
+                                                        @for ($i = 0; $i <= 5 - $Review->rate; $i++)
+                                                            <i class="fas fa-star"></i>
+                                                        @endfor 
+                                                    {{$Review->RateText}}
+                                                </span>
+                                            </div>
+                                            <div class="rating-content">
+                                                <h4>{{$Review->name}}</h4>
+                                                <p>{{$Review->review}}</p>
+                                            </div>
                                         </div>
-                                        <div class="rating-content">
-                                            <h4>Abdulrahman Fani</h4>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="position-relative mt-5 mb-5">
-                                        <div class="rating-stars">
-                                            <span>@for ($i = 0; $i <= 5; $i++)
-                                                <i class="fas fa-star"></i> &nbsp;
-                                            @endfor Awesome &nbsp;</span>
-                                        </div>
-                                        <div class="rating-content">
-                                            <h4>Abdulrahman Fani</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="position-relative mt-5 mb-5">
-                                        <div class="rating-stars">
-                                            <span>@for ($i = 0; $i <= 5; $i++)
-                                                <i class="fas fa-star"></i> &nbsp;
-                                            @endfor Awesome &nbsp;</span>
-                                        </div>
-                                        <div class="rating-content">
-                                            <h4>Abdulrahman Fani</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="position-relative mt-5 mb-5">
-                                        <div class="rating-stars">
-                                            <span>@for ($i = 0; $i <= 5; $i++)
-                                                <i class="fas fa-star"></i> &nbsp;
-                                            @endfor Awesome &nbsp;</span>
-                                        </div>
-                                        <div class="rating-content">
-                                            <h4>Abdulrahman Fani</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="position-relative mt-5 mb-5">
-                                        <div class="rating-stars">
-                                            <span>@for ($i = 0; $i <= 5; $i++)
-                                                <i class="fas fa-star"></i> &nbsp;
-                                            @endfor Awesome &nbsp;</span>
-                                        </div>
-                                        <div class="rating-content">
-                                            <h4>Abdulrahman Fani</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum soluta veritatis pariatur esse! Voluptas, natus? Possimus ipsa vero consequatur! Perspiciatis vitae nemo quibusdam totam libero numquam dolore eius illo amet?
-                                            </p>
-                                        </div>
-                                    </div>
+                                    @empty
+                                        <p>There are no reviews to this product yet.</p>
+                                    @endforelse
                                 </div>
                                 <div class="rate-request-form col-lg-4 col-md-12">
                                     <div class="stars-box d-flex justify-content-around mb-5">
@@ -158,36 +119,34 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <div>
-                                            <h3 class="m-0">5 / 5 Stars</h3>
-                                                <p class="text-white m-0 font-weight-light">Based on 7 Reviews</p>
+                                            <h3 class="m-0">{{number_format($TheProduct->Reviews->avg('rate') , 1) ?? 'NA'}}  / 5 Stars</h3>
+                                                <p class="text-white m-0 font-weight-light">Based on {{$TheProduct->Reviews->count()}} Reviews</p>
                                         </div>
                                     </div>
-                                    <form>
+                                    <form action="{{route('review.postNew')}}" method="post">
+                                        @csrf
+                                        <input hidden name="product_id" value="{{$TheProduct->id}}">
                                         <div class="form-group">
-                                            <label>Name
-                                            <input type="text" class="form-control" placeholder="Please enter your name" required>
-                                            </label>
+                                            <label>Name</label>
+                                            <input type="text" name="name" class="form-control" value="{{old('name') ?? ''}}" placeholder="Please enter your name" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>Email (Will not be published)
-                                            <input type="email" class="form-control"  placeholder="Please enter your email (not required)" required>
-                                            </label>
+                                            <label>Email (Will not be published)</label>
+                                            <input type="email" name="email" class="form-control" value="{{old('email') ?? ''}}" placeholder="Please enter your email (not required)">
                                         </div>
                                         <div class="form-group">
-                                            <label>Rating
-                                                <select class="form-control p-0" name="" id="">
-                                                    <option value="1">Bad</option>
-                                                    <option value="2">Normal</option>
-                                                    <option value="3">Medium</option>
-                                                    <option value="4">Good</option>
-                                                    <option value="5">Very Good</option>
+                                            <label>Rating</label>
+                                                <select class="form-control p-0" name="rate" required>
+                                                    <option @if(old('rate') == 5) selected @else selected @endif value="5">Very Good (5 Stars)</option>
+                                                    <option @if(old('rate') == 4) selected @else @endif value="4">Good (4 Stars)</option>
+                                                    <option @if(old('rate') == 3) selected @else @endif value="3">Medium (3 Stars)</option>
+                                                    <option @if(old('rate') == 2) selected @else @endif value="2">Normal (2 Stars)</option>
+                                                    <option @if(old('rate') == 1) selected @else @endif value="1">Bad (1 Star)</option>
                                                 </select>
-                                            </label>
                                         </div>
                                         <div class="form-group">
-                                            <label>Review
-                                            <textarea class="form-control" cols="30" rows="5" placeholder="Please enter your review (255 Charachters)" required></textarea>
-                                            </label>
+                                            <label>Review</label>
+                                            <textarea class="form-control" name="review" cols="30" rows="5" placeholder="Please enter your review" required>{{old('review') ?? ''}}</textarea>
                                         </div>
                                         <button type="submit" class="">Submit</button>
                                     </form>
@@ -199,28 +158,28 @@
                                 <div class="col-12">
                                     <h3 class="mb-4">@lang('products.products_single_similar_produc_title')
                                         {{ $TheProduct->LocalTitle }}</h3>
-                                    <div class="owl-carousel owl-theme full-width-carousel-with-nav similar-product-dir">
-                                        @forelse (array_chunk($TheProduct->SimilarProducts->toArray(), 3)  as $chunk)
-                                            <div class="row">
-                                                @forelse ($chunk as $SProduct)
-                                                    <div class="col-lg-4">
-                                                        @php
-                                                            $SProduct = App\Models\Product::find($SProduct['item_id']);
-                                                        @endphp
-                                                        <img class="w-100 mb-2" src="{{ $SProduct->ThumbPath }}"
-                                                            alt="">
-                                                        <h5>{{ $SProduct->title }}</h5>
-                                                        <a class="icon-button"
-                                                            href="{{ route('products.single', $SProduct->slug) }}">@lang('products.products_single_similar_product_btn')</a>
-                                                    </div>
-                                                @empty
-                                                    <p>@lang('products.products_single_similar_product_empty_1')</p>
-                                                @endforelse
-                                            </div>
-                                        @empty
-                                            <p>@lang('products.products_single_similar_product_empty_2')</p>
-                                        @endforelse
-                                    </div>
+                                        <div class="owl-carousel owl-theme full-width-carousel-with-nav similar-product-dir">
+                                            @forelse (array_chunk($TheProduct->SimilarProducts->toArray(), 3)  as $chunk)
+                                                <div class="row">
+                                                    @forelse ($chunk as $SProduct)
+                                                        <div class="col-lg-4">
+                                                            @php
+                                                                $SProduct = App\Models\Product::find($SProduct['item_id']);
+                                                            @endphp
+                                                            <img class="w-100 mb-2" src="{{ $SProduct->ThumbPath }}"
+                                                                alt="">
+                                                            <h5>{{ $SProduct->title }}</h5>
+                                                            <a class="icon-button"
+                                                                href="{{ route('products.single', $SProduct->slug) }}">@lang('products.products_single_similar_product_btn')</a>
+                                                        </div>
+                                                    @empty
+                                                        <p>@lang('products.products_single_similar_product_empty_1')</p>
+                                                    @endforelse
+                                                </div>
+                                            @empty
+                                                <p>@lang('products.products_single_similar_product_empty_2')</p>
+                                            @endforelse
+                                        </div>
                                 </div>
                             </div>
                         </div>

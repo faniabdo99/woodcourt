@@ -71,4 +71,8 @@ class Product extends Model{
             return $this->wood_type;
         }
     }
+    //Reviews
+    public function Reviews(){
+        return $this->hasMany(Review::class , 'product_id')->where('active' , 1);
+    }
 }
