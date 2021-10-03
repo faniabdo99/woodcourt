@@ -3,13 +3,14 @@
 return [
     'homepage_title' => 'Kitchen, Floor ... and More' ,
     'homepage_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.' ,
-    'homepage_weclome_h1' => 'The Wood Court - Kitchen, Floor ... and More' ,
+    'homepage_weclome_h1' => 'The Wood Court' ,
     'homepage_weclome' => 'Welcome to' ,
     'homepage_hero_sec_1_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
             and engineered wood to make your life more comfortable.' ,
     'homepage_hero_sec_2_3_4_p' => 'Products',
     'homepage_hero_sec_btn_h_1' => 'VR Tour',
     'homepage_hero_sec_btn_h_2' => 'About Us ',
+    'homepage_hero_sec_btn_h_3' => 'Events ',
     'homepage_hero_sec_2_h' => 'Kitchens',
     'homepage_hero_sec_2_desc' => 'Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by
         highly-reputed interior designers.' ,

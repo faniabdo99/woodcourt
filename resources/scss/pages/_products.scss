@@ -274,7 +274,8 @@
 }
 //Single Product Page
 .single-product-images{
-    padding: 40px 0;
+    max-height: 885px;
+    overflow: auto;
     h3{
       font-size: 1.3em;
       color: $brand;

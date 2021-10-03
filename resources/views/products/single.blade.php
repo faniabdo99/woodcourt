@@ -88,19 +88,19 @@
                                 @lang('products.products_single_share_pinterest')</a>
                         </div>
                         <div class="clients-reviews mt-5 mb-5">
-                            <h3 class="mb-3">25 Reviews about Pine Vanity</h3>
+                            <h3 class="mb-3">{{count($TheProduct->Reviews)}} @lang('products.products_single_rating_h') {{$TheProduct->slug}}</h3>
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-12 rates-list">
                                     @forelse($TheProduct->Reviews as $Review)
                                         <div class="position-relative mt-5 mb-5">
                                             <div class="rating-stars">
                                                 <span>
-                                                        @for ($i = 0; $i <= $Review->rate; $i++)
-                                                            <i class="fas fa-star active text-danger"></i>
-                                                        @endfor 
-                                                        @for ($i = 0; $i <= 5 - $Review->rate; $i++)
+                                                        @for ($i = 0; $i < $Review->rate; $i++)
+                                                            <i class="fas fa-star text-warning"></i>
+                                                        @endfor
+                                                        @for ($i = 0; $i < 5 - $Review->rate; $i++)
                                                             <i class="fas fa-star"></i>
-                                                        @endfor 
+                                                        @endfor
                                                     {{$Review->RateText}}
                                                 </span>
                                             </div>
@@ -110,7 +110,7 @@
                                             </div>
                                         </div>
                                     @empty
-                                        <p>There are no reviews to this product yet.</p>
+                                        <p>@lang('products.products_single_rating_empty')</p>
                                     @endforelse
                                 </div>
                                 <div class="rate-request-form col-lg-4 col-md-12">
@@ -119,36 +119,36 @@
                                             <i class="fas fa-star"></i>
                                         </div>
                                         <div>
-                                            <h3 class="m-0">{{number_format($TheProduct->Reviews->avg('rate') , 1) ?? 'NA'}}  / 5 Stars</h3>
-                                                <p class="text-white m-0 font-weight-light">Based on {{$TheProduct->Reviews->count()}} Reviews</p>
+                                            <h3 class="m-0">{{number_format($TheProduct->Reviews->avg('rate') , 1) ?? 'NA'}}  @lang('products.products_single_rating_form_h_1')</h3>
+                                                <p class="text-white m-0 font-weight-light">@lang('products.products_single_rating_form_p_1') {{$TheProduct->Reviews->count()}} @lang('products.products_single_rating_form_p_2')</p>
                                         </div>
                                     </div>
                                     <form action="{{route('review.postNew')}}" method="post">
                                         @csrf
                                         <input hidden name="product_id" value="{{$TheProduct->id}}">
                                         <div class="form-group">
-                                            <label>Name</label>
-                                            <input type="text" name="name" class="form-control" value="{{old('name') ?? ''}}" placeholder="Please enter your name" required>
+                                            <label>@lang('products.products_single_rating_form_name')</label>
+                                            <input type="text" name="name" class="form-control" value="{{old('name') ?? ''}}" placeholder="@lang('products.products_single_rating_form_name_place')" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>Email (Will not be published)</label>
-                                            <input type="email" name="email" class="form-control" value="{{old('email') ?? ''}}" placeholder="Please enter your email (not required)">
+                                            <label>@lang('products.products_single_rating_form_email')</label>
+                                            <input type="email" name="email" class="form-control" value="{{old('email') ?? ''}}" placeholder="@lang('products.products_single_rating_form_email_palce')">
                                         </div>
                                         <div class="form-group">
-                                            <label>Rating</label>
+                                            <label>@lang('products.products_single_rating_form_rating')</label>
                                                 <select class="form-control p-0" name="rate" required>
-                                                    <option @if(old('rate') == 5) selected @else selected @endif value="5">Very Good (5 Stars)</option>
-                                                    <option @if(old('rate') == 4) selected @else @endif value="4">Good (4 Stars)</option>
-                                                    <option @if(old('rate') == 3) selected @else @endif value="3">Medium (3 Stars)</option>
-                                                    <option @if(old('rate') == 2) selected @else @endif value="2">Normal (2 Stars)</option>
-                                                    <option @if(old('rate') == 1) selected @else @endif value="1">Bad (1 Star)</option>
+                                                    <option @if(old('rate') == 5) selected @else selected @endif value="5">@lang('products.products_single_rating_form_rate_select_1')</option>
+                                                    <option @if(old('rate') == 4) selected @else @endif value="4">@lang('products.products_single_rating_form_rate_select_2')</option>
+                                                    <option @if(old('rate') == 3) selected @else @endif value="3">@lang('products.products_single_rating_form_rate_select_3')</option>
+                                                    <option @if(old('rate') == 2) selected @else @endif value="2">@lang('products.products_single_rating_form_rate_select_4')</option>
+                                                    <option @if(old('rate') == 1) selected @else @endif value="1">@lang('products.products_single_rating_form_rate_select_5')</option>
                                                 </select>
                                         </div>
                                         <div class="form-group">
-                                            <label>Review</label>
-                                            <textarea class="form-control" name="review" cols="30" rows="5" placeholder="Please enter your review" required>{{old('review') ?? ''}}</textarea>
+                                            <label>@lang('products.products_single_rating_form_review')</label>
+                                            <textarea class="form-control" name="review" cols="30" rows="5" placeholder="@lang('products.products_single_rating_form_review_place')" required>{{old('review') ?? ''}}</textarea>
                                         </div>
-                                        <button type="submit" class="">Submit</button>
+                                        <button type="submit" class="">@lang('products.products_single_rating_form_submit')</button>
                                     </form>
                                 </div>
                             </div>

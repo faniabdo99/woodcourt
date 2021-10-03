@@ -25,6 +25,7 @@ class Product extends Model{
     }
     public function getThumbPathAttribute(){
       return url('storage/app/products/small_thumb').'/'.$this->image;
+      
     }
     public function getImagePathAttribute(){
       return url('storage/app/products/original').'/'.$this->image;

@@ -86,6 +86,11 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
     Route::prefix('messages')->group(function(){
       Route::get('/all' , 'ContactController@getAll')->name('admin.allMessages');
     });
+    Route::prefix('reviews')->group(function(){
+        Route::get('/' , 'ReviewController@getAllReviews')->name('admin.reviews.all');
+        Route::get('/edit/{id}' , 'ReviewController@getEditReviews')->name('admin.reviews.getEdit');
+        Route::get('/delete/{id}' , 'ReviewController@getDeleteReview')->name('admin.review.delete');
+      });
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
 

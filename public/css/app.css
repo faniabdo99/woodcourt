@@ -705,16 +705,6 @@ a:hover {
   text-align: center;
   font-size: 2.5em;
 }
-.section-title:after {
-  content: "";
-  position: absolute;
-  height: 3px;
-  width: 10%;
-  background: #0D8287;
-  bottom: -10px;
-  left: 45%;
-  right: 45%;
-}
 
 .woodcourt-form label {
   display: block;
@@ -2743,7 +2733,8 @@ time {
 }
 
 .single-product-images {
-  padding: 40px 0;
+  max-height: 885px;
+  overflow: auto;
 }
 .single-product-images h3 {
   font-size: 1.3em;

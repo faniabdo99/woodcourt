@@ -11,13 +11,16 @@ class Review extends Model{
     public function Product(){
         return $this->belongsTo(Product::class);
     }
+    public function getSamllImageAttribute(){
+        return url('storage/app/products/small_thumb').'/'.$this->image;
+    }
     public function getRateTextAttribute(){
         $RatesArray = [
-            1 => 'Bad',
-            2 => 'Normal',
-            3 => 'Medium',
-            4 => 'Good',
-            5 => 'Very Good '
+            1 => __('products.products_single_rating_bad'),
+            2 => __('products.products_single_rating_normal'),
+            3 => __('products.products_single_rating_medium'),
+            4 => __('products.products_single_rating_good'),
+            5 => __('products.products_single_rating_very_good'),
         ];
         return $RatesArray[$this->rate];
     }
