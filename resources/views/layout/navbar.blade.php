@@ -18,7 +18,7 @@
                 <div class="d-flex align-items-center">
                     <li class="mx-2"><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>
                     <li class="mx-2"><i class="fas fa-clock"></i> <a title="Working Hours During Ramadan">@lang('navbar.navbar_clock')</a></li>
-                    <li class="ml-0">
+                    {{-- <li class="ml-0">
                         @if(session()->get('locale') == 'ar')
                         <li class="mx-2"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @elseif(session()->get('locale') == 'en' )
@@ -26,7 +26,7 @@
                         @else
                         <li class="mx-2"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                         @endif
-                    </li>
+                    </li> --}}
 
                 </div>
             </ul>
@@ -36,7 +36,7 @@
         <a class="navbar-brand " href="{{route('home')}}">
             <img src="{{url('public')}}/images/logo-blue.png" alt="The Wood Court Logo">
         </a>
-        @if(session()->get('locale') == 'ar')
+        {{-- @if(session()->get('locale') == 'ar')
         <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
@@ -48,7 +48,7 @@
         <button class="navbar-toggler " id="navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
-        @endif
+        @endif --}}
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto pr-0">
