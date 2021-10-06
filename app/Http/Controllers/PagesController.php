@@ -5,6 +5,8 @@ use Illuminate\Http\Request;
 use Sheets;
 use App\Models\LimitedEditionCategory;
 use App\Models\Event;
+use App\Models\Category;
+use App\Models\Product;
 use App;
 class PagesController extends Controller{
     public function getSoonPage(){return view('soon');}
@@ -41,6 +43,34 @@ class PagesController extends Controller{
     }
     public function getVrTourPage(){
         return view('vr-tour');
+    }
+    public function getEngineeredWoodPage($isFiltered = null, $Filter = null){
+    $TheCategory = Category::where('slug' , 'pergolas')->first();
+    if (!$Filter) {
+        $AllProducts = Product::latest()->get();
+        $PageTitle = 'All Products';
+        $Description = 'All Products available to view in the wood court showroom and factory';
+    } else {
+        if ($isFiltered == 'category') {
+            $TheCategory = Category::where('slug', $Filter)->first();
+            if ($TheCategory->type == 'sub') {
+                $AllProducts = Product::where('category_id', $TheCategory->id)->latest()->get();
+            } else {
+                $SubCategoriesArray = Category::where('category_id', $TheCategory->id)->pluck('id')->toArray();
+                $AllProducts = Product::whereIn('category_id', $SubCategoriesArray)->latest()->get();
+            }
+            $PageTitle = $TheCategory->LocalTitle;
+            $Description = 'All Products in Category: '.$TheCategory->LocalTitle;
+        }
+        if ($isFiltered == 'wood-type') {
+            $AllProducts = Product::where('wood_type', $Filter)->latest()->get();
+            $PageTitle = $Filter;
+            $Description = 'All Products Made with Wood: '.$Filter;
+        }
+    }
+    $AllCategories = Category::where('type', 'main')->latest()->get();
+    $AllWoodTypes = Product::pluck('wood_type')->unique();
+    return view('products.index', compact('AllProducts', 'AllCategories', 'AllWoodTypes' , 'PageTitle', 'Description'));
     }
     //lang Func
     public function getSwitchLang($locale){

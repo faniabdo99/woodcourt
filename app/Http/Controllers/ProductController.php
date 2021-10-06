@@ -14,6 +14,14 @@ class ProductController extends Controller{
         $AllProducts = Product::latest()->get();
         return view('admin.product.index', compact('AllProducts'));
     }
+    public function getTest(){
+        $AllProducts = Product::latest()->paginate(100);
+        return view('test', compact('AllProducts'));
+    }
+    public function deleteGalleryImagesTest($id){
+        ProductGallery::findOrFail($id)->delete();
+        dd('Deleted');
+    }
     public function getRedirectProducts($slug){
         $Urls = Category::all()->pluck('slug')->toArray();
         if (in_array($slug, $Urls)) {

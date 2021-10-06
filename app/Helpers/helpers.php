@@ -7,6 +7,4 @@ function getProducts(){
 function getCategories(){
     return Category::orderBy('order_num' , 'ASC')->get();
 }
-function getSubCategories(){
-    return Category::where('type' , 'sub')->get();
-}
+

@@ -15,6 +15,7 @@
               <i class="fas fa-calendar"></i> {{$TheEvent->created_at->format('d, M Y')}}
             </span>
             <p class="description">{{$TheEvent->description}}</p>
+            
             <img class="w-100 mb-3" src="{{$TheEvent->imageSrc}}" alt="{{$TheEvent->title}}">
             <div class="event-content">
               {!! $TheEvent->content !!}
