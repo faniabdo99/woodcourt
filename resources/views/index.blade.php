@@ -16,6 +16,7 @@
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
                             <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
                             <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                            <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">

@@ -135,7 +135,7 @@
                 background: $brand;
                 color: #fff;
                 border-radius: 50%;
-                
+
             }
             &.owl-next {
                 position: absolute;
@@ -327,16 +327,16 @@
     position: relative;
     text-align: center;
     font-size: 2.5em;
-    &:after {
-        content: '';
-        position: absolute;
-        height: 3px;
-        width: 10%;
-        background: $brand;
-        bottom: -10px;
-        left: 45%;
-        right: 45%;
-    }
+    // &:after {
+    //     content: '';
+    //     position: absolute;
+    //     height: 3px;
+    //     width: 10%;
+    //     background: $brand;
+    //     bottom: -10px;
+    //     left: 45%;
+    //     right: 45%;
+    // }
 }
 .woodcourt-form {
     label {

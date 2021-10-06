@@ -5,6 +5,7 @@ use App\Models\Product;
 use App\Models\Product_Locale;
 use App\Models\ProductGallery;
 use App\Models\Category;
+use App\Models\Review;
 use App\Models\SimilarProduct;
 use Validator;
 use DB;
@@ -311,8 +312,7 @@ class ProductController extends Controller{
         $AllWoodTypes = Product::pluck('wood_type')->unique();
         return view('products.index', compact('AllProducts', 'AllCategories', 'AllWoodTypes' , 'PageTitle', 'Description'));
     }
-    public function getSingle($slug)
-    {
+    public function getSingle($slug){
         $TheProduct = Product::where('slug', $slug)->first();
         $LatestProducts = Product::latest()->where('slug', '!=', $slug)->limit(6)->get();
         if (!$TheProduct) {
@@ -320,6 +320,8 @@ class ProductController extends Controller{
         }
         $Next = Product::where('id', '>', $TheProduct->id)->orderBy('id')->first();
         $Previous = Product::where('id', '<', $TheProduct->id)->orderBy('id', 'desc')->first();
-        return view('products.single', compact('TheProduct', 'LatestProducts', 'Previous', 'Next'));
+        $Reviews = Review::where('active', 1)->get();
+        return view('products.single', compact('TheProduct', 'LatestProducts', 'Previous', 'Next' , 'Reviews'));
     }
+   
 }

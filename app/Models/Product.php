@@ -25,6 +25,7 @@ class Product extends Model{
     }
     public function getThumbPathAttribute(){
       return url('storage/app/products/small_thumb').'/'.$this->image;
+      
     }
     public function getImagePathAttribute(){
       return url('storage/app/products/original').'/'.$this->image;
@@ -70,5 +71,9 @@ class Product extends Model{
         else{
             return $this->wood_type;
         }
+    }
+    //Reviews
+    public function Reviews(){
+        return $this->hasMany(Review::class , 'product_id')->where('active' , 1);
     }
 }

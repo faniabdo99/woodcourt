@@ -33,6 +33,11 @@
                 <td>{{$MessagesCount}}</td>
                 <td><a class="text-primary font-weight-bold mr-3" href="{{route('admin.allMessages')}}"><i class="fas fa-edit"></i> View All</a></td>
               </tr>
+              <tr>
+                <td>Reviews List</td>
+                <td>{{$ReviewsCount}}</td>
+                <td><a class="text-primary font-weight-bold mr-3" href="{{route('admin.reviews.all')}}"><i class="fas fa-edit"></i> View All</a></td>
+              </tr>
             </tbody>
           </table>
         </div>

@@ -15,7 +15,8 @@ Route::get('expert-hub' , 'PagesController@getExpertHub')->name('expert-hub');
 Route::get('test-expert-hub' , 'PagesController@getTestExpertHub')->name('test-expert-hub');
 Route::get('test-products' , 'ProductController@getTest')->name('test-products');
 Route::get('/delete-gallery/{id}' , 'ProductController@deleteGalleryImagesTest')->name('product.deleteGalleryImagesTest');
-
+//Reviews System
+Route::post('new-review' , 'ReviewController@postReview')->name('review.postNew');
 Route::prefix('products')->group(function(){
   Route::get('/{slug}' , 'ProductController@getSingle')->name('products.single');
   Route::get('/{isFiltered?}/{filter?}' , 'ProductController@getUserHome')->name('products');
@@ -85,6 +86,11 @@ Route::group(['middleware' => 'auth','prefix' => 'admin'] , function(){
     Route::prefix('messages')->group(function(){
       Route::get('/all' , 'ContactController@getAll')->name('admin.allMessages');
     });
+    Route::prefix('reviews')->group(function(){
+        Route::get('/' , 'ReviewController@getAllReviews')->name('admin.reviews.all');
+        Route::get('/edit/{id}' , 'ReviewController@getEditReviews')->name('admin.reviews.getEdit');
+        Route::get('/delete/{id}' , 'ReviewController@getDeleteReview')->name('admin.review.delete');
+      });
 });
 Route::get('sitemap.xml', 'SitemapController@getSitemap')->name('sitemap');
 
