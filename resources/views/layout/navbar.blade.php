@@ -63,7 +63,7 @@
                 <li class="nav-item"><a class="nav-link" href="{{route('vr-tour')}}">@lang('navbar.navbar_vr')</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">@lang('navbar.navbar_contact')</a></li>
                 <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">@lang('navbar.navbar_quote')</a></li>
-                <li class="ml-0">
+                {{-- <li class="ml-0">
                     @if(session()->get('locale') == 'ar')
                     <li class="switch-lang-mobile" ><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                     @elseif(session()->get('locale') == 'en' )
@@ -71,7 +71,7 @@
                     @else
                     <li class="switch-lang-mobile"><a href="{{route('switchLang' , 'en')}}"><i class="fas fa-globe-americas"></i> English</a></li>
                     @endif
-                </li>
+                </li> --}}
                 @auth
                 <li class="nav-item"><a class="nav-link" href="{{route('logout')}}">Logout</a></li>
                 @endauth
