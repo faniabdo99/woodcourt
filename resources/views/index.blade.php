@@ -42,7 +42,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class=" content-section col-lg-4 col-12">
+                    <div class="content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
@@ -82,7 +82,7 @@
                 </div>
             </div>
             <div class="row">
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'wood-flooring'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/wood-flooring.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -91,7 +91,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'tiles'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/tiles.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -100,7 +100,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'stairs'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/stairs.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -109,7 +109,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'kitchens'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/kitchens.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -118,7 +118,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'dressings'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/dressings.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -127,7 +127,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'teak-flooring'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/teak-flooring.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -136,7 +136,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'pergolas'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/pergolas.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -145,7 +145,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'vanity'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/vanity.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -154,7 +154,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'hdf-floors'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/hdf-floors.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
