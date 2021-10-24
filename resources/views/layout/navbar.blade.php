@@ -36,7 +36,7 @@
         <a class="navbar-brand " href="{{route('home')}}">
             <img src="{{url('public')}}/images/logo-blue.png" alt="The Wood Court Logo">
         </a>
-        {{-- @if(session()->get('locale') == 'ar')
+        @if(session()->get('locale') == 'ar')
         <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
@@ -48,7 +48,7 @@
         <button class="navbar-toggler" id="navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
-        @endif --}}
+        @endif
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto pr-0">
