@@ -83,7 +83,7 @@
             </div>
             <div class="row">
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                        <a href="{{route('products' , ['category' , 'wood-flooring'])}}">
+                        <a href="{{route('products' , ['category' , 'engineered-floors'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/wood-flooring.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                     Engineered Floors
