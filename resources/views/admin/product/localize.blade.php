@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 pt-5">
-                    <h3 class="mb-5">Localize Category (AR)</h3>
+                    <h3 class="mb-5">Localize Product (AR)</h3>
                     <form action="{{route('admin.product.postLocalize' , $TheProduct->id)}}" method="post">
                         @csrf
                         <div class="form-group">

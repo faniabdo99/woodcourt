@@ -85,7 +85,7 @@
                                 @lang('products.products_single_share_pinterest')</a>
                         </div>
                         <div class="clients-reviews mt-5 mb-5">
-                            <h3 class="mb-3">{{count($TheProduct->Reviews)}} @lang('products.products_single_rating_h') {{$TheProduct->slug}}</h3>
+                            <h3 class="mb-3">{{count($TheProduct->Reviews)}} @lang('products.products_single_rating_h') {{$TheProduct->title}}</h3>
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-12 rates-list">
                                     @forelse($TheProduct->Reviews as $Review)

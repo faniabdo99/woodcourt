@@ -30,6 +30,8 @@
                     <textarea id="editor" name="description" rows="4" placeholder="Enter Product Description Here ...">{{old('description') ?? $Product->description}}</textarea>
                     <label>Image</label>
                     <input type="file" name="image">
+                    <label>Tag</label>
+                    <input data-role="tagsinput" value="" type="text" name="tags">
                     <p>Current image is:</p>
                     <img class="d-block mb-4" src="{{$Product->ThumbPath}}" width="200" alt="">
                     <label>Gallery Images @if(count($Product->Gallery) > 0) <a href="{{route('admin.product.deleteGalleryImages' , $Product->id)}}">Delete Gallery Images ({{count($Product->Gallery)}})</a> @endif</label>

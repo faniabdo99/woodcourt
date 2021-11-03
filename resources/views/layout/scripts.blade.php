@@ -12,6 +12,7 @@
   <script type="text/javascript" src="//cdn.datatables.net/buttons/1.6.4/js/buttons.html5.min.js"></script>
   <script type="text/javascript" src="{{url('public')}}/js/tinymce/tinymce.min.js"></script>
   <script type="text/javascript" src="{{url('public')}}/js/admin.js"></script>
+  <script type="text/javascript" src="{{url('public')}}/js/bootstrap-tagsinput.js"></script>
 @endif
 <script src="{{url('public')}}/js/owl.carousel.min.js"></script>
 <script src="{{url('public')}}/js/dropzone.min.js"></script>

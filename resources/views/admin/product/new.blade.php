@@ -35,7 +35,7 @@
                     <label>Image</label>
                     <input type="file" name="image">
                     <label>Tag</label>
-                    <input type="text" name="tags">
+                    <input data-role="tagsinput" value="" type="text" name="tags">
                     <label>Gallery Images</label>
                     <div id="drop-zone" class="dropzone"></div>
                     <br>
