@@ -12,6 +12,7 @@ class CreateProductsTable extends Migration{
             $table->string('serial_number');
             $table->string('slug');
             $table->string('image');
+            $table->string('tags');
             $table->text('description');
             $table->integer('main_category_id');
             $table->integer('category_id');

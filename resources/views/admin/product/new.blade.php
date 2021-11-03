@@ -18,7 +18,7 @@
                     <select name="main_category_id" required>
                         <option value="">Choose Category</option>
                         @forelse ($AllCategories as $Category)
-                          <option value="{{$Category->id}}">{{$Category->title}}</option>
+                            <option value="{{$Category->id}}">{{$Category->title}}</option>
                         @empty
                         @endforelse
                     </select>
@@ -26,7 +26,7 @@
                     <select name="category_id" required>
                         <option value="">Choose Sub Category</option>
                         @forelse ($AllSubCategories as $SCategory)
-                          <option value="{{$SCategory->id}}">{{$SCategory->title}}</option>
+                            <option value="{{$SCategory->id}}">{{$SCategory->title}}</option>
                         @empty
                         @endforelse
                     </select>
@@ -34,6 +34,8 @@
                     <textarea name="description" id="editor" rows="4" placeholder="Enter Product Description Here ...">{{old('description') ?? ''}}</textarea>
                     <label>Image</label>
                     <input type="file" name="image">
+                    <label>Tag</label>
+                    <input type="text" name="tags">
                     <label>Gallery Images</label>
                     <div id="drop-zone" class="dropzone"></div>
                     <br>
