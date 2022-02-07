@@ -145,7 +145,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                    {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'vanity'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/vanity.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'hdf-floors'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/hdf-floors.jpg') no-repeat center center;background-size:cover;">
