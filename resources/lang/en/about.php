@@ -2,7 +2,7 @@
 return[
     'about_title' => 'About Us',
     'about_desc' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution',
-    'about_hero_sec_p' => 'Kitchen, Floor ... and More',
+    'about_hero_sec_p' => 'Pergola, Floor ... and More',
     'about_main_con_h' => 'We are',
     'about_main_con_p_1' => 'The Wood Court provides stylish, warm and natural feels all combined together in the perfect design execution.',
     'about_main_con_p_2' => 'We launched our business in 1979 as a small workshop working to a total area of less than 300 square meters, in Sayeda Zainab district in Old Cairo, as the first specialized wood flooring company in Egypt. Within a

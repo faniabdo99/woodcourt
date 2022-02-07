@@ -2,7 +2,7 @@
 
 return [
         'products_h' => 'منتجاتنا',
-        'products_p' => 'مطابخ ,أرضيات ... والمزيد',
+        'products_p' => 'برجولات ,أرضيات ... والمزيد',
         'products_sidebar_cat' => 'الفئة',
         'products_sidebar_all' => 'الجميع',
         'products_sidebar_type' => 'نوع الخشب',

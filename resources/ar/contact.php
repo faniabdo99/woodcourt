@@ -2,7 +2,7 @@
 
 return[
     'contact_hero_sec_h' => 'تواصل معنا',
-    'contact_hero_sec_p' => 'مطابخ ,أرضيات ... والمزيد',
+    'contact_hero_sec_p' => 'برجولات ,أرضيات ... والمزيد',
     'contact_hero_sec_sidebar_p' => 'تجدنا على وسائل التواصل الاجتماعي',
     'contact_con_form_h' => 'معلومات الاتصال',
     'contact_con_form_p' => 'متاح على مدار الساعة طوال أيام الأسبوع ، سيسعد أعضاء فريقنا بخدمتك',

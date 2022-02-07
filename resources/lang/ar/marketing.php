@@ -29,6 +29,6 @@ return [
         'marketing_teak_h' => 'أرضيات من خشب الساج',
         'marketing_tiles_h' => 'البلاط',
         'marketing_wood_floring_h' => 'منتجاتنا',
-        'marketing_p' => 'مطابخ ,أرضيات ... والمزيد',
+        'marketing_p' => 'برجولات ,أرضيات ... والمزيد',
 
 ];

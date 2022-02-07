@@ -56,7 +56,7 @@
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('about')}}">@lang('navbar.navbar_about')</a></li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li> --}}
                 <li class="nav-item"> <a  class="nav-link" href="{{route('products', ['category','wood-flooring'])}}">@lang('navbar.navbar_products_hardwood_floor')</a></li>
-                <li class="nav-item">  <a  class="nav-link" href="{{route('products', ['category','cabinets'])}}">@lang('navbar.navbar_products_kitchens')</a></li>
+                {{-- <li class="nav-item">  <a  class="nav-link" href="{{route('products', ['category','cabinets'])}}">@lang('navbar.navbar_products_kitchens')</a></li> --}}
                 <li class="nav-item">   <a  class="nav-link" href="{{route('products', ['category','outdoor'])}}">@lang('navbar.navbar_products_outdoor')</a></li>
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('events')}}">@lang('navbar.navbar_events')</a></li> --}}
                 {{-- <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">@lang('navbar.navbar_expert')</a></li> --}}

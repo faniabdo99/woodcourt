@@ -24,9 +24,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            {{-- <div class="container-fluid">
                 <div class="row">
-                    <div class=" content-section col-lg-4 col-12">
+                    <div class="content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
@@ -39,7 +39,7 @@
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
@@ -81,9 +81,9 @@
                     <h2 class="section-title">@lang('homepage.homepage_hero_sec_btn_h')</h2>
                 </div>
             </div>
-            <div class="row">
+                <div class="row">
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                        <a href="{{route('products' , ['category' , 'engineered-floors'])}}">
+                            <a href="{{route('products' , ['category' , 'engineered-floors'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/wood-flooring.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                     Engineered Floors
@@ -109,7 +109,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                    {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'kitchens'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/kitchens.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -117,8 +117,8 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
-                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                    </div> --}}
+                    {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'dressings'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/dressings.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
@@ -126,7 +126,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'teak-flooring'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/teak-flooring.jpg') no-repeat center center;background-size:cover;">

@@ -2,7 +2,7 @@
 <?php
 return[
     'contact_hero_sec_h' => 'Contact Us',
-    'contact_hero_sec_p' => 'Kitchen, Floor ... and More',
+    'contact_hero_sec_p' => 'Pergola, Floor ... and More',
     'contact_hero_sec_sidebar_p' => 'Find Us On Social Media',
     'contact_con_form_h' => 'Contact Information',
     'contact_con_form_p' => 'Available 24/7 , Our team member will be happy to serve you.',

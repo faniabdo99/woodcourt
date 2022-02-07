@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'homepage_title' => 'Kitchen, Floor ... and More' ,
+    'homepage_title' => 'Pergola, Floor ... and More' ,
     'homepage_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.' ,
     'homepage_weclome_h1' => 'The Wood Court' ,
     'homepage_weclome' => 'Welcome to' ,
