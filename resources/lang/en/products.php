@@ -2,7 +2,7 @@
 
 return [
         'products_h' => 'Our Products',
-        'products_p' => 'Pergola, Floor ... and More',
+        'products_p' => 'Pergolas, Floor ... and More',
         'products_sidebar_cat' => 'Filter By Category',
         'products_sidebar_all' => 'All',
         'products_sidebar_type' => 'Filter By Wood Type',

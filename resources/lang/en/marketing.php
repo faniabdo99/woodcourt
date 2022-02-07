@@ -29,6 +29,6 @@ return [
         'marketing_teak_h' => 'Teak Flooring',
         'marketing_tiles_h' => 'Tiles',
         'marketing_wood_floring_h' => 'Our Products',
-        'marketing_p' => 'Pergola, Floor ... and More',
+        'marketing_p' => 'Pergolas, Floor ... and More',
 
 ];
