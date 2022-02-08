@@ -13,14 +13,14 @@
                 <li><a data-target="hdf-floors" href="javascript:;">@lang('marketing.marketing_h_a_5')</a></li>
             </ul>
         </li>
-        <li>
+        {{-- <li>
             <a class="main-category-filter " href="javascript:;" data-target="cabinets">@lang('marketing.marketing_h_a_6')</a>
             <ul class="filter-sub-items">
                 <li><a data-target="kitchens" href="javascript:;">@lang('marketing.marketing_h_a_7')</a></li>
                 <li><a data-target="dressings" href="javascript:;">@lang('marketing.marketing_h_a_8')</a></li>
                 <li><a data-target="bathroom-cabinets" href="javascript:;">@lang('marketing.marketing_h_a_9')</a></li>
             </ul>
-        </li>
+        </li> --}}
         <li>
             <a class="main-category-filter" href="javascript:;" data-target="outdoor">@lang('marketing.marketing_h_a_10')</a>
             <ul class="filter-sub-items">

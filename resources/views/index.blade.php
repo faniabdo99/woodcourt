@@ -711,7 +711,7 @@
             <div class="col-12">
                 <h2 class="section-title mb-5">@lang('homepage.homepage_our_videos_sec_h')</h2>
                 <ul class="owl-carousel owl-theme owl-theme three-items-carousel">
-                    <li class="item">
+                    {{-- <li class="item">
                         <div class="video-background-homepage" id="video-one">
                             <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
@@ -722,7 +722,7 @@
                             <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
-                    </li>
+                    </li> --}}
                     <li class="item">
                         <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
@@ -759,12 +759,12 @@
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
-                    <li class="item">
+                    {{-- <li class="item">
                         <div class="video-background-homepage">
                             <img src="{{url('public')}}/images/7.png" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-9"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>

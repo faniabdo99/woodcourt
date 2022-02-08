@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-12 hero-section-content">
                         <h1 class="text-white">Our Blog</h1>
-                        <p class="text-white">Kitchen, Floor ... and More</p>
+                        <p class="text-white">Pergolas, Floor ... and More</p>
                     </div>
                 </div>
             </div>

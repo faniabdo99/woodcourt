@@ -2,7 +2,7 @@
 
 return [
         'payment_h' => 'Payment Methods',
-        'payment_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of
+        'payment_desc' => 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of
         innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.',
         'payment_con_h_1' => 'One Time Payment',
         'payment_con_p_1' => 'The Wood Court offers various payment options including cash, credit cards, and installments.',

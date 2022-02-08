@@ -157,7 +157,7 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=BNBKAmk72us" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
       </div>
@@ -171,7 +171,7 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/watch?v=EBKz4HCj9y8" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
       </div>
@@ -185,7 +185,7 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/YkxYzmqYa0g" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
       </div>
@@ -199,7 +199,7 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/0zM8mOaCKsg" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
       </div>
@@ -213,11 +213,11 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/K0nhops9w-M" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
       </div>
-      <div class="video-part">
+      <div class="video-part"></div>
         <a href="javascript:;" id="video-close-button"><i class="fas fa-times"></i></a>
         <iframe src="https://www.youtube.com/embed/K0nhops9w-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
@@ -227,7 +227,7 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/zvGTKiSplH0" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
       </div>
@@ -241,7 +241,7 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood and engineered wood to make your life more comfortable.</p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://youtu.be/ktSSIegq2oY" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>
       </div>
@@ -256,7 +256,7 @@ $('.homepage-play-video').click(function() {
     $('body').append(`
     <div class="full-width-video">
       <div class="content-part">
-        <h2 class="text-white">Kitchen, floor… and more</h2>
+        <h2 class="text-white">Pergolas, floor… and more</h2>
         <p class="text-white">Check out our newest designs and styles for hardwood flooring, pergolas, and kitchens. Listen to what our visitors and clients think of our exquisite modern and classic designs.
         </p>
         <a class="icon-button youtube-button d-lg-inline d-none" href="https://www.youtube.com/embed/Cy20lLJ3qIk" target="_blank"><i class="fab fa-youtube"></i> Watch on YouTube</a>

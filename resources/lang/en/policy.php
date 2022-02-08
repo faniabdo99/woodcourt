@@ -2,7 +2,7 @@
 
 return [
     'policy_h' => 'Privacy Policy',
-    'policy_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.',
+    'policy_desc' => 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.',
     'policy_con_h_1' => 'Data Collection & Privacy',
     'policy_con_p_1' => 'The Wood Court doesn\'t collect any personal data or browsing history, the only way we collect data is through our forms, and we never share any of the collected data with any third-party organizations.',
     'policy_con_h_2'  => 'Third-Party Services',

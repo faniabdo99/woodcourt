@@ -8,8 +8,7 @@ return[
     'about_main_con_p_2' => 'We launched our business in 1979 as a small workshop working to a total area of less than 300 square meters, in Sayeda Zainab district in Old Cairo, as the first specialized wood flooring company in Egypt. Within a
                             few years, the founder Mr. Adel Zahran succeeded in positioning The Wood Court as the market leader in wood flooring industry. Over the years, by means of hardwork and relentless innovation, The Wood Court has become the main
                             supplier for most of projects all over Egypt.',
-    'about_main_con_p_3' => 'In 2015 we installed our production line for pergolas and outdoor units with new modern designs, colours, and finishing. This was done in addition to our cooperation with our sister company (Laregina) to produce
-                            kitchens, dressing rooms and sink units.',
+    'about_main_con_p_3' => 'In 2015 we installed our production line for pergolas and outdoor units with new modern designs, colours, and finishing.',
     'about_main_con_p_4' => 'Now in 2020 we are operating from a 6200-square meter factory in Abo Rawash, one of the biggest industrial zones in Egypt, a 400-square meter showroom in Dokki. With over 200 technicians and engineers on board, we
                             are utilizing the latest technology in wood flooring manufacturing, finishing and installation with a dedicated after-sales team.',
     'about_main_con_p_5' => ' We are heavily investing our time and resources to produce the highest quality products using diamond tool equipment, laser-cutting machines, and ultraviolet finishing lines. This enables us to transform a raw
