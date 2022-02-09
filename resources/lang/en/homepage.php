@@ -11,14 +11,18 @@ return [
     'homepage_hero_sec_btn_h_1' => 'VR Tour',
     'homepage_hero_sec_btn_h_2' => 'About Us ',
     'homepage_hero_sec_btn_h_3' => 'Events ',
-    'homepage_hero_sec_2_h' => 'Kitchens',
+    'homepage_hero_sec_2_h' => 'Pergolas',
     'homepage_hero_sec_2_desc' => 'Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by
         highly-reputed interior designers.' ,
-    'homepage_hero_sec_3_h' => 'Engineered Floors',
+    'homepage_hero_sec_3_h' => 'Stairs',
     'homepage_hero_sec_3_desc' => 'All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.' ,
     'homepage_hero_sec_4_h' => 'Outdoor',
     'homepage_hero_sec_4_desc' => 'Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
             designs.' ,
+    'homepage_hero_sec_5_h' => 'Indoor',
+    'homepage_hero_sec_5_desc' => 'Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
+            designs.' ,
+
     'homepage_hero_sec_btn_h' => 'Our Products',
 
     'homepage_our_products_sec_1_h' => 'Wood Flooring',
@@ -114,7 +118,7 @@ return [
     'homepage_our_achievements_sec_3' => '+<br>Square Meter<br>Per Year',
     'homepage_our_achievements_sec_4' => '+<br>Trained Workers &<br>Engineers',
     'homepage_about_us_sec_h' => 'We are',
-    'homepage_about_us_sec_p_1' => 'Looking for a company to purchase your wood floors, kitchen, dressing room or pergolas?',
+    'homepage_about_us_sec_p_1' => 'Looking for a company to purchase your wood floors, pergolas or stairs?',
     'homepage_about_us_sec_p_2' => 'The Wood Court is servicing and supplying a vastly growing number of projects for business and private residences in Egypt since 1979. We provide quality work, and help you achieve the most effective improvement
     you can make for your home or business with reasonable and affordable prices.',
     'homepage_about_us_sec_btn' => 'About us',

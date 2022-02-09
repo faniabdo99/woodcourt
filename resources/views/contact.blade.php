@@ -58,9 +58,11 @@
                         <li>
                             <i class="fas fa-phone"></i>
                             <span>
-                                <span><b>@lang('contact.contact_location_title_phone_1') </b><a
-                                        href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a><a
-                                        href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a></span>
+                                <span><b>@lang('contact.contact_location_title_phone_1') </b>
+                                    <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a>
+                                    <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a>
+                                    <a href="https://api.whatsapp.com/send?phone=201113531111">0111 353 1111</a>
+                                    </span>
                                 <span><b>@lang('contact.contact_location_title_phone_2') </b><a
                                         href="https://api.whatsapp.com/send?phone=201159111179">0115 911 1179</a></span>
                             </span>

@@ -1290,8 +1290,12 @@ a:hover {
 }
 .homepage-hero-section .owl-nav {
   position: absolute;
-  margin-top: -25%;
   width: 100%;
+  top: 80%;
+  z-index: 21;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
 }
 .homepage-hero-section .owl-nav button {
   width: 40px;
@@ -1305,18 +1309,7 @@ a:hover {
   border: none;
   outline: none;
 }
-.homepage-hero-section .owl-nav button.owl-prev {
-  position: absolute;
-  left: 3%;
-  background: #0D8287;
-  color: #fff;
-  border-radius: 50%;
-  z-index: 5;
-  border: none;
-}
-.homepage-hero-section .owl-nav button.owl-next {
-  position: absolute;
-  right: 3%;
+.homepage-hero-section .owl-nav button.owl-prev, .homepage-hero-section .owl-nav button.owl-next {
   background: #0D8287;
   color: #fff;
   border-radius: 50%;
@@ -1355,8 +1348,6 @@ a:hover {
     line-height: 1.5;
   }
   .homepage-hero-section .content-section a {
-    display: block;
-    margin-bottom: 15px;
     text-align: center;
   }
   .homepage-hero-section .content-section .text-dark {
@@ -1411,20 +1402,39 @@ a:hover {
     width: 100%;
   }
 }
+@media screen and (min-width: 420px) {
+  .homepage-hero-section .icon-button {
+    margin: 4px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .homepage-hero-section .content-section a {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .homepage-hero-section .owl-nav {
+    top: auto;
+    bottom: 15px;
+  }
+}
 .homepage-hero-section #slide-one {
-  background: url("../images/heros/kitchen-hero.jpg") no-repeat center center;
+  background: url("../images/heros/pergola.jpg") no-repeat center center;
   background-size: cover;
 }
 .homepage-hero-section #slide-two {
-  background: url("../images/heros/floors-hero.jpeg") no-repeat center center;
-  background-size: cover;
-}
-.homepage-hero-section #slide-three {
   background: url("../images/heros/stairs-hero.jpg") no-repeat center center;
   background-size: cover;
 }
+.homepage-hero-section #slide-three {
+  background: url("../images/heros/floors-hero.jpeg") no-repeat center center;
+  background-size: cover;
+}
 .homepage-hero-section #slide-four {
-  background: url("../images/heros/outdoor-hero.jpg") no-repeat center center;
+  background: url("../images/heros/outdoor.jpg") no-repeat center center;
+  background-size: cover;
+}
+.homepage-hero-section #slide-five {
+  background: url("../images/heros/indoor.jpeg") no-repeat center center;
   background-size: cover;
 }
 

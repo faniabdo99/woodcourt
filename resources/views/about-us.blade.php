@@ -144,11 +144,11 @@
                                 <time>2015</time> @lang('about.about_history_li_9')
                             </div>
                         </li>
-                        <li>
+                        {{-- <li>
                             <div class="@lang('settings.text_align')" dir="@lang('settings.direction')">
                                 <time>2018</time>@lang('about.about_history_li_10')
                             </div>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>

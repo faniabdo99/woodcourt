@@ -7,16 +7,17 @@
     <h1 class="d-none">@lang('homepage.homepage_weclome_h1')</h1>
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
-        <div class="owl-carousel  owl-theme full-width-carousel" dir="ltr" >
+        <div class="owl-carousel owl-theme full-width-carousel" dir="ltr" >
             <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
                         <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
                             src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
-                            <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
-                            <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
-                            <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
+                        <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -24,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
@@ -33,13 +34,16 @@
                         <h2>@lang('homepage.homepage_hero_sec_2_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_2_desc')</p>
                         <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
                     </div>
                     <div id="slide-one" class="col-lg-8 col-12 homepage-herosection-bg-image">
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
                     </div>
                 </div>
-            </div> --}}
+            </div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
@@ -48,7 +52,10 @@
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_3_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_3_desc')</p>
-                        <a class="icon-button" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-two" class="col-lg-8 col-12 homepage-herosection-bg-image">
@@ -58,16 +65,37 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class=" content-section col-lg-4 col-12">
+                    <div class="content-section col-lg-4 col-12">
                         <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_4_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_4_desc')</p>
-                        <a class="icon-button mr-0" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-four" class="col-lg-8 col-12 homepage-herosection-bg-image">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="content-section col-lg-4 col-12">
+                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
+                        <h2>@lang('homepage.homepage_hero_sec_5_h')</h2>
+                        <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_5_desc')</p>
+                        <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
+                        <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
+                    </div>
+                    <div id="slide-five" class="col-lg-8 col-12 homepage-herosection-bg-image">
                     </div>
                 </div>
             </div>
@@ -1371,6 +1399,7 @@
         $("#homepage-hero-section").owlCarousel({
             nav: true,
             loop:true,
+            rtl:false,
             responsive:{
                 0:{
                     items:1,
@@ -1383,7 +1412,7 @@
                 }
             }
    });
-   $('#homepage-hero-section .owl-nav').css('direction' , 'ltr')
+//    $('#homepage-hero-section .owl-nav').css('direction' , 'ltr')
     </script>
 </body>
 </html>

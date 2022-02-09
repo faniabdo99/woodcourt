@@ -11,7 +11,9 @@
 }
 }
 .homepage-hero-section{
-  .homepage-herosection-bg-image{height: 100vh;}
+  .homepage-herosection-bg-image{
+      height: 100vh;
+    }
   .logo-img{
     width: 50% !important;
     margin-top: 5%;
@@ -20,7 +22,6 @@
     color: $brand;
     margin-bottom: 0;
   }
-
   h2{
     font-weight: 600;
     font-size: 3.6em;
@@ -43,8 +44,12 @@
   }
   .owl-nav {
     position: absolute;
-    margin-top: -25%;
     width: 100%;
+    top: 80%;
+    z-index: 21;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
     button {
         width: 40px;
         height: 40px;
@@ -56,18 +61,7 @@
           border:none;
           outline: none;
         }
-        &.owl-prev {
-            position: absolute;
-            left: 3%;
-            background: $brand;
-            color: #fff;
-            border-radius: 50%;
-            z-index: 5;
-            border: none;
-        }
-        &.owl-next {
-            position: absolute;
-            right: 3%;
+        &.owl-prev, &.owl-next {
             background: $brand;
             color: #fff;
             border-radius: 50%;
@@ -104,8 +98,7 @@
           line-height: 1.5;
       }
       a{
-        display: block;
-        margin-bottom: 15px;
+
         text-align: center;
       }
       .text-dark{color: #fff !important;}
@@ -115,6 +108,7 @@
       height: 100vh;
       width: 100%;
     }
+
   }
   @media(min-width: 769px) and (max-width: 992px){
     .content-section{
@@ -157,10 +151,29 @@
         }
     }
   }
-  #slide-one{background: url('../images/heros/kitchen-hero.jpg') no-repeat center center;background-size:cover;}
-  #slide-two{background: url('../images/heros/floors-hero.jpeg') no-repeat center center;background-size:cover;}
-  #slide-three{background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;}
-  #slide-four{background: url('../images/heros/outdoor-hero.jpg') no-repeat center center;background-size:cover;}
+  @media screen and (min-width:420px) {
+    .icon-button{
+        margin: 4px;
+    }
+  }
+  @media screen and (max-width:420px) {
+    .content-section{
+        a{
+            display: block;
+            margin-bottom: 15px;
+        }
+    }
+    .owl-nav{
+        top: auto;
+        bottom: 15px;
+    }
+  }
+  #slide-one{background: url('../images/heros/pergola.jpg') no-repeat center center;background-size:cover;}
+  #slide-two{background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;}
+  #slide-three{background: url('../images/heros/floors-hero.jpeg') no-repeat center center;background-size:cover;}
+  #slide-four{background: url('../images/heros/outdoor.jpg') no-repeat center center;background-size:cover;}
+  #slide-five{background: url('../images/heros/indoor.jpeg') no-repeat center center;background-size:cover;}
+
 }
 .close-model{
     padding: 0px !important;
