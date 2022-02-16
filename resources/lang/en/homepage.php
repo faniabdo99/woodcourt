@@ -2,17 +2,17 @@
 
 return [
     'homepage_title' => 'Pergolas, Floor ... and More' ,
-    'homepage_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.' ,
+    'homepage_desc' => 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwoods.' ,
     'homepage_weclome_h1' => 'The Wood Court' ,
     'homepage_weclome' => 'Welcome to' ,
-    'homepage_hero_sec_1_desc' => 'The Wood Court creates rich & luxurious floors, kitchens, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
+    'homepage_hero_sec_1_desc' => 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
             and engineered wood to make your life more comfortable.' ,
     'homepage_hero_sec_2_3_4_p' => 'Products',
     'homepage_hero_sec_btn_h_1' => 'VR Tour',
     'homepage_hero_sec_btn_h_2' => 'About Us ',
     'homepage_hero_sec_btn_h_3' => 'Events ',
     'homepage_hero_sec_2_h' => 'Pergolas',
-    'homepage_hero_sec_2_desc' => 'Not just a wide variety of materials (natural & artificial), we also help you to design the kitchen befitting your personality, with the most storage areas and easy-access. Designed by
+    'homepage_hero_sec_2_desc' => 'Not just a wide variety of materials (natural & artificial), we also help you to design the pergola befitting your personality. Designed by
         highly-reputed interior designers.' ,
     'homepage_hero_sec_3_h' => 'Stairs',
     'homepage_hero_sec_3_desc' => 'All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.' ,
@@ -60,23 +60,21 @@ return [
                         it took so much time and effort',
     'homepage_why_us_sec_4_p' => 'Don\'t worry, we don\'t have any hidden fees, every single pound is agreed on from day one',
     'homepage_why_us_sec_5_p' => 'High quality, reasonable prices are very hard to find anywhere else, contact us and book a visit to see how can we fit perfect work within your budget',
-    'homepage_why_us_sec_6_p' => 'All our wood is moisture-free, we don\t depend on air drying as we have our own kiln dryers to ensure wood humidity level before manufacturing. As humidity is the most important
+    'homepage_why_us_sec_6_p' => 'All our wood is moisture-free, we don\'t depend on air drying as we have our own kiln dryers to ensure wood humidity level before manufacturing. As humidity is the most important
                         factor affecting your final product, this is a critical process that we ensure is done successfully.',
     'homepage_why_us_sec_7_p' => 'In the year 2008, we had a good deal with the Egyptian ministry of agriculture to send their specialized wood insect control team to our factory to ensure all wood are
                         insect-free.',
     'homepage_why_us_sec_8_p' => 'One of the most challenging jobs is renewing your wood floors while your family is existing in the home, now you can purchase engineered floors from the wood court which is ready
                         to be installed on the same day, and walk on it instantly.',
-    'homepage_why_us_sec_9_p' => 'Either your wood floor or your kitchen from the wood court is the easiest to clean, our fourth-generation finish materials are awesome, easy to be clean & clear from stains and
+    'homepage_why_us_sec_9_p' => 'Your wood floor or pergola from The Wood Court is the easiest to clean, our fourth-generation finish materials are awesome, easy to be clean & clear from stains and
                         dust, very hard to react with most home dirties.',
     'homepage_why_us_sec_10_p' => 'We pay back 1% for every week after delivery time in case of not delivering in time, just in time delivery is not our goal, we seek to deliver your items before delivery time!.',
-    'homepage_why_us_sec_11_p' => 'Some of our finishes are scratch-resistant, such as UV-finish for wood floors & polyethylene finishes for kitchens. We also use HPI high-pressure laminate as anti scratch boards
-                        for kitchens & dressing rooms.',
+    'homepage_why_us_sec_11_p' => 'Some of our finishes are scratch-resistant, such as UV-finish for wood floors.',
     'homepage_why_us_sec_12_p' => 'Hearing the drummy sound when walking on wood floors is very annoying, ask for glue-down floors or floating engineered floors to ensure soundless steps.',
-    'homepage_why_us_sec_13_p' => 'When you need to stain your natural wood floors or your kitchen to have a nice color matching your home decor, don\'t be afraid of stain disappearing from heavy traffic areas, our
+    'homepage_why_us_sec_13_p' => 'When you need to stain your natural wood floors or your pergola to have a nice color matching your home decor, don\'t be afraid of stain disappearing from heavy traffic areas, our
                         stains are all high quality and & life-lasting even with heavy use.',
-    'homepage_why_us_sec_14_p' => 'When purchasing from "The Wood Court" for any natural flooring, either floor or cabinets, you obtain a lifetime guarantee against manufacturing or installation faults or defects.',
-    'homepage_why_us_sec_15_p' => 'Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly after installation, all our cabinets (Kitchen or Dressing)
-                        is shipped finished and packed with care.',
+    'homepage_why_us_sec_14_p' => 'When purchasing from "The Wood Court" for any natural flooring, either floor or pergolas, you obtain a lifetime guarantee against manufacturing or installation faults or defects.',
+    'homepage_why_us_sec_15_p' => 'Some of our wood flooring products can be shipped pre-finished, no dust during installation, ready to walk on instantly after installation.',
     'homepage_why_us_sec_16_p' => 'Whatever, Whenever you purchase from The Wood Court our wide customer care team will always be here to support and solve problems.',
     'homepage_why_us_sec_17_p' => 'All our products are environment friendly, we don\'t use any harmful material, starting from fiberboards, glue, nails ending with chemical adhesive and finishing materials.',
     'homepage_why_us_sec_18_p' => 'We do any custom designs, in addition to our wide variety of pre-made designs. We also accept either editing existing designs or creating new ones.',
@@ -101,7 +99,7 @@ return [
     'homepage_limit_sec_order_form_send_req' => 'Send Request',
     'homepage_expert_hub_sec_h' => 'Expert Hub',
     'homepage_expert_hub_sec_1_h' => 'Wood Care Techniques',
-    'homepage_expert_hub_sec_1_p' => 'Get advanced knowledge on how to take care of your wooden possestions like floors and kitchens',
+    'homepage_expert_hub_sec_1_p' => 'Get advanced knowledge on how to take care of your wooden possesions like floors and pergolas',
     'homepage_expert_hub_sec_2_h' => 'Frequently Asked Questions',
     'homepage_expert_hub_sec_2_p' => 'Answer most of your questions about wood floors and other items',
     'homepage_expert_hub_sec_3_h' => 'Articles',
