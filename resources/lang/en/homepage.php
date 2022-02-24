@@ -20,8 +20,7 @@ return [
     'homepage_hero_sec_4_desc' => 'Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
             designs.' ,
     'homepage_hero_sec_5_h' => 'Indoor',
-    'homepage_hero_sec_5_desc' => 'Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
-            designs.' ,
+    'homepage_hero_sec_5_desc' => 'All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.' ,
 
     'homepage_hero_sec_btn_h' => 'Our Products',
 
