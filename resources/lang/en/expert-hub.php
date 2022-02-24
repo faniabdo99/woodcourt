@@ -177,12 +177,12 @@ return[
                                         <img class="mb-2" src="https://thewoodcourt.com/public/images/articles/9.png" alt="1">
                                         <p>In this type, we use concrete tiles, mosaic tiles, low quality ceramic tiles instead
                                             of wood for the leveling process, Tiles are installed regularly and flush on
-                                            concrete, wood slabes of 1.6cm by 10cm or sheets of 10mm plywood are fixed on it, This method also is used for nailed down installation
+                                            concrete, wood Slabs of 1.6cm by 10cm or sheets of 10mm plywood are fixed on it, This method also is used for nailed down installation
                                             technique</p>
                                         <h4>3-Concrete-based Tiles Subfloor: </h4>
                                         <p>Used always for glue down & floating installation technique, mosaic or ceramic tiles
                                             are installed directly using concrete, for leveling then wood floors are glued down
-                                            on it, or floated on it using polyethylene sheets to prove humidity, temperature, and sound.
+                                            on it, or floated on it using polyethylene sheets to proof humidity, temperature, and sound.
                                         </p>
                                         <h3>(B) Installing the Wood Floors:</h3>
                                         <h4>1-Nalied Down Installing Technique</h4>
@@ -262,7 +262,7 @@ return[
                                     <h4>Durability :</h4>
                                     <p>When the floor manufacturer finished the floor, he use special finishing lines,
                                         which create a perfect environment to apply powerful chemical sealer such as
-                                        aluminum & titenum oxides embedded in a uv-cured urethane coat.<br>
+                                        aluminum & titanium oxides embedded in a uv-cured urethane coat.<br>
                                         The result is harder than anything applied on-site, the finish lasts longer & carries a better
                                         warranty for the homeowner<br>
                                         <b>Easier installation:</b>
@@ -333,7 +333,7 @@ return[
                                         <tbody>
                                             <tr>
                                                 <th>Wear layer<br>  The layer above the tongue and groove</th>
-                                                <td>4,6,9 as per request <br> can be renewed several times ace yo wear layer thickness</td>
+                                                <td>4,6,9mm as per request <br> can be renewed several times ace to wear layer thickness</td>
                                                 <td>From [6-9] mm upon request<br>can be renewed several times over to wear layer thickness</td>
                                             </tr>
                                             <tr>
@@ -348,8 +348,8 @@ return[
                                             </tr>
                                             <tr>
                                                 <th>Pre Finish</th>
-                                                <td>Present<br> can be installed pre finish width all installation teah</td>
-                                                <td>Absent<br> can\'t be installed pre finished expect in very rare conditions</td>
+                                                <td>Present<br> can be installed pre finish with all installation Tech</td>
+                                                <td>Absent<br> can\'t be installed pre finished except in very rare conditions</td>
                                             </tr>
                                             <tr>
                                                 <th>Installation technique</th>
@@ -358,8 +358,8 @@ return[
                                             </tr>
                                             <tr>
                                                 <th>Time to install 100 ㎡</th>
-                                                <td>8-12 hours <br> Only two technicals with hand tools</td>
-                                                <td>80-100 hours <br> by means of at least Four technicals , With hand tools & special machines</td>
+                                                <td>8-12 hours <br> Only two technicians with hand tools</td>
+                                                <td>80-100 hours <br> by means of at least Four technicians , With hand tools & special machines</td>
                                             </tr>
                                             <tr>
                                                 <th>Maintaining </th>
