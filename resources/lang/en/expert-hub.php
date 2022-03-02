@@ -5,7 +5,7 @@ return[
     'expert_hero_sec_h_1_p' => 'How To Take Care Of Your Wood Floors?' ,
     'expert_hero_sec_h_2' => 'Tutorials' ,
     'expert_hero_sec_h_2_p' => 'Get advanced knowledge on how to take care of your wooden possesions like
-    floors and kitchens' ,
+    floors and pergolas' ,
     'expert_hero_sec_h_3' => 'Resources' ,
     'expert_hero_sec_h_3_P' => 'Stay updated about new wood care techniques and methodologies' ,
     'expert_hero_sec_h_4' => 'FAQs' ,
@@ -481,26 +481,6 @@ return[
                                             needed blanks may be a factor, you can contact the wood court and
                                             take professional advice.</p>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading-FAQ-5">
-                                    <h2 class="mb-0">
-                                        <button class="btn btn-link text-left " type="button" data-toggle="collapse" data-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6">
-                                            Is it safe to use hardwood flooring in a kitchen?
-                                        </button>
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <div id="collapse-6" class="collapse " aria-labelledby="heading-FAQ-5" data-parent="#accordionExample">
-                                    <p>Wood is a natural product, high temperature and moisture level in the
-                                        kitchen may cause it to contract and expand. <br> In this case, engineered
-                                        wood is your best option to avoid cupping and gapping. <br>
-                                        Occasionally a kitchen may experience spills and stains, but if cleaned
-                                        up promptly this will have little effect on your hardwood floors. <br> It is
-                                        equally important to stick to a maintenance routine and never allow
-                                        water to stand upon the surface for any amount of time.</p>
                                 </div>
                             </div>
                             <div class="card">

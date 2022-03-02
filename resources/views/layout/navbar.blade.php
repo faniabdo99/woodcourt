@@ -52,14 +52,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto pr-0">
-                {{-- <li class="nav-item"><a class="nav-link" href="{{route('home')}}">@lang('navbar.navbar_home')</a></li> --}}
-                {{-- <li class="nav-item"><a class="nav-link" href="{{route('about')}}">@lang('navbar.navbar_about')</a></li> --}}
-                {{-- <li class="nav-item"><a class="nav-link" href="{{route('factory')}}">Factory</a></li> --}}
                 <li class="nav-item"> <a  class="nav-link" href="{{route('products', ['category','wood-flooring'])}}">@lang('navbar.navbar_products_hardwood_floor')</a></li>
-                {{-- <li class="nav-item">  <a  class="nav-link" href="{{route('products', ['category','cabinets'])}}">@lang('navbar.navbar_products_kitchens')</a></li> --}}
                 <li class="nav-item">   <a  class="nav-link" href="{{route('products', ['category','outdoor'])}}">@lang('navbar.navbar_products_outdoor')</a></li>
-                {{-- <li class="nav-item"><a class="nav-link" href="{{route('events')}}">@lang('navbar.navbar_events')</a></li> --}}
-                {{-- <li class="nav-item"><a class="nav-link" href="{{route('expert-hub')}}">@lang('navbar.navbar_expert')</a></li> --}}
                 <li class="nav-item"><a class="nav-link" href="{{route('vr-tour')}}">@lang('navbar.navbar_vr')</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">@lang('navbar.navbar_contact')</a></li>
                 <li class="nav-item"><a class="text-white icon-button" href="javascript:;" data-toggle="modal" data-target="#getQuoteModal">@lang('navbar.navbar_quote')</a></li>

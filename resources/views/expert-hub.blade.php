@@ -78,7 +78,7 @@
                                 <a class="nav-item nav-link active main-category-filter" data-toggle="tab" href="#wood-care">@lang('expert-hub.expert_side_bar_btn_1')</a>
                                 <ul class="toturials-sublist nav nav-tabs ml-5">
                                     <li><a class="nav-item nav-link sub-category-filter active" data-toggle="tab" href="#floor-care">@lang('expert-hub.expert_side_bar_btn_1_a_1')</a></li>
-                                    <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#kitchen-care">@lang('expert-hub.expert_side_bar_btn_1_a_2')</a></li>
+                                    {{-- <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#kitchen-care">@lang('expert-hub.expert_side_bar_btn_1_a_2')</a></li> --}}
                                     <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#outdoor-care">@lang('expert-hub.expert_side_bar_btn_1_a_3')</a></li>
                                 </ul>
                             </li>
@@ -99,7 +99,7 @@
                                 <a class="nav-item nav-link main-category-filter" id="FAQs-section" data-toggle="tab" href="#faqs"> @lang('expert-hub.expert_side_bar_btn_4')</a>
                                 <ul class="nav nav-tabs ml-5">
                                     <li><a class="nav-item nav-link sub-category-filter active" data-toggle="tab" href="#indoor-faqs"> @lang('expert-hub.expert_side_bar_btn_4_a_1')</a></li>
-                                    <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#kitchens-faqs"> @lang('expert-hub.expert_side_bar_btn_4_a_2')</a></li>
+                                    {{-- <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#kitchens-faqs"> @lang('expert-hub.expert_side_bar_btn_4_a_2')</a></li> --}}
                                     <li><a class="nav-item nav-link sub-category-filter" data-toggle="tab" href="#outdoor-faqs"> @lang('expert-hub.expert_side_bar_btn_4_a_3')</a></li>
                                 </ul>
                             </li>
@@ -157,10 +157,10 @@
                                         @lang('expert-hub.expert_con_faqs_indoor_faqs')
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="kitchens-faqs">
+                                {{-- <div class="tab-pane fade" id="kitchens-faqs">
                                     <h2 class="my-4" id="FAQs-kitchens">@lang('expert-hub.expert_con_faqs_kitchens_faqs_h')</h2>
                                     @lang('expert-hub.expert_con_faqs_kitchens_faqs')
-                                </div>
+                                </div> --}}
                                 <div class="tab-pane fade" id="outdoor-faqs">
                                     @lang('expert-hub.expert_con_faqs_outdoor_faqs')
                                 </div>
@@ -189,11 +189,11 @@
                                     <img class='w-100 h-50 my-3' src='https://thewoodcourt.com/public/images/wood-care/1.jpg' alt='wood-care'>
                                     @lang('expert-hub.expert_con_wood_care_floor_care')
                                 </div>
-                                <div class='tab-pane fade' id='kitchen-care'>
-                                    <h2>@lang('expert-hub.expert_con_wood_care_kitchen_care_h')</h2>
-                                    <img class='w-100 h-50 my-3' src='https://thewoodcourt.com/public/images/wood-care/2.jpg' alt='kitchens'>
-                                    @lang('expert-hub.expert_con_wood_care_kitchen_care')
-                                </div>
+                                // <div class='tab-pane fade' id='kitchen-care'>
+                                //     <h2>@lang('expert-hub.expert_con_wood_care_kitchen_care_h')</h2>
+                                //     <img class='w-100 h-50 my-3' src='https://thewoodcourt.com/public/images/wood-care/2.jpg' alt='kitchens'>
+                                //     @lang('expert-hub.expert_con_wood_care_kitchen_care')
+                                // </div>
                                 <div class='tab-pane fade' id='outdoor-care'>
                                     <h2>@lang('expert-hub.expert_con_wood_care_outdoor_care_h')</h2>
                                     <img class='w-100 h-50 my-3' src='https://thewoodcourt.com/public/images/wood-care/3.jpg' alt='outdoor'>

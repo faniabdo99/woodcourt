@@ -29,7 +29,6 @@ return[
     'about_history_li_7' => 'Expanding our working area in abo rawash to approximately 6000+ square meters.',
     'about_history_li_8' => 'Purchasing our brand new ultraviolet curing finishing line from Giardina, Italy to produce pre-finished engineered floors.',
     'about_history_li_9' => 'Setting up a new production line for pergolas and outdoor units.',
-    'about_history_li_10' => 'We signed a cooperation contract with "Laregina For Wood Industries" for doors & cabients products "Kitchens, Dressing Rooms, Sink Units".',
     'about_our_videos_h' => 'Our Videos',
     'about_testim_sec_h' => 'What People are Saying',
     'about_testim_sec_rated_h' => 'Rated 4.8/5 Stars According to 125 Customers',
