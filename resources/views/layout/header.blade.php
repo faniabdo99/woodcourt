@@ -10,8 +10,6 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="{{url('public')}}/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.min.css">
-    {{-- <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.default.min.css"> --}}
-    {{-- <link rel="stylesheet" href="{{url('public')}}/css/owl.theme.green.min.css"> --}}
     <link rel="stylesheet" href="{{url('public')}}/css/basic.min.css">
     <link rel="stylesheet" href="{{url('public')}}/css/bootstrap-tagsinput.css">
     <link rel="stylesheet" href="{{url('public')}}/css/dropzone.min.css">

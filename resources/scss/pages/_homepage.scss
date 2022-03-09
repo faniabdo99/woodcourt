@@ -30,6 +30,11 @@
     line-height: 2em;
     font-size: 1.1em;
     color: $medgrey;
+    .marche-bold-text{
+        font-size: 24px;
+        font-weight: 900;
+        color: $brand;
+    }
   }
   .end-img{
     position: absolute;
@@ -72,6 +77,7 @@
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
   @media(max-width: 768px){
+
     .content-section{
       background-color: rgba(0,0,0,0.5);
       position: absolute;
@@ -108,7 +114,13 @@
       height: 100vh;
       width: 100%;
     }
-
+  }
+  @media screen and (max-width:992px) {
+    .marche-bold-text{
+        font-size: 22px !important;
+        font-weight: 800 !important;
+        color: #FFF !important;
+    }
   }
   @media(min-width: 769px) and (max-width: 992px){
     .content-section{
@@ -168,12 +180,16 @@
         bottom: 15px;
     }
   }
+  #slide-marche{background: url('../images/heros/le-marche-banner.jpg') no-repeat center center;background-size:cover;}
   #slide-one{background: url('../images/heros/pergola.jpg') no-repeat center center;background-size:cover;}
   #slide-two{background: url('../images/heros/stairs-hero.jpg') no-repeat center center;background-size:cover;}
   #slide-three{background: url('../images/heros/floors-hero.jpeg') no-repeat center center;background-size:cover;}
   #slide-four{background: url('../images/heros/outdoor.jpg') no-repeat center center;background-size:cover;}
   #slide-five{background: url('../images/heros/indoor.jpeg') no-repeat center center;background-size:cover;}
-
+@media screen and (max-width:992px) {
+    #slide-marche{background: url('../images/heros/le-marche-banner-mobile-2.jpg') no-repeat center center;background-size:cover !important;
+    }
+}
 }
 .close-model{
     padding: 0px !important;

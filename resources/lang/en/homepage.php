@@ -7,6 +7,9 @@ return [
     'homepage_weclome' => 'Welcome to' ,
     'homepage_hero_sec_1_desc' => 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams, and the highest quality natural hardwood
             and engineered wood to make your life more comfortable.' ,
+    'homepage_hero_sec_marche_desc' => 'Visit us at Le Marche Expo
+                                        and enjoy Exclusive <br> <span class="marche-bold-text">Discounts
+                                        Up to 20% OFF our products</span>.',
     'homepage_hero_sec_2_3_4_p' => 'Products',
     'homepage_hero_sec_btn_h_1' => 'VR Tour',
     'homepage_hero_sec_btn_h_2' => 'About Us ',

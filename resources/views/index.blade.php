@@ -10,6 +10,24 @@
         <div class="owl-carousel owl-theme full-width-carousel" dir="ltr" >
             <div class="container-fluid">
                 <div class="row">
+                    <div class="pt-5 content-section col-lg-4 col-12 " dir="@lang('settings.direction')">
+                        <h2>@lang('homepage.homepage_weclome') <br>
+                            <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
+                            <img class="d-lg-none d-inline w-auto" height="80" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
+                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_marche_desc').</p>
+                        <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
+                        {{-- <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a> --}}
+                        {{-- <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a> --}}
+                        <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
+                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
+                    </div>
+                    <div id="slide-marche" class="col-lg-8 col-12 homepage-herosection-bg-image">
+                        <div class=""></div> <!-- Mobile Applicable Only -->
+                    </div>
+                </div>
+            </div>
+            {{-- <div class="container-fluid">
+                <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
                         <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
                             src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
@@ -24,7 +42,7 @@
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
@@ -1396,23 +1414,17 @@
     @include('layout.scripts')
     @include('layout.footer')
     <script>
-        $("#homepage-hero-section").owlCarousel({
-            nav: true,
-            loop:true,
-            rtl:false,
-            responsive:{
-                0:{
-                    items:1,
-                },
-                600:{
-                    items:1,
-                },
-                1000:{
-                    items:1,
-                }
-            }
-   });
-//    $('#homepage-hero-section .owl-nav').css('direction' , 'ltr')
+        // $("#homepage-hero-section").owlCarousel({
+        //     nav: true,
+        //     // loop:true,
+        //     items:1,
+        //     // autoplay: false,
+        //     stagePadding: 0,
+        //     margin:0,
+        //     autoplay:true,
+        //     autoplayTimeout:10000,
+        //     autoplayHoverPause:false,
+        // });
     </script>
 </body>
 </html>

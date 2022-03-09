@@ -1277,6 +1277,11 @@ a:hover {
   font-size: 1.1em;
   color: #555555;
 }
+.homepage-hero-section .description .marche-bold-text {
+  font-size: 24px;
+  font-weight: 900;
+  color: #0D8287;
+}
 .homepage-hero-section .end-img {
   position: absolute;
   bottom: 0;
@@ -1359,6 +1364,13 @@ a:hover {
     width: 100%;
   }
 }
+@media screen and (max-width: 992px) {
+  .homepage-hero-section .marche-bold-text {
+    font-size: 22px !important;
+    font-weight: 800 !important;
+    color: #FFF !important;
+  }
+}
 @media (min-width: 769px) and (max-width: 992px) {
   .homepage-hero-section .content-section {
     position: absolute;
@@ -1417,6 +1429,10 @@ a:hover {
     bottom: 15px;
   }
 }
+.homepage-hero-section #slide-marche {
+  background: url("../images/heros/le-marche-banner.jpg") no-repeat center center;
+  background-size: cover;
+}
 .homepage-hero-section #slide-one {
   background: url("../images/heros/pergola.jpg") no-repeat center center;
   background-size: cover;
@@ -1436,6 +1452,12 @@ a:hover {
 .homepage-hero-section #slide-five {
   background: url("../images/heros/indoor.jpeg") no-repeat center center;
   background-size: cover;
+}
+@media screen and (max-width: 992px) {
+  .homepage-hero-section #slide-marche {
+    background: url("../images/heros/le-marche-banner-mobile-2.jpg") no-repeat center center;
+    background-size: cover !important;
+  }
 }
 
 .close-model {

@@ -64,12 +64,15 @@ $('.full-width-carousel').owlCarousel({
     singleItem: true,
     items: 1,
     dots: true,
-    autoplay: true,
-    autoplayTimeout: 10000,
+    autoplay: false,
+    autoplayTimeout: 1000000,
     loop: true,
     mouseDrag: true,
     pagination: true,
     responsiveRefreshRate: 200,
+    nav: true,
+    stagePadding: 0,
+    margin:0,
     responsive: {
         0: {
             items: 1
