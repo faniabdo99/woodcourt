@@ -8,7 +8,7 @@
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
         <div class="owl-carousel owl-theme full-width-carousel" dir="ltr" >
-            <div class="container-fluid">
+       <!--   <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12 " dir="@lang('settings.direction')">
                         <h2>@lang('homepage.homepage_weclome') <br>
@@ -22,11 +22,13 @@
                         <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-marche" class="col-lg-8 col-12 homepage-herosection-bg-image">
-                        <div class=""></div> <!-- Mobile Applicable Only -->
+                        <div class=""></div>
                     </div>
                 </div>
-            </div>
-            {{-- <div class="container-fluid">
+            </div> -->
+
+
+        <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
                         <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
@@ -42,7 +44,7 @@
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
                     </div>
                 </div>
-            </div> --}}
+            </div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
