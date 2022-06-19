@@ -27,7 +27,7 @@ return[
     'expert_side_bar_btn_4_a_3' => 'Outdoor Floors & Pergolas FAQs' ,
     'expert_side_bar_btn_5' => 'Blog' ,
     'expert_con_wood_care_floor_care_h' => 'How To Take Care Of Your Indoor Flooring?' ,
-    'expert_con_wood_care_floor_care' => '   <p>In home and office interior designs, the value of wood cannot be denied its timeless
+    'expert_con_wood_care_floor_care' => '   <p>In-home and office interior designs, the value of wood cannot be denied its timeless
                         visual appeal and natural beauty. <br> If you take proper care of wood floorings,
                         cabinets, installments, and claddings, you can expect them to survive for decades. <br>
                         Let\'s take a look at the top ways to take care of your wood floorings and cabinets.
@@ -43,7 +43,7 @@ return[
                             Difficult And Doesn’t Require A Great Deal Of Work. <br> To Help We’ve Produced A Lovely
                             Guide To Help You Keep Your Wooden Floors Looking Amazing</p>
                         <ul class="ml-0">
-                            <li>Never ever use a wet mop to clean your wood floor either natural wood or hdf
+                            <li>Never use a wet mop to clean your wood floor either natural wood or HDF
                                 (high-density fiber).</li>
                             <li>Use a damp mop to remove dust first, to make your floor dust-free.</li>
                             <li>Use oil-based cleaners, do not use furniture cleaners to clean. Your wood floors
@@ -63,9 +63,9 @@ return[
                             </li>
                             <li>Don\'t put any electronics directly on the wood floor, the heat generated from
                                 these devices will affect your floors negatively in the long run.</li>
-                            <li>Don\'t use multipurpose cleaner </li>
+                            <li>Don\'t use a multipurpose cleaner </li>
                             <li>
-                                Don\'t use the same cleaner for natural wood floors & hdf, each type has its
+                                Don\'t use the same cleaner for natural wood floors & HDF, each type has its
                                 cleaning liquid.
                             </li>
                             <li>Ventilate your home, good ventilation will make your wood floors healthy & live
