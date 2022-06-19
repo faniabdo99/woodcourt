@@ -113,53 +113,23 @@ return[
                                     yellowish stains.</li>
                             </ul>',
     'expert_con_wood_care_outdoor_care_h' => 'How to Take Care of Wooden Pergolas & Outdoor Flooring?',
-    'expert_con_wood_care_outdoor_care' => '  <p class="mt-3">Wood is a beautiful option for your garden flooring, under the pergola,
-                                and outdoor area of your restaurant or cafe, also the wooden pergola itself gives
-                                your home privacy & make you have a great time outdoors, the wood grains and variety
-                                of colors when beside the wonderful green color of plants.<br>
-                                Teak wood especially is very durable and has high resistance to outdoor conditions,
-                                (sunlight, heat & rain) even when installed directly as a pool decking, needs low
-                                maintenance, you just need to give it some attention to keep it as beautiful as day
-                                one.</p>
+    'expert_con_wood_care_outdoor_care' => '  <p class="mt-3">Wood is a beautiful option for your outdoor flooring or pergola. Teak wood especially is very durable and has high resistance to outdoor conditions, (sunlight, heat & rain) even when installed directly as a pool decking. <br>
+    You just need to give it some attention to keep it as beautiful as day one. Here are some tips for outdoor wood care.</p>
                             <ul>
                                 <li>Pick up large debris like paper and fallen tree leaves at once.</li>
-                                <li>Use a vacuum machine to remove dust from the in-between grooves, it is much
-                                    easier than whisking.</li>
-                                <li>Use a mixture of ammonia & warm water with a ratio of 1:4 to help you remove all
-                                    the stuck dirt & debris, by wiping the wood with the mixture using a sponge mop.
-                                </li>
-                                <li>Do wipe parallel to the grain</li>
-                                <li>Let your wood either floors or pergola to dry completely, at leave 3-5 hours
-                                    temperature +15 ℃</li>
-                                <li>Use a floor cleaner especially made for your hardwood, it will always be on
-                                    oil-based cleaner, not water or aqua-based.</li>
-                                <li>Teak wood has a natural oil that keeps mold down, this natural oil also works as
-                                    an insect repellent & prevents wood from cracking when exposed to high
-                                    temperature.
-                                </li>
-                                <li>When wood is exposed to direct sunlight, this oil gradually by time will
-                                    evaporate, leaving a bad look with silver-grey discoloration.
-                                    According to your
-                                    country\'s weather, and daily time of direct daily sunlight hours that your wood
-                                    is exposed to, you will need to reapply oil to teak wood several times a year
-                                    (between 4-8 times). Also, several climatic conditions & high uv index may cause
-                                    the teak wood surface to change color silver, then it is also time to reapply
-                                    teak oil.</li>
-                                <li>When applying teak oil, follow the wood grains using a clean rag, and rub in
-                                    well.
-                                </li>
-                                <li>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each
-                                    square meter.</li>
-                                <li>After one hour use a clean new rag to remove excess oil and let it completely
-                                    dry before placing your furniture back to avoid spots.</li>
-                                <li>Always remove any spills immediately, to avoid spots. If you have spots, just
-                                    apply a small amount of ammonia and it will disappear instantly.</li>
-                                <li>You don\'t have to use any insect repellant for teak wood, as teak wood grains
-                                    are rich with silica, which acts as a natural repellent for insects & bugs.
-                                    Also, teak wood grains contain natural rubber oil which is resistant to rotting
-                                    when exposed to extreme conditions.</li>
-                                <li>Always wear rubber gloves, eye protection, and a mask while using any chemical
-                                    materials.</li>
+                                <li>Use a vacuum machine to remove dust from the in-between grooves, it is much easier than whisking.</li>
+                                <li>Use a mixture of ammonia & warm water with a ratio of 1:4 to help you remove all the stuck dirt & debris, by wiping the wood with the mixture using a sponge mop.</li>
+                                <li>Wipe parallel to the grain.</li>
+                                <li>Let your wood either floors or pergola dry completely, at leave 3-5 hours temperature +15 ℃</li>
+                                <li>Use a floor cleaner especially made for your hardwood, it will always be an oil-based cleaner, not water or aqua-based.</li>
+                                <li>Teak wood has a natural oil that keeps mold down, this natural oil also works as an insect repellent & prevents wood from cracking when exposed to high temperatures.</li>
+                                <li>When wood is exposed to direct sunlight, this oil gradually evaporates over time, leaving a bad look with silver-grey discoloration. According to your country\'s weather, and the daily time of direct daily sunlight hours that your wood is exposed to, you will need to reapply oil to teak wood several times a year (between 4-8 times). Also, several climatic conditions & high UV index may cause the teak wood surface to change color to silver, then it is also time to reapply teak oil.</li>
+                                <li>When applying teak oil, follow the wood grains using a clean rag, and rub in well.</li>
+                                <li>Do not apply a heavy layer of oil, 70-100 grams is more than enough for each square meter.</li>
+                                <li>After one hour use a clean new rag to remove excess oil and let it completely dry before placing your furniture back to avoid spots.</li>
+                                <li>Always remove any spills immediately, to avoid spots. If you have spots, just apply a small amount of ammonia and it will disappear instantly.</li>
+                                <li>You don\'t have to use any insect repellant for teak wood, as teak wood grains are rich with silica, which acts as a natural repellent for insects & bugs. Also, teak wood grains contain natural rubber oil which is resistant to rotting when exposed to extreme conditions.</li>
+                                <li>Always wear rubber gloves, eye protection, and a mask while using any chemical materials.</li>
                             </ul>' ,
     'expert_con_tutorials_installation_methodology_h' => ' <h2>Installation Methodology</h2>
                                                         <h3>(A) Sub-floors:</h3>
