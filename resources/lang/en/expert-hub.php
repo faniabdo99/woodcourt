@@ -147,7 +147,7 @@ return[
                                         <img class="mb-2" src="https://thewoodcourt.com/public/images/articles/9.png" alt="1">
                                         <p>In this type, we use concrete tiles, mosaic tiles, low quality ceramic tiles instead
                                             of wood for the leveling process, Tiles are installed regularly and flush on
-                                            concrete, wood Slabs of 1.6cm by 10cm or sheets of 10mm plywood are fixed on it, This method also is used for nailed down installation
+                                            concrete, and wood Slabs of 1.6cm by 10cm or sheets of 10mm plywood are fixed on it, This method also is used for nailed down installation
                                             technique</p>
                                         <h4>3-Concrete-based Tiles Subfloor: </h4>
                                         <p>Used always for glue down & floating installation technique, mosaic or ceramic tiles
@@ -157,31 +157,31 @@ return[
                                         <h3>(B) Installing the Wood Floors:</h3>
                                         <h4>1-Nalied Down Installing Technique</h4>
                                         <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/7.png" alt="1">
-                                        <p>The most common & traditional way to install wood floors, wood tiles or planks are to
-                                            be installed by nailing them down on wooden subfloors, the nails are inclined 45 degree not vertical,
-                                            passing from the woodside directly fixing it to the subfloors a drum-noise is heard
+                                        <p>The most common & traditional way to install wood floors, wood tiles, or planks are to
+                                            be installed by nailing them down on wooden subfloors, the nails are inclined 45 degrees not vertical,
+                                            passing from the woodside directly fixing it to the subfloors a drum noise is heard
                                             while walking on due to space empty spaces under the wood floor. <br> </p>
                                         <h4>2-Gluing Down Installing Technique</h4>
                                         <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/5.png" alt="1">
-                                        <p>Bonding the wood floors with the subfloors using glue-down technique is a very good and cheap way
+                                        <p>Bonding the wood floors with the subfloors using the glue-down technique is a very good and cheap way
                                             to install your wood floors. <br>
                                             using polyurethane (oil-based) D4
-                                            glue or D3 water-based glue is the best way to ensure lifelong bond, as the glue can dissipate
-                                            shear stress resulted on it because of the different expansion coefficient between the wood & the
+                                            glue or D3 water-based glue is the best way to ensure a lifelong bond, as the glue can dissipate
+                                            shear stress resulting  on it because of the different expansion coefficients between the wood & the
                                             concrete tiles or ceramic tiles.<br>
-                                            no drum-noise is heard at all, You will get a
+                                            no drum noise is heard at all, You will get a
                                             lifetime guarantee against debonding when purchasing from The Wood Court.
                                         </p>
                                         <h4>3-Floating Installation Technique.</h4>
                                         <img class="mb-2 " src="https://thewoodcourt.com/public/images/articles/6.png" alt="1">
-                                        <p>Installing your floors using this technique makes it very easy to maintain as you can
+                                        <p>Installing your floors using this technique makes them very easy to maintain as you can
                                             replace any damaged piece easily, the wood floors are floated over the subfloor,
-                                            polyethylene sheet with 2mm thickness is placed between wood & subfloor to isolate
+                                            polyethylene sheet with 2mm thickness is placed between the wood & subfloor to isolate
                                             moisture and decrease sounds when walking on., This technique also makes it very easy
                                             to uninstall your wood floor and use it again in another place, leaving the subfloor
                                             without any damage.</p>',
     'expert_con_tutorials_finishing_techniques' => ' <p>Traditionally, you choose site-finishing when time isn\'t critical, new construction
-                                        and nobody lives in site (to avoid dust) it takes a long time, (4-6) days to send
+                                        and nobody lives on site (to avoid dust) it takes a long time, (4-6) days to send
                                         and clean wood floors, ensure the site is clean, the environment is stable within
                                         site, applying stain, sealing and top coating (about 3-4 coats), and wait for each
                                         application to dry <br>
@@ -194,7 +194,7 @@ return[
                                         <li> Oil-based Polyurethane:</li>
                                             <p> -Offensive odor <br>
                                                 -Not expensive (moderately expensive)<br>
-                                                -Multiple coats are needed to achieve good finish <br>
+                                                -Multiple coats are needed to achieve a good finish <br>
                                                 -Needs 3-5 days to walk on after application
                                             </p>
                                         <li>Water-based Polyurethane:</li>
@@ -207,21 +207,21 @@ return[
                                         <p>
                                             -Odor less<br>
                                             -Very expensive<br>
-                                            -Easier to repair<br>
+                                            -It-Easier to repair<br>
                                             -Walk on after 24 hours <br>
                                             -The finish stays consistent over time<br>
                                             -Healthy and environment friendly
                                         </p>
                                     </ol>
 
-                                    <p>When you get site-finished floors you get seamless look, however, with weather
+                                    <p>When you get site-finished floors you get the seamless look, however, with weather
                                         swings, gaping from high temperature, humidity, to low & vice versa, this option fade
                                         away, as wood is a living product, it expands and contracts to lead to visible
                                         joints</p>
                                     <h2>2.Pre-finished:</h2>
                                     <p>In the last 25 years, prefinished floors started to grow, as hardwood floors
                                         manufacturing become more technical in this case, the floor finishing is part of the
-                                        manufacturer\'s job, & the product shipped to your home finished and ready to be
+                                        manufacturer\'s job, & the product shipped to your home is fin1ished and ready to be
                                         installed.
                                     </p>
                                     <ul>
@@ -231,28 +231,28 @@ return[
                                     </ul>
                                     <h4>Durability :</h4>
                                     <p>When the floor manufacturer finished the floor, he use special finishing lines,
-                                        which create a perfect environment to apply powerful chemical sealer such as
-                                        aluminum & titanium oxides embedded in a uv-cured urethane coat.<br>
+                                        which create a perfect environment to apply powerful chemical sealers such as
+                                        aluminum & titanium oxides embedded in a UV-cured urethane coat.<br>
                                         The result is harder than anything applied on-site, the finish lasts longer & carries a better
                                         warranty for the homeowner<br>
                                         <b>Easier installation:</b>
                                         Requires no sanding, no staining, no sealing, no top coating, all are pre-done in our
                                         factory you just need your floors to be installed then you can walk on immediately! <br>
                                         <b>Easier maintenance:</b>
-                                        Due to durable finish, you will not need to refinish your floor for a long time,
+                                        Due to the durable finish, you will not need to refinish your floor for a long time,
                                         however, you can easily replace damaged pieces, or refinish with sanding & coating
-                                        as if you have installed site finished floors.
+                                        as if you have installed site-finished floors.
                                         <br>
                                         Pre-finished floors have beveled edges, not square ones, not like site-finish which
-                                        can have either square edge or beveled ones
+                                        can have either square edges or beveled ones
                                     </p>
                                     <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.1.png" alt="1">
                                     <img class="mb-2 w-50" src="https://thewoodcourt.com/public/images/articles/finishing/8.2.png" alt="1">
                                     <br>
                                     <h4>Uv-curing Finish: </h4>
                                     <p>It is the process in which the coat changes from liquid state to solid state under
-                                        ultraviolet rays instantly in a sealed finishing line, no no dust will stick to planks, so it results with a smooth
-                                            surface unlike site finish which it is very hard to prevent very fine dust from
+                                        ultraviolet rays instantly in a sealed finishing line, no no dust will stick to planks, so it results in a smooth
+                                            surface unlike site finish which is very hard to prevent very fine dust from
                                             sticking to floors daring the long curing time and open environment<br><br></p>
                                         <h4>Sub. Floors preparation:</h4>
                                         <p>
@@ -277,23 +277,23 @@ return[
                                         </li>
                                         <li><b>B. The Top Layer:</b><br><br>
                                             <p>The top layer is the expensive wood type, it is bonded to the base layer
-                                                under high pressure (about 5 kg/cm) and 70°c temperature, this layer is able to be sanded and re-coated
+                                                under high pressure (about 5 kg/cm) and 70°c temperature, this layer can be sanded and re-coated
                                                 several times [up to more than 6 times] according to its thickness 4,6 or 9 mm.</p>
                                         </li>
                                     </ul>
-                                    <p>Now we can say engineered wood flooring has more dimensional stability, less
+                                    <p>Now we can say engineered wood flooring has more dimensional stability, and less
                                         deformation in shape when exposed to high/low temperature or humidity because of
                                         the anti-grained bottom layer. </p>
                                     <h4>Time To Talk About The Finish?</h4>
-                                    <p>You can ask for prefinished engineered flooring in which coating is manufacturer in
+                                    <p>You can ask for prefinished engineered flooring in which coating is a manufacturer in
                                         the factory, not by the installer on site
                                         <br><br>
-                                        This operation is done using very high coating technology [uv] technology, as the
-                                        protect are coated with polymers which changes from liquid state to solid state under ultra violet rays,
-                                        this finish is more durable, smoother, the whole operation is done in sight special coating line in the factory.
+                                        This operation is done using very high coating technology [uv] technology, as they
+                                        protect are coated with polymers which change from liquid state to solid state under ultraviolet rays,
+                                        this finish is more durable and smoother, and the whole operation is done in sight special coating line in the factory.
                                         <br><br>
                                         At least (2) sealing coats, and (1)) layer of (anti-scratch) topcoat are applied to
-                                        planks, in addition to staining layer (if needed) which is applied on
+                                        planks, in addition to a staining layer (if needed) which is applied on
                                         wood before applying the bottom and top layers, so it is guaranteed that under bad
                                         usage, the color not able to be removed.
                                     </p>
@@ -318,8 +318,8 @@ return[
                                             </tr>
                                             <tr>
                                                 <th>Pre Finish</th>
-                                                <td>Present<br> can be installed pre finish with all installation Tech</td>
-                                                <td>Absent<br> can\'t be installed pre finished except in very rare conditions</td>
+                                                <td>Present<br> can be installed pre-finish with all installation Tech</td>
+                                                <td>Absent<br> can\'t be installed pre-finished except in very rare conditions</td>
                                             </tr>
                                             <tr>
                                                 <th>Installation technique</th>
@@ -329,7 +329,7 @@ return[
                                             <tr>
                                                 <th>Time to install 100 ㎡</th>
                                                 <td>8-12 hours <br> Only two technicians with hand tools</td>
-                                                <td>80-100 hours <br> by means of at least Four technicians , With hand tools & special machines</td>
+                                                <td>80-100 hours <br> using at least Four technicians, With hand tools & special machines</td>
                                             </tr>
                                             <tr>
                                                 <th>Maintaining </th>
@@ -354,7 +354,7 @@ return[
                                             They also enable a look of spaciousness and lend a warm and
                                             authentic feel wherever they’re installed. <br>
                                             Wood flooring offers a variety of appearances; from grain patterns
-                                            to colors, stains and designs. <br>
+                                            to colors, stains, and designs. <br>
                                             The floors are easy to clean as they do not accumulate a lot of
                                             dirt, dust, and debris. <br>
                                             Wood floors have long-term durability and can last for generations.
@@ -385,7 +385,7 @@ return[
                                             choosing a harder species of wood makes it possible to enjoy your
                                             gorgeous floor without stressing about your pets. <br>
                                             A rustic or distressed finish is particularly a good option since it
-                                            easily hides signs of everyday wear and tear. <br> Alternatively, you may
+                                            easily hides signs of everyday wear and tears. <br> Alternatively, you may
                                             want to select wood flooring with a lighter color and lower gloss
                                             level to help hide additional marks that may occur. <br>
                                             Also trimming your pet\'s nails regularly will help.</p>
@@ -425,10 +425,10 @@ return[
                                 <div id="collapse-4" class="collapse " aria-labelledby="heading-FAQ-44" data-parent="#accordionExample">
                                     <div class="card-body">
                                         <p>Engineered woods have a variable top layer thickness compared to
-                                            solid wood. <br> Engineered floors can be refinished — and the and
+                                            solid wood. <br> Engineered floors can be refinished — and the
                                             thickness of the top layer is the major factor contributing to this. <br>
                                             Here in the wood court, we manufacture a 9mm thick top layer that
-                                            can be sanded and refinished as like as solid wood.
+                                            can be sanded and refinished like as solid wood.
                                         </p>
                                     </div>
                                 </div>
@@ -444,7 +444,7 @@ return[
                                 <div class="card-body">
                                     <div id="collapse-5" class="collapse " aria-labelledby="heading-FAQ-4" data-parent="#accordionExample">
                                         <p>Yes, it’s possible. <br> If you want to install your floor over ceramic
-                                            tiles, a glued-down methodology or floating is the available methods
+                                            tiles, a glued-down methodology, or floating are the available methods
                                             choosing the suitable method is depending on the type of wood floors
                                             you want to install, either engineered wood or solid wood, also
                                             depends on the finish type, prefinished or site finish, dimension of
@@ -508,7 +508,7 @@ return[
                                     <div id="collapse-9" class="collapse " aria-labelledby="heading-FAQ-8" data-parent="#accordionExample">
                                         <p>No, The thicker and better quality engineered woods will last for
                                             years and years and can be refinished once or twice.<br>
-                                            Also, the technology and factory-applied, uv-cured urethane finish
+                                            Also, the technology and factory-applied, UV-cured urethane finish
                                             with melamine that is used today by the wood court make a tough &
                                             durable finish and is available on both engineered and solid wood
                                             floors.<br>
@@ -526,7 +526,7 @@ return[
                                 <div class="card-header" id="heading-FAQ-9">
                                     <h2 class="mb-0">
                                         <button class="btn btn-link text-left " type="button" data-toggle="collapse" data-target="#collapse-10" aria-expanded="true" aria-controls="collapse-10">
-                                            Can I use a paste wax on my hardwood flooring?
+                                            Can I use paste wax on my hardwood flooring?
                                         </button>
                                     </h2>
                                 </div>
@@ -612,7 +612,7 @@ return[
                                         <p>. Over time, excessive moisture will destroy a wood floor, so it is
                                             suggested
                                             not to
-                                            use water to clean the hardwood floors and to mop up spills
+                                            use water to clean the hardwood floors and mop up spills
                                             immediately.</p>
                                         <p>click here to learn how to take care of your wooden floors</p>
                                     </div>
@@ -634,10 +634,10 @@ return[
                                         occurs. <br>
                                         Crowning is when the centerboards are higher than the outer boards.
                                         <br>
-                                        Cupping is when the outer boards are higher than the centerboards, also
+                                        Cupping is when the outer boards are higher than the centerboards, it also
                                         if any
                                         moisture
-                                        marks found in any of your walls, sudden black stains on wood floor
+                                        marks found on any of your walls, sudden black stains on the wood floor
                                         surface
                                         started to
                                         appear in some areas, if you saw any of these, its time to call an
@@ -719,7 +719,7 @@ return[
                                             in labor.</p>
                                         <p>Almost anyone can install a laminate floor and get professional
                                             results.</p>
-                                        <p>Laminate flooring is an excellent choice for high traffic areas and
+                                        <p>Laminate flooring is an excellent choice for high-traffic areas and
                                             where damage from pets is a concern.</p>
                                         <p>It is also an excellent choice for many commercial applications where
                                             scratch damage is a major concern.</p>
@@ -743,13 +743,7 @@ return[
                                         <p>Engineered hardwood gives you the beauty of solid wood and the
                                             stability of
                                             cross-grained construction</p>
-                                        <p> Discerning clients will demand real hardwood when shopping for a new
-                                            home
-                                            and if
-                                            resale value is a concern, hardwood flooring will give you the
-                                            highest
-                                            return on
-                                            investment.</p>
+                                        <p> Discerning clients will demand real hardwood when shopping for a new home and if resale value is a concern, hardwood flooring will give you the highest return on investment.</p>
                                     </div>
                                 </div>
                             </div>
@@ -798,7 +792,7 @@ return[
                                 </div>
                                 <div class="card-body">
                                     <div id="collapse-20" class="collapse " aria-labelledby="heading-FAQ-19" data-parent="#faq2">
-                                        <p>YYou have a lot of different traditional and modern countertop
+                                        <p>You have a lot of different traditional and modern countertops
                                             options: Granite Marble Quartz Wood/butcher block Stainless steel
                                             countertops work well in modern spaces, but this doesn’t mean other
                                             materials won’t look good in contemporary style kitchens!
@@ -978,14 +972,7 @@ return[
                                 </div>
                                 <div class="card-body">
                                     <div id="collapse-28" class="collapse " aria-labelledby="heading-FAQ-27" data-parent="#faq2">
-                                       <p> A kitchen backsplash is a pattern of tiles installed on the wall,
-                                        usually behind
-                                        the
-                                        cooking range and/or sink. <br>
-                                        A backsplash provides protection from water damage and grease hazards,
-                                        but it
-                                        can also
-                                        act as a great focal point.</p>
+                                        <p> A kitchen backsplash is a pattern of tiles installed on the wall, usually behind the cooking range and/or sink. <br> A backsplash protects from water damage and grease hazards, but it can also act as a great focal point.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1000,14 +987,9 @@ return[
 
                                 <div class="card-body">
                                     <div id="collapse-29" class="collapse " aria-labelledby="heading-FAQ-28" data-parent="#faq2">
-                                        <p>You can—and should—talk to your kitchen design team, but browsing
-                                            through
-                                            magazines
-                                            to get ideas can be helpful. <br>
+                                        <p>You can—and should—talk to your kitchen design team, but browsing through magazines to get ideas can be helpful. <br>
                                             <b>Features you may want to consider for your new kitchen are:</b>
-                                            <br>
-                                            Island <br>Lighting <br>New countertops<br>New cabinets (or
-                                            refacing)<br>Windows<br>Storage space <br>
+                                            <br> Island <br>Lighting <br>New countertops<br>New cabinets (or refacing)<br>Windows<br>Storage space <br>
                                         </p>
                                     </div>
                                 </div>
@@ -1050,15 +1032,8 @@ return[
 
                                 <div class="card-body">
                                     <div id="collapse-31" class="collapse " aria-labelledby="heading-FAQ-30" data-parent="#faq2">
-                                       <p> Depending on how involved the project is, also depends on your kitchen
-                                        material,
-                                        it
-                                        could be four to six weeks in the case of laminate materials <br>
-                                        natural wood kitchen may take up to 8 weeks It depends on the specifics.
-                                        <br>
-                                        You can have a more detailed schedule. <br> After your initial design
-                                        consultation,the wood
-                                        court team will be able to give you a better estimate.</p>
+                                        <p> Depending on how involved the project is, also depends on your kitchen material, it could be four to six weeks in the case of laminate materials <br> natural wood kitchen may take up to 8 weeks It depends on the specifics.
+                                        <br> You can have a more detailed schedule. <br> After your initial design consultation,the wood court team will be able to give you a better estimate.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1074,17 +1049,8 @@ return[
 
                                 <div class="card-body">
                                     <div id="collapse-32" class="collapse " aria-labelledby="heading-FAQ-31" data-parent="#faq2">
-                                        <p>Melamine is particleboard laminated with a thermally fused
-                                            paper/resin
-                                            coating to
-                                            provide a durable hard surface.<br> Great for making cabinet
-                                            carcasses
-                                            because it
-                                            wipes clean easily. Use it, as well, for shop fixtures or to make an
-                                            economical
-                                            router-table top.<br> Melamine is resistant to scratches, chemicals
-                                            , and
-                                            staining.
+                                        <p>
+                                            Melamine is particleboard laminated with a thermally fused paper/resin coating to provide a durable hard surface.<br> Great for making cabinet carcasses because it wipes clean easily. Use it, as well, for shop fixtures or to make an economical router-table top.<br> Melamine is resistant to scratches, chemicals, and staining.
                                         </p>
                                     </div>
                                 </div>
@@ -1109,7 +1075,7 @@ return[
                                             products using Melamine are less expensive and as reliable as wood.
                                             <br> HPL
                                             or TFL
-                                            is Melamine fused with MDF or Particle Board, which are made from
+                                            is Melamine fused with MDF or Particle Board, which is made from
                                             wood chips.
                                         </p>
                                     </div>
@@ -1266,10 +1232,10 @@ return[
                                         <p>Anti Fingerprint Laminate. Anti-fingerprint laminates are resistant
                                             to
                                             fingerprints,
-                                            dirt, heat and scratches. ... <br> Matte Finish Laminates. mutt plus
+                                            dirt, heat, and scratches. ... <br> Matte Finish Laminates. mutt plus
                                             boards
                                             Gloss
-                                            Finish Laminates.<br> Mirror gloss look like Textured
+                                            Finish Laminates.<br> Mirror gloss looks like Textured
                                             Laminate. either wood
                                             or other
                                             textures like textile and Marple Fire Retardant Laminates</p>
@@ -1279,7 +1245,6 @@ return[
                         </div>' ,
     'expert_con_faqs_outdoor_faqs' => '   <h2 class="my-4">Frequently Asked Questions For Outdoors</h2>
                                         Coming Soon ...' ,
-
     'expert_con_blogs' => '  <h2>Check out our latest blog articles</h2>
                     <section class="events-list ">
                     <div class="row">
