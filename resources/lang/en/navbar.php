@@ -2,7 +2,7 @@
 
 return [
         'navbar_location' => '81 El-Hussein St, Dokki, Giza',
-        'navbar_clock' => 'SAT-THU 10:00 - 23:00',
+        'navbar_clock' => 'SAT-THU 10:00 - 10:00',
         'navbar_home' => 'Home' ,
         'navbar_about' => 'About Us',
         'navbar_vr' => 'VR Tour' ,

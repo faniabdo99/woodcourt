@@ -13,7 +13,7 @@
             <ul class="nav-upper-flex @lang('settings.col_11_eng') d-flex">
                 <div class="d-flex align-items-center">
                     <li class="mx-2"><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/The+Wood+Court/@30.0454492,31.1967901,17z/data=!3m1!4b1!4m5!3m4!1s0x1458413486462911:0x945b12fc41fd6e8a!8m2!3d30.0454492!4d31.1989788?hl=en" target="_blank"> @lang('navbar.navbar_location')</a></li>
-                    <li class="mx-2"><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a> | <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a> | <a href="https://api.whatsapp.com/send?phone=201113531111">0111 353 1111</a></li>
+                    <li class="mx-2"><i class="fas fa-phone"></i> <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a> | <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a></li>
                 </div>
                 <div class="d-flex align-items-center">
                     <li class="mx-2"><i class="fas fa-envelope"></i> <a href="mailto:info@thewoodcourt.com">info@thewoodcourt.com</a></li>

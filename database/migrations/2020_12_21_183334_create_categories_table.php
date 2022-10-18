@@ -12,6 +12,7 @@ class CreateCategoriesTable extends Migration{
             $table->string('image')->nullable();
             $table->integer('category_id')->nullable();
             $table->string('type');
+            $table->integer('order_num')->default(9999);
             $table->timestamps();
         });
     }

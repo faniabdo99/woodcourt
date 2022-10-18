@@ -168,7 +168,7 @@
                         </div>
                         <div class="tab-pane fade" id="blogs">
                             <div class="tab-content">
-                              @lang('expert-hub.expert_con_blogs')
+                                @lang('expert-hub.expert_con_blogs')
                             </div>
                         </div>
                     </div>
