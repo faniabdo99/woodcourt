@@ -21,7 +21,7 @@
                         <p class="sample-text">@lang('vr-tour.vr_main_con_p')</p>
                         <div class=" mt-3">
                             <a class="icon-button text-center mx-auto align-self-end vr-btn my-2 w-100 " href="https://www.google.com/maps?ll=30.045257,31.199067&z=15&t=m&hl=en&gl=EG&mapclient=embed&cid=10690159015142190730" target="_blank">@lang('vr-tour.vr_main_con_btn_1')</a>
-                            <a class="icon-button bg-light text-dark text-center mx-auto align-self-end vr-btn my-2 w-100" href="https://my.matterport.com/show/?m=trid4Kk6SPS" target="_blank">@lang('vr-tour.vr_main_con_btn_2')</a>
+                            <a class="icon-button bg-light text-dark text-center mx-auto align-self-end vr-btn my-2 w-100" href="https://my.matterport.com/show/?m=cBpBJNWB9rc" target="_blank">@lang('vr-tour.vr_main_con_btn_2')</a>
                             <div class="share-product-info mt-3 text-center">
                                 <a class="facebook" href="http://www.facebook.com/share.php?u={{url()->current()}}" target="_blank"><i class="fab fa-facebook"></i> @lang('vr-tour.vr_main_con_btn_3')</a>
                                 <a class="whatsapp" href="https://api.whatsapp.com/send?text=Check%20This%20Product%20By%20TheWoodCourt%0D{{url()->current()}}" target="_blank"><i class="fab fa-whatsapp"></i> @lang('vr-tour.vr_main_con_btn_4')</a>
@@ -32,7 +32,8 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="d-flex justify-content-center mt-4">
-                    <iframe  class="w-100" height='500' src='https://my.matterport.com/show/?m=trid4Kk6SPS' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
+                    {{-- <iframe  class="w-100" height='500' src='https://my.matterport.com/show/?m=cBpBJNWB9rc' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe> --}}
+                    <iframe class="w-100" height='500'  src='https://my.matterport.com/show/?m=cBpBJNWB9rc' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
                 </div>
             </div>
         </div>
