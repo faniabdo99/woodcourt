@@ -12,7 +12,7 @@
         </div>
     </section>
     <section class="about-us-description" id="homepage-aboutus-section">
-        <img id="homepage-about-artistic-touch" src="{{url('public')}}/images/wood-big-half.png" alt="wood-big-half">
+        <img id="homepage-about-artistic-touch" src="/images/wood-big-half.png" alt="wood-big-half">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -21,7 +21,7 @@
                     <p class="mb-3">We pride ourselves in being able to create our own products, manufactured to European standards , transforming raw wood to floors, pergolas, and other amazing creations.</p>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img class="we-are-the-wood-court-image" src="{{url('public')}}/images/factory/standing-worker.jpg" alt="WoodCourt Factory Worker">
+                    <img class="we-are-the-wood-court-image" src="/images/factory/standing-worker.jpg" alt="WoodCourt Factory Worker">
                 </div>
             </div>
         </div>
@@ -95,55 +95,55 @@
                     <ul class="owl-carousel owl-theme three-items-carousel">
                         <li class="item">
                             <div class="video-background-homepage" id="video-one">
-                                <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
+                                <img src="/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         {{-- <li class="item">
                             <div class="video-background-homepage" id="video-two">
-                                <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
+                                <img src="/images/kitchens-video.jpg" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li> --}}
                         <li class="item">
                           <div class="video-background-homepage" >
-                              <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
+                              <img src="/images/1.jpeg" alt="Video Thumb">
                               <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-3"> <i class="fas fa-play-circle fa-5x"></i></a>
                           </div>
                       </li>
                       <li class="item">
                         <div class="video-background-homepage" >
-                            <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
+                            <img src="/images/2.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage" >
-                            <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
+                            <img src="/images/3.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage" >
-                            <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
+                            <img src="/images/4.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage" >
-                            <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
+                            <img src="/images/5.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage" >
-                            <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
+                            <img src="/images/6.png" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/7.png" alt="Video Thumb">
+                            <img src="/images/7.png" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-9"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>

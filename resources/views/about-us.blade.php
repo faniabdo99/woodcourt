@@ -21,14 +21,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>@lang('about.about_main_con_h') <span><img height="50" src="{{url('public')}}/images/logo-black.png"></span></h2>
+                    <h2>@lang('about.about_main_con_h') <span><img height="50" src="/images/logo-black.png"></span></h2>
                     <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_1') </p>
                     <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_2')
                     </p>
                     <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_3') </p>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img class="we-are-the-wood-court-image w-100" src="{{url('public')}}/images/about-us-descrition.jpg" alt="We are the wood court">
+                    <img class="we-are-the-wood-court-image w-100" src="/images/about-us-descrition.jpg" alt="We are the wood court">
                 </div>
             </div>
             <div class="row mt-4">
@@ -162,55 +162,55 @@
                     <ul class="owl-carousel owl-theme three-items-carousel">
                         {{-- <li class="item">
                             <div class="video-background-homepage" id="video-one">
-                                <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
+                                <img src="/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         <li class="item">
                             <div class="video-background-homepage" id="video-two">
-                                <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
+                                <img src="/images/kitchens-video.jpg" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li> --}}
                         <li class="item">
                             <div class="video-background-homepage" >
-                                <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
+                                <img src="/images/1.jpeg" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-3"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         <li class="item">
                             <div class="video-background-homepage" >
-                                <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
+                                <img src="/images/2.jpeg" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         <li class="item">
                             <div class="video-background-homepage" >
-                                <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
+                                <img src="/images/3.jpeg" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         <li class="item">
                             <div class="video-background-homepage" >
-                                <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
+                                <img src="/images/4.jpeg" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         <li class="item">
                             <div class="video-background-homepage" >
-                                <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
+                                <img src="/images/5.jpeg" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         <li class="item">
                             <div class="video-background-homepage" >
-                                <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
+                                <img src="/images/6.png" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li>
                         {{-- <li class="item">
                             <div class="video-background-homepage">
-                                <img src="{{url('public')}}/images/7.png" alt="Video Thumb">
+                                <img src="/images/7.png" alt="Video Thumb">
                                 <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-9"> <i class="fas fa-play-circle fa-5x"></i></a>
                             </div>
                         </li> --}}
@@ -231,7 +231,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img src="{{url('public')}}/images/testemonials/nermeen-farouk.jpg" alt="Nermeen Farouk Gamea">
+                                <img src="/images/testemonials/nermeen-farouk.jpg" alt="Nermeen Farouk Gamea">
                                 <h4>Nermeen Farouk Gamea</h4>
                                 <p><b>This a company you can trust</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -243,7 +243,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mostafa-morsy.jpg" alt="Mostafa Morsy">
+                                <img class="user-image" src="/images/testemonials/mostafa-morsy.jpg" alt="Mostafa Morsy">
                                 <h4 class="user-name">Mostafa Morsy</h4>
                                 <p><b>Excellent</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -254,7 +254,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/nour-el-hoda-moghazy.jpg" alt="Nour El Hoda Moghazy">
+                                <img class="user-image" src="/images/testemonials/nour-el-hoda-moghazy.jpg" alt="Nour El Hoda Moghazy">
                                 <h4 class="user-name">Nour El Hoda Moghazy</h4>
                                 <p><b>Thank You!</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -268,7 +268,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-yassin.jpg" alt="Mahmoud Yassin">
+                                <img class="user-image" src="/images/testemonials/mahmoud-yassin.jpg" alt="Mahmoud Yassin">
                                 <h4 class="user-name">Mahmoud Yassin</h4>
                                 <p><b>Highly recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -280,7 +280,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img src="{{url('public')}}/images/testemonials/ahmad-elsaeed.jpg" alt="Ahamd Elsaeed">
+                                <img src="/images/testemonials/ahmad-elsaeed.jpg" alt="Ahamd Elsaeed">
                                 <h4>Ahmed Elsaeed</h4>
                                 <p><b>Understanding for customer requirements</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -292,7 +292,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-mahdy.jpg" alt="Mohamed Mahdy">
+                                <img class="user-image" src="/images/testemonials/mohamed-mahdy.jpg" alt="Mohamed Mahdy">
                                 <h4 class="user-name">Mohamed Mahdy</h4>
                                 <p><b>One of best companies that you can deal with</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -306,7 +306,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Hussein Mahmoud‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Hussein Mahmoud‎‏">
                                 <h4 class="user-name">‏‎Hussein Mahmoud‎‏</h4>
                                 <p><b>Nice</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -317,7 +317,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-sheesh.jpg" alt="Mohamed Sheesh">
+                                <img class="user-image" src="/images/testemonials/mohamed-sheesh.jpg" alt="Mohamed Sheesh">
                                 <h4 class="user-name">Mohamed Sheesh</h4>
                                 <p><b>Dealing with The Wood Court has been the only bright</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -329,7 +329,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/aly-albadrawy.jpg" alt="Aly El Badrawy">
+                                <img class="user-image" src="/images/testemonials/aly-albadrawy.jpg" alt="Aly El Badrawy">
                                 <h4 class="user-name">Aly El Badrawy</h4>
                                 <p><b>Strongly recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -342,7 +342,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/amira-khidr.jpg" alt="Amira Khidr">
+                                <img class="user-image" src="/images/testemonials/amira-khidr.jpg" alt="Amira Khidr">
                                 <h4 class="user-name">Amira Khidr</h4>
                                 <p><b>اضافة حقيقة و جميلة للديكور في مصر</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -382,7 +382,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img src="{{url('public')}}/images/testemonials/hala-aziz.jpg" alt="Hala-Aziz">
+                                <img src="/images/testemonials/hala-aziz.jpg" alt="Hala-Aziz">
                                 <h4>Hala Aziz</h4>
                                 <p><b>شركه محترمه و اتشرفت بالتعامل معاكم</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -394,7 +394,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
+                                <img class="user-image" src="/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
                                 <h4 class="user-name">Ashraf Esmail</h4>
                                 <p><b>the best wooden floors ever</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -405,7 +405,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-basyouny.jpg" alt="Mahmoud Bassuony">
+                                <img class="user-image" src="/images/testemonials/mahmoud-basyouny.jpg" alt="Mahmoud Bassuony">
                                 <h4 class="user-name">Mahmoud Bassuony</h4>
                                 <p><b>افضل شركة في مصر بتعمل ارضيات باركيه وسلالم</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -421,7 +421,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/heba-mahfoz.jpg" alt="Heba Mahfoz">
+                                <img class="user-image" src="/images/testemonials/heba-mahfoz.jpg" alt="Heba Mahfoz">
                                 <h4>Heba Mahfoz</h4>
                                 <p><b>منتج جميل و فاخر</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -434,7 +434,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Ahmed Haikal‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Ahmed Haikal‎‏">
                                 <h4 class="user-name">‏‎Ahmed Haikal‎‏</h4>
                                 <p><b>High Quality</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -446,7 +446,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-hamdy.jpg" alt="Mohamed Hamdy">
+                                <img class="user-image" src="/images/testemonials/mohamed-hamdy.jpg" alt="Mohamed Hamdy">
                                 <h4 class="user-name">Mahmamed Hamdy</h4>
                                 <p><b>Thanks Wood Court </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -462,7 +462,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/shreif-elmasry.jpg" alt="Sherif Elmasry">
+                                <img class="user-image" src="/images/testemonials/shreif-elmasry.jpg" alt="Sherif Elmasry">
                                 <h4>Shreif ElMasry</h4>
                                 <p><b>Thanks </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -474,7 +474,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/amany-fawzy.jpg" alt="Amany Fawzy">
+                                <img class="user-image" src="/images/testemonials/amany-fawzy.jpg" alt="Amany Fawzy">
                                 <h4 class="user-name">Amany Fawzy</h4>
                                 <p><b>It was great</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -485,7 +485,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/ahmed-el-ashmawy.jpg" alt="Ahmed El Ashmawy">
+                                <img class="user-image" src="/images/testemonials/ahmed-el-ashmawy.jpg" alt="Ahmed El Ashmawy">
                                 <h4 class="user-name">Ahmed El Ashmawy</h4>
                                 <p><b>Special thanks</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -498,7 +498,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mai-refaat.jpg" alt="Mai Refaat">
+                                <img class="user-image" src="/images/testemonials/mai-refaat.jpg" alt="Mai Refaat">
                                 <h4>Mai Refaat</h4>
                                 <p><b>اتمني ليكم كل النجاح</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -509,7 +509,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
+                                <img class="user-image" src="/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
                                 <h4 class="user-name"> ‏‎Ehab Doss‎‏ </h4>
                                 <p><b>من اكثر الشركات احتراما للعميل</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -522,7 +522,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Ahmed Raslan‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Ahmed Raslan‎‏">
                                 <h4 class="user-name">‏‎Ahmed Raslan‎‏</h4>
                                 <p><b>مستوى راقى</b><br><i class="fas fa-quote-right color-brand"></i>
                                     مستوى راقى من الأخشاب و الحرفية فى التنفيذ و التعامل...شكراً مهندس أيمن زهران و المهندسين القائمين على إدارة المصنع و المعرض
@@ -534,7 +534,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
                                 <h4>‏‎Tahra El Semary‎‏</h4>
                                 <p><b>احسن حد ممكن تتعامل معاه</b><br><i class="fas fa-quote-right color-brand"></i>
                                     بجد احسن حد ممكن تتعامل معاه مهندس ايمن فاهم و مهاود و طلعت عينه في إختيار الالوان محترمين جدا و ملتزمين في المواعيد
@@ -544,7 +544,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
+                                <img class="user-image" src="/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
                                 <h4 class="user-name">Mohamed Abo Hendi</h4>
                                 <p><b>Professional </b><br><i class="fas fa-quote-right color-brand"></i>
                                     Professional and accurate timing , reliable and handing over without any comments.
@@ -554,7 +554,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
+                                <img class="user-image" src="/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
                                 <h4 class="user-name">Mohamed El Alfy</h4>
                                 <p><b>Perfect</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Perfect follow up perfect timing perfect quality to sum up this is the place to go, well done wood court
@@ -566,7 +566,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
+                                <img class="user-image" src="/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
                                 <h4>Rafik Makar</h4>
                                 <p><b>Thanks</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Thanks Woodcourt for the excellent quality of products and professional installation. Well done</p>
@@ -575,7 +575,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/rehab-nabil.jpg" alt="‏‎Rehab Nabil‎‏">
+                                <img class="user-image" src="/images/testemonials/rehab-nabil.jpg" alt="‏‎Rehab Nabil‎‏">
                                 <h4 class="user-name">‏‎Rehab Nabil‎‏</h4>
                                 <p><b>شركه محترمه</b><br><i class="fas fa-quote-right color-brand"></i>
                                     شركه محترمه وبتفي بوعودها وأمانه واهتمام بالعميل ومتابعه رائعه..بالتوفيق يارب
@@ -585,7 +585,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
                                 <h4>‏‎Tahra El Semary‎‏</h4>
                                 <p><b>احسن حد ممكن تتعامل معاه</b><br><i class="fas fa-quote-right color-brand"></i>
                                     بجد احسن حد ممكن تتعامل معاه مهندس ايمن فاهم و مهاود و طلعت عينه في إختيار الالوان محترمين جدا و ملتزمين في المواعيد
@@ -611,62 +611,62 @@
                         <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
+                                    <a href="javascript:;"><img src="/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
+                                    <a href="javascript:;"><img src="/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
+                                    <a href="javascript:;"><img src="/images/partners/nbe.png" alt="National Bank of Egypt"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/iwan.png" alt="IWAN"></a>
+                                    <a href="javascript:;"><img src="/images/partners/iwan.png" alt="IWAN"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/arabcont.png" alt="arabcont"></a>
+                                    <a href="javascript:;"><img src="/images/partners/arabcont.png" alt="arabcont"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cook-club.png" alt="Cooks Club"></a>
+                                    <a href="javascript:;"><img src="/images/partners/cook-club.png" alt="Cooks Club"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/amer.png" alt="Amer Group"></a>
+                                    <a href="javascript:;"><img src="/images/partners/amer.png" alt="Amer Group"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="Four Seasons"></a>
+                                    <a href="javascript:;"><img src="/images/partners/four-seasons.png" alt="Four Seasons"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
+                                    <a href="javascript:;"><img src="/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/hilton.png" alt="Hilton"></a>
+                                    <a href="javascript:;"><img src="/images/partners/hilton.png" alt="Hilton"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
+                                    <a href="javascript:;"><img src="/images/partners/sura.jpg" alt="Sura"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
+                                    <a href="javascript:;"><img src="/images/partners/rixos.png" alt="Rixos"></a>
                                 </div>
                             </div>
 
@@ -674,47 +674,47 @@
                         <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
+                                    <a href="javascript:;"><img src="/images/partners/emmar.png" alt="EMMAR"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
+                                    <a href="javascript:;"><img src="/images/partners/khamayl.png" alt="Khamayl"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
+                                    <a href="javascript:;"><img src="/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
+                                    <a href="javascript:;"><img src="/images/partners/mazloum.png" alt="Mazloum"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
+                                    <a href="javascript:;"><img src="/images/partners/mobica.png" alt="Mobica"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/siac.png" alt="Siac"></a>
+                                    <a href="javascript:;"><img src="/images/partners/siac.png" alt="Siac"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cib.png" alt="CIB"></a>
+                                    <a href="javascript:;"><img src="/images/partners/cib.png" alt="CIB"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/sheraton.png" alt="Sheraton"></a>
+                                    <a href="javascript:;"><img src="/images/partners/sheraton.png" alt="Sheraton"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
+                                    <a href="javascript:;"><img src="/images/partners/arena.png" alt="Arena"></a>
                                 </div>
                             </div>
                         </div>

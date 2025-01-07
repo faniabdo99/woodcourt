@@ -8,37 +8,17 @@
     @include('layout.navbar')
     <section class="homepage-hero-section" id="homepage-hero-section">
         <div class="owl-carousel owl-theme full-width-carousel" dir="ltr" >
-       <!--   <div class="container-fluid">
-                <div class="row">
-                    <div class="pt-5 content-section col-lg-4 col-12 " dir="@lang('settings.direction')">
-                        <h2>@lang('homepage.homepage_weclome') <br>
-                            <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo">
-                            <img class="d-lg-none d-inline w-auto" height="80" src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
-                        <p class="description mb-5">@lang('homepage.homepage_hero_sec_marche_desc').</p>
-                        <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
-                        {{-- <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a> --}}
-                        {{-- <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a> --}}
-                        <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
-                    </div>
-                    <div id="slide-marche" class="col-lg-8 col-12 homepage-herosection-bg-image">
-                        <div class=""></div>
-                    </div>
-                </div>
-            </div> -->
-
-
-        <div class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
-                        <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
-                            src="{{url('public')}}/images/logo-white.png" alt="The Wood Court Logo"></h2>
+                        <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
+                            src="/images/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
                         <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
+                        <img class="end-img d-lg-block d-none" src="/images/wood-small-quarter.png" alt="wood-small-quarter" title="wood-small-quarter">
                     </div>
                     <div id="slide-three" class="col-lg-8 col-12 homepage-herosection-bg-image">
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
@@ -48,8 +28,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_2_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_2_desc')</p>
@@ -57,7 +37,7 @@
                         <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
+                        <img class="end-img d-lg-block d-none" src="/images/wood-small-quarter.png" title="wood-small-qurater" alt="wood-small-qurater">
                     </div>
                     <div id="slide-one" class="col-lg-8 col-12 homepage-herosection-bg-image">
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
@@ -67,8 +47,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_3_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_3_desc')</p>
@@ -76,7 +56,7 @@
                         <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
+                        <img class="end-img d-lg-block d-none" src="/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-two" class="col-lg-8 col-12 homepage-herosection-bg-image">
                         <div class="overlay"></div> <!-- Mobile Applicable Only -->
@@ -86,8 +66,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_4_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_4_desc')</p>
@@ -95,7 +75,7 @@
                         <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
+                        <img class="end-img d-lg-block d-none" src="/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-four" class="col-lg-8 col-12 homepage-herosection-bg-image">
                     </div>
@@ -104,8 +84,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="{{url('public')}}/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="{{url('public')}}/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_5_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_5_desc')</p>
@@ -113,7 +93,7 @@
                         <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('about') }}"> <i class="fas fa-star"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_2')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('events') }}"> <i class="fas fa-calendar"> &nbsp;</i>@lang('homepage.homepage_hero_sec_btn_h_3')</a>
-                        <img class="end-img d-lg-block d-none" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
+                        <img class="end-img d-lg-block d-none" src="/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
                     </div>
                     <div id="slide-five" class="col-lg-8 col-12 homepage-herosection-bg-image">
                     </div>
@@ -122,7 +102,7 @@
         </div>
     </section>
     <section id="homepage-categories">
-        <img id="homepage-categories-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" title="wood-small-quarter" alt="wood-small-quarter">
+        <img id="homepage-categories-artistic-touch" src="{{asset('images/wood-small-quarter.png')}}" title="wood-small-quarter" alt="wood-small-quarter">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12">
@@ -157,24 +137,6 @@
                             </div>
                         </a>
                     </div>
-                    {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                        <a href="{{route('products' , ['category' , 'kitchens'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/kitchens.jpg') no-repeat center center;background-size:cover;">
-                                <div class="dark-overlap">
-                                Kitchens
-                                </div>
-                            </div>
-                        </a>
-                    </div> --}}
-                    {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                        <a href="{{route('products' , ['category' , 'dressings'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/dressings.jpg') no-repeat center center;background-size:cover;">
-                                <div class="dark-overlap">
-                                Dressings
-                                </div>
-                            </div>
-                        </a>
-                    </div> --}}
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'teak-flooring'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/teak-flooring.jpg') no-repeat center center;background-size:cover;">
@@ -193,25 +155,15 @@
                             </div>
                         </a>
                     </div>
-                    {{-- <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                        <a href="{{route('products' , ['category' , 'vanity'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/vanity.jpg') no-repeat center center;background-size:cover;">
-                                <div class="dark-overlap">
-                                Vanity
-                                </div>
-                            </div>
-                        </a>
-                    </div> --}}
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'hdf-floors'])}}">
                             <div class="homepage-card" style="background:url('storage/app/categories/hdf-floors.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
-                                HDF Floors
+                                    HDF Floors
                                 </div>
                             </div>
                         </a>
                     </div>
-
             </div>
             <div class="row mt-5">
                 <div class="col-12 text-center">
@@ -505,7 +457,7 @@
             </div>
     </section>
     <section class="products-list" id="homepage-promotions">
-        <img id="homepage-promotions-artistic-touch" src="{{url('public')}}/images/wood-small-quarter.png" alt="wood-small-quarter">
+        <img id="homepage-promotions-artistic-touch" src="/images/wood-small-quarter.png" alt="wood-small-quarter">
         <div class="container">
             <div class="row">
                 <div class="col-12"  dir="@lang('settings.direction_default')">
@@ -524,49 +476,49 @@
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Desks" data-modal-title="Live-Edge">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/1.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/1.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/1.jpg"
                                             alt="life-edge-1" title="life-edge-1"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/2.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/2.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/2.jpg"
                                             alt="life-edge-2" title="life-edge-2"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/3.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/3.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/3.jpg"
                                             alt="life-edge-3" title="life-edge-3"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/4.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/4.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/4.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/4.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/4.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/4.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/5.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/5.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/5.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/5.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/6.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/6.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/6.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/6.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/7.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/7.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/7.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/7.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/8.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/8.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/8.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/8.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/9.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/9.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/9.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/9.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/10.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/10.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/10.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/10.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/11.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/11.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/11.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/11.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/12.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/12.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/12.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/12.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/13.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/13.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/13.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/13.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/14.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/14.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/14.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/14.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/15.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/15.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/15.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/15.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/16.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/16.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/16.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/16.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/17.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/17.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/17.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/17.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/18.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/18.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/18.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/18.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/19.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/19.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/19.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/19.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/20.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/20.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/20.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/20.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
-                                        <li><a data-fancybox="life-edge" data-caption="" href="{{url('public')}}/images/collections/life-edge/21.jpg" target="_blank"><img src="{{url('public')}}/images/collections/life-edge/thumbs/21.jpg"
+                                        <li><a data-fancybox="life-edge" data-caption="" href="/images/collections/life-edge/21.jpg" target="_blank"><img src="/images/collections/life-edge/thumbs/21.jpg"
                                             alt="life-edge-4" title="life-edge-4"></a></li>
                                     </ul>
                                 </div>
@@ -585,11 +537,11 @@
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Lights" data-modal-title="Lighting Accessories">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
-                                        <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/light/thumbs/1.jpg" alt="light-1"
+                                        <li><a data-fancybox="light" data-caption="" href="/images/collections/light/1.jpg" target="_blank"><img src="/images/collections/light/thumbs/1.jpg" alt="light-1"
                                             title="light-1"></a></li>
-                                        <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/light/thumbs/2.jpg" alt="light-2"
+                                        <li><a data-fancybox="light" data-caption="" href="/images/collections/light/2.jpg" target="_blank"><img src="/images/collections/light/thumbs/2.jpg" alt="light-2"
                                             title="light-2"></a></li>
-                                        <li><a data-fancybox="light" data-caption="" href="{{url('public')}}/images/collections/light/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/light/thumbs/3.jpg" alt="light-3"
+                                        <li><a data-fancybox="light" data-caption="" href="/images/collections/light/3.jpg" target="_blank"><img src="/images/collections/light/thumbs/3.jpg" alt="light-3"
                                             title="light-3"></a></li>
                                     </ul>
                                 </div>
@@ -608,15 +560,15 @@
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Cards" data-modal-title="Business Cards">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/1.jpg" alt="b-cards-1"
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="/images/collections/b-cards/1.jpg" target="_blank"><img src="/images/collections/b-cards/thumbs/1.jpg" alt="b-cards-1"
                                             title="b-cards-1"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/2.jpg" alt="b-cards-2"
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="/images/collections/b-cards/2.jpg" target="_blank"><img src="/images/collections/b-cards/thumbs/2.jpg" alt="b-cards-2"
                                             title="b-cards-2"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/3.jpg" alt="b-cards-3"
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="/images/collections/b-cards/3.jpg" target="_blank"><img src="/images/collections/b-cards/thumbs/3.jpg" alt="b-cards-3"
                                             title="b-cards-3"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/4.jpg" alt="b-cards-4"
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="/images/collections/b-cards/4.jpg" target="_blank"><img src="/images/collections/b-cards/thumbs/4.jpg" alt="b-cards-4"
                                             title="b-cards-4"></a></li>
-                                        <li><a data-fancybox="eng-floors" data-caption="" href="{{url('public')}}/images/collections/b-cards/5.jpg" target="_blank"><img src="{{url('public')}}/images/collections/b-cards/thumbs/5.jpg" alt="b-cards-5"
+                                        <li><a data-fancybox="eng-floors" data-caption="" href="/images/collections/b-cards/5.jpg" target="_blank"><img src="/images/collections/b-cards/thumbs/5.jpg" alt="b-cards-5"
                                             title="b-cards-5"></a></li>
                                     </ul>
                                 </div>
@@ -635,33 +587,33 @@
                                 <a class="place-order-button" href="javascript:;" data-toggle="modal" data-target="#PlaceOrderModal" data-name="LE-Coasters" data-modal-title="Exotic Wood Coasters">@lang('homepage.homepage_limit_sec_vmore')</a>
                                 <div class="limited-images-list">
                                     <ul class="category-images-list">
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/1.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/1.jpg" alt="coasters-1"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/1.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/1.jpg" alt="coasters-1"
                                             title="coasters-1"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/2.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/2.jpg" alt="coasters-2"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/2.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/2.jpg" alt="coasters-2"
                                             title="coasters-2"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/3.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/3.jpg" alt="coasters-3"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/3.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/3.jpg" alt="coasters-3"
                                             title="coasters-3"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/4.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/4.jpg" alt="coasters-4"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/4.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/4.jpg" alt="coasters-4"
                                             title="coasters-4"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/5.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/5.jpg" alt="coasters-5"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/5.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/5.jpg" alt="coasters-5"
                                             title="coasters-5"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/6.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/6.jpg" alt="coasters-6"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/6.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/6.jpg" alt="coasters-6"
                                             title="coasters-6"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/7.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/7.jpg" alt="coasters-7"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/7.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/7.jpg" alt="coasters-7"
                                             title="coasters-7"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/8.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/8.jpg" alt="coasters-8"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/8.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/8.jpg" alt="coasters-8"
                                             title="coasters-8"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/9.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/9.jpg" alt="coasters-9"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/9.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/9.jpg" alt="coasters-9"
                                             title="coasters-9"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/10.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/10.jpg"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/10.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/10.jpg"
                                             alt="coasters-10" title="coasters-10"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/11.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/11.jpg"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/11.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/11.jpg"
                                             alt="coasters-11" title="coasters-11"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/12.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/12.jpg"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/12.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/12.jpg"
                                             alt="coasters-12" title="coasters-12"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/13.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/13.jpg"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/13.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/13.jpg"
                                             alt="coasters-13" title="coasters-13"></a></li>
-                                        <li><a data-fancybox="coasters" data-caption="" href="{{url('public')}}/images/collections/coasters/14.jpg" target="_blank"><img src="{{url('public')}}/images/collections/coasters/thumbs/14.jpg"
+                                        <li><a data-fancybox="coasters" data-caption="" href="/images/collections/coasters/14.jpg" target="_blank"><img src="/images/collections/coasters/thumbs/14.jpg"
                                             alt="coasters-14" title="coasters-14"></a></li>
                                     </ul>
                                 </div>
@@ -719,7 +671,7 @@
             <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
             <div class="row section-mob-style">
                 <div class="col-sm-5 col-lg-12  image-section">
-                <img class="mb-2" src="{{url('public')}}/images/expert-hub/new.svg" alt="">
+                <img class="mb-2" src="/images/expert-hub/new.svg" alt="">
                 </div>
                 <div class="col-sm-7 col-lg-12 mt-3 ">
                 <h3>@lang('homepage.homepage_expert_hub_sec_1_h')</h3>
@@ -730,7 +682,7 @@
             <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
                 <div class="row section-mob-style">
                 <div class="col-sm-5 col-lg-12 image-section ">
-                    <img class="mb-2" src="{{url('public')}}/images/expert-hub/faq.svg" alt="">
+                    <img class="mb-2" src="/images/expert-hub/faq.svg" alt="">
                 </div>
                 <div class="col-sm-7 col-lg-12 mt-3 ">
                     <h3>@lang('homepage.homepage_expert_hub_sec_2_h')</h3>
@@ -741,7 +693,7 @@
                 <div class="mt-3 col-lg-4 col-md-12 col-sm-12">
                 <div class="row section-mob-style">
                         <div class="col-sm-5 col-lg-12 image-section ">
-                            <img class="mb-2" src="{{url('public')}}/images/expert-hub/articles.svg" alt="">
+                            <img class="mb-2" src="/images/expert-hub/articles.svg" alt="">
                         </div>
                         <div class="col-sm-7 col-lg-12 mt-3 ">
                             <h3>@lang('homepage.homepage_expert_hub_sec_3_h')</h3>
@@ -761,55 +713,55 @@
                 <ul class="owl-carousel owl-theme owl-theme three-items-carousel">
                     {{-- <li class="item">
                         <div class="video-background-homepage" id="video-one">
-                            <img src="{{url('public')}}/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
+                            <img src="/images/video-bg-2.jpg" title="Video Thumb" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-2"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage" id="video-two">
-                            <img src="{{url('public')}}/images/kitchens-video.jpg" alt="Video Thumb">
+                            <img src="/images/kitchens-video.jpg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-1"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li> --}}
                     <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/1.jpeg" alt="Video Thumb">
+                            <img src="/images/1.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-3"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/2.jpeg" alt="Video Thumb">
+                            <img src="/images/2.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-4"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/3.jpeg" alt="Video Thumb">
+                            <img src="/images/3.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-5"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/4.jpeg" alt="Video Thumb">
+                            <img src="/images/4.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-6"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/5.jpeg" alt="Video Thumb">
+                            <img src="/images/5.jpeg" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-7"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/6.png" alt="Video Thumb">
+                            <img src="/images/6.png" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-8"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li>
                     {{-- <li class="item">
                         <div class="video-background-homepage">
-                            <img src="{{url('public')}}/images/7.png" alt="Video Thumb">
+                            <img src="/images/7.png" alt="Video Thumb">
                             <a class="text-white homepage-play-video" href="javascript:;" id="homepage-play-video-9"> <i class="fas fa-play-circle fa-5x"></i></a>
                         </div>
                     </li> --}}
@@ -894,11 +846,11 @@
         </div>
     </section>
     <section class="about-us-description" id="homepage-aboutus-section">
-        <img id="homepage-about-artistic-touch" src="{{url('public')}}/images/wood-big-half.png" alt="wood-big-half">
+        <img id="homepage-about-artistic-touch" src="/images/wood-big-half.png" alt="wood-big-half">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>@lang('homepage.homepage_about_us_sec_h')<span><img height="50" src="{{url('public')}}/images/logo-black.png" alt="The Wood Court Logo" title="The Wood Court Logo"></span></h2>
+                    <h2>@lang('homepage.homepage_about_us_sec_h')<span><img height="50" src="/images/logo-black.png" alt="The Wood Court Logo" title="The Wood Court Logo"></span></h2>
                     <p>@lang('homepage.homepage_about_us_sec_p_1')
                     </p>
                     <p class="mb-3">@lang('homepage.homepage_about_us_sec_p_2')
@@ -906,7 +858,7 @@
                     <a href="{{route('about')}}" class="icon-button d-lg-inline d-block text-center mx-auto" dir="ltr"><i class="fas fa-star"></i>@lang('homepage.homepage_about_us_sec_btn')</a>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img class="we-are-the-wood-court-image w-100 h-auto" src="{{url('public')}}/images/about-home.jpg" alt="About the Wood Court">
+                    <img class="we-are-the-wood-court-image w-100 h-auto" src="/images/about-home.jpg" alt="About the Wood Court">
                 </div>
             </div>
         </div>
@@ -923,7 +875,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img src="{{url('public')}}/images/testemonials/nermeen-farouk.jpg" alt="Nermeen Farouk Gamea">
+                                <img src="/images/testemonials/nermeen-farouk.jpg" alt="Nermeen Farouk Gamea">
                                 <h4>Nermeen Farouk Gamea</h4>
                                 <p><b>This a company you can trust</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -935,7 +887,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mostafa-morsy.jpg" alt="Mostafa Morsy">
+                                <img class="user-image" src="/images/testemonials/mostafa-morsy.jpg" alt="Mostafa Morsy">
                                 <h4 class="user-name">Mostafa Morsy</h4>
                                 <p><b>Excellent</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -946,7 +898,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/nour-el-hoda-moghazy.jpg" alt="Nour El Hoda Moghazy">
+                                <img class="user-image" src="/images/testemonials/nour-el-hoda-moghazy.jpg" alt="Nour El Hoda Moghazy">
                                 <h4 class="user-name">Nour El Hoda Moghazy</h4>
                                 <p><b>Thank You!</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -960,7 +912,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-yassin.jpg" alt="Mahmoud Yassin">
+                                <img class="user-image" src="/images/testemonials/mahmoud-yassin.jpg" alt="Mahmoud Yassin">
                                 <h4 class="user-name">Mahmoud Yassin</h4>
                                 <p><b>Highly recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -972,7 +924,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img src="{{url('public')}}/images/testemonials/ahmad-elsaeed.jpg" alt="Ahamd Elsaeed">
+                                <img src="/images/testemonials/ahmad-elsaeed.jpg" alt="Ahamd Elsaeed">
                                 <h4>Ahmed Elsaeed</h4>
                                 <p><b>Understanding for customer requirements</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -984,7 +936,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-mahdy.jpg" alt="Mohamed Mahdy">
+                                <img class="user-image" src="/images/testemonials/mohamed-mahdy.jpg" alt="Mohamed Mahdy">
                                 <h4 class="user-name">Mohamed Mahdy</h4>
                                 <p><b>One of best companies that you can deal with</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -998,7 +950,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Hussein Mahmoud‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Hussein Mahmoud‎‏">
                                 <h4 class="user-name">‏‎Hussein Mahmoud‎‏</h4>
                                 <p><b>Highly Recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1009,7 +961,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-sheesh.jpg" alt="Mohamed Sheesh">
+                                <img class="user-image" src="/images/testemonials/mohamed-sheesh.jpg" alt="Mohamed Sheesh">
                                 <h4 class="user-name">Mohamed Sheesh</h4>
                                 <p><b>Dealing with The Wood Court has been the only bright</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1021,7 +973,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/aly-albadrawy.jpg" alt="Aly El Badrawy">
+                                <img class="user-image" src="/images/testemonials/aly-albadrawy.jpg" alt="Aly El Badrawy">
                                 <h4 class="user-name">Aly El Badrawy</h4>
                                 <p><b>Strongly recommended</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1034,7 +986,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/amira-khidr.jpg" alt="Amira Khidr">
+                                <img class="user-image" src="/images/testemonials/amira-khidr.jpg" alt="Amira Khidr">
                                 <h4 class="user-name">Amira Khidr</h4>
                                 <p><b>اضافة حقيقة و جميلة للديكور في مصر</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1074,7 +1026,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img src="{{url('public')}}/images/testemonials/hala-aziz.jpg" alt="Hala-Aziz">
+                                <img src="/images/testemonials/hala-aziz.jpg" alt="Hala-Aziz">
                                 <h4>Hala Aziz</h4>
                                 <p><b>شركه محترمه و اتشرفت بالتعامل معاكم</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1086,7 +1038,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
+                                <img class="user-image" src="/images/testemonials/ashraf-esmail.jpg" alt="ashraf-esmail">
                                 <h4 class="user-name">Ashraf Esmail</h4>
                                 <p><b>The Best Wooden Floors Ever</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1097,7 +1049,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mahmoud-basyouny.jpg" alt="Mahmoud Bassuony">
+                                <img class="user-image" src="/images/testemonials/mahmoud-basyouny.jpg" alt="Mahmoud Bassuony">
                                 <h4 class="user-name">Mahmoud Bassuony</h4>
                                 <p><b>افضل شركة في مصر بتعمل ارضيات باركيه وسلالم</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1113,7 +1065,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/heba-mahfoz.jpg" alt="Heba Mahfoz">
+                                <img class="user-image" src="/images/testemonials/heba-mahfoz.jpg" alt="Heba Mahfoz">
                                 <h4>Heba Mahfoz</h4>
                                 <p><b>منتج جميل و فاخر</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1126,7 +1078,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Ahmed Haikal‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Ahmed Haikal‎‏">
                                 <h4 class="user-name">‏‎Ahmed Haikal‎‏</h4>
                                 <p><b>High Quality</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1138,7 +1090,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-hamdy.jpg" alt="Mohamed Hamdy">
+                                <img class="user-image" src="/images/testemonials/mohamed-hamdy.jpg" alt="Mohamed Hamdy">
                                 <h4 class="user-name">Mahmamed Hamdy</h4>
                                 <p><b>Thanks Wood Court </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1154,7 +1106,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/shreif-elmasry.jpg" alt="Sherif Elmasry">
+                                <img class="user-image" src="/images/testemonials/shreif-elmasry.jpg" alt="Sherif Elmasry">
                                 <h4>Shreif ElMasry</h4>
                                 <p><b>Thanks </b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1166,7 +1118,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/amany-fawzy.jpg" alt="Amany Fawzy">
+                                <img class="user-image" src="/images/testemonials/amany-fawzy.jpg" alt="Amany Fawzy">
                                 <h4 class="user-name">Amany Fawzy</h4>
                                 <p><b>It was great</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1177,7 +1129,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/ahmed-el-ashmawy.jpg" alt="Ahmed El Ashmawy">
+                                <img class="user-image" src="/images/testemonials/ahmed-el-ashmawy.jpg" alt="Ahmed El Ashmawy">
                                 <h4 class="user-name">Ahmed El Ashmawy</h4>
                                 <p><b>Special thanks</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1190,7 +1142,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/omar-badr.jpg" alt="Mai Refaat">
+                                <img class="user-image" src="/images/testemonials/omar-badr.jpg" alt="Mai Refaat">
                                 <h4>Omar Badr</h4>
                                 <p><b>The Product Was Great</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1200,7 +1152,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
+                                <img class="user-image" src="/images/testemonials/ehab-doss.jpg" alt="‏‎Ehab Doss">
                                 <h4 class="user-name">‏‎Ehab Doss‎‏</h4>
                                 <p><b>من اكثر الشركات احتراما للعميل</b><br>
                                     <i class="fas fa-quote-right color-brand"></i>
@@ -1213,7 +1165,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Ahmed Raslan‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Ahmed Raslan‎‏">
                                 <h4 class="user-name">‏‎Ahmed Raslan‎‏</h4>
                                 <p><b>مستوى راقى</b><br><i class="fas fa-quote-right color-brand"></i>
                                     مستوى راقى من الأخشاب و الحرفية فى التنفيذ و التعامل...شكراً مهندس أيمن زهران و المهندسين القائمين على إدارة المصنع و المعرض
@@ -1225,7 +1177,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
+                                <img class="user-image" src="/images/user.png" alt="‏‎Tahra El Semary‎‏‎‏">
                                 <h4>‏‎Tahra El Semary‎‏</h4>
                                 <p><b>احسن حد ممكن تتعامل معاه</b><br><i class="fas fa-quote-right color-brand"></i>
                                     بجد احسن حد ممكن تتعامل معاه مهندس ايمن فاهم و مهاود و طلعت عينه في إختيار الالوان محترمين جدا و ملتزمين في المواعيد
@@ -1235,7 +1187,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
+                                <img class="user-image" src="/images/testemonials/mohamed-abo-hendi.jpg" alt="Mohamed Abo Hendi‎‏">
                                 <h4 class="user-name">Mohamed Abo Hendi</h4>
                                 <p><b>Professional and accurate timing </b><br><i class="fas fa-quote-right color-brand"></i>
                                     Professional and accurate timing , reliable and handing over without any comments.
@@ -1245,7 +1197,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
+                                <img class="user-image" src="/images/testemonials/mohamed-el-alfy.jpg" alt="Mohamed El Alfy">
                                 <h4 class="user-name">Mohamed El Alfy</h4>
                                 <p><b>Perfect Quality</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Perfect follow up perfect timing perfect quality to sum up this is the place to go, well done wood court
@@ -1257,7 +1209,7 @@
                     <div class="row slide">
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
+                                <img class="user-image" src="/images/testemonials/rafik-makar.jpg" alt="Rafik Makar">
                                 <h4>Rafik Makar</h4>
                                 <p><b>Thanks Woodcourt</b><br><i class="fas fa-quote-right color-brand"></i>
                                     Thanks Woodcourt for the excellent quality of products and professional installation. Well done</p>
@@ -1266,7 +1218,7 @@
                         </div>
                         <div class="col-lg-4 col-6">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/rehab-nabil.jpg" alt="‏‎Rehab Nabil‎‏">
+                                <img class="user-image" src="/images/testemonials/rehab-nabil.jpg" alt="‏‎Rehab Nabil‎‏">
                                 <h4 class="user-name">‏‎Rehab Nabil‎‏</h4>
                                 <p><b>شركه محترمه</b><br><i class="fas fa-quote-right color-brand"></i>
                                     شركه محترمه وبتفي بوعودها وأمانه واهتمام بالعميل ومتابعه رائعه..بالتوفيق يارب
@@ -1276,7 +1228,7 @@
                         </div>
                         <div class="col-lg-4 col-12 d-none d-lg-block">
                             <div class="single-testemonials-card">
-                                <img class="user-image" src="{{url('public')}}/images/testemonials/dina-ismail-mahmoud.jpg" alt="‏‎Tahra El Semary‎‏‎‏">
+                                <img class="user-image" src="/images/testemonials/dina-ismail-mahmoud.jpg" alt="‏‎Tahra El Semary‎‏‎‏">
                                 <h4>Dina Ismail Mahmoud</h4>
                                 <p><b>مبسوطة جدا من التعامل</b><br><i class="fas fa-quote-right color-brand"></i>
                                     مبسوطة جدا من التعامل مع الشركة لتاني مرة.
@@ -1302,109 +1254,109 @@
                         <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
+                                    <a href="javascript:;"><img src="/images/partners/dip-n-dip.jpeg" alt="Dip & Dip"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
+                                    <a href="javascript:;"><img src="/images/partners/holiday-inn.png" alt="Holiday Inn"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/nbe.png" alt="National Bank of Egypt"></a>
+                                    <a href="javascript:;"><img src="/images/partners/nbe.png" alt="National Bank of Egypt"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/iwan.png" alt="IWAN"></a>
+                                    <a href="javascript:;"><img src="/images/partners/iwan.png" alt="IWAN"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/arabcont.png" alt="arabcont"></a>
+                                    <a href="javascript:;"><img src="/images/partners/arabcont.png" alt="arabcont"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cook-club.png" alt="Cooks Club"></a>
+                                    <a href="javascript:;"><img src="/images/partners/cook-club.png" alt="Cooks Club"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/amer.png" alt="Amer Group"></a>
+                                    <a href="javascript:;"><img src="/images/partners/amer.png" alt="Amer Group"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/four-seasons.png" alt="Four Seasons"></a>
+                                    <a href="javascript:;"><img src="/images/partners/four-seasons.png" alt="Four Seasons"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
+                                    <a href="javascript:;"><img src="/images/partners/hassan-allam.png" alt="Hassan Allam"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/hilton.png" alt="Hilton"></a>
+                                    <a href="javascript:;"><img src="/images/partners/hilton.png" alt="Hilton"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/sura.jpg" alt="Sura"></a>
+                                    <a href="javascript:;"><img src="/images/partners/sura.jpg" alt="Sura"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/emmar.png" alt="EMMAR"></a>
+                                    <a href="javascript:;"><img src="/images/partners/emmar.png" alt="EMMAR"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/khamayl.png" alt="Khamayl"></a>
+                                    <a href="javascript:;"><img src="/images/partners/khamayl.png" alt="Khamayl"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
+                                    <a href="javascript:;"><img src="/images/partners/profit-chouex.png" alt="Profit Chouex"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/siac.png" alt="Siac"></a>
+                                    <a href="javascript:;"><img src="/images/partners/siac.png" alt="Siac"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/cib.png" alt="CIB"></a>
+                                    <a href="javascript:;"><img src="/images/partners/cib.png" alt="CIB"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/sheraton.png" alt="Sheraton"></a>
+                                    <a href="javascript:;"><img src="/images/partners/sheraton.png" alt="Sheraton"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/arena.png" alt="Arena"></a>
+                                    <a href="javascript:;"><img src="/images/partners/arena.png" alt="Arena"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/rixos.png" alt="Rixos"></a>
+                                    <a href="javascript:;"><img src="/images/partners/rixos.png" alt="Rixos"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mazloum.png" alt="Mazloum"></a>
+                                    <a href="javascript:;"><img src="/images/partners/mazloum.png" alt="Mazloum"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-4">
                                 <div class="client-card">
-                                    <a href="javascript:;"><img src="{{url('public')}}/images/partners/mobica.png" alt="Mobica"></a>
+                                    <a href="javascript:;"><img src="/images/partners/mobica.png" alt="Mobica"></a>
                                 </div>
                             </div>
                         </div>

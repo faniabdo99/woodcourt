@@ -8,21 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- App CSS -->
-    <link rel="stylesheet" href="{{url('public')}}/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{url('public')}}/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="{{url('public')}}/css/basic.min.css">
-    <link rel="stylesheet" href="{{url('public')}}/css/bootstrap-tagsinput.css">
-    <link rel="stylesheet" href="{{url('public')}}/css/dropzone.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/basic.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="/css/dropzone.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
     @if(strpos(url()->current(), 'admin'))
-      <link rel="stylesheet" type="text/css" href="{{url('public')}}/datatables/datatables.min.css" >
+      <link rel="stylesheet" type="text/css" href="/datatables/datatables.min.css">
     @endif
-    <link rel="stylesheet" href="{{url('public')}}/css/app.css?v=0.3">
-    <link rel="stylesheet" href="{{url('public')}}/css/flaticon.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/flaticon.css">
     @if(Route::currentRouteName() == 'expert-hub')
-      <link rel="stylesheet" href="{{url('public')}}/font/flaticon.css">
+      <link rel="stylesheet" href="/font/flaticon.css">
     @endif
-    <link rel="shortcut icon" href="{{url('public')}}/images/favicon.png" />
+    <link rel="shortcut icon" href="/images/favicon.png"/>
     <title>The Wood Court - {{$PageTitle ?? 'Pergolas, Floor ... and More'}}</title>
     <meta name="description" content="{{$Description ?? 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams'}}" >
     <meta name="keywords" content="The Wood Court, the woodcourt, woodcourt, hardwood flooring, pergolas">
@@ -31,7 +31,7 @@
     <meta property="og:title" content="The Wood Court - {{$PageTitle ?? ''}}" >
     <meta property="og:type" content="{{$ogType ?? 'Website'}}" >
     <meta property="og:url" content="{{url()->current()}}" >
-    <meta property="og:image" content="{{$ogImage ?? url('public/images/the-wood-court-og.jpg')}}">
+    <meta property="og:image" content="{{$ogImage ?? asset('images/the-wood-court-og.jpg')}}">
     <meta property="og:description" content="{{$Description ?? 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams'}}" >
     <meta property="og:site_name" content="The Wood Court" >
     <meta name="application-name" content="The Wood Court">
