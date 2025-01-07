@@ -20,21 +20,11 @@
                             <h3>@lang('contact.contact_hero_sec_h')</h3>
                             <p>@lang('contact.contact_hero_sec_sidebar_p')</p>
                             <ul>
-                                <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/"
-                                        target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a>
-                                </li>
-                                <li class="instagram-li"><a href="https://www.instagram.com/thewoodcourt/"
-                                        target="_blank "><i class="fab fa-instagram"></i> <span>@thewoodcourt</span></a>
-                                </li>
-                                <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111"
-                                        target="_blank "><i class="fab fa-whatsapp"></i> <span>0111 757 1111</span></a>
-                                </li>
-                                <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i
-                                            class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
-                                <li class="youtube-li"><a
-                                        href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ"
-                                        target="_blank "><i class="fab fa-youtube"></i> <span>The Wood Court</span></a>
-                                </li>
+                                <li class="facebook-li"><a href="https://www.facebook.com/thewoodcourt/" target="_blank "><i class="fab fa-facebook"></i> <span>@thewoodcourt</span></a></li>
+                                <li class="instagram-li"><a href="https://www.instagram.com/thewoodcourt/" target="_blank "><i class="fab fa-instagram"></i> <span>@thewoodcourt</span></a></li>
+                                <li class="whatsapp-li"><a href="https://api.whatsapp.com/send?phone=201117571111" target="_blank "><i class="fab fa-whatsapp"></i> <span>+20 111 757 1111</span></a></li>
+                                <li class="email-li"><a href="mailto:info@thewoodcourt.com" target="_blank "><i class="fas fa-envelope"></i> <span>info@thewoodcourt.com</span></a></li>
+                                <li class="youtube-li"><a href="https://www.youtube.com/channel/UCBNdQKYldyJh3Nx5WyV0jtQ" target="_blank "><i class="fab fa-youtube"></i> <span>The Wood Court</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -59,11 +49,18 @@
                             <i class="fas fa-phone"></i>
                             <span>
                                 <span><b>@lang('contact.contact_location_title_phone_1') </b>
-                                    <a href="https://api.whatsapp.com/send?phone=201117571111">0111 757 1111</a>
-                                    <a href="https://api.whatsapp.com/send?phone=201114641111">0111 464 1111</a>
+                                    <a href="https://api.whatsapp.com/send?phone=201117571111">+20 111 757 1111</a>
+                                    <a href="https://api.whatsapp.com/send?phone=201114641111">+20 111 464 1111</a>
                                     </span>
                                 <span><b>@lang('contact.contact_location_title_phone_2') </b><a
-                                        href="https://api.whatsapp.com/send?phone=201159111179">0115 911 1179</a></span>
+                                        href="https://api.whatsapp.com/send?phone=201159111179">+20 115 911 1179</a></span>
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>
+                                <b>Working Hours:</b><br>
+                                @lang('navbar.navbar_clock')
                             </span>
                         </li>
                         <li>

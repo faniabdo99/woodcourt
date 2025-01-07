@@ -49,6 +49,8 @@
                     <h5>@lang('footer.footer_pay_h')</h5>
                     <div class="footer-payment-methods">
                         <img src="{{ asset('images/payment-images/qnb.png') }}" alt="QNB">
+                        <img src="{{ asset('images/payment-images/cib.png') }}" alt="CIB">
+                        <img src="{{ asset('images/payment-images/nbe.png') }}" alt="Al-Ahly">
                         <img src="{{ asset('images/payment-images/valu.png') }}" alt="ValU">
                         <img src="{{ asset('images/payment-images/belcash.png') }}" alt="BelCash Egypt">
                         <p class="mb-0">@lang('footer.footer_pay_credit')</p>
@@ -57,6 +59,35 @@
             </div>
         </div>
 </footer>
+    <a href="https://api.whatsapp.com/send?phone=201117571111" class="whatsapp_float" target="_blank">
+        <i class="fab fa-whatsapp whatsapp-icon"></i>
+    </a>
+    <style>
+        .whatsapp_float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            left: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0px 0px 10px #999;
+            z-index: 100;
+        }
+        .whatsapp_float:hover {
+            transition: all 0.3s ease-in-out;
+            background-color: #1e9e57;
+            color: #FFF;
+        }
+
+        .whatsapp-icon {
+            margin-top: 16px;
+        }
+    </style>
+
     <script src="dist/clipboard.min.js"></script>
 <script>
 function myFunction1() {

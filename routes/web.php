@@ -103,7 +103,27 @@ Route::get('vr-tour','PagesController@getVrTourPage')->name('vr-tour');
 //Languge Changing
 Route::get('lang/{locale}', 'PagesController@getSwitchlang')->name('switchLang');
 
+// Custom Urls
+Route::get('engineered', function(){
+  return redirect()->route('products', ['category','engineered-floors']);
+});
+Route::get('tiles', function(){
+  return redirect()->route('products', ['category','tiles']);
+});
+Route::get('stairs', function(){
+  return redirect()->route('products', ['category','stairs']);
+});
+Route::get('teak', function(){
+  return redirect()->route('products', ['category','teak-flooring']);
+});
+Route::get('pergolas', function(){
+  return redirect()->route('products', ['category','pergolas']);
+});
+Route::get('hdf', function(){
+  return redirect()->route('products', ['category','hdf-floors']);
+});
 //301 redirection
 Route::get('/{slug}' , 'ProductController@getRedirectProducts');
+
 
 
