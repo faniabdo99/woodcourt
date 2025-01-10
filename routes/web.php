@@ -122,6 +122,12 @@ Route::get('pergolas', function(){
 Route::get('hdf', function(){
   return redirect()->route('products', ['category','hdf-floors']);
 });
+Route::get('showroom', function(){
+  return redirect()->to('https://maps.app.goo.gl/ZxkzdVeVdna9fcWt9');
+});
+Route::get('factory', function(){
+  return redirect()->to('https://maps.app.goo.gl/A88vNWmt6Y8UXhwi7');
+});
 //301 redirection
 Route::get('/{slug}' , 'ProductController@getRedirectProducts');
 
