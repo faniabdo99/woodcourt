@@ -10,6 +10,6 @@ class Event extends Model implements Viewable{
     use HasFactory;
     use InteractsWithViews;
     public function getImageSrcAttribute(){
-      return url('storage/app/images/events').'/'.$this->image;
+      return url('storage/images/events').'/'.$this->image;
     }
 }

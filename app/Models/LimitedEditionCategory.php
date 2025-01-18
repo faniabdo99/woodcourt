@@ -9,6 +9,6 @@ class LimitedEditionCategory extends Model{
     use HasFactory;
     protected $guarded = [];
     public function getImagePathAttribute(){
-      return url('storage/app/limited').'/'.$this->image;
+      return url('storage/limited').'/'.$this->image;
     }
 }

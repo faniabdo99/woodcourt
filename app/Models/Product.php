@@ -24,11 +24,11 @@ class Product extends Model{
       return Str::limit($this->description , 40);
     }
     public function getThumbPathAttribute(){
-      return url('storage/app/products/small_thumb').'/'.$this->image;
+      return url('storage/products/small_thumb').'/'.$this->image;
       
     }
     public function getImagePathAttribute(){
-      return url('storage/app/products/original').'/'.$this->image;
+      return url('storage/products/original').'/'.$this->image;
     }
     public function Locale(){
         return $this->hasOne(Product_Locale::class , 'product_id');

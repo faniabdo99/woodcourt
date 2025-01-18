@@ -12,7 +12,7 @@ class Review extends Model{
         return $this->belongsTo(Product::class);
     }
     public function getSamllImageAttribute(){
-        return url('storage/app/products/small_thumb').'/'.$this->image;
+        return url('storage/products/small_thumb').'/'.$this->image;
     }
     public function getRateTextAttribute(){
         $RatesArray = [

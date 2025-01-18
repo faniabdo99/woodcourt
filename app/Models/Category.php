@@ -22,7 +22,7 @@ class Category extends Model{
       return Str::words($this->description , 10);
     }
     public function getThumbPathAttribute(){
-      return url('storage/app/categories').'/'.$this->image;
+      return url('storage/categories').'/'.$this->image;
     }
     public function getLocalTitleAttribute(){
         if(session()->get('locale') == 'ar'){

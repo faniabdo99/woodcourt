@@ -10,9 +10,9 @@ class ProductGallery extends Model{
     use HasFactory;
 
     public function getThumbPathAttribute(){
-      return url('storage/app/products_gallery/small_thumb').'/'.$this->image;
+      return url('storage/products_gallery/small_thumb').'/'.$this->image;
     }
     public function getImagePathAttribute(){
-      return url('storage/app/products_gallery/original').'/'.$this->image;
+      return url('storage/products_gallery/original').'/'.$this->image;
     }
 }
