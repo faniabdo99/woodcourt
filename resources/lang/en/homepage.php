@@ -20,8 +20,7 @@ return [
     'homepage_hero_sec_3_h' => 'Stairs',
     'homepage_hero_sec_3_desc' => 'All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.' ,
     'homepage_hero_sec_4_h' => 'Outdoor',
-    'homepage_hero_sec_4_desc' => 'Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new
-            designs.' ,
+    'homepage_hero_sec_4_desc' => 'Nowadays with quarantine we all realized the importance and value of our private outdoor spaces. Get the best out of your garden, balcony, backyard, and more. See our Pergolas & Outdoor flooring new designs.' ,
     'homepage_hero_sec_5_h' => 'Indoor',
     'homepage_hero_sec_5_desc' => 'All the natural engineered wood flooring & fiberboard (HDF) you will need in one place. Classic, Modern, Country, Vintage, Contemporary, and even custom designs.' ,
 
@@ -126,6 +125,15 @@ return [
     'homepage_testim_sec_rated_h' => 'Rated 4.8/5 Stars According to 125 Customers',
     'homepage_testim_sec_rated_btn' => 'View All Reviews',
     'homepage_our_clients_sec_h' => 'Our Clients',
-
+    'homepage_our_catalogs_sec_h' => 'Our Catalogs',
+    'homepage_our_catalogs_sec_p' => 'We have crafted a wide range of catalogs to help you choose the perfect flooring for your home or business. Our catalogs are designed to provide you with all the information you need to make an informed decision about your flooring needs.',
+    'homepage_our_catalogs_sec_buttons' => [
+        'Outdoor' => 'Outdoor',
+        'Tiles' => 'Tiles',
+        'Strips' => 'Strips',
+        'Stairs' => 'Stairs',
+        'Pergolas' => 'Pergolas',
+        'HDF Floors' => 'HDF Floors',
+    ]
 
 ];

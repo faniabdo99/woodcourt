@@ -1038,6 +1038,31 @@
             <a class="reviews-button" href="https://www.facebook.com/thewoodcourt/reviews/" target="_blank"><i class="fab fa-facebook"></i> @lang('homepage.homepage_testim_sec_rated_btn')</a>
         </div>
     </section>
+    <section class="vr-tour p-50">
+        <div class="container">
+            <h2 class="section-title mb-5">@lang('homepage.homepage_our_catalogs_sec_h')</h2>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 d-flex justify-content-center">
+                    <div class="welcome_docmed_info d-flex flex-column justify-content-around">
+                        <div class="text-center">
+                            <p>@lang('homepage.homepage_our_catalogs_sec_p')</p>
+                        </div>
+                        <br>
+                        <div class="row vr-btn-parent">
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-4 col-md-12 col-sm-12" dir="ltr" href="{{ asset('catalogs/outdoor.pdf') }}" download="Outdoor"><i class="fa fas fa-file-pdf"></i> @lang('homepage.homepage_our_catalogs_sec_buttons.Outdoor')</a>
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-4 col-md-12 col-sm-12" dir="ltr" href="{{ asset('catalogs/tiles.pdf') }}" download="Tiles"><i class="fa fas fa-file-pdf"></i> @lang('homepage.homepage_our_catalogs_sec_buttons.Tiles')</a>
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-4 col-md-12 col-sm-12" dir="ltr" href="{{ asset('catalogs/stripes.pdf') }}" download="Strips"><i class="fa fas fa-file-pdf"></i> @lang('homepage.homepage_our_catalogs_sec_buttons.Strips')</a>
+                        </div>
+                        <div class="row vr-btn-parent">
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-4 col-md-12 col-sm-12" dir="ltr" href="{{ asset('catalogs/stairs.pdf') }}" download="Stairs"><i class="fa fas fa-file-pdf"></i> @lang('homepage.homepage_our_catalogs_sec_buttons.Stairs')</a>
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-4 col-md-12 col-sm-12" dir="ltr" href="{{ asset('catalogs/pergolas.pdf') }}" download="Pergolas"><i class="fa fas fa-file-pdf"></i> @lang('homepage.homepage_our_catalogs_sec_buttons.Pergolas')</a>
+                            <a class="icon-button vr-btn text-center align-self-end vr-btn col-lg-4 col-md-12 col-sm-12" dir="ltr" href="{{ asset('catalogs/hdf.pdf') }}" download="HDF Floors"><i class="fa fas fa-file-pdf"></i> @lang('homepage.homepage_our_catalogs_sec_buttons.HDF Floors')</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="logo-parade" dir="@lang('settings.direction_default')">
         <div class="container-fluid">
             <div class="row">

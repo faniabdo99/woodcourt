@@ -117,6 +117,16 @@ return [
     'homepage_testim_sec_rated_h' => 'تم تقييمه 4.8 / 5 نجوم وفقاً لـ 125 عميلاً',
     'homepage_testim_sec_rated_btn' => 'عرض جميع المراجعات',
     'homepage_our_clients_sec_h' => 'عملائنا',
+    'homepage_our_catalogs_sec_h' => 'كتيباتنا',
+    'homepage_our_catalogs_sec_p' => 'لقد صممنا نطاقًا واسعًا من الكتيبات لمساعدتك في اختيار الأرضيات المثالية لمنزلك أو عملك. تم تصميم الكتيبات لتوفير كل المعلومات التي تحتاجها لإتخاذ قرار مستنير حول احتياجات الأرضيات الخاصة بك.',
+    'homepage_our_catalogs_sec_buttons' => [
+        'Outdoor' => 'الخارجية',
+        'Tiles' => 'البلاط',
+        'Strips' => 'الشرائح',
+        'Stairs' => 'السلالم',
+        'Pergolas' => 'البرجولات',
+        'HDF Floors' => 'الأرضيات HDF',
+    ]
 
 
 ];
