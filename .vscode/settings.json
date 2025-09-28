@@ -1,0 +1,8 @@
+{
+    "i18n-ally.localesPaths": [
+        "resources/lang",
+        "resources/views/admin/messages",
+        "public/js/tinymce/langs"
+    ],
+    "i18n-ally.keystyle": "nested"
+}
