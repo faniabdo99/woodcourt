@@ -112,7 +112,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                             <a href="{{route('products' , ['category' , 'engineered-floors'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/wood-flooring.jpg') no-repeat center center;background-size:cover;">
+                            <div class="homepage-card" style="background:url('storage/categories/wood-flooring.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                     Engineered Floors
                                 </div>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'tiles'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/tiles.jpg') no-repeat center center;background-size:cover;">
+                            <div class="homepage-card" style="background:url('storage/categories/tiles.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                     Tiles
                                 </div>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'stairs'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/stairs.jpg') no-repeat center center;background-size:cover;">
+                            <div class="homepage-card" style="background:url('storage/categories/stairs.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                 Stairs
                                 </div>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'teak-flooring'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/teak-flooring.jpg') no-repeat center center;background-size:cover;">
+                            <div class="homepage-card" style="background:url('storage/categories/teak-flooring.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                 Teak Flooring
                                 </div>
@@ -148,7 +148,7 @@
                     </div>
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'pergolas'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/pergolas.jpg') no-repeat center center;background-size:cover;">
+                            <div class="homepage-card" style="background:url('storage/categories/pergolas.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                 Pergolas
                                 </div>
@@ -157,7 +157,7 @@
                     </div>
                     <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                         <a href="{{route('products' , ['category' , 'hdf-floors'])}}">
-                            <div class="homepage-card" style="background:url('storage/app/categories/hdf-floors.jpg') no-repeat center center;background-size:cover;">
+                            <div class="homepage-card" style="background:url('storage/categories/hdf-floors.jpg') no-repeat center center;background-size:cover;">
                                 <div class="dark-overlap">
                                     HDF Floors
                                 </div>
