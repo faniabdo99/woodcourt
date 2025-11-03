@@ -25,7 +25,7 @@
     </div>
     <nav class="navbar navbar-expand-lg"  dir="@lang('settings.direction_default')">
         <a class="navbar-brand " href="{{route('home')}}">
-            <img src="/images/logo-blue.png" alt="The Wood Court Logo">
+            <img src="/images/logo.png" alt="The Wood Court Logo">
         </a>
         @if(session()->get('locale') == 'ar')
         <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

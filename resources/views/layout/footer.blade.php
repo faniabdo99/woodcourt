@@ -2,7 +2,7 @@
     <div class="container-fluid dark-overlap">
         <div class="row">
             <div class="col-lg-3 col-12 footer-info">
-                <img class="footer-logo" src="{{ asset('images/logo-white.png') }}" alt="The Wood Court Logo" title="The Wood Court" />
+                <img class="footer-logo mb-2" src="{{ asset('images/logo/logo-white.png') }}" alt="The Wood Court Logo" title="The Wood Court" />
                 <p>@lang('footer.footer_desc')
                 </p>
                 <ul>

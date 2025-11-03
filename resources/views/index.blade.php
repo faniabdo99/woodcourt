@@ -11,8 +11,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="pt-5 content-section col-lg-4 col-12" dir="@lang('settings.direction')">
-                        <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="/images/logo-black.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
-                            src="/images/logo-white.png" alt="The Wood Court Logo"></h2>
+                        <h2>@lang('homepage.homepage_weclome') <br> <img class="d-lg-inline d-none w-auto" height="80" src="/images/logo/logo.png" alt="The Wood Court Logo"> <img class="d-lg-none d-inline w-auto" height="80"
+                            src="/images/logo/logo-white.png" alt="The Wood Court Logo"></h2>
                         <p class="description mb-5">@lang('homepage.homepage_hero_sec_1_desc').</p>
                         <a class="icon-button" dir="ltr" href="#homepage-categories"> <i class="fas fa-star"></i>@lang('homepage.homepage_hero_sec_btn_h')</a>
                         <a class="icon-button" dir="ltr" href="{{ route('expert-hub') }}"> <i class="fas fa-graduation-cap"> &nbsp;</i>@lang('homepage.homepage_expert_hub_sec_h')</a>
@@ -28,8 +28,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo/logo.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_2_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_2_desc')</p>
@@ -47,8 +47,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo/logo.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_3_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_3_desc')</p>
@@ -66,8 +66,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo/logo.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_4_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_4_desc')</p>
@@ -84,8 +84,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="content-section col-lg-4 col-12">
-                        <img class="logo-img d-lg-block d-none" src="/images/logo-black.png" title="The Wood Court Logo" alt="The Wood Court Logo">
-                        <img class="logo-img d-lg-none d-block" src="/images/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-block d-none" src="/images/logo/logo.png" title="The Wood Court Logo" alt="The Wood Court Logo">
+                        <img class="logo-img d-lg-none d-block" src="/images/logo/logo-white.png" title="The Wood Court Logo" alt="The Wood Court Logo">
                         <p class="p-category">@lang('homepage.homepage_hero_sec_2_3_4_p')</p>
                         <h2>@lang('homepage.homepage_hero_sec_5_h')</h2>
                         <p class="description mb-5" dir="@lang('settings.direction')">@lang('homepage.homepage_hero_sec_5_desc')</p>

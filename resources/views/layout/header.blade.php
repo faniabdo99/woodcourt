@@ -22,7 +22,7 @@
     @if(Route::currentRouteName() == 'expert-hub')
       <link rel="stylesheet" href="/font/flaticon.css">
     @endif
-    <link rel="shortcut icon" href="/images/favicon.png"/>
+    <link rel="shortcut icon" href="/images/logo/favicon.ico"/>
     <title>The Wood Court - {{$PageTitle ?? 'Pergolas, Floor ... and More'}}</title>
     <meta name="description" content="{{$Description ?? 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams'}}" >
     <meta name="keywords" content="The Wood Court, the woodcourt, woodcourt, hardwood flooring, pergolas">
@@ -35,7 +35,7 @@
     <meta property="og:description" content="{{$Description ?? 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams'}}" >
     <meta property="og:site_name" content="The Wood Court" >
     <meta name="application-name" content="The Wood Court">
-    <meta name="msapplication-TileColor" content="#0D8287">
+    <meta name="msapplication-TileColor" content="#494E37">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RND47459CZ"></script>
     <script>

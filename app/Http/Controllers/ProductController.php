@@ -293,6 +293,9 @@ class ProductController extends Controller{
         } else {
             if ($isFiltered == 'category') {
                 $TheCategory = Category::where('slug', $Filter)->first();
+                if (!$TheCategory) {
+                    abort(404);
+                }
                 if ($TheCategory->type == 'sub') {
                     $AllProducts = Product::where('category_id', $TheCategory->id)->latest()->get();
                 } else {
@@ -323,5 +326,5 @@ class ProductController extends Controller{
         $Reviews = Review::where('active', 1)->get();
         return view('products.single', compact('TheProduct', 'LatestProducts', 'Previous', 'Next' , 'Reviews'));
     }
-   
+
 }

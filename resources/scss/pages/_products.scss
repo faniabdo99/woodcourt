@@ -350,7 +350,7 @@
         position: absolute;
         right: 41px;
         top: -18px;
-        background-color: #0D8287;
+        background-color: $brand;
         padding: 9px;
         border-radius: 4px;
         color: white;
@@ -365,7 +365,7 @@
         overflow: auto;
     }
     .stars-box{
-        background-color: #0D8287;
+        background-color: $brand;
         padding: 50px 31px;
         border-radius: 4px;
         color: white;
@@ -390,7 +390,7 @@
             font-size: 31px;
         }
         button[type=submit]{
-            background-color: #0D8287;
+            background-color: $brand;
             border: 0;
             padding: 10px 35px;
             color: white;
