@@ -8,7 +8,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-12">
                     <div class="d-flex justify-content-center mt-4">
-                            <h1 class="static-h1"><img class="d-lg-inline mr-3 w-auto" height="80" src="/images/logo.png" alt="The Wood Court Logo">@lang('vr-tour.vr_title')</h1>
+                            <h1 class="static-h1"><img class="d-lg-inline mr-3 w-auto" height="80" src="/images/logo/logo.png" alt="The Wood Court Logo">@lang('vr-tour.vr_title')</h1>
                     </div>
                 </div>
             </div>

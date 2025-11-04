@@ -643,7 +643,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>@lang('homepage.homepage_about_us_sec_h')<span><img height="50" src="/images/logo-black.png" alt="The Wood Court Logo" title="The Wood Court Logo"></span></h2>
+                    <h2>@lang('homepage.homepage_about_us_sec_h')<span><img height="50" src="/images/logo/logo.png" alt="The Wood Court Logo" title="The Wood Court Logo"></span></h2>
                     <p>@lang('homepage.homepage_about_us_sec_p_1')
                     </p>
                     <p class="mb-3">@lang('homepage.homepage_about_us_sec_p_2')

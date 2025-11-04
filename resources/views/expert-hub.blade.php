@@ -263,7 +263,7 @@
                     "name": "The Wood Court",
                     "logo": {
                         "@type": "ImageObject",
-                        "url": "{{url('/public/images/logo-blue.png')}}"
+                        "url": "{{url('/public/images/logo/logo.png')}}"
                     }
                 },
                 "url": "{{url()->current()}}",

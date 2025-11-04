@@ -31,7 +31,7 @@
     <meta property="og:title" content="The Wood Court - {{$PageTitle ?? ''}}" >
     <meta property="og:type" content="{{$ogType ?? 'Website'}}" >
     <meta property="og:url" content="{{url()->current()}}" >
-    <meta property="og:image" content="{{$ogImage ?? asset('images/the-wood-court-og.jpg')}}">
+    <meta property="og:image" content="{{$ogImage ?? asset('images/logo/og.png')}}">
     <meta property="og:description" content="{{$Description ?? 'The Wood Court creates rich & luxurious floors, pergolas, and more. We use a combination of innovative designs, professional manufacturing teams'}}" >
     <meta property="og:site_name" content="The Wood Court" >
     <meta name="application-name" content="The Wood Court">

@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <h2>@lang('about.about_main_con_h') <span><img height="50" src="/images/logo.png"></span></h2>
+                    <h2>@lang('about.about_main_con_h') <span><img height="50" src="/images/logo/logo.png"></span></h2>
                     <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_1') </p>
                     <p class="mb-3 @lang('settings.text_align')" dir="@lang('settings.direction')">@lang('about.about_main_con_p_2')
                     </p>
